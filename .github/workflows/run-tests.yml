@@ -1,6 +1,8 @@
 name: Run tests
 on:
   push:
+    branches:
+      - main
     paths-ignore:
       - '**.md'
       - '**.json'
@@ -31,8 +33,8 @@ jobs:
       run: pip install -r requirements.txt
     - name: Download vnu.jar (The Nu Html Checker)
       run: wget -q -O vnu.jar https://github.com/validator/validator/releases/download/latest/vnu.jar
-    - name: Test 404
-      run: python default.py -t 2 -r -i sites.json -o data/${{ steps.date.outputs.date }}-02-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test 404
+    #   run: python default.py -t 2 -r -i sites.json -o data/${{ steps.date.outputs.date }}-02-${{github.run_id}}-${{github.run_number}}.json
     - name: Test HTML Validation
       run: python default.py -t 6 -r -i sites.json -o data/${{ steps.date.outputs.date }}-06-${{github.run_id}}-${{github.run_number}}.json
     - name: Test CSS Validation
