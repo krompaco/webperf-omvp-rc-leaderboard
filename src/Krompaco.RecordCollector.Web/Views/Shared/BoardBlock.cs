@@ -1,10 +1,9 @@
 ﻿using System.Globalization;
+using System.Net;
 using System.Text;
-using System.Text.Json;
 using System.Text.Json.Serialization;
 using Krompaco.RecordCollector.Web.Extensions;
 using Markdig;
-using Microsoft.CodeAnalysis;
 
 namespace Krompaco.RecordCollector.Web.Views.Shared
 {
@@ -58,7 +57,7 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
 
         public static string GetSiteNameHtml(string input)
         {
-            return GetSiteName(input)
+            return WebUtility.HtmlEncode(GetSiteName(input))
                 .Replace(".", "&thinsp;.")
                 .Replace("/", "/&thinsp;");
         }
@@ -108,9 +107,8 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
                 .Build();
 
             return Markdown.ToHtml(md, pl)
-                .Replace("<li>", "<li class=\"mb-1 text-xs\">")
-                .Replace("<ul>", "<ul class=\"list-disc list-outside ml-4\">")
-                .Replace("<p>", "<p class=\"mt-3 text-xs\">")
+                .Replace("<li>", "<li class=\"text-xs\">")
+                .Replace("<ul>", "<ul class=\"list-disc list-outside ml-4 space-y-1\">")
                 .Replace("org.w3c.css.parser.analyzer.ParseException", "analyzer.ParseException")
                 .Replace("Look up", " Look up");
         }
@@ -133,12 +131,19 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
                     return;
                 }
 
-                var pageHtml = $"<h1 class=\"\">{GetSiteNameHtml(site.Url)}</h1>";
+                var siteResults = flatResults.Where(x => x.SiteId == site.Id).ToList();
 
-                foreach (var result in flatResults)
+                if (!siteResults.Any())
+                {
+                    continue;
+                }
+
+                var pageHtml = $"<p class=\"mt-4 font-medium text-lg\">Results collected {siteResults.First().Date:yyyy-MM-dd} from <a href=\"{WebUtility.HtmlEncode(site.Url)}\" class=\"link-primary outline-primary\">{WebUtility.HtmlEncode(site.Url)}</a></p><p class=\"inline-block mt-4 bg-orange-300 px-2 py-1 rounded-md\">{siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))}</p>";
+
+                foreach (var result in siteResults)
                 {
                     pageHtml +=
-                        $"<div class=\"mt-10\"><h2>Test {result.TypeOfTest}</h2><p class=\"font-bold text-lg\">Rating: {result.Rating.ToString("0.00", new CultureInfo("en-US"))}</p>{GetHtmlFromRating(result)}</div>";
+                        $"<div class=\"mt-10\"><h2 class=\"mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl\">{WebUtility.HtmlEncode(GetTypeOfTest(result.TypeOfTest))}</h2><p class=\"inline-block my-3 bg-orange-300 px-2 py-1 rounded-md\">{result.Rating.ToString("0.00", new CultureInfo("en-US"))}</p>{GetHtmlFromRating(result)}</div>";
                 }
 
                 var pageFileContent = @"{
