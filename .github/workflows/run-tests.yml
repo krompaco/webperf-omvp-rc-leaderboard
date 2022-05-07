@@ -38,8 +38,8 @@ jobs:
     #   run: python default.py -t 2 -r -i sites.json -o data/${{ steps.date.outputs.date }}-02-${{github.run_id}}-${{github.run_number}}.json
     - name: Test HTML Validation
       run: python default.py -t 6 -r -i sites.json -o data/${{ steps.date.outputs.date }}-06-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test CSS Validation
-      run: python default.py -t 7 -r -i sites.json -o data/${{ steps.date.outputs.date }}-07-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test CSS Validation
+    #  run: python default.py -t 7 -r -i sites.json -o data/${{ steps.date.outputs.date }}-07-${{github.run_id}}-${{github.run_number}}.json
     - name: Test Standard files
       run: python default.py -t 9 -r -i sites.json -o data/${{ steps.date.outputs.date }}-09-${{github.run_id}}-${{github.run_number}}.json
     - name: Test Performance (sitespeed.io docker)
