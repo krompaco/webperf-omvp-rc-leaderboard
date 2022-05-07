@@ -1,0 +1,19 @@
+[[redirects]]
+  from = "/links/"
+  to = "/pages/links/"
+  status = 301
+
+[[redirects]]
+  from = "/about/"
+  to = "/pages/about/"
+  status = 301
+
+[[redirects]]
+  from = "/feed/"
+  to = "/rss.xml"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self';"

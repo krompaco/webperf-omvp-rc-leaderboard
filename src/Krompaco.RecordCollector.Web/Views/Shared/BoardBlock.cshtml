@@ -1,0 +1,61 @@
+﻿@using System.Text.Json
+@using Krompaco.RecordCollector.Web.Extensions
+@using Krompaco.RecordCollector.Web.Views.Shared
+@inject IConfiguration Configuration
+
+@{
+    var path = this.Configuration.GetValue<string>("AppSettings:WebperfJsonDataRootPath");
+    var sitesPath = this.Configuration.GetValue<string>("AppSettings:WebperfSitesJsonFilePath");
+
+    if (!File.Exists(sitesPath))
+    {
+        return;
+    }
+
+    var exists = Directory.Exists(path);
+
+    if (!exists)
+    {
+        return;
+    }
+
+    var di = new DirectoryInfo(path);
+
+    var list = di.EnumerateFiles("*.json")
+        .OrderBy(x => x.Name)
+        .ToList();
+
+    if (!list.Any())
+    {
+        return;
+    }
+
+    var first = list.First().Name;
+    var filterBy = list.First().Name[..(first.Length > 7 ? 8 : first.Length)];
+
+    list = list.Where(x => x.Name.StartsWith(filterBy)).ToList();
+
+    var results = list.Select(x =>
+        JsonSerializer.Deserialize<BoardBlock.TestRoot>(File.ReadAllText(x.FullName))
+        ?? new BoardBlock.TestRoot()).ToList();
+
+    var siteRoot = JsonSerializer.Deserialize<BoardBlock.SiteRoot>(await File.ReadAllTextAsync(sitesPath)) ?? new BoardBlock.SiteRoot();
+
+    var flatResults = results.SelectMany(x => x.Tests).OrderBy(x => x.SiteId).ToList();
+
+    // Generate files
+    BoardBlock.CreateSitePages(siteRoot.Sites, flatResults, this.Configuration.GetAppSettingsContentRootPath());
+}
+
+@foreach (var result in flatResults)
+{
+    var site = siteRoot.Sites.FirstOrDefault(x => x.Id == result.SiteId);
+    <h2>@site?.Url @result.TypeOfTest</h2>
+
+    if (site != null)
+    {
+        <a href="/sites/@BoardBlock.GetFileName(site).Replace(".html", "/")">@Html.Raw(BoardBlock.GetSiteNameHtml(site.Url))</a>
+    }
+
+    <pre>@JsonSerializer.Serialize(result, new JsonSerializerOptions(JsonSerializerDefaults.Web) { WriteIndented = true })</pre>
+}

@@ -1,0 +1,38 @@
+﻿@using Krompaco.RecordCollector.Web.Extensions
+@using System.Globalization
+@model LayoutViewModel
+<!DOCTYPE html>
+<html lang="@Model.CurrentCulture?.Name">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@Model.Title</title>
+	
+	<link href="/dist/inter-italic-var.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous" />
+	<link href="/dist/inter-roman-var.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous" />
+	<link href="/dist/jetbrainsmono-regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous" />
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
+
+	@if (!string.IsNullOrWhiteSpace(Model.Robots))
+	{
+		<meta name="robots" content="@Model.Robots" />
+	}
+
+	<meta name="description" content="@Model.Description" />
+
+	@if (!string.IsNullOrWhiteSpace(Model.Keywords))
+	{
+		<meta name="keywords" content="@Model.Keywords" />
+	}
+
+	@await RenderSectionAsync("head", false)
+
+	<link href="/dist/styles.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body class="bg-orange-200 text-gray-700">
+	<div role="main">
+		@RenderBody()
+	</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+# Swedish
+# Copyright (C) 2020 Webperf
+# FIRST AUTHOR <m@webperf.se>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-05-23 17:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: marcus <m@webperf.se>\n"
+"Language-Team: Swedish <team@webperf.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+msgid "TEXT_WEBSITE_URL_ADDED"
+msgstr "Webbplats med adress: {0} har blivit tillagd\n"
+
+msgid "TEXT_WEBSITE_URL_DELETED"
+msgstr "Webbplats med adress: {0} har blivit borttagen\n"
+
+msgid "TEXT_TEST_START_HEADER"
+msgstr "###############################################"
+
+msgid "TEXT_TESTING_NUMBER_OF_SITES"
+msgstr "Webbadresser som testas {0}"
+
+msgid "TEXT_TESTING_SITE"
+msgstr "# Testar adress {0}"
+
+msgid "TEXT_WEBSITE_X_OF_Y"
+msgstr "Webbplats {0} av {1}.\n"
+
+msgid "TEXT_SITE_RATING"
+msgstr "### Betyg:"
+
+msgid "TEXT_SITE_REVIEW"
+msgstr "### Omdöme:\n"
+
+msgid "TEXT_EXCEPTION"
+msgstr "Fel, någon behöver ta en titt på detta."
+
+msgid "TEXT_TESTING_START_HEADER"
+msgstr "### {0} ###"
+
+msgid "TEXT_TEST_START"
+msgstr "Startad: {0}"
+
+msgid "TEXT_TEST_END"
+msgstr "Klar: {0}\n"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS"
+msgstr "Giltiga argument att välja på -t/--test:"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_GOOGLE_LIGHTHOUSE"
+msgstr "-t 1\t: Prestanda (Google Lighthouse)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_GOOGLE_LIGHTHOUSE_SEO"
+msgstr "-t 4\t: Sökmotoroptimering (Google Lighthouse)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_GOOGLE_LIGHTHOUSE_A11Y"
+msgstr "-t 10\t: Tillgänglighet (Google Lighthouse)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_GOOGLE_LIGHTHOUSE_PWA"
+msgstr "-t 8\t: Progressiv webbapp (Google Lighthouse)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_GOOGLE_LIGHTHOUSE_BEST_PRACTICE"
+msgstr "-t 5\t: God praxis (Google Lighthouse)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_YELLOW_LAB_TOOLS"
+msgstr "-t 17\t: Kvalitet på frontend (Yellow Lab Tools)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_PA11Y"
+msgstr "-t 18\t: Tillgänglighet (Pa11y)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_PAGE_NOT_FOUND"
+msgstr "-t 2\t: 404 (sida finns inte)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_HTML"
+msgstr "-t 6\t: HTML validering"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_CSS"
+msgstr "-t 7\t: CSS validering"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_SITESPEED"
+msgstr "-t 15\t: Prestanda (Sitespeed.io)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_WEBBKOLL"
+msgstr "-t 20\t: Integritet & Säkerhet (Webbkoll)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_STANDARD_FILES"
+msgstr "-t 9\t: Standardfiler"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_HTTP"
+msgstr "-t 21\t:  HTTP & Nätverk"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_ENERGY_EFFICIENCY"
+msgstr "-t 22\t:  Energieffektivitet (Website Carbon Calculator)"
+
+msgid "TEXT_TEST_VALID_ARGUMENTS_TRACKING"
+msgstr "-t 23\t:  Spårning och Integritet (Pagexray)"
+
+msgid "TEXT_COMMAND_USAGE"
+msgstr "\n\tWebPerf Core\n\n\tAnvänd så här:\ndefault.py -u https://webperf.se\n\n\tVal och argument:\n\t-h/--help\t\t\t: Hjälp och hur du använder skriptet\n\t-u/--url <site url>\t\t: webbplatsens adress att testa\n\t-t/--test <test nummer>\t\t: kör ett specifikt test (ange ? för att lista tillgängliga tester)\n\t-r/--review\t\t\t: visar omdömen direkt i terminalen\n\t-i/--input <file path>\t\t: sökväg för input-fil (.json/.sqlite)\n\t-i/--input-skip <nummer>\t: antal att hoppa över\n\t-i/--input-take <nummer>\t: antal att testa\n\t-o/--output <file path>\t\t: sökväg till output-fil (.json/.csv/.sql/.sqlite)\n\t-A/--addUrl <site url>\t\t: webbplatsens adress/url (ett krav när du använder -i/--input)\n\t-D/--deleteUrl <site url>\t: webbplats adress/url (ett krav när du använder -i/--input)\n\t-L/--language <lang code>\t: språk som används för output(en = default/sv)"
+
+msgid "TEXT_TEST_REVIEW_OVERVIEW"
+msgstr "\r\n#### Övergripande:\r\n{0}"
+
+msgid "TEXT_TEST_REVIEW_INTEGRITY_SECURITY"
+msgstr "#### Integritet & Säkerhet:\r\n{0}"
+
+msgid "TEXT_TEST_REVIEW_PERFORMANCE"
+msgstr "#### Prestanda:\r\n{0}"
+
+msgid "TEXT_TEST_REVIEW_ALLY"
+msgstr "#### A11y:\r\n{0}"
+
+msgid "TEXT_TEST_REVIEW_STANDARDS"
+msgstr "#### Standarder:\r\n{0}"
+
+msgid "TEXT_TEST_REVIEW_RATING_ITEM"
+msgstr "{0} ( {1:.2f} betyg )\r\n"
+
+msgid "TEXT_TEST_RATING_OVERVIEW"
+msgstr "\r\n- Övergripande: {0}\r\n"
+
+msgid "TEXT_TEST_RATING_INTEGRITY_SECURITY"
+msgstr "- Integritet & Säkerhet: {0}\r\n"
+
+msgid "TEXT_TEST_RATING_PERFORMANCE"
+msgstr "- Prestanda: {0}\r\n"
+
+msgid "TEXT_TEST_RATING_ALLY"
+msgstr "- A11y: {0}\r\n"
+
+msgid "TEXT_TEST_RATING_STANDARDS"
+msgstr "- Standarder: {0}\r\n"
