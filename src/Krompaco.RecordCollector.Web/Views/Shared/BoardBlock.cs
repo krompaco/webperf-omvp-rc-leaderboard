@@ -10,11 +10,38 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
 {
     public class BoardBlock
     {
+        public static string GetTypeOfTest(int id)
+        {
+            var d = new Dictionary<int, string>
+            {
+                { 1, "Lighthouse Performance" },
+                { 2, "404 page" },
+                { 4, "Lighthouse SEO" },
+                { 5, "Lighthouse Best Practices" },
+                { 6, "W3C HTML" },
+                { 7, "W3C CSS" },
+                { 9, "Standard files" },
+                { 10, "Lighthouse A11y" },
+                { 15, "Sitespeed.io" },
+                { 17, "Yellow Lab Tools" },
+                { 18, "Pa11y" },
+                { 20, "Integrity & Security" },
+                { 21, "HTTP & Tech" },
+                { 22, "Carbon Calculator" },
+            };
+
+            if (d.ContainsKey(id))
+            {
+                return d[id];
+            }
+
+            return "Unknown test";
+        }
+
         public static string GetFileName(Site site)
         {
             var pageFileName = GetSiteName(site.Url);
             return pageFileName
-                .TrimEnd("/".ToCharArray())
                 .Replace(".", "-")
                 .Replace("/", "-") + ".html";
         }
@@ -22,6 +49,7 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
         public static string GetSiteName(string input)
         {
             return input
+                .TrimEnd("/".ToCharArray())
                 .Replace("https://www.", string.Empty)
                 .Replace("http://www.", string.Empty)
                 .Replace("https://", string.Empty)
@@ -31,6 +59,7 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
         public static string GetSiteNameHtml(string input)
         {
             return GetSiteName(input)
+                .Replace(".", "&thinsp;.")
                 .Replace("/", "/&thinsp;");
         }
 

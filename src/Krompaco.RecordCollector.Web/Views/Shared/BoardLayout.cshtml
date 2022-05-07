@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>@Model.Title</title>
+	<title>@Html.Raw(Model.Title)</title>
 	
 	<link href="/dist/inter-italic-var.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous" />
 	<link href="/dist/inter-roman-var.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous" />
@@ -31,8 +31,11 @@
 	<link href="/dist/styles.css" rel="stylesheet" asp-append-version="true" />
 </head>
 <body class="bg-orange-200 text-gray-700">
-	<div role="main">
-		@RenderBody()
-	</div>
+<div class="mt-6 max-w-[1800px] mx-auto px-1 sm:px-4" role="main">
+	<h1 class="text-3xl tracking-tight font-bold sm:text-4xl md:text-5xl">
+		<span class="inline-block transform -rotate-1">@Html.Raw(Model.Title)</span>
+	</h1>
+	@RenderBody()
+</div>
 </body>
 </html>
