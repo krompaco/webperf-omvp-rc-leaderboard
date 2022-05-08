@@ -50,7 +50,7 @@
     var position = 0;
 }
 
-@foreach (var site in siteRoot.Sites)
+@foreach (var site in siteRoot.Sites.OrderByDescending(x => BoardBlock.GetAverage(x.Id, siteRoot.Sites, flatResults)))
 {
 	var siteResults = flatResults.Where(x => x.SiteId == site.Id).ToList();
 
@@ -70,7 +70,7 @@
 			@Html.Raw(BoardBlock.GetSiteNameHtml(site.Url))
 		</a>
 
-		<span class="bg-orange-300 px-2 py-1 rounded-md">
+		<span class="bg-green-100 px-2 py-1 rounded-md">
 			@siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))
 		</span>
 	</h2>

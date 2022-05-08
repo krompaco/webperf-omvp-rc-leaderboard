@@ -29,57 +29,75 @@ jobs:
       run: |
         git config --global user.name 'Johan Kronberg'
         git config --global user.email 'krompaco@users.noreply.github.com'
-    - name: Setup dependencies using pip
-      run: pip install -r requirements.txt
-    - name: Download vnu.jar (The Nu Html Checker)
-      run: wget -q -O vnu.jar https://github.com/validator/validator/releases/download/latest/vnu.jar
-    # This tests checks for Swedish texts so skip it for OMVP check
-    # - name: Test 404
-    #   run: python default.py -t 2 -r -i sites.json -o data/${{ steps.date.outputs.date }}-02-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test HTML Validation
-      run: python default.py -t 6 -r -i sites.json -o data/${{ steps.date.outputs.date }}-06-${{github.run_id}}-${{github.run_number}}.json
-    # - name: Test CSS Validation
-    #  run: python default.py -t 7 -r -i sites.json -o data/${{ steps.date.outputs.date }}-07-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test Standard files
-      run: python default.py -t 9 -r -i sites.json -o data/${{ steps.date.outputs.date }}-09-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test Performance (sitespeed.io docker)
-      run: python default.py -t 15 -r -i sites.json -o data/${{ steps.date.outputs.date }}-15-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test Integrity & Security (Webbkoll)
-      run: python default.py -t 20 -r -i sites.json -o data/${{ steps.date.outputs.date }}-20-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test HTTP & Network
-      run: python default.py -t 21 -r -i sites.json -o data/${{ steps.date.outputs.date }}-21-${{github.run_id}}-${{github.run_number}}.json
-    - name: Commit group 1 results
-      run: |
-        git add -A
-        git commit -m "Add group 1 results ${{ steps.date.outputs.date }} ${{github.run_id}}-${{github.run_number}}"
-        git push
-    - name: Setup node
-      uses: actions/setup-node@v2
-    - name: Setup libjpeg and fontconfig (used for Yellow Lab Tools)
-      run: sudo apt-get install libjpeg-dev libfontconfig
-      shell: bash
-    - name: Setup npm packages
-      run: |
-        npm install -g node-gyp
-        npm install -g lighthouse
-        npm install -g yellowlabtools
-        npm install -g pa11y-ci
-    - name: Test Performance (Google Lighthouse)
-      run: python default.py -t 1 -r -i sites.json -o data/${{ steps.date.outputs.date }}-01-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test SEO (Google Lighthouse)
-      run: python default.py -t 4 -r -i sites.json -o data/${{ steps.date.outputs.date }}-04-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test Best Practice (Google Lighthouse)
-      run: python default.py -t 5 -r -i sites.json -o data/${{ steps.date.outputs.date }}-05-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test a11y (Google Lighthouse)
-      run: python default.py -t 10 -r -i sites.json -o data/${{ steps.date.outputs.date }}-10-${{github.run_id}}-${{github.run_number}}.json
-    - name:  Quality on frontend (Yellow Lab Tools)
-      run: python default.py -t 17 -r -i sites.json -o data/${{ steps.date.outputs.date }}-17-${{github.run_id}}-${{github.run_number}}.json
-    - name: Accessibility (Pa11y)
-      run: python default.py -t 18 -r -i sites.json -o data/${{ steps.date.outputs.date }}-18-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test Energy Efficiency (Website Carbon Calculator)
-      run: python default.py -t 22 -r -i sites.json -o data/${{ steps.date.outputs.date }}-22-${{github.run_id}}-${{github.run_number}}.json
-    - name: Commit group 2 results
-      run: |
-        git add -A
-        git commit -m "Add group 2 results ${{ steps.date.outputs.date }} ${{github.run_id}}-${{github.run_number}}"
-        git push
+    # - name: Setup dependencies using pip
+    #   run: pip install -r requirements.txt
+    # - name: Download vnu.jar (The Nu Html Checker)
+    #   run: wget -q -O vnu.jar https://github.com/validator/validator/releases/download/latest/vnu.jar
+    # # This tests checks for Swedish texts so skip it for OMVP check
+    # # - name: Test 404
+    # #   run: python default.py -t 2 -r -i sites.json -o data/${{ steps.date.outputs.date }}-02-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test HTML Validation
+    #   run: python default.py -t 6 -r -i sites.json -o data/${{ steps.date.outputs.date }}-06-${{github.run_id}}-${{github.run_number}}.json
+    # # - name: Test CSS Validation
+    # #  run: python default.py -t 7 -r -i sites.json -o data/${{ steps.date.outputs.date }}-07-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test Standard files
+    #   run: python default.py -t 9 -r -i sites.json -o data/${{ steps.date.outputs.date }}-09-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test Performance (sitespeed.io docker)
+    #   run: python default.py -t 15 -r -i sites.json -o data/${{ steps.date.outputs.date }}-15-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test Integrity & Security (Webbkoll)
+    #   run: python default.py -t 20 -r -i sites.json -o data/${{ steps.date.outputs.date }}-20-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test HTTP & Network
+    #   run: python default.py -t 21 -r -i sites.json -o data/${{ steps.date.outputs.date }}-21-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Commit group 1 results
+    #   run: |
+    #     git add -A
+    #     git commit -m "Add group 1 results ${{ steps.date.outputs.date }} ${{github.run_id}}-${{github.run_number}}"
+    #     git push
+    # - name: Setup node
+    #   uses: actions/setup-node@v2
+    # - name: Setup libjpeg and fontconfig (used for Yellow Lab Tools)
+    #   run: sudo apt-get install libjpeg-dev libfontconfig
+    #   shell: bash
+    # - name: Setup npm packages
+    #   run: |
+    #     npm install -g node-gyp
+    #     npm install -g lighthouse
+    #     npm install -g yellowlabtools
+    #     npm install -g pa11y-ci
+    # - name: Test Performance (Google Lighthouse)
+    #   run: python default.py -t 1 -r -i sites.json -o data/${{ steps.date.outputs.date }}-01-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test SEO (Google Lighthouse)
+    #   run: python default.py -t 4 -r -i sites.json -o data/${{ steps.date.outputs.date }}-04-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test Best Practice (Google Lighthouse)
+    #   run: python default.py -t 5 -r -i sites.json -o data/${{ steps.date.outputs.date }}-05-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test a11y (Google Lighthouse)
+    #   run: python default.py -t 10 -r -i sites.json -o data/${{ steps.date.outputs.date }}-10-${{github.run_id}}-${{github.run_number}}.json
+    # - name:  Quality on frontend (Yellow Lab Tools)
+    #   run: python default.py -t 17 -r -i sites.json -o data/${{ steps.date.outputs.date }}-17-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Accessibility (Pa11y)
+    #   run: python default.py -t 18 -r -i sites.json -o data/${{ steps.date.outputs.date }}-18-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Test Energy Efficiency (Website Carbon Calculator)
+    #   run: python default.py -t 22 -r -i sites.json -o data/${{ steps.date.outputs.date }}-22-${{github.run_id}}-${{github.run_number}}.json
+    # - name: Commit group 2 results
+    #   run: |
+    #     git add -A
+    #     git commit -m "Add group 2 results ${{ steps.date.outputs.date }} ${{github.run_id}}-${{github.run_number}}"
+    #     git push
+    - run: npm ci
+    - run: npm run prodbuild
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.100
+    - name: Generate static site
+      run: dotnet test ./src/Krompaco.RecordCollector.Generator/Krompaco.RecordCollector.Generator.csproj --logger "console;verbosity=detailed"
+    - name: Publish to Netlify production
+      uses: nwtgck/actions-netlify@v1.2
+      with:
+        publish-dir: './artifacts/static-site'
+        enable-commit-comment: true
+        production-deploy: true
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
