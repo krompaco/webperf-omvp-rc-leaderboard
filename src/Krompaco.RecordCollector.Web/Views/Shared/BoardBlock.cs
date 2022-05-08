@@ -138,7 +138,7 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
                     continue;
                 }
 
-                var pageHtml = $"<p class=\"mt-4 font-medium text-lg\">Results collected {siteResults.First().Date:yyyy-MM-dd} from <a href=\"{WebUtility.HtmlEncode(site.Url)}\" class=\"link-primary outline-primary\">{WebUtility.HtmlEncode(site.Url)}</a></p><p class=\"inline-block mt-4 bg-orange-300 px-2 py-1 rounded-md\">{siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))}</p>";
+                var pageHtml = $"<p class=\"inline-block mt-4 bg-orange-300 px-2 py-1 rounded-md\">{siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))}</p><p class=\"mt-4 font-medium text-lg\">Results collected {siteResults.First().Date:yyyy-MM-dd} from <a href=\"{WebUtility.HtmlEncode(site.Url)}\" class=\"link-primary outline-primary\">{WebUtility.HtmlEncode(site.Url)}</a></p>";
 
                 foreach (var result in siteResults)
                 {
