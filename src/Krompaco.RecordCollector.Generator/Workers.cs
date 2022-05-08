@@ -44,6 +44,11 @@ namespace Krompaco.RecordCollector.Generator
             var stopwatch = new Stopwatch();
             stopwatch.Start();
 
+            // Ping start page first
+            this.testOutputHelper.WriteLine("Pinging /");
+            var pingResponse = await this.client.GetAsync("/").ConfigureAwait(true);
+            pingResponse.EnsureSuccessStatusCode();
+
             var contentProperties = await this.GetContentProperties().ConfigureAwait(true);
 
             var fileService = new FileService(
