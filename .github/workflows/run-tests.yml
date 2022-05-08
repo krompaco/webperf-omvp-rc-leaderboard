@@ -83,13 +83,16 @@ jobs:
     #     git add -A
     #     git commit -m "Add group 2 results ${{ steps.date.outputs.date }} ${{github.run_id}}-${{github.run_number}}"
     #     git push
-    - run: npm ci
-    - run: npm run prodbuild
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.100
     - name: Generate static site
+      run: dotnet test ./src/Krompaco.RecordCollector.Generator/Krompaco.RecordCollector.Generator.csproj --logger "console;verbosity=detailed"
+    - name: Build frontend after first run with pages
+    - run: npm ci
+    - run: npm run prodbuild
+    - name: Generate static site with more pages created
       run: dotnet test ./src/Krompaco.RecordCollector.Generator/Krompaco.RecordCollector.Generator.csproj --logger "console;verbosity=detailed"
     - name: Publish to Netlify production
       uses: nwtgck/actions-netlify@v1.2
