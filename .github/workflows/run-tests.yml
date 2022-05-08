@@ -90,8 +90,9 @@ jobs:
     - name: Generate static site
       run: dotnet test ./src/Krompaco.RecordCollector.Generator/Krompaco.RecordCollector.Generator.csproj --logger "console;verbosity=detailed"
     - name: Build frontend after first run with pages
-    - run: npm ci
-    - run: npm run prodbuild
+      run: |
+        npm ci
+        npm run prodbuild
     - name: Generate static site with more pages created
       run: dotnet test ./src/Krompaco.RecordCollector.Generator/Krompaco.RecordCollector.Generator.csproj --logger "console;verbosity=detailed"
     - name: Publish to Netlify production
