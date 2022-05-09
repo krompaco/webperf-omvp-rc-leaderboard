@@ -28,13 +28,13 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y%m%d')"
     - name: Git config
       run: |
-        git config --global user.name 'Johan Kronberg'
+        git config --global user.name 'GitHub Action'
         git config --global user.email 'krompaco@users.noreply.github.com'
     - name: Setup dependencies using pip
       run: pip install -r requirements.txt
     - name: Download vnu.jar (The Nu Html Checker)
       run: wget -q -O vnu.jar https://github.com/validator/validator/releases/download/latest/vnu.jar
-    # This tests checks for Swedish texts so skip it for OMVP check
+    # This tests checks for Swedish texts so skip it for OMVP sites
     # - name: Test 404
     #   run: python default.py -t 2 -r -i sites.json -o data/${{ steps.date.outputs.date }}-02-${{github.run_id}}-${{github.run_number}}.json
     - name: Test HTML Validation
