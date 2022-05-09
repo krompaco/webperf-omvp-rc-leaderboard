@@ -1,18 +1,19 @@
+# Trigger on YAML change while starting this up... /2022-05-09
+# Probably switch to some recurring job syntax later
 name: Run tests
 on:
   push:
     branches:
       - main
-    paths-ignore:
-      - '**.md'
-      - '**.json'
+    paths:
+      - '**.yml'
 env:
   ASPNETCORE_ENVIRONMENT: 'Action'
   GOOGLE_PAGE_SPEED_API_KEY: ${{ secrets.GOOGLE_PAGE_SPEED_API_KEY }}
 jobs:
   run-tests:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     name: Run tests
     steps:
     - name: Check out repository code
@@ -38,8 +39,9 @@ jobs:
     #   run: python default.py -t 2 -r -i sites.json -o data/${{ steps.date.outputs.date }}-02-${{github.run_id}}-${{github.run_number}}.json
     - name: Test HTML Validation
       run: python default.py -t 6 -r -i sites.json -o data/${{ steps.date.outputs.date }}-06-${{github.run_id}}-${{github.run_number}}.json
+    # Someone has some funky CSS making the W3C checker crash
     # - name: Test CSS Validation
-    #  run: python default.py -t 7 -r -i sites.json -o data/${{ steps.date.outputs.date }}-07-${{github.run_id}}-${{github.run_number}}.json
+    #   run: python default.py -t 7 -r -i sites.json -o data/${{ steps.date.outputs.date }}-07-${{github.run_id}}-${{github.run_number}}.json
     - name: Test Standard files
       run: python default.py -t 9 -r -i sites.json -o data/${{ steps.date.outputs.date }}-09-${{github.run_id}}-${{github.run_number}}.json
     - name: Test Performance (sitespeed.io docker)
@@ -93,7 +95,7 @@ jobs:
       run: |
         npm ci
         npm run prodbuild
-    - name: Generate static site with more pages created
+    - name: Generate again to include newly created pages
       run: dotnet test ./src/Krompaco.RecordCollector.Generator/Krompaco.RecordCollector.Generator.csproj --logger "console;verbosity=detailed"
     - name: Publish to Netlify production
       uses: nwtgck/actions-netlify@v1.2
