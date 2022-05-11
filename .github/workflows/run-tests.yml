@@ -72,7 +72,7 @@ jobs:
       run: python default.py -t 4 -r -i sites.json -o data/${{ steps.date.outputs.date }}-04-${{github.run_id}}-${{github.run_number}}.json
     - name: Test Best Practice (Google Lighthouse)
       run: python default.py -t 5 -r -i sites.json -o data/${{ steps.date.outputs.date }}-05-${{github.run_id}}-${{github.run_number}}.json
-    - name: Test a11y (Google Lighthouse)
+    - name: Test A11y (Google Lighthouse)
       run: python default.py -t 10 -r -i sites.json -o data/${{ steps.date.outputs.date }}-10-${{github.run_id}}-${{github.run_number}}.json
     - name:  Quality on frontend (Yellow Lab Tools)
       run: python default.py -t 17 -r -i sites.json -o data/${{ steps.date.outputs.date }}-17-${{github.run_id}}-${{github.run_number}}.json
