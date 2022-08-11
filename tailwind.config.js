@@ -10,7 +10,6 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sans: ['Inter var', 'Arial', 'Helvetica', 'sans-serif'],
-				mono: ['JetBrains Mono', ...defaultTheme.fontFamily.mono],
 			}
 		},
 	}
