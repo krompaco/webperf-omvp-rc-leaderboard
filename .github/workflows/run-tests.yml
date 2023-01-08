@@ -19,7 +19,7 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v2
     - name: Setup python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
         architecture: 'x64'
@@ -58,16 +58,16 @@ jobs:
         git commit -m "Add group 1 results ${{ steps.date.outputs.date }} ${{github.run_id}}-${{github.run_number}}"
         git push
     - name: Setup node
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
     - name: Setup libjpeg and fontconfig (used for Yellow Lab Tools)
       run: sudo apt-get install libjpeg-dev libfontconfig
       shell: bash
     - name: Setup npm packages
       run: |
-        npm install -g node-gyp
-        npm install -g lighthouse
-        npm install -g yellowlabtools
-        npm install -g pa11y-ci
+        npm install node-gyp
+        npm install lighthouse
+        npm install yellowlabtools
+        npm install pa11y-ci
     - name: Test Performance (Google Lighthouse)
       run: python default.py -t 1 -r -i sites.json -o data/${{ steps.date.outputs.date }}-01-${{github.run_id}}-${{github.run_number}}.json
     - name: Test SEO (Google Lighthouse)
