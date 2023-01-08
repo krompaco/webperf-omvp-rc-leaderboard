@@ -3,7 +3,6 @@ import http3
 import datetime
 import h2
 import h11
-import dns.resolver
 import urllib.parse
 import textwrap
 import ipaddress
@@ -27,7 +26,7 @@ import re
 from bs4 import BeautifulSoup
 import config
 from models import Rating
-from tests.utils import httpRequestGetContent, has_redirect
+from tests.utils import dns_lookup, httpRequestGetContent, has_redirect
 import gettext
 _local = gettext.gettext
 
@@ -54,6 +53,14 @@ def run_test(_, langCode, url):
 
     print(_('TEXT_TEST_START').format(
         datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
+
+    # We must take in consideration "www." subdomains...
+
+    o = urllib.parse.urlparse(url)
+    hostname = o.hostname
+
+    if hostname.startswith('www.'):
+        url = url.replace(hostname, hostname[4:])
 
     nof_checks = 0
     check_url = True
@@ -148,32 +155,34 @@ def http_to_https_score(url, _, _local):
 
 def ip_version_score(hostname, _, _local):
     rating = Rating(_, review_show_improvements_only)
-    # review += _('TEXT_REVIEW_IP_VERSION')
     ip4_result = dns_lookup(hostname, "A")
 
     ip6_result = dns_lookup(hostname, "AAAA")
 
+    nof_ip6 = len(ip6_result)
+    nof_ip4 = len(ip4_result)
+
     ip6_rating = Rating(_, review_show_improvements_only)
-    if ip6_result[0]:
+    if nof_ip6 > 0:
         ip6_rating.set_overall(5.0)
         ip6_rating.set_standards(
-            5.0, _local('TEXT_REVIEW_IP_VERSION_IPV6'))
+            5.0, _local('TEXT_REVIEW_IP_VERSION_IPV6_SUPPORT'))
     else:
         ip6_rating.set_overall(1.0)
         ip6_rating.set_standards(
-            1.0, _local('TEXT_REVIEW_IP_VERSION_IPV6'))
+            1.0, _local('TEXT_REVIEW_IP_VERSION_IPV6_NO_SUPPORT'))
 
     rating += ip6_rating
 
     ip4_rating = Rating(_, review_show_improvements_only)
-    if ip4_result[0]:
+    if nof_ip4 > 0:
         ip4_rating.set_overall(5.0)
         ip4_rating.set_standards(
-            5.0, _local('TEXT_REVIEW_IP_VERSION_IPV4'))
+            5.0, _local('TEXT_REVIEW_IP_VERSION_IPV4_SUPPORT'))
     else:
         ip4_rating.set_overall(1.0)
         ip4_rating.set_standards(
-            1.0, _local('TEXT_REVIEW_IP_VERSION_IPV4'))
+            1.0, _local('TEXT_REVIEW_IP_VERSION_IPV4_NO_SUPPORT'))
     rating += ip4_rating
 
     return rating
@@ -261,6 +270,8 @@ def protocol_version_score(url, protocol_version, _, _local):
                     5.0, _local('TEXT_REVIEW_' + protocol_translate_name + '_NO_SUPPORT'))
                 rating.set_overall(5.0)
             else:
+                rating.set_standards(
+                    1.0, _local('TEXT_REVIEW_' + protocol_translate_name + '_NO_SUPPORT'))
                 rating.set_integrity_and_security(
                     1.0, _local('TEXT_REVIEW_' + protocol_translate_name + '_NO_SUPPORT'))
                 rating.set_overall(1.0)
@@ -302,7 +313,6 @@ def protocol_version_score(url, protocol_version, _, _local):
 
 def tls_version_score(orginal_url, _, _local):
     rating = Rating(_, review_show_improvements_only)
-    # review += _('TEXT_REVIEW_TLS_VERSION')
     url = orginal_url.replace('http://', 'https://')
 
     # TODO: check cipher security
@@ -351,22 +361,8 @@ def tls_version_score(orginal_url, _, _local):
     return rating
 
 
-def dns_lookup(hostname, record_type):
-    try:
-        dns_record = dns.resolver.query(hostname, record_type)
-    except dns.resolver.NXDOMAIN:
-        return (False, "No record found")
-    except (dns.resolver.NoAnswer, dns.resolver.NoNameservers) as error:
-        return (False, error)
-
-    record = '' + str(dns_record[0])
-    return (True, record)
-
-
 def http_version_score(hostname, url, _, _local):
     rating = Rating(_, review_show_improvements_only)
-
-    # review += _('TEXT_REVIEW_HTTP_VERSION')
 
     rating += check_http11(hostname, _, _local)
 
@@ -403,11 +399,11 @@ def check_http11(hostname, _, _local):
         if negotiated_protocol == "http/1.1":
             rating.set_overall(5.0)
             rating.set_standards(
-                5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_1_1'))
+                5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_1_1_SUPPORT'))
         else:
             rating.set_overall(1.0)
             rating.set_standards(
-                1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_1_1'))
+                1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_1_1_NO_SUPPORT'))
     except Exception:
         # rating.set_overall(1.0)
         return rating
@@ -435,15 +431,15 @@ def check_http2(hostname, _, _local):
         if negotiated_protocol == "h2":
             rating.set_overall(5.0)
             rating.set_standards(
-                5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+                5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2_SUPPORT'))
             rating.set_performance(
-                5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+                5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2_SUPPORT'))
         else:
             rating.set_overall(1.0)
             rating.set_standards(
-                1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+                1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2_NO_SUPPORT'))
             rating.set_performance(
-                1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+                1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2_NO_SUPPORT'))
     except Exception:
         return rating
 
@@ -452,6 +448,10 @@ def check_http2(hostname, _, _local):
 
 def check_http3(host, _, _local):
     rating = Rating(_, review_show_improvements_only)
+
+    has_quic_support = False
+    has_http3_support = False
+
     try:
         url = 'https://http3check.net/?host={0}'.format(host)
         headers = {'user-agent': useragent}
@@ -461,8 +461,6 @@ def check_http3(host, _, _local):
         # We use variable to validate it once
         requestText = ''
         hasRequestText = False
-        has_quic_support = False
-        has_http3_support = False
 
         if request.text:
             requestText = request.text
@@ -482,38 +480,40 @@ def check_http3(host, _, _local):
                 print(
                     'Error getting HTTP/3 or QUIC support!\nMessage:\n{0}'.format(sys.exc_info()[0]))
 
-        http3_rating = Rating(_, review_show_improvements_only)
-        if (has_http3_support):
-            http3_rating.set_overall(5.0)
-            http3_rating.set_standards(
-                5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_3'))
-            http3_rating.set_performance(
-                5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_3'))
-        else:
-            http3_rating.set_overall(1.0)
-            http3_rating.set_performance(
-                2.5, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_3'))
-            http3_rating.set_standards(1.0, _local(
-                'TEXT_REVIEW_HTTP_VERSION_HTTP_3'))
-        rating += http3_rating
+    except Exception as ex:
+        print(
+            'General Error getting HTTP/3 or QUIC support!\nMessage:\n{0}'.format(sys.exc_info()[0]))
 
-        quic_rating = Rating(_, review_show_improvements_only)
-        if (has_quic_support):
-            quic_rating.set_overall(5.0)
-            quic_rating.set_performance(
-                5.0, _local('TEXT_REVIEW_HTTP_VERSION_QUIC'))
-            quic_rating.set_standards(
-                5.0, _local('TEXT_REVIEW_HTTP_VERSION_QUIC'))
-        else:
-            quic_rating.set_overall(1.0)
-            quic_rating.set_performance(
-                2.5, _local('TEXT_REVIEW_HTTP_VERSION_QUIC'))
-            quic_rating.set_standards(1.0, _local(
-                'TEXT_REVIEW_HTTP_VERSION_QUIC'))
-        rating += quic_rating
+    http3_rating = Rating(_, review_show_improvements_only)
+    if (has_http3_support):
+        http3_rating.set_overall(5.0)
+        http3_rating.set_standards(
+            5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_3_SUPPORT'))
+        http3_rating.set_performance(
+            5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_3_SUPPORT'))
+    else:
+        http3_rating.set_overall(1.0)
+        http3_rating.set_performance(
+            2.5, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_3_NO_SUPPORT'))
+        http3_rating.set_standards(1.0, _local(
+            'TEXT_REVIEW_HTTP_VERSION_HTTP_3_NO_SUPPORT'))
+    rating += http3_rating
 
-    except Exception:
-        return rating
+    quic_rating = Rating(_, review_show_improvements_only)
+    if (has_quic_support):
+        quic_rating.set_overall(5.0)
+        quic_rating.set_performance(
+            5.0, _local('TEXT_REVIEW_HTTP_VERSION_QUIC_SUPPORT'))
+        quic_rating.set_standards(
+            5.0, _local('TEXT_REVIEW_HTTP_VERSION_QUIC_SUPPORT'))
+    else:
+        quic_rating.set_overall(1.0)
+        quic_rating.set_performance(
+            2.5, _local('TEXT_REVIEW_HTTP_VERSION_QUIC_NO_SUPPORT'))
+        quic_rating.set_standards(1.0, _local(
+            'TEXT_REVIEW_HTTP_VERSION_QUIC_NO_SUPPORT'))
+    rating += quic_rating
+
     return rating
 
 
@@ -548,27 +548,26 @@ def check_http_fallback(url, _, _local):
     if has_http11:
         http11_rating.set_overall(5.0)
         http11_rating.set_standards(5.0, _local(
-            'TEXT_REVIEW_HTTP_VERSION_HTTP_1_1'))
+            'TEXT_REVIEW_HTTP_VERSION_HTTP_1_1_SUPPORT'))
     else:
         http11_rating.set_overall(1.0)
         http11_rating.set_standards(
-            1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_1_1'))
+            1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_1_1_NO_SUPPORT'))
     rating += http11_rating
 
     http2_rating = Rating(_, review_show_improvements_only)
     if has_http2:
         http2_rating.set_overall(5.0)
         http2_rating.set_standards(5.0, _local(
-            'TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+            'TEXT_REVIEW_HTTP_VERSION_HTTP_2_SUPPORT'))
         http2_rating.set_performance(
-            5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+            5.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2_SUPPORT'))
     else:
-        http2_rating.set_overall(
-            1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+        http2_rating.set_overall(1.0)
         http2_rating.set_standards(
-            1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+            1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2_NO_SUPPORT'))
         http2_rating.set_performance(
-            1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2'))
+            1.0, _local('TEXT_REVIEW_HTTP_VERSION_HTTP_2_NO_SUPPORT'))
     rating += http2_rating
 
     return rating

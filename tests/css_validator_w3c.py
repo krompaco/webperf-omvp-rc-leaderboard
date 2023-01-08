@@ -45,6 +45,7 @@ def run_test(_, langCode, url):
         datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
 
     errors = list()
+    error_message_dict = {}
 
     # 1. Get ROOT PAGE HTML
     html = get_source(url)
@@ -65,7 +66,6 @@ def run_test(_, langCode, url):
                                        _,  _local, '- `<link rel=\"stylesheet\">`')
 
     points = rating.get_overall()
-    error_message_dict = {}
 
     review = ''
     if points >= 5.0:
@@ -84,7 +84,7 @@ def run_test(_, langCode, url):
     print(_('TEXT_TEST_END').format(
         datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
 
-    return (rating, error_message_dict)
+    return (rating, errors)
 
 
 def get_errors_for_link_tags(html, url, _):
@@ -317,8 +317,6 @@ def create_review_and_rating(errors, _, _local, review_header):
                     error_message_grouped_dict[error_message] = 1
 
         if len(error_message_grouped_dict) > 0:
-            if css_review_group_errors:
-                review += _local('TEXT_REVIEW_ERRORS_GROUPED')
             error_message_grouped_sorted = sorted(
                 error_message_grouped_dict.items(), key=lambda x: x[1], reverse=True)
 
