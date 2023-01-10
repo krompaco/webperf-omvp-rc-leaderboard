@@ -1,4 +1,4 @@
-# Trigger on YAML change while starting this up... /2023-01-09 #1
+# Trigger on YAML change while starting this up... /2023-01-10 #1
 # Probably switch to some recurring job syntax later
 name: Run tests
 on:
@@ -12,7 +12,7 @@ env:
   GOOGLE_PAGE_SPEED_API_KEY: ${{ secrets.GOOGLE_PAGE_SPEED_API_KEY }}
 jobs:
   run-tests:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     timeout-minutes: 240
     name: Run tests
     steps:
@@ -42,8 +42,8 @@ jobs:
     - name: Test HTML Validation
       run: python default.py -t 6 -r -i sites.json -o data/${{ steps.date.outputs.date }}-06-${{github.run_id}}-${{github.run_number}}.json
     # Someone has some funky CSS making the W3C checker crash
-    # - name: Test CSS Validation
-    #   run: python default.py -t 7 -r -i sites.json -o data/${{ steps.date.outputs.date }}-07-${{github.run_id}}-${{github.run_number}}.json
+    - name: Test CSS Validation
+      run: python default.py -t 7 -r -i sites.json -o data/${{ steps.date.outputs.date }}-07-${{github.run_id}}-${{github.run_number}}.json
     - name: Test Standard files
       run: python default.py -t 9 -r -i sites.json -o data/${{ steps.date.outputs.date }}-09-${{github.run_id}}-${{github.run_number}}.json
     - name: Test Performance (sitespeed.io docker)
