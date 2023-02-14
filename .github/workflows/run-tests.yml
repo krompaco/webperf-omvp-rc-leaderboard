@@ -1,12 +1,6 @@
-# Trigger on YAML change while starting this up... /2023-02-08 #1
-# Probably switch to some recurring job syntax later
 name: Run tests
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - '**.yml'
+  workflow_dispatch:
 env:
   ASPNETCORE_ENVIRONMENT: 'Action'
   GOOGLE_PAGE_SPEED_API_KEY: ${{ secrets.GOOGLE_PAGE_SPEED_API_KEY }}
