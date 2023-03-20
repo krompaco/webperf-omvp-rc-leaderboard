@@ -56,12 +56,16 @@ jobs:
     - name: Setup libjpeg and fontconfig (used for Yellow Lab Tools)
       run: sudo apt-get install libjpeg-dev libfontconfig
       shell: bash
-    - name: Setup npm packages
-      run: |
-        npm install node-gyp
-        npm install lighthouse
-        npm install yellowlabtools
-        npm install pa11y-ci
+    - name: Setup node-gyp
+      run: npm install node-gyp
+    - name: Setup lighthouse globally
+      run: npm install -g lighthouse
+    - name: Setup lighthouse
+      run: npm install lighthouse
+    - name: Setup yellowlabtools
+      run: npm install yellowlabtools
+    - name: Setup pa11y
+      run: npm install pa11y-ci
     - name: Test Performance (Google Lighthouse)
       run: python default.py -t 1 -r -i sites.json -o data/${{ steps.date.outputs.date }}-01-${{github.run_id}}-${{github.run_number}}.json
     - name: Test SEO (Google Lighthouse)
@@ -76,6 +80,8 @@ jobs:
       run: python default.py -t 18 -r -i sites.json -o data/${{ steps.date.outputs.date }}-18-${{github.run_id}}-${{github.run_number}}.json
     - name: Test Energy Efficiency (Website Carbon Calculator)
       run: python default.py -t 22 -r -i sites.json -o data/${{ steps.date.outputs.date }}-22-${{github.run_id}}-${{github.run_number}}.json
+    - name: Test Software
+      run: python default.py -t 25 -r -i sites.json -o data/${{ steps.date.outputs.date }}-25-${{github.run_id}}-${{github.run_number}}.json
     - name: Commit group 2 results
       run: |
         git add -A

@@ -14,12 +14,12 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
             var d = new Dictionary<int, string>
             {
                 { 1, "Lighthouse Performance" },
-                { 2, "404 page" },
+                { 2, "404 Page" },
                 { 4, "Lighthouse SEO" },
                 { 5, "Lighthouse Best Practices" },
                 { 6, "W3C HTML" },
                 { 7, "W3C CSS" },
-                { 9, "Standard files" },
+                { 9, "Standard Files" },
                 { 10, "Lighthouse A11y" },
                 { 15, "Sitespeed.io" },
                 { 17, "Yellow Lab Tools" },
@@ -27,6 +27,7 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
                 { 20, "Integrity & Security" },
                 { 21, "HTTP & Tech" },
                 { 22, "Carbon Calculator" },
+                { 25, "Software" },
             };
 
             if (d.ContainsKey(id))
