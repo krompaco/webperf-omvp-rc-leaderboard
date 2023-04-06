@@ -70,7 +70,7 @@
 			@Html.Raw(BoardBlock.GetSiteNameHtml(site.Url))
 		</a>
 
-		<span class="bg-green-100 px-2 py-1 rounded-md">
+        <span class="@Program.GetRatingClassName(siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))) px-2 py-1 rounded-md">
 			@siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))
 		</span>
 	</h2>
@@ -78,7 +78,7 @@
 	<ul class="flex items-center flex-wrap gap-3 mt-1">
         @foreach (var result in siteResults)
         {
-	        <li class="bg-orange-300 px-2 py-1 rounded-md mt-3">
+            <li class="@Program.GetRatingClassName(result.Rating.ToString("0.00", new CultureInfo("en-US"))) px-2 py-1 rounded-md mt-3">
 		        <span class="font-extrabold">
 			        @BoardBlock.GetTypeOfTest(result.TypeOfTest)
 		        </span>

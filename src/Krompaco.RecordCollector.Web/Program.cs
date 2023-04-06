@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using Krompaco.RecordCollector.Web;
 using Krompaco.RecordCollector.Web.Extensions;
@@ -91,6 +92,72 @@ if (frontendSetup == "simplecss")
     });
 }
 
+app.Use(async (context, next) =>
+{
+    // Way that should work to only process HTML output
+    if (context.Request.Path.HasValue && context.Request.Path.Value.EndsWith("/"))
+    {
+        var responseBody = context.Response.Body;
+
+        await using var newResponseBody = new MemoryStream();
+        context.Response.Body = newResponseBody;
+        await next();
+
+        context.Response.Body = new MemoryStream();
+
+        newResponseBody.Seek(0, SeekOrigin.Begin);
+        context.Response.Body = responseBody;
+
+        var html = new StreamReader(newResponseBody).ReadToEnd();
+
+        // Using HtmlAgilityPack to modify whole document
+        var doc = new HtmlDocument();
+        doc.LoadHtml(html);
+
+        foreach (var node in doc.DocumentNode.Descendants())
+        {
+            if (node.NodeType != HtmlNodeType.Element)
+            {
+                continue;
+            }
+
+            if (node.Name == "p" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "inline-block my-3 px-2 py-1 rounded-md")
+            {
+                node.Attributes["class"].Value += " font-bold " + GetRatingClassName(node.InnerText);
+            }
+
+            if (node.Name == "p" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl px-2 py-1 rounded-md")
+            {
+                node.Attributes["class"].Value += " font-bold " + GetRatingClassName(node.InnerText);
+            }
+
+            if (node.Name == "li" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "text-xs")
+            {
+                var content = node.InnerHtml
+                    .Replace("<p>", string.Empty)
+                    .Replace("</p>", string.Empty)
+                    .Replace("!!", "!");
+
+                node.InnerHtml = "<span class=\"flex items-center p-[3px] min-h-[31px]\"><span>" + content + "</span></span>";
+
+                var match = Regex.Match(node.InnerHtml, @"\( (.*) rating \)");
+
+                if (match.Success && match.Groups.Count > 0)
+                {
+                    var rating = match.Groups[1].Value;
+                    node.InnerHtml = node.InnerHtml.Replace(match.Groups[0].Value, "</span><span class=\"flex-none ml-3 " + GetRatingClassName(rating) + " px-[3px] py-[1px] rounded-md font-bold\">" + rating);
+                }
+            }
+        }
+
+        await context.Response.WriteAsync(doc.DocumentNode.OuterHtml);
+    }
+    else
+    {
+        await next();
+    }
+});
+
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
@@ -116,4 +183,28 @@ app.Run();
 public partial class Program
 {
     public const string ToBeVisibleInTestProjects = "To be visible in test projects.";
+
+    public static string GetRatingClassName(string rating)
+    {
+        var ratingClass = "bg-green-200";
+
+        if (rating.StartsWith("0") || rating.StartsWith("1"))
+        {
+            ratingClass = "bg-red-300";
+        }
+        else if (rating.StartsWith("2"))
+        {
+            ratingClass = "bg-pink-200";
+        }
+        else if (rating.StartsWith("3"))
+        {
+            ratingClass = "bg-orange-200";
+        }
+        else if (rating.StartsWith("4"))
+        {
+            ratingClass = "bg-green-100";
+        }
+
+        return ratingClass;
+    }
 }
