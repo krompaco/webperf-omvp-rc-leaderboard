@@ -202,7 +202,7 @@ public partial class Program
         }
         else if (rating.StartsWith("4"))
         {
-            ratingClass = "bg-green-100";
+            ratingClass = "bg-yellow-200";
         }
 
         return ratingClass;
