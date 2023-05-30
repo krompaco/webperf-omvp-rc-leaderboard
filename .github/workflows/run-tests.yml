@@ -53,6 +53,8 @@ jobs:
         git push
     - name: Setup node
       uses: actions/setup-node@v3
+      with:
+        node-version: 18
     - name: Setup libjpeg and fontconfig (used for Yellow Lab Tools)
       run: sudo apt-get install libjpeg-dev libfontconfig
       shell: bash
