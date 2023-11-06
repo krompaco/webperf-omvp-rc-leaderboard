@@ -1,0 +1,342 @@
+[
+    {
+        "name": "Piwik PRO",
+        "matches": [
+            "\"Piwik PRO Anonymization\"",
+            "\"piwik_anonymization\"",
+            "\"ppasAsyncContainerRegistered\"",
+            "this.window.ppmsWebStorage",
+            "isPpmsWebStorageEnabled",
+            "piwik.pro/ppms.php",
+            "piwik.pro/ppms.js"
+        ],
+        "cookies": [
+            "source: https://help.piwik.pro/support/privacy/cookies-created-for-visitors-by-piwik-pro/",
+            "_pk_id",
+            "_pk_ses",
+            "_pk_cvar",
+            "ppms_privacy_",
+            "stg_traffic_source_priority",
+            "stg_last_interaction",
+            "stg_returning_visitor",
+            "stg_fired__",
+            "stg_utm_campaign",
+            "stg_pk_campaign",
+            "stg_externalReferrer",
+            "_stg_optout",
+            "stg_global_opt_out"
+        ]
+    },
+    {
+        "name": "Matomo",
+        "matches": [
+            "\"name\": \"MATOMO_",
+            "window.Matomo=",
+            "matomo.php"            
+        ],
+        "cookies": [
+            "source: https://matomo.org/faq/general/faq_146/",
+            "_pk_ref",
+            "_pk_cvar",
+            "_pk_id",
+            "_pk_ses",
+            "_pk_hsr",
+            "_pk_uid"
+        ]
+    },
+    {
+        "name": "Matomo Tag Manager",
+        "matches": [
+            "window.MatomoT"            
+        ],
+        "cookies": [
+            "source: https://matomo.org/faq/general/faq_146/",
+            "mtm_consent",
+            "mtm_consent_removed"
+        ]
+    },
+    {
+        "name": "Google Analytics",
+        "matches": [
+            "window.GoogleAnalyticsObject",
+            "google-analytics.com/analytics.js",
+            "google-analytics.com/ga.js"
+        ],
+        "cookies":[
+            "source: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage",
+            "_ga",
+            "_gid",
+            "_gat",
+            "_gac_",
+            "__utma",
+            "__utmt",
+            "__utmb",
+            "__utmc",
+            "__utmz",
+            "__utmv",
+            "__utmx",
+            "__utmxx"
+        ]
+    },
+    {
+        "name": "Google Tag Manager",
+        "matches": [
+            "googletagmanager.com/gtm.js",
+            "googletagmanager.com/gtag",
+            "\"value\": \"Google Tag Manager\""
+        ],
+        "cookies":[
+            "source: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage",
+            "_ga",
+            "_gid",
+            "_gat",
+            "_gac_",
+            "__utma",
+            "__utmt",
+            "__utmb",
+            "__utmc",
+            "__utmz",
+            "__utmv",
+            "__utmx",
+            "__utmxx"
+        ]
+    },
+    {
+        "name": "Siteimprove Analytics",
+        "matches": [
+            "siteimproveanalytics.io",
+            "siteimproveanalytics.com/js/siteanalyze"
+        ],
+        "cookies":[
+            "source: https://help.siteimprove.com/support/solutions/articles/80000863908",
+            "nmstat",
+            "AWSALB",
+            "AWSALBCORS",
+            "szcib",
+            "sz-feedback-should-hide"
+        ]
+    },
+    {
+        "name": "Vizzit",
+        "matches": [
+            "___vizzit",
+            "$vizzit_",
+            "$vizzit =",
+            "vizzit.se/vizzittag"
+        ],
+        "cookies":[
+            "source: https://www.vizzit.se/h/en/cookies/",
+            "___vizzit"
+        ]
+    },
+    {
+        "name": "Fathom Analytics",
+        "matches": [
+            "window.fathom",
+            "locationchangefathom",
+            "blockFathomTracking",
+            "fathomScript",
+            "cdn.usefathom.com"
+        ],
+        "cookies":[
+            "source: https://usefathom.com/docs/troubleshooting/cookies"
+        ]
+    },
+    {
+        "name": "Plausible Analytics",
+        "matches": [
+            "window.plausible=",
+            "https://plausible.io/js/script.hash.js",
+            "https://plausible.io/js/plausible.js",
+            "https://plausible.io/js/script.js"
+        ],
+        "cookies":[
+            "source: https://plausible.io/data-policy"
+        ]
+    },
+    {
+        "name": "Monsido Statistics",
+        "matches": [
+            "window._monsido",
+            "/monsido-script.js",
+            "https://app-script.monsido.com/v"
+        ],
+        "cookies":[
+            "source: https://monsido.com/cookie-policy",
+            "monsido"
+        ]
+    },
+    {
+        "name": "Hotjar",
+        "matches": [
+            "window.hjSiteSettings",
+            "window._hjSettings",
+            "window.hj=window.hj",
+            "https://static.hotjar.com/c/hotjar-"
+        ],
+        "cookies":[
+            "source: https://help.hotjar.com/hc/en-us/articles/115011789248-Cookies-on-hotjar-com",
+            "source: https://help.hotjar.com/hc/en-us/articles/6952777582999-Cookies-Set-by-the-Hotjar-Tracking-Code",
+            "_hjAbsoluteSessionInProgress",
+            "_hjDonePolls",
+            "_hjFirstSeen",
+            "_hjHasCachedUserAttributes",
+            "_hjIncludedInPageviewSample",
+            "_hjIncludedInSessionSample",
+            "_hjLMS",
+            "_hjSession"
+        ]
+    },
+    {
+        "name": "Adobe Analytics",
+        "matches": [
+            "window.adobe.OptInCategories",
+            "assets.adobedtm.com"
+        ],
+        "cookies":[
+            "source: https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en",
+            "s_ecid",
+            "s_cc",
+            "s_sq",
+            "s_vi",
+            "s_fid",
+            "s_vh"
+        ]
+    },
+    {
+        "name": "New Relic",
+        "matches": [
+            "js-agent.newrelic.com"
+        ],
+        "cookies":[
+            "source: https://docs.newrelic.com/docs/browser/browser-monitoring/page-load-timing-resources/new-relic-cookies-used-browser/",
+            "source: https://newrelic.com/termsandconditions/cookie-policy/cookie-table",
+            "NREUM",
+            "NRAGENT"
+        ]
+    },
+    {
+        "name": "Mixpanel",
+        "matches": [
+            "cdn.mxpnl.com"
+        ],
+        "cookies":[
+            "source: https://mixpanel.com/blog/cookies-consent-and-the-gdpr-the-role-of-privacy-in-a-product-analytics-strategy/",
+            "they may use cookies, but unclear what they are called at this time."
+        ]
+    },
+    {
+        "name": "Quantcast Measure",
+        "matches": [
+            "quantserve.com/quant.js"
+        ]
+    },
+    {
+        "name": "Fullstory",
+        "matches": [
+            "fullstory.com/s/fs.js"
+        ],
+        "cookies":[
+            "source: https://www.fullstory.com/legal/cookie-policy/",
+            "fs_session",
+            "fs_uid"
+        ]
+    },
+    {
+        "name": "Simple Analytics",
+        "matches": [
+            "scripts.simpleanalyticscdn.com"
+        ],
+        "cookies":[
+            "source: https://docs.simpleanalytics.com/explained/unique-visits"
+        ]
+    },
+    {
+        "name": "Cloudflare Insights",
+        "matches": [
+            "static.cloudflareinsights.com/beacon.min.js"
+        ]
+    },
+    {
+        "name": "Umami",
+        "matches": [
+            "/umami.js"
+        ]
+    },
+    {
+        "name": "Yandex Metrika",
+        "matches": [
+            "yandex.ru/metrika/tag.js",
+            "yandex.ru/metrika/watch.js"
+        ]
+    },
+    {
+        "name": "Snowplow",
+        "matches": [
+            "window.GlobalSnowplowNamespace",
+            "window.snowday",
+            "/snowplow-",
+            "/snowday"
+        ]
+    },
+    {
+        "name": "Klaviyo",
+        "matches": [
+            "static.klaviyo.com",
+            "klaviyo.js?company_id="
+        ]
+    },
+    {
+        "name": "Microsoft Clarity",
+        "matches": [
+            "c.clarity.ms",
+            "www.clarity.ms/tag",
+            "/clarity.js"
+        ]
+    },
+    {
+        "name": "Clicky",
+        "matches": [
+            "static.getclicky.com/js"
+        ]
+    },
+    {
+        "name": "Heap",
+        "matches": [
+            "cdn.heapanalytics.com/js/heap"
+        ]
+    },
+    {
+        "name": "Pingdom RUM",
+        "matches": [
+            "rum-static.pingdom.net"
+        ]
+    },
+    {
+        "name": "Crazyegg",
+        "matches": [
+            "script.crazyegg.com/"
+        ]
+    },
+    {
+        "name": "SiteGainer",
+        "matches": [
+            "cdn-sitegainer.com"
+        ]
+    },
+    {
+        "name": "Application Insights",
+        "matches": [
+            "Application Insights JavaScript SDK - Web",
+            "\"ApplicationInsights\"",
+            "\"ApplicationInsights2\"",
+            "\"Microsoft.ApplicationInsights.",
+            "\"ApplicationInsightsAnalytics\""
+        ],
+        "cookies":[
+            "source: https://www.siteimprove.com/privacy/cookie-notice/",
+            "ai_session",
+            "ai_user"
+        ]
+    }
+]

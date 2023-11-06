@@ -158,6 +158,15 @@ namespace Krompaco.RecordCollector.Generator
             foreach (var response in responses)
             {
                 i++;
+
+                this.testOutputHelper.WriteLine($"Ensuring success code {response.Headers?.Location?.AbsolutePath}");
+
+                if (response.StatusCode == HttpStatusCode.InternalServerError)
+                {
+                    var content = await response.Content.ReadAsStringAsync().ConfigureAwait(true);
+                    this.testOutputHelper.WriteLine(content);
+                }
+
                 response.EnsureSuccessStatusCode();
 
                 if (response?.RequestMessage?.RequestUri == null)

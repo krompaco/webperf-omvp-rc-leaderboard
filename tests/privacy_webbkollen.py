@@ -7,6 +7,7 @@ import ssl
 import json
 import requests
 import urllib  # https://docs.python.org/3/library/urllib.parse.html
+from urllib.parse import urlparse
 import uuid
 import re
 from bs4 import BeautifulSoup
@@ -17,7 +18,7 @@ _ = gettext.gettext
 
 
 # DEFAULTS
-regex_allowed_chars = r"[^a-zA-Zå-öÅ-Ö 0-9\-:\/]+"
+regex_allowed_chars = r"[^\u00E5\u00E4\u00F6\u00C5\u00C4\u00D6a-zA-Zå-öÅ-Ö 0-9\-:\/]+"
 request_timeout = config.http_request_timeout
 useragent = config.useragent
 time_sleep = config.webbkoll_sleep
@@ -45,7 +46,7 @@ def run_test(_, langCode, url):
 
     orginal_url = url
     url = 'https://webbkoll.dataskydd.net/{1}/check?url={0}'.format(
-        url.replace('/', '%2F').replace(':', '%3A'), langCode)
+        urllib.parse.quote(url), langCode)
     headers = {
         'user-agent': 'Mozilla/5.0 (compatible; Webperf; +https://webperf.se)'}
 

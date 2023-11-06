@@ -15,7 +15,7 @@ useragent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 
 # enter your API key for Google Pagespeed API
 googlePageSpeedApiKey = os.environ['GOOGLE_PAGE_SPEED_API_KEY']
 
-http_request_timeout = 60
+http_request_timeout = 15
 
 # timeout between calls to website
 webbkoll_sleep = 20

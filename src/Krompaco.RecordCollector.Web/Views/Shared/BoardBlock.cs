@@ -9,6 +9,8 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
 {
     public class BoardBlock
     {
+        private static object semaphoreGate = new object();
+
         public static string GetTypeOfTest(int id)
         {
             var d = new Dictionary<int, string>
@@ -28,6 +30,7 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
                 { 21, "HTTP & Tech" },
                 { 22, "Carbon Calculator" },
                 { 25, "Software" },
+                { 26, "A11y Statement" },
             };
 
             if (d.ContainsKey(id))
@@ -93,6 +96,8 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
                 md += Environment.NewLine + Environment.NewLine + result.ReportStand;
             }
 
+            md = md.Replace("##### ", "### ");
+
             var pl = new MarkdownPipelineBuilder()
                 .Use<HtmlTableWithWrapperExtension>()
                 .UseAbbreviations()
@@ -114,6 +119,7 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
                 .Build();
 
             return Markdown.ToHtml(md, pl)
+                .Replace("<h3>", "<h3 class=\"mt-3 mb-1 font-bold text-sm\">")
                 .Replace("<li>", "<li class=\"text-xs\">")
                 .Replace("<ul>", "<ul class=\"list-disc list-outside ml-4 space-y-1\">")
                 .Replace("org.w3c.css.parser.analyzer.ParseException", "analyzer.ParseException")
@@ -124,44 +130,51 @@ namespace Krompaco.RecordCollector.Web.Views.Shared
         {
             var sitesPath = Path.Combine(contentPath, "sites");
 
-            if (!Directory.Exists(sitesPath))
+            lock (semaphoreGate)
             {
-                Directory.CreateDirectory(sitesPath);
-            }
-
-            foreach (var site in sites)
-            {
-                var pageFullPath = Path.Combine(sitesPath, GetFileName(site));
-
-                if (File.Exists(pageFullPath))
+                if (!Directory.Exists(sitesPath))
                 {
-                    return;
+                    Directory.CreateDirectory(sitesPath);
                 }
 
-                var siteResults = flatResults.Where(x => x.SiteId == site.Id).ToList();
-
-                if (!siteResults.Any())
+                foreach (var site in sites)
                 {
-                    continue;
-                }
+                    var pageFullPath = Path.Combine(sitesPath, GetFileName(site));
 
-                var pageHtml = $"<p class=\"inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl px-2 py-1 rounded-md\">{siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))}</p><p class=\"mt-4 font-medium text-lg\">Results collected {siteResults.First().Date:yyyy-MM-dd} from <a href=\"{WebUtility.HtmlEncode(site.Url)}\" class=\"link-primary outline-primary\">{WebUtility.HtmlEncode(site.Url)}</a></p>";
+                    if (File.Exists(pageFullPath) && DateTime.UtcNow.AddMinutes(-10) > new FileInfo(pageFullPath).CreationTimeUtc)
+                    {
+                        File.Delete(pageFullPath);
+                    }
+                    else if (File.Exists(pageFullPath))
+                    {
+                        continue;
+                    }
 
-                foreach (var result in siteResults)
-                {
-                    pageHtml +=
-                        $"<div class=\"mt-10\"><h2 class=\"mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl\">{WebUtility.HtmlEncode(GetTypeOfTest(result.TypeOfTest))}</h2><p class=\"inline-block my-3 px-2 py-1 rounded-md\">{result.Rating.ToString("0.00", new CultureInfo("en-US"))}</p>{GetHtmlFromRating(result)}</div>";
-                }
+                    var siteResults = flatResults.Where(x => x.SiteId == site.Id).ToList();
 
-                var pageFileContent = @"{
+                    if (!siteResults.Any())
+                    {
+                        continue;
+                    }
+
+                    var pageHtml = $"<p class=\"inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl px-2 py-1 rounded-md\">{siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))}</p><p class=\"mt-4 font-medium text-lg\">Results collected {siteResults.First().Date:yyyy-MM-dd} from <a href=\"{WebUtility.HtmlEncode(site.Url)}\" class=\"link-primary outline-primary\">{WebUtility.HtmlEncode(site.Url)}</a></p>";
+
+                    foreach (var result in siteResults)
+                    {
+                        pageHtml +=
+                            $"<div class=\"mt-10\"><h2 class=\"mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl\">{WebUtility.HtmlEncode(GetTypeOfTest(result.TypeOfTest))}</h2><p class=\"inline-block my-3 px-2 py-1 rounded-md\">{result.Rating.ToString("0.00", new CultureInfo("en-US"))}</p>{GetHtmlFromRating(result)}</div>";
+                    }
+
+                    var pageFileContent = @"{
     ""title"": """ + GetSiteNameHtml(site.Url) + @""",
     ""date"": """ + DateTime.UtcNow.ToString("yyyy-MM-dd") + @""",
     ""description"": ""Webperf ratings for " + GetSiteName(site.Url) + @".""
 }
 " + pageHtml;
 
-                using var sw = new StreamWriter(File.Open(pageFullPath, FileMode.Create), new UTF8Encoding(false));
-                sw.WriteLine(pageFileContent);
+                    using var sw = new StreamWriter(File.Open(pageFullPath, FileMode.Create), new UTF8Encoding(false));
+                    sw.WriteLine(pageFileContent);
+                }
             }
         }
 

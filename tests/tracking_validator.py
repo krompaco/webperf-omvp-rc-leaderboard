@@ -8,9 +8,6 @@ import re
 from urllib.parse import urlparse
 from tests.utils import *
 import datetime
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.firefox.options import Options
 from tests.sitespeed_base import get_result
 import gettext
 _ = gettext.gettext
@@ -144,34 +141,6 @@ def get_foldername_from_url(url):
     return folder_result
 
 
-def get_friendly_url_name(_local, url, request_index):
-
-    request_friendly_name = _local(
-        'TEXT_REQUEST_UNKNOWN').format(request_index)
-    if request_index == 1:
-        request_friendly_name = _local(
-            'TEXT_REQUEST_WEBPAGE').format(request_index)
-
-    try:
-        o = urlparse(url)
-        tmp = o.path.strip('/').split('/')
-        length = len(tmp)
-        tmp = tmp[length - 1]
-
-        regex = r"[^a-z0-9.]"
-        subst = "-"
-
-        tmp = re.sub(regex, subst, tmp, 0, re.MULTILINE)
-        length = len(tmp)
-        if length > 15:
-            request_friendly_name = '#{0}: {1}'.format(request_index, tmp[:15])
-        elif length > 1:
-            request_friendly_name = '#{0}: {1}'.format(request_index, tmp)
-    except:
-        return request_friendly_name
-    return request_friendly_name
-
-
 def get_file_content(input_filename):
     # print('input_filename=' + input_filename)
     lines = list()
@@ -182,19 +151,33 @@ def get_file_content(input_filename):
                 lines.append(line)
                 # print(line)
     except:
-        print('error in get_local_file_content. No such file or directory: {0}'.format(
+        print('error in get_file_content. No such file or directory: {0}'.format(
             input_filename))
         return '\n'.join(lines)
     return '\n'.join(lines)
 
 
-def rate_cookies(browser, url, _local, _):
+def rate_cookies(content, url, _local, _):
     rating = Rating(_, review_show_improvements_only)
 
     o = urlparse(url)
     hostname = o.hostname
 
-    cookies = browser.get_cookies()
+    analytics_rules = get_analytics_rules()
+
+    cookies = []
+    json_content = ''
+    try:
+        json_content = json.loads(content)
+
+        json_content = json_content['log']
+
+        cookies = json_content['cookies']
+
+    except Exception as ex:  # might crash if checked resource is not a webpage
+        print('cookie crash', ex)
+        return rating
+
 
     number_of_potential_cookies = len(cookies)
 
@@ -208,6 +191,7 @@ def rate_cookies(browser, url, _local, _):
     cookies_number_of_valid_over_6months = 0
     cookies_number_of_valid_over_9months = 0
     cookies_number_of_valid_over_1year = 0
+    cookies_number_of_analytics = 0
 
     # I know it differs around the year but lets get websites the benefit for it..
     days_in_month = 31
@@ -225,6 +209,23 @@ def rate_cookies(browser, url, _local, _):
         while cookies_index < number_of_potential_cookies:
             cookie = cookies[cookies_index]
             cookies_index += 1
+
+            # print('#', cookie['name'], cookies_index, 'of', number_of_potential_cookies)
+
+            matching_analytics_cookie = False
+            if 'name' in cookie:
+                for rule in analytics_rules:
+                    if matching_analytics_cookie:
+                        break
+                    elif 'cookies' in rule:
+                        for match in rule['cookies']:
+                            if (cookie['name'].startswith(match)):
+                                cookies_number_of_analytics += 1
+                                matching_analytics_cookie = True
+                                break
+                            #else:
+                            #    print('- NO:', rule['name'], match)
+
 
             if 'secure' in cookie and cookie['secure'] == False:
                 cookies_number_of_secure += 1
@@ -266,8 +267,14 @@ def rate_cookies(browser, url, _local, _):
         nof_rating.set_integrity_and_security(nof_points, _local('TEXT_COOKIES_HAS_THIRDPARTY').format(
             cookies_number_of_thirdparties))
         nof_rating.set_overall(nof_points)
-
         rating += nof_rating
+    else:
+        nof_rating = Rating(_, review_show_improvements_only)
+        nof_rating.set_integrity_and_security(5.0, _local('TEXT_COOKIES_HAS_THIRDPARTY').format(
+            cookies_number_of_thirdparties))
+        nof_rating.set_overall(5.0)
+        rating += nof_rating
+
     if cookies_number_of_valid_over_1year > 0:
         # '-- Valid over 1 year: {0}\r\n'
         valid_1year_points = 5.0 - cookies_number_of_valid_over_1year * 5.0
@@ -316,6 +323,14 @@ def rate_cookies(browser, url, _local, _):
         valid_3months_rating.set_overall(valid_3months_points)
 
         rating += valid_3months_rating
+    else:
+        valid_3months_rating = Rating(_, review_show_improvements_only)
+        valid_3months_rating.set_integrity_and_security(5.0, _local('TEXT_COOKIE_LESS_THEN_3MONTH').format(
+            number_of_cookies))
+        valid_3months_rating.set_overall(5.0)
+
+        rating += valid_3months_rating
+
     if cookies_number_of_secure > 0:
         # '-- Not secure: {0}\r\n'
         secure_points = 5.0 - cookies_number_of_secure * 3.0
@@ -328,6 +343,34 @@ def rate_cookies(browser, url, _local, _):
         secure_rating.set_overall(secure_points)
 
         rating += secure_rating
+    else:
+        secure_rating = Rating(_, review_show_improvements_only)
+        secure_rating.set_integrity_and_security(5.0, _local('TEXT_COOKIE_SECURE').format(
+            number_of_cookies))
+        secure_rating.set_overall(5.0)
+
+        rating += secure_rating
+
+    if cookies_number_of_analytics > 0:
+        # '-- Using analytics cookie(s) without consent: {0}\r\n'
+        analytics_points = 5.0 - cookies_number_of_analytics * 3.0
+        if analytics_points < 1.0:
+            analytics_points = 1.0
+
+        analytics_rating = Rating(_, review_show_improvements_only)
+        analytics_rating.set_integrity_and_security(analytics_points, _local('TEXT_COOKIE_HAS_ANALYTICS_COOKIE').format(
+            cookies_number_of_analytics))
+        analytics_rating.set_overall(analytics_points)
+
+        rating += analytics_rating
+    else:
+        analytics_rating = Rating(_, review_show_improvements_only)
+        analytics_rating.set_integrity_and_security(5.0, _local('TEXT_COOKIE_NO_ANALYTICS_COOKIE').format(
+            cookies_number_of_analytics))
+        analytics_rating.set_overall(5.0)
+
+        rating += analytics_rating
+
 
     integrity_and_security_review = rating.integrity_and_security_review
 
@@ -352,7 +395,6 @@ def rate_cookies(browser, url, _local, _):
         result_rating.set_overall(no_cookie_points)
 
     result_rating.integrity_and_security_review = result_rating.integrity_and_security_review + \
-        rating.integrity_and_security_review + \
         integrity_and_security_review
 
     return result_rating
@@ -365,6 +407,8 @@ def rate_gdpr_and_schrems(content, _local, _):
     review = ''
     countries = {}
     countries_outside_eu_or_exception_list = {}
+    max_nof_requests_showed = 5
+    limit_message_index = max_nof_requests_showed + 1
 
     json_content = ''
     try:
@@ -386,6 +430,14 @@ def rate_gdpr_and_schrems(content, _local, _):
 
         entries_index = 0
         while entries_index < number_of_entries:
+            request_friendly_name = None
+            if 'request' in entries[entries_index]:
+                request = entries[entries_index]['request']
+                if 'url' in request:
+                    url = request['url']
+                    request_friendly_name = get_friendly_url_name(_,
+                        url, entries_index + 1)
+
             entry_country_code = ''
 
             entry_ip_address = entries[entries_index]['serverIPAddress']
@@ -394,12 +446,14 @@ def rate_gdpr_and_schrems(content, _local, _):
 
             if entry_country_code == '' or entry_country_code == '-':
                 entry_country_code = 'unknown'
-            if entry_country_code in countries:
-                countries[entry_country_code] = countries[entry_country_code] + 1
-            else:
-                countries[entry_country_code] = 1
-                if not is_country_code_in_eu_or_on_exception_list(entry_country_code):
-                    countries_outside_eu_or_exception_list[entry_country_code] = 1
+            if entry_country_code not in countries:
+                countries[entry_country_code] = list()
+            countries[entry_country_code].append(request_friendly_name)
+
+            if not is_country_code_in_eu_or_on_exception_list(entry_country_code):
+                if entry_country_code not in countries_outside_eu_or_exception_list:
+                    countries_outside_eu_or_exception_list[entry_country_code] = list()
+                countries_outside_eu_or_exception_list[entry_country_code].append(request_friendly_name)
 
             entries_index += 1
 
@@ -412,6 +466,11 @@ def rate_gdpr_and_schrems(content, _local, _):
         #    review += '    - {0} (number of requests: {1})\r\n'.format(country_code,
         #                                                               countries[country_code])
 
+        page_is_hosted_in_sweden = page_countrycode == 'SE'
+        # '-- Page hosted in Sweden: {0}\r\n'
+        review += _local('TEXT_GDPR_PAGE_IN_SWEDEN').format(
+            _local('TEXT_GDPR_{0}'.format(page_is_hosted_in_sweden)))
+
         number_of_countries_outside_eu = len(
             countries_outside_eu_or_exception_list)
         if number_of_countries_outside_eu > 0:
@@ -421,14 +480,17 @@ def rate_gdpr_and_schrems(content, _local, _):
                 number_of_countries_outside_eu)
             for country_code in countries_outside_eu_or_exception_list:
                 review += _local('TEXT_GDPR_NONE_COMPLIANT_COUNTRIES_REQUESTS').format(country_code,
-                                                                                       countries[country_code])
+                                                                                       len(countries[country_code]))
+                
+                request_index = 1
+                for req_url in countries[country_code]:
+                    if request_index <= max_nof_requests_showed:
+                        review += '  - {0}\r\n'.format(req_url)
+                    elif request_index == limit_message_index:
+                        review += _local('TEXT_GDPR_MAX_SHOWED').format(max_nof_requests_showed)
+                    request_index += 1
 
             points = 1.0
-
-        page_is_hosted_in_sweden = page_countrycode == 'SE'
-        # '-- Page hosted in Sweden: {0}\r\n'
-        review += _local('TEXT_GDPR_PAGE_IN_SWEDEN').format(
-            _local('TEXT_GDPR_{0}'.format(page_is_hosted_in_sweden)))
 
         if points > 0.0:
             rating.set_integrity_and_security(points, _local('TEXT_GDPR_HAS_POINTS').format(
@@ -447,6 +509,20 @@ def rate_gdpr_and_schrems(content, _local, _):
         print('crash', ex)
         return rating
 
+def get_analytics_rules():
+    dir = Path(os.path.dirname(
+        os.path.realpath(__file__)) + os.path.sep).parent
+
+    file_path = '{0}{1}data{1}analytics-rules.json'.format(dir, os.path.sep)
+    if not os.path.isfile(file_path):
+        file_path = '{0}{1}SAMPLE-analytics-rules.json'.format(dir, os.path.sep)
+    if not os.path.isfile(file_path):
+        print("ERROR: No analytics-rules.json file found!")
+
+    with open(file_path) as json_rules_file:
+        rules = json.load(json_rules_file)
+    return rules
+
 
 def rate_tracking(website_urls, _local, _):
     rating = Rating(_, review_show_improvements_only)
@@ -460,6 +536,8 @@ def rate_tracking(website_urls, _local, _):
 
     tracking_domains = get_domains_from_blocklistproject_file(
         os.path.join('data', 'blocklistproject-tracking-nl.txt'))
+    
+    analytics_rules = get_analytics_rules()
 
     request_index = 1
     for website_url, website_url_content in website_urls.items():
@@ -473,7 +551,7 @@ def rate_tracking(website_urls, _local, _):
 
         resource_analytics_used = dict()
         resource_analytics_used.update(
-            get_analytics(_local, website_url, website_url_content, request_index))
+            get_analytics(_, _local, website_url, website_url_content, request_index, analytics_rules))
 
         if len(resource_analytics_used):
             if not url_is_tracker:
@@ -484,7 +562,7 @@ def rate_tracking(website_urls, _local, _):
 
         url_rating = Rating(_, review_show_improvements_only)
         if url_is_tracker:
-            request_friendly_name = get_friendly_url_name(_local,
+            request_friendly_name = get_friendly_url_name(_,
                                                           website_url, request_index)
 
             if number_of_tracking <= allowed_nof_trackers:
@@ -517,7 +595,7 @@ def rate_tracking(website_urls, _local, _):
         review_analytics += _local('TEXT_VISITOR_ANALYTICS_USED')
         analytics_used_items = analytics_used.items()
         for analytics_name, analytics_should_count in analytics_used_items:
-            review_analytics += '    - {0}\r\n'.format(analytics_name)
+            review_analytics += '  - {0}\r\n'.format(analytics_name)
 
     integrity_and_security_review = rating.integrity_and_security_review
 
@@ -573,7 +651,7 @@ def rate_fingerprint(website_urls, _local, _):
         url_rating = Rating(_, review_show_improvements_only)
         if url_is_adserver_requests:
             if fingerprint_requests <= max_nof_fingerprints_showed:
-                request_friendly_name = get_friendly_url_name(_local,
+                request_friendly_name = get_friendly_url_name(_,
                                                               website_url, request_index)
                 url_rating.set_integrity_and_security(
                     1.0, _local('TEXT_FINGERPRINTING_FOUND').format(request_friendly_name))
@@ -643,7 +721,7 @@ def rate_ads(website_urls, _local, _):
 
         url_rating = Rating(_, review_show_improvements_only)
         if url_is_adserver_requests:
-            request_friendly_name = get_friendly_url_name(_local,
+            request_friendly_name = get_friendly_url_name(_,
                                                           website_url, request_index)
             if adserver_requests <= allowed_nof_ads:
                 url_rating.set_integrity_and_security(
@@ -698,15 +776,21 @@ def get_rating_from_sitespeed(url, _local, _):
 
     # We don't need extra iterations for what we are using it for
     sitespeed_iterations = 1
+
     sitespeed_arg = '--shm-size=1g -b chrome --plugins.remove screenshot --plugins.remove html --plugins.remove metrics --browsertime.screenshot false --screenshot false --screenshotLCP false --browsertime.screenshotLCP false --chrome.cdp.performance false --browsertime.chrome.timeline false --videoParams.createFilmstrip false --visualMetrics false --visualMetricsPerceptual false --visualMetricsContentful false --browsertime.headless true --browsertime.chrome.includeResponseBodies all --utc true --browsertime.chrome.args ignore-certificate-errors -n {0}'.format(
         sitespeed_iterations)
     if 'nt' not in os.name:
         sitespeed_arg += ' --xvfb'
-
+    
     (result_folder_name, filename) = get_result(
         url, sitespeed_use_docker, sitespeed_arg)
 
     http_archive_content = get_file_content(filename)
+
+    # TODO: Read sitespeed manual on how to return localStorage
+
+    # - Cookies ( 5.00 rating )
+    rating += rate_cookies(http_archive_content, url, _local, _)
 
     # - GDPR and Schrems ( 5.00 rating )
     rating += rate_gdpr_and_schrems(http_archive_content, _local, _)
@@ -729,43 +813,7 @@ def get_rating_from_sitespeed(url, _local, _):
     except Exception as ex:
         print('ads exception', ex)
 
-    if not use_cache:
-        shutil.rmtree(result_folder_name)
-
     return rating
-
-
-def get_rating_from_selenium(url, _local, _):
-    rating = Rating(_, review_show_improvements_only)
-
-    browser = False
-    try:
-        # Remove options if you want to see browser windows (good for debugging)
-        options = Options()
-        options.add_argument("--headless")
-
-        browser = webdriver.Firefox(options=options)
-        browser.implicitly_wait(120)
-
-        browser.get(url)
-
-        # - Cookies ( 5.00 rating )
-        rating += rate_cookies(browser, url, _local, _)
-
-        # TODO: Add localStorage and other storage here
-
-        WebDriverWait(browser, 120)
-
-        browser.quit()
-
-        return rating
-    except Exception as ex:
-        print('errorssss', ex)
-
-        if browser != False:
-            browser.quit()
-        return rating
-
 
 def run_test(_, langCode, url):
     """
@@ -785,9 +833,6 @@ def run_test(_, langCode, url):
     print(_('TEXT_TEST_START').format(
         datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
 
-    # TODO: Read sitespeed manual on how to return cookies and localStorage (This way we could remove dependency on Selenium)
-    rating += get_rating_from_selenium(url, _local, _)
-
     rating += get_rating_from_sitespeed(url, _local, _)
 
     print(_('TEXT_TEST_END').format(
@@ -796,152 +841,23 @@ def run_test(_, langCode, url):
     return (rating, result_dict)
 
 
-def get_analytics(_local, url, content, request_index):
+def get_analytics(_, _local, url, content, request_index, analytics_rules):
     analytics = {}
 
-    request_friendly_name = get_friendly_url_name(_local,
+    request_friendly_name = get_friendly_url_name(_,
                                                   url, request_index)
 
     text = _local('TEXT_TRACKING_REFERENCE')
 
     url_and_content = url + content
 
-    if has_piwik_pro(url_and_content):
-        analytics[text.format(request_friendly_name, 'Piwik PRO')] = True
-    if has_matomo(url_and_content):
-        analytics[text.format(request_friendly_name, 'Matomo')] = True
-    if has_matomo_tagmanager(url_and_content):
-        analytics[text.format(request_friendly_name,
-                              'Matomo Tag Manager')] = True
-    if has_google_analytics(url_and_content):
-        analytics[text.format(request_friendly_name,
-                              'Google Analytics')] = False
-    if has_google_tagmanager(url_and_content):
-        analytics[text.format(request_friendly_name,
-                              'Google Tag Manager')] = False
-    if has_siteimprove_analytics(url_and_content):
-        analytics[text.format(request_friendly_name,
-                              'SiteImprove Analytics')] = False
-    if has_Vizzit(url_and_content):
-        analytics[text.format(request_friendly_name, 'Vizzit')] = True
-    if has_fathom(url_and_content):
-        analytics[text.format(request_friendly_name,
-                              'Fathom Analytics')] = True
+    for rule in analytics_rules:
+        name = rule['name']
+        for match in rule['matches']:
+            if (match in url_and_content):
+                analytics[text.format(request_friendly_name, name)] = True
 
     return analytics
 
 
-def has_piwik_pro(content):
-    # Look for javascript objects
-    if '"Piwik PRO Anonymization"' in content:
-        return True
-    if '"piwik_anonymization"' in content:
-        return True
-    if '"ppasAsyncContainerRegistered"' in content:
-        return True
-    if 'this.window.ppmsWebStorage' in content:
-        return True
-    if 'isPpmsWebStorageEnabled' in content:
-        return True
 
-    # Look for file names
-    if 'piwik.pro/ppms.php' in content:
-        return True
-    if 'piwik.pro/ppms.js' in content:
-        return True
-
-    return False
-
-
-def has_matomo(content):
-    # Look for cookie name
-    if '"name": "MATOMO_' in content:
-        return True
-
-    # Look for javascript objects
-    if 'window.Matomo=' in content:
-        return True
-
-    # # Look for file names
-    if 'matomo.php' in content:
-        return True
-
-    return False
-
-
-def has_fathom(content):
-    # Look for javascript objects
-    if 'window.fathom' in content:
-        return True
-    if 'locationchangefathom' in content:
-        return True
-    if 'blockFathomTracking' in content:
-        return True
-    if 'fathomScript' in content:
-        return True
-
-    # Look for file names
-    if 'cdn.usefathom.com' in content:
-        return True
-
-    return False
-
-
-def has_matomo_tagmanager(content):
-    # Look for javascript objects
-    if 'window.MatomoT' in content:
-        return True
-
-    return False
-
-
-def has_google_analytics(content):
-    # Look for javascript objects
-    if 'window.GoogleAnalyticsObject' in content:
-        return True
-
-    # Look for file names
-    if 'google-analytics.com/analytics.js' in content:
-        return True
-    if 'google-analytics.com/ga.js' in content:
-        return True
-
-    return False
-
-
-def has_google_tagmanager(content):
-    # Look for file names
-    if 'googletagmanager.com/gtm.js' in content:
-        return True
-    if 'googletagmanager.com/gtag' in content:
-        return True
-    # Look server name
-    if '"value": "Google Tag Manager"' in content:
-        return True
-
-    return False
-
-
-def has_siteimprove_analytics(content):
-    # Look for file names
-    if 'siteimproveanalytics.io' in content:
-        return True
-    if 'siteimproveanalytics.com/js/siteanalyze' in content:
-        return True
-
-    return False
-
-
-def has_Vizzit(content):
-    # Look for javascript objects
-    if '___vizzit' in content:
-        return True
-    if '$vizzit_' in content:
-        return True
-    if '$vizzit =' in content:
-        return True
-    # Look for file names
-    if 'vizzit.se/vizzittag' in content:
-        return True
-
-    return False

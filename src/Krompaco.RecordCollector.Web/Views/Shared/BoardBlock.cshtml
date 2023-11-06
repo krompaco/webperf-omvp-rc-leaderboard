@@ -44,6 +44,14 @@
 
     var flatResults = results.SelectMany(x => x.Tests).OrderBy(x => x.SiteId).ThenBy(x => x.TypeOfTest).ToList();
 
+    foreach (var result in flatResults)
+    {
+        if (result.Rating < 0)
+        {
+            result.Rating = 1.0d;
+        }
+    }
+
     // Generate files
     BoardBlock.CreateSitePages(siteRoot.Sites, flatResults, this.Configuration.GetAppSettingsContentRootPath());
 

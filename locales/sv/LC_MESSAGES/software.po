@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-02 14:45+0200\n"
-"PO-Revision-Date: 2023-01-02 14:45+0200\n"
+"PO-Revision-Date: 2023-09-30 21:40+0200\n"
 "Last-Translator: mattias <mattias@webperf.se>\n"
 "Language-Team: Swedish <team@webperf.se>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgid "TEXT_USED_CMS"
 msgstr "- Innehållshanteringssystem: {0}"
 
 msgid "TEXT_USED_WEBSERVER"
-msgstr "- Webserver: {0}"
+msgstr "- Webbserver: {0}"
 
 msgid "TEXT_USED_OS"
 msgstr "- Operativsystem: {0}"
@@ -37,10 +37,10 @@ msgid "TEXT_USED_TECH"
 msgstr "- Teknik: {0}"
 
 msgid "TEXT_USED_JS"
-msgstr "- JS ramverk/bibliotek: {0}"
+msgstr "- JS-ramverk/bibliotek: {0}"
 
 msgid "TEXT_USED_CSS"
-msgstr "- CSS ramverk/bibliotek: {0}"
+msgstr "- CSS-ramverk/bibliotek: {0}"
 
 msgid "TEXT_USED_LANG"
 msgstr "- Språk: {0}"
@@ -52,10 +52,10 @@ msgid "TEXT_USED_IMG.SOFTWARE"
 msgstr "- Bildmjukvara: {0}"
 
 msgid "TEXT_USED_IMG.OS"
-msgstr "- Bild operativsystem: {0}"
+msgstr "- Bild&shy;operativsystem: {0}"
 
 msgid "TEXT_USED_IMG.DEVICE"
-msgstr "- Bild hårdvara {0}"
+msgstr "- Bild&shy;hårdvara {0}"
 
 msgid "TEXT_USED_VIDEO"
 msgstr "- Videoformat: {0}"
@@ -74,3 +74,72 @@ msgstr "- Uppdatering(ar) tillgängliga"
 
 msgid "KNOWN_SECURITY_ISSUES"
 msgstr "- Har kända säkerhetsproblem"
+
+msgid "TEXT_DETAILED_REVIEW_CVE"
+msgstr "##### Mjukvara relaterad till CVE:s ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nMjukvaruversionen som används påverkas av sårbarheten som beskrivs nedan.\r\nI de flesta fall kan du åtgärda ett CVE-relaterat problem genom att uppdatera programvaran till senaste version.\r\nI vissa sällsynta fall finns det ingen uppdatering och du måste överväga att inte använda programvaran som påverkas.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_BEHIND100"
+msgstr "##### Mjukvara ligger efter >=100 versioner ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nProgramvara som används ligger efter 100 eller fler versioner jämfört med senaste versionen.\r\nDetta är en mycket bra indikator på att du behöver uppdatera till senaste versionen.\r\nDet indikerar också att du inte har en bra paketrutin för din programvara. \r\nDu kan fixa detta genom att uppdatera programvaran till senaste versionen.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_BEHIND075"
+msgstr "##### Mjukvara ligger efter >=75 versioner ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nProgramvara som används ligger bakom 75 eller fler versioner jämfört med senaste.\r\nDetta är en mycket bra indikator på att du behöver uppdatera till senaste version.\r\nDet indikerar också att du inte har en bra paketrutin för din programvara. \r\nDu kan fixa detta genom att uppdatera programvaran till senaste versionen.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_BEHIND050"
+msgstr "##### Mjukvara ligger efter >=50 versioner ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nProgramvara som används ligger bakom 50 eller fler versioner jämfört med senaste.\r\nDetta är en mycket bra indikator på att du behöver uppdatera till senaste version.\r\nDet indikerar också att du inte har en bra paketrutin för din programvara. \r\nDu kan fixa detta genom att uppdatera programvaran till senaste versionen.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_BEHIND025"
+msgstr "##### Mjukvara ligger efter >=25 versioner ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nProgramvara som används ligger bakom 25 eller fler versioner jämfört med senaste.\r\nDetta är en bra indikator på att du behöver uppdatera till senaste version.\r\nDet indikerar också att du inte har en bra paketrutin för din programvara.\ r\nDu kan fixa detta genom att uppdatera programvaran till senaste versionen.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_BEHIND010"
+msgstr "##### Mjukvara ligger efter >=10 versioner ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nProgramvara som används ligger bakom 10 eller fler versioner jämfört med senaste.\r\nDetta är en halvbra indikator på att du behöver uppdatera till senaste version.\r\nDet indikerar också att du inte har en bra paketrutin för din programvara. \r\nDu kan fixa detta genom att uppdatera programvaran till senaste versionen.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_BEHIND001"
+msgstr "##### Mjukvara ligger efter >=1 versioner ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nProgramvara som används ligger bakom 1 eller fler versioner jämfört med den senaste.\r\nDetta är en liten indikator som du behöver uppdatera till senaste versionen.\r\nDu kan fixa detta genom att uppdatera programvaran till senaste versionen.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_LATEST_LEAKING_NAME_AND_VERSION"
+msgstr "##### Mjukvarans namn och version läcks ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nDu verkar använda den senaste versionen MEN du läcker namn och version av programvara som används.\r\nDetta gör det lättare för någon att hitta sårbarheter att använda mot dig, allt från ZERO-DAY till kända säkerhetsproblem.\r\nFör att åtgärda detta du måste dölja namn och version, se programvarans dokumentation om hur du gör detta.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_UNKNOWN_LEAKING_NAME_AND_VERSION"
+msgstr "##### Mjukvarans namn och version läcks ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nDu läcker namn och version av programvara som används.\r\nDetta gör det lättare för någon att hitta sårbarheter att använda mot dig, allt från ZERO-DAY till kända säkerhetsproblem.\r\nFör att åtgärda detta måste du dölja namn och version, se programvarans dokumentation om hur du gör detta.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_LEAKING_NAME"
+msgstr "##### Mjukvarans namn läcks ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nDu läcker mjukvarunamn som används.\r\nDetta gör det lättare för någon att hitta sårbarheter att använda mot dig, allt från ZERO-DAY till kända säkerhetsproblem.\r\nFör att åtgärda detta måste du dölja namnet, vänligen se programvarans dokumentation om hur man gör detta.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_MULTIPLE_VERSIONS"
+msgstr "##### Multipla versioner av samma mjukvara ( #POINTS# betyg )\r\n\r\n###### Introduktion:\r\nDu använder flera versioner av samma programvara.\r\nDetta kan orsakas om du inkluderar resurser från externa källor eller på grund av felkonfiguration.\r\nDetta är en liten indikator på att du inte har så mycket kontroll som du förmodligen borde.\r\nDet indikerar också att du inte har en bra paketrutin för din programvara.\r\nDu kan fixa detta genom att uppdatera programvaran till den senaste versionen eller den senaste versionen som du använder för alla instanser.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_REFERENCES"
+msgstr "###### Referenser:"
+
+msgid "TEXT_DETAILED_REVIEW_DETECTED_VERSIONS"
+msgstr "###### Upptäckta versioner:"
+
+msgid "TEXT_DETAILED_REVIEW_DETECTED_RESOURCES"
+msgstr "###### Upptäckta resurser:"
+
+msgid "TEXT_DETAILED_REVIEW_MORE_THEN_5_SOURCES"
+msgstr "- Fler än 5 resurser. Döljer resten."
+
+msgid "TEXT_DETAILED_REVIEW_ARCHIVED_SOURCE"
+msgstr "##### Mjukvaran är markerad som arkiverad ( #POINTS# rating )\r\n\r\n###### Introduktion:\r\nDet ser ut som du använder mjukvara som är markerad som arkiverad, detta innebär att den ej får ny funktionalitet eller säkerhetsuppdateringar.\r\nFör att åtgärda detta måste du hitta en annan mjukvara som uppfyller dina behov, ofta pekar utvecklarna på ett alternativ som de tycker är bra från det ställe du hittade mjukvaran.\r\n\r\n"
+
+msgid "TEXT_DETAILED_REVIEW_CVES"
+msgstr "###### Vanliga sårbarheter och exponeringar"
+
+msgid "TEXT_DETAILED_REVIEW_DETECTED_SOFTWARE"
+msgstr "###### Upptäckta mjukvaror:"
+
+msgid "TEXT_DETAILED_REVIEW_AFFECTED_RESOURCES"
+msgstr "###### Påverkade resurser:"
+
+msgid "TEXT_DETAILED_REVIEW_NO_CVE"
+msgstr "##### INga vanliga sårbarheter och exponeringar hittade"
+
+msgid "TEXT_DETAILED_REVIEW_NO_BEHIND"
+msgstr "##### Det ser ut som att du använder senaste versionen på all mjukvara vi hittar"
+
+msgid "TEXT_DETAILED_REVIEW_NO_ARCHIVES"
+msgstr "##### Mjukvara är ej markerad som arkiverad"
+
+msgid "TEXT_DETAILED_REVIEW_NO_END_OF_LIFE"
+msgstr "##### Mjukvara som används ser ej ut att ha nått sitt bäst före datum"
