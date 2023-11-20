@@ -5,7 +5,7 @@
     }
 }
 
-<h3 class="@(this.CurrentRecord.Key.FormFactor == "PHONE" ? "mt-6" : "mt-4") mb-1 font-extrabold tracking-tight">
+<h3 class="@(this.CurrentRecord.Key.FormFactor == "PHONE" ? "mt-8" : "mt-4") mb-1 font-extrabold tracking-tight">
     @this.CurrentRecord.Key.FormFactor CrUX URL report @(this.CurrentRecord.CollectionPeriod.FirstDate.Year)-@(this.CurrentRecord.CollectionPeriod.FirstDate.Month)-@(this.CurrentRecord.CollectionPeriod.FirstDate.Day) &mdash; @(this.CurrentRecord.CollectionPeriod.LastDate.Year)-@(this.CurrentRecord.CollectionPeriod.LastDate.Month)-@(this.CurrentRecord.CollectionPeriod.LastDate.Day)
 </h3>
 
