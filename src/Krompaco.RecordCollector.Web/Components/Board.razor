@@ -1,0 +1,345 @@
+﻿@using System.Text.Json
+@using System.Net
+@using System.Text
+@using System.Text.Json.Serialization
+
+@inject ILogger<Board> Logger
+@inject NavigationManager NavigationManager
+@inject IHttpContextAccessor HttpContextAccessor
+@inject IConfiguration Configuration
+
+@{
+    var position = 0;
+
+    if (this.SiteRootToStartFrom == null || this.FlatResults == null)
+    {
+        return;
+    }
+}
+
+@foreach (var site in this.SiteRootToStartFrom.Sites.OrderByDescending(x => GetAverage(x.Id, this.SiteRootToStartFrom.Sites, this.FlatResults)))
+{
+    var siteResults = this.FlatResults.Where(x => x.SiteId == site.Id).ToList();
+
+    if (!siteResults.Any())
+    {
+        continue;
+    }
+
+    position++;
+
+    <h2 class="mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl flex items-center flex-wrap gap-3">
+        <span>
+            @(position).
+        </span>
+
+        <a class="link-primary outline-primary" href="/sites/@GetFileName(site).Replace(".html", "/")">
+            @((MarkupString)GetSiteNameHtml(site.Url))
+        </a>
+
+        <span class="@Program.GetRatingClassName(siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))) px-2 py-1 rounded-md">
+            @siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))
+        </span>
+    </h2>
+
+    <ul class="flex items-center flex-wrap gap-3 mt-1">
+        @foreach (var result in siteResults)
+        {
+            <li class="@Program.GetRatingClassName(result.Rating.ToString("0.00", new CultureInfo("en-US"))) px-2 py-1 rounded-md mt-3">
+                <span class="font-extrabold">
+                    @GetTypeOfTest(result.TypeOfTest)
+                </span>
+                <span>
+                    @result.Rating.ToString("0.00", new CultureInfo("en-US"))
+                </span>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private static object semaphoreGate = new object();
+
+    protected SiteRoot? SiteRootToStartFrom { get; set; }
+
+    protected List<Test>? FlatResults { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var path = this.Configuration.GetValue<string>("AppSettings:WebperfJsonDataRootPath");
+        var sitesPath = this.Configuration.GetValue<string>("AppSettings:WebperfSitesJsonFilePath");
+
+        if (!File.Exists(sitesPath))
+        {
+            return;
+        }
+
+        var exists = Directory.Exists(path);
+
+        if (!exists)
+        {
+            return;
+        }
+
+        var di = new DirectoryInfo(path);
+
+        var list = di.EnumerateFiles("*.json")
+            .OrderBy(x => x.Name)
+            .ToList();
+
+        if (!list.Any())
+        {
+            return;
+        }
+
+        var last = list.Last().Name;
+        var filterBy = list.Last().Name[..(last.Length > 7 ? 8 : last.Length)];
+
+        list = list.Where(x => x.Name.StartsWith(filterBy)).ToList();
+
+        var results = list.Select(x =>
+            JsonSerializer.Deserialize<TestRoot>(File.ReadAllText(x.FullName))
+            ?? new TestRoot()).ToList();
+
+        var siteRoot = JsonSerializer.Deserialize<SiteRoot>(await File.ReadAllTextAsync(sitesPath)) ?? new SiteRoot();
+        this.SiteRootToStartFrom = siteRoot;
+
+        var flatResults = results.SelectMany(x => x.Tests).OrderBy(x => x.SiteId).ThenBy(x => x.TypeOfTest).ToList();
+        this.FlatResults = flatResults;
+
+        // Generate files
+        CreateSitePages(siteRoot.Sites, flatResults, this.Configuration.GetAppSettingsContentRootPath());
+    }
+
+    protected static string GetTypeOfTest(int id)
+    {
+        var d = new Dictionary<int, string>
+            {
+                { 1, "Lighthouse Performance" },
+                { 2, "404 Page" },
+                { 4, "Lighthouse SEO" },
+                { 5, "Lighthouse Best Practices" },
+                { 6, "W3C HTML" },
+                { 7, "W3C CSS" },
+                { 9, "Standard Files" },
+                { 10, "Lighthouse A11y" },
+                { 15, "Sitespeed.io" },
+                { 17, "Yellow Lab Tools" },
+                { 18, "Pa11y" },
+                { 20, "Integrity & Security" },
+                { 21, "HTTP & Tech" },
+                { 22, "Carbon Calculator" },
+                { 25, "Software" },
+            };
+
+        return d.TryGetValue(id, out var test) ? test : "Unknown test";
+    }
+
+    protected static double GetAverage(int forSiteId, List<Site> sites, List<Test> flatResults)
+    {
+        var siteResults = flatResults.Where(x => x.SiteId == forSiteId).ToList();
+        return !siteResults.Any() ? 0d : siteResults.Average(x => x.Rating);
+    }
+
+    protected static string GetFileName(Site site)
+    {
+        var pageFileName = GetSiteName(site.Url);
+        return pageFileName
+            .Replace(".", "-")
+            .Replace("/", "-") + ".html";
+    }
+
+    protected static string GetSiteName(string input)
+    {
+        return input
+            .TrimEnd("/".ToCharArray())
+            .Replace("https://www.", string.Empty)
+            .Replace("http://www.", string.Empty)
+            .Replace("https://", string.Empty)
+            .Replace("http://", string.Empty);
+    }
+
+    protected static string GetSiteNameHtml(string input)
+    {
+        return WebUtility.HtmlEncode(GetSiteName(input))
+            .Replace(".", "&thinsp;.")
+            .Replace("/", "/&thinsp;");
+    }
+
+    protected static string GetHtmlFromRating(Test result)
+    {
+        var md = result.Report;
+
+        if (!string.IsNullOrWhiteSpace(result.ReportA11y) && result.TypeOfTest != 9 && result.TypeOfTest != 21)
+        {
+            md += Environment.NewLine + Environment.NewLine + result.ReportA11y;
+        }
+
+        if (!string.IsNullOrWhiteSpace(result.ReportPerf) && result.TypeOfTest != 9 && result.TypeOfTest != 21)
+        {
+            md += Environment.NewLine + Environment.NewLine + result.ReportPerf;
+        }
+
+        if (!string.IsNullOrWhiteSpace(result.ReportSec) && result.TypeOfTest != 9 && result.TypeOfTest != 21)
+        {
+            md += Environment.NewLine + Environment.NewLine + result.ReportSec;
+        }
+
+        if (!string.IsNullOrWhiteSpace(result.ReportStand) && result.TypeOfTest != 9)
+        {
+            md += Environment.NewLine + Environment.NewLine + result.ReportStand;
+        }
+
+        var pl = new MarkdownPipelineBuilder()
+            .Use<HtmlTableWithWrapperExtension>()
+            .UseAbbreviations()
+            .UseCitations()
+            .UseDefinitionLists()
+            .UseEmphasisExtras()
+            .UseFigures()
+            .UseFooters()
+            .UseFootnotes()
+            .UseGridTables()
+            .UseMathematics()
+            .UseMediaLinks()
+            .UsePipeTables()
+            .UseListExtras()
+            .UseTaskLists()
+            .UseDiagrams()
+            .UseAutoLinks()
+            .UseGenericAttributes()
+            .Build();
+
+        return Markdown.ToHtml(md, pl)
+            .Replace("<li>", "<li class=\"text-xs\">")
+            .Replace("<ul>", "<ul class=\"list-disc list-outside ml-4 space-y-1\">")
+            .Replace("org.w3c.css.parser.analyzer.ParseException", "analyzer.ParseException")
+            .Replace("Look up", " Look up");
+    }
+
+    protected static void CreateSitePages(List<Site> sites, List<Test> flatResults, string contentPath)
+    {
+        var sitesPath = Path.Combine(contentPath, "sites");
+
+        lock (semaphoreGate)
+        {
+            if (!Directory.Exists(sitesPath))
+            {
+                Directory.CreateDirectory(sitesPath);
+            }
+
+            foreach (var site in sites)
+            {
+                var pageFullPath = Path.Combine(sitesPath, GetFileName(site));
+
+
+                if (File.Exists(pageFullPath))
+                {
+                    return;
+                }
+
+                var siteResults = flatResults.Where(x => x.SiteId == site.Id).ToList();
+
+                if (!siteResults.Any())
+                {
+                    continue;
+                }
+
+                var pageHtml = $"<p class=\"inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl px-2 py-1 rounded-md\">{siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))}</p><p class=\"mt-4 font-medium text-lg\">Results collected {siteResults.First().Date:yyyy-MM-dd} from <a href=\"{WebUtility.HtmlEncode(site.Url)}\" class=\"link-primary outline-primary\">{WebUtility.HtmlEncode(site.Url)}</a></p>";
+
+                foreach (var result in siteResults)
+                {
+                    pageHtml +=
+                        $"<div class=\"mt-10\"><h2 class=\"mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl\">{WebUtility.HtmlEncode(GetTypeOfTest(result.TypeOfTest))}</h2><p class=\"inline-block my-3 px-2 py-1 rounded-md\">{result.Rating.ToString("0.00", new CultureInfo("en-US"))}</p>{GetHtmlFromRating(result)}</div>";
+                }
+
+                var pageFileContent = @"{
+    ""title"": """ + GetSiteNameHtml(site.Url) + @""",
+    ""date"": """ + DateTime.UtcNow.ToString("yyyy-MM-dd") + @""",
+    ""description"": ""Webperf ratings for " + GetSiteName(site.Url) + @".""
+}
+" + pageHtml;
+
+                using var sw = new StreamWriter(File.Open(pageFullPath, FileMode.Create), new UTF8Encoding(false));
+                sw.WriteLine(pageFileContent);
+            }
+        }
+    }
+
+    // Models used in JSON files
+    protected class SiteRoot
+    {
+        public SiteRoot()
+        {
+            this.Sites = new List<Site>();
+        }
+
+        [JsonPropertyName("sites")]
+        public List<Site> Sites { get; set; }
+    }
+
+    protected class Site
+    {
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
+
+        [JsonPropertyName("url")]
+        public string Url { get; set; }
+    }
+
+    protected class TestRoot
+    {
+        public TestRoot()
+        {
+            this.Tests = new List<Test>();
+        }
+
+        [JsonPropertyName("tests")]
+        public List<Test> Tests { get; set; }
+    }
+
+    protected class Test
+    {
+        [JsonPropertyName("site_id")]
+        public int SiteId { get; set; }
+
+        [JsonPropertyName("type_of_test")]
+        public int TypeOfTest { get; set; }
+
+        [JsonPropertyName("rating")]
+        public double Rating { get; set; }
+
+        [JsonPropertyName("rating_sec")]
+        public double RatingSec { get; set; }
+
+        [JsonPropertyName("rating_perf")]
+        public double RatingPerf { get; set; }
+
+        [JsonPropertyName("rating_a11y")]
+        public double RatingA11y { get; set; }
+
+        [JsonPropertyName("rating_stand")]
+        public double RatingStand { get; set; }
+
+        [JsonPropertyName("date")]
+        public DateTime Date { get; set; }
+
+        [JsonPropertyName("report")]
+        public string Report { get; set; }
+
+        [JsonPropertyName("report_sec")]
+        public string ReportSec { get; set; }
+
+        [JsonPropertyName("report_perf")]
+        public string ReportPerf { get; set; }
+
+        [JsonPropertyName("report_a11y")]
+        public string ReportA11y { get; set; }
+
+        [JsonPropertyName("report_stand")]
+        public string ReportStand { get; set; }
+
+        [JsonPropertyName("data")]
+        public string Data { get; set; }
+    }
+}

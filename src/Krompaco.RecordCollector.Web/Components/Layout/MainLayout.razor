@@ -1,0 +1,59 @@
+@inject ILogger<MainLayout> Logger
+@using Krompaco.RecordCollector.Web.Extensions
+@using System.Globalization
+@{
+    if (Model == null)
+    {
+        return;
+    }
+}
+<!DOCTYPE html>
+<html lang="@Model.CurrentCulture?.Name">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Model.Title</title>
+    
+    @if (!string.IsNullOrWhiteSpace(Model.Robots))
+    {
+        <meta name="robots" content="@Model.Robots">
+    }
+
+    <meta name="description" content="@Model.Description">
+
+    @if (!string.IsNullOrWhiteSpace(Model.Keywords))
+    {
+        <meta name="keywords" content="@Model.Keywords" />
+    }
+
+    @PageHead
+
+    <link href="/dist/inter-italic-var.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link href="/dist/inter-roman-var.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link href="/dist/jetbrainsmono-regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous" />
+
+    <link href="/dist/styles.css" rel="stylesheet" />
+</head>
+<body class="bg-slate-50 text-gray-700">
+    <div class="mt-10 mb-10 max-w-[1800px] mx-auto px-1 sm:px-4" role="main">
+        <h1 class="text-3xl tracking-tight font-bold sm:text-4xl md:text-5xl">
+            <span class="inline-block transform -rotate-1">@((MarkupString)Model.Title)</span>
+        </h1>
+        @PageBody
+    </div>
+</body>
+</html>
+
+@code {
+    [Parameter]
+    public RenderFragment? PageHead { get; set; }
+
+    [Parameter]
+    public RenderFragment? PageHeader { get; set; }
+
+    [Parameter]
+    public RenderFragment? PageBody { get; set; }
+
+    [Parameter]
+    public LayoutViewModel? Model { get; set; }
+}
