@@ -1,4 +1,4 @@
-﻿@using System.Text.Json
+@using System.Text.Json
 @using System.Net
 @using System.Text
 @using System.Text.Json.Serialization
@@ -55,6 +55,11 @@
             </li>
         }
     </ul>
+
+    if (position > 0 && this.RecordList.TryGetValue(site.Url, out var recordList))
+    {
+        <CruxBox RecordList="@recordList" />
+    }
 }
 
 @code {
@@ -63,6 +68,11 @@
     protected SiteRoot? SiteRootToStartFrom { get; set; }
 
     protected List<Test>? FlatResults { get; set; }
+
+    [Inject]
+    protected CruxClient? CruxClient { get; set; }
+
+    protected Dictionary<string, List<Record>?> RecordList { get; set; } = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -102,6 +112,21 @@
             ?? new TestRoot()).ToList();
 
         var siteRoot = JsonSerializer.Deserialize<SiteRoot>(await File.ReadAllTextAsync(sitesPath)) ?? new SiteRoot();
+
+        foreach (var site in siteRoot.Sites)
+        {
+            var phoneRecord = await this.CruxClient!.GetRecord(site.Url, "PHONE").ConfigureAwait(false);
+            await Task.Delay(5);
+            var desktopRecord = await this.CruxClient!.GetRecord(site.Url, "DESKTOP").ConfigureAwait(false);
+            await Task.Delay(5);
+
+            if (phoneRecord != null && desktopRecord != null)
+            {
+                var recordList = new List<Record> { phoneRecord, desktopRecord };
+                this.RecordList.Add(site.Url, recordList);
+            }
+        }
+
         this.SiteRootToStartFrom = siteRoot;
 
         var flatResults = results.SelectMany(x => x.Tests).OrderBy(x => x.SiteId).ThenBy(x => x.TypeOfTest).ToList();
@@ -109,30 +134,6 @@
 
         // Generate files
         CreateSitePages(siteRoot.Sites, flatResults, this.Configuration.GetAppSettingsContentRootPath());
-    }
-
-    protected static string GetTypeOfTest(int id)
-    {
-        var d = new Dictionary<int, string>
-            {
-                { 1, "Lighthouse Performance" },
-                { 2, "404 Page" },
-                { 4, "Lighthouse SEO" },
-                { 5, "Lighthouse Best Practices" },
-                { 6, "W3C HTML" },
-                { 7, "W3C CSS" },
-                { 9, "Standard Files" },
-                { 10, "Lighthouse A11y" },
-                { 15, "Sitespeed.io" },
-                { 17, "Yellow Lab Tools" },
-                { 18, "Pa11y" },
-                { 20, "Integrity & Security" },
-                { 21, "HTTP & Tech" },
-                { 22, "Carbon Calculator" },
-                { 25, "Software" },
-            };
-
-        return d.TryGetValue(id, out var test) ? test : "Unknown test";
     }
 
     protected static double GetAverage(int forSiteId, List<Site> sites, List<Test> flatResults)
@@ -147,23 +148,6 @@
         return pageFileName
             .Replace(".", "-")
             .Replace("/", "-") + ".html";
-    }
-
-    protected static string GetSiteName(string input)
-    {
-        return input
-            .TrimEnd("/".ToCharArray())
-            .Replace("https://www.", string.Empty)
-            .Replace("http://www.", string.Empty)
-            .Replace("https://", string.Empty)
-            .Replace("http://", string.Empty);
-    }
-
-    protected static string GetSiteNameHtml(string input)
-    {
-        return WebUtility.HtmlEncode(GetSiteName(input))
-            .Replace(".", "&thinsp;.")
-            .Replace("/", "/&thinsp;");
     }
 
     protected static string GetHtmlFromRating(Test result)
@@ -264,6 +248,47 @@
                 sw.WriteLine(pageFileContent);
             }
         }
+    }
+
+    private static string GetTypeOfTest(int id)
+    {
+        var d = new Dictionary<int, string>
+        {
+            { 1, "Lighthouse Performance" },
+            { 2, "404 Page" },
+            { 4, "Lighthouse SEO" },
+            { 5, "Lighthouse Best Practices" },
+            { 6, "W3C HTML" },
+            { 7, "W3C CSS" },
+            { 9, "Standard Files" },
+            { 10, "Lighthouse A11y" },
+            { 15, "Sitespeed.io" },
+            { 17, "Yellow Lab Tools" },
+            { 18, "Pa11y" },
+            { 20, "Integrity & Security" },
+            { 21, "HTTP & Tech" },
+            { 22, "Carbon Calculator" },
+            { 25, "Software" },
+        };
+
+        return d.TryGetValue(id, out var test) ? test : "Unknown test";
+    }
+
+    private static string GetSiteName(string input)
+    {
+        return input
+            .TrimEnd("/".ToCharArray())
+            .Replace("https://www.", string.Empty)
+            .Replace("http://www.", string.Empty)
+            .Replace("https://", string.Empty)
+            .Replace("http://", string.Empty);
+    }
+
+    private static string GetSiteNameHtml(string input)
+    {
+        return WebUtility.HtmlEncode(GetSiteName(input))
+            .Replace(".", "&thinsp;.")
+            .Replace("/", "/&thinsp;");
     }
 
     // Models used in JSON files

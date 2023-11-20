@@ -2,6 +2,8 @@
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using Krompaco.RecordCollector.Web;
+using Krompaco.RecordCollector.Web.Components;
+using Krompaco.RecordCollector.Web.Components.Crux;
 using Krompaco.RecordCollector.Web.Extensions;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
@@ -31,6 +33,8 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
 });
 
 builder.Services.AddLocalization();
+
+builder.Services.AddHttpClient<CruxClient>();
 
 builder.Services.AddRazorComponents();
 builder.Services.AddControllersWithViews();
