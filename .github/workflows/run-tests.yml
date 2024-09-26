@@ -1,9 +1,10 @@
-name: Run tests
+name: Generate site
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 env:
   ASPNETCORE_ENVIRONMENT: 'Action'
-  GOOGLE_PAGE_SPEED_API_KEY: ${{ secrets.GOOGLE_PAGE_SPEED_API_KEY }}
 jobs:
   run-tests:
     runs-on: ubuntu-20.04
