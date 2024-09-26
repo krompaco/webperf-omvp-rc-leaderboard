@@ -7,7 +7,7 @@ env:
   ASPNETCORE_ENVIRONMENT: 'Action'
 jobs:
   run-tests:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     #timeout-minutes: 240
     name: Run tests
     steps:
