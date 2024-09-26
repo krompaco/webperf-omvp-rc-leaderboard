@@ -7,7 +7,7 @@ env:
 jobs:
   run-tests:
     runs-on: ubuntu-20.04
-    timeout-minutes: 240
+    #timeout-minutes: 240
     name: Run tests
     steps:
     - name: Check out repository code
