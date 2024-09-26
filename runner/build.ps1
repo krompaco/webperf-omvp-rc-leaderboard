@@ -1,0 +1,1 @@
+docker build -t "webperf-runner-omvp:latest" .

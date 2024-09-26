@@ -1,0 +1,24 @@
+{
+    "general": {
+        "review": {
+            "show": true,
+            "details": true,
+            "improve-only": false
+        },
+        "cache": {
+            "use": true,
+            "max-age": 60
+        }
+    },
+    "tests": {
+        "lighthouse": {
+            "disable-sandbox": true
+        },
+        "sitespeed": {
+            "docker": {
+                "use": false
+            },
+            "timeout": 300
+        }
+    }
+}
