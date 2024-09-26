@@ -55,24 +55,38 @@
             </li>
         }
     </ul>
-
-    if (position > 0 && this.RecordList.TryGetValue(site.Url, out var recordList))
-    {
-        <CruxBox RecordList="@recordList" />
-    }
 }
 
 @code {
     private static object semaphoreGate = new object();
 
+    public static Dictionary<int, string> AllTestTypes { get; } = new Dictionary<int, string>
+    {
+        { 1, "Lighthouse Performance" },
+        { 2, "404 Page" },
+        { 4, "Lighthouse SEO" },
+        { 5, "Lighthouse Best Practices" },
+        { 6, "W3C HTML" },
+        ////{ 7, "W3C CSS" },
+        { 9, "Standard Files" },
+        { 10, "Lighthouse A11y" },
+        { 15, "Sitespeed.io" },
+        { 17, "Yellow Lab Tools" },
+        { 18, "Pa11y" },
+        { 20, "Integrity & Security" },
+        { 21, "HTTP & Tech" },
+        { 22, "Carbon Calculator" },
+        { 23, "Tracking" },
+        { 24, "E-mail*" },
+        { 25, "Software" },
+        ////{ 26, "A11y Statement" },
+    };
+
+    public static int[] TestTypesExcludedFromAverageRating { get; } = [24, 26];
+
     protected SiteRoot? SiteRootToStartFrom { get; set; }
 
     protected List<Test>? FlatResults { get; set; }
-
-    [Inject]
-    protected CruxClient? CruxClient { get; set; }
-
-    protected Dictionary<string, List<Record>?> RecordList { get; set; } = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -93,7 +107,7 @@
 
         var di = new DirectoryInfo(path);
 
-        var list = di.EnumerateFiles("*.json")
+        var list = di.EnumerateFiles("*.json", SearchOption.AllDirectories)
             .OrderBy(x => x.Name)
             .ToList();
 
@@ -102,38 +116,110 @@
             return;
         }
 
-        var last = list.Last().Name;
-        var filterBy = list.Last().Name[..(last.Length > 7 ? 8 : last.Length)];
-
-        list = list.Where(x => x.Name.StartsWith(filterBy)).ToList();
-
-        var results = list.Select(x =>
-            JsonSerializer.Deserialize<TestRoot>(File.ReadAllText(x.FullName))
-            ?? new TestRoot()).ToList();
-
         var siteRoot = JsonSerializer.Deserialize<SiteRoot>(await File.ReadAllTextAsync(sitesPath)) ?? new SiteRoot();
 
-        foreach (var site in siteRoot.Sites)
-        {
-            var phoneRecord = await this.CruxClient!.GetRecord(site.Url, "PHONE").ConfigureAwait(false);
-            await Task.Delay(5);
-            var desktopRecord = await this.CruxClient!.GetRecord(site.Url, "DESKTOP").ConfigureAwait(false);
-            await Task.Delay(5);
+        var prefixes = new List<string>
+                {
+                    $"{DateTime.UtcNow.AddMonths(-1).Year}/{DateTime.UtcNow.AddMonths(-1):MM}/",
+                    $"{DateTime.UtcNow.Year}/{DateTime.UtcNow:MM}/",
+                };
 
-            if (phoneRecord != null && desktopRecord != null)
+        var i = 0;
+        var listOfAll = new List<ReportItem>();
+
+        foreach (var prefix in prefixes)
+        {
+            foreach (var blobItem in list)
             {
-                var recordList = new List<Record> { phoneRecord, desktopRecord };
-                this.RecordList.Add(site.Url, recordList);
+                if (!blobItem.Name.Contains("-")
+                    || !blobItem.Name.EndsWith(".json", StringComparison.Ordinal))
+                {
+                    continue;
+                }
+
+                var blobStyleFullName = blobItem.FullName.Replace(path, string.Empty).TrimStart(Path.DirectorySeparatorChar);
+
+                var dateFromFileName = GetDateTimeFromFileName(blobStyleFullName);
+                var lastModified = blobItem.LastWriteTimeUtc;
+                listOfAll.Add(new ReportItem { Index = i, BlobItemName = blobStyleFullName, SplitBySlash = blobStyleFullName.Split(Path.DirectorySeparatorChar), DateFromFileName = dateFromFileName, LastModified = lastModified });
+                i++;
             }
         }
 
+        listOfAll = listOfAll.OrderByDescending(x => x.DateFromFileName).ToList();
+        var flatResults = new List<Test>();
+        var allSiteNames = listOfAll.Select(x => x.SplitBySlash?[2]).Distinct().ToList();
+        var siteId = 0;
+
+        foreach (var siteName in allSiteNames)
+        {
+            siteId++;
+
+            var matchingSite = siteRoot?.Sites.FirstOrDefault(x => GetPathName(x.Url) == siteName);
+
+            if (matchingSite == null)
+            {
+                continue;
+            }
+
+            matchingSite.Id = siteId;
+
+            foreach (var testType in AllTestTypes)
+            {
+                var latestReport = listOfAll.FirstOrDefault(x => x.SplitBySlash?[2] == siteName && x.SplitBySlash?[3] == "test-" + GetTypeOfTestFileName(testType.Key));
+
+                if (latestReport == null)
+                {
+                    continue;
+                }
+
+                this.Logger.LogInformation($"About to use: {latestReport.BlobItemName}");
+
+                var testRoot = JsonSerializer.Deserialize<TestRoot>(await File.ReadAllTextAsync(path.TrimEnd(Path.DirectorySeparatorChar) + Path.DirectorySeparatorChar + latestReport.BlobItemName));
+
+                if (testRoot == null)
+                {
+                    continue;
+                }
+
+                foreach (var test in testRoot.Tests)
+                {
+                    test.SiteId = siteId;
+
+                    if (test.Rating < 0.999)
+                    {
+                        test.Rating = 1.0;
+                    }
+
+                    flatResults.Add(test);
+                }
+            }
+        }
+
+        // // var last = list.Last().Name;
+        // // var filterBy = list.Last().Name[..(last.Length > 7 ? 8 : last.Length)];
+
+        // // list = list.Where(x => x.Name.StartsWith(filterBy)).ToList();
+
+        // // var results = list.Select(x =>
+        // //     JsonSerializer.Deserialize<TestRoot>(File.ReadAllText(x.FullName))
+        // //     ?? new TestRoot()).ToList();
+
         this.SiteRootToStartFrom = siteRoot;
 
-        var flatResults = results.SelectMany(x => x.Tests).OrderBy(x => x.SiteId).ThenBy(x => x.TypeOfTest).ToList();
+        // // var flatResults = results.SelectMany(x => x.Tests).OrderBy(x => x.SiteId).ThenBy(x => x.TypeOfTest).ToList();
         this.FlatResults = flatResults;
 
         // Generate files
-        CreateSitePages(siteRoot.Sites, flatResults, this.Configuration.GetAppSettingsContentRootPath());
+        CreateSitePages(siteRoot!.Sites, flatResults, this.Configuration.GetAppSettingsContentRootPath());
+    }
+
+    protected static string GetPathName(string url)
+    {
+        var pageFileName = GetSiteName(url);
+        return pageFileName
+            .Replace(".", "-")
+            .Replace("/", "-");
     }
 
     protected static double GetAverage(int forSiteId, List<Site> sites, List<Test> flatResults)
@@ -148,6 +234,12 @@
         return pageFileName
             .Replace(".", "-")
             .Replace("/", "-") + ".html";
+    }
+
+    protected static string GetTypeOfTestFileName(int id)
+    {
+        var x = id.ToString();
+        return x.Length == 1 ? "0" + x : x;
     }
 
     protected static string GetHtmlFromRating(Test result)
@@ -252,26 +344,7 @@
 
     private static string GetTypeOfTest(int id)
     {
-        var d = new Dictionary<int, string>
-        {
-            { 1, "Lighthouse Performance" },
-            { 2, "404 Page" },
-            { 4, "Lighthouse SEO" },
-            { 5, "Lighthouse Best Practices" },
-            { 6, "W3C HTML" },
-            { 7, "W3C CSS" },
-            { 9, "Standard Files" },
-            { 10, "Lighthouse A11y" },
-            { 15, "Sitespeed.io" },
-            { 17, "Yellow Lab Tools" },
-            { 18, "Pa11y" },
-            { 20, "Integrity & Security" },
-            { 21, "HTTP & Tech" },
-            { 22, "Carbon Calculator" },
-            { 25, "Software" },
-        };
-
-        return d.TryGetValue(id, out var test) ? test : "Unknown test";
+        return AllTestTypes.GetValueOrDefault(id, "Unknown test");
     }
 
     private static string GetSiteName(string input)
@@ -289,6 +362,26 @@
         return WebUtility.HtmlEncode(GetSiteName(input))
             .Replace(".", "&thinsp;.")
             .Replace("/", "/&thinsp;");
+    }
+
+    private static DateTime GetDateTimeFromFileName(string name)
+    {
+        // 2024-03-26-18-26.json
+        if (name.Length > 20 && (name.Contains(Path.DirectorySeparatorChar + "test-") || name.Contains(Path.DirectorySeparatorChar + "crux-")) && name.EndsWith(".json", StringComparison.Ordinal))
+        {
+            var lastPart = name.Substring(name.Length - 21).Replace(".json", string.Empty).Split('-');
+            var x = new DateTime(
+                Convert.ToInt32(lastPart[0]),
+                Convert.ToInt32(lastPart[1]),
+                Convert.ToInt32(lastPart[2]),
+                Convert.ToInt32(lastPart[3]),
+                Convert.ToInt32(lastPart[4]),
+                0);
+            var utcTime = DateTime.SpecifyKind(x, DateTimeKind.Utc);
+            return utcTime;
+        }
+
+        throw new NullReferenceException($"Name without date: " + name);
     }
 
     // Models used in JSON files
@@ -366,5 +459,18 @@
 
         [JsonPropertyName("data")]
         public string Data { get; set; }
+    }
+
+    public record ReportItem
+    {
+        public long Index { get; set; }
+
+        public required string BlobItemName { get; set; }
+
+        public required string[] SplitBySlash { get; set; }
+
+        public required DateTime DateFromFileName { get; set; }
+
+        public required DateTime LastModified { get; set; }
     }
 }

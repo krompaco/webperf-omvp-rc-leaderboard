@@ -1,0 +1,1 @@
+docker run -it --cpus="1.9" --pids-limit 2500 --shm-size=10g -e MAX_OLD_SPACE_SIZE=7000 -e WEBPERF_RUNNER_TYPES=sitespeed_base --rm --mount src="$(pwd)\results\",target=/usr/src/runner/results/,type=bind webperf-runner-omvp:latest bash
