@@ -1,0 +1,20 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.97,
+      "rating_sec": 4.97,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-09-27T08:23:48.879485",
+      "report": "- Technology used: js, sass, scss\r\n- Metadata used: preload, viewport\r\n- Javascript libraries used: bootstrap, next.js\r\n- Languages found: en\r\n- Image formats used: ico, webp\r\n",
+      "report_sec": "##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- bootstrap 5.3.2\r\n\r\n###### Affected resource(s):\r\n- https://www.cjsharp.com/_next/static/chunks/14.f34071e116019da0.js\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": "{\u0022issues\u0022: {\u0022BEHIND001\u0022: {\u0022softwares\u0022: [\u0022bootstrap 5.3.2\u0022], \u0022resources\u0022: [\u0022https://www.cjsharp.com/_next/static/chunks/14.f34071e116019da0.js\u0022], \u0022sub-issues\u0022: []}}, \u0022lang\u0022: {\u0022en\u0022: {\u0022?\u0022: {\u0022name\u0022: \u0022en\u0022, \u0022precision\u0022: 0.8}}}, \u0022meta\u0022: {\u0022preload\u0022: {\u0022?\u0022: {\u0022name\u0022: \u0022preload\u0022, \u0022precision\u0022: 0.5}}, \u0022viewport\u0022: {\u0022?\u0022: {\u0022name\u0022: \u0022viewport\u0022, \u0022precision\u0022: 0.5}}}, \u0022js\u0022: {\u0022next.js\u0022: {\u002214.1.0\u0022: {\u0022name\u0022: \u0022next.js\u0022, \u0022precision\u0022: 0.8, \u0022github-owner\u0022: \u0022vercel\u0022, \u0022github-repo\u0022: \u0022next.js\u0022}}, \u0022bootstrap\u0022: {\u00225.3.2\u0022: {\u0022name\u0022: \u0022bootstrap\u0022, \u0022precision\u0022: 0.5, \u0022github-owner\u0022: \u0022twbs\u0022, \u0022github-repo\u0022: \u0022bootstrap\u0022}}}, \u0022tech\u0022: {\u0022js\u0022: {\u0022?\u0022: {\u0022name\u0022: \u0022js\u0022, \u0022precision\u0022: 0.8}}, \u0022sass\u0022: {\u0022?\u0022: {\u0022name\u0022: \u0022sass\u0022, \u0022precision\u0022: 0.8}}, \u0022scss\u0022: {\u0022?\u0022: {\u0022name\u0022: \u0022scss\u0022, \u0022precision\u0022: 0.8}}}, \u0022img\u0022: {\u0022webp\u0022: {\u0022?\u0022: {\u0022name\u0022: \u0022webp\u0022, \u0022precision\u0022: 0.8}}, \u0022ico\u0022: {\u0022?\u0022: {\u0022name\u0022: \u0022ico\u0022, \u0022precision\u0022: 0.4}}}}"
+    }
+  ]
+}

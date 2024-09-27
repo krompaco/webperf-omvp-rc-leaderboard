@@ -1,0 +1,20 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.85,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.85,
+      "date": "2024-09-27T08:09:55.807153",
+      "report": "- The tested page has 1 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 1 ( 4.80 rating )\r\n- #1: Webpage - Number of errors: 1 ( 4.90 rating )\r\n  - A document must not include both a \u201Cmeta\u201D element with an \u201Chttp-equiv\u201D attribute whose value is \u201Ccontent-type\u201D, and a \u201Cmeta\u201D element with a \u201Ccharset\u201D attribute. (errors of this type: 1 pcs)\n",
+      "data": "{\u0022errors\u0022: {\u0022all\u0022: [{\u0022type\u0022: \u0022error\u0022, \u0022url\u0022: \u0022file:/usr/src/runner/cache/tedgustaf.com/1b68f59911f078eca336043faab386ca9307c8f8f344080a6251eeb9d40b9476821309eacf28f8669972c6ce091fbb4bee97673565b32270918e3ca9d503730b.txt.utf-8.cache.html\u0022, \u0022lastLine\u0022: 9, \u0022lastColumn\u0022: 71, \u0022firstColumn\u0022: 5, \u0022message\u0022: \u0022A document must not include both a \\u201cmeta\\u201d element with an \\u201chttp-equiv\\u201d attribute whose value is \\u201ccontent-type\\u201d, and a \\u201cmeta\\u201d element with a \\u201ccharset\\u201d attribute.\u0022, \u0022extract\u0022: \u0022f-8\\\u0022\u003E\\n    \u003Cmeta http-equiv=\\\u0022Content-Type\\\u0022 content=\\\u0022text/html; charset=utf-8\\\u0022\u003E\\n\\n    \u0022, \u0022hiliteStart\u0022: 10, \u0022hiliteLength\u0022: 67}], \u0022html_files\u0022: [{\u0022type\u0022: \u0022error\u0022, \u0022url\u0022: \u0022file:/usr/src/runner/cache/tedgustaf.com/1b68f59911f078eca336043faab386ca9307c8f8f344080a6251eeb9d40b9476821309eacf28f8669972c6ce091fbb4bee97673565b32270918e3ca9d503730b.txt.utf-8.cache.html\u0022, \u0022lastLine\u0022: 9, \u0022lastColumn\u0022: 71, \u0022firstColumn\u0022: 5, \u0022message\u0022: \u0022A document must not include both a \\u201cmeta\\u201d element with an \\u201chttp-equiv\\u201d attribute whose value is \\u201ccontent-type\\u201d, and a \\u201cmeta\\u201d element with a \\u201ccharset\\u201d attribute.\u0022, \u0022extract\u0022: \u0022f-8\\\u0022\u003E\\n    \u003Cmeta http-equiv=\\\u0022Content-Type\\\u0022 content=\\\u0022text/html; charset=utf-8\\\u0022\u003E\\n\\n    \u0022, \u0022hiliteStart\u0022: 10, \u0022hiliteLength\u0022: 67}]}}"
+    }
+  ]
+}

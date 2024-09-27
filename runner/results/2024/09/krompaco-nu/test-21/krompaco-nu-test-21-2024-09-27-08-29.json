@@ -1,0 +1,20 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 21,
+      "rating": 2.33,
+      "rating_sec": 2.14,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 1.89,
+      "date": "2024-09-27T08:30:29.590924",
+      "report": "\r\n##### Want to improve your Content-Security-Policy game?\r\nWhy not try the below Content-Security-Policy response header to get started using Content Security Policy?\r\nRemember, below recommendation is only based on a sample (read: 1 page(s)) of all pages on your website\r\nand based without clicking on anything.\r\n\r\n###### Recommended Content-Security-Policy policies:\r\n- default-src \u0027none\u0027;\r\n- base-uri \u0027self\u0027;\r\n- form-action \u0027none\u0027;\r\n- object-src \u0027none\u0027;\r\n- frame-ancestors \u0027none\u0027;\r\n\r\n###### Recommended CSP Rating:\r\n- Overall: 5.0\r\n- Integrity \u0026 Security: 5.0\r\n- Standards: 5.0\r\n\r\nRead more: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy\r\n\r\n",
+      "report_sec": "- krompaco.nu, has HTTPS support? ( 1.00 rating )\r\n- krompaco.nu, Uses HTTP redirect ( 1.00 rating )\r\n- krompaco.nu, Is NOT using HSTS ( 1.00 rating )\r\n- krompaco.nu, No support for transport layer: TLSv1.3 ( 1.00 rating )\r\n- krompaco.nu, No support for transport layer: TLSv1.2 ( 1.00 rating )\r\n- krompaco.nu, No support for transport layer: TLSv1.1 ( 5.00 rating )\r\n- krompaco.nu, No support for transport layer: TLSv1.0 ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- krompaco.nu, No HTTPv1.1 support ( 1.00 rating )\r\n- krompaco.nu, No HTTPv2 support ( 1.00 rating )\r\n- krompaco.nu, No HTTPv3 support ( 1.00 rating )\r\n- krompaco.nu, has HTTPS support? ( 1.00 rating )\r\n- krompaco.nu, Is NOT using HSTS ( 1.00 rating )\r\n- krompaco.nu, IPv4 support ( 5.00 rating )\r\n- krompaco.nu, IPv6 support ( 5.00 rating )\r\n- krompaco.nu, No support for transport layer: TLSv1.3 ( 1.00 rating )\r\n- krompaco.nu, No support for transport layer: TLSv1.2 ( 1.00 rating )\r\n",
+      "data": "{\u0022visits\u0022: 0, \u0022krompaco.nu\u0022: {\u0022protocols\u0022: [], \u0022schemes\u0022: [\u0022HTTP-REDIRECT*\u0022], \u0022ip-versions\u0022: [\u0022IPv4*\u0022, \u0022IPv6*\u0022], \u0022transport-layers\u0022: [], \u0022features\u0022: [\u0022HSTS-PRELOAD*\u0022], \u0022csp-findings\u0022: {\u0022quotes\u0022: [], \u0022host-sources\u0022: [], \u0022scheme-sources\u0022: [], \u0022font-sources\u0022: []}, \u0022csp-recommendation\u0022: [\u0022default-src \u0027none\u0027;base-uri \u0027self\u0027;form-action \u0027none\u0027;object-src \u0027none\u0027;frame-ancestors \u0027none\u0027;\u0022]}}"
+    }
+  ]
+}

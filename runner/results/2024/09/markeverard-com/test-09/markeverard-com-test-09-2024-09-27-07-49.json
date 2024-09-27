@@ -1,0 +1,20 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 2.0,
+      "rating_sec": 1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 1.0,
+      "date": "2024-09-27T07:49:42.091750",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt is missing, not allowed to download or has not the expected content. ( 1.00 rating )\r\n- Sitemap is not specified in robots.txt ( 1.00 rating )\r\n- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "data": "{\u0022url\u0022: \u0022https://www.markeverard.com/\u0022, \u0022root_url\u0022: \u0022https://www.markeverard.com/\u0022, \u0022robots\u0022: {\u0022url\u0022: \u0022https://www.markeverard.com/robots.txt\u0022, \u0022content\u0022: null, \u0022status\u0022: \u0022missing content\u0022}, \u0022sitemap\u0022: {\u0022nof_sitemaps\u0022: 0, \u0022sitemap_urls_in_robots\u0022: [], \u0022sitemaps\u0022: {}, \u0022use_https_only\u0022: true, \u0022use_same_domain\u0022: true, \u0022known_types\u0022: {}, \u0022has_duplicates_items\u0022: false, \u0022is_duplicate\u0022: false, \u0022nof_items\u0022: 0, \u0022nof_items_no_duplicates\u0022: 0, \u0022status\u0022: \u0022not in robots.txt\u0022}, \u0022feeds\u0022: {\u0022nof_feeds\u0022: 2, \u0022feeds\u0022: [\u0022https://www.markeverard.com/feed.xml\u0022, \u0022https://www.markeverard.com/feed.xml\u0022], \u0022status\u0022: \u0022found in meta\u0022}, \u0022security\u0022: {\u0022txts\u0022: {\u0022https://www.markeverard.com/.well-known/security.txt\u0022: {\u0022status\u0022: \u0022wrong content\u0022}, \u0022https://www.markeverard.com/security.txt\u0022: {\u0022status\u0022: \u0022wrong content\u0022}}, \u0022status\u0022: \u0022wrong content\u0022}}"
+    }
+  ]
+}

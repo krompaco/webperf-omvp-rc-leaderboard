@@ -1,0 +1,20 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 5,
+      "rating": 2.7,
+      "rating_sec": 4.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-09-27T08:05:54.215443",
+      "report": "- The website is pretty bad on what is considered best practice, according to Google Lighthouse.\n- Uses deprecated APIs ( 1.00 rating )\r\n- Uses third-party cookies ( 1.00 rating )\r\n- Uses HTTPS ( 5.00 rating )\r\n- Browser errors were logged to the console ( 1.00 rating )\r\n- Displays images with incorrect aspect ratio ( 1.00 rating )\r\n- Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools ( 1.00 rating )\r\n- Allows users to paste into input fields ( 5.00 rating )\r\n- Has a \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 tag with \u0060width\u0060 or \u0060initial-scale\u0060 ( 5.00 rating )\r\n- Serves images with appropriate resolution ( 5.00 rating )\r\n- Page has the HTML doctype ( 5.00 rating )\r\n- Properly defines charset ( 5.00 rating )\r\n- Avoids requesting the geolocation permission on page load ( 5.00 rating )\r\n- Avoids requesting the notification permission on page load ( 5.00 rating )\r\n- Document uses legible font sizes ( 5.00 rating )\r\n- Page has valid source maps ( 5.00 rating )\r\n- Ensure CSP is effective against XSS attacks ( 5.00 rating )\r\n- Detected JavaScript libraries ( 5.00 rating )\r\n",
+      "report_sec": "- Uses HTTPS ( 5.00 rating )\r\n- Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools ( 1.00 rating )\r\n- Allows users to paste into input fields ( 5.00 rating )\r\n- Ensure CSP is effective against XSS attacks ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Page has the HTML doctype ( 5.00 rating )\r\n",
+      "data": "{\u0022first-contentful-paint\u0022: 4426.2492999999995, \u0022largest-contentful-paint\u0022: 5274.1315, \u0022speed-index\u0022: 20403.059771493146, \u0022total-blocking-time\u0022: 149443.032, \u0022max-potential-fid\u0022: 7144, \u0022cumulative-layout-shift\u0022: 0, \u0022server-response-time\u0022: 448.20399999999995, \u0022interactive\u0022: 164798.63, \u0022redirects\u0022: 0, \u0022mainthread-work-breakdown\u0022: 178138.59199999945, \u0022bootup-time\u0022: 14551.763999999968, \u0022uses-rel-preconnect\u0022: 0, \u0022network-rtt\u0022: 200.50000000000003, \u0022network-server-latency\u0022: 239.91, \u0022metrics\u0022: 164799, \u0022prioritize-lcp-image\u0022: 0, \u0022uses-long-cache-ttl\u0022: 1004744.7261175927, \u0022total-byte-weight\u0022: 2264758, \u0022offscreen-images\u0022: 170, \u0022render-blocking-resources\u0022: 1414, \u0022unminified-css\u0022: 0, \u0022unminified-javascript\u0022: 0, \u0022unused-css-rules\u0022: 170, \u0022unused-javascript\u0022: 520, \u0022modern-image-formats\u0022: 0, \u0022uses-optimized-images\u0022: 0, \u0022uses-text-compression\u0022: 0, \u0022uses-responsive-images\u0022: 0, \u0022efficient-animated-content\u0022: 0, \u0022duplicated-javascript\u0022: 0, \u0022legacy-javascript\u0022: 0, \u0022dom-size\u0022: 2438, \u0022uses-http2\u0022: 0}"
+    }
+  ]
+}
