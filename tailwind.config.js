@@ -9,7 +9,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Inter var', 'Arial', 'Helvetica', 'sans-serif'],
+				sans: ['Funkis Variable', 'Arial', 'Helvetica', 'sans-serif'],
 			}
 		},
 	}

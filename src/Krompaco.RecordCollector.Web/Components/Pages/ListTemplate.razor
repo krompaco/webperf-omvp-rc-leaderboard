@@ -1,7 +1,3 @@
-@inject ILogger<ListTemplate> Logger
-@inject NavigationManager NavigationManager
-@inject IHttpContextAccessor HttpContextAccessor
-
 @{
     if (Model == null)
     {
@@ -27,15 +23,5 @@
 @code {
     [Parameter]
     public ListPageViewModel? Model { get; set; }
-
-    // // protected override async Task OnInitializedAsync()
-    // // {
-    // //     Logger.LogInformation("Hello from ListTemplate.OnInitializedAsync()");
-    // // }
-
-    protected override void OnInitialized()
-    {
-        Logger.LogInformation("Hello from ListTemplate.OnInitialized()");
-    }
 }
 

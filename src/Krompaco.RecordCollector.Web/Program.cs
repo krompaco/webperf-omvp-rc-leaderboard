@@ -148,6 +148,8 @@ app.Use(async (context, next) =>
         var doc = new HtmlDocument();
         doc.LoadHtml(html);
 
+        var ratingRegex = new Regex(@"\( (.*?) rating \)", RegexOptions.Compiled);
+
         foreach (var node in doc.DocumentNode.Descendants())
         {
             if (node.NodeType != HtmlNodeType.Element)
@@ -155,31 +157,32 @@ app.Use(async (context, next) =>
                 continue;
             }
 
-            if (node.Name == "p" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "inline-block my-3 px-2 py-1 rounded-md")
+            if (node.Name == "p" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "inline-block my-3 px-2 pt-1.5 pb-1 rounded-md")
             {
                 node.Attributes["class"].Value += " font-bold " + GetRatingClassName(node.InnerText);
             }
 
-            if (node.Name == "p" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl px-2 py-1 rounded-md")
+            if (node.Name == "p" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl pt-1.5 pb-1 rounded-md")
             {
                 node.Attributes["class"].Value += " font-bold " + GetRatingClassName(node.InnerText);
             }
 
-            if (node.Name == "li" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "text-xs")
+            if (node.Name == "a" && !node.Attributes.Contains("class"))
             {
-                var content = node.InnerHtml
-                    .Replace("<p>", string.Empty)
-                    .Replace("</p>", string.Empty)
-                    .Replace("!!", "!");
+                node.Attributes.Add("class", "link-primary outline-primary");
+            }
 
-                node.InnerHtml = "<span class=\"flex items-center p-[3px] min-h-[31px]\"><span>" + content + "</span></span>";
-
-                var match = Regex.Match(node.InnerHtml, @"\( (.*) rating \)");
-
-                if (match.Success && match.Groups.Count > 0)
+            if (node.Name == "div" && node.Attributes.Contains("class") && node.Attributes["class"].Value.StartsWith("webperf-md "))
+            {
+                foreach (Match match in ratingRegex.Matches(node.InnerHtml))
                 {
-                    var rating = match.Groups[1].Value;
-                    node.InnerHtml = node.InnerHtml.Replace(match.Groups[0].Value, "</span><span class=\"flex-none ml-3 " + GetRatingClassName(rating) + " px-[3px] py-[1px] rounded-md font-bold\">" + rating);
+                    if (match.Success && match.Groups.Count > 0)
+                    {
+                        var rating = match.Groups[1].Value;
+                        node.InnerHtml = node.InnerHtml
+                            .Replace(match.Groups[0].Value, "<span class=\"inline-block ml-3 " + GetRatingClassName(rating) + " px-[3px] pt-[2px] pb-[1px] my-[1px] rounded-md font-bold\">" + rating + "</span>")
+                            .Replace("<br> <span", " <span");
+                    }
                 }
             }
         }

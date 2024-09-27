@@ -1,6 +1,7 @@
 @using System.Text.Json
 @using System.Net
 @using System.Text
+@using System.Text.Encodings.Web
 @using System.Text.Json.Serialization
 
 @inject ILogger<Board> Logger
@@ -37,7 +38,7 @@
             @((MarkupString)GetSiteNameHtml(site.Url))
         </a>
 
-        <span class="@Program.GetRatingClassName(siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))) px-2 py-1 rounded-md">
+        <span class="@Program.GetRatingClassName(siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))) px-2 pt-1.5 pb-1 rounded-md">
             @siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))
         </span>
     </h2>
@@ -45,7 +46,7 @@
     <ul class="flex items-center flex-wrap gap-3 mt-1">
         @foreach (var result in siteResults)
         {
-            <li class="@Program.GetRatingClassName(result.Rating.ToString("0.00", new CultureInfo("en-US"))) px-2 py-1 rounded-md mt-3">
+            <li class="@Program.GetRatingClassName(result.Rating.ToString("0.00", new CultureInfo("en-US"))) px-2 pt-1.5 pb-1 rounded-md mt-3">
                 <span class="font-extrabold">
                     @GetTypeOfTest(result.TypeOfTest)
                 </span>
@@ -74,10 +75,10 @@
         { 17, "Yellow Lab Tools" },
         { 18, "Pa11y" },
         { 20, "Integrity & Security" },
-        { 21, "HTTP & Tech" },
+        ////{ 21, "HTTP & Tech" },
         { 22, "Carbon Calculator" },
         { 23, "Tracking" },
-        { 24, "E-mail*" },
+        ////{ 24, "E-mail*" },
         { 25, "Software" },
         ////{ 26, "A11y Statement" },
     };
@@ -196,18 +197,7 @@
             }
         }
 
-        // // var last = list.Last().Name;
-        // // var filterBy = list.Last().Name[..(last.Length > 7 ? 8 : last.Length)];
-
-        // // list = list.Where(x => x.Name.StartsWith(filterBy)).ToList();
-
-        // // var results = list.Select(x =>
-        // //     JsonSerializer.Deserialize<TestRoot>(File.ReadAllText(x.FullName))
-        // //     ?? new TestRoot()).ToList();
-
         this.SiteRootToStartFrom = siteRoot;
-
-        // // var flatResults = results.SelectMany(x => x.Tests).OrderBy(x => x.SiteId).ThenBy(x => x.TypeOfTest).ToList();
         this.FlatResults = flatResults;
 
         // Generate files
@@ -228,6 +218,11 @@
         return !siteResults.Any() ? 0d : siteResults.Average(x => x.Rating);
     }
 
+    protected static double GetAverageByTests(List<Test> tests)
+    {
+        return !tests.Any() ? 0d : tests.Where(x => !TestTypesExcludedFromAverageRating.Contains(x.TypeOfTest)).Average(x => x.Rating);
+    }
+
     protected static string GetFileName(Site site)
     {
         var pageFileName = GetSiteName(site.Url);
@@ -242,55 +237,69 @@
         return x.Length == 1 ? "0" + x : x;
     }
 
-    protected static string GetHtmlFromRating(Test result)
+    protected static string GetHtmlFromTest(Test result)
     {
         var md = result.Report;
 
-        if (!string.IsNullOrWhiteSpace(result.ReportA11y) && result.TypeOfTest != 9 && result.TypeOfTest != 21)
+        // { 1, "Lighthouse Performance" },
+        // { 2, "404 Page" },
+        // { 4, "Lighthouse SEO" },
+        // { 5, "Lighthouse Best Practices" },
+        // { 6, "W3C HTML" },
+        // { 7, "W3C CSS" },
+        // { 9, "Standard Files" },
+        // { 10, "Lighthouse A11y" },
+        // { 15, "Sitespeed.io" },
+        // { 17, "Yellow Lab Tools" },
+        // { 18, "Pa11y" },
+        // { 20, "Integrity & Security" },
+        // { 21, "HTTP & Tech" },
+        // { 22, "Carbon Calculator" },
+        // { 23, "Tracking" },
+        // { 24, "E-mail" },
+        // { 25, "Software" },
+        // { 26, "A11y Statement" },
+        if (!string.IsNullOrWhiteSpace(result.ReportA11y)
+            && result.TypeOfTest != 2
+            && result.TypeOfTest != 21)
         {
-            md += Environment.NewLine + Environment.NewLine + result.ReportA11y;
+            md += Environment.NewLine + Environment.NewLine + "Accessibility section:" + Environment.NewLine + result.ReportA11y;
         }
 
-        if (!string.IsNullOrWhiteSpace(result.ReportPerf) && result.TypeOfTest != 9 && result.TypeOfTest != 21)
+        if (!string.IsNullOrWhiteSpace(result.ReportPerf)
+            && result.TypeOfTest != 21)
         {
-            md += Environment.NewLine + Environment.NewLine + result.ReportPerf;
+            md += Environment.NewLine + Environment.NewLine + "Performance section:" + Environment.NewLine + result.ReportPerf;
         }
 
-        if (!string.IsNullOrWhiteSpace(result.ReportSec) && result.TypeOfTest != 9 && result.TypeOfTest != 21)
+        if (!string.IsNullOrWhiteSpace(result.ReportSec)
+            && result.TypeOfTest != 5
+            && result.TypeOfTest != 9
+            && result.TypeOfTest != 17
+            && result.TypeOfTest != 21
+            && result.TypeOfTest != 24)
         {
-            md += Environment.NewLine + Environment.NewLine + result.ReportSec;
+            md += Environment.NewLine + Environment.NewLine + "Security section:" + Environment.NewLine + result.ReportSec;
         }
 
-        if (!string.IsNullOrWhiteSpace(result.ReportStand) && result.TypeOfTest != 9)
+        if (!string.IsNullOrWhiteSpace(result.ReportStand)
+            && result.TypeOfTest != 1
+            && result.TypeOfTest != 2
+            && result.TypeOfTest != 4
+            && result.TypeOfTest != 5
+            && result.TypeOfTest != 17)
         {
-            md += Environment.NewLine + Environment.NewLine + result.ReportStand;
+            md += Environment.NewLine + Environment.NewLine + "Standards section:" + Environment.NewLine + result.ReportStand;
         }
 
-        var pl = new MarkdownPipelineBuilder()
-            .Use<HtmlTableWithWrapperExtension>()
-            .UseAbbreviations()
-            .UseCitations()
-            .UseDefinitionLists()
-            .UseEmphasisExtras()
-            .UseFigures()
-            .UseFooters()
-            .UseFootnotes()
-            .UseGridTables()
-            .UseMathematics()
-            .UseMediaLinks()
-            .UsePipeTables()
-            .UseListExtras()
-            .UseTaskLists()
-            .UseDiagrams()
-            .UseAutoLinks()
-            .UseGenericAttributes()
-            .Build();
+        md = md.Trim('\r', '\n', ' ', '\t');
 
-        return Markdown.ToHtml(md, pl)
-            .Replace("<li>", "<li class=\"text-xs\">")
-            .Replace("<ul>", "<ul class=\"list-disc list-outside ml-4 space-y-1\">")
-            .Replace("org.w3c.css.parser.analyzer.ParseException", "analyzer.ParseException")
-            .Replace("Look up", " Look up");
+        if (string.IsNullOrWhiteSpace(md))
+        {
+            md = result.TypeOfTest == 26 ? "- No accessibility statement detected." : "- No report data created.";
+        }
+
+        return $"<div class=\"webperf-md text-xs mt-1\">{HtmlEncoder.Default.Encode(md).Replace("&#xD;&#xA;", "<br>").Replace("&#xA;", "<br>").Replace("<br><br><br><br>", "<br><br>").Replace("<br><br><br>", "<br><br>").Replace("&amp;quot;", @"""")}</div>";
     }
 
     protected static void CreateSitePages(List<Site> sites, List<Test> flatResults, string contentPath)
@@ -308,7 +317,6 @@
             {
                 var pageFullPath = Path.Combine(sitesPath, GetFileName(site));
 
-
                 if (File.Exists(pageFullPath))
                 {
                     return;
@@ -321,20 +329,15 @@
                     continue;
                 }
 
-                var pageHtml = $"<p class=\"inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl px-2 py-1 rounded-md\">{siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))}</p><p class=\"mt-4 font-medium text-lg\">Results collected {siteResults.First().Date:yyyy-MM-dd} from <a href=\"{WebUtility.HtmlEncode(site.Url)}\" class=\"link-primary outline-primary\">{WebUtility.HtmlEncode(site.Url)}</a></p>";
+                var pageHtml = $"<p class=\"inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl px-2 pt-1.5 pb-1 rounded-md\">{GetAverageByTests(siteResults).ToString("0.00", new CultureInfo("en-US"))}</p><p class=\"mt-4 font-medium text-lg\">Results from <a href=\"{WebUtility.HtmlEncode(site.Url)}\" class=\"link-primary outline-primary\">{WebUtility.HtmlEncode(site.Url)}</a></p>";
 
                 foreach (var result in siteResults)
                 {
                     pageHtml +=
-                        $"<div class=\"mt-10\"><h2 class=\"mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl\">{WebUtility.HtmlEncode(GetTypeOfTest(result.TypeOfTest))}</h2><p class=\"inline-block my-3 px-2 py-1 rounded-md\">{result.Rating.ToString("0.00", new CultureInfo("en-US"))}</p>{GetHtmlFromRating(result)}</div>";
+                        $"<div class=\"mt-10\"><h2 class=\"mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl\">{WebUtility.HtmlEncode(GetTypeOfTest(result.TypeOfTest))}</h2><p class=\"inline-block my-3 px-2 pt-1.5 pb-1 rounded-md\">{result.Rating.ToString("0.00", new CultureInfo("en-US"))}</p><p class=\"font-medium text-sm\">Results collected at {result.Date:yyyy-MM-dd}</p>{GetHtmlFromTest(result)}</div>";
                 }
 
-                var pageFileContent = @"{
-    ""title"": """ + GetSiteNameHtml(site.Url) + @""",
-    ""date"": """ + DateTime.UtcNow.ToString("yyyy-MM-dd") + @""",
-    ""description"": ""Webperf ratings for " + GetSiteName(site.Url) + @".""
-}
-" + pageHtml;
+                var pageFileContent = $"{{{Environment.NewLine}\"title\": \"{GetSiteNameHtml(site.Url)}\", \"date\": \"{DateTime.UtcNow:yyyy-MM-dd}\", \"description\": \"Webperf ratings for {GetSiteName(site.Url)}\"{Environment.NewLine}}}{Environment.NewLine}{pageHtml}";
 
                 using var sw = new StreamWriter(File.Open(pageFullPath, FileMode.Create), new UTF8Encoding(false));
                 sw.WriteLine(pageFileContent);

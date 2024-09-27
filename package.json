@@ -5,13 +5,9 @@
 		"prodbuild": "tailwindcss -i ./styles.css -o ./src/Krompaco.RecordCollector.Web/wwwroot/dist/styles.css --postcss --minify"
 	},
 	"devDependencies": {
-		"autoprefixer": "^10.4.5",
-		"tailwindcss": "^3.0.24"
-	},
-	"dependencies": {
-		"lighthouse": "^9.6.8",
-		"node-gyp": "^9.4.1",
-		"pa11y-ci": "^3.1.0",
-		"yellowlabtools": "^2.2.0"
+		"@netlify/plugin-a11y": "^1.0.0-beta.1",
+		"netlify-plugin-html-validate": "^1.1.1",
+		"autoprefixer": "^10.4.20",
+		"tailwindcss": "^3.4.13"
 	}
 }
