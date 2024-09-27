@@ -162,7 +162,7 @@ app.Use(async (context, next) =>
                 node.Attributes["class"].Value += " font-bold " + GetRatingClassName(node.InnerText);
             }
 
-            if (node.Name == "p" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl pt-1.5 pb-1 rounded-md")
+            if (node.Name == "p" && node.Attributes.Contains("class") && node.Attributes["class"].Value == "inline-block mt-4 text-xl tracking-tight font-bold md:text-2xl px-2 pt-1.5 pb-1 rounded-md")
             {
                 node.Attributes["class"].Value += " font-bold " + GetRatingClassName(node.InnerText);
             }
