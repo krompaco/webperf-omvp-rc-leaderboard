@@ -1,0 +1,20 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.96,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.96,
+      "date": "2024-10-16T06:24:02.593953",
+      "report": "- The CSS is very good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Cbackground-position\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": "{\u0022has_style_elements\u0022: false, \u0022has_style_attributes\u0022: true, \u0022has_css_files\u0022: true, \u0022errors\u0022: {\u0022all\u0022: [{\u0022type\u0022: \u0022error\u0022, \u0022url\u0022: \u0022file:/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache\u0022, \u0022lastLine\u0022: 9, \u0022lastColumn\u0022: 15264, \u0022firstColumn\u0022: 15262, \u0022message\u0022: \u0022CSS: \\u201cbackground-position\\u201d: Too many values or values are not recognized.\u0022, \u0022extract\u0022: \u0022position:100% -50px 0% center top}@medi\u0022, \u0022hiliteStart\u0022: 30, \u0022hiliteLength\u0022: 3}], \u0022style_element\u0022: [], \u0022style_attribute\u0022: [], \u0022style_files\u0022: [{\u0022type\u0022: \u0022error\u0022, \u0022url\u0022: \u0022file:/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache\u0022, \u0022lastLine\u0022: 9, \u0022lastColumn\u0022: 15264, \u0022firstColumn\u0022: 15262, \u0022message\u0022: \u0022CSS: \\u201cbackground-position\\u201d: Too many values or values are not recognized.\u0022, \u0022extract\u0022: \u0022position:100% -50px 0% center top}@medi\u0022, \u0022hiliteStart\u0022: 30, \u0022hiliteLength\u0022: 3}]}}"
+    }
+  ]
+}

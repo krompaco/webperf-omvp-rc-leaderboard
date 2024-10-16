@@ -1,0 +1,20 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.95,
+      "date": "2024-10-16T06:39:08.909045",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 1 ( 4.90 rating )\r\n  - CSS: The media \u201Cprojection\u201D has been deprecated (number of errors of this type: 1)\n- \u0060style=\u0022\u0022\u0060 in: #12: BlogList.html, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #12: BlogList.html, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #2: css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #2: css, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #6: prettify.css, number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #6: prettify.css, number of errors: 1 ( 4.90 rating )\r\n  - CSS: The media \u201Cprojection\u201D has been deprecated (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": "{\u0022has_style_elements\u0022: false, \u0022has_style_attributes\u0022: true, \u0022has_css_files\u0022: true, \u0022errors\u0022: {\u0022all\u0022: [{\u0022type\u0022: \u0022error\u0022, \u0022url\u0022: \u0022file:/usr/src/runner/cache/www.herlitz.io/f109532e54293f75ed27e11c84fac19e8e784bbcaf4ff67d78e383c97cfb728b73a1729d989e85cbe8bf478b5be1d3c0b966d5e7acea8c8040c54ece92a4c176.txt.utf-8.cache\u0022, \u0022lastLine\u0022: 0, \u0022lastColumn\u0022: 0, \u0022message\u0022: \u0022CSS: The media \\u201cprojection\\u201d has been deprecated\u0022, \u0022extract\u0022: \u0022\u003C!DOCTYPE html\u003E\u0022, \u0022hiliteStart\u0022: 0, \u0022hiliteLength\u0022: 1}], \u0022style_element\u0022: [], \u0022style_attribute\u0022: [], \u0022style_files\u0022: [{\u0022type\u0022: \u0022error\u0022, \u0022url\u0022: \u0022file:/usr/src/runner/cache/www.herlitz.io/f109532e54293f75ed27e11c84fac19e8e784bbcaf4ff67d78e383c97cfb728b73a1729d989e85cbe8bf478b5be1d3c0b966d5e7acea8c8040c54ece92a4c176.txt.utf-8.cache\u0022, \u0022lastLine\u0022: 0, \u0022lastColumn\u0022: 0, \u0022message\u0022: \u0022CSS: The media \\u201cprojection\\u201d has been deprecated\u0022, \u0022extract\u0022: \u0022\u003C!DOCTYPE html\u003E\u0022, \u0022hiliteStart\u0022: 0, \u0022hiliteLength\u0022: 1}]}}"
+    }
+  ]
+}

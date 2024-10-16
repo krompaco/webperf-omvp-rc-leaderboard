@@ -1,0 +1,20 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.7,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.7,
+      "rating_stand": -1.0,
+      "date": "2024-10-16T06:08:43.357129",
+      "report": "- The website can be more accessible, but is rather good!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 2 ( 4.60 rating )\r\n- Number of issues: 2 ( 4.80 rating )\r\n\n##### Problems:\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #767676.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.06:1. Recommendation:  change background to #00aa68.\n",
+      "report_stand": "",
+      "data": "[{\u0022code\u0022: \u0022WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail\u0022, \u0022type\u0022: \u0022error\u0022, \u0022typeCode\u0022: 1, \u0022message\u0022: \u0022This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.06:1. Recommendation:  change background to #00aa68.\u0022, \u0022context\u0022: \u0022\u003Ch2 class=\\\u0022t--section\\\u0022\u003ECurrently at T\u0026amp;G\u003C/h2\u003E\u0022, \u0022selector\u0022: \u0022html \u003E body \u003E div \u003E div:nth-child(3) \u003E section \u003E div:nth-child(1) \u003E h2\u0022, \u0022runner\u0022: \u0022htmlcs\u0022, \u0022runnerExtras\u0022: {}}, {\u0022code\u0022: \u0022WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail\u0022, \u0022type\u0022: \u0022error\u0022, \u0022typeCode\u0022: 1, \u0022message\u0022: \u0022This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #767676.\u0022, \u0022context\u0022: \u0022\u003Cspan class=\\\u0022c-scroll-top__label t--distinct\\\u0022\u003EBack to top\u003C/span\u003E\u0022, \u0022selector\u0022: \u0022html \u003E body \u003E button:nth-child(6) \u003E span:nth-child(2)\u0022, \u0022runner\u0022: \u0022htmlcs\u0022, \u0022runnerExtras\u0022: {}}]"
+    }
+  ]
+}
