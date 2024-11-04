@@ -80,7 +80,7 @@
         ////{ 23, "Tracking" },
         ////{ 24, "E-mail*" },
         { 25, "Software" },
-        ////{ 26, "A11y Statement" },
+        ////{ 26, "A11y Statement*" },
     };
 
     public static int[] TestTypesExcludedFromAverageRating { get; } = [24, 26];
@@ -176,7 +176,8 @@
 
                 this.Logger.LogInformation($"About to use: {latestReport.BlobItemName}");
 
-                var testRoot = JsonSerializer.Deserialize<TestRoot>(await File.ReadAllTextAsync(path.TrimEnd(Path.DirectorySeparatorChar) + Path.DirectorySeparatorChar + latestReport.BlobItemName));
+                var jsonContent = await File.ReadAllTextAsync(path.TrimEnd(Path.DirectorySeparatorChar) + Path.DirectorySeparatorChar + latestReport.BlobItemName);
+                var testRoot = JsonSerializer.Deserialize<TestRoot>(jsonContent);
 
                 if (testRoot == null)
                 {
@@ -461,7 +462,7 @@
         public string ReportStand { get; set; }
 
         [JsonPropertyName("data")]
-        public string Data { get; set; }
+        public dynamic Data { get; set; }
     }
 
     public record ReportItem

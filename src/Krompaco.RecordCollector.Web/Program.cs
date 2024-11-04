@@ -125,7 +125,7 @@ if (frontendSetup == "simplecss")
     });
 }
 
-// Fix markup in 
+// Fix markup
 app.Use(async (context, next) =>
 {
     // Way that should work to only process HTML output
