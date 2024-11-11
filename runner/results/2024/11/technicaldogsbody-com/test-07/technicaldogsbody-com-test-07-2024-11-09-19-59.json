@@ -1,0 +1,690 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.72,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.72,
+      "date": "2024-11-09T20:00:00.957710",
+      "report": "- The CSS is very good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 6 ( 3.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 27 ( 2.30 rating )\r\n  - CSS: \u201Ccolor\u201D: Parse Error. (number of errors of this type: 12)\n  - CSS: \u201Cfilter\u201D: Parse Error. (number of errors of this type: 5)\n  - CSS: Parse Error. (number of errors of this type: 4)\n  - CSS: \u201Ctransition\u201D: \u201C0\u201D is not a \u201Ctransition\u201D value. (number of errors of this type: 1)\n  - CSS: \u201Ctransition-delay\u201D: \u201C0\u201D is not a \u201Ctransition-delay\u201D value. (number of errors of this type: 1)\n  - CSS: \u201Ccolor\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n  - CSS: \u201Cbadding-bottom\u201D: Property \u201Cbadding-bottom\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cperspective\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number. (number of errors of this type: 1)\n  - CSS: \u201Cpadding\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #42: icons.css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #42: icons.css, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #43: icomoon.css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #43: icomoon.css, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #44: font-awesome-br, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #44: font-awesome-br, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #70: css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #70: css, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 4233,
+              "lastColumn": 73,
+              "message": "CSS: \u201Ctransition\u201D: \u201C0\u201D is not a \u201Ctransition\u201D value.",
+              "extract": "(--ease-default);\n}\n\n.mi-chevr",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5790,
+              "lastColumn": 45,
+              "message": "CSS: Parse Error.",
+              "extract": "(ease-default);\n}\n\n    .text-l",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5793,
+              "firstLine": 5791,
+              "lastColumn": 4,
+              "firstColumn": 2,
+              "message": "CSS: Parse Error.",
+              "extract": "all 0.17s var(ease-default);\n}\n\n    .text-",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5837,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5853,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5869,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5877,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5885,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5893,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5901,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5909,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5918,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5998,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 6006,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 6040,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 6726,
+              "lastColumn": 23,
+              "message": "CSS: \u201Ctransition-delay\u201D: \u201C0\u201D is not a \u201Ctransition-delay\u201D value.",
+              "extract": "nsition-delay: 0;\n}\n\n.light-co",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 9849,
+              "lastColumn": 33,
+              "firstColumn": 31,
+              "message": "CSS: \u201Ccolor\u201D: Too many values or values are not recognized.",
+              "extract": "    color: var(--color-dark-1)111;\n    ",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 14075,
+              "lastColumn": 23,
+              "firstColumn": 21,
+              "message": "CSS: \u201Cbadding-bottom\u201D: Property \u201Cbadding-bottom\u201D doesn\u0027t exist.",
+              "extract": "ht: 20px;\n    badding-bottom: 1px;\n    ",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 11,
+              "lastColumn": 33,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": "( opacity = 80)\n}.mfp-wrap {\n ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 154,
+              "lastColumn": 1,
+              "message": "CSS: Parse Error.",
+              "extract": "\n    border: 0\n}.mfp-close {\n ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 164,
+              "lastColumn": 32,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": "a( opacity = 65);\n\npadding:\n  ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 180,
+              "lastColumn": 34,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": " opacity = 100)\n}.mfp-close:ac",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 202,
+              "lastColumn": 32,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": "a( opacity = 65);\n    margin: ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 214,
+              "lastColumn": 34,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": " opacity = 100)\n}.mfp-arrow:be",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/YTPlayer.css",
+              "lastLine": 1,
+              "lastColumn": 5332,
+              "firstColumn": 5329,
+              "message": "CSS: \u201Cperspective\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "style:preserve-3d;perspective:1000;-webk",
+              "hiliteStart": 30,
+              "hiliteLength": 4,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/a7a4ab204419222541e34652ab048109204dba9ec7d5121885d171732484a8a4e8326a90766fa6093b36b89577ffca18ff45f9594c8af9fe7474d10c61276880.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/prism.css",
+              "lastLine": 133,
+              "lastColumn": 26,
+              "message": "CSS: \u201Cpadding\u201D: Too many values or values are not recognized.",
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/7bc568e6c80781c128547e45164946ff23afa9c957544b2da9bdac08403175e26a4138a4fa04d3ba896a9d893890bd6ce5b56d7261e4b2d88f9f9b17e7d378b8.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/demo-bold/demo-bold.css",
+              "lastLine": 336,
+              "lastColumn": 31,
+              "firstColumn": 17,
+              "message": "CSS: Parse Error.",
+              "extract": "lor: unset;\n}\n.light-content. features-2-icon{\n    ",
+              "hiliteStart": 30,
+              "hiliteLength": 15,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/b98bdac7093398dd57ac4c2abe5f5f7701714ba302c02310a789be1c5bb4fbc5bfe63e8fd7562452cc3ed7c843b46dfbefa6232b979abf86f7692d2fa71d5c46.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 4233,
+              "lastColumn": 73,
+              "message": "CSS: \u201Ctransition\u201D: \u201C0\u201D is not a \u201Ctransition\u201D value.",
+              "extract": "(--ease-default);\n}\n\n.mi-chevr",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5790,
+              "lastColumn": 45,
+              "message": "CSS: Parse Error.",
+              "extract": "(ease-default);\n}\n\n    .text-l",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5793,
+              "firstLine": 5791,
+              "lastColumn": 4,
+              "firstColumn": 2,
+              "message": "CSS: Parse Error.",
+              "extract": "all 0.17s var(ease-default);\n}\n\n    .text-",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5837,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5853,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5869,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5877,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5885,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5893,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5901,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5909,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5918,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 5998,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 6006,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 6040,
+              "lastColumn": 29,
+              "message": "CSS: \u201Ccolor\u201D: Parse Error.",
+              "extract": "r(-color-dark-1);\n    pointer-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 6726,
+              "lastColumn": 23,
+              "message": "CSS: \u201Ctransition-delay\u201D: \u201C0\u201D is not a \u201Ctransition-delay\u201D value.",
+              "extract": "nsition-delay: 0;\n}\n\n.light-co",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 9849,
+              "lastColumn": 33,
+              "firstColumn": 31,
+              "message": "CSS: \u201Ccolor\u201D: Too many values or values are not recognized.",
+              "extract": "    color: var(--color-dark-1)111;\n    ",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/style.css",
+              "lastLine": 14075,
+              "lastColumn": 23,
+              "firstColumn": 21,
+              "message": "CSS: \u201Cbadding-bottom\u201D: Property \u201Cbadding-bottom\u201D doesn\u0027t exist.",
+              "extract": "ht: 20px;\n    badding-bottom: 1px;\n    ",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/22d97f893bfbd7b187590f2c406a6cb8bc8f08bd09ef49eb74abc95fd364ac183bf6131ad5abd433bbb326e595596b864c5340e2e9ba4df8cb63fa5e77430361.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 11,
+              "lastColumn": 33,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": "( opacity = 80)\n}.mfp-wrap {\n ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 154,
+              "lastColumn": 1,
+              "message": "CSS: Parse Error.",
+              "extract": "\n    border: 0\n}.mfp-close {\n ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 164,
+              "lastColumn": 32,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": "a( opacity = 65);\n\npadding:\n  ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 180,
+              "lastColumn": 34,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": " opacity = 100)\n}.mfp-close:ac",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 202,
+              "lastColumn": 32,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": "a( opacity = 65);\n    margin: ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+              "lastLine": 214,
+              "lastColumn": 34,
+              "message": "CSS: \u201Cfilter\u201D: Parse Error.",
+              "extract": " opacity = 100)\n}.mfp-arrow:be",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/355278a7af512102c2a79016cd7150130870cb4b124bccc9963cf28c1f90b8d4df59fce2e5ba1db63fd0aa795ac82513a9f8e0f1b0ae5347200edf487b736927.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/YTPlayer.css",
+              "lastLine": 1,
+              "lastColumn": 5332,
+              "firstColumn": 5329,
+              "message": "CSS: \u201Cperspective\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "style:preserve-3d;perspective:1000;-webk",
+              "hiliteStart": 30,
+              "hiliteLength": 4,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/a7a4ab204419222541e34652ab048109204dba9ec7d5121885d171732484a8a4e8326a90766fa6093b36b89577ffca18ff45f9594c8af9fe7474d10c61276880.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/prism.css",
+              "lastLine": 133,
+              "lastColumn": 26,
+              "message": "CSS: \u201Cpadding\u201D: Too many values or values are not recognized.",
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/7bc568e6c80781c128547e45164946ff23afa9c957544b2da9bdac08403175e26a4138a4fa04d3ba896a9d893890bd6ce5b56d7261e4b2d88f9f9b17e7d378b8.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.technicaldogsbody.com/css/demo-bold/demo-bold.css",
+              "lastLine": 336,
+              "lastColumn": 31,
+              "firstColumn": 17,
+              "message": "CSS: Parse Error.",
+              "extract": "lor: unset;\n}\n.light-content. features-2-icon{\n    ",
+              "hiliteStart": 30,
+              "hiliteLength": 15,
+              "file": "file:/usr/src/runner/cache/www.technicaldogsbody.com/b98bdac7093398dd57ac4c2abe5f5f7701714ba302c02310a789be1c5bb4fbc5bfe63e8fd7562452cc3ed7c843b46dfbefa6232b979abf86f7692d2fa71d5c46.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.technicaldogsbody.com/",
+            "index": 1
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+            "index": 2
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/style.css",
+            "index": 3
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/style-responsive.css",
+            "index": 4
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/vertical-rhythm.min.css",
+            "index": 6
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+            "index": 7
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/owl.carousel.css",
+            "index": 8
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/splitting.css",
+            "index": 9
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/YTPlayer.css",
+            "index": 10
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/prism.css",
+            "index": 11
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Open\u002BSans:300italic,400italic,400,300,600,700%7CRaleway:700%7CPress\u002BStart\u002B2P\u0026display=swap",
+            "index": 12
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/demo-bold/demo-bold.css",
+            "index": 13
+          },
+          {
+            "url": "https://www.technicaldogsbody.com/css/custom.css",
+            "index": 14
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500\u0026display=swap",
+            "index": 15
+          }
+        ]
+      }
+    }
+  ]
+}

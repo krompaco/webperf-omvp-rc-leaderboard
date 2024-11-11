@@ -1,0 +1,81 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2024-11-09T19:26:17.345151",
+      "report": "- The website can be more accessible, but is rather good!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 2 ( 4.60 rating )\r\n- Number of issues: 6 ( 4.40 rating )\r\n\n##### Problems:\n- The html element should have a lang or xml:lang attribute which describes the language of the document.\n- Anchor element found with a valid href attribute, but no link content has been supplied.\n",
+      "report_stand": "",
+      "data": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+          "context": "\u003Chtml class=\u0022 js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanim...",
+          "selector": "html",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022http://stackoverflow.com/users/660154/marisks\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-stack-overflow\u0022...\u003C/a\u003E",
+          "selector": "#wrap \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E aside \u003E div \u003E ul \u003E li:nth-child(1) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://github.com/marisks\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-github-alt\u0022\u003E\u003C/i...\u003C/a\u003E",
+          "selector": "#wrap \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E aside \u003E div \u003E ul \u003E li:nth-child(2) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://twitter.com/pioners1001\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-twitter\u0022\u003E\u003C/i\u003E\u003C/a\u003E",
+          "selector": "#wrap \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E aside \u003E div \u003E ul \u003E li:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022http://www.linkedin.com/pub/maris-krivtezs/31/98b/b53\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-linkedin\u0022\u003E\u003C/i\u003E\u003C/a\u003E",
+          "selector": "#wrap \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E aside \u003E div \u003E ul \u003E li:nth-child(4) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/rss.xml\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-rss\u0022\u003E\u003C/i\u003E\u003C/a\u003E",
+          "selector": "#wrap \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E aside \u003E div \u003E ul \u003E li:nth-child(5) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    }
+  ]
+}

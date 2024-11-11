@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 10,
+      "rating": 4.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.84,
+      "rating_stand": -1.0,
+      "date": "2024-11-09T19:28:31.861947",
+      "report": "- The website can be more accessible, but is rather good!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Background and foreground colors do not have a sufficient contrast ratio. ( 1.00 rating )\r\n- \u0060[aria-*]\u0060 attributes match their roles ( 5.00 rating )\r\n- \u0060[aria-hidden=\u0022true\u0022]\u0060 is not present on the document \u0060\u003Cbody\u003E\u0060 ( 5.00 rating )\r\n- \u0060[role]\u0060s have all required \u0060[aria-*]\u0060 attributes ( 5.00 rating )\r\n- \u0060[aria-*]\u0060 attributes have valid values ( 5.00 rating )\r\n- \u0060[aria-*]\u0060 attributes are valid and not misspelled ( 5.00 rating )\r\n- Image elements have \u0060[alt]\u0060 attributes ( 5.00 rating )\r\n- \u0060[user-scalable=\u0022no\u0022]\u0060 is not used in the \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 element and the \u0060[maximum-scale]\u0060 attribute is not less than 5. ( 5.00 rating )\r\n- ARIA attributes are used as specified for the element\u0027s role ( 5.00 rating )\r\n- Elements use only permitted ARIA attributes ( 5.00 rating )\r\n- \u0060[role]\u0060 values are valid ( 5.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- \u0060\u003Chtml\u003E\u0060 element has a \u0060[lang]\u0060 attribute ( 5.00 rating )\r\n- \u0060\u003Chtml\u003E\u0060 element has a valid value for its \u0060[lang]\u0060 attribute ( 5.00 rating )\r\n- Links have a discernible name ( 5.00 rating )\r\n- Links are distinguishable without relying on color. ( 5.00 rating )\r\n- Lists contain only \u0060\u003Cli\u003E\u0060 elements and script supporting elements (\u0060\u003Cscript\u003E\u0060 and \u0060\u003Ctemplate\u003E\u0060). ( 5.00 rating )\r\n- List items (\u0060\u003Cli\u003E\u0060) are contained within \u0060\u003Cul\u003E\u0060, \u0060\u003Col\u003E\u0060 or \u0060\u003Cmenu\u003E\u0060 parent elements ( 5.00 rating )\r\n- Touch targets have sufficient size and spacing. ( 5.00 rating )\r\n- Heading elements appear in a sequentially-descending order ( 5.00 rating )\r\n- Skip links are focusable. ( 5.00 rating )\r\n- Uses ARIA roles only on compatible elements ( 5.00 rating )\r\n- Deprecated ARIA roles were not used ( 5.00 rating )\r\n- Image elements do not have \u0060[alt]\u0060 attributes that are redundant text. ( 5.00 rating )\r\n- Identical links have the same purpose. ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "first-contentful-paint": 5726.827500000001,
+        "largest-contentful-paint": 6808.214400000001,
+        "speed-index": 5735.522684480866,
+        "total-blocking-time": 30.5,
+        "max-potential-fid": 91,
+        "cumulative-layout-shift": 0.0027517778212698893,
+        "server-response-time": 564.203,
+        "interactive": 9281.15512,
+        "redirects": 0,
+        "mainthread-work-breakdown": 994.7960000000018,
+        "bootup-time": 353.2680000000007,
+        "uses-rel-preconnect": 0,
+        "network-rtt": 210.534,
+        "network-server-latency": 29.1453,
+        "metrics": 9281,
+        "uses-long-cache-ttl": 1736897.5,
+        "total-byte-weight": 2030652,
+        "offscreen-images": 360,
+        "render-blocking-resources": 3836,
+        "unminified-css": 360,
+        "unminified-javascript": 0,
+        "unused-css-rules": 2150,
+        "unused-javascript": 720,
+        "modern-image-formats": 360,
+        "uses-optimized-images": 0,
+        "uses-text-compression": 2420,
+        "uses-responsive-images": 0,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 442,
+        "uses-http2": 730
+      }
+    }
+  ]
+}

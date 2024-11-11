@@ -1,0 +1,201 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 3.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 3.8,
+      "rating_stand": -1.0,
+      "date": "2024-11-09T20:25:15.252984",
+      "report": "- The accessibility is really bad! Probably both for disabled people and everyone of us when we need some accessibility!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 3 ( 4.40 rating )\r\n- Number of issues: 18 ( 3.20 rating )\r\n\n##### Problems:\n- Anchor element found with a valid href attribute, but no link content has been supplied.\n- Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.\n- Iframe element requires a non-empty title attribute that identifies the frame.\n",
+      "report_stand": "",
+      "data": [
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(1) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(3) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(5) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(7) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(9) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(11) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(13) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(15) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(17) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "context": "\u003Ch3 class=\u0022post-subtitle\u0022\u003E\n            \n        \u003C/h3\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div \u003E div:nth-child(19) \u003E a \u003E h3",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://github.com/ddprince17\u0022\u003E\n                        \u003Cspan ...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E footer \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(1) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://ca.linkedin.com/in/daviddrouinprince\u0022\u003E\n                        \u003Cspan ...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E footer \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(2) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe name=\u0022googlefcPresent\u0022 style=\u0022display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "html \u003E body \u003E iframe:nth-child(14)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe name=\u0022__tcfapiLocator\u0022 src=\u0022about:blank\u0022 style=\u0022display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "html \u003E body \u003E iframe:nth-child(15)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe name=\u0022__uspapiLocator\u0022 src=\u0022about:blank\u0022 style=\u0022display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "html \u003E body \u003E iframe:nth-child(16)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe name=\u0022__gppLocator\u0022 src=\u0022about:blank\u0022 style=\u0022display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "html \u003E body \u003E iframe:nth-child(17)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe name=\u0022googlefcInactive\u0022 src=\u0022about:blank\u0022 style=\u0022display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "html \u003E body \u003E iframe:nth-child(18)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe name=\u0022googlefcLoaded\u0022 src=\u0022about:blank\u0022 style=\u0022display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "html \u003E body \u003E iframe:nth-child(19)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 1.54,
+      "rating_sec": 1.54,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-11-09T19:26:42.722676",
+      "report": "- Technology used: js, sass, scss\r\n- License(s) used: apache-2.0\r\n- Metadata used: icon, viewport\r\n- Javascript libraries used: bootstrap, jquery, modernizr\r\n- Languages found: en\r\n- Image formats used: ico, jpeg, jpg, png, svg\r\n",
+      "report_sec": "##### Software related to CVE:s ( 1.0 rating )\r\n\r\n###### Introduction:\r\nSoftware version used is affected by vulnerability described below.\r\nIn most cases you can fix a CVE related issue by updating software to latest version.\r\nIn some rare cases there is no update and you need to consider not using the software affected.\r\n\r\n###### Common Vulnerabilities and Exposures\r\n- CVE-2020-23064\r\n- CVE-2020-11023\r\n- CVE-2020-11022\r\n- CVE-2019-5428\r\n- CVE-2019-11358\r\n- CVE-2015-9251\r\n- CVE-2024-6531\r\n- CVE-2024-6484\r\n- CVE-2019-8331\r\n- CVE-2018-20677\r\n- CVE-2018-20676\r\n- CVE-2018-14042\r\n- CVE-2018-14041\r\n- CVE-2018-14040\r\n- CVE-2016-10735\r\n\r\n###### Detected software(s):\r\n- jquery 1.10.2\r\n- bootstrap 3.0.2\r\n\r\n###### Affected resource(s):\r\n- https://marisks.net/\r\n- https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\r\n- https://marisks.net/bower_components/bootstrap/dist/js/bootstrap.min.js\r\n##### Software is behind \u003E=25 versions ( 2.75 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 25 or more version compared to latests.\r\nThis is a good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- jquery 1.10.2\r\n- modernizr 2.6.2\r\n- bootstrap 3.0.2\r\n\r\n###### Affected resource(s):\r\n- https://marisks.net/\r\n- https://marisks.net/js/vendor/modernizr-2.6.2.min.js\r\n- https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\r\n- https://marisks.net/bower_components/bootstrap/dist/js/bootstrap.min.js\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "CVE": {
+            "softwares": [
+              "jquery 1.10.2",
+              "bootstrap 3.0.2"
+            ],
+            "resources": [
+              "https://marisks.net/",
+              "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+              "https://marisks.net/bower_components/bootstrap/dist/js/bootstrap.min.js"
+            ],
+            "sub-issues": [
+              "CVE-2020-23064",
+              "CVE-2020-11023",
+              "CVE-2020-11022",
+              "CVE-2019-5428",
+              "CVE-2019-11358",
+              "CVE-2015-9251",
+              "CVE-2024-6531",
+              "CVE-2024-6484",
+              "CVE-2019-8331",
+              "CVE-2018-20677",
+              "CVE-2018-20676",
+              "CVE-2018-14042",
+              "CVE-2018-14041",
+              "CVE-2018-14040",
+              "CVE-2016-10735"
+            ]
+          },
+          "BEHIND025": {
+            "softwares": [
+              "jquery 1.10.2",
+              "modernizr 2.6.2",
+              "bootstrap 3.0.2"
+            ],
+            "resources": [
+              "https://marisks.net/",
+              "https://marisks.net/js/vendor/modernizr-2.6.2.min.js",
+              "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+              "https://marisks.net/bower_components/bootstrap/dist/js/bootstrap.min.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "meta": {
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "js": {
+          "jquery": {
+            "1.10.2": {
+              "name": "jquery",
+              "precision": 0.8,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "modernizr": {
+            "2.6.2": {
+              "name": "modernizr",
+              "precision": 0.4,
+              "github-owner": "Modernizr",
+              "github-repo": "Modernizr"
+            }
+          },
+          "bootstrap": {
+            "3.0.2": {
+              "name": "bootstrap",
+              "precision": 0.5,
+              "github-owner": "twbs",
+              "github-repo": "bootstrap"
+            }
+          }
+        },
+        "tech": {
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "sass": {
+            "?": {
+              "name": "sass",
+              "precision": 0.8
+            }
+          },
+          "scss": {
+            "?": {
+              "name": "scss",
+              "precision": 0.8
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "jpeg": {
+            "?": {
+              "name": "jpeg",
+              "precision": 0.8
+            }
+          },
+          "jpg": {
+            "?": {
+              "name": "jpg",
+              "precision": 0.4
+            }
+          },
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          },
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 2.7,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 2.7,
+      "rating_stand": -1.0,
+      "date": "2024-11-09T19:19:54.488243",
+      "report": "- The accessibility is really bad! Probably both for disabled people and everyone of us when we need some accessibility!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 3 ( 4.40 rating )\r\n- Number of issues: 49 ( 1.00 rating )\r\n\n##### Problems:\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.\n",
+      "report_stand": "",
+      "data": [
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222024-08-02T16:59:03\u002B01:00\u0022\u003EAugust 2, 2024\u003C/time\u003E",
+          "selector": "#post-1908 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1908 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2024/08/02/changes-to-picturerenderer-optimizely/#respond\u0022\u003ELeave a comment\u003C/a\u003E",
+          "selector": "#post-1908 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2024/08/02/changes-to-picturerenderer-optimizely/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1908 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222023-08-30T10:49:13\u002B01:00\u0022\u003EAugust 30, 2023\u003C/time\u003E",
+          "selector": "#post-1887 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1887 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2023/08/30/image-optimization-at-the-edge/#respond\u0022\u003ELeave a comment\u003C/a\u003E",
+          "selector": "#post-1887 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222023-06-13T08:45:01\u002B01:00\u0022\u003EJune 13, 2023\u003C/time\u003E",
+          "selector": "#post-1862 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1862 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2023/06/13/on-page-editing-with-optimizely-cms-on-an-externally-hosted-site/#respond\u0022\u003ELeave a comment\u003C/a\u003E",
+          "selector": "#post-1862 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2023/06/13/on-page-editing-with-optimizely-cms-on-an-externally-hosted-site/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1862 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222022-08-29T12:45:27\u002B01:00\u0022\u003EAugust 29, 2022\u003C/time\u003E",
+          "selector": "#post-1838 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1838 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2022/08/29/optimize-images-added-in-the-rich-text-editor/#respond\u0022\u003ELeave a comment\u003C/a\u003E",
+          "selector": "#post-1838 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2022/08/29/optimize-images-added-in-the-rich-text-editor/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1838 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222022-08-16T14:38:32\u002B01:00\u0022\u003EAugust 16, 2022\u003C/time\u003E",
+          "selector": "#post-1762 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1762 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2022/08/16/optimize-images-on-your-optimizely-cms-site/#comments\u0022\u003E16 Comments\u003C/a\u003E",
+          "selector": "#post-1762 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2022/08/16/optimize-images-on-your-optimizely-cms-site/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1762 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222021-12-01T16:12:56\u002B01:00\u0022\u003EDecember 1, 2021\u003C/time\u003E",
+          "selector": "#post-1736 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1736 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/12/01/updates-for-optimizely-cms-11-picture-helper/#respond\u0022\u003ELeave a comment\u003C/a\u003E",
+          "selector": "#post-1736 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/12/01/updates-for-optimizely-cms-11-picture-helper/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1736 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222021-10-18T10:22:57\u002B01:00\u0022\u003EOctober 18, 2021\u003C/time\u003E",
+          "selector": "#post-1722 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1722 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/10/18/picturerenderer-for-optimizely-cms-12/#respond\u0022\u003ELeave a comment\u003C/a\u003E",
+          "selector": "#post-1722 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/10/18/picturerenderer-for-optimizely-cms-12/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1722 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222021-08-13T13:39:26\u002B01:00\u0022\u003EAugust 13, 2021\u003C/time\u003E",
+          "selector": "#post-1677 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1677 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/#respond\u0022\u003ELeave a comment\u003C/a\u003E",
+          "selector": "#post-1677 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1677 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222021-08-08T20:34:04\u002B01:00\u0022\u003EAugust 8, 2021\u003C/time\u003E",
+          "selector": "#post-1679 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1679 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/08/08/getting-started-with-optimizely-cms-preview/#comments\u0022\u003E4 Comments\u003C/a\u003E",
+          "selector": "#post-1679 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/08/08/getting-started-with-optimizely-cms-preview/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1679 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ctime class=\u0022entry-date published\u0022 datetime=\u00222021-02-12T10:14:10\u002B01:00\u0022\u003EFebruary 12, 2021\u003C/time\u003E",
+          "selector": "#post-1655 \u003E header \u003E div \u003E span:nth-child(1) \u003E a \u003E time:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.36:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022sep\u0022\u003E / \u003C/span\u003E",
+          "selector": "#post-1655 \u003E header \u003E div \u003E span:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/02/12/when-do-we-stop-using-the-term-headless-for-a-cms/#respond\u0022\u003ELeave a comment\u003C/a\u003E",
+          "selector": "#post-1655 \u003E header \u003E div \u003E span:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/02/12/when-do-we-stop-using-the-term-headless-for-a-cms/\u0022 class=\u0022more-link\u0022\u003EContinue reading \u003Cspan class=\u0022s...\u003C/a\u003E",
+          "selector": "#post-1655 \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2024/08/02/changes-to-picturerenderer-optimizely/\u0022\u003EChanges to PictureRenderer.Opti...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(1) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2023/08/30/image-optimization-at-the-edge/\u0022\u003EImage optimization at the edge.\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(2) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2023/06/13/on-page-editing-with-optimizely-cms-on-an-externally-hosted-site/\u0022\u003EOn-page editing with Optimizely...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2022/08/29/optimize-images-added-in-the-rich-text-editor/\u0022\u003EOptimize images added in the ri...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(4) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2022/08/16/optimize-images-on-your-optimizely-cms-site/\u0022\u003EOptimize images on your Optimiz...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(5) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/12/01/updates-for-optimizely-cms-11-picture-helper/\u0022\u003EUpdates for Optimizely CMS 11 P...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(6) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/10/18/picturerenderer-for-optimizely-cms-12/\u0022\u003EPictureRenderer for Optimizely ...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(7) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/\u0022\u003EServe Optimizely CMS pages dire...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(8) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/08/08/getting-started-with-optimizely-cms-preview/\u0022\u003EGetting started with Optimizely...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(9) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change text colour to #00866c.",
+          "context": "\u003Ca href=\u0022https://hacksbyme.net/2021/02/12/when-do-we-stop-using-the-term-headless-for-a-cms/\u0022\u003EWhen do we stop using the term ...\u003C/a\u003E",
+          "selector": "#recent-posts-2 \u003E ul \u003E li:nth-child(10) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    }
+  ]
+}

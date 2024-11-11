@@ -1,0 +1,790 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.55,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.55,
+      "date": "2024-11-09T20:11:24.003742",
+      "report": "- The CSS is very good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 34 ( 1.60 rating )\r\n  - CSS: \u201C--tw-pan-x\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-pan-y\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-pinch-zoom\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-gradient-from-position\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-gradient-via-position\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-gradient-to-position\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-ordinal\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-slashed-zero\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-numeric-figure\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-numeric-spacing\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-numeric-fraction\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-ring-inset\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-blur\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-brightness\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-contrast\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-grayscale\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-hue-rotate\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-invert\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-saturate\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-sepia\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-drop-shadow\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-blur\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-brightness\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-contrast\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-grayscale\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-hue-rotate\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-invert\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-opacity\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-saturate\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-backdrop-sepia\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-contain-size\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-contain-layout\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-contain-paint\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--tw-contain-style\u201D: Parse Error. (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": false,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2770,
+              "message": "CSS: \u201C--tw-pan-x\u201D: Parse Error.",
+              "extract": "y:1;--tw-pan-x: ;--tw-pan-y: ;",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2783,
+              "message": "CSS: \u201C--tw-pan-y\u201D: Parse Error.",
+              "extract": "x: ;--tw-pan-y: ;--tw-pinch-zo",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2801,
+              "message": "CSS: \u201C--tw-pinch-zoom\u201D: Parse Error.",
+              "extract": "-tw-pinch-zoom: ;--tw-scroll-s",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2869,
+              "message": "CSS: \u201C--tw-gradient-from-position\u201D: Parse Error.",
+              "extract": "-from-position: ;--tw-gradient",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2898,
+              "message": "CSS: \u201C--tw-gradient-via-position\u201D: Parse Error.",
+              "extract": "t-via-position: ;--tw-gradient",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2926,
+              "message": "CSS: \u201C--tw-gradient-to-position\u201D: Parse Error.",
+              "extract": "nt-to-position: ;--tw-ordinal:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2941,
+              "message": "CSS: \u201C--tw-ordinal\u201D: Parse Error.",
+              "extract": " ;--tw-ordinal: ;--tw-slashed-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2961,
+              "message": "CSS: \u201C--tw-slashed-zero\u201D: Parse Error.",
+              "extract": "w-slashed-zero: ;--tw-numeric-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2983,
+              "message": "CSS: \u201C--tw-numeric-figure\u201D: Parse Error.",
+              "extract": "numeric-figure: ;--tw-numeric-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3006,
+              "message": "CSS: \u201C--tw-numeric-spacing\u201D: Parse Error.",
+              "extract": "umeric-spacing: ;--tw-numeric-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3030,
+              "message": "CSS: \u201C--tw-numeric-fraction\u201D: Parse Error.",
+              "extract": "meric-fraction: ;--tw-ring-ins",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3048,
+              "message": "CSS: \u201C--tw-ring-inset\u201D: Parse Error.",
+              "extract": "-tw-ring-inset: ;--tw-ring-off",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3254,
+              "message": "CSS: \u201C--tw-blur\u201D: Parse Error.",
+              "extract": "0000;--tw-blur: ;--tw-brightne",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3272,
+              "message": "CSS: \u201C--tw-brightness\u201D: Parse Error.",
+              "extract": "-tw-brightness: ;--tw-contrast",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3288,
+              "message": "CSS: \u201C--tw-contrast\u201D: Parse Error.",
+              "extract": ";--tw-contrast: ;--tw-grayscal",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3305,
+              "message": "CSS: \u201C--tw-grayscale\u201D: Parse Error.",
+              "extract": "--tw-grayscale: ;--tw-hue-rota",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3323,
+              "message": "CSS: \u201C--tw-hue-rotate\u201D: Parse Error.",
+              "extract": "-tw-hue-rotate: ;--tw-invert: ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3337,
+              "message": "CSS: \u201C--tw-invert\u201D: Parse Error.",
+              "extract": ": ;--tw-invert: ;--tw-saturate",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3353,
+              "message": "CSS: \u201C--tw-saturate\u201D: Parse Error.",
+              "extract": ";--tw-saturate: ;--tw-sepia: ;",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3366,
+              "message": "CSS: \u201C--tw-sepia\u201D: Parse Error.",
+              "extract": "e: ;--tw-sepia: ;--tw-drop-sha",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3385,
+              "message": "CSS: \u201C--tw-drop-shadow\u201D: Parse Error.",
+              "extract": "tw-drop-shadow: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3406,
+              "message": "CSS: \u201C--tw-backdrop-blur\u201D: Parse Error.",
+              "extract": "-backdrop-blur: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3433,
+              "message": "CSS: \u201C--tw-backdrop-brightness\u201D: Parse Error.",
+              "extract": "rop-brightness: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3458,
+              "message": "CSS: \u201C--tw-backdrop-contrast\u201D: Parse Error.",
+              "extract": "kdrop-contrast: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3484,
+              "message": "CSS: \u201C--tw-backdrop-grayscale\u201D: Parse Error.",
+              "extract": "drop-grayscale: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3511,
+              "message": "CSS: \u201C--tw-backdrop-hue-rotate\u201D: Parse Error.",
+              "extract": "rop-hue-rotate: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3534,
+              "message": "CSS: \u201C--tw-backdrop-invert\u201D: Parse Error.",
+              "extract": "ackdrop-invert: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3558,
+              "message": "CSS: \u201C--tw-backdrop-opacity\u201D: Parse Error.",
+              "extract": "ckdrop-opacity: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3583,
+              "message": "CSS: \u201C--tw-backdrop-saturate\u201D: Parse Error.",
+              "extract": "kdrop-saturate: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3605,
+              "message": "CSS: \u201C--tw-backdrop-sepia\u201D: Parse Error.",
+              "extract": "backdrop-sepia: ;--tw-contain-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3625,
+              "message": "CSS: \u201C--tw-contain-size\u201D: Parse Error.",
+              "extract": "w-contain-size: ;--tw-contain-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3647,
+              "message": "CSS: \u201C--tw-contain-layout\u201D: Parse Error.",
+              "extract": "contain-layout: ;--tw-contain-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3668,
+              "message": "CSS: \u201C--tw-contain-paint\u201D: Parse Error.",
+              "extract": "-contain-paint: ;--tw-contain-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3689,
+              "message": "CSS: \u201C--tw-contain-style\u201D: Parse Error.",
+              "extract": "-contain-style: }.container{wi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2770,
+              "message": "CSS: \u201C--tw-pan-x\u201D: Parse Error.",
+              "extract": "y:1;--tw-pan-x: ;--tw-pan-y: ;",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2783,
+              "message": "CSS: \u201C--tw-pan-y\u201D: Parse Error.",
+              "extract": "x: ;--tw-pan-y: ;--tw-pinch-zo",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2801,
+              "message": "CSS: \u201C--tw-pinch-zoom\u201D: Parse Error.",
+              "extract": "-tw-pinch-zoom: ;--tw-scroll-s",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2869,
+              "message": "CSS: \u201C--tw-gradient-from-position\u201D: Parse Error.",
+              "extract": "-from-position: ;--tw-gradient",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2898,
+              "message": "CSS: \u201C--tw-gradient-via-position\u201D: Parse Error.",
+              "extract": "t-via-position: ;--tw-gradient",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2926,
+              "message": "CSS: \u201C--tw-gradient-to-position\u201D: Parse Error.",
+              "extract": "nt-to-position: ;--tw-ordinal:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2941,
+              "message": "CSS: \u201C--tw-ordinal\u201D: Parse Error.",
+              "extract": " ;--tw-ordinal: ;--tw-slashed-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2961,
+              "message": "CSS: \u201C--tw-slashed-zero\u201D: Parse Error.",
+              "extract": "w-slashed-zero: ;--tw-numeric-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 2983,
+              "message": "CSS: \u201C--tw-numeric-figure\u201D: Parse Error.",
+              "extract": "numeric-figure: ;--tw-numeric-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3006,
+              "message": "CSS: \u201C--tw-numeric-spacing\u201D: Parse Error.",
+              "extract": "umeric-spacing: ;--tw-numeric-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3030,
+              "message": "CSS: \u201C--tw-numeric-fraction\u201D: Parse Error.",
+              "extract": "meric-fraction: ;--tw-ring-ins",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3048,
+              "message": "CSS: \u201C--tw-ring-inset\u201D: Parse Error.",
+              "extract": "-tw-ring-inset: ;--tw-ring-off",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3254,
+              "message": "CSS: \u201C--tw-blur\u201D: Parse Error.",
+              "extract": "0000;--tw-blur: ;--tw-brightne",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3272,
+              "message": "CSS: \u201C--tw-brightness\u201D: Parse Error.",
+              "extract": "-tw-brightness: ;--tw-contrast",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3288,
+              "message": "CSS: \u201C--tw-contrast\u201D: Parse Error.",
+              "extract": ";--tw-contrast: ;--tw-grayscal",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3305,
+              "message": "CSS: \u201C--tw-grayscale\u201D: Parse Error.",
+              "extract": "--tw-grayscale: ;--tw-hue-rota",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3323,
+              "message": "CSS: \u201C--tw-hue-rotate\u201D: Parse Error.",
+              "extract": "-tw-hue-rotate: ;--tw-invert: ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3337,
+              "message": "CSS: \u201C--tw-invert\u201D: Parse Error.",
+              "extract": ": ;--tw-invert: ;--tw-saturate",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3353,
+              "message": "CSS: \u201C--tw-saturate\u201D: Parse Error.",
+              "extract": ";--tw-saturate: ;--tw-sepia: ;",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3366,
+              "message": "CSS: \u201C--tw-sepia\u201D: Parse Error.",
+              "extract": "e: ;--tw-sepia: ;--tw-drop-sha",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3385,
+              "message": "CSS: \u201C--tw-drop-shadow\u201D: Parse Error.",
+              "extract": "tw-drop-shadow: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3406,
+              "message": "CSS: \u201C--tw-backdrop-blur\u201D: Parse Error.",
+              "extract": "-backdrop-blur: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3433,
+              "message": "CSS: \u201C--tw-backdrop-brightness\u201D: Parse Error.",
+              "extract": "rop-brightness: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3458,
+              "message": "CSS: \u201C--tw-backdrop-contrast\u201D: Parse Error.",
+              "extract": "kdrop-contrast: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3484,
+              "message": "CSS: \u201C--tw-backdrop-grayscale\u201D: Parse Error.",
+              "extract": "drop-grayscale: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3511,
+              "message": "CSS: \u201C--tw-backdrop-hue-rotate\u201D: Parse Error.",
+              "extract": "rop-hue-rotate: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3534,
+              "message": "CSS: \u201C--tw-backdrop-invert\u201D: Parse Error.",
+              "extract": "ackdrop-invert: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3558,
+              "message": "CSS: \u201C--tw-backdrop-opacity\u201D: Parse Error.",
+              "extract": "ckdrop-opacity: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3583,
+              "message": "CSS: \u201C--tw-backdrop-saturate\u201D: Parse Error.",
+              "extract": "kdrop-saturate: ;--tw-backdrop",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3605,
+              "message": "CSS: \u201C--tw-backdrop-sepia\u201D: Parse Error.",
+              "extract": "backdrop-sepia: ;--tw-contain-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3625,
+              "message": "CSS: \u201C--tw-contain-size\u201D: Parse Error.",
+              "extract": "w-contain-size: ;--tw-contain-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3647,
+              "message": "CSS: \u201C--tw-contain-layout\u201D: Parse Error.",
+              "extract": "contain-layout: ;--tw-contain-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3668,
+              "message": "CSS: \u201C--tw-contain-paint\u201D: Parse Error.",
+              "extract": "-contain-paint: ;--tw-contain-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+              "lastLine": 1,
+              "lastColumn": 3689,
+              "message": "CSS: \u201C--tw-contain-style\u201D: Parse Error.",
+              "extract": "-contain-style: }.container{wi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/krompaco.nu/ffb58261c7c212e84944f79d2cc6c2e126f3c6b36a21a23d44684e78deeb449f6682130ca5d173175c2e40b57f4434f96798684e1a84937837da12466de20b84.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://krompaco.nu/",
+            "index": 1
+          },
+          {
+            "url": "https://krompaco.nu/dist/styles.css?v=bad647cb908a6305044b883f42434e15",
+            "index": 3
+          }
+        ]
+      }
+    }
+  ]
+}

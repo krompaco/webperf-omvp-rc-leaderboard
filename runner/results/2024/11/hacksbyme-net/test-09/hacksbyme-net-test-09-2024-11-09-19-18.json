@@ -1,0 +1,248 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 3.83,
+      "rating_sec": 1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.44,
+      "date": "2024-11-09T19:18:25.177199",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, One or more Url in \u003Cloc\u003E is the same ( 2.29 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap seems to be broken. ( 1.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "data": {
+        "url": "https://hacksbyme.net/",
+        "root_url": "https://hacksbyme.net/",
+        "robots": {
+          "url": "https://hacksbyme.net/robots.txt",
+          "content": "Sitemap: https://hacksbyme.net/sitemap.xml\nSitemap: https://hacksbyme.net/news-sitemap.xml\nUser-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 2,
+          "sitemap_urls_in_robots": [
+            "https://hacksbyme.net/sitemap.xml",
+            "https://hacksbyme.net/news-sitemap.xml"
+          ],
+          "sitemaps": {
+            "https://hacksbyme.net/video-sitemap-1.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 1
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 1,
+              "nof_items_no_duplicates": 1,
+              "known_types_details": {
+                "webpage": [
+                  "https://hacksbyme.net/responsive/"
+                ]
+              }
+            },
+            "https://hacksbyme.net/image-sitemap-1.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 47
+              },
+              "has_duplicates_items": true,
+              "is_duplicate": false,
+              "nof_items": 47,
+              "nof_items_no_duplicates": 27,
+              "known_types_details": {
+                "webpage": [
+                  "https://hacksbyme.net/2017/06/13/episerver-how-to-know-a-blocks-position-in-a-content-area/",
+                  "https://hacksbyme.net/2017/08/15/a-super-simple-geo-coordinates-property-for-episerver/",
+                  "https://hacksbyme.net/2017/11/22/schedule-scaling-of-your-azure-resources/",
+                  "https://hacksbyme.net/2017/11/22/schedule-scaling-of-your-azure-resources/",
+                  "https://hacksbyme.net/2018/01/18/automate-your-episerver-site-definitions/",
+                  "https://hacksbyme.net/2018/01/18/automate-your-episerver-site-definitions/",
+                  "https://hacksbyme.net/2019/01/17/control-the-cropping-of-your-images-with-a-focal-point/",
+                  "https://hacksbyme.net/2019/01/17/control-the-cropping-of-your-images-with-a-focal-point/",
+                  "https://hacksbyme.net/2019/01/17/control-the-cropping-of-your-images-with-a-focal-point/",
+                  "https://hacksbyme.net/2019/01/17/control-the-cropping-of-your-images-with-a-focal-point/",
+                  "https://hacksbyme.net/2019/01/17/control-the-cropping-of-your-images-with-a-focal-point/",
+                  "https://hacksbyme.net/2019/04/03/use-azure-automation-to-scale-you-azure-resources/",
+                  "https://hacksbyme.net/2019/04/03/use-azure-automation-to-scale-you-azure-resources/",
+                  "https://hacksbyme.net/2019/04/03/use-azure-automation-to-scale-you-azure-resources/",
+                  "https://hacksbyme.net/2019/04/03/use-azure-automation-to-scale-you-azure-resources/",
+                  "https://hacksbyme.net/2019/05/03/let-episerver-editors-control-the-output-cache/",
+                  "https://hacksbyme.net/2019/05/03/let-episerver-editors-control-the-output-cache/",
+                  "https://hacksbyme.net/2019/11/14/deployments-to-dxc-s-using-api-with-octopus-deploy/",
+                  "https://hacksbyme.net/2019/11/14/deployments-to-dxc-s-using-api-with-octopus-deploy/",
+                  "https://hacksbyme.net/2019/11/14/deployments-to-dxc-s-using-api-with-octopus-deploy/",
+                  "https://hacksbyme.net/2019/12/12/trying-to-do-code-package-deployment-to-episerver-dxc-s/",
+                  "https://hacksbyme.net/2020/02/16/episerver-picture-helper-now-have-option-for-native-lazy-loading/",
+                  "https://hacksbyme.net/2021/01/07/options-for-automated-web-ui-testing/",
+                  "https://hacksbyme.net/2021/02/12/when-do-we-stop-using-the-term-headless-for-a-cms/",
+                  "https://hacksbyme.net/2021/02/12/when-do-we-stop-using-the-term-headless-for-a-cms/",
+                  "https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/",
+                  "https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/",
+                  "https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/",
+                  "https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/",
+                  "https://hacksbyme.net/2021/12/01/updates-for-optimizely-cms-11-picture-helper/",
+                  "https://hacksbyme.net/2022/08/16/optimize-images-on-your-optimizely-cms-site/",
+                  "https://hacksbyme.net/2022/08/16/optimize-images-on-your-optimizely-cms-site/",
+                  "https://hacksbyme.net/2023/06/13/on-page-editing-with-optimizely-cms-on-an-externally-hosted-site/",
+                  "https://hacksbyme.net/2023/06/13/on-page-editing-with-optimizely-cms-on-an-externally-hosted-site/",
+                  "https://hacksbyme.net/about/",
+                  "https://hacksbyme.net/about/",
+                  "https://hacksbyme.net/about/",
+                  "https://hacksbyme.net/blur/",
+                  "https://hacksbyme.net/createautomationaccount-2/",
+                  "https://hacksbyme.net/cropped-blur-jpg/",
+                  "https://hacksbyme.net/cropped-cropped-blur-jpg/",
+                  "https://hacksbyme.net/cropped-smiley_face_icon_143694-png/",
+                  "https://hacksbyme.net/optimize/",
+                  "https://hacksbyme.net/placeholder-image/",
+                  "https://hacksbyme.net/screenshot_20180311-162018/",
+                  "https://hacksbyme.net/screenshot_20180311-162114/",
+                  "https://hacksbyme.net/smiley_face_icon_143694/"
+                ]
+              }
+            },
+            "https://hacksbyme.net/sitemap-1.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 36
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 36,
+              "nof_items_no_duplicates": 36,
+              "known_types_details": {
+                "webpage": [
+                  "https://hacksbyme.net/",
+                  "https://hacksbyme.net/2017/05/07/single-sign-on-to-episerver-with-adfs-using-owin/",
+                  "https://hacksbyme.net/2017/05/11/mixed-mode-owin-authentication-for-episerver-editors/",
+                  "https://hacksbyme.net/2017/06/13/episerver-how-to-know-a-blocks-position-in-a-content-area/",
+                  "https://hacksbyme.net/2017/06/22/episever-cms-10-exam-tips/",
+                  "https://hacksbyme.net/2017/08/15/a-super-simple-geo-coordinates-property-for-episerver/",
+                  "https://hacksbyme.net/2017/09/05/use-powershell-to-set-up-an-episerver-environment-in-azure/",
+                  "https://hacksbyme.net/2017/09/26/performance-when-using-controllers-for-blocks/",
+                  "https://hacksbyme.net/2017/10/30/review-of-the-pro-episerver-commerce-book/",
+                  "https://hacksbyme.net/2017/11/22/schedule-scaling-of-your-azure-resources/",
+                  "https://hacksbyme.net/2017/11/27/penny-pinching-your-episerver-azure-environment/",
+                  "https://hacksbyme.net/2018/01/18/automate-your-episerver-site-definitions/",
+                  "https://hacksbyme.net/2018/03/19/picture-element-imageprocessor-responsive-images-made-easy/",
+                  "https://hacksbyme.net/2018/05/12/optimize-your-images-with-imageprocessor/",
+                  "https://hacksbyme.net/2018/05/29/survival-tips-for-an-e-commerce-manager/",
+                  "https://hacksbyme.net/2018/10/19/a-dead-easy-way-to-optimize-the-images-on-your-episerver-site/",
+                  "https://hacksbyme.net/2019/01/17/control-the-cropping-of-your-images-with-a-focal-point/",
+                  "https://hacksbyme.net/2019/04/03/use-azure-automation-to-scale-you-azure-resources/",
+                  "https://hacksbyme.net/2019/05/03/let-episerver-editors-control-the-output-cache/",
+                  "https://hacksbyme.net/2019/11/14/deployments-to-dxc-s-using-api-with-octopus-deploy/",
+                  "https://hacksbyme.net/2019/12/12/trying-to-do-code-package-deployment-to-episerver-dxc-s/",
+                  "https://hacksbyme.net/2020/02/16/episerver-picture-helper-now-have-option-for-native-lazy-loading/",
+                  "https://hacksbyme.net/2020/03/05/powershell-vs-azure-cli-when-creating-an-episerver-environment/",
+                  "https://hacksbyme.net/2021/01/07/options-for-automated-web-ui-testing/",
+                  "https://hacksbyme.net/2021/02/12/when-do-we-stop-using-the-term-headless-for-a-cms/",
+                  "https://hacksbyme.net/2021/08/08/getting-started-with-optimizely-cms-preview/",
+                  "https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/",
+                  "https://hacksbyme.net/2021/10/18/picturerenderer-for-optimizely-cms-12/",
+                  "https://hacksbyme.net/2021/12/01/updates-for-optimizely-cms-11-picture-helper/",
+                  "https://hacksbyme.net/2022/08/16/optimize-images-on-your-optimizely-cms-site/",
+                  "https://hacksbyme.net/2022/08/29/optimize-images-added-in-the-rich-text-editor/",
+                  "https://hacksbyme.net/2023/06/13/on-page-editing-with-optimizely-cms-on-an-externally-hosted-site/",
+                  "https://hacksbyme.net/2023/08/30/image-optimization-at-the-edge/",
+                  "https://hacksbyme.net/2024/08/02/changes-to-picturerenderer-optimizely/",
+                  "https://hacksbyme.net/about/",
+                  "https://hacksbyme.net/archives/"
+                ]
+              }
+            },
+            "https://hacksbyme.net/news-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {},
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 0,
+              "nof_items_no_duplicates": 0,
+              "known_types_details": {}
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 36
+          },
+          "has_duplicates_items": true,
+          "is_duplicate": false,
+          "nof_items": 84,
+          "nof_items_no_duplicates": 64,
+          "known_types_details": {
+            "webpage": [
+              "https://hacksbyme.net/",
+              "https://hacksbyme.net/2017/05/07/single-sign-on-to-episerver-with-adfs-using-owin/",
+              "https://hacksbyme.net/2017/05/11/mixed-mode-owin-authentication-for-episerver-editors/",
+              "https://hacksbyme.net/2017/06/13/episerver-how-to-know-a-blocks-position-in-a-content-area/",
+              "https://hacksbyme.net/2017/06/22/episever-cms-10-exam-tips/",
+              "https://hacksbyme.net/2017/08/15/a-super-simple-geo-coordinates-property-for-episerver/",
+              "https://hacksbyme.net/2017/09/05/use-powershell-to-set-up-an-episerver-environment-in-azure/",
+              "https://hacksbyme.net/2017/09/26/performance-when-using-controllers-for-blocks/",
+              "https://hacksbyme.net/2017/10/30/review-of-the-pro-episerver-commerce-book/",
+              "https://hacksbyme.net/2017/11/22/schedule-scaling-of-your-azure-resources/",
+              "https://hacksbyme.net/2017/11/27/penny-pinching-your-episerver-azure-environment/",
+              "https://hacksbyme.net/2018/01/18/automate-your-episerver-site-definitions/",
+              "https://hacksbyme.net/2018/03/19/picture-element-imageprocessor-responsive-images-made-easy/",
+              "https://hacksbyme.net/2018/05/12/optimize-your-images-with-imageprocessor/",
+              "https://hacksbyme.net/2018/05/29/survival-tips-for-an-e-commerce-manager/",
+              "https://hacksbyme.net/2018/10/19/a-dead-easy-way-to-optimize-the-images-on-your-episerver-site/",
+              "https://hacksbyme.net/2019/01/17/control-the-cropping-of-your-images-with-a-focal-point/",
+              "https://hacksbyme.net/2019/04/03/use-azure-automation-to-scale-you-azure-resources/",
+              "https://hacksbyme.net/2019/05/03/let-episerver-editors-control-the-output-cache/",
+              "https://hacksbyme.net/2019/11/14/deployments-to-dxc-s-using-api-with-octopus-deploy/",
+              "https://hacksbyme.net/2019/12/12/trying-to-do-code-package-deployment-to-episerver-dxc-s/",
+              "https://hacksbyme.net/2020/02/16/episerver-picture-helper-now-have-option-for-native-lazy-loading/",
+              "https://hacksbyme.net/2020/03/05/powershell-vs-azure-cli-when-creating-an-episerver-environment/",
+              "https://hacksbyme.net/2021/01/07/options-for-automated-web-ui-testing/",
+              "https://hacksbyme.net/2021/02/12/when-do-we-stop-using-the-term-headless-for-a-cms/",
+              "https://hacksbyme.net/2021/08/08/getting-started-with-optimizely-cms-preview/",
+              "https://hacksbyme.net/2021/08/13/serve-optimizely-cms-pages-directly-from-a-cdn/",
+              "https://hacksbyme.net/2021/10/18/picturerenderer-for-optimizely-cms-12/",
+              "https://hacksbyme.net/2021/12/01/updates-for-optimizely-cms-11-picture-helper/",
+              "https://hacksbyme.net/2022/08/16/optimize-images-on-your-optimizely-cms-site/",
+              "https://hacksbyme.net/2022/08/29/optimize-images-added-in-the-rich-text-editor/",
+              "https://hacksbyme.net/2023/06/13/on-page-editing-with-optimizely-cms-on-an-externally-hosted-site/",
+              "https://hacksbyme.net/2023/08/30/image-optimization-at-the-edge/",
+              "https://hacksbyme.net/2024/08/02/changes-to-picturerenderer-optimizely/",
+              "https://hacksbyme.net/about/",
+              "https://hacksbyme.net/archives/"
+            ]
+          },
+          "sitemapindexes": [
+            "https://hacksbyme.net/sitemap.xml"
+          ],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 2,
+          "feeds": [
+            "https://hacksbyme.net/feed/",
+            "https://hacksbyme.net/comments/feed/"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://hacksbyme.net/.well-known/security.txt": {
+              "status": "wrong content"
+            },
+            "https://hacksbyme.net/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "wrong content"
+        }
+      }
+    }
+  ]
+}

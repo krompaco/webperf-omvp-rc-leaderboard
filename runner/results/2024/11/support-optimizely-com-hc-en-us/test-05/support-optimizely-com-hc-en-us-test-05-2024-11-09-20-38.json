@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 5,
+      "rating": 3.05,
+      "rating_sec": 4.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-11-09T20:38:52.072046",
+      "report": "- About average on following best practice\n- Uses deprecated APIs ( 1.00 rating )\r\n- Uses third-party cookies ( 1.00 rating )\r\n- Uses HTTPS ( 5.00 rating )\r\n- Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools ( 1.00 rating )\r\n- Allows users to paste into input fields ( 5.00 rating )\r\n- Has a \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 tag with \u0060width\u0060 or \u0060initial-scale\u0060 ( 5.00 rating )\r\n- No browser errors logged to the console ( 5.00 rating )\r\n- Displays images with correct aspect ratio ( 5.00 rating )\r\n- Serves images with appropriate resolution ( 5.00 rating )\r\n- Page has the HTML doctype ( 5.00 rating )\r\n- Properly defines charset ( 5.00 rating )\r\n- Avoids requesting the geolocation permission on page load ( 5.00 rating )\r\n- Avoids requesting the notification permission on page load ( 5.00 rating )\r\n- Document uses legible font sizes ( 5.00 rating )\r\n- Page has valid source maps ( 5.00 rating )\r\n- Ensure CSP is effective against XSS attacks ( 5.00 rating )\r\n- Detected JavaScript libraries ( 5.00 rating )\r\n",
+      "report_sec": "- Uses HTTPS ( 5.00 rating )\r\n- Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools ( 1.00 rating )\r\n- Allows users to paste into input fields ( 5.00 rating )\r\n- Ensure CSP is effective against XSS attacks ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Page has the HTML doctype ( 5.00 rating )\r\n",
+      "data": {
+        "first-contentful-paint": 2171.8215,
+        "largest-contentful-paint": 6308.629,
+        "speed-index": 4023.902867983272,
+        "total-blocking-time": 783,
+        "max-potential-fid": 238,
+        "cumulative-layout-shift": 0.00022183773299883652,
+        "server-response-time": 673.263,
+        "interactive": 11411.681574999999,
+        "redirects": 0,
+        "mainthread-work-breakdown": 2636.6919999999573,
+        "bootup-time": 1812.3280000000086,
+        "network-rtt": 19.784000000000002,
+        "network-server-latency": 138.888,
+        "metrics": 11412,
+        "prioritize-lcp-image": 0,
+        "uses-long-cache-ttl": 78693.89999999998,
+        "total-byte-weight": 1526198,
+        "offscreen-images": 0,
+        "render-blocking-resources": 223,
+        "unminified-css": 0,
+        "unminified-javascript": 0,
+        "unused-css-rules": 320,
+        "unused-javascript": 1430,
+        "modern-image-formats": 640,
+        "uses-optimized-images": 480,
+        "uses-text-compression": 0,
+        "uses-responsive-images": 160,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 455,
+        "uses-http2": 0
+      }
+    }
+  ]
+}

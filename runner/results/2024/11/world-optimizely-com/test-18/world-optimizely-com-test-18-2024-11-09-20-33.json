@@ -1,0 +1,701 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 1.4,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 1.4,
+      "rating_stand": -1.0,
+      "date": "2024-11-09T20:33:45.658347",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 16 ( 1.80 rating )\r\n- Number of issues: 68 ( 1.00 rating )\r\n\n##### Problems:\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.73:1. Recommendation:  change background to #00893a.\n- Iframe element requires a non-empty title attribute that identifies the frame.\n- A element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.\n- A button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.\n- A textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.\n- A form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.\n- Anchor element found with a valid href attribute, but no link content has been supplied.\n- Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.\n- Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.37:1. Recommendation:  change text colour to #737373.\n- Info: Too many unique problems to list them all.\n",
+      "report_stand": "",
+      "data": [
+        {
+          "code": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+          "context": "\u003Chtml prefix=\u0022og: http://ogp.me/ns#\u0022\u003E\u003Chead prefix=\u0022og: http://ogp.me...\u003C/html\u003E",
+          "selector": "html",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Span.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \u0022-1\u0022 found on the web page.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Span.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \u0022-1\u0022 found on the web page.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Span.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \u0022-1\u0022 found on the web page.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Span.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Duplicate id attribute value \u0022-1\u0022 found on the web page.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Span.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cspan id=\u0022-1\u0022 class=\u0022fa fa-angle-down float-right smScrCaret px-3 py-3 clickable\u0022 data-toggle=\u0022dropdown\u0022 role=\u0022button\u0022 aria-haspopup=\u0022true\u0022 aria-expanded=\u0022false\u0022\u003E\u003C/span\u003E",
+          "selector": "#-1",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cbutton class=\u0022btn btn-primary\u0022 id=\u0022epi-search\u0022\u003E\u003Cspan class=\u0022fa fa-search\u0022\u003E\u003C/sp...\u003C/button\u003E",
+          "selector": "#epi-search",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cinput placeholder=\u0022Refine by search\u0022 id=\u0022searchWidgetTrigger\u0022\u003E",
+          "selector": "#searchWidgetTrigger",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+          "context": "\u003Cinput placeholder=\u0022Refine by search\u0022 id=\u0022searchWidgetTrigger\u0022\u003E",
+          "selector": "#searchWidgetTrigger",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "\u003Cdiv class=\u0022carousel-content dropshadow\u0022 style=\u0022padding: 80px 100px;width:100%;\u0022 align=\u0022left\u0022\u003E\n            \u003Ch2 style=\u0022text-al...\u003C/div\u003E",
+          "selector": "#carousel-259730 \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.73:1. Recommendation:  change background to #06ab4c.",
+          "context": "\u003Cspan style=\u0022color: #ffffff;\u0022\u003EOptimizely acquires NetSpring, ...\u003C/span\u003E",
+          "selector": "#carousel-259730 \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E h2 \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.73:1. Recommendation:  change background to #00893a.",
+          "context": "\u003Cspan style=\u0022color: #ffffff;\u0022\u003ECoupling best-of-breed analytic...\u003C/span\u003E",
+          "selector": "#carousel-259730 \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E p:nth-child(3) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "\u003Cdiv class=\u0022carousel-content dropshadow\u0022 style=\u0022padding: 80px 100px;width:100%;\u0022 align=\u0022left\u0022\u003E\n            \u003Cp\u003E\u003Cimg alt=\u0022Optim...\u003C/div\u003E",
+          "selector": "#carousel-259730 \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "\u003Cdiv class=\u0022carousel-content dropshadow\u0022 style=\u0022padding: 100px 100px;width:100%;\u0022 align=\u0022left\u0022\u003E\n            \u003Ch1 style=\u0022text-al...\u003C/div\u003E",
+          "selector": "#carousel-259730 \u003E div \u003E div:nth-child(3) \u003E div \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "\u003Cdiv class=\u0022carousel-content \u0022 style=\u0022padding: 100px 35px;width:100%;\u0022 align=\u0022left\u0022\u003E\n            \u003Ch2 class=\u0022bold\u0022 s...\u003C/div\u003E",
+          "selector": "#carousel-259730 \u003E div \u003E div:nth-child(4) \u003E div \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "\u003Cdiv class=\u0022carousel-content \u0022 style=\u0022padding: 50px 100px;width:100%;\u0022 align=\u0022left\u0022\u003E\n            \u003Cp\u003E\u003Cimg alt=\u0022Credl...\u003C/div\u003E",
+          "selector": "#carousel-259730 \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "\u003Cdiv class=\u0022carousel-content dropshadow\u0022 style=\u0022padding: 80px 100px;width:100%;\u0022 align=\u0022left\u0022\u003E\n            \u003Ch2 style=\u0022text-al...\u003C/div\u003E",
+          "selector": "#carousel-259730 \u003E div \u003E div:nth-child(6) \u003E div \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(2) \u003E section \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(2) \u003E section \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(2) \u003E section \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Optimizely_badge.png\u0022 title=\u0022Optimizely Employee\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(2) \u003E section \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div \u003E div:nth-child(3) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg class=\u0022mr-1\u0022 src=\u0022/resources/images/icons/solved.svg\u0022 title=\u0022A solution has been provided in the replies for the discussed issue\u0022\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(1) \u003E td:nth-child(1) \u003E div:nth-child(1) \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.54:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cdiv class=\u0022blog-info-line\u0022\u003EBy: Jonas Boman\u003C/div\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(1) \u003E td:nth-child(4) \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.37:1. Recommendation:  change text colour to #737373.",
+          "context": "\u003Cdiv class=\u0022blog-info-line\u0022\u003EBy: pk1023\u003C/div\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(2) \u003E td:nth-child(4) \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.54:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cdiv class=\u0022blog-info-line\u0022\u003EBy: PuneetGarg\u003C/div\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(3) \u003E td:nth-child(4) \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.37:1. Recommendation:  change text colour to #737373.",
+          "context": "\u003Cdiv class=\u0022blog-info-line\u0022\u003EBy: PuneetGarg\u003C/div\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(4) \u003E td:nth-child(4) \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.54:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cdiv class=\u0022blog-info-line\u0022\u003EBy: eperezjr\u003C/div\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(5) \u003E td:nth-child(4) \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.37:1. Recommendation:  change text colour to #737373.",
+          "context": "\u003Cdiv class=\u0022blog-info-line\u0022\u003EBy: Manh Nguyen\u003C/div\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(6) \u003E td:nth-child(4) \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Align attributes .",
+          "context": "\u003Cdiv class=\u0022carousel-content \u0022 style=\u0022padding: 50px 100px;width:100%;\u0022 align=\u0022left\u0022\u003E\n            \u003Cp class=\u0022desktopO...\u003C/div\u003E",
+          "selector": "#carousel-262203 \u003E div \u003E div \u003E div \u003E div:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Optimizely_badge.png\u0022 title=\u0022Optimizely Employee\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Commerce_badge.png\u0022 title=\u0022Commerce Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(5) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(5) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(6) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(6) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Optimizely_badge.png\u0022 title=\u0022Optimizely Employee\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(7) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(8) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(8) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(9) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Commerce_badge.png\u0022 title=\u0022Commerce Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(9) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-0 \u003E div \u003E div:nth-child(9) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img:nth-child(3)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Optimizely_badge.png\u0022 title=\u0022Optimizely Employee\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Optimizely_badge.png\u0022 title=\u0022Optimizely Employee\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(4) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Optimizely_badge.png\u0022 title=\u0022Optimizely Employee\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(5) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Optimizely_badge.png\u0022 title=\u0022Optimizely Employee\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(6) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(7) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/Optimizely_badge.png\u0022 title=\u0022Optimizely Employee\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(8) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022/omvp/\u0022 class=\u0022badge\u0022\u003E\n                              ...\u003C/a\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(9) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+          "context": "\u003Cimg src=\u0022/Resources/images/icons/CMS_badge.png\u0022 title=\u0022CMS Certified\u0022 width=\u002220\u0022 height=\u002220\u0022\u003E",
+          "selector": "#ContributorTabs-1 \u003E div \u003E div:nth-child(9) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E div \u003E img",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca class=\u0022backToTop\u0022 href=\u0022#top\u0022 style=\u0022display: none;\u0022\u003E\u003Cimg src=\u0022/Resources/images/che...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E a:nth-child(9)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca class=\u0022icon\u0022 href=\u0022https://www.linkedin.com/company/optimizely/\u0022 target=\u0022_blank\u0022\u003E\u003C/a\u003E",
+          "selector": "html \u003E body \u003E footer:nth-child(14) \u003E div \u003E div \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca class=\u0022icon\u0022 href=\u0022https://www.instagram.com/optimizely/\u0022 target=\u0022_blank\u0022\u003E\u003C/a\u003E",
+          "selector": "html \u003E body \u003E footer:nth-child(14) \u003E div \u003E div \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca class=\u0022icon\u0022 href=\u0022https://www.youtube.com/user/optimizely\u0022 target=\u0022_blank\u0022\u003E\u003C/a\u003E",
+          "selector": "html \u003E body \u003E footer:nth-child(14) \u003E div \u003E div \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca class=\u0022icon\u0022 href=\u0022https://www.facebook.com/optimizely\u0022 target=\u0022_blank\u0022\u003E\u003C/a\u003E",
+          "selector": "html \u003E body \u003E footer:nth-child(14) \u003E div \u003E div \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(4) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe height=\u00220\u0022 width=\u00220\u0022 style=\u0022display: none; visibility: hidden;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "html \u003E body \u003E iframe:nth-child(23)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Ctextarea id=\u0022g-recaptcha-response-100000\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+          "selector": "#g-recaptcha-response-100000",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+          "context": "\u003Ctextarea id=\u0022g-recaptcha-response-100000\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+          "selector": "#g-recaptcha-response-100000",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe style=\u0022display: none;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "html \u003E body \u003E div:nth-child(25) \u003E iframe",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    }
+  ]
+}
