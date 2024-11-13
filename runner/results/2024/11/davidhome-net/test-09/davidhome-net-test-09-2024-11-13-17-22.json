@@ -1,0 +1,120 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 4.0,
+      "rating_sec": 1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.67,
+      "date": "2024-11-13T17:23:04.480882",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt is missing. ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, No duplicate Urls in \u003Cloc\u003E ( 5.00 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt is missing. ( 1.00 rating )\r\n",
+      "data": {
+        "url": "https://www.davidhome.net/",
+        "root_url": "https://www.davidhome.net/",
+        "robots": {
+          "url": "https://www.davidhome.net/robots.txt",
+          "content": "User-Agent: *\nAllow: /\n\nSitemap: https://www.davidhome.net/sitemap.xml",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 1,
+          "sitemap_urls_in_robots": [
+            "https://www.davidhome.net/sitemap.xml"
+          ],
+          "sitemaps": {
+            "https://www.davidhome.net/content-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 17
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 17,
+              "nof_items_no_duplicates": 17,
+              "known_types_details": {
+                "webpage": [
+                  "https://www.davidhome.net/",
+                  "https://www.davidhome.net/about",
+                  "https://www.davidhome.net/blog/beware-of-multiple-enumeration-of-ienumerable",
+                  "https://www.davidhome.net/blog/don-t-manually-change-the-tls-version-using-servicepointmanager-securityprotocol",
+                  "https://www.davidhome.net/blog/getnextsegment-with-empty-remaining-causing-fuzzes",
+                  "https://www.davidhome.net/blog/how-i-ended-up-fixing-a-bug-using-an-ioc-trick",
+                  "https://www.davidhome.net/blog/how-ndepend-can-quickly-help-you-find-code-quality-issues-and-resolve-them",
+                  "https://www.davidhome.net/blog/idx21323-requirenonce-is-true-nonce-was-null",
+                  "https://www.davidhome.net/blog/optimizely-cms-commerce-net-core-migration-tips-tricks",
+                  "https://www.davidhome.net/blog/optimizely-commerce-business-foundation-custom-entity-model-to-add-on-quan-mai-s-blog",
+                  "https://www.davidhome.net/blog/optimizely-content-cloud-cms-apps-add-ons-tips-tricks",
+                  "https://www.davidhome.net/blog/optimizely-content-graph-sync-computed-getter-properties-like-with-search-navigation",
+                  "https://www.davidhome.net/blog/optimizely-dxp-application-insights-instrumentation-key-vs-connection-string",
+                  "https://www.davidhome.net/blog/secure-your-smtp-configuration-configuration-builders",
+                  "https://www.davidhome.net/categories",
+                  "https://www.davidhome.net/privacy-policy",
+                  "https://www.davidhome.net/tags"
+                ]
+              }
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 17
+          },
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 17,
+          "nof_items_no_duplicates": 17,
+          "known_types_details": {
+            "webpage": [
+              "https://www.davidhome.net/",
+              "https://www.davidhome.net/about",
+              "https://www.davidhome.net/blog/beware-of-multiple-enumeration-of-ienumerable",
+              "https://www.davidhome.net/blog/don-t-manually-change-the-tls-version-using-servicepointmanager-securityprotocol",
+              "https://www.davidhome.net/blog/getnextsegment-with-empty-remaining-causing-fuzzes",
+              "https://www.davidhome.net/blog/how-i-ended-up-fixing-a-bug-using-an-ioc-trick",
+              "https://www.davidhome.net/blog/how-ndepend-can-quickly-help-you-find-code-quality-issues-and-resolve-them",
+              "https://www.davidhome.net/blog/idx21323-requirenonce-is-true-nonce-was-null",
+              "https://www.davidhome.net/blog/optimizely-cms-commerce-net-core-migration-tips-tricks",
+              "https://www.davidhome.net/blog/optimizely-commerce-business-foundation-custom-entity-model-to-add-on-quan-mai-s-blog",
+              "https://www.davidhome.net/blog/optimizely-content-cloud-cms-apps-add-ons-tips-tricks",
+              "https://www.davidhome.net/blog/optimizely-content-graph-sync-computed-getter-properties-like-with-search-navigation",
+              "https://www.davidhome.net/blog/optimizely-dxp-application-insights-instrumentation-key-vs-connection-string",
+              "https://www.davidhome.net/blog/secure-your-smtp-configuration-configuration-builders",
+              "https://www.davidhome.net/categories",
+              "https://www.davidhome.net/privacy-policy",
+              "https://www.davidhome.net/tags"
+            ]
+          },
+          "sitemapindexes": [
+            "https://www.davidhome.net/sitemap.xml"
+          ],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 1,
+          "feeds": [
+            "https://www.davidhome.net/Contents/Lists/44278zpjasm6c3thzwmnfv5kx8/rss"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://www.davidhome.net/.well-known/security.txt": {
+              "status": "missing"
+            },
+            "https://www.davidhome.net/security.txt": {
+              "status": "missing"
+            }
+          },
+          "status": "missing"
+        }
+      }
+    }
+  ]
+}

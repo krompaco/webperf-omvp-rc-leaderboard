@@ -1,0 +1,224 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 5.0,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-11-13T17:16:25.058903",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt seems to work. ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, No duplicate Urls in \u003Cloc\u003E ( 5.00 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt seems to work. ( 5.00 rating )\r\n",
+      "data": {
+        "url": "https://jcpretorius.com/blog/",
+        "root_url": "https://jcpretorius.com/",
+        "robots": {
+          "url": "https://jcpretorius.com/robots.txt",
+          "content": "Sitemap: https://jcpretorius.com/sitemap-index.xml\r\nUser-agent: * \r\nDisallow: /error/notfound",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 1,
+          "sitemap_urls_in_robots": [
+            "https://jcpretorius.com/sitemap-index.xml"
+          ],
+          "sitemaps": {
+            "https://jcpretorius.com/sitemap-0.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 69
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 69,
+              "nof_items_no_duplicates": 69,
+              "known_types_details": {
+                "webpage": [
+                  "https://jcpretorius.com/",
+                  "https://jcpretorius.com/blog/",
+                  "https://jcpretorius.com/category/about/",
+                  "https://jcpretorius.com/category/crypto/",
+                  "https://jcpretorius.com/category/eds/",
+                  "https://jcpretorius.com/category/meta/",
+                  "https://jcpretorius.com/category/meta/2/",
+                  "https://jcpretorius.com/category/optimizely/",
+                  "https://jcpretorius.com/category/optimizely/2/",
+                  "https://jcpretorius.com/category/optimizely/3/",
+                  "https://jcpretorius.com/category/performance/",
+                  "https://jcpretorius.com/category/product/",
+                  "https://jcpretorius.com/category/productivity/",
+                  "https://jcpretorius.com/category/toggl/",
+                  "https://jcpretorius.com/post/2018/adventures-with-elasticsearch/",
+                  "https://jcpretorius.com/post/2018/create-episerver-model-properties-using-code-snippets/",
+                  "https://jcpretorius.com/post/2018/hello-world/",
+                  "https://jcpretorius.com/post/2018/looking-back-with-saturdayearth/",
+                  "https://jcpretorius.com/post/2018/permanently-hiding-the-episerver-license-warning-in-chrome/",
+                  "https://jcpretorius.com/post/2018/start-specific-toggl-timer-with-ios12-shortcuts/",
+                  "https://jcpretorius.com/post/2018/start-with-a-minimum-viable-public-product/",
+                  "https://jcpretorius.com/post/2018/use-toggl-to-track-daily-goal-achievements/",
+                  "https://jcpretorius.com/post/2018/why-create-blogfull/",
+                  "https://jcpretorius.com/post/2019/autofill-episerver-forms-fields-from-profile-store/",
+                  "https://jcpretorius.com/post/2019/check-tracked-time-in-toggl-with-ios-shortcuts/",
+                  "https://jcpretorius.com/post/2019/how-to-easily-copy-content-between-pages/",
+                  "https://jcpretorius.com/post/2019/infinite-scroll-blocker-for-chrome/",
+                  "https://jcpretorius.com/post/2019/introducing-relatively-productive/",
+                  "https://jcpretorius.com/post/2019/introducing-the-ab-test-list-gadget/",
+                  "https://jcpretorius.com/post/2019/notes-on-disconnecting/",
+                  "https://jcpretorius.com/post/2019/quick-episerver-custom-login-background/",
+                  "https://jcpretorius.com/post/2019/third-party-caching-and-website-speed/",
+                  "https://jcpretorius.com/post/2020/custom-javascript-ios-14-widgets-with-scriptable/",
+                  "https://jcpretorius.com/post/2020/every-day-stack-updates-q3-2020/",
+                  "https://jcpretorius.com/post/2020/every-day-stack-updates-q4-2020/",
+                  "https://jcpretorius.com/post/2020/juststarted-desktop-project-time-tracker-for-toggl/",
+                  "https://jcpretorius.com/post/2020/sync-apple-workouts-to-toggl-with-siri-shortcuts/",
+                  "https://jcpretorius.com/post/2021/carbon-statement/",
+                  "https://jcpretorius.com/post/2021/every-day-stack-updates-q1-2021/",
+                  "https://jcpretorius.com/post/2021/every-day-stack-updates-q2-2021/",
+                  "https://jcpretorius.com/post/2021/five-tips-for-becoming-a-senior-software-engineer/",
+                  "https://jcpretorius.com/post/2021/the-year-of-creation/",
+                  "https://jcpretorius.com/post/2021/what-is-an-nft-really/",
+                  "https://jcpretorius.com/post/2022/every-day-stack-updates-q2-2022/",
+                  "https://jcpretorius.com/post/2022/every-day-stack-updates-q3-2022/",
+                  "https://jcpretorius.com/post/2022/the-year-of-foundation/",
+                  "https://jcpretorius.com/post/2022/three-key-takeaways-from-opticon-2022/",
+                  "https://jcpretorius.com/post/2022/unpublish-content-the-intuitive-way/",
+                  "https://jcpretorius.com/post/2022/waving-to-advance-over-the-sunset/",
+                  "https://jcpretorius.com/post/2023/deciding-when-headless-content-management-fits-your-needs/",
+                  "https://jcpretorius.com/post/2023/every-day-stack-updates-q1-2023/",
+                  "https://jcpretorius.com/post/2023/every-day-stack-updates-q3-2023/",
+                  "https://jcpretorius.com/post/2023/every-day-stack-updates-q4-2023/",
+                  "https://jcpretorius.com/post/2023/google-optimize-to-optimizely-a-seamless-transition/",
+                  "https://jcpretorius.com/post/2023/highlights-from-the-q2-optimizely-global-partner-webinar/",
+                  "https://jcpretorius.com/post/2023/how-to-build-an-effective-experimentation-strategy/",
+                  "https://jcpretorius.com/post/2023/optimizely-feature-experimentation/",
+                  "https://jcpretorius.com/post/2023/optimizely-web-experimentation/",
+                  "https://jcpretorius.com/post/2023/powering-next-gen-apps-with-graphql-and-headless-cms/",
+                  "https://jcpretorius.com/post/2023/qa-with-tech-lead-jacob-pretorius--our-new-optimizely-gold-mvp/",
+                  "https://jcpretorius.com/post/2023/six-key-highlights-from-opticon/",
+                  "https://jcpretorius.com/post/2023/the-year-of-decree/",
+                  "https://jcpretorius.com/post/2024/astro-csp-headers-for-sri-with-cloudflare-pages/",
+                  "https://jcpretorius.com/post/2024/build-a-headless-blog-with-astro-and-optimizely-saas-cms-part-2/",
+                  "https://jcpretorius.com/post/2024/build-a-headless-blog-with-astro-and-optimizely-saas-cms/",
+                  "https://jcpretorius.com/post/2024/every-day-stack-updates-q3-2024/",
+                  "https://jcpretorius.com/post/2024/six-key-highlights-from-opticon-london/",
+                  "https://jcpretorius.com/post/2024/the-year-of-expansion/",
+                  "https://jcpretorius.com/reading/"
+                ]
+              }
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 69
+          },
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 69,
+          "nof_items_no_duplicates": 69,
+          "known_types_details": {
+            "webpage": [
+              "https://jcpretorius.com/",
+              "https://jcpretorius.com/blog/",
+              "https://jcpretorius.com/category/about/",
+              "https://jcpretorius.com/category/crypto/",
+              "https://jcpretorius.com/category/eds/",
+              "https://jcpretorius.com/category/meta/",
+              "https://jcpretorius.com/category/meta/2/",
+              "https://jcpretorius.com/category/optimizely/",
+              "https://jcpretorius.com/category/optimizely/2/",
+              "https://jcpretorius.com/category/optimizely/3/",
+              "https://jcpretorius.com/category/performance/",
+              "https://jcpretorius.com/category/product/",
+              "https://jcpretorius.com/category/productivity/",
+              "https://jcpretorius.com/category/toggl/",
+              "https://jcpretorius.com/post/2018/adventures-with-elasticsearch/",
+              "https://jcpretorius.com/post/2018/create-episerver-model-properties-using-code-snippets/",
+              "https://jcpretorius.com/post/2018/hello-world/",
+              "https://jcpretorius.com/post/2018/looking-back-with-saturdayearth/",
+              "https://jcpretorius.com/post/2018/permanently-hiding-the-episerver-license-warning-in-chrome/",
+              "https://jcpretorius.com/post/2018/start-specific-toggl-timer-with-ios12-shortcuts/",
+              "https://jcpretorius.com/post/2018/start-with-a-minimum-viable-public-product/",
+              "https://jcpretorius.com/post/2018/use-toggl-to-track-daily-goal-achievements/",
+              "https://jcpretorius.com/post/2018/why-create-blogfull/",
+              "https://jcpretorius.com/post/2019/autofill-episerver-forms-fields-from-profile-store/",
+              "https://jcpretorius.com/post/2019/check-tracked-time-in-toggl-with-ios-shortcuts/",
+              "https://jcpretorius.com/post/2019/how-to-easily-copy-content-between-pages/",
+              "https://jcpretorius.com/post/2019/infinite-scroll-blocker-for-chrome/",
+              "https://jcpretorius.com/post/2019/introducing-relatively-productive/",
+              "https://jcpretorius.com/post/2019/introducing-the-ab-test-list-gadget/",
+              "https://jcpretorius.com/post/2019/notes-on-disconnecting/",
+              "https://jcpretorius.com/post/2019/quick-episerver-custom-login-background/",
+              "https://jcpretorius.com/post/2019/third-party-caching-and-website-speed/",
+              "https://jcpretorius.com/post/2020/custom-javascript-ios-14-widgets-with-scriptable/",
+              "https://jcpretorius.com/post/2020/every-day-stack-updates-q3-2020/",
+              "https://jcpretorius.com/post/2020/every-day-stack-updates-q4-2020/",
+              "https://jcpretorius.com/post/2020/juststarted-desktop-project-time-tracker-for-toggl/",
+              "https://jcpretorius.com/post/2020/sync-apple-workouts-to-toggl-with-siri-shortcuts/",
+              "https://jcpretorius.com/post/2021/carbon-statement/",
+              "https://jcpretorius.com/post/2021/every-day-stack-updates-q1-2021/",
+              "https://jcpretorius.com/post/2021/every-day-stack-updates-q2-2021/",
+              "https://jcpretorius.com/post/2021/five-tips-for-becoming-a-senior-software-engineer/",
+              "https://jcpretorius.com/post/2021/the-year-of-creation/",
+              "https://jcpretorius.com/post/2021/what-is-an-nft-really/",
+              "https://jcpretorius.com/post/2022/every-day-stack-updates-q2-2022/",
+              "https://jcpretorius.com/post/2022/every-day-stack-updates-q3-2022/",
+              "https://jcpretorius.com/post/2022/the-year-of-foundation/",
+              "https://jcpretorius.com/post/2022/three-key-takeaways-from-opticon-2022/",
+              "https://jcpretorius.com/post/2022/unpublish-content-the-intuitive-way/",
+              "https://jcpretorius.com/post/2022/waving-to-advance-over-the-sunset/",
+              "https://jcpretorius.com/post/2023/deciding-when-headless-content-management-fits-your-needs/",
+              "https://jcpretorius.com/post/2023/every-day-stack-updates-q1-2023/",
+              "https://jcpretorius.com/post/2023/every-day-stack-updates-q3-2023/",
+              "https://jcpretorius.com/post/2023/every-day-stack-updates-q4-2023/",
+              "https://jcpretorius.com/post/2023/google-optimize-to-optimizely-a-seamless-transition/",
+              "https://jcpretorius.com/post/2023/highlights-from-the-q2-optimizely-global-partner-webinar/",
+              "https://jcpretorius.com/post/2023/how-to-build-an-effective-experimentation-strategy/",
+              "https://jcpretorius.com/post/2023/optimizely-feature-experimentation/",
+              "https://jcpretorius.com/post/2023/optimizely-web-experimentation/",
+              "https://jcpretorius.com/post/2023/powering-next-gen-apps-with-graphql-and-headless-cms/",
+              "https://jcpretorius.com/post/2023/qa-with-tech-lead-jacob-pretorius--our-new-optimizely-gold-mvp/",
+              "https://jcpretorius.com/post/2023/six-key-highlights-from-opticon/",
+              "https://jcpretorius.com/post/2023/the-year-of-decree/",
+              "https://jcpretorius.com/post/2024/astro-csp-headers-for-sri-with-cloudflare-pages/",
+              "https://jcpretorius.com/post/2024/build-a-headless-blog-with-astro-and-optimizely-saas-cms-part-2/",
+              "https://jcpretorius.com/post/2024/build-a-headless-blog-with-astro-and-optimizely-saas-cms/",
+              "https://jcpretorius.com/post/2024/every-day-stack-updates-q3-2024/",
+              "https://jcpretorius.com/post/2024/six-key-highlights-from-opticon-london/",
+              "https://jcpretorius.com/post/2024/the-year-of-expansion/",
+              "https://jcpretorius.com/reading/"
+            ]
+          },
+          "sitemapindexes": [
+            "https://jcpretorius.com/sitemap-index.xml"
+          ],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 1,
+          "feeds": [
+            "/rss"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://jcpretorius.com/.well-known/security.txt": {
+              "status": "ok"
+            },
+            "https://jcpretorius.com/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "ok"
+        }
+      }
+    }
+  ]
+}

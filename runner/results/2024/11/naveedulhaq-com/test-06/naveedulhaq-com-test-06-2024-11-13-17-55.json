@@ -1,0 +1,57 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.85,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.85,
+      "date": "2024-11-13T17:55:52.903556",
+      "report": "- The tested page has 1 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 1 ( 4.80 rating )\r\n- #1: Webpage - Number of errors: 1 ( 4.90 rating )\r\n  - Element \u201Cscript\u201D must not have attribute \u201Cdefer\u201D unless attribute \u201Csrc\u201D is also specified. (errors of this type: 1 pcs)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.naveedulhaq.com/",
+              "lastLine": 83,
+              "lastColumn": 979,
+              "firstColumn": 938,
+              "message": "Element \u201Cscript\u201D must not have attribute \u201Cdefer\u201D unless attribute \u201Csrc\u201D is also specified.",
+              "extract": "\u003C/script\u003E \u003Cscript defer id=\u0022google_gtagjs-js-after\u0022\u003E windo",
+              "hiliteStart": 10,
+              "hiliteLength": 42,
+              "file": "file:/usr/src/runner/cache/www.naveedulhaq.com/0451eb5572e17928c77e61037d99b88c9a50ad2ef008fb85a78d3569f1e976383619fd6a93bf14ffc490dfb609751e4ed569cd9d454c36a08e69298c45e1a015.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://www.naveedulhaq.com/",
+              "lastLine": 83,
+              "lastColumn": 979,
+              "firstColumn": 938,
+              "message": "Element \u201Cscript\u201D must not have attribute \u201Cdefer\u201D unless attribute \u201Csrc\u201D is also specified.",
+              "extract": "\u003C/script\u003E \u003Cscript defer id=\u0022google_gtagjs-js-after\u0022\u003E windo",
+              "hiliteStart": 10,
+              "hiliteLength": 42,
+              "file": "file:/usr/src/runner/cache/www.naveedulhaq.com/0451eb5572e17928c77e61037d99b88c9a50ad2ef008fb85a78d3569f1e976383619fd6a93bf14ffc490dfb609751e4ed569cd9d454c36a08e69298c45e1a015.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.naveedulhaq.com/",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

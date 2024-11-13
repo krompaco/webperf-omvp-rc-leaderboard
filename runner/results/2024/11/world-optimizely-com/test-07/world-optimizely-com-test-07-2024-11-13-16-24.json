@@ -1,0 +1,182 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.95,
+      "date": "2024-11-13T16:25:23.298997",
+      "report": "- The CSS is very good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Caspect-ratio\u201D: \u201C1\u201D is not a \u201Caspect-ratio\u201D value. (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060 in: #95: anchor, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #95: anchor, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #95: anchor, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #95: anchor, number of errors: 2 ( 4.80 rating )\r\n  - CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #89: css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #89: css, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #90: css2, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #90: css2, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #91: css2, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #91: css2, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #92: css2, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #92: css2, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+              "lastLine": 6,
+              "lastColumn": 12710,
+              "message": "CSS: \u201Ctransform\u201D: \u201Cvar(--fa-rotate-angle, none)\u201D is not a \u201Ctransform\u201D value.",
+              "extract": "ate-angle,none))}.fa-stack{dis",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdnjs.cloudflare.com/07d9256b6f81259a645fa962a9d049b709a624b1427282c2a85d71d07a9ea6e32b9c9f2176369b76f9004401c3f3f577692bf0f338cdc2b3c40f6430632d4def.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://world.optimizely.com/bundles/wip?v=w3DTmppq-pSg4fn13UwY6oW220PBgrvTFnf5COQBw_g1",
+              "lastLine": 4894,
+              "lastColumn": 17,
+              "message": "CSS: \u201Caspect-ratio\u201D: \u201C1\u201D is not a \u201Caspect-ratio\u201D value.",
+              "extract": " aspect-ratio: 1;\n  border-rad",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/world.optimizely.com/3658074e8be913ff54fc8fc2af63c4c0d677923b070080d07aaebee09775201bbd068d798a120c670f2eb775319600a4daf90c5dbe7d9d0e9521376b8ecd65e1.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/-ZG7BC9TxCVEbzIO2m429usb/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 55229,
+              "message": "CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist.",
+              "extract": "lex:1;box-flex:1;-ms-flex-posi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/97726fdc3bb43df3d2c4207e37e3142a55f943cd0bae8abcbeebad4277400866779b1515388b3614100e84f0e7747f8691f777bb0e15f63e830cc4d880abfd2b.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/-ZG7BC9TxCVEbzIO2m429usb/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 64586,
+              "message": "CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized.",
+              "extract": "x,rgba(0,0,0,.4);color:#eee;di",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/97726fdc3bb43df3d2c4207e37e3142a55f943cd0bae8abcbeebad4277400866779b1515388b3614100e84f0e7747f8691f777bb0e15f63e830cc4d880abfd2b.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+              "lastLine": 6,
+              "lastColumn": 12710,
+              "message": "CSS: \u201Ctransform\u201D: \u201Cvar(--fa-rotate-angle, none)\u201D is not a \u201Ctransform\u201D value.",
+              "extract": "ate-angle,none))}.fa-stack{dis",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdnjs.cloudflare.com/07d9256b6f81259a645fa962a9d049b709a624b1427282c2a85d71d07a9ea6e32b9c9f2176369b76f9004401c3f3f577692bf0f338cdc2b3c40f6430632d4def.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://world.optimizely.com/bundles/wip?v=w3DTmppq-pSg4fn13UwY6oW220PBgrvTFnf5COQBw_g1",
+              "lastLine": 4894,
+              "lastColumn": 17,
+              "message": "CSS: \u201Caspect-ratio\u201D: \u201C1\u201D is not a \u201Caspect-ratio\u201D value.",
+              "extract": " aspect-ratio: 1;\n  border-rad",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/world.optimizely.com/3658074e8be913ff54fc8fc2af63c4c0d677923b070080d07aaebee09775201bbd068d798a120c670f2eb775319600a4daf90c5dbe7d9d0e9521376b8ecd65e1.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/-ZG7BC9TxCVEbzIO2m429usb/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 55229,
+              "message": "CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist.",
+              "extract": "lex:1;box-flex:1;-ms-flex-posi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/97726fdc3bb43df3d2c4207e37e3142a55f943cd0bae8abcbeebad4277400866779b1515388b3614100e84f0e7747f8691f777bb0e15f63e830cc4d880abfd2b.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/-ZG7BC9TxCVEbzIO2m429usb/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 64586,
+              "message": "CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized.",
+              "extract": "x,rgba(0,0,0,.4);color:#eee;di",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/97726fdc3bb43df3d2c4207e37e3142a55f943cd0bae8abcbeebad4277400866779b1515388b3614100e84f0e7747f8691f777bb0e15f63e830cc4d880abfd2b.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://world.optimizely.com/",
+            "index": 1
+          },
+          {
+            "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
+            "index": 2
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
+            "index": 3
+          },
+          {
+            "url": "https://cdn.datatables.net/1.11.2/css/dataTables.bootstrap4.min.css",
+            "index": 7
+          },
+          {
+            "url": "https://cdn.datatables.net/v/bs4/dt-1.11.5/b-2.2.2/b-colvis-2.2.2/b-html5-2.2.2/datatables.min.css",
+            "index": 8
+          },
+          {
+            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css",
+            "index": 10
+          },
+          {
+            "url": "https://world.optimizely.com/ClientResources/highlightjs/10.0.2/styles/vs2015.css",
+            "index": 16
+          },
+          {
+            "url": "https://world.optimizely.com/scripts/jquery/css/smoothness/bundle?v=9ZRwJxOnkWGxm0ojZVAKuQSIsQZCIg7koco44Ubw08E1",
+            "index": 19
+          },
+          {
+            "url": "https://world.optimizely.com/bundles/wip?v=w3DTmppq-pSg4fn13UwY6oW220PBgrvTFnf5COQBw_g1",
+            "index": 20
+          },
+          {
+            "url": "https://a5935064.cdn.optimizely.com/client_storage/a5935064.html",
+            "index": 71
+          },
+          {
+            "url": "https://c.6sc.co/",
+            "index": 80
+          },
+          {
+            "url": "https://ipv6.6sc.co/",
+            "index": 81
+          },
+          {
+            "url": "https://www.googletagmanager.com/static/service_worker/4al0/sw_iframe.html?origin=https%3A%2F%2Fworld.optimizely.com",
+            "index": 86
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/anchor?ar=1\u0026k=6Le5-BQmAAAAAMs1Nbm38roKdHBAXiPEt1cd8xjf\u0026co=aHR0cHM6Ly93b3JsZC5vcHRpbWl6ZWx5LmNvbTo0NDM.\u0026hl=en\u0026v=-ZG7BC9TxCVEbzIO2m429usb\u0026size=invisible\u0026cb=2bbfmv1aic2m",
+            "index": 95
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/-ZG7BC9TxCVEbzIO2m429usb/styles__ltr.css",
+            "index": 96
+          }
+        ]
+      }
+    }
+  ]
+}

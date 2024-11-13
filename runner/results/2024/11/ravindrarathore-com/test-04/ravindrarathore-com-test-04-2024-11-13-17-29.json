@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 4,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-11-13T17:29:14.928347",
+      "report": "- The webpage is really optimised for SEO!\n- Page isn\u2019t blocked from indexing ( 5.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- Image elements have \u0060[alt]\u0060 attributes ( 5.00 rating )\r\n- Document has a meta description ( 5.00 rating )\r\n- Page has successful HTTP status code ( 5.00 rating )\r\n- Links have descriptive text ( 5.00 rating )\r\n- Links are crawlable ( 5.00 rating )\r\n- Document has a valid \u0060hreflang\u0060 ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "first-contentful-paint": 4151.010399999999,
+        "largest-contentful-paint": 8652.134239999998,
+        "speed-index": 6446.940074509155,
+        "total-blocking-time": 152.5,
+        "max-potential-fid": 140,
+        "cumulative-layout-shift": 0.005467940278563604,
+        "server-response-time": 132.684,
+        "interactive": 12555.710835000002,
+        "redirects": 1210.5335599999999,
+        "mainthread-work-breakdown": 2324.32000000001,
+        "bootup-time": 966.64,
+        "uses-rel-preconnect": 304.51799999922514,
+        "network-rtt": 31.052,
+        "network-server-latency": 130.53356,
+        "metrics": 12556,
+        "uses-long-cache-ttl": 1245639.4666666666,
+        "total-byte-weight": 2187390,
+        "offscreen-images": 450,
+        "render-blocking-resources": 630,
+        "unminified-css": 0,
+        "unminified-javascript": 0,
+        "unused-css-rules": 150,
+        "unused-javascript": 900,
+        "modern-image-formats": 1450,
+        "uses-optimized-images": 0,
+        "uses-text-compression": 0,
+        "uses-responsive-images": 150,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 509,
+        "uses-http2": 390
+      }
+    }
+  ]
+}

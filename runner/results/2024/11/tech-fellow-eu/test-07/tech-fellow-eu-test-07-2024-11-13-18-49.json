@@ -1,0 +1,478 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.76,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.76,
+      "date": "2024-11-13T18:49:54.493752",
+      "report": "- The CSS is very good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 17 ( 3.30 rating )\r\n  - CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error. (number of errors of this type: 2)\n  - CSS: \u201C--bs-btn-font-family\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-dropdown-box-shadow\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-card-title-color\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-card-subtitle-color\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-card-box-shadow\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-card-cap-color\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-card-height\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-card-color\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-breadcrumb-bg\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-breadcrumb-border-radius\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-toast-color\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-modal-color\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-modal-footer-bg\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--bs-tooltip-margin\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201C--wc-stm-font-family\u201D: Parse Error. (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": false,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 53530,
+              "message": "CSS: \u201C--bs-btn-font-family\u201D: Parse Error.",
+              "extract": "tn-font-family: ;--bs-btn-font",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 70975,
+              "message": "CSS: \u201C--bs-dropdown-box-shadow\u201D: Parse Error.",
+              "extract": "own-box-shadow: ;--bs-dropdown",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 73674,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 79122,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87105,
+              "message": "CSS: \u201C--bs-card-title-color\u201D: Parse Error.",
+              "extract": "rd-title-color: ;--bs-card-sub",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87132,
+              "message": "CSS: \u201C--bs-card-subtitle-color\u201D: Parse Error.",
+              "extract": "subtitle-color: ;--bs-card-bor",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87307,
+              "message": "CSS: \u201C--bs-card-box-shadow\u201D: Parse Error.",
+              "extract": "ard-box-shadow: ;--bs-card-inn",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87530,
+              "message": "CSS: \u201C--bs-card-cap-color\u201D: Parse Error.",
+              "extract": "card-cap-color: ;--bs-card-hei",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87549,
+              "message": "CSS: \u201C--bs-card-height\u201D: Parse Error.",
+              "extract": "bs-card-height: ;--bs-card-col",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87567,
+              "message": "CSS: \u201C--bs-card-color\u201D: Parse Error.",
+              "extract": "-bs-card-color: ;--bs-card-bg:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 96861,
+              "message": "CSS: \u201C--bs-breadcrumb-bg\u201D: Parse Error.",
+              "extract": "-breadcrumb-bg: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 96893,
+              "message": "CSS: \u201C--bs-breadcrumb-border-radius\u201D: Parse Error.",
+              "extract": "-border-radius: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 118924,
+              "message": "CSS: \u201C--bs-toast-color\u201D: Parse Error.",
+              "extract": "bs-toast-color: ;--bs-toast-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 120789,
+              "message": "CSS: \u201C--bs-modal-color\u201D: Parse Error.",
+              "extract": "bs-modal-color: ;--bs-modal-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 121411,
+              "message": "CSS: \u201C--bs-modal-footer-bg\u201D: Parse Error.",
+              "extract": "odal-footer-bg: ;--bs-modal-fo",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 126606,
+              "message": "CSS: \u201C--bs-tooltip-margin\u201D: Parse Error.",
+              "extract": "tooltip-margin: ;--bs-tooltip-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css",
+              "lastLine": 6,
+              "lastColumn": 12710,
+              "message": "CSS: \u201Ctransform\u201D: \u201Cvar(--fa-rotate-angle, none)\u201D is not a \u201Ctransform\u201D value.",
+              "extract": "ate-angle,none))}.fa-stack{dis",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/598b93f4cd9e4ee141e9516b874b59c654666d4d3c30234a652865763f81610c0ad5c245886566e7f9abc05ee1a749b1298069815277d2e4a141bfda04f95cd2.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://tech-fellow.eu/assets/css/jekyll-theme-chirpy.css",
+              "lastLine": 1,
+              "lastColumn": 37984,
+              "message": "CSS: \u201Cpadding\u201D: \u201Cenv(safe-area-inset-top)\u201D is not a \u201Cpadding\u201D value.",
+              "extract": "area-inset-left);color:var(--t",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/tech-fellow.eu/0a1f278eed3a7cb39c8f3254a15d3cb2b9710feb6b1a5486fc1c597f91401f3ca811151fcebbc2fa7914e20a20b447a8d9c73e364df25d8deebf884b77a95e4b.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://tech-fellow.eu/assets/css/jekyll-theme-chirpy.css",
+              "lastLine": 1,
+              "lastColumn": 58503,
+              "firstColumn": 58488,
+              "message": "CSS: \u201C--wc-stm-font-family\u201D: Parse Error.",
+              "extract": "stodon{--wc-stm-font-family: $font-family-base;--wc-",
+              "hiliteStart": 30,
+              "hiliteLength": 16,
+              "file": "file:/usr/src/runner/cache/tech-fellow.eu/0a1f278eed3a7cb39c8f3254a15d3cb2b9710feb6b1a5486fc1c597f91401f3ca811151fcebbc2fa7914e20a20b447a8d9c73e364df25d8deebf884b77a95e4b.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 53530,
+              "message": "CSS: \u201C--bs-btn-font-family\u201D: Parse Error.",
+              "extract": "tn-font-family: ;--bs-btn-font",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 70975,
+              "message": "CSS: \u201C--bs-dropdown-box-shadow\u201D: Parse Error.",
+              "extract": "own-box-shadow: ;--bs-dropdown",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 73674,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 79122,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87105,
+              "message": "CSS: \u201C--bs-card-title-color\u201D: Parse Error.",
+              "extract": "rd-title-color: ;--bs-card-sub",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87132,
+              "message": "CSS: \u201C--bs-card-subtitle-color\u201D: Parse Error.",
+              "extract": "subtitle-color: ;--bs-card-bor",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87307,
+              "message": "CSS: \u201C--bs-card-box-shadow\u201D: Parse Error.",
+              "extract": "ard-box-shadow: ;--bs-card-inn",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87530,
+              "message": "CSS: \u201C--bs-card-cap-color\u201D: Parse Error.",
+              "extract": "card-cap-color: ;--bs-card-hei",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87549,
+              "message": "CSS: \u201C--bs-card-height\u201D: Parse Error.",
+              "extract": "bs-card-height: ;--bs-card-col",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 87567,
+              "message": "CSS: \u201C--bs-card-color\u201D: Parse Error.",
+              "extract": "-bs-card-color: ;--bs-card-bg:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 96861,
+              "message": "CSS: \u201C--bs-breadcrumb-bg\u201D: Parse Error.",
+              "extract": "-breadcrumb-bg: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 96893,
+              "message": "CSS: \u201C--bs-breadcrumb-border-radius\u201D: Parse Error.",
+              "extract": "-border-radius: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 118924,
+              "message": "CSS: \u201C--bs-toast-color\u201D: Parse Error.",
+              "extract": "bs-toast-color: ;--bs-toast-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 120789,
+              "message": "CSS: \u201C--bs-modal-color\u201D: Parse Error.",
+              "extract": "bs-modal-color: ;--bs-modal-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 121411,
+              "message": "CSS: \u201C--bs-modal-footer-bg\u201D: Parse Error.",
+              "extract": "odal-footer-bg: ;--bs-modal-fo",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+              "lastLine": 5,
+              "lastColumn": 126606,
+              "message": "CSS: \u201C--bs-tooltip-margin\u201D: Parse Error.",
+              "extract": "tooltip-margin: ;--bs-tooltip-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/e85eaa90e74a6540bbd2b5816c0d0694e2706a263df287485d6229782d2dfba0cc949c7fee567d3b619673d1acf015ac1d193ae55ab3533d2ff5c23d47d887ea.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css",
+              "lastLine": 6,
+              "lastColumn": 12710,
+              "message": "CSS: \u201Ctransform\u201D: \u201Cvar(--fa-rotate-angle, none)\u201D is not a \u201Ctransform\u201D value.",
+              "extract": "ate-angle,none))}.fa-stack{dis",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/cdn.jsdelivr.net/598b93f4cd9e4ee141e9516b874b59c654666d4d3c30234a652865763f81610c0ad5c245886566e7f9abc05ee1a749b1298069815277d2e4a141bfda04f95cd2.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://tech-fellow.eu/assets/css/jekyll-theme-chirpy.css",
+              "lastLine": 1,
+              "lastColumn": 37984,
+              "message": "CSS: \u201Cpadding\u201D: \u201Cenv(safe-area-inset-top)\u201D is not a \u201Cpadding\u201D value.",
+              "extract": "area-inset-left);color:var(--t",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/tech-fellow.eu/0a1f278eed3a7cb39c8f3254a15d3cb2b9710feb6b1a5486fc1c597f91401f3ca811151fcebbc2fa7914e20a20b447a8d9c73e364df25d8deebf884b77a95e4b.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://tech-fellow.eu/assets/css/jekyll-theme-chirpy.css",
+              "lastLine": 1,
+              "lastColumn": 58503,
+              "firstColumn": 58488,
+              "message": "CSS: \u201C--wc-stm-font-family\u201D: Parse Error.",
+              "extract": "stodon{--wc-stm-font-family: $font-family-base;--wc-",
+              "hiliteStart": 30,
+              "hiliteLength": 16,
+              "file": "file:/usr/src/runner/cache/tech-fellow.eu/0a1f278eed3a7cb39c8f3254a15d3cb2b9710feb6b1a5486fc1c597f91401f3ca811151fcebbc2fa7914e20a20b447a8d9c73e364df25d8deebf884b77a95e4b.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://tech-fellow.eu/",
+            "index": 1
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Lato\u0026family=Source\u002BSans\u002BPro:wght@400;600;700;900\u0026display=swap",
+            "index": 3
+          },
+          {
+            "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+            "index": 4
+          },
+          {
+            "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css",
+            "index": 5
+          },
+          {
+            "url": "https://tech-fellow.eu/assets/css/jekyll-theme-chirpy.css",
+            "index": 6
+          },
+          {
+            "url": "https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css",
+            "index": 7
+          }
+        ]
+      }
+    }
+  ]
+}
