@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 4,
+      "rating": 4.6,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-02T14:14:41.662466",
+      "report": "- Pretty good at SEO, but still has some potential improvements.\n- Document does not have a meta description ( 1.00 rating )\r\n- Page isn\u2019t blocked from indexing ( 5.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- Image elements have \u0060[alt]\u0060 attributes ( 5.00 rating )\r\n- Page has successful HTTP status code ( 5.00 rating )\r\n- Links have descriptive text ( 5.00 rating )\r\n- Links are crawlable ( 5.00 rating )\r\n- robots.txt is valid ( 5.00 rating )\r\n- Document has a valid \u0060hreflang\u0060 ( 5.00 rating )\r\n- Document has a valid \u0060rel=canonical\u0060 ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt is valid ( 5.00 rating )\r\n",
+      "data": {
+        "first-contentful-paint": 8853.672499999999,
+        "largest-contentful-paint": 11586.987500000003,
+        "speed-index": 8853.672499999999,
+        "total-blocking-time": 169.50450000000455,
+        "max-potential-fid": 260,
+        "cumulative-layout-shift": 0,
+        "server-response-time": 167.515,
+        "interactive": 11736.450800000002,
+        "redirects": 0,
+        "mainthread-work-breakdown": 2148.299999999997,
+        "bootup-time": 1291.0760000000012,
+        "network-rtt": 111.236,
+        "network-server-latency": 696.23,
+        "metrics": 11736,
+        "prioritize-lcp-image": 0,
+        "uses-long-cache-ttl": 79086.49999999999,
+        "total-byte-weight": 1535313,
+        "offscreen-images": 0,
+        "render-blocking-resources": 4835,
+        "unminified-css": 0,
+        "unminified-javascript": 0,
+        "unused-css-rules": 160,
+        "unused-javascript": 2720,
+        "modern-image-formats": 480,
+        "uses-optimized-images": 430,
+        "uses-text-compression": 0,
+        "uses-responsive-images": 0,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 454,
+        "uses-http2": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.96,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.96,
+      "date": "2024-12-02T14:15:17.509402",
+      "report": "- The tested page has 3 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: en-us- Number of grouped error type: 0 ( 5.00 rating )\r\n- #1: en-us- Number of errors: 0 ( 5.00 rating )\r\n- #5: favicon.ico- Number of grouped error type: 0 ( 5.00 rating )\r\n- #5: favicon.ico- Number of errors: 0 ( 5.00 rating )\r\n- #6: auto- Number of grouped error type: 1 ( 4.80 rating )\r\n- #6: auto- Number of errors: 1 ( 4.90 rating )\r\n  - A \u201Cmeta\u201D element with an \u201Chttp-equiv\u201D attribute whose value is \u201CX-UA-Compatible\u201D must have a \u201Ccontent\u201D attribute with the value \u201CIE=edge\u201D. (errors of this type: 1 pcs)\n- #10: favicon.ico- Number of grouped error type: 0 ( 5.00 rating )\r\n- #10: favicon.ico- Number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv0/0/g2cyl/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/",
+              "lastLine": 4,
+              "lastColumn": 66,
+              "firstColumn": 5,
+              "message": "A \u201Cmeta\u201D element with an \u201Chttp-equiv\u201D attribute whose value is \u201CX-UA-Compatible\u201D must have a \u201Ccontent\u201D attribute with the value \u201CIE=edge\u201D.",
+              "extract": "head\u003E\n    \u003Cmeta http-equiv=\u0022X-UA-Compatible\u0022 content=\u0022IE=Edge,chrome=1\u0022\u003E\n    \u003C",
+              "hiliteStart": 10,
+              "hiliteLength": 62,
+              "file": "file:/usr/src/runner/cache/challenges.cloudflare.com/5da98a6e552b33867bdd9467108135d231300e739216ff7c1da61257bd8007c2034b283bf21761a99b3b32a5e8d06362d61e86b092043c704951d2280010da8d.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv0/0/g2cyl/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/",
+              "lastLine": 9,
+              "lastColumn": 6670,
+              "message": "CSS: Parse Error.",
+              "extract": "ff;stroke:#fff}}.failure-cross",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/challenges.cloudflare.com/5da98a6e552b33867bdd9467108135d231300e739216ff7c1da61257bd8007c2034b283bf21761a99b3b32a5e8d06362d61e86b092043c704951d2280010da8d.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv0/0/g2cyl/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/",
+              "lastLine": 9,
+              "lastColumn": 6753,
+              "message": "CSS: Parse Error.",
+              "extract": ") .4s backwards}.cb-c{align-it",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/challenges.cloudflare.com/5da98a6e552b33867bdd9467108135d231300e739216ff7c1da61257bd8007c2034b283bf21761a99b3b32a5e8d06362d61e86b092043c704951d2280010da8d.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv0/0/g2cyl/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/",
+              "lastLine": 4,
+              "lastColumn": 66,
+              "firstColumn": 5,
+              "message": "A \u201Cmeta\u201D element with an \u201Chttp-equiv\u201D attribute whose value is \u201CX-UA-Compatible\u201D must have a \u201Ccontent\u201D attribute with the value \u201CIE=edge\u201D.",
+              "extract": "head\u003E\n    \u003Cmeta http-equiv=\u0022X-UA-Compatible\u0022 content=\u0022IE=Edge,chrome=1\u0022\u003E\n    \u003C",
+              "hiliteStart": 10,
+              "hiliteLength": 62,
+              "file": "file:/usr/src/runner/cache/challenges.cloudflare.com/5da98a6e552b33867bdd9467108135d231300e739216ff7c1da61257bd8007c2034b283bf21761a99b3b32a5e8d06362d61e86b092043c704951d2280010da8d.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv0/0/g2cyl/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/",
+              "lastLine": 9,
+              "lastColumn": 6670,
+              "message": "CSS: Parse Error.",
+              "extract": "ff;stroke:#fff}}.failure-cross",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/challenges.cloudflare.com/5da98a6e552b33867bdd9467108135d231300e739216ff7c1da61257bd8007c2034b283bf21761a99b3b32a5e8d06362d61e86b092043c704951d2280010da8d.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv0/0/g2cyl/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/",
+              "lastLine": 9,
+              "lastColumn": 6753,
+              "message": "CSS: Parse Error.",
+              "extract": ") .4s backwards}.cb-c{align-it",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/challenges.cloudflare.com/5da98a6e552b33867bdd9467108135d231300e739216ff7c1da61257bd8007c2034b283bf21761a99b3b32a5e8d06362d61e86b092043c704951d2280010da8d.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://support.optimizely.com/hc/en-us",
+            "index": 1
+          },
+          {
+            "url": "https://support.optimizely.com/hc/favicon.ico",
+            "index": 5
+          },
+          {
+            "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv0/0/g2cyl/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/",
+            "index": 6
+          },
+          {
+            "url": "https://support.optimizely.com/hc/favicon.ico",
+            "index": 10
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.95,
+      "date": "2024-12-02T13:00:04.974665",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 1 ( 4.90 rating )\r\n  - CSS: The media \u201Cprojection\u201D has been deprecated (number of errors of this type: 1)\n- \u0060style=\u0022\u0022\u0060 in: #12: BlogList.html, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #12: BlogList.html, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #2: css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #2: css, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #6: prettify.css, number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #6: prettify.css, number of errors: 1 ( 4.90 rating )\r\n  - CSS: The media \u201Cprojection\u201D has been deprecated (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/site/site.min.css?v=0wSTJP0CSqCSxWmvWLcOxwTeiajjiqy_qtEENNINuZ812",
+              "lastLine": 0,
+              "lastColumn": 0,
+              "message": "CSS: The media \u201Cprojection\u201D has been deprecated",
+              "extract": "\u003C!DOCTYPE html\u003E",
+              "hiliteStart": 0,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/f109532e54293f75ed27e11c84fac19e8e784bbcaf4ff67d78e383c97cfb728b73a1729d989e85cbe8bf478b5be1d3c0b966d5e7acea8c8040c54ece92a4c176.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/site/site.min.css?v=0wSTJP0CSqCSxWmvWLcOxwTeiajjiqy_qtEENNINuZ812",
+              "lastLine": 0,
+              "lastColumn": 0,
+              "message": "CSS: The media \u201Cprojection\u201D has been deprecated",
+              "extract": "\u003C!DOCTYPE html\u003E",
+              "hiliteStart": 0,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/f109532e54293f75ed27e11c84fac19e8e784bbcaf4ff67d78e383c97cfb728b73a1729d989e85cbe8bf478b5be1d3c0b966d5e7acea8c8040c54ece92a4c176.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.herlitz.io/",
+            "index": 1
+          },
+          {
+            "url": "https://www.herlitz.io/site/site.min.css?v=0wSTJP0CSqCSxWmvWLcOxwTeiajjiqy_qtEENNINuZ812",
+            "index": 3
+          },
+          {
+            "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+            "index": 12
+          },
+          {
+            "url": "https://www.herlitz.io/%7B%7Bitem.IntroImage%7D%7D",
+            "index": 13
+          }
+        ]
+      }
+    }
+  ]
+}

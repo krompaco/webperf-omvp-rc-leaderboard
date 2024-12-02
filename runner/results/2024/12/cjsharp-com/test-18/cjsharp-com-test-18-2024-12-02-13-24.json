@@ -1,0 +1,96 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.65,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.65,
+      "rating_stand": -1.0,
+      "date": "2024-12-02T13:24:10.617101",
+      "report": "- The website can be more accessible, but is rather good!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 1 ( 4.80 rating )\r\n- Number of issues: 5 ( 4.50 rating )\r\n\n##### Problems:\n- Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)\n",
+      "report_stand": "",
+      "data": [
+        {
+          "code": "link-in-text-block",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+          "context": "\u003Ca class=\u0022text-decoration-none\u0022 href=\u0022/dev/converting-formcontainerblock-types-in-optimizely-forms-for-cms-12\u0022\u003E\u003Ch2 class=\u0022h3\u0022\u003EConverting FormC...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E div \u003E section \u003E main \u003E article:nth-child(1) \u003E a:nth-child(1)",
+          "runner": "axe",
+          "runnerExtras": {
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "impact": "serious",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+          }
+        },
+        {
+          "code": "link-in-text-block",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+          "context": "\u003Ca class=\u0022text-decoration-none\u0022 href=\u0022/dev/changing-the-visitor-submit-timeout-in-optimizely-forms-for-cms-12\u0022\u003E\u003Ch2 class=\u0022h3\u0022\u003EChanging the Vis...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E div \u003E section \u003E main \u003E article:nth-child(2) \u003E a:nth-child(1)",
+          "runner": "axe",
+          "runnerExtras": {
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "impact": "serious",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+          }
+        },
+        {
+          "code": "link-in-text-block",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+          "context": "\u003Ca class=\u0022text-decoration-none\u0022 href=\u0022/dev/adding-a-logout-link-to-the-quick-navigator-in-optimizely-cms-12\u0022\u003E\u003Ch2 class=\u0022h3\u0022\u003EAdding a Logout ...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E div \u003E section \u003E main \u003E article:nth-child(3) \u003E a:nth-child(1)",
+          "runner": "axe",
+          "runnerExtras": {
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "impact": "serious",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+          }
+        },
+        {
+          "code": "link-in-text-block",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+          "context": "\u003Ca class=\u0022text-decoration-none\u0022 href=\u0022/dev/styling-the-textarea-property-editor-in-optimizely-cms-12\u0022\u003E\u003Ch2 class=\u0022h3\u0022\u003EStyling the Text...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E div \u003E section \u003E main \u003E article:nth-child(4) \u003E a:nth-child(1)",
+          "runner": "axe",
+          "runnerExtras": {
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "impact": "serious",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+          }
+        },
+        {
+          "code": "link-in-text-block",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+          "context": "\u003Ca class=\u0022text-decoration-none\u0022 href=\u0022/dev/require-or-prevent-publishing-content-if-its-in-a-project-in-optimizely-cms-12\u0022\u003E\u003Ch2 class=\u0022h3\u0022\u003ERequire or Preve...\u003C/a\u003E",
+          "selector": "html \u003E body \u003E div \u003E section \u003E main \u003E article:nth-child(5) \u003E a:nth-child(1)",
+          "runner": "axe",
+          "runnerExtras": {
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "impact": "serious",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+          }
+        }
+      ]
+    }
+  ]
+}
