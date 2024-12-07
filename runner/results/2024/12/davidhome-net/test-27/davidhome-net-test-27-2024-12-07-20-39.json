@@ -1,0 +1,172 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.8,
+      "date": "2024-12-07T20:39:15.040480",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 3 ( 4.40 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 5 ( 4.00 rating )\r\n  - Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022auto\u0022 for property \u0022-moz-user-select\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022auto\u0022 for property \u0022-ms-user-select\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown custom property \u0022--bs-body-text-align\u0022 (no-unknown-custom-properties) (number of errors of this type: 1)\n  - Unexpected shorthand \u0022flex\u0022 after \u0022flex-shrink\u0022 (declaration-block-no-shorthand-property-overrides) (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "line": 10,
+              "column": 4392,
+              "endLine": 10,
+              "endColumn": 4412,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/b63ca466550de7d0c8f67ebdea0b34b93084b67ce3c1ca0941ed8fc620c8b4170c340486b793d396de1d2917110644980fdc04d815b8b7513c4412c479507783.txt.utf-8.cache.css"
+            },
+            {
+              "line": 10,
+              "column": 120616,
+              "endLine": 10,
+              "endColumn": 120620,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022auto\u0022 for property \u0022-moz-user-select\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/b63ca466550de7d0c8f67ebdea0b34b93084b67ce3c1ca0941ed8fc620c8b4170c340486b793d396de1d2917110644980fdc04d815b8b7513c4412c479507783.txt.utf-8.cache.css"
+            },
+            {
+              "line": 10,
+              "column": 120647,
+              "endLine": 10,
+              "endColumn": 120651,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022auto\u0022 for property \u0022-ms-user-select\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/b63ca466550de7d0c8f67ebdea0b34b93084b67ce3c1ca0941ed8fc620c8b4170c340486b793d396de1d2917110644980fdc04d815b8b7513c4412c479507783.txt.utf-8.cache.css"
+            },
+            {
+              "line": 10,
+              "column": 1940,
+              "endLine": 10,
+              "endColumn": 1960,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--bs-body-text-align\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/b63ca466550de7d0c8f67ebdea0b34b93084b67ce3c1ca0941ed8fc620c8b4170c340486b793d396de1d2917110644980fdc04d815b8b7513c4412c479507783.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 1944,
+              "endLine": 1,
+              "endColumn": 1948,
+              "rule": "declaration-block-no-shorthand-property-overrides",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/bootstrap-oc.min.css?v=4A3buqhzVDvyDAW9GNkqKZqj9uAjviTrNBXl0-NKcFI",
+              "type": "error",
+              "message": "Unexpected shorthand \u0022flex\u0022 after \u0022flex-shrink\u0022 (declaration-block-no-shorthand-property-overrides)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/d4441d77eea4886c7b70b53901bede6b6bd2dda09292e786c37bd4c743ebb6c89a549ef0f9ef0c2abb917edead260ec6f16cfba5f9a933874037501be59011ef.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "line": 10,
+              "column": 4392,
+              "endLine": 10,
+              "endColumn": 4412,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/b63ca466550de7d0c8f67ebdea0b34b93084b67ce3c1ca0941ed8fc620c8b4170c340486b793d396de1d2917110644980fdc04d815b8b7513c4412c479507783.txt.utf-8.cache.css"
+            },
+            {
+              "line": 10,
+              "column": 120616,
+              "endLine": 10,
+              "endColumn": 120620,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022auto\u0022 for property \u0022-moz-user-select\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/b63ca466550de7d0c8f67ebdea0b34b93084b67ce3c1ca0941ed8fc620c8b4170c340486b793d396de1d2917110644980fdc04d815b8b7513c4412c479507783.txt.utf-8.cache.css"
+            },
+            {
+              "line": 10,
+              "column": 120647,
+              "endLine": 10,
+              "endColumn": 120651,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022auto\u0022 for property \u0022-ms-user-select\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/b63ca466550de7d0c8f67ebdea0b34b93084b67ce3c1ca0941ed8fc620c8b4170c340486b793d396de1d2917110644980fdc04d815b8b7513c4412c479507783.txt.utf-8.cache.css"
+            },
+            {
+              "line": 10,
+              "column": 1940,
+              "endLine": 10,
+              "endColumn": 1960,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--bs-body-text-align\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/b63ca466550de7d0c8f67ebdea0b34b93084b67ce3c1ca0941ed8fc620c8b4170c340486b793d396de1d2917110644980fdc04d815b8b7513c4412c479507783.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 1944,
+              "endLine": 1,
+              "endColumn": 1948,
+              "rule": "declaration-block-no-shorthand-property-overrides",
+              "url": "https://www.davidhome.net/TheBlogTheme/css/bootstrap-oc.min.css?v=4A3buqhzVDvyDAW9GNkqKZqj9uAjviTrNBXl0-NKcFI",
+              "type": "error",
+              "message": "Unexpected shorthand \u0022flex\u0022 after \u0022flex-shrink\u0022 (declaration-block-no-shorthand-property-overrides)",
+              "file": "/usr/src/runner/cache/www.davidhome.net/d4441d77eea4886c7b70b53901bede6b6bd2dda09292e786c37bd4c743ebb6c89a549ef0f9ef0c2abb917edead260ec6f16cfba5f9a933874037501be59011ef.txt.utf-8.cache.css"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.davidhome.net/",
+            "index": 1
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic",
+            "index": 2
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Open\u002BSans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800",
+            "index": 3
+          },
+          {
+            "url": "https://www.davidhome.net/OrchardCore.Resources/Vendor/fontawesome-free/css/all.min.css?v=wiz7ZSCn_btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac",
+            "index": 5
+          },
+          {
+            "url": "https://www.davidhome.net/TheBlogTheme/css/styles.min.css?v=dKa166GF_oX9KIjCdhobkJIuLXUSA9t-uzmpizu-x-k",
+            "index": 6
+          },
+          {
+            "url": "https://www.davidhome.net/TheBlogTheme/css/bootstrap-oc.min.css?v=4A3buqhzVDvyDAW9GNkqKZqj9uAjviTrNBXl0-NKcFI",
+            "index": 7
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs.min.css",
+            "index": 8
+          }
+        ]
+      }
+    }
+  ]
+}

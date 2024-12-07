@@ -1,0 +1,147 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.97,
+      "rating_sec": 4.97,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-07T20:39:09.375896",
+      "report": "- Technology used: es6, js, sass, scss\r\n- License(s) used: apache-2.0\r\n- Metadata used: viewport\r\n- Javascript libraries used: bootstrap, core-js, highlight.js, start-bootstrap---clean-blog, startbootstrap-clean-blog\r\n- Languages found: en\r\n- Image formats used: ico, png, svg\r\n",
+      "report_sec": "##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- bootstrap 5.1.3\r\n- highlight.js 11.9.0\r\n- core-js 3.36.1\r\n\r\n###### Affected resource(s):\r\n- https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\r\n- https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js\r\n- https://cdn-cookieyes.com/client_data/25b9d829be233beebd229149/script.js\r\n- https://cdn-cookieyes.com/client_data/25b9d829be233beebd229149/banner.js\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND001": {
+            "softwares": [
+              "bootstrap 5.1.3",
+              "highlight.js 11.9.0",
+              "core-js 3.36.1"
+            ],
+            "resources": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+              "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js",
+              "https://cdn-cookieyes.com/client_data/25b9d829be233beebd229149/script.js",
+              "https://cdn-cookieyes.com/client_data/25b9d829be233beebd229149/banner.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "meta": {
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "js": {
+          "bootstrap": {
+            "5.1.3": {
+              "name": "bootstrap",
+              "precision": 0.5,
+              "github-owner": "twbs",
+              "github-repo": "bootstrap"
+            }
+          },
+          "start-bootstrap---clean-blog": {
+            "6.0.8": {
+              "name": "start-bootstrap---clean-blog",
+              "precision": 0.5
+            }
+          },
+          "startbootstrap-clean-blog": {
+            "?": {
+              "name": "startbootstrap-clean-blog",
+              "precision": 0.1,
+              "github-owner": "StartBootstrap",
+              "github-repo": "startbootstrap-clean-blog"
+            }
+          },
+          "highlight.js": {
+            "11.9.0": {
+              "name": "highlight.js",
+              "precision": 0.5,
+              "github-owner": "highlightjs",
+              "github-repo": "highlight.js"
+            }
+          },
+          "core-js": {
+            "3.36.1": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          }
+        },
+        "tech": {
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "sass": {
+            "?": {
+              "name": "sass",
+              "precision": 0.8
+            }
+          },
+          "scss": {
+            "?": {
+              "name": "scss",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          }
+        },
+        "img": {
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          },
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          },
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

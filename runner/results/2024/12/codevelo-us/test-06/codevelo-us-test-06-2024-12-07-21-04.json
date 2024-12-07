@@ -1,0 +1,469 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.3,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.3,
+      "date": "2024-12-07T21:04:38.324059",
+      "report": "- The tested page has 18 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 6 ( 3.80 rating )\r\n- #1: Webpage - Number of errors: 16 ( 3.40 rating )\r\n  - Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point. (errors of this type: 6 pcs)\n  - No space between attributes. (errors of this type: 2 pcs)\n  - Element \u201Cstyle\u201D not allowed as child of element \u201Cdiv\u201D in this context. (Suppressing further errors from this subtree.) (errors of this type: 1 pcs)\n  - Duplicate attribute \u201Cwidth\u201D. (errors of this type: 1 pcs)\n  - Duplicate attribute \u201Cheight\u201D. (errors of this type: 1 pcs)\n  - Duplicate ID \u201Ctitle\u201D. (errors of this type: 1 pcs)\n  - Duplicate ID \u201Cwordpress-logo-simplified-cmyk\u201D. (errors of this type: 1 pcs)\n  - Element \u201Cdiv\u201D not allowed as child of element \u201Cul\u201D in this context. (Suppressing further errors from this subtree.) (errors of this type: 1 pcs)\n  - Element \u201Cform\u201D not allowed as child of element \u201Cul\u201D in this context. (Suppressing further errors from this subtree.) (errors of this type: 1 pcs)\n  - The \u201Citemprop\u201D attribute was specified, but the element is not a property of any item. (errors of this type: 1 pcs)\n- #28: remote-login.ph- Number of grouped error type: 0 ( 5.00 rating )\r\n- #28: remote-login.ph- Number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 277,
+              "lastColumn": 7,
+              "firstColumn": 1,
+              "message": "Element \u201Cstyle\u201D not allowed as child of element \u201Cdiv\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "y\u0022\u003E\n\t\t\t\t\t\n\u003Cstyle\u003E\n.cust",
+              "hiliteStart": 10,
+              "hiliteLength": 7,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 296,
+              "lastColumn": 257,
+              "firstColumn": 159,
+              "message": "No space between attributes.",
+              "extract": "ore\u003C/span\u003E\u003Csvg id=\u0022ui-icon-more_horiz\u0022 class=\u0022svg-icon\u0022 width=\u002224\u0022 height=\u002224\u0022 aria-hidden=\u0022true\u0022 role=\u0022img\u0022xmlns=\u0022",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 296,
+              "lastColumn": 297,
+              "firstColumn": 258,
+              "message": "Duplicate attribute \u201Cwidth\u201D.",
+              "extract": "ole=\u0022img\u0022xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 h",
+              "hiliteStart": 10,
+              "hiliteLength": 40,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 296,
+              "lastColumn": 309,
+              "firstColumn": 298,
+              "message": "Duplicate attribute \u201Cheight\u201D.",
+              "extract": "vg\u0022 width=\u002224\u0022 height=\u002224\u0022 v",
+              "hiliteStart": 10,
+              "hiliteLength": 12,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 476,
+              "lastColumn": 191,
+              "firstColumn": 91,
+              "message": "No space between attributes.",
+              "extract": "page/2/\u0022 \u003E\u003Csvg id=\u0022ui-icon-chevron_left\u0022 class=\u0022svg-icon\u0022 width=\u002224\u0022 height=\u002224\u0022 aria-hidden=\u0022true\u0022 role=\u0022img\u0022viewBox",
+              "hiliteStart": 10,
+              "hiliteLength": 101,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 560,
+              "lastColumn": 21,
+              "firstColumn": 5,
+              "message": "Duplicate ID \u201Ctitle\u201D.",
+              "extract": "img\u0022\u003E\n\t\t\t\t\u003Cdesc id=\u0022title\u0022\u003ECreate",
+              "hiliteStart": 10,
+              "hiliteLength": 17,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 561,
+              "lastColumn": 2445,
+              "firstColumn": 5,
+              "message": "Duplicate ID \u201Cwordpress-logo-simplified-cmyk\u201D.",
+              "extract": "desc\u003E\n\t\t\t\t\u003Cpath d=\u0022M12.5225848,4.97949746 C13.0138466,5.87586309 13.2934037,6.90452431 13.2934037,7.99874074 C13.2934037,10.3205803 12.0351007,12.3476807 10.1640538,13.4385638 L12.0862862,7.88081544 C12.4453251,6.98296834 12.5648813,6.26504621 12.5648813,5.62667922 C12.5648813,5.39497674 12.549622,5.17994084 12.5225848,4.97949746 L12.5225848,4.97949746 Z M7.86730089,5.04801561 C8.24619178,5.02808979 8.58760099,4.98823815 8.58760099,4.98823815 C8.9267139,4.94809022 8.88671369,4.44972248 8.54745263,4.46957423 C8.54745263,4.46957423 7.52803983,4.54957381 6.86996227,4.54957381 C6.25158863,4.54957381 5.21247202,4.46957423 5.21247202,4.46957423 C4.87306282,4.44972248 4.83328483,4.96816418 5.17254589,4.98823815 C5.17254589,4.98823815 5.49358462,5.02808979 5.83269753,5.04801561 L6.81314716,7.73459399 L5.43565839,11.8651647 L3.14394256,5.04801561 C3.52312975,5.02808979 3.86416859,4.98823815 3.86416859,4.98823815 C4.20305928,4.94809022 4.16305906,4.44972248 3.82394616,4.46957423 C3.82394616,4.46957423 2.80475558,4.54957381 2.14660395,4.54957381 C2.02852925,4.54957381 1.88934333,4.54668493 1.74156477,4.54194422 C2.86690406,2.83350881 4.80113651,1.70529256 6.99996296,1.70529256 C8.638342,1.70529256 10.1302017,2.33173369 11.2498373,3.35765419 C11.222726,3.35602457 11.1962815,3.35261718 11.1683554,3.35261718 C10.5501299,3.35261718 10.1114609,3.89113285 10.1114609,4.46957423 C10.1114609,4.98823815 10.4107217,5.42705065 10.7296864,5.94564049 C10.969021,6.36482346 11.248578,6.90326506 11.248578,7.68133501 C11.248578,8.21992476 11.0413918,8.84503256 10.7696866,9.71584277 L10.1417574,11.8132391 L7.86730089,5.04801561 Z M6.99996296,14.2927074 C6.38218192,14.2927074 5.78595654,14.2021153 5.22195356,14.0362644 L7.11048207,8.54925635 L9.04486267,13.8491542 C9.05760348,13.8802652 9.07323319,13.9089317 9.08989995,13.9358945 C8.43574834,14.1661896 7.73285573,14.2927074 6.99996296,14.2927074 L6.99996296,14.2927074 Z M0.706448182,7.99874074 C0.706448182,7.08630113 0.902152921,6.22015756 1.25141403,5.43749503 L4.25357806,13.6627848 C2.15393732,12.6427902 0.706448182,10.4898387 0.706448182,7.99874074 L0.706448182,7.99874074 Z M6.99996296,0.999 C3.14016476,0.999 0,4.13905746 0,7.99874074 C0,11.8585722 3.14016476,14.999 6.99996296,14.999 C10.8596871,14.999 14,11.8585722 14,7.99874074 C14,4.13905746 10.8596871,0.999 6.99996296,0.999 L6.99996296,0.999 Z\u0022 id=\u0022wordpress-logo-simplified-cmyk\u0022 stroke=\u0022none\u0022 fill=currentColor fill-rule=\u0022evenodd\u0022\u003E\u003C/path",
+              "hiliteStart": 10,
+              "hiliteLength": 2441,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 585,
+              "lastColumn": 49,
+              "firstColumn": 11,
+              "message": "Element \u201Cdiv\u201D not allowed as child of element \u201Cul\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "\t\t\t\t\t\t\t\t\t\t\u003Cdiv class=\u0022actnbr-message no-display\u0022\u003E\u003C/div\u003E",
+              "hiliteStart": 10,
+              "hiliteLength": 39,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 586,
+              "lastColumn": 116,
+              "firstColumn": 10,
+              "message": "Element \u201Cform\u201D not allowed as child of element \u201Cul\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cform method=\u0022post\u0022 action=\u0022https://subscribe.wordpress.com\u0022 accept-charset=\u0022utf-8\u0022 style=\u0022display: none;\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 107,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 688,
+              "lastColumn": 105,
+              "firstColumn": 7,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "g\u0022\u003E\n\t\t\t\t\t\t\u003Cmask id=\u0022maskPrev\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00228\u0022 y=\u00226\u0022 width=\u00229\u0022 height=\u002212\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 698,
+              "lastColumn": 105,
+              "firstColumn": 7,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "g\u0022\u003E\n\t\t\t\t\t\t\u003Cmask id=\u0022maskNext\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00228\u0022 y=\u00226\u0022 width=\u00228\u0022 height=\u002212\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 710,
+              "lastColumn": 106,
+              "firstColumn": 6,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "vg\u0022\u003E\n\t\t\t\t\t\u003Cmask id=\u0022maskClose\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00225\u0022 y=\u00225\u0022 width=\u002215\u0022 height=\u002214\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 101,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 732,
+              "lastColumn": 109,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022maskInfo\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00222\u0022 y=\u00222\u0022 width=\u002221\u0022 height=\u002220\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 100,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 744,
+              "lastColumn": 113,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022maskComments\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00222\u0022 y=\u00222\u0022 width=\u002221\u0022 height=\u002220\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 104,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 814,
+              "lastColumn": 106,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022mask0\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00223\u0022 y=\u00223\u0022 width=\u002219\u0022 height=\u002218\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 97,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 806,
+              "lastColumn": 72,
+              "firstColumn": 10,
+              "message": "The \u201Citemprop\u201D attribute was specified, but the element is not a property of any item.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Ch3 class=\u0022jp-carousel-caption\u0022 itemprop=\u0022caption description\u0022\u003E\u003C/h3\u003E\n",
+              "hiliteStart": 10,
+              "hiliteLength": 63,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key\u0026origin=aHR0cHM6Ly9jb2RldmVsby51cw%3D%3D\u0026wpcomid=144760403\u0026time=1733605456",
+              "lastLine": 2,
+              "firstLine": 1,
+              "lastColumn": 39,
+              "firstColumn": 1,
+              "message": "Start tag seen without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "\n\u003Cscript class=\u0022wpcom_remote_login_msg\u0022\u003E\nwindo",
+              "hiliteStart": 0,
+              "hiliteLength": 40,
+              "file": "file:/usr/src/runner/cache/r-login.wordpress.com/dd67b267c224c81469dcb0e2a83989575a6e151002dd0ad1cba1a3312ca0f60fe3fd845d53bf94f164f79aa381be4de5bdc76b9b050ae1ffd8035985818e1700.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key\u0026origin=aHR0cHM6Ly9jb2RldmVsby51cw%3D%3D\u0026wpcomid=144760403\u0026time=1733605456",
+              "lastLine": 4,
+              "lastColumn": 10,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "\n\u003C/script\u003E\n",
+              "hiliteStart": 10,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/r-login.wordpress.com/dd67b267c224c81469dcb0e2a83989575a6e151002dd0ad1cba1a3312ca0f60fe3fd845d53bf94f164f79aa381be4de5bdc76b9b050ae1ffd8035985818e1700.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 277,
+              "lastColumn": 7,
+              "firstColumn": 1,
+              "message": "Element \u201Cstyle\u201D not allowed as child of element \u201Cdiv\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "y\u0022\u003E\n\t\t\t\t\t\n\u003Cstyle\u003E\n.cust",
+              "hiliteStart": 10,
+              "hiliteLength": 7,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 296,
+              "lastColumn": 257,
+              "firstColumn": 159,
+              "message": "No space between attributes.",
+              "extract": "ore\u003C/span\u003E\u003Csvg id=\u0022ui-icon-more_horiz\u0022 class=\u0022svg-icon\u0022 width=\u002224\u0022 height=\u002224\u0022 aria-hidden=\u0022true\u0022 role=\u0022img\u0022xmlns=\u0022",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 296,
+              "lastColumn": 297,
+              "firstColumn": 258,
+              "message": "Duplicate attribute \u201Cwidth\u201D.",
+              "extract": "ole=\u0022img\u0022xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002224\u0022 h",
+              "hiliteStart": 10,
+              "hiliteLength": 40,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 296,
+              "lastColumn": 309,
+              "firstColumn": 298,
+              "message": "Duplicate attribute \u201Cheight\u201D.",
+              "extract": "vg\u0022 width=\u002224\u0022 height=\u002224\u0022 v",
+              "hiliteStart": 10,
+              "hiliteLength": 12,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 476,
+              "lastColumn": 191,
+              "firstColumn": 91,
+              "message": "No space between attributes.",
+              "extract": "page/2/\u0022 \u003E\u003Csvg id=\u0022ui-icon-chevron_left\u0022 class=\u0022svg-icon\u0022 width=\u002224\u0022 height=\u002224\u0022 aria-hidden=\u0022true\u0022 role=\u0022img\u0022viewBox",
+              "hiliteStart": 10,
+              "hiliteLength": 101,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 560,
+              "lastColumn": 21,
+              "firstColumn": 5,
+              "message": "Duplicate ID \u201Ctitle\u201D.",
+              "extract": "img\u0022\u003E\n\t\t\t\t\u003Cdesc id=\u0022title\u0022\u003ECreate",
+              "hiliteStart": 10,
+              "hiliteLength": 17,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 561,
+              "lastColumn": 2445,
+              "firstColumn": 5,
+              "message": "Duplicate ID \u201Cwordpress-logo-simplified-cmyk\u201D.",
+              "extract": "desc\u003E\n\t\t\t\t\u003Cpath d=\u0022M12.5225848,4.97949746 C13.0138466,5.87586309 13.2934037,6.90452431 13.2934037,7.99874074 C13.2934037,10.3205803 12.0351007,12.3476807 10.1640538,13.4385638 L12.0862862,7.88081544 C12.4453251,6.98296834 12.5648813,6.26504621 12.5648813,5.62667922 C12.5648813,5.39497674 12.549622,5.17994084 12.5225848,4.97949746 L12.5225848,4.97949746 Z M7.86730089,5.04801561 C8.24619178,5.02808979 8.58760099,4.98823815 8.58760099,4.98823815 C8.9267139,4.94809022 8.88671369,4.44972248 8.54745263,4.46957423 C8.54745263,4.46957423 7.52803983,4.54957381 6.86996227,4.54957381 C6.25158863,4.54957381 5.21247202,4.46957423 5.21247202,4.46957423 C4.87306282,4.44972248 4.83328483,4.96816418 5.17254589,4.98823815 C5.17254589,4.98823815 5.49358462,5.02808979 5.83269753,5.04801561 L6.81314716,7.73459399 L5.43565839,11.8651647 L3.14394256,5.04801561 C3.52312975,5.02808979 3.86416859,4.98823815 3.86416859,4.98823815 C4.20305928,4.94809022 4.16305906,4.44972248 3.82394616,4.46957423 C3.82394616,4.46957423 2.80475558,4.54957381 2.14660395,4.54957381 C2.02852925,4.54957381 1.88934333,4.54668493 1.74156477,4.54194422 C2.86690406,2.83350881 4.80113651,1.70529256 6.99996296,1.70529256 C8.638342,1.70529256 10.1302017,2.33173369 11.2498373,3.35765419 C11.222726,3.35602457 11.1962815,3.35261718 11.1683554,3.35261718 C10.5501299,3.35261718 10.1114609,3.89113285 10.1114609,4.46957423 C10.1114609,4.98823815 10.4107217,5.42705065 10.7296864,5.94564049 C10.969021,6.36482346 11.248578,6.90326506 11.248578,7.68133501 C11.248578,8.21992476 11.0413918,8.84503256 10.7696866,9.71584277 L10.1417574,11.8132391 L7.86730089,5.04801561 Z M6.99996296,14.2927074 C6.38218192,14.2927074 5.78595654,14.2021153 5.22195356,14.0362644 L7.11048207,8.54925635 L9.04486267,13.8491542 C9.05760348,13.8802652 9.07323319,13.9089317 9.08989995,13.9358945 C8.43574834,14.1661896 7.73285573,14.2927074 6.99996296,14.2927074 L6.99996296,14.2927074 Z M0.706448182,7.99874074 C0.706448182,7.08630113 0.902152921,6.22015756 1.25141403,5.43749503 L4.25357806,13.6627848 C2.15393732,12.6427902 0.706448182,10.4898387 0.706448182,7.99874074 L0.706448182,7.99874074 Z M6.99996296,0.999 C3.14016476,0.999 0,4.13905746 0,7.99874074 C0,11.8585722 3.14016476,14.999 6.99996296,14.999 C10.8596871,14.999 14,11.8585722 14,7.99874074 C14,4.13905746 10.8596871,0.999 6.99996296,0.999 L6.99996296,0.999 Z\u0022 id=\u0022wordpress-logo-simplified-cmyk\u0022 stroke=\u0022none\u0022 fill=currentColor fill-rule=\u0022evenodd\u0022\u003E\u003C/path",
+              "hiliteStart": 10,
+              "hiliteLength": 2441,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 585,
+              "lastColumn": 49,
+              "firstColumn": 11,
+              "message": "Element \u201Cdiv\u201D not allowed as child of element \u201Cul\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "\t\t\t\t\t\t\t\t\t\t\u003Cdiv class=\u0022actnbr-message no-display\u0022\u003E\u003C/div\u003E",
+              "hiliteStart": 10,
+              "hiliteLength": 39,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 586,
+              "lastColumn": 116,
+              "firstColumn": 10,
+              "message": "Element \u201Cform\u201D not allowed as child of element \u201Cul\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cform method=\u0022post\u0022 action=\u0022https://subscribe.wordpress.com\u0022 accept-charset=\u0022utf-8\u0022 style=\u0022display: none;\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 107,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 688,
+              "lastColumn": 105,
+              "firstColumn": 7,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "g\u0022\u003E\n\t\t\t\t\t\t\u003Cmask id=\u0022maskPrev\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00228\u0022 y=\u00226\u0022 width=\u00229\u0022 height=\u002212\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 698,
+              "lastColumn": 105,
+              "firstColumn": 7,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "g\u0022\u003E\n\t\t\t\t\t\t\u003Cmask id=\u0022maskNext\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00228\u0022 y=\u00226\u0022 width=\u00228\u0022 height=\u002212\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 710,
+              "lastColumn": 106,
+              "firstColumn": 6,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "vg\u0022\u003E\n\t\t\t\t\t\u003Cmask id=\u0022maskClose\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00225\u0022 y=\u00225\u0022 width=\u002215\u0022 height=\u002214\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 101,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 732,
+              "lastColumn": 109,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022maskInfo\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00222\u0022 y=\u00222\u0022 width=\u002221\u0022 height=\u002220\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 100,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 744,
+              "lastColumn": 113,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022maskComments\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00222\u0022 y=\u00222\u0022 width=\u002221\u0022 height=\u002220\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 104,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 814,
+              "lastColumn": 106,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022mask0\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00223\u0022 y=\u00223\u0022 width=\u002219\u0022 height=\u002218\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 97,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://codevelo.us/",
+              "lastLine": 806,
+              "lastColumn": 72,
+              "firstColumn": 10,
+              "message": "The \u201Citemprop\u201D attribute was specified, but the element is not a property of any item.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Ch3 class=\u0022jp-carousel-caption\u0022 itemprop=\u0022caption description\u0022\u003E\u003C/h3\u003E\n",
+              "hiliteStart": 10,
+              "hiliteLength": 63,
+              "file": "file:/usr/src/runner/cache/codevelo.us/251027e32ccecc3c88a7d3ab848a3c195679c4ebc596fbe14ea9570a905088aefa4fe85b33d28100ba8c3be6b77a9fd67594212f0c08627aaa91876a61fd43bd.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key\u0026origin=aHR0cHM6Ly9jb2RldmVsby51cw%3D%3D\u0026wpcomid=144760403\u0026time=1733605456",
+              "lastLine": 2,
+              "firstLine": 1,
+              "lastColumn": 39,
+              "firstColumn": 1,
+              "message": "Start tag seen without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "\n\u003Cscript class=\u0022wpcom_remote_login_msg\u0022\u003E\nwindo",
+              "hiliteStart": 0,
+              "hiliteLength": 40,
+              "file": "file:/usr/src/runner/cache/r-login.wordpress.com/dd67b267c224c81469dcb0e2a83989575a6e151002dd0ad1cba1a3312ca0f60fe3fd845d53bf94f164f79aa381be4de5bdc76b9b050ae1ffd8035985818e1700.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key\u0026origin=aHR0cHM6Ly9jb2RldmVsby51cw%3D%3D\u0026wpcomid=144760403\u0026time=1733605456",
+              "lastLine": 4,
+              "lastColumn": 10,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "\n\u003C/script\u003E\n",
+              "hiliteStart": 10,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/r-login.wordpress.com/dd67b267c224c81469dcb0e2a83989575a6e151002dd0ad1cba1a3312ca0f60fe3fd845d53bf94f164f79aa381be4de5bdc76b9b050ae1ffd8035985818e1700.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://codevelo.us/",
+            "index": 1
+          },
+          {
+            "url": "https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key\u0026origin=aHR0cHM6Ly9jb2RldmVsby51cw%3D%3D\u0026wpcomid=144760403\u0026time=1733605456",
+            "index": 28
+          }
+        ]
+      }
+    }
+  ]
+}

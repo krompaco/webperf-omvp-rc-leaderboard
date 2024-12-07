@@ -1,0 +1,55 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-07T19:06:46.537463",
+      "report": "- No errors in the HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 0 ( 5.00 rating )\r\n- #1: Webpage - Number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/",
+              "lastLine": 11,
+              "lastColumn": 93,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\u003C/style\u003E\n\t\u003Cli",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/f87edc5dad9ae89fea32e3801506a1518862731bf2344740261fc6916ced6556b6f7f2d81431df9f04286547ec1a3f270c37aed328a465d7e08ac62cc8a9c5fe.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/",
+              "lastLine": 11,
+              "lastColumn": 93,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\u003C/style\u003E\n\t\u003Cli",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/f87edc5dad9ae89fea32e3801506a1518862731bf2344740261fc6916ced6556b6f7f2d81431df9f04286547ec1a3f270c37aed328a465d7e08ac62cc8a9c5fe.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://hacksbyme.net/",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.8,
+      "date": "2024-12-07T20:04:01.940501",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 3 ( 4.40 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 5 ( 4.00 rating )\r\n  - Unexpected shorthand \u0022-moz-transition\u0022 after \u0022-moz-transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides) (number of errors of this type: 1)\n  - Unexpected shorthand \u0022-webkit-transition\u0022 after \u0022-webkit-transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides) (number of errors of this type: 1)\n  - Unexpected shorthand \u0022transition\u0022 after \u0022transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides) (number of errors of this type: 1)\n  - Unexpected unknown value \u00220%\u0022 for property \u0022background-position\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected duplicate name monospace (font-family-no-duplicate-names) (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "line": 9,
+              "column": 16333,
+              "endLine": 9,
+              "endColumn": 16348,
+              "rule": "declaration-block-no-shorthand-property-overrides",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected shorthand \u0022-moz-transition\u0022 after \u0022-moz-transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            },
+            {
+              "line": 9,
+              "column": 16356,
+              "endLine": 9,
+              "endColumn": 16374,
+              "rule": "declaration-block-no-shorthand-property-overrides",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected shorthand \u0022-webkit-transition\u0022 after \u0022-webkit-transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            },
+            {
+              "line": 9,
+              "column": 16382,
+              "endLine": 9,
+              "endColumn": 16392,
+              "rule": "declaration-block-no-shorthand-property-overrides",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected shorthand \u0022transition\u0022 after \u0022transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            },
+            {
+              "line": 9,
+              "column": 15252,
+              "endLine": 9,
+              "endColumn": 15254,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u00220%\u0022 for property \u0022background-position\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 941,
+              "endLine": 1,
+              "endColumn": 950,
+              "rule": "font-family-no-duplicate-names",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected duplicate name monospace (font-family-no-duplicate-names)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "line": 9,
+              "column": 16333,
+              "endLine": 9,
+              "endColumn": 16348,
+              "rule": "declaration-block-no-shorthand-property-overrides",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected shorthand \u0022-moz-transition\u0022 after \u0022-moz-transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            },
+            {
+              "line": 9,
+              "column": 16356,
+              "endLine": 9,
+              "endColumn": 16374,
+              "rule": "declaration-block-no-shorthand-property-overrides",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected shorthand \u0022-webkit-transition\u0022 after \u0022-webkit-transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            },
+            {
+              "line": 9,
+              "column": 16382,
+              "endLine": 9,
+              "endColumn": 16392,
+              "rule": "declaration-block-no-shorthand-property-overrides",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected shorthand \u0022transition\u0022 after \u0022transition-timing-function\u0022 (declaration-block-no-shorthand-property-overrides)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            },
+            {
+              "line": 9,
+              "column": 15252,
+              "endLine": 9,
+              "endColumn": 15254,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u00220%\u0022 for property \u0022background-position\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 941,
+              "endLine": 1,
+              "endColumn": 950,
+              "rule": "font-family-no-duplicate-names",
+              "url": "https://www.markeverard.com/assets/css/main.css",
+              "type": "error",
+              "message": "Unexpected duplicate name monospace (font-family-no-duplicate-names)",
+              "file": "/usr/src/runner/cache/www.markeverard.com/8e97a89e0a586a32890a8279a308ad81442003d992f50c99e70912ff190dd21c8902f7fb35a4244ee28b525bbc53e4fe8f5461f7c1e514229a073b0a7d86bf00.txt.utf-8.cache.css"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.markeverard.com/",
+            "index": 1
+          },
+          {
+            "url": "https://www.markeverard.com/assets/css/main.css",
+            "index": 3
+          },
+          {
+            "url": "https://a21516624425.cdn.optimizely.com/client_storage/a21516624425.html",
+            "index": 14
+          }
+        ]
+      }
+    }
+  ]
+}

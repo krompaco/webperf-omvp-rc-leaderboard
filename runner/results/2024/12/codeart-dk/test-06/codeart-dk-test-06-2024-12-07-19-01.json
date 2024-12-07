@@ -1,0 +1,189 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.85,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.85,
+      "date": "2024-12-07T19:02:22.327151",
+      "report": "- The tested page has 6 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 3 ( 4.40 rating )\r\n- #1: Webpage - Number of errors: 3 ( 4.70 rating )\r\n  - Start tag \u201Ca\u201D seen but an element of the same type was already open. (errors of this type: 1 pcs)\n  - End tag \u201Ca\u201D violates nesting rules. (errors of this type: 1 pcs)\n  - Cannot recover after last error. Any further errors will be ignored. (errors of this type: 1 pcs)\n- #34: cookiesharingif- Number of grouped error type: 0 ( 5.00 rating )\r\n- #34: cookiesharingif- Number of errors: 0 ( 5.00 rating )\r\n- #41: a21327570522.ht- Number of grouped error type: 0 ( 5.00 rating )\r\n- #41: a21327570522.ht- Number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.codeart.dk/",
+              "lastLine": 214,
+              "lastColumn": 38,
+              "firstColumn": 1,
+              "message": "Start tag \u201Ca\u201D seen but an element of the same type was already open.",
+              "extract": "rd-text\u0022\u003E\n\u003Ca class=\u0022tag\u0022 href=\u0022/expertise/.net\u0022\u003E.NET D",
+              "hiliteStart": 10,
+              "hiliteLength": 38,
+              "file": "file:/usr/src/runner/cache/www.codeart.dk/f93273f19b0790985837599f71a5bfc881ac51bf3cfdb02dec4580897a7fbcf00853e6e76b2c3d773c355b540681173f665271c60a954a5022c9445145fe0d37.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.codeart.dk/",
+              "lastLine": 214,
+              "lastColumn": 38,
+              "firstColumn": 1,
+              "message": "End tag \u201Ca\u201D violates nesting rules.",
+              "extract": "rd-text\u0022\u003E\n\u003Ca class=\u0022tag\u0022 href=\u0022/expertise/.net\u0022\u003E.NET D",
+              "hiliteStart": 10,
+              "hiliteLength": 38,
+              "file": "file:/usr/src/runner/cache/www.codeart.dk/f93273f19b0790985837599f71a5bfc881ac51bf3cfdb02dec4580897a7fbcf00853e6e76b2c3d773c355b540681173f665271c60a954a5022c9445145fe0d37.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.codeart.dk/",
+              "lastLine": 214,
+              "lastColumn": 38,
+              "firstColumn": 1,
+              "subType": "fatal",
+              "message": "Cannot recover after last error. Any further errors will be ignored.",
+              "extract": "rd-text\u0022\u003E\n\u003Ca class=\u0022tag\u0022 href=\u0022/expertise/.net\u0022\u003E.NET D",
+              "hiliteStart": 10,
+              "hiliteLength": 38,
+              "file": "file:/usr/src/runner/cache/www.codeart.dk/f93273f19b0790985837599f71a5bfc881ac51bf3cfdb02dec4580897a7fbcf00853e6e76b2c3d773c355b540681173f665271c60a954a5022c9445145fe0d37.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://policy.app.cookieinformation.com/cookiesharingiframe.html",
+              "lastLine": 1,
+              "lastColumn": 102,
+              "firstColumn": 96,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "t=utf-8\u0022/\u003E\u003C/head\u003E\u003Cbody\u003E",
+              "hiliteStart": 10,
+              "hiliteLength": 7,
+              "file": "file:/usr/src/runner/cache/policy.app.cookieinformation.com/acbafaa3730797f873f265dbb4e465320e158e00e9fc98901582e8b8d2d827c2997d9bba1e8b14d877039f5300946ef195b14b9d655180b4474b80ad95851d8d.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://a21327570522.cdn.optimizely.com/client_storage/a21327570522.html",
+              "lastLine": 2,
+              "firstLine": 1,
+              "lastColumn": 8,
+              "firstColumn": 1,
+              "message": "Start tag seen without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "\n\u003Cscript\u003E\n\nvar ",
+              "hiliteStart": 0,
+              "hiliteLength": 9,
+              "file": "file:/usr/src/runner/cache/a21327570522.cdn.optimizely.com/03c1e79a3ef9ee6a8905529e007d344ce73f35d3870ed793f9b6063a6b6fdbbe0880a96e225a96b6a5978458d03a0cfa9c234843f4d7eac04364d80d2150e146.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://a21327570522.cdn.optimizely.com/client_storage/a21327570522.html",
+              "lastLine": 8,
+              "lastColumn": 9,
+              "firstColumn": 1,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "},!0)}();\n\u003C/script\u003E",
+              "hiliteStart": 10,
+              "hiliteLength": 9,
+              "file": "file:/usr/src/runner/cache/a21327570522.cdn.optimizely.com/03c1e79a3ef9ee6a8905529e007d344ce73f35d3870ed793f9b6063a6b6fdbbe0880a96e225a96b6a5978458d03a0cfa9c234843f4d7eac04364d80d2150e146.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://www.codeart.dk/",
+              "lastLine": 214,
+              "lastColumn": 38,
+              "firstColumn": 1,
+              "message": "Start tag \u201Ca\u201D seen but an element of the same type was already open.",
+              "extract": "rd-text\u0022\u003E\n\u003Ca class=\u0022tag\u0022 href=\u0022/expertise/.net\u0022\u003E.NET D",
+              "hiliteStart": 10,
+              "hiliteLength": 38,
+              "file": "file:/usr/src/runner/cache/www.codeart.dk/f93273f19b0790985837599f71a5bfc881ac51bf3cfdb02dec4580897a7fbcf00853e6e76b2c3d773c355b540681173f665271c60a954a5022c9445145fe0d37.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.codeart.dk/",
+              "lastLine": 214,
+              "lastColumn": 38,
+              "firstColumn": 1,
+              "message": "End tag \u201Ca\u201D violates nesting rules.",
+              "extract": "rd-text\u0022\u003E\n\u003Ca class=\u0022tag\u0022 href=\u0022/expertise/.net\u0022\u003E.NET D",
+              "hiliteStart": 10,
+              "hiliteLength": 38,
+              "file": "file:/usr/src/runner/cache/www.codeart.dk/f93273f19b0790985837599f71a5bfc881ac51bf3cfdb02dec4580897a7fbcf00853e6e76b2c3d773c355b540681173f665271c60a954a5022c9445145fe0d37.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.codeart.dk/",
+              "lastLine": 214,
+              "lastColumn": 38,
+              "firstColumn": 1,
+              "subType": "fatal",
+              "message": "Cannot recover after last error. Any further errors will be ignored.",
+              "extract": "rd-text\u0022\u003E\n\u003Ca class=\u0022tag\u0022 href=\u0022/expertise/.net\u0022\u003E.NET D",
+              "hiliteStart": 10,
+              "hiliteLength": 38,
+              "file": "file:/usr/src/runner/cache/www.codeart.dk/f93273f19b0790985837599f71a5bfc881ac51bf3cfdb02dec4580897a7fbcf00853e6e76b2c3d773c355b540681173f665271c60a954a5022c9445145fe0d37.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://policy.app.cookieinformation.com/cookiesharingiframe.html",
+              "lastLine": 1,
+              "lastColumn": 102,
+              "firstColumn": 96,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "t=utf-8\u0022/\u003E\u003C/head\u003E\u003Cbody\u003E",
+              "hiliteStart": 10,
+              "hiliteLength": 7,
+              "file": "file:/usr/src/runner/cache/policy.app.cookieinformation.com/acbafaa3730797f873f265dbb4e465320e158e00e9fc98901582e8b8d2d827c2997d9bba1e8b14d877039f5300946ef195b14b9d655180b4474b80ad95851d8d.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://a21327570522.cdn.optimizely.com/client_storage/a21327570522.html",
+              "lastLine": 2,
+              "firstLine": 1,
+              "lastColumn": 8,
+              "firstColumn": 1,
+              "message": "Start tag seen without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "\n\u003Cscript\u003E\n\nvar ",
+              "hiliteStart": 0,
+              "hiliteLength": 9,
+              "file": "file:/usr/src/runner/cache/a21327570522.cdn.optimizely.com/03c1e79a3ef9ee6a8905529e007d344ce73f35d3870ed793f9b6063a6b6fdbbe0880a96e225a96b6a5978458d03a0cfa9c234843f4d7eac04364d80d2150e146.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://a21327570522.cdn.optimizely.com/client_storage/a21327570522.html",
+              "lastLine": 8,
+              "lastColumn": 9,
+              "firstColumn": 1,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "},!0)}();\n\u003C/script\u003E",
+              "hiliteStart": 10,
+              "hiliteLength": 9,
+              "file": "file:/usr/src/runner/cache/a21327570522.cdn.optimizely.com/03c1e79a3ef9ee6a8905529e007d344ce73f35d3870ed793f9b6063a6b6fdbbe0880a96e225a96b6a5978458d03a0cfa9c234843f4d7eac04364d80d2150e146.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.codeart.dk/",
+            "index": 1
+          },
+          {
+            "url": "https://policy.app.cookieinformation.com/cookiesharingiframe.html",
+            "index": 34
+          },
+          {
+            "url": "https://a21327570522.cdn.optimizely.com/client_storage/a21327570522.html",
+            "index": 41
+          }
+        ]
+      }
+    }
+  ]
+}

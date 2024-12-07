@@ -1,0 +1,170 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 5.0,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-07T20:17:14.662909",
+      "report": "- CMS used: wordpress\r\n- Web server used: nginx, tomcat\r\n- Technology used: c, php\r\n- License(s) used: apache-2.0\r\n- Metadata used: apple-touch-icon, canonical, dns-prefetch, icon, open-graph, viewport\r\n- Javascript libraries used: web-font-loader\r\n- Languages found: en-gb, en_gb\r\n- Image formats used: gif, jpeg, jpg, png, webp\r\n",
+      "report_sec": "##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### You seem to be up to date for all software we can identify ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {},
+        "lang": {
+          "en-gb": {
+            "?": {
+              "name": "en-gb",
+              "precision": 0.8
+            }
+          },
+          "en_gb": {
+            "?": {
+              "name": "en_gb",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "dns-prefetch": {
+            "?": {
+              "name": "dns-prefetch",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          },
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "tech": {
+          "php": {
+            "?": {
+              "name": "php",
+              "precision": 0.1
+            }
+          },
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          }
+        },
+        "webserver": {
+          "tomcat": {
+            "?": {
+              "name": "tomcat",
+              "precision": 0.1
+            }
+          },
+          "nginx": {
+            "?": {
+              "name": "nginx",
+              "precision": 0.4,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          }
+        },
+        "cms": {
+          "wordpress": {
+            "?": {
+              "name": "wordpress",
+              "precision": 0.4,
+              "github-owner": "WordPress",
+              "github-repo": "WordPress"
+            }
+          }
+        },
+        "img": {
+          "jpg": {
+            "?": {
+              "name": "jpg",
+              "precision": 0.4
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          },
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "jpeg": {
+            "?": {
+              "name": "jpeg",
+              "precision": 0.8
+            }
+          },
+          "gif": {
+            "?": {
+              "name": "gif",
+              "precision": 0.4
+            }
+          }
+        },
+        "wordpress-plugin": {
+          "jetpack": {
+            "?": {
+              "name": "jetpack",
+              "precision": 0.6
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "js": {
+          "web-font-loader": {
+            "1.6.28": {
+              "name": "web-font-loader",
+              "precision": 0.5
+            }
+          }
+        }
+      }
+    }
+  ]
+}

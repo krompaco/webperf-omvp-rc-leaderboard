@@ -1,0 +1,204 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 5.0,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-07T19:55:22.200188",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt seems to work. ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, No duplicate Urls in \u003Cloc\u003E ( 5.00 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt seems to work. ( 5.00 rating )\r\n",
+      "data": {
+        "url": "https://krompaco.nu/",
+        "root_url": "https://krompaco.nu/",
+        "robots": {
+          "url": "https://krompaco.nu/robots.txt",
+          "content": "User-agent: *\nAllow: /\n\nSitemap: https://krompaco.nu/sitemap.xml\n",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 1,
+          "sitemap_urls_in_robots": [
+            "https://krompaco.nu/sitemap.xml"
+          ],
+          "sitemaps": {
+            "https://krompaco.nu/sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 60
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 60,
+              "nof_items_no_duplicates": 60,
+              "known_types_details": {
+                "webpage": [
+                  "https://krompaco.nu/",
+                  "https://krompaco.nu/2009/12/episerver-task-by-code/",
+                  "https://krompaco.nu/2010/01/vary-episerver-cache-by-all-querystring-parameters/",
+                  "https://krompaco.nu/2010/05/alter-default-initoptions-for-tinymce-in-episerver-6/",
+                  "https://krompaco.nu/2010/06/replacing-the-tinymce-table-plugin-in-episerver-6/",
+                  "https://krompaco.nu/2010/06/using-dynamic-data-store-related-to-an-episerver-6-page/",
+                  "https://krompaco.nu/2010/07/retrieving-an-episerver-6-global-setting-value/",
+                  "https://krompaco.nu/2010/09/remember-to-configure-cmsadmins-in-episerver-6/",
+                  "https://krompaco.nu/2010/11/episerver-user-picker-property-that-uses-the-built-in-membership-browser/",
+                  "https://krompaco.nu/2011/11/issues-when-upgrading-to-episerver-cms-6-r2/",
+                  "https://krompaco.nu/2012/09/page-type-builder-and-tinymce-global-settings/",
+                  "https://krompaco.nu/2013/01/avoid-uppercase-letters-in-your-episerver-page-url/",
+                  "https://krompaco.nu/2013/02/analyzing-sql-server-database-size/",
+                  "https://krompaco.nu/2013/03/one-way-to-import-pages-from-episerver-4-to-7/",
+                  "https://krompaco.nu/2013/05/dropdownlist-category-picker-in-episerver-7/",
+                  "https://krompaco.nu/2013/11/partial-routing-with-epi-7-and-web-forms/",
+                  "https://krompaco.nu/2014/01/xml-sitemap-from-episerver-scheduled-job/",
+                  "https://krompaco.nu/2014/06/episerver-start-page-language-based-on-visitors-ip/",
+                  "https://krompaco.nu/2014/10/owin-authentication-on-older-episerver-sites/",
+                  "https://krompaco.nu/2015/01/powershell-errors-when-using-episerver-visual-studio-extension/",
+                  "https://krompaco.nu/2015/01/working-with-your-own-forms-in-episerver-and-mvc/",
+                  "https://krompaco.nu/2015/03/google-analytics-enhanced-ecommerce-features-with-tag-manager/",
+                  "https://krompaco.nu/2015/05/cloud-accelerator/",
+                  "https://krompaco.nu/2015/08/cache-busting-css-and-js-files-by-hash-value/",
+                  "https://krompaco.nu/2015/10/a-viewmodelbuilder-pattern-for-episerver-mvc/",
+                  "https://krompaco.nu/2015/12/removing-episerver-find-from-swagger-ui/",
+                  "https://krompaco.nu/2016/01/episerver-and-application-insights-test-drive/",
+                  "https://krompaco.nu/2016/03/going-real-world-with-episerver-auth0-and-azure-ad/",
+                  "https://krompaco.nu/2016/11/identityserver4-with-epi-and-openid-connect/",
+                  "https://krompaco.nu/2016/11/upgrade-structuremap-to-3-1-9-463/",
+                  "https://krompaco.nu/2017/02/introducing-sendgridforepi/",
+                  "https://krompaco.nu/2017/10/working-in-episervers-publishedcontent-event/",
+                  "https://krompaco.nu/2018/01/add-an-epi-site-to-the-identityserver4-combined-quickstart/",
+                  "https://krompaco.nu/2018/01/breaking-changes-in-sendgridforepi/",
+                  "https://krompaco.nu/2018/11/using-the-handlebars-templates-with-sendgridforepi/",
+                  "https://krompaco.nu/2018/12/content-delivery-api-and-custom-authorization/",
+                  "https://krompaco.nu/2019/08/alloy-startpage-with-tailwind-css-lab/",
+                  "https://krompaco.nu/2019/10/adding-a-custom-episerver-forms-consent-element-type/",
+                  "https://krompaco.nu/2019/10/boilerplate-admin-mvc-plugin-with-tailwind-css/",
+                  "https://krompaco.nu/2019/11/episerver-stockholm-meetup-on-wednesday-november-20/",
+                  "https://krompaco.nu/2020/09/putting-custom-data-in-azure-table-storage-from-episerver/",
+                  "https://krompaco.nu/2020/10/notes-on-my-part-of-the-ewcw-cloud-talk/",
+                  "https://krompaco.nu/2021/01/troubleshooting-a-large-increase-in-episerver-sql-server-calls/",
+                  "https://krompaco.nu/2021/02/please-do-this-with-your-swagger-enabled-web-apis/",
+                  "https://krompaco.nu/2022/05/webperf-ratings-for-blogs-of-optimizely-mvps/",
+                  "https://krompaco.nu/2022/06/sendgridforepi-fixed-to-work-with-cms-12/",
+                  "https://krompaco.nu/2022/08/hosting-this-blog-on-azure-and-switching-setup/",
+                  "https://krompaco.nu/2022/10/identify-external-embedded-resources-in-cms-content/",
+                  "https://krompaco.nu/2022/10/trying-out-imgproxy-with-cms-12/",
+                  "https://krompaco.nu/2022/11/file-and-folder-structure-with-razor-pages-in-cms-12/",
+                  "https://krompaco.nu/2023/01/from-providers-to-aspnetidentity-notes/",
+                  "https://krompaco.nu/2023/02/matching-selenium-webdriver-chromedriver-nuget-version-with-machine/",
+                  "https://krompaco.nu/2023/04/optimizely-stockholm-developer-meetup-april-2023/",
+                  "https://krompaco.nu/2023/11/serving-content-from-inside-a-media-zip-file/",
+                  "https://krompaco.nu/2024/01/crawling-optimizely-world-using-chrome-and-csharp/",
+                  "https://krompaco.nu/2024/05/imgproxy-container-on-azure-app-service-with-front-door-cdn/",
+                  "https://krompaco.nu/2024/06/changing-which-ip-http-header-to-use-in-application-insights/",
+                  "https://krompaco.nu/pages/about/",
+                  "https://krompaco.nu/pages/copyright/",
+                  "https://krompaco.nu/pages/links/"
+                ]
+              }
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 60
+          },
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 60,
+          "nof_items_no_duplicates": 60,
+          "known_types_details": {
+            "webpage": [
+              "https://krompaco.nu/",
+              "https://krompaco.nu/2009/12/episerver-task-by-code/",
+              "https://krompaco.nu/2010/01/vary-episerver-cache-by-all-querystring-parameters/",
+              "https://krompaco.nu/2010/05/alter-default-initoptions-for-tinymce-in-episerver-6/",
+              "https://krompaco.nu/2010/06/replacing-the-tinymce-table-plugin-in-episerver-6/",
+              "https://krompaco.nu/2010/06/using-dynamic-data-store-related-to-an-episerver-6-page/",
+              "https://krompaco.nu/2010/07/retrieving-an-episerver-6-global-setting-value/",
+              "https://krompaco.nu/2010/09/remember-to-configure-cmsadmins-in-episerver-6/",
+              "https://krompaco.nu/2010/11/episerver-user-picker-property-that-uses-the-built-in-membership-browser/",
+              "https://krompaco.nu/2011/11/issues-when-upgrading-to-episerver-cms-6-r2/",
+              "https://krompaco.nu/2012/09/page-type-builder-and-tinymce-global-settings/",
+              "https://krompaco.nu/2013/01/avoid-uppercase-letters-in-your-episerver-page-url/",
+              "https://krompaco.nu/2013/02/analyzing-sql-server-database-size/",
+              "https://krompaco.nu/2013/03/one-way-to-import-pages-from-episerver-4-to-7/",
+              "https://krompaco.nu/2013/05/dropdownlist-category-picker-in-episerver-7/",
+              "https://krompaco.nu/2013/11/partial-routing-with-epi-7-and-web-forms/",
+              "https://krompaco.nu/2014/01/xml-sitemap-from-episerver-scheduled-job/",
+              "https://krompaco.nu/2014/06/episerver-start-page-language-based-on-visitors-ip/",
+              "https://krompaco.nu/2014/10/owin-authentication-on-older-episerver-sites/",
+              "https://krompaco.nu/2015/01/powershell-errors-when-using-episerver-visual-studio-extension/",
+              "https://krompaco.nu/2015/01/working-with-your-own-forms-in-episerver-and-mvc/",
+              "https://krompaco.nu/2015/03/google-analytics-enhanced-ecommerce-features-with-tag-manager/",
+              "https://krompaco.nu/2015/05/cloud-accelerator/",
+              "https://krompaco.nu/2015/08/cache-busting-css-and-js-files-by-hash-value/",
+              "https://krompaco.nu/2015/10/a-viewmodelbuilder-pattern-for-episerver-mvc/",
+              "https://krompaco.nu/2015/12/removing-episerver-find-from-swagger-ui/",
+              "https://krompaco.nu/2016/01/episerver-and-application-insights-test-drive/",
+              "https://krompaco.nu/2016/03/going-real-world-with-episerver-auth0-and-azure-ad/",
+              "https://krompaco.nu/2016/11/identityserver4-with-epi-and-openid-connect/",
+              "https://krompaco.nu/2016/11/upgrade-structuremap-to-3-1-9-463/",
+              "https://krompaco.nu/2017/02/introducing-sendgridforepi/",
+              "https://krompaco.nu/2017/10/working-in-episervers-publishedcontent-event/",
+              "https://krompaco.nu/2018/01/add-an-epi-site-to-the-identityserver4-combined-quickstart/",
+              "https://krompaco.nu/2018/01/breaking-changes-in-sendgridforepi/",
+              "https://krompaco.nu/2018/11/using-the-handlebars-templates-with-sendgridforepi/",
+              "https://krompaco.nu/2018/12/content-delivery-api-and-custom-authorization/",
+              "https://krompaco.nu/2019/08/alloy-startpage-with-tailwind-css-lab/",
+              "https://krompaco.nu/2019/10/adding-a-custom-episerver-forms-consent-element-type/",
+              "https://krompaco.nu/2019/10/boilerplate-admin-mvc-plugin-with-tailwind-css/",
+              "https://krompaco.nu/2019/11/episerver-stockholm-meetup-on-wednesday-november-20/",
+              "https://krompaco.nu/2020/09/putting-custom-data-in-azure-table-storage-from-episerver/",
+              "https://krompaco.nu/2020/10/notes-on-my-part-of-the-ewcw-cloud-talk/",
+              "https://krompaco.nu/2021/01/troubleshooting-a-large-increase-in-episerver-sql-server-calls/",
+              "https://krompaco.nu/2021/02/please-do-this-with-your-swagger-enabled-web-apis/",
+              "https://krompaco.nu/2022/05/webperf-ratings-for-blogs-of-optimizely-mvps/",
+              "https://krompaco.nu/2022/06/sendgridforepi-fixed-to-work-with-cms-12/",
+              "https://krompaco.nu/2022/08/hosting-this-blog-on-azure-and-switching-setup/",
+              "https://krompaco.nu/2022/10/identify-external-embedded-resources-in-cms-content/",
+              "https://krompaco.nu/2022/10/trying-out-imgproxy-with-cms-12/",
+              "https://krompaco.nu/2022/11/file-and-folder-structure-with-razor-pages-in-cms-12/",
+              "https://krompaco.nu/2023/01/from-providers-to-aspnetidentity-notes/",
+              "https://krompaco.nu/2023/02/matching-selenium-webdriver-chromedriver-nuget-version-with-machine/",
+              "https://krompaco.nu/2023/04/optimizely-stockholm-developer-meetup-april-2023/",
+              "https://krompaco.nu/2023/11/serving-content-from-inside-a-media-zip-file/",
+              "https://krompaco.nu/2024/01/crawling-optimizely-world-using-chrome-and-csharp/",
+              "https://krompaco.nu/2024/05/imgproxy-container-on-azure-app-service-with-front-door-cdn/",
+              "https://krompaco.nu/2024/06/changing-which-ip-http-header-to-use-in-application-insights/",
+              "https://krompaco.nu/pages/about/",
+              "https://krompaco.nu/pages/copyright/",
+              "https://krompaco.nu/pages/links/"
+            ]
+          },
+          "sitemapindexes": [],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 1,
+          "feeds": [
+            "https://krompaco.nu/rss.xml"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://krompaco.nu/.well-known/security.txt": {
+              "status": "ok"
+            },
+            "https://krompaco.nu/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "ok"
+        }
+      }
+    }
+  ]
+}

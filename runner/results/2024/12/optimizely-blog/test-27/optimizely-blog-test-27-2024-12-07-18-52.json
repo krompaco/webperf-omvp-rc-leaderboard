@@ -1,0 +1,174 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.8,
+      "date": "2024-12-07T18:53:09.992005",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 6 ( 3.80 rating )\r\n  - Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022-moz-pre-wrap\u0022 for property \u0022white-space\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022-o-pre-wrap\u0022 for property \u0022white-space\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022bold\u0022 for property \u0022text-decoration\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown custom property \u0022--bs-body-text-align\u0022 (no-unknown-custom-properties) (number of errors of this type: 1)\n  - Unexpected unknown custom property \u0022--blue\u0022 (no-unknown-custom-properties) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #8: css2, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #8: css2, number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": false,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "line": 11,
+              "column": 4154,
+              "endLine": 11,
+              "endColumn": 4174,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 13,
+              "column": 10807,
+              "endLine": 13,
+              "endColumn": 10820,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-moz-pre-wrap\u0022 for property \u0022white-space\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 13,
+              "column": 10833,
+              "endLine": 13,
+              "endColumn": 10844,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-o-pre-wrap\u0022 for property \u0022white-space\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 17,
+              "column": 3357,
+              "endLine": 17,
+              "endColumn": 3361,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022bold\u0022 for property \u0022text-decoration\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 11,
+              "column": 1910,
+              "endLine": 11,
+              "endColumn": 1930,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--bs-body-text-align\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 23,
+              "column": 125,
+              "endLine": 23,
+              "endColumn": 131,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--blue\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "line": 11,
+              "column": 4154,
+              "endLine": 11,
+              "endColumn": 4174,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 13,
+              "column": 10807,
+              "endLine": 13,
+              "endColumn": 10820,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-moz-pre-wrap\u0022 for property \u0022white-space\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 13,
+              "column": 10833,
+              "endLine": 13,
+              "endColumn": 10844,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-o-pre-wrap\u0022 for property \u0022white-space\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 17,
+              "column": 3357,
+              "endLine": 17,
+              "endColumn": 3361,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022bold\u0022 for property \u0022text-decoration\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 11,
+              "column": 1910,
+              "endLine": 11,
+              "endColumn": 1930,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--bs-body-text-align\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            },
+            {
+              "line": 23,
+              "column": 125,
+              "endLine": 23,
+              "endColumn": 131,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--blue\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/optimizely.blog/a570a63b08c993a440212fbb77a8e696703db18b7ea886c76823fb9f96d7959f8e8b691927aa0c1127c89d997ddad1636453c15067c637f7d6abcf57e42cde4c.txt.utf-8.cache.css"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://optimizely.blog/",
+            "index": 1
+          },
+          {
+            "url": "https://optimizely.blog/css/main.css?1.1.0.0",
+            "index": 2
+          }
+        ]
+      }
+    }
+  ]
+}

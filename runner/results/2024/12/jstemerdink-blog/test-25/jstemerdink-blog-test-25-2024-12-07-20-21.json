@@ -1,0 +1,222 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.97,
+      "rating_sec": 4.97,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-07T20:21:09.839996",
+      "report": "- CMS used: wordpress\r\n- Web server used: nginx, tomcat\r\n- Technology used: c, js, php\r\n- License(s) used: mit\r\n- Metadata used: apple-touch-icon, dns-prefetch, icon, open-graph, viewport\r\n- Javascript libraries used: jquery, jquery-migrate, jquery-mousewheel, shcore, xregexp\r\n- Languages found: en, en_us\r\n- Image formats used: gif, ico, jpeg, jpg, png\r\n",
+      "report_sec": "##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- jquery-migrate 3.4.1\r\n\r\n###### Affected resource(s):\r\n- https://s0.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPKtYvyinRLSjKr6jUyyrW0QfKZeYl55SmpBaDJLMKS1OLKqGUXm5mHkFFurmZ6UWJJalQxfa5tobmRgamxgZmFpZZACbyLJI=\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND001": {
+            "softwares": [
+              "jquery-migrate 3.4.1"
+            ],
+            "resources": [
+              "https://s0.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPKtYvyinRLSjKr6jUyyrW0QfKZeYl55SmpBaDJLMKS1OLKqGUXm5mHkFFurmZ6UWJJalQxfa5tobmRgamxgZmFpZZACbyLJI="
+            ],
+            "sub-issues": []
+          }
+        },
+        "meta": {
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "dns-prefetch": {
+            "?": {
+              "name": "dns-prefetch",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          },
+          "en_us": {
+            "?": {
+              "name": "en_us",
+              "precision": 0.8
+            }
+          }
+        },
+        "cms": {
+          "wordpress": {
+            "": {
+              "name": "wordpress",
+              "precision": 0.8,
+              "github-owner": "WordPress",
+              "github-repo": "WordPress"
+            }
+          }
+        },
+        "tech": {
+          "php": {
+            "?": {
+              "name": "php",
+              "precision": 0.8
+            }
+          },
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "?": {
+              "name": "nginx",
+              "precision": 0.4,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          },
+          "tomcat": {
+            "?": {
+              "name": "tomcat",
+              "precision": 0.1
+            }
+          }
+        },
+        "wordpress-plugin": {
+          "coblocks": {
+            "?": {
+              "name": "coblocks",
+              "precision": 0.6
+            }
+          },
+          "custom-fonts": {
+            "?": {
+              "name": "custom-fonts",
+              "precision": 0.6
+            }
+          },
+          "syntaxhighlighter": {
+            "?": {
+              "name": "syntaxhighlighter",
+              "precision": 0.6
+            }
+          }
+        },
+        "js": {
+          "jquery": {
+            "3.7.1": {
+              "name": "jquery",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "jquery-migrate": {
+            "3.4.1": {
+              "name": "jquery-migrate",
+              "precision": 0.8,
+              "github-owner": "jquery",
+              "github-repo": "jquery-migrate"
+            }
+          },
+          "xregexp": {
+            "?": {
+              "name": "xregexp",
+              "precision": 0.5
+            }
+          },
+          "shcore": {
+            "?": {
+              "name": "shcore",
+              "precision": 0.5
+            }
+          },
+          "jquery-mousewheel": {
+            "?": {
+              "name": "jquery-mousewheel",
+              "precision": 0.1,
+              "github-owner": "jquery",
+              "github-repo": "jquery-mousewheel"
+            }
+          }
+        },
+        "img": {
+          "jpeg": {
+            "?": {
+              "name": "jpeg",
+              "precision": 0.8
+            }
+          },
+          "jpg": {
+            "?": {
+              "name": "jpg",
+              "precision": 0.4
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          },
+          "gif": {
+            "?": {
+              "name": "gif",
+              "precision": 0.4
+            }
+          },
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        },
+        "license": {
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          }
+        }
+      }
+    }
+  ]
+}

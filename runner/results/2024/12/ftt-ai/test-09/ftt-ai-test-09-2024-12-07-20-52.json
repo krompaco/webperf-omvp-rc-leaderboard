@@ -1,0 +1,253 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 4.0,
+      "rating_sec": 1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.67,
+      "date": "2024-12-07T20:52:18.164440",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, No duplicate Urls in \u003Cloc\u003E ( 5.00 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "data": {
+        "url": "https://www.ftt.ai/",
+        "root_url": "https://www.ftt.ai/",
+        "robots": {
+          "url": "https://www.ftt.ai/robots.txt",
+          "content": "User-agent: *\nAllow: /\nUser-agent: Googlebot\nDisallow: *?lightbox=\n\n# Optimization for Google Ads Bot\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google\nDisallow: /_api/*\nDisallow: /_partials*\nDisallow: /pro-gallery-webapp/v1/galleries/*\n\n# Block PetalBot\nUser-agent: PetalBot\nDisallow: /\n\n# Crawl delay for overly enthusiastic bots\nUser-agent: dotbot\nCrawl-delay: 10\nUser-agent: AhrefsBot\nCrawl-delay: 10\n\nSitemap: https://www.ftt.ai/sitemap.xml\n\n# Auto generated, go to SEO Tools \u003E Robots.txt Editor to change this",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 1,
+          "sitemap_urls_in_robots": [
+            "https://www.ftt.ai/sitemap.xml"
+          ],
+          "sitemaps": {
+            "https://www.ftt.ai/pages-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 25
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 25,
+              "nof_items_no_duplicates": 25,
+              "known_types_details": {
+                "webpage": [
+                  "https://www.ftt.ai",
+                  "https://www.ftt.ai/about",
+                  "https://www.ftt.ai/action",
+                  "https://www.ftt.ai/careers",
+                  "https://www.ftt.ai/check-up",
+                  "https://www.ftt.ai/contact",
+                  "https://www.ftt.ai/copy-of-about",
+                  "https://www.ftt.ai/copy-of-contact",
+                  "https://www.ftt.ai/copy-of-home",
+                  "https://www.ftt.ai/cover-to-cover",
+                  "https://www.ftt.ai/cyan-airways",
+                  "https://www.ftt.ai/firgus",
+                  "https://www.ftt.ai/home",
+                  "https://www.ftt.ai/journal",
+                  "https://www.ftt.ai/mobilis",
+                  "https://www.ftt.ai/oam",
+                  "https://www.ftt.ai/portfolio",
+                  "https://www.ftt.ai/retina",
+                  "https://www.ftt.ai/room-26",
+                  "https://www.ftt.ai/roth-auto",
+                  "https://www.ftt.ai/services",
+                  "https://www.ftt.ai/shop",
+                  "https://www.ftt.ai/tightly",
+                  "https://www.ftt.ai/vers",
+                  "https://www.ftt.ai/work"
+                ]
+              }
+            },
+            "https://www.ftt.ai/portfolio-projects-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 6
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 6,
+              "nof_items_no_duplicates": 6,
+              "known_types_details": {
+                "webpage": [
+                  "https://www.ftt.ai/portfolio-collections/my-portfolio/project-title-1",
+                  "https://www.ftt.ai/portfolio-collections/my-portfolio/project-title-2",
+                  "https://www.ftt.ai/portfolio-collections/my-portfolio/project-title-3",
+                  "https://www.ftt.ai/portfolio-collections/my-portfolio/project-title-4",
+                  "https://www.ftt.ai/portfolio-collections/my-portfolio/project-title-5",
+                  "https://www.ftt.ai/portfolio-collections/my-portfolio/project-title-6"
+                ]
+              }
+            },
+            "https://www.ftt.ai/portfolio-collections-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 1
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 1,
+              "nof_items_no_duplicates": 1,
+              "known_types_details": {
+                "webpage": [
+                  "https://www.ftt.ai/portfolio-collections/my-portfolio"
+                ]
+              }
+            },
+            "https://www.ftt.ai/blog-posts-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 31
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 31,
+              "nof_items_no_duplicates": 31,
+              "known_types_details": {
+                "webpage": [
+                  "https://www.ftt.ai/post/5-signs-its-time-to-migrate-to-optimizely",
+                  "https://www.ftt.ai/post/a-marketing-managers-guide-to-the-solution-architecture-of-a-modern-martech-dxp",
+                  "https://www.ftt.ai/post/ai-will-replace-websites-not-us",
+                  "https://www.ftt.ai/post/bigger-the-better",
+                  "https://www.ftt.ai/post/case-study-ai-driven-site-search-for-eason-an-iconic-irish-retailer",
+                  "https://www.ftt.ai/post/clue-s-in-the-question",
+                  "https://www.ftt.ai/post/demand-loyalty",
+                  "https://www.ftt.ai/post/don-t-mistake-proximity-for-good-communication",
+                  "https://www.ftt.ai/post/failure-avoidance",
+                  "https://www.ftt.ai/post/farewell-sitecore-hello-optimizely",
+                  "https://www.ftt.ai/post/hight-value-data-reshaping-brands-and-driving-e-commerce-revolution",
+                  "https://www.ftt.ai/post/how-i-use-chatgpt-as-an-optimizely-solutions-architect",
+                  "https://www.ftt.ai/post/how-to-write-a-value-proposition",
+                  "https://www.ftt.ai/post/i-predict-a-riot",
+                  "https://www.ftt.ai/post/in-experts-we-trust",
+                  "https://www.ftt.ai/post/lift-and-shift-a-clean-slate-to-start-building-the-future",
+                  "https://www.ftt.ai/post/linchpins-in-short-supply",
+                  "https://www.ftt.ai/post/micro-front-ends-are-massive-for-optimizely-one",
+                  "https://www.ftt.ai/post/onederful",
+                  "https://www.ftt.ai/post/optimizely-s-personalization-engine-a-gift-for-marketers",
+                  "https://www.ftt.ai/post/rejoice-optimizely-web-recommendations",
+                  "https://www.ftt.ai/post/technology-choices-are-hard-enough-making-sense-of-composable-headless-hype",
+                  "https://www.ftt.ai/post/the-composable-consulting-model-our-industry-needs",
+                  "https://www.ftt.ai/post/the-economics-of-design",
+                  "https://www.ftt.ai/post/the-ftt-optimizely-data-platform-odp-connector",
+                  "https://www.ftt.ai/post/the-gift-of-a-good-brief",
+                  "https://www.ftt.ai/post/the-joy-of-experiments",
+                  "https://www.ftt.ai/post/the-pleasure-and-gain-of-personalisation",
+                  "https://www.ftt.ai/post/the-secret-to-a-successful-business-trust-respect-and-inspiration",
+                  "https://www.ftt.ai/post/to-compete-you-need-these-e-commerce-capabilities-now",
+                  "https://www.ftt.ai/post/wise-clients-do-this"
+                ]
+              }
+            },
+            "https://www.ftt.ai/blog-categories-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 5
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 5,
+              "nof_items_no_duplicates": 5,
+              "known_types_details": {
+                "webpage": [
+                  "https://www.ftt.ai/journal",
+                  "https://www.ftt.ai/journal/categories/dxp",
+                  "https://www.ftt.ai/journal/categories/marketing-manager",
+                  "https://www.ftt.ai/journal/categories/optimizely",
+                  "https://www.ftt.ai/journal/categories/solution-architecture"
+                ]
+              }
+            },
+            "https://www.ftt.ai/store-products-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 12
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 12,
+              "nof_items_no_duplicates": 12,
+              "known_types_details": {
+                "webpage": [
+                  "https://www.ftt.ai/product-page/i-m-a-product",
+                  "https://www.ftt.ai/product-page/i-m-a-product-1",
+                  "https://www.ftt.ai/product-page/i-m-a-product-10",
+                  "https://www.ftt.ai/product-page/i-m-a-product-11",
+                  "https://www.ftt.ai/product-page/i-m-a-product-2",
+                  "https://www.ftt.ai/product-page/i-m-a-product-3",
+                  "https://www.ftt.ai/product-page/i-m-a-product-4",
+                  "https://www.ftt.ai/product-page/i-m-a-product-5",
+                  "https://www.ftt.ai/product-page/i-m-a-product-6",
+                  "https://www.ftt.ai/product-page/i-m-a-product-7",
+                  "https://www.ftt.ai/product-page/i-m-a-product-8",
+                  "https://www.ftt.ai/product-page/i-m-a-product-9"
+                ]
+              }
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 12
+          },
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 80,
+          "nof_items_no_duplicates": 80,
+          "known_types_details": {
+            "webpage": [
+              "https://www.ftt.ai/product-page/i-m-a-product",
+              "https://www.ftt.ai/product-page/i-m-a-product-1",
+              "https://www.ftt.ai/product-page/i-m-a-product-10",
+              "https://www.ftt.ai/product-page/i-m-a-product-11",
+              "https://www.ftt.ai/product-page/i-m-a-product-2",
+              "https://www.ftt.ai/product-page/i-m-a-product-3",
+              "https://www.ftt.ai/product-page/i-m-a-product-4",
+              "https://www.ftt.ai/product-page/i-m-a-product-5",
+              "https://www.ftt.ai/product-page/i-m-a-product-6",
+              "https://www.ftt.ai/product-page/i-m-a-product-7",
+              "https://www.ftt.ai/product-page/i-m-a-product-8",
+              "https://www.ftt.ai/product-page/i-m-a-product-9"
+            ]
+          },
+          "sitemapindexes": [
+            "https://www.ftt.ai/sitemap.xml"
+          ],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 1,
+          "feeds": [
+            "https://www.ftt.ai/blog-feed.xml"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://www.ftt.ai/.well-known/security.txt": {
+              "status": "wrong content"
+            },
+            "https://www.ftt.ai/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "wrong content"
+        }
+      }
+    }
+  ]
+}
