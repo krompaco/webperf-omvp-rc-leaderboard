@@ -68,7 +68,7 @@
         { 4, "Lighthouse SEO" },
         { 5, "Lighthouse Best Practices" },
         { 6, "W3C HTML" },
-        { 7, "W3C CSS" },
+        ////{ 7, "W3C CSS*" },
         { 9, "Standard Files" },
         { 10, "Lighthouse A11y" },
         { 15, "Sitespeed.io" },
@@ -81,9 +81,10 @@
         ////{ 24, "E-mail*" },
         { 25, "Software" },
         ////{ 26, "A11y Statement*" },
+        { 27, "Stylelint CSS" },
     };
 
-    public static int[] TestTypesExcludedFromAverageRating { get; } = [24, 26];
+    public static int[] TestTypesExcludedFromAverageRating { get; } = [7 ,24, 26];
 
     protected SiteRoot? SiteRootToStartFrom { get; set; }
 
@@ -338,7 +339,7 @@
                         $"<div class=\"mt-10\"><h2 class=\"mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl\">{WebUtility.HtmlEncode(GetTypeOfTest(result.TypeOfTest))}</h2><p class=\"inline-block my-3 px-2 pt-1.5 pb-1 rounded-md\">{result.Rating.ToString("0.00", new CultureInfo("en-US"))}</p><p class=\"font-medium text-sm\">Results collected at {result.Date:yyyy-MM-dd}</p>{GetHtmlFromTest(result)}</div>";
                 }
 
-                var pageFileContent = $"{{{Environment.NewLine}\"title\": \"{GetSiteNameHtml(site.Url)}\", \"date\": \"{DateTime.UtcNow:yyyy-MM-dd}\", \"description\": \"Webperf ratings for {GetSiteName(site.Url)}\"{Environment.NewLine}}}{Environment.NewLine}{pageHtml}";
+                var pageFileContent = $"{{{Environment.NewLine}\"title\": \"Webperf result {GetSiteNameHtml(site.Url)}\", \"date\": \"{DateTime.UtcNow:yyyy-MM-dd}\", \"description\": \"Webperf ratings for {GetSiteName(site.Url)}\"{Environment.NewLine}}}{Environment.NewLine}{pageHtml}";
 
                 using var sw = new StreamWriter(File.Open(pageFullPath, FileMode.Create), new UTF8Encoding(false));
                 sw.WriteLine(pageFileContent);
@@ -364,8 +365,8 @@
     private static string GetSiteNameHtml(string input)
     {
         return WebUtility.HtmlEncode(GetSiteName(input))
-            .Replace(".", "&thinsp;.")
-            .Replace("/", "/&thinsp;");
+            .Replace(".", "<wbr>.")
+            .Replace("/", "/<wbr>");
     }
 
     private static DateTime GetDateTimeFromFileName(string name)

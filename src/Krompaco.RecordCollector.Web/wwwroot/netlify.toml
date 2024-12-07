@@ -1,13 +1,13 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Strict-Transport-Security = "max-age=31536000"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
     Permissions-Policy = "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), hid=(), idle-detection=(), serial=()"
-    Content-Security-Policy = "default-src 'none'; base-uri 'self'; script-src 'none'; img-src 'self' cloudfront.net *.cloudfront.net; style-src 'self'; font-src krompaco.nu; form-action 'none';  frame-src 'none'; connect-src 'self'; media-src 'self'; child-src 'self'; frame-ancestors 'none'; worker-src 'none'; manifest-src 'none';"
+    Content-Security-Policy = "default-src 'none'; base-uri 'self'; script-src 'none'; img-src 'self'; style-src 'self'; font-src krompaco.nu; form-action 'none';  frame-src 'none'; connect-src 'self'; media-src 'self'; child-src 'self'; frame-ancestors 'none'; worker-src 'none'; manifest-src 'none';"
 [[headers]]
   for = "/dist/*"
 [headers.values]

@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@((MarkupString)Model.Title)</title>
+    <title>@((MarkupString)Model.Title.Replace("<wbr>", string.Empty))</title>
     
     @if (!string.IsNullOrWhiteSpace(Model.Robots))
     {
@@ -29,6 +29,8 @@
     <link href="https://krompaco.nu/dist/funkis-abc-variable.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous">
 
     <link href="/dist/styles.css?v=1" rel="stylesheet" />
+    
+    <link rel="alternate" type="application/rss+xml" title="Webperf ratings for blogs of Optimizely MVPs" href="https://omvp-webperf.krompaco.nu/rss.xml">
 </head>
 <body class="bg-slate-50 text-gray-700 font-default-weight">
     <div class="mt-10 mb-10 max-w-[1800px] mx-auto px-1 sm:px-4" role="main">
