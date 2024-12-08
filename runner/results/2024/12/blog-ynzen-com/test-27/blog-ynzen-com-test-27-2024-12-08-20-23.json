@@ -1,0 +1,570 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.45,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.45,
+      "date": "2024-12-08T20:23:14.695499",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 24 ( 1.00 rating )\r\n  - Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties) (number of errors of this type: 13)\n  - Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties) (number of errors of this type: 7)\n  - Unexpected unknown custom property \u0022--color-custom-header\u0022 (no-unknown-custom-properties) (number of errors of this type: 3)\n  - Unexpected unknown property \u0022line-weight\u0022 (property-no-unknown) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "line": 3,
+              "column": 7630,
+              "endLine": 3,
+              "endColumn": 7648,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 8120,
+              "endLine": 3,
+              "endColumn": 8138,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 8608,
+              "endLine": 3,
+              "endColumn": 8626,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 9079,
+              "endLine": 3,
+              "endColumn": 9097,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 16882,
+              "endLine": 3,
+              "endColumn": 16900,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 17165,
+              "endLine": 3,
+              "endColumn": 17183,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 27861,
+              "endLine": 3,
+              "endColumn": 27882,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-custom-header\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 27975,
+              "endLine": 3,
+              "endColumn": 27996,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-custom-header\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 47280,
+              "endLine": 3,
+              "endColumn": 47298,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52103,
+              "endLine": 3,
+              "endColumn": 52120,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52141,
+              "endLine": 3,
+              "endColumn": 52158,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52379,
+              "endLine": 3,
+              "endColumn": 52396,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52524,
+              "endLine": 3,
+              "endColumn": 52541,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52562,
+              "endLine": 3,
+              "endColumn": 52579,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52824,
+              "endLine": 3,
+              "endColumn": 52841,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52862,
+              "endLine": 3,
+              "endColumn": 52879,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 53008,
+              "endLine": 3,
+              "endColumn": 53025,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 53047,
+              "endLine": 3,
+              "endColumn": 53064,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 68473,
+              "endLine": 3,
+              "endColumn": 68490,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 68511,
+              "endLine": 3,
+              "endColumn": 68528,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 68813,
+              "endLine": 3,
+              "endColumn": 68830,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 68851,
+              "endLine": 3,
+              "endColumn": 68868,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 72407,
+              "endLine": 3,
+              "endColumn": 72428,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-custom-header\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 16529,
+              "endLine": 3,
+              "endColumn": 16540,
+              "rule": "property-no-unknown",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown property \u0022line-weight\u0022 (property-no-unknown)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "line": 3,
+              "column": 7630,
+              "endLine": 3,
+              "endColumn": 7648,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 8120,
+              "endLine": 3,
+              "endColumn": 8138,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 8608,
+              "endLine": 3,
+              "endColumn": 8626,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 9079,
+              "endLine": 3,
+              "endColumn": 9097,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 16882,
+              "endLine": 3,
+              "endColumn": 16900,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 17165,
+              "endLine": 3,
+              "endColumn": 17183,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 27861,
+              "endLine": 3,
+              "endColumn": 27882,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-custom-header\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 27975,
+              "endLine": 3,
+              "endColumn": 27996,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-custom-header\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 47280,
+              "endLine": 3,
+              "endColumn": 47298,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-suisse-intl\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52103,
+              "endLine": 3,
+              "endColumn": 52120,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52141,
+              "endLine": 3,
+              "endColumn": 52158,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52379,
+              "endLine": 3,
+              "endColumn": 52396,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52524,
+              "endLine": 3,
+              "endColumn": 52541,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52562,
+              "endLine": 3,
+              "endColumn": 52579,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52824,
+              "endLine": 3,
+              "endColumn": 52841,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 52862,
+              "endLine": 3,
+              "endColumn": 52879,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 53008,
+              "endLine": 3,
+              "endColumn": 53025,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 53047,
+              "endLine": 3,
+              "endColumn": 53064,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 68473,
+              "endLine": 3,
+              "endColumn": 68490,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 68511,
+              "endLine": 3,
+              "endColumn": 68528,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 68813,
+              "endLine": 3,
+              "endColumn": 68830,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 68851,
+              "endLine": 3,
+              "endColumn": 68868,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--tw-shadow-color\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 72407,
+              "endLine": 3,
+              "endColumn": 72428,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-custom-header\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            },
+            {
+              "line": 3,
+              "column": 16529,
+              "endLine": 3,
+              "endColumn": 16540,
+              "rule": "property-no-unknown",
+              "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+              "type": "error",
+              "message": "Unexpected unknown property \u0022line-weight\u0022 (property-no-unknown)",
+              "file": "/usr/src/runner/cache/blog.ynzen.com/d75cac05d2a6bbf6f592d335886216de3a6364a4b6c417a569cb0818c738f8b12fd1d130d46e2a1034f119a04ff5b295555a6e39a428ed41991cd2c20a584222.txt.utf-8.cache.css"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://blog.ynzen.com/",
+            "index": 1
+          },
+          {
+            "url": "https://blog.ynzen.com/_next/static/css/052bb8a5cb372b4e.css",
+            "index": 4
+          }
+        ]
+      }
+    }
+  ]
+}

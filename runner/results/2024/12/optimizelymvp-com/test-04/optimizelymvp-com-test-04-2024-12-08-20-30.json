@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 4,
+      "rating": 4.6,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-08T20:30:42.839664",
+      "report": "- Pretty good at SEO, but still has some potential improvements.\n- Links do not have descriptive text ( 1.00 rating )\r\n- Page isn\u2019t blocked from indexing ( 5.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- Image elements have \u0060[alt]\u0060 attributes ( 5.00 rating )\r\n- Document has a meta description ( 5.00 rating )\r\n- Page has successful HTTP status code ( 5.00 rating )\r\n- Links are crawlable ( 5.00 rating )\r\n- robots.txt is valid ( 5.00 rating )\r\n- Document has a valid \u0060hreflang\u0060 ( 5.00 rating )\r\n- Document has a valid \u0060rel=canonical\u0060 ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt is valid ( 5.00 rating )\r\n",
+      "data": {
+        "first-contentful-paint": 1984.6089999999997,
+        "largest-contentful-paint": 2315.805,
+        "speed-index": 5320.471048004246,
+        "total-blocking-time": 30,
+        "max-potential-fid": 80,
+        "cumulative-layout-shift": 0,
+        "server-response-time": 2661.029,
+        "interactive": 3762.4154999999996,
+        "redirects": 860.3139999999999,
+        "mainthread-work-breakdown": 372.039999999999,
+        "bootup-time": 192.58000000000055,
+        "uses-rel-preconnect": 0,
+        "network-rtt": 46.54899999999999,
+        "network-server-latency": 41.903000000000006,
+        "metrics": 3762,
+        "uses-long-cache-ttl": 40439,
+        "total-byte-weight": 240793,
+        "offscreen-images": 0,
+        "render-blocking-resources": 0,
+        "unminified-css": 0,
+        "unminified-javascript": 0,
+        "unused-css-rules": 330,
+        "unused-javascript": 0,
+        "modern-image-formats": 0,
+        "uses-optimized-images": 0,
+        "uses-text-compression": 0,
+        "uses-responsive-images": 0,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 481,
+        "uses-http2": 0
+      }
+    }
+  ]
+}

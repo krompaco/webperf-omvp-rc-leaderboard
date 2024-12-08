@@ -1,0 +1,240 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.97,
+      "rating_sec": 4.97,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-08T20:37:09.614295",
+      "report": "- CMS used: wordpress\r\n- Web server used: nginx, tomcat\r\n- Technology used: c, es6, js, php\r\n- License(s) used: apache-2.0\r\n- Metadata used: apple-touch-icon, canonical, dns-prefetch, icon, open-graph, preload, viewport\r\n- Javascript libraries used: core-js, desandro-matches-selector, ev-emitter, fizzy-ui-utils, get-size, jquery, jquery-migrate, outlayer, util\r\n- Languages found: en-gb, en_gb\r\n- Image formats used: jpeg, png, webp\r\n",
+      "report_sec": "##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- jquery-migrate 3.4.1\r\n\r\n###### Affected resource(s):\r\n- https://www.naveedulhaq.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND001": {
+            "softwares": [
+              "jquery-migrate 3.4.1"
+            ],
+            "resources": [
+              "https://www.naveedulhaq.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+            ],
+            "sub-issues": []
+          }
+        },
+        "cms": {
+          "wordpress": {
+            "6.7.1": {
+              "name": "wordpress",
+              "precision": 0.8,
+              "github-owner": "WordPress",
+              "github-repo": "WordPress"
+            }
+          }
+        },
+        "tech": {
+          "php": {
+            "?": {
+              "name": "php",
+              "precision": 0.8
+            }
+          },
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "preload": {
+            "?": {
+              "name": "preload",
+              "precision": 0.5
+            }
+          },
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "dns-prefetch": {
+            "?": {
+              "name": "dns-prefetch",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "?": {
+              "name": "nginx",
+              "precision": 0.4,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          },
+          "tomcat": {
+            "?": {
+              "name": "tomcat",
+              "precision": 0.1
+            }
+          }
+        },
+        "lang": {
+          "en-gb": {
+            "?": {
+              "name": "en-gb",
+              "precision": 0.8
+            }
+          },
+          "en_gb": {
+            "?": {
+              "name": "en_gb",
+              "precision": 0.8
+            }
+          }
+        },
+        "js": {
+          "jquery": {
+            "3.7.1": {
+              "name": "jquery",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "jquery-migrate": {
+            "3.4.1": {
+              "name": "jquery-migrate",
+              "precision": 0.8,
+              "github-owner": "jquery",
+              "github-repo": "jquery-migrate"
+            }
+          },
+          "desandro-matches-selector": {
+            "?": {
+              "name": "desandro-matches-selector",
+              "precision": 0.5
+            }
+          },
+          "ev-emitter": {
+            "?": {
+              "name": "ev-emitter",
+              "precision": 0.5
+            }
+          },
+          "get-size": {
+            "?": {
+              "name": "get-size",
+              "precision": 0.5
+            }
+          },
+          "fizzy-ui-utils": {
+            "?": {
+              "name": "fizzy-ui-utils",
+              "precision": 0.5
+            }
+          },
+          "outlayer": {
+            "?": {
+              "name": "outlayer",
+              "precision": 0.5
+            }
+          },
+          "core-js": {
+            "?": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          },
+          "util": {
+            "?": {
+              "name": "util",
+              "precision": 0.5
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "wordpress-plugin": {
+          "wp-consent-api": {
+            "?": {
+              "name": "wp-consent-api",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.4
+            }
+          },
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "jpeg": {
+            "?": {
+              "name": "jpeg",
+              "precision": 0.8
+            }
+          }
+        }
+      }
+    }
+  ]
+}

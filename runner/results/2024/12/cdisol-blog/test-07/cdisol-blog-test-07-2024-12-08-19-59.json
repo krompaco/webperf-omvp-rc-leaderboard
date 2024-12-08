@@ -1,0 +1,469 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.59,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.59,
+      "date": "2024-12-08T19:59:35.370889",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist. (number of errors of this type: 1)\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 6 ( 3.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 14 ( 3.60 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 5)\n  - CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist. (number of errors of this type: 3)\n  - CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cright\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Ctop\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Cpadding\u201D: The types are incompatible. (number of errors of this type: 1)\n  - CSS: \u201Cmargin-bottom\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n  - CSS: \u201Ccursor\u201D: \u201Chand\u201D is not a \u201Ccursor\u201D value. (number of errors of this type: 1)\n- \u0060style=\u0022\u0022\u0060 in: #55: ads, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #55: ads, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #45: m-el-main-css, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #45: m-el-main-css, number of errors: 8 ( 4.20 rating )\r\n  - CSS: \u201Cbackground-image\u201D: The first argument to the \u201Clinear-gradient\u201D function should be \u201Cto top\u201D, not \u201Ctop\u201D. (number of errors of this type: 6)\n  - CSS: \u201Cdisplay\u201D: \u201Cauto\u201D is not a \u201Cdisplay\u201D value. (number of errors of this type: 1)\n  - CSS: \u201Cbackground\u201D: The first argument to the \u201Clinear-gradient\u201D function should be \u201Cto top\u201D, not \u201Ctop\u201D. (number of errors of this type: 1)\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.cdisol.blog/#style-elements",
+              "lastLine": 1,
+              "lastColumn": 85,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\n\n\timg.wp-smi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cdisol.blog/6ea5f9e2521a48ed60823abf9afab1462992a83e2130837427de3012abe0c8be1225cb782dd5893949e15e962a04366ef6e3e400cd1338ef06ba7061e72debe5.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 31359,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 31509,
+              "firstColumn": 31476,
+              "message": "CSS: Parse Error.",
+              "extract": "el:has(input[type=checkbox]) .wp-block-form-input__label-content{margi",
+              "hiliteStart": 30,
+              "hiliteLength": 34,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 31608,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 42696,
+              "firstColumn": 42691,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{botto",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 42835,
+              "firstColumn": 42830,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{-webk",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 43297,
+              "firstColumn": 43288,
+              "message": "CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist.",
+              "extract": "#0000;scrollbar-gutter:stable both-edges;scrol",
+              "hiliteStart": 30,
+              "hiliteLength": 10,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 49474,
+              "firstColumn": 49469,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "([style*=vertical-rl]){rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 52979,
+              "message": "CSS: \u201Cright\u201D: Parse Error.",
+              "extract": "t-right) \u002B 16px);top:calc(env(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 53021,
+              "message": "CSS: \u201Ctop\u201D: Parse Error.",
+              "extract": "set-top) \u002B 16px);z-index:50000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 11,
+              "lastColumn": 11813,
+              "message": "CSS: \u201Cpadding\u201D: The types are incompatible.",
+              "extract": "ding-left),20em);z-index:10000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 11,
+              "lastColumn": 18918,
+              "firstColumn": 18913,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ing-mode:vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 11,
+              "lastColumn": 24230,
+              "firstColumn": 24225,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ng-mode: vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cdisol.blog/wp-content/themes/honeypress/style.css?ver=6.7.1",
+              "lastLine": 141,
+              "lastColumn": 33,
+              "message": "CSS: \u201Cmargin-bottom\u201D: Too many values or values are not recognized.",
+              "file": "file:/usr/src/runner/cache/www.cdisol.blog/865da94992d9fec59b68972c87562552af368ef41f60a8c80d4c2350955368044c769af6777ef7833c58849b41982525b208f3e287b2cf8c65b2604b83ff588f.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/css/font-awesome/css/all.min.css?ver=6.7.1",
+              "lastLine": 6,
+              "lastColumn": 12710,
+              "message": "CSS: \u201Ctransform\u201D: \u201Cvar(--fa-rotate-angle, none)\u201D is not a \u201Ctransform\u201D value.",
+              "extract": "ate-angle,none))}.fa-stack{dis",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cdisol.blog/0a346e1f641560f0665f77832e085ccb5bdf6c9e19e1371f8551c0b40581cc0d88b2ddc3c7608f848824c329ff24ddf01d944b073083e1aa5452d7be6cbd7062.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/css/owl.carousel.css?ver=6.7.1",
+              "lastLine": 66,
+              "lastColumn": 20,
+              "message": "CSS: \u201Ccursor\u201D: \u201Chand\u201D is not a \u201Ccursor\u201D value.",
+              "file": "file:/usr/src/runner/cache/www.cdisol.blog/72966061f6c73bf44d92d41f070e958dd012c498448a91e0a5511a36b48f9094df1ae1f0abafa9f693cc7fde34d89ca5ed03fadf4d3f8088e42bf2fd6d76a54a.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [
+            {
+              "type": "error",
+              "url": "https://www.cdisol.blog/#style-elements",
+              "lastLine": 1,
+              "lastColumn": 85,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\n\n\timg.wp-smi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cdisol.blog/6ea5f9e2521a48ed60823abf9afab1462992a83e2130837427de3012abe0c8be1225cb782dd5893949e15e962a04366ef6e3e400cd1338ef06ba7061e72debe5.txt.utf-8.cache"
+            }
+          ],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 31359,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 31509,
+              "firstColumn": 31476,
+              "message": "CSS: Parse Error.",
+              "extract": "el:has(input[type=checkbox]) .wp-block-form-input__label-content{margi",
+              "hiliteStart": 30,
+              "hiliteLength": 34,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 31608,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 42696,
+              "firstColumn": 42691,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{botto",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 42835,
+              "firstColumn": 42830,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{-webk",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 43297,
+              "firstColumn": 43288,
+              "message": "CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist.",
+              "extract": "#0000;scrollbar-gutter:stable both-edges;scrol",
+              "hiliteStart": 30,
+              "hiliteLength": 10,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 49474,
+              "firstColumn": 49469,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "([style*=vertical-rl]){rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 52979,
+              "message": "CSS: \u201Cright\u201D: Parse Error.",
+              "extract": "t-right) \u002B 16px);top:calc(env(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 1,
+              "lastColumn": 53021,
+              "message": "CSS: \u201Ctop\u201D: Parse Error.",
+              "extract": "set-top) \u002B 16px);z-index:50000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 11,
+              "lastColumn": 11813,
+              "message": "CSS: \u201Cpadding\u201D: The types are incompatible.",
+              "extract": "ding-left),20em);z-index:10000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 11,
+              "lastColumn": 18918,
+              "firstColumn": 18913,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ing-mode:vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+              "lastLine": 11,
+              "lastColumn": 24230,
+              "firstColumn": 24225,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ng-mode: vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/c0.wp.com/ef341fef6608617ab08e0c842bd180b2cdf1edc2545d99a16d87c2129482bf1cf00a502da42370e5d56bd2f7d87760ea8d8eccea703aed69af9d1188eb71b189.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cdisol.blog/wp-content/themes/honeypress/style.css?ver=6.7.1",
+              "lastLine": 141,
+              "lastColumn": 33,
+              "message": "CSS: \u201Cmargin-bottom\u201D: Too many values or values are not recognized.",
+              "file": "file:/usr/src/runner/cache/www.cdisol.blog/865da94992d9fec59b68972c87562552af368ef41f60a8c80d4c2350955368044c769af6777ef7833c58849b41982525b208f3e287b2cf8c65b2604b83ff588f.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/css/font-awesome/css/all.min.css?ver=6.7.1",
+              "lastLine": 6,
+              "lastColumn": 12710,
+              "message": "CSS: \u201Ctransform\u201D: \u201Cvar(--fa-rotate-angle, none)\u201D is not a \u201Ctransform\u201D value.",
+              "extract": "ate-angle,none))}.fa-stack{dis",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cdisol.blog/0a346e1f641560f0665f77832e085ccb5bdf6c9e19e1371f8551c0b40581cc0d88b2ddc3c7608f848824c329ff24ddf01d944b073083e1aa5452d7be6cbd7062.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/css/owl.carousel.css?ver=6.7.1",
+              "lastLine": 66,
+              "lastColumn": 20,
+              "message": "CSS: \u201Ccursor\u201D: \u201Chand\u201D is not a \u201Ccursor\u201D value.",
+              "file": "file:/usr/src/runner/cache/www.cdisol.blog/72966061f6c73bf44d92d41f070e958dd012c498448a91e0a5511a36b48f9094df1ae1f0abafa9f693cc7fde34d89ca5ed03fadf4d3f8088e42bf2fd6d76a54a.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.cdisol.blog/",
+            "index": 1
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/fonts/6e08e41398668ca84aff3e1f39f87067.css?ver=20201110",
+            "index": 2
+          },
+          {
+            "url": "https://c0.wp.com/c/6.7.1/wp-includes/css/dist/block-library/style.min.css",
+            "index": 3
+          },
+          {
+            "url": "https://c0.wp.com/c/6.7.1/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css",
+            "index": 4
+          },
+          {
+            "url": "https://c0.wp.com/c/6.7.1/wp-includes/js/mediaelement/wp-mediaelement.min.css",
+            "index": 5
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8",
+            "index": 6
+          },
+          {
+            "url": "https://c0.wp.com/p/jetpack/13.9.1/modules/likes/style.css",
+            "index": 7
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/css/bootstrap.min.css?ver=4.0.0",
+            "index": 8
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/themes/honeypress/style.css?ver=6.7.1",
+            "index": 9
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/themes/honeybee/style.css?ver=6.7.1",
+            "index": 10
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/themes/honeybee/assets/css/default.css?ver=6.7.1",
+            "index": 11
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/themes/honeybee/style.css?ver=6.7.1",
+            "index": 10
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/css/jquery.smartmenus.bootstrap-4.css?ver=6.7.1",
+            "index": 12
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/css/font-awesome/css/all.min.css?ver=6.7.1",
+            "index": 13
+          },
+          {
+            "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/css/owl.carousel.css?ver=6.7.1",
+            "index": 14
+          },
+          {
+            "url": "https://c0.wp.com/p/jetpack/13.9.1/modules/widgets/top-posts/style.css",
+            "index": 15
+          },
+          {
+            "url": "https://c0.wp.com/p/jetpack/13.9.1/modules/subscriptions/subscriptions.css",
+            "index": 16
+          },
+          {
+            "url": "https://pagead2.googlesyndication.com/pagead/html/r20241120/r20190131/zrt_lookup.html",
+            "index": 54
+          },
+          {
+            "url": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-5631731739291382\u0026output=html\u0026adk=1812271804\u0026adf=3025194257\u0026abgtt=7\u0026lmt=1733687917\u0026plat=1%3A1024%2C2%3A1024%2C3%3A2097152%2C4%3A2097152%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32\u0026format=0x0\u0026url=https%3A%2F%2Fwww.cdisol.blog%2F\u0026host=ca-host-pub-2644536267352236\u0026pra=5\u0026wgl=1\u0026aihb=0\u0026aiof=3\u0026asro=0\u0026ailel=1~2~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34\u0026aiael=1~2~3~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34\u0026aifxl=29_18~30_19\u0026aiixl=29_5~30_6\u0026itsi=-1\u0026aiapm=0.3221\u0026aiapmi=0.33938\u0026aiombap=1\u0026aief=1\u0026uach=WyJMaW51eCIsIjUuMTUuMTY3IiwieDg2IiwiIiwiMTMxLjAuNjc3OC44NSIsbnVsbCwwLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTMxLjAuNjc3OC44NSJdLFsiQ2hyb21pdW0iLCIxMzEuMC42Nzc4Ljg1Il0sWyJOb3RfQSBCcmFuZCIsIjI0LjAuMC4wIl1dLDBd\u0026dt=1733687917118\u0026bpp=13\u0026bdt=457\u0026idt=256\u0026shv=r20241120\u0026mjsv=m202412030101\u0026ptt=9\u0026saldr=aa\u0026abxe=1\u0026eoidce=1\u0026nras=1\u0026correlator=7467131344068\u0026frm=20\u0026pv=2\u0026u_tz=0\u0026u_his=3\u0026u_h=600\u0026u_w=800\u0026u_ah=600\u0026u_aw=800\u0026u_cd=24\u0026u_sd=1\u0026dmc=8\u0026adx=-12245933\u0026ady=-12245933\u0026biw=1351\u0026bih=621\u0026scr_x=0\u0026scr_y=0\u0026eid=31088580%2C31089331%2C42531706%2C95344789%2C95347445%2C95345966\u0026oid=2\u0026pvsid=1448598404749627\u0026tmod=610228118\u0026uas=0\u0026nvt=1\u0026fsapi=1\u0026fc=1920\u0026brdim=0%2C0%2C0%2C0%2C800%2C0%2C1366%2C708%2C1366%2C621\u0026vis=1\u0026rsz=%7C%7Cs%7C\u0026abl=NS\u0026fu=32768\u0026bc=31\u0026bz=1\u0026td=1\u0026tdf=2\u0026nt=1\u0026ifi=1\u0026uci=a!1\u0026fsb=1\u0026dtd=274",
+            "index": 55
+          },
+          {
+            "url": "https://ep2.adtrafficquality.google/sodar/sodar2/232/runner.html",
+            "index": 58
+          }
+        ]
+      }
+    }
+  ]
+}

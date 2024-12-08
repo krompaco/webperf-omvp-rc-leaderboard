@@ -1,0 +1,64 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.48,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.48,
+      "date": "2024-12-08T20:34:44.785788",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist. (number of errors of this type: 1)\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #3: style.min.css, number of grouped error type: 4 ( 4.20 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #3: style.min.css, number of errors: 12 ( 3.80 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 5)\n  - CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist. (number of errors of this type: 3)\n  - CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cright\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Ctop\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Cpadding\u201D: The types are incompatible. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #4: plugins.min.css, number of grouped error type: 4 ( 4.20 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #4: plugins.min.css, number of errors: 12 ( 3.80 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 5)\n  - CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist. (number of errors of this type: 3)\n  - CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cright\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Ctop\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Cpadding\u201D: The types are incompatible. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #28: css, number of grouped error type: 4 ( 4.20 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #28: css, number of errors: 12 ( 3.80 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 5)\n  - CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist. (number of errors of this type: 3)\n  - CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cright\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Ctop\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Cpadding\u201D: The types are incompatible. (number of errors of this type: 1)\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.naveedulhaq.com/#style-elements",
+              "lastLine": 1,
+              "lastColumn": 85,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }@font-face {\n",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.naveedulhaq.com/66e0653b22019e98cc7b2481518f538662d3aeea20dcc3ce1848e4513fea0ba8c6aa1e9f05162d50cf998b616d2923587e819db84805aab333e394afc5101322.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [
+            {
+              "type": "error",
+              "url": "https://www.naveedulhaq.com/#style-elements",
+              "lastLine": 1,
+              "lastColumn": 85,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }@font-face {\n",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.naveedulhaq.com/66e0653b22019e98cc7b2481518f538662d3aeea20dcc3ce1848e4513fea0ba8c6aa1e9f05162d50cf998b616d2923587e819db84805aab333e394afc5101322.txt.utf-8.cache"
+            }
+          ],
+          "style_attribute": [],
+          "style_files": []
+        },
+        "sources": [
+          {
+            "url": "https://www.naveedulhaq.com/",
+            "index": 1
+          },
+          {
+            "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/fontawesome.min.css?ver=2.0.0",
+            "index": 11
+          }
+        ]
+      }
+    }
+  ]
+}

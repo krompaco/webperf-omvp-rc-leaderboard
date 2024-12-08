@@ -1,0 +1,194 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 5.0,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-08T19:49:15.886277",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt seems to work. ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, No duplicate Urls in \u003Cloc\u003E ( 5.00 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt seems to work. ( 5.00 rating )\r\n",
+      "data": {
+        "url": "https://stefanolsen.com/",
+        "root_url": "https://stefanolsen.com/",
+        "robots": {
+          "url": "https://stefanolsen.com/robots.txt",
+          "content": "\u00EF\u00BB\u00BFUser-agent: *\r\n\r\nDisallow: /cdn-cgi/\r\n\r\nHost: stefanolsen.com\r\n\r\nSitemap: https://stefanolsen.com/sitemap.xml",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 1,
+          "sitemap_urls_in_robots": [
+            "https://stefanolsen.com/sitemap.xml"
+          ],
+          "sitemaps": {
+            "https://stefanolsen.com/sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 55
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 55,
+              "nof_items_no_duplicates": 55,
+              "known_types_details": {
+                "webpage": [
+                  "https://stefanolsen.com/",
+                  "https://stefanolsen.com/about-me/",
+                  "https://stefanolsen.com/contact-me/",
+                  "https://stefanolsen.com/posts/",
+                  "https://stefanolsen.com/posts/4-tips-and-tricks-for-hangfire-on-optimizely-cms/",
+                  "https://stefanolsen.com/posts/5-things-to-consider-when-integrating-native-apps-with-episerver/",
+                  "https://stefanolsen.com/posts/7-ways-to-deploy-optimizely-cms-12-.net-6",
+                  "https://stefanolsen.com/posts/8-things-to-avoid-to-make-an-episerver-site-go-faster/",
+                  "https://stefanolsen.com/posts/a-custom-exception-handler-for-episerver-pages/",
+                  "https://stefanolsen.com/posts/a-nice-handling-of-apis-when-episerver-is-in-readonly-mode/",
+                  "https://stefanolsen.com/posts/a-serverless-image-importer-from-cloud-hot-folder-to-inriver-ipmc/",
+                  "https://stefanolsen.com/posts/adding-dynamic-html-to-property-templates-in-episerver/",
+                  "https://stefanolsen.com/posts/an-efficient-and-open-sourced-inbound-connector-for-inriver-ipmc/",
+                  "https://stefanolsen.com/posts/an-owin-middleware-to-support-anonymous-profiles-and-carts/",
+                  "https://stefanolsen.com/posts/analyzing-inriver-images-using-azure-computer-vision-api/",
+                  "https://stefanolsen.com/posts/applying-cloud-logging-to-inriver-ipmc-extensions-for-easier-analytics/",
+                  "https://stefanolsen.com/posts/bitcoins-as-a-payment-option-in-episerver-commerce/",
+                  "https://stefanolsen.com/posts/burst-protecting-pages-with-cloudflare-output-caching/",
+                  "https://stefanolsen.com/posts/cache-busting-2-0-an-update-for-asp-net-core/",
+                  "https://stefanolsen.com/posts/cache-busting-with-asp-net-mvc/",
+                  "https://stefanolsen.com/posts/caching-custom-data-that-depends-on-episerver-content/",
+                  "https://stefanolsen.com/posts/catalog-roots-can-finally-be-customized-in-optimizely-commerce/",
+                  "https://stefanolsen.com/posts/compressing-web-api-and-episerver-api-responses/",
+                  "https://stefanolsen.com/posts/correlate-telemetry-for-scheduled-jobs-in-optimizely-cms/",
+                  "https://stefanolsen.com/posts/easy-fetching-of-failed-requests-from-application-insights/",
+                  "https://stefanolsen.com/posts/ensuring-the-right-ajax-content-language-using-a-filter-attribute/",
+                  "https://stefanolsen.com/posts/hosting-optimizely-cms-12-on-docker-engine/",
+                  "https://stefanolsen.com/posts/how-to-replace-session-state-in-a-scalable-environment/",
+                  "https://stefanolsen.com/posts/logging-from-owin-to-the-default-episerver-log/",
+                  "https://stefanolsen.com/posts/make-better-and-richer-logs-with-application-insights/",
+                  "https://stefanolsen.com/posts/managing-customer-logins-in-episerver-s-commerce-manager-with-asp-net-identity/",
+                  "https://stefanolsen.com/posts/managing-customer-logins-in-episervers-commerce-manager-with-asp.net-identity",
+                  "https://stefanolsen.com/posts/migration-from-subversion-svn-to-git/",
+                  "https://stefanolsen.com/posts/my-key-take-aways-from-opticon-2023/",
+                  "https://stefanolsen.com/posts/new-optimizely-cms-event-provider-for-on-premise-hosting/",
+                  "https://stefanolsen.com/posts/on-exporting-product-catalogs-to-google-or-facebook/",
+                  "https://stefanolsen.com/posts/performance-tip-disable-arr-affinity-sticky-sessions-in-dxp/",
+                  "https://stefanolsen.com/posts/performance-tip-dont-get-a-shopping-cart-until-you-need-one/",
+                  "https://stefanolsen.com/posts/performance-tip-use-good-old-contextcache-for-request-scoped-caching/",
+                  "https://stefanolsen.com/posts/redis-can-be-an-episerver-event-broker-too/",
+                  "https://stefanolsen.com/posts/redis-pubsub-for-optimizely-cms-12-event-messaging/",
+                  "https://stefanolsen.com/posts/remember-to-configure-your-complementary-sendgrid-account-in-optimizely-dxp/",
+                  "https://stefanolsen.com/posts/remember-to-flush-application-insights-on-shutdown/",
+                  "https://stefanolsen.com/posts/rendering-correct-arabic-glyphs-in-pdf-using-pdfsharp/",
+                  "https://stefanolsen.com/posts/send-optimizely-notifications-with-sendgrid-api-not-smtp/",
+                  "https://stefanolsen.com/posts/sending-emails-from-episerver-commerce-with-sendgrid/",
+                  "https://stefanolsen.com/posts/six-tips-for-making-a-good-outbound-connector-for-inriver-ipmc/",
+                  "https://stefanolsen.com/posts/tagging-sendgrid-mails-in-episerver-dxc/",
+                  "https://stefanolsen.com/posts/telemetry-correlation-for-scheduled-jobs-in-optimizely/",
+                  "https://stefanolsen.com/posts/to-rewrite-git-history-add-and-edit-files-back-in-time/",
+                  "https://stefanolsen.com/posts/transforming-an-inriver-field-value-using-a-table-in-azure-table-storage/",
+                  "https://stefanolsen.com/posts/using-authorizeattribute-for-modules-in-a-multi-tenancy-web-platform/",
+                  "https://stefanolsen.com/posts/using-graphql-with-episerver-commerce/",
+                  "https://stefanolsen.com/posts/why-i-use-yandex-metrika-for-website-analytics/",
+                  "https://stefanolsen.com/services/performance-optimization/"
+                ]
+              }
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 55
+          },
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 55,
+          "nof_items_no_duplicates": 55,
+          "known_types_details": {
+            "webpage": [
+              "https://stefanolsen.com/",
+              "https://stefanolsen.com/about-me/",
+              "https://stefanolsen.com/contact-me/",
+              "https://stefanolsen.com/posts/",
+              "https://stefanolsen.com/posts/4-tips-and-tricks-for-hangfire-on-optimizely-cms/",
+              "https://stefanolsen.com/posts/5-things-to-consider-when-integrating-native-apps-with-episerver/",
+              "https://stefanolsen.com/posts/7-ways-to-deploy-optimizely-cms-12-.net-6",
+              "https://stefanolsen.com/posts/8-things-to-avoid-to-make-an-episerver-site-go-faster/",
+              "https://stefanolsen.com/posts/a-custom-exception-handler-for-episerver-pages/",
+              "https://stefanolsen.com/posts/a-nice-handling-of-apis-when-episerver-is-in-readonly-mode/",
+              "https://stefanolsen.com/posts/a-serverless-image-importer-from-cloud-hot-folder-to-inriver-ipmc/",
+              "https://stefanolsen.com/posts/adding-dynamic-html-to-property-templates-in-episerver/",
+              "https://stefanolsen.com/posts/an-efficient-and-open-sourced-inbound-connector-for-inriver-ipmc/",
+              "https://stefanolsen.com/posts/an-owin-middleware-to-support-anonymous-profiles-and-carts/",
+              "https://stefanolsen.com/posts/analyzing-inriver-images-using-azure-computer-vision-api/",
+              "https://stefanolsen.com/posts/applying-cloud-logging-to-inriver-ipmc-extensions-for-easier-analytics/",
+              "https://stefanolsen.com/posts/bitcoins-as-a-payment-option-in-episerver-commerce/",
+              "https://stefanolsen.com/posts/burst-protecting-pages-with-cloudflare-output-caching/",
+              "https://stefanolsen.com/posts/cache-busting-2-0-an-update-for-asp-net-core/",
+              "https://stefanolsen.com/posts/cache-busting-with-asp-net-mvc/",
+              "https://stefanolsen.com/posts/caching-custom-data-that-depends-on-episerver-content/",
+              "https://stefanolsen.com/posts/catalog-roots-can-finally-be-customized-in-optimizely-commerce/",
+              "https://stefanolsen.com/posts/compressing-web-api-and-episerver-api-responses/",
+              "https://stefanolsen.com/posts/correlate-telemetry-for-scheduled-jobs-in-optimizely-cms/",
+              "https://stefanolsen.com/posts/easy-fetching-of-failed-requests-from-application-insights/",
+              "https://stefanolsen.com/posts/ensuring-the-right-ajax-content-language-using-a-filter-attribute/",
+              "https://stefanolsen.com/posts/hosting-optimizely-cms-12-on-docker-engine/",
+              "https://stefanolsen.com/posts/how-to-replace-session-state-in-a-scalable-environment/",
+              "https://stefanolsen.com/posts/logging-from-owin-to-the-default-episerver-log/",
+              "https://stefanolsen.com/posts/make-better-and-richer-logs-with-application-insights/",
+              "https://stefanolsen.com/posts/managing-customer-logins-in-episerver-s-commerce-manager-with-asp-net-identity/",
+              "https://stefanolsen.com/posts/managing-customer-logins-in-episervers-commerce-manager-with-asp.net-identity",
+              "https://stefanolsen.com/posts/migration-from-subversion-svn-to-git/",
+              "https://stefanolsen.com/posts/my-key-take-aways-from-opticon-2023/",
+              "https://stefanolsen.com/posts/new-optimizely-cms-event-provider-for-on-premise-hosting/",
+              "https://stefanolsen.com/posts/on-exporting-product-catalogs-to-google-or-facebook/",
+              "https://stefanolsen.com/posts/performance-tip-disable-arr-affinity-sticky-sessions-in-dxp/",
+              "https://stefanolsen.com/posts/performance-tip-dont-get-a-shopping-cart-until-you-need-one/",
+              "https://stefanolsen.com/posts/performance-tip-use-good-old-contextcache-for-request-scoped-caching/",
+              "https://stefanolsen.com/posts/redis-can-be-an-episerver-event-broker-too/",
+              "https://stefanolsen.com/posts/redis-pubsub-for-optimizely-cms-12-event-messaging/",
+              "https://stefanolsen.com/posts/remember-to-configure-your-complementary-sendgrid-account-in-optimizely-dxp/",
+              "https://stefanolsen.com/posts/remember-to-flush-application-insights-on-shutdown/",
+              "https://stefanolsen.com/posts/rendering-correct-arabic-glyphs-in-pdf-using-pdfsharp/",
+              "https://stefanolsen.com/posts/send-optimizely-notifications-with-sendgrid-api-not-smtp/",
+              "https://stefanolsen.com/posts/sending-emails-from-episerver-commerce-with-sendgrid/",
+              "https://stefanolsen.com/posts/six-tips-for-making-a-good-outbound-connector-for-inriver-ipmc/",
+              "https://stefanolsen.com/posts/tagging-sendgrid-mails-in-episerver-dxc/",
+              "https://stefanolsen.com/posts/telemetry-correlation-for-scheduled-jobs-in-optimizely/",
+              "https://stefanolsen.com/posts/to-rewrite-git-history-add-and-edit-files-back-in-time/",
+              "https://stefanolsen.com/posts/transforming-an-inriver-field-value-using-a-table-in-azure-table-storage/",
+              "https://stefanolsen.com/posts/using-authorizeattribute-for-modules-in-a-multi-tenancy-web-platform/",
+              "https://stefanolsen.com/posts/using-graphql-with-episerver-commerce/",
+              "https://stefanolsen.com/posts/why-i-use-yandex-metrika-for-website-analytics/",
+              "https://stefanolsen.com/services/performance-optimization/"
+            ]
+          },
+          "sitemapindexes": [],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 1,
+          "feeds": [
+            "/rss.xml"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://stefanolsen.com/.well-known/security.txt": {
+              "status": "ok"
+            },
+            "https://stefanolsen.com/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "ok"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.8,
+      "date": "2024-12-08T20:26:39.161668",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 6 ( 3.80 rating )\r\n  - Unexpected duplicate name monospace (font-family-no-duplicate-names) (number of errors of this type: 2)\n  - Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022space-around\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022space-between\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022space-evenly\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #10: css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #10: css, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "line": 1,
+              "column": 272,
+              "endLine": 1,
+              "endColumn": 281,
+              "rule": "font-family-no-duplicate-names",
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css",
+              "type": "error",
+              "message": "Unexpected duplicate name monospace (font-family-no-duplicate-names)",
+              "file": "/usr/src/runner/cache/cdnjs.cloudflare.com/93c0799e5a42958fb20e665ae8578554d74f8b07cee2e62afb4236dd186454ecb0be5eef4edb661cd9d077c81f20043917fa758f0b8712e209dcc25328ebfc26.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 481,
+              "endLine": 1,
+              "endColumn": 490,
+              "rule": "font-family-no-duplicate-names",
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css",
+              "type": "error",
+              "message": "Unexpected duplicate name monospace (font-family-no-duplicate-names)",
+              "file": "/usr/src/runner/cache/cdnjs.cloudflare.com/93c0799e5a42958fb20e665ae8578554d74f8b07cee2e62afb4236dd186454ecb0be5eef4edb661cd9d077c81f20043917fa758f0b8712e209dcc25328ebfc26.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 2022,
+              "endLine": 1,
+              "endColumn": 2042,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/tedgustaf.com/1163800d381deb6243292d113bf6b31ad2362667748ae1340a41cf087c7f41783642893598ac9bce1fd8a32a7dce4efe1303d91d8fbf911c3b0e8ddd8ecb3851.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 76228,
+              "endLine": 1,
+              "endColumn": 76240,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022space-around\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/tedgustaf.com/1163800d381deb6243292d113bf6b31ad2362667748ae1340a41cf087c7f41783642893598ac9bce1fd8a32a7dce4efe1303d91d8fbf911c3b0e8ddd8ecb3851.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 76282,
+              "endLine": 1,
+              "endColumn": 76295,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022space-between\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/tedgustaf.com/1163800d381deb6243292d113bf6b31ad2362667748ae1340a41cf087c7f41783642893598ac9bce1fd8a32a7dce4efe1303d91d8fbf911c3b0e8ddd8ecb3851.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 76336,
+              "endLine": 1,
+              "endColumn": 76348,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022space-evenly\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/tedgustaf.com/1163800d381deb6243292d113bf6b31ad2362667748ae1340a41cf087c7f41783642893598ac9bce1fd8a32a7dce4efe1303d91d8fbf911c3b0e8ddd8ecb3851.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "line": 1,
+              "column": 272,
+              "endLine": 1,
+              "endColumn": 281,
+              "rule": "font-family-no-duplicate-names",
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css",
+              "type": "error",
+              "message": "Unexpected duplicate name monospace (font-family-no-duplicate-names)",
+              "file": "/usr/src/runner/cache/cdnjs.cloudflare.com/93c0799e5a42958fb20e665ae8578554d74f8b07cee2e62afb4236dd186454ecb0be5eef4edb661cd9d077c81f20043917fa758f0b8712e209dcc25328ebfc26.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 481,
+              "endLine": 1,
+              "endColumn": 490,
+              "rule": "font-family-no-duplicate-names",
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css",
+              "type": "error",
+              "message": "Unexpected duplicate name monospace (font-family-no-duplicate-names)",
+              "file": "/usr/src/runner/cache/cdnjs.cloudflare.com/93c0799e5a42958fb20e665ae8578554d74f8b07cee2e62afb4236dd186454ecb0be5eef4edb661cd9d077c81f20043917fa758f0b8712e209dcc25328ebfc26.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 2022,
+              "endLine": 1,
+              "endColumn": 2042,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/tedgustaf.com/1163800d381deb6243292d113bf6b31ad2362667748ae1340a41cf087c7f41783642893598ac9bce1fd8a32a7dce4efe1303d91d8fbf911c3b0e8ddd8ecb3851.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 76228,
+              "endLine": 1,
+              "endColumn": 76240,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022space-around\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/tedgustaf.com/1163800d381deb6243292d113bf6b31ad2362667748ae1340a41cf087c7f41783642893598ac9bce1fd8a32a7dce4efe1303d91d8fbf911c3b0e8ddd8ecb3851.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 76282,
+              "endLine": 1,
+              "endColumn": 76295,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022space-between\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/tedgustaf.com/1163800d381deb6243292d113bf6b31ad2362667748ae1340a41cf087c7f41783642893598ac9bce1fd8a32a7dce4efe1303d91d8fbf911c3b0e8ddd8ecb3851.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 76336,
+              "endLine": 1,
+              "endColumn": 76348,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022space-evenly\u0022 for property \u0022align-items\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/tedgustaf.com/1163800d381deb6243292d113bf6b31ad2362667748ae1340a41cf087c7f41783642893598ac9bce1fd8a32a7dce4efe1303d91d8fbf911c3b0e8ddd8ecb3851.txt.utf-8.cache.css"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://tedgustaf.com/",
+            "index": 1
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css",
+            "index": 2
+          },
+          {
+            "url": "https://tedgustaf.com/css/tedgustaf.5267d423c845114c1db7.css",
+            "index": 3
+          }
+        ]
+      }
+    }
+  ]
+}
