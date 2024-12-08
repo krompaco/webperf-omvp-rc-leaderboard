@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 10,
+      "rating": 4.2,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.43,
+      "rating_stand": -1.0,
+      "date": "2024-12-08T08:59:31.072993",
+      "report": "- The website can be more accessible, but is rather good!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Background and foreground colors do not have a sufficient contrast ratio. ( 1.00 rating )\r\n- Links do not have a discernible name ( 1.00 rating )\r\n- \u0060[aria-hidden=\u0022true\u0022]\u0060 is not present on the document \u0060\u003Cbody\u003E\u0060 ( 5.00 rating )\r\n- \u0060[user-scalable=\u0022no\u0022]\u0060 is not used in the \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 element and the \u0060[maximum-scale]\u0060 attribute is not less than 5. ( 5.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- \u0060\u003Chtml\u003E\u0060 element has a \u0060[lang]\u0060 attribute ( 5.00 rating )\r\n- \u0060\u003Chtml\u003E\u0060 element has a valid value for its \u0060[lang]\u0060 attribute ( 5.00 rating )\r\n- Links are distinguishable without relying on color. ( 5.00 rating )\r\n- Lists contain only \u0060\u003Cli\u003E\u0060 elements and script supporting elements (\u0060\u003Cscript\u003E\u0060 and \u0060\u003Ctemplate\u003E\u0060). ( 5.00 rating )\r\n- List items (\u0060\u003Cli\u003E\u0060) are contained within \u0060\u003Cul\u003E\u0060, \u0060\u003Col\u003E\u0060 or \u0060\u003Cmenu\u003E\u0060 parent elements ( 5.00 rating )\r\n- Touch targets have sufficient size and spacing. ( 5.00 rating )\r\n- Heading elements appear in a sequentially-descending order ( 5.00 rating )\r\n- Identical links have the same purpose. ( 5.00 rating )\r\n- Document has a main landmark. ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "first-contentful-paint": 1036.154,
+        "largest-contentful-paint": 1036.154,
+        "speed-index": 1036.154,
+        "total-blocking-time": 94,
+        "max-potential-fid": 136,
+        "cumulative-layout-shift": 0,
+        "server-response-time": 198.566,
+        "interactive": 3447.4555,
+        "redirects": 0,
+        "mainthread-work-breakdown": 620.2399999999996,
+        "bootup-time": 272.91200000000043,
+        "uses-rel-preconnect": 0,
+        "network-rtt": 15.294999999999998,
+        "network-server-latency": 173.154,
+        "metrics": 3447,
+        "uses-long-cache-ttl": 18628.291620111733,
+        "total-byte-weight": 159206,
+        "offscreen-images": 0,
+        "render-blocking-resources": 0,
+        "unminified-css": 0,
+        "unminified-javascript": 0,
+        "unused-css-rules": 0,
+        "unused-javascript": 0,
+        "modern-image-formats": 0,
+        "uses-optimized-images": 0,
+        "uses-text-compression": 0,
+        "uses-responsive-images": 0,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 279,
+        "uses-http2": 0
+      }
+    }
+  ]
+}

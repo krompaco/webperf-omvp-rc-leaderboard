@@ -1,0 +1,301 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.65,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.65,
+      "date": "2024-12-08T08:55:01.124516",
+      "report": "- The tested page has 11 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 3 ( 4.40 rating )\r\n- #1: Webpage - Number of errors: 8 ( 4.20 rating )\r\n  - Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point. (errors of this type: 6 pcs)\n  - Element \u201Ch2\u201D not allowed as child of element \u201Chgroup\u201D in this context. (Suppressing further errors from this subtree.) (errors of this type: 1 pcs)\n  - The \u201Citemprop\u201D attribute was specified, but the element is not a property of any item. (errors of this type: 1 pcs)\n- #20: a21035490281.ht- Number of grouped error type: 0 ( 5.00 rating )\r\n- #20: a21035490281.ht- Number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 37,
+              "lastColumn": 93,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\u003C/style\u003E\n\t\u003Cli",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 188,
+              "lastColumn": 30,
+              "firstColumn": 5,
+              "message": "Element \u201Ch2\u201D not allowed as child of element \u201Chgroup\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "\u003C/h1\u003E\n\t\t\t\t\u003Ch2 id=\u0022site-description\u0022\u003EAndrew",
+              "hiliteStart": 10,
+              "hiliteLength": 26,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 415,
+              "lastColumn": 105,
+              "firstColumn": 7,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "g\u0022\u003E\n\t\t\t\t\t\t\u003Cmask id=\u0022maskPrev\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00228\u0022 y=\u00226\u0022 width=\u00229\u0022 height=\u002212\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 425,
+              "lastColumn": 105,
+              "firstColumn": 7,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "g\u0022\u003E\n\t\t\t\t\t\t\u003Cmask id=\u0022maskNext\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00228\u0022 y=\u00226\u0022 width=\u00228\u0022 height=\u002212\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 437,
+              "lastColumn": 106,
+              "firstColumn": 6,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "vg\u0022\u003E\n\t\t\t\t\t\u003Cmask id=\u0022maskClose\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00225\u0022 y=\u00225\u0022 width=\u002215\u0022 height=\u002214\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 101,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 459,
+              "lastColumn": 109,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022maskInfo\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00222\u0022 y=\u00222\u0022 width=\u002221\u0022 height=\u002220\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 100,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 471,
+              "lastColumn": 113,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022maskComments\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00222\u0022 y=\u00222\u0022 width=\u002221\u0022 height=\u002220\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 104,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 541,
+              "lastColumn": 106,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022mask0\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00223\u0022 y=\u00223\u0022 width=\u002219\u0022 height=\u002218\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 97,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 533,
+              "lastColumn": 72,
+              "firstColumn": 10,
+              "message": "The \u201Citemprop\u201D attribute was specified, but the element is not a property of any item.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Ch3 class=\u0022jp-carousel-caption\u0022 itemprop=\u0022caption description\u0022\u003E\u003C/h3\u003E\n",
+              "hiliteStart": 10,
+              "hiliteLength": 63,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://a21035490281.cdn.optimizely.com/client_storage/a21035490281.html",
+              "lastLine": 2,
+              "firstLine": 1,
+              "lastColumn": 8,
+              "firstColumn": 1,
+              "message": "Start tag seen without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "\n\u003Cscript\u003E\n\nvar ",
+              "hiliteStart": 0,
+              "hiliteLength": 9,
+              "file": "file:/usr/src/runner/cache/a21035490281.cdn.optimizely.com/19870d0c06c509796986bd5c83834e362387982157365802ebfa6daf41a3ea43f975b54efe7c6f8f8d108ec2dd196426be0a9c26efc4b9f47c1fd2fe8cb8facf.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://a21035490281.cdn.optimizely.com/client_storage/a21035490281.html",
+              "lastLine": 8,
+              "lastColumn": 9,
+              "firstColumn": 1,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "},!0)}();\n\u003C/script\u003E",
+              "hiliteStart": 10,
+              "hiliteLength": 9,
+              "file": "file:/usr/src/runner/cache/a21035490281.cdn.optimizely.com/19870d0c06c509796986bd5c83834e362387982157365802ebfa6daf41a3ea43f975b54efe7c6f8f8d108ec2dd196426be0a9c26efc4b9f47c1fd2fe8cb8facf.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 37,
+              "lastColumn": 93,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\u003C/style\u003E\n\t\u003Cli",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 188,
+              "lastColumn": 30,
+              "firstColumn": 5,
+              "message": "Element \u201Ch2\u201D not allowed as child of element \u201Chgroup\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "\u003C/h1\u003E\n\t\t\t\t\u003Ch2 id=\u0022site-description\u0022\u003EAndrew",
+              "hiliteStart": 10,
+              "hiliteLength": 26,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 415,
+              "lastColumn": 105,
+              "firstColumn": 7,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "g\u0022\u003E\n\t\t\t\t\t\t\u003Cmask id=\u0022maskPrev\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00228\u0022 y=\u00226\u0022 width=\u00229\u0022 height=\u002212\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 425,
+              "lastColumn": 105,
+              "firstColumn": 7,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "g\u0022\u003E\n\t\t\t\t\t\t\u003Cmask id=\u0022maskNext\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00228\u0022 y=\u00226\u0022 width=\u00228\u0022 height=\u002212\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 99,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 437,
+              "lastColumn": 106,
+              "firstColumn": 6,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "vg\u0022\u003E\n\t\t\t\t\t\u003Cmask id=\u0022maskClose\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00225\u0022 y=\u00225\u0022 width=\u002215\u0022 height=\u002214\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 101,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 459,
+              "lastColumn": 109,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022maskInfo\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00222\u0022 y=\u00222\u0022 width=\u002221\u0022 height=\u002220\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 100,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 471,
+              "lastColumn": 113,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022maskComments\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00222\u0022 y=\u00222\u0022 width=\u002221\u0022 height=\u002220\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 104,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 541,
+              "lastColumn": 106,
+              "firstColumn": 10,
+              "message": "Attribute \u201Cmask-type\u201D not allowed on element \u201Cmask\u201D at this point.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Cmask id=\u0022mask0\u0022 mask-type=\u0022alpha\u0022 maskUnits=\u0022userSpaceOnUse\u0022 x=\u00223\u0022 y=\u00223\u0022 width=\u002219\u0022 height=\u002218\u0022\u003E\n\t\t\t\t\t",
+              "hiliteStart": 10,
+              "hiliteLength": 97,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://jhoose.co.uk/",
+              "lastLine": 533,
+              "lastColumn": 72,
+              "firstColumn": 10,
+              "message": "The \u201Citemprop\u201D attribute was specified, but the element is not a property of any item.",
+              "extract": "\n\t\t\t\t\t\t\t\t\t\u003Ch3 class=\u0022jp-carousel-caption\u0022 itemprop=\u0022caption description\u0022\u003E\u003C/h3\u003E\n",
+              "hiliteStart": 10,
+              "hiliteLength": 63,
+              "file": "file:/usr/src/runner/cache/jhoose.co.uk/07b541c9ee9d402f60e363515b7820de24fc8ce245ee1c9ee0179f0c3c16d723177c4ac27354e3e67939b81dc46f5ce6e4297b84b9dabb9686d4ce94c9882c48.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://a21035490281.cdn.optimizely.com/client_storage/a21035490281.html",
+              "lastLine": 2,
+              "firstLine": 1,
+              "lastColumn": 8,
+              "firstColumn": 1,
+              "message": "Start tag seen without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "\n\u003Cscript\u003E\n\nvar ",
+              "hiliteStart": 0,
+              "hiliteLength": 9,
+              "file": "file:/usr/src/runner/cache/a21035490281.cdn.optimizely.com/19870d0c06c509796986bd5c83834e362387982157365802ebfa6daf41a3ea43f975b54efe7c6f8f8d108ec2dd196426be0a9c26efc4b9f47c1fd2fe8cb8facf.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://a21035490281.cdn.optimizely.com/client_storage/a21035490281.html",
+              "lastLine": 8,
+              "lastColumn": 9,
+              "firstColumn": 1,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "},!0)}();\n\u003C/script\u003E",
+              "hiliteStart": 10,
+              "hiliteLength": 9,
+              "file": "file:/usr/src/runner/cache/a21035490281.cdn.optimizely.com/19870d0c06c509796986bd5c83834e362387982157365802ebfa6daf41a3ea43f975b54efe7c6f8f8d108ec2dd196426be0a9c26efc4b9f47c1fd2fe8cb8facf.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://jhoose.co.uk/",
+            "index": 1
+          },
+          {
+            "url": "https://a21035490281.cdn.optimizely.com/client_storage/a21035490281.html",
+            "index": 20
+          }
+        ]
+      }
+    }
+  ]
+}

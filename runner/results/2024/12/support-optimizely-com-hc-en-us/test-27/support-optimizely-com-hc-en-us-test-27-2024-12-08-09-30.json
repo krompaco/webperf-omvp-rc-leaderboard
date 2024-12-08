@@ -1,0 +1,80 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.97,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.97,
+      "date": "2024-12-08T09:30:45.150603",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: en-us, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: en-us, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #4: favicon.ico, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #4: favicon.ico, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #6: favicon.ico, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #6: favicon.ico, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #7: auto, number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #7: auto, number of errors: 1 ( 4.80 rating )\r\n  - Cannot parse property value \u0022fade-in.animation .1s cubic-bezier(1,1,0,1) .4s backwards\u0022 for property \u0022animation\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n- \u0060style=\u0022\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": false,
+        "has_css_files": false,
+        "errors": {
+          "all": [
+            {
+              "line": 1,
+              "column": 6673,
+              "endLine": 1,
+              "endColumn": 6730,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/7lryn/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/#style-elements",
+              "type": "error",
+              "message": "Cannot parse property value \u0022fade-in.animation .1s cubic-bezier(1,1,0,1) .4s backwards\u0022 for property \u0022animation\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/challenges.cloudflare.com/45183b889f42ccfdf73e0edc11b5595befd2a7c8ed7fd36212db47a27ff51c1e7f1c50e62b6700882ac81a7ee0b9a544a0a0efdb24d32ecd0290ffdb380b4976.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [
+            {
+              "line": 1,
+              "column": 6673,
+              "endLine": 1,
+              "endColumn": 6730,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/7lryn/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/#style-elements",
+              "type": "error",
+              "message": "Cannot parse property value \u0022fade-in.animation .1s cubic-bezier(1,1,0,1) .4s backwards\u0022 for property \u0022animation\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/challenges.cloudflare.com/45183b889f42ccfdf73e0edc11b5595befd2a7c8ed7fd36212db47a27ff51c1e7f1c50e62b6700882ac81a7ee0b9a544a0a0efdb24d32ecd0290ffdb380b4976.txt.utf-8.cache.css"
+            }
+          ],
+          "style_attribute": [],
+          "style_files": []
+        },
+        "sources": [
+          {
+            "url": "https://support.optimizely.com/hc/en-us",
+            "index": 1
+          },
+          {
+            "url": "https://support.optimizely.com/hc/favicon.ico",
+            "index": 4
+          },
+          {
+            "url": "https://support.optimizely.com/hc/favicon.ico",
+            "index": 6
+          },
+          {
+            "url": "https://support.optimizely.com/hc/favicon.ico",
+            "index": 4
+          },
+          {
+            "url": "https://support.optimizely.com/hc/favicon.ico",
+            "index": 6
+          },
+          {
+            "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/7lryn/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/normal/auto/",
+            "index": 7
+          }
+        ]
+      }
+    }
+  ]
+}

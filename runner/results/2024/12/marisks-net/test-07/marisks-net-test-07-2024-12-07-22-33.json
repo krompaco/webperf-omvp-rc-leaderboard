@@ -1,0 +1,194 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.88,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.88,
+      "date": "2024-12-07T22:33:16.856128",
+      "report": "- The CSS is very good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 6 ( 4.40 rating )\r\n  - CSS: \u201Cmargin-top\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n  - CSS: \u201Cborder-top-right-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number. (number of errors of this type: 1)\n  - CSS: \u201Cborder-top-left-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number. (number of errors of this type: 1)\n  - CSS: \u201Cborder-bottom-right-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number. (number of errors of this type: 1)\n  - CSS: \u201Cborder-bottom-left-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number. (number of errors of this type: 1)\n  - CSS: \u201Cbackground-color\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #15: css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #15: css, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 22544,
+              "firstColumn": 22543,
+              "message": "CSS: \u201Cmargin-top\u201D: Too many values or values are not recognized.",
+              "extract": "margin:4px 0 0;margin-top:1px \\9;line-",
+              "hiliteStart": 30,
+              "hiliteLength": 2,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 83378,
+              "message": "CSS: \u201Cborder-top-right-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "-right-radius:-1;border-top-le",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 83404,
+              "message": "CSS: \u201Cborder-top-left-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "p-left-radius:-1}.panel-headin",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 83673,
+              "message": "CSS: \u201Cborder-bottom-right-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "-right-radius:-1;border-bottom",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 83702,
+              "message": "CSS: \u201Cborder-bottom-left-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "m-left-radius:-1}.panel-group ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 94647,
+              "firstColumn": 94646,
+              "message": "CSS: \u201Cbackground-color\u201D: Too many values or values are not recognized.",
+              "extract": "pointer;background-color:#000 \\9;backg",
+              "hiliteStart": 30,
+              "hiliteLength": 2,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 22544,
+              "firstColumn": 22543,
+              "message": "CSS: \u201Cmargin-top\u201D: Too many values or values are not recognized.",
+              "extract": "margin:4px 0 0;margin-top:1px \\9;line-",
+              "hiliteStart": 30,
+              "hiliteLength": 2,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 83378,
+              "message": "CSS: \u201Cborder-top-right-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "-right-radius:-1;border-top-le",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 83404,
+              "message": "CSS: \u201Cborder-top-left-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "p-left-radius:-1}.panel-headin",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 83673,
+              "message": "CSS: \u201Cborder-bottom-right-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "-right-radius:-1;border-bottom",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 83702,
+              "message": "CSS: \u201Cborder-bottom-left-radius\u201D: only \u201C0\u201D can be a \u201Cunit\u201D. You must put a unit after your number.",
+              "extract": "m-left-radius:-1}.panel-group ",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+              "lastLine": 1,
+              "lastColumn": 94647,
+              "firstColumn": 94646,
+              "message": "CSS: \u201Cbackground-color\u201D: Too many values or values are not recognized.",
+              "extract": "pointer;background-color:#000 \\9;backg",
+              "hiliteStart": 30,
+              "hiliteLength": 2,
+              "file": "file:/usr/src/runner/cache/marisks.net/799f67c2caa152d1272b65fbb16269f9a303a92b485a1465436670cfb7bce0834988c5cc443e64cabd08afca5a9f757eeceba4313cacdd97bf52be35e15549fd.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://marisks.net/",
+            "index": 1
+          },
+          {
+            "url": "https://marisks.net/css/vendor/normalize.css",
+            "index": 3
+          },
+          {
+            "url": "https://marisks.net/css/vendor/main.css",
+            "index": 4
+          },
+          {
+            "url": "https://marisks.net/css/vendor/bootstrap.min.css",
+            "index": 5
+          },
+          {
+            "url": "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css",
+            "index": 6
+          },
+          {
+            "url": "https://marisks.net/css/style.css",
+            "index": 7
+          }
+        ]
+      }
+    }
+  ]
+}

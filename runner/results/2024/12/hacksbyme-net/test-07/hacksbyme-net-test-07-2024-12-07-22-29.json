@@ -1,0 +1,477 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.7,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.7,
+      "date": "2024-12-07T22:29:55.707050",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist. (number of errors of this type: 1)\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 4 ( 4.20 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 16 ( 3.40 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 5)\n  - CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist. (number of errors of this type: 3)\n  - CSS: \u201Cmargin-right\u201D: The types are incompatible. (number of errors of this type: 2)\n  - CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cright\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Ctop\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Cpadding\u201D: The types are incompatible. (number of errors of this type: 1)\n  - CSS: \u201Cmargin\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Ctranslate\u201D: Property \u201Ctranslate\u201D doesn\u0027t exist. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #32: shCore.css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #32: shCore.css, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #33: shThemeDefault., number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #33: shThemeDefault., number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Cbackground-color\u201D: \u201Cnone\u201D is not a \u201Cbackground-color\u201D value. (number of errors of this type: 1)\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/#style-elements",
+              "lastLine": 1,
+              "lastColumn": 85,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\n\n\timg.wp-smi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ea8e4dd784abb58f731fff8b11238431f17f2f604ca17efdbca0e07b93d43074eb3f2b621957ab96aca0120e449b5618ade914d0f8af39a9de91c84251a58f59.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 31359,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 31509,
+              "firstColumn": 31476,
+              "message": "CSS: Parse Error.",
+              "extract": "el:has(input[type=checkbox]) .wp-block-form-input__label-content{margi",
+              "hiliteStart": 30,
+              "hiliteLength": 34,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 31608,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 42696,
+              "firstColumn": 42691,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{botto",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 42835,
+              "firstColumn": 42830,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{-webk",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 43297,
+              "firstColumn": 43288,
+              "message": "CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist.",
+              "extract": "#0000;scrollbar-gutter:stable both-edges;scrol",
+              "hiliteStart": 30,
+              "hiliteLength": 10,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 49474,
+              "firstColumn": 49469,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "([style*=vertical-rl]){rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 52979,
+              "message": "CSS: \u201Cright\u201D: Parse Error.",
+              "extract": "t-right) \u002B 16px);top:calc(env(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 53021,
+              "message": "CSS: \u201Ctop\u201D: Parse Error.",
+              "extract": "set-top) \u002B 16px);z-index:50000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 11,
+              "lastColumn": 11813,
+              "message": "CSS: \u201Cpadding\u201D: The types are incompatible.",
+              "extract": "ding-left),20em);z-index:10000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 11,
+              "lastColumn": 18918,
+              "firstColumn": 18913,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ing-mode:vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 11,
+              "lastColumn": 24230,
+              "firstColumn": 24225,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ng-mode: vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 10049,
+              "message": "CSS: \u201Cmargin-right\u201D: The types are incompatible.",
+              "extract": ":calc(-7px - -2);margin-right:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/f20e74b8d63d0eeb2881df4b7bfda8f906182ff62b28842a6b4d0b4725d396384b4b3383434b2dd6248ab3838e2a0a6324783162b5a14a59c2c6d9eeda410fca.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 10112,
+              "message": "CSS: \u201Cmargin-right\u201D: The types are incompatible.",
+              "extract": "0px)*.7*-1 - -2);overflow:hidd",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/f20e74b8d63d0eeb2881df4b7bfda8f906182ff62b28842a6b4d0b4725d396384b4b3383434b2dd6248ab3838e2a0a6324783162b5a14a59c2c6d9eeda410fca.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 32741,
+              "message": "CSS: \u201Cmargin\u201D: Parse Error.",
+              "extract": "eight,5px)/2 0 0;opacity:.8;po",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/f20e74b8d63d0eeb2881df4b7bfda8f906182ff62b28842a6b4d0b4725d396384b4b3383434b2dd6248ab3838e2a0a6324783162b5a14a59c2c6d9eeda410fca.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-content/plugins/highlighting-code-block/build/css/hcb--light.css?ver=2.0.1",
+              "lastLine": 1,
+              "lastColumn": 4340,
+              "firstColumn": 4338,
+              "message": "CSS: \u201Ctranslate\u201D: Property \u201Ctranslate\u201D doesn\u0027t exist.",
+              "extract": " \u002B 100%);top:50%;translate:0 -50%}:root",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/6061e090ee8dddfefe945780affd32f94cbe460812225c106b33af4925251b233d1425393da68dad60288a4669c4786591a139abc018bd064979bb9b6d413898.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/#style-elements",
+              "lastLine": 1,
+              "lastColumn": 85,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\n\n\timg.wp-smi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ea8e4dd784abb58f731fff8b11238431f17f2f604ca17efdbca0e07b93d43074eb3f2b621957ab96aca0120e449b5618ade914d0f8af39a9de91c84251a58f59.txt.utf-8.cache"
+            }
+          ],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 31359,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 31509,
+              "firstColumn": 31476,
+              "message": "CSS: Parse Error.",
+              "extract": "el:has(input[type=checkbox]) .wp-block-form-input__label-content{margi",
+              "hiliteStart": 30,
+              "hiliteLength": 34,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 31608,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 42696,
+              "firstColumn": 42691,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{botto",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 42835,
+              "firstColumn": 42830,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{-webk",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 43297,
+              "firstColumn": 43288,
+              "message": "CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist.",
+              "extract": "#0000;scrollbar-gutter:stable both-edges;scrol",
+              "hiliteStart": 30,
+              "hiliteLength": 10,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 49474,
+              "firstColumn": 49469,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "([style*=vertical-rl]){rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 52979,
+              "message": "CSS: \u201Cright\u201D: Parse Error.",
+              "extract": "t-right) \u002B 16px);top:calc(env(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 53021,
+              "message": "CSS: \u201Ctop\u201D: Parse Error.",
+              "extract": "set-top) \u002B 16px);z-index:50000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 11,
+              "lastColumn": 11813,
+              "message": "CSS: \u201Cpadding\u201D: The types are incompatible.",
+              "extract": "ding-left),20em);z-index:10000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 11,
+              "lastColumn": 18918,
+              "firstColumn": 18913,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ing-mode:vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+              "lastLine": 11,
+              "lastColumn": 24230,
+              "firstColumn": 24225,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ng-mode: vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/ec31f0d768c0f42be774b4b6c3cc6f6cb3b013fdfbacb90a68b31e8026a782c9ce6c99139ebefe75b5b8e1e1a1b2d426dfb61593dc8b8ff7f56d17b89caeeaf3.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 10049,
+              "message": "CSS: \u201Cmargin-right\u201D: The types are incompatible.",
+              "extract": ":calc(-7px - -2);margin-right:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/f20e74b8d63d0eeb2881df4b7bfda8f906182ff62b28842a6b4d0b4725d396384b4b3383434b2dd6248ab3838e2a0a6324783162b5a14a59c2c6d9eeda410fca.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 10112,
+              "message": "CSS: \u201Cmargin-right\u201D: The types are incompatible.",
+              "extract": "0px)*.7*-1 - -2);overflow:hidd",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/f20e74b8d63d0eeb2881df4b7bfda8f906182ff62b28842a6b4d0b4725d396384b4b3383434b2dd6248ab3838e2a0a6324783162b5a14a59c2c6d9eeda410fca.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=6.7.1",
+              "lastLine": 1,
+              "lastColumn": 32741,
+              "message": "CSS: \u201Cmargin\u201D: Parse Error.",
+              "extract": "eight,5px)/2 0 0;opacity:.8;po",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/f20e74b8d63d0eeb2881df4b7bfda8f906182ff62b28842a6b4d0b4725d396384b4b3383434b2dd6248ab3838e2a0a6324783162b5a14a59c2c6d9eeda410fca.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://hacksbyme.net/wp-content/plugins/highlighting-code-block/build/css/hcb--light.css?ver=2.0.1",
+              "lastLine": 1,
+              "lastColumn": 4340,
+              "firstColumn": 4338,
+              "message": "CSS: \u201Ctranslate\u201D: Property \u201Ctranslate\u201D doesn\u0027t exist.",
+              "extract": " \u002B 100%);top:50%;translate:0 -50%}:root",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/hacksbyme.net/6061e090ee8dddfefe945780affd32f94cbe460812225c106b33af4925251b233d1425393da68dad60288a4669c4786591a139abc018bd064979bb9b6d413898.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://hacksbyme.net/",
+            "index": 1
+          },
+          {
+            "url": "https://hacksbyme.net/wp-content/plugins/jetpack/modules/infinite-scroll/infinity.css?ver=20140422",
+            "index": 3
+          },
+          {
+            "url": "https://hacksbyme.net/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1",
+            "index": 4
+          },
+          {
+            "url": "https://hacksbyme.net/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17",
+            "index": 5
+          },
+          {
+            "url": "https://hacksbyme.net/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.7.1",
+            "index": 6
+          },
+          {
+            "url": "https://hacksbyme.net/wp-content/plugins/cool-tag-cloud/inc/cool-tag-cloud.css?ver=2.25",
+            "index": 7
+          },
+          {
+            "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=6.7.1",
+            "index": 8
+          },
+          {
+            "url": "https://hacksbyme.net/wp-content/plugins/jetpack/modules/tiled-gallery/tiled-gallery/tiled-gallery.css?ver=2023-08-21",
+            "index": 9
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C700%7CLato%3A400%2C700%2C400italic%2C700italic\u0026subset=latin%2Clatin-ext",
+            "index": 10
+          },
+          {
+            "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=6.7.1",
+            "index": 11
+          },
+          {
+            "url": "https://hacksbyme.net/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1",
+            "index": 12
+          },
+          {
+            "url": "https://hacksbyme.net/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.28.1",
+            "index": 13
+          },
+          {
+            "url": "https://hacksbyme.net/wp-content/plugins/highlighting-code-block/build/css/hcb--light.css?ver=2.0.1",
+            "index": 14
+          }
+        ]
+      }
+    }
+  ]
+}
