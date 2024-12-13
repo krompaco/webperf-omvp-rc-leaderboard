@@ -1,0 +1,300 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 3.16,
+      "rating_sec": 3.16,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-13T06:33:25.688810",
+      "report": "- CMS used: wordpress\r\n- Web server used: apache, nginx, tomcat\r\n- Technology used: c, js, php\r\n- License(s) used: apache-2.0, mit\r\n- Metadata used: apple-touch-icon, canonical, dns-prefetch, icon, open-graph, viewport\r\n- Javascript libraries used: anime.js, ev-emitter, fancybox, imagesloaded, jquery, jquery-hoverintent, jquery-migrate, jquery-mousewheel, jquery.easing, wpbakery-page-builder\r\n- Languages found: en-us, en_us\r\n- Image formats used: gif, jpg, png, webp\r\n",
+      "report_sec": "##### Software related to CVE:s ( 1.0 rating )\r\n\r\n###### Introduction:\r\nSoftware version used is affected by vulnerability described below.\r\nIn most cases you can fix a CVE related issue by updating software to latest version.\r\nIn some rare cases there is no update and you need to consider not using the software affected.\r\n\r\n###### Common Vulnerabilities and Exposures\r\n- CVE-2024-7347\r\n\r\n###### Detected software(s):\r\n- nginx 1.25.5\r\n\r\n###### Affected resource(s):\r\n- https://postjoe.com/\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- nginx 1.25.5\r\n- jquery-migrate 3.4.1\r\n- jquery.easing 1.4.1\r\n- imagesloaded 4.1.4\r\n- jquery-hoverintent 1.9.0\r\n\r\n###### Affected resource(s):\r\n- https://postjoe.com/\r\n- https://c0.wp.com/c/6.7.1/wp-includes/js/jquery/jquery-migrate.min.js\r\n- https://postjoe.com/wp-content/themes/salient/js/build/third-party/jquery.easing.min.js?ver=1.3\r\n- https://postjoe.com/wp-content/plugins/salient-portfolio/js/third-party/imagesLoaded.min.js?ver=4.1.4\r\n- https://postjoe.com/wp-content/themes/salient/js/build/third-party/hoverintent.min.js?ver=1.9\r\n##### Software has been marked as archived ( 1.75 rating )\r\n\r\n###### Introduction:\r\nYou seem to use software that has been marked as archived, this means it doesn\u0027t get any new features or security updates.\r\nTo fix this you need to find an alternative, often developers try to point you in the correct direction if you visit the place you got it from.\r\n\r\n\r\n###### Detected software(s):\r\n- fancybox\r\n\r\n###### Affected resource(s):\r\n- https://postjoe.com/wp-content/themes/salient/js/build/third-party/jquery.fancybox.js?ver=3.3.9\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "CVE": {
+            "softwares": [
+              "nginx 1.25.5"
+            ],
+            "resources": [
+              "https://postjoe.com/"
+            ],
+            "sub-issues": [
+              "CVE-2024-7347"
+            ]
+          },
+          "BEHIND001": {
+            "softwares": [
+              "nginx 1.25.5",
+              "jquery-migrate 3.4.1",
+              "jquery.easing 1.4.1",
+              "imagesloaded 4.1.4",
+              "jquery-hoverintent 1.9.0"
+            ],
+            "resources": [
+              "https://postjoe.com/",
+              "https://c0.wp.com/c/6.7.1/wp-includes/js/jquery/jquery-migrate.min.js",
+              "https://postjoe.com/wp-content/themes/salient/js/build/third-party/jquery.easing.min.js?ver=1.3",
+              "https://postjoe.com/wp-content/plugins/salient-portfolio/js/third-party/imagesLoaded.min.js?ver=4.1.4",
+              "https://postjoe.com/wp-content/themes/salient/js/build/third-party/hoverintent.min.js?ver=1.9"
+            ],
+            "sub-issues": []
+          },
+          "ARCHIVED_SOURCE": {
+            "softwares": [
+              "fancybox"
+            ],
+            "resources": [
+              "https://postjoe.com/wp-content/themes/salient/js/build/third-party/jquery.fancybox.js?ver=3.3.9"
+            ],
+            "sub-issues": []
+          }
+        },
+        "lang": {
+          "en-us": {
+            "?": {
+              "name": "en-us",
+              "precision": 0.8
+            }
+          },
+          "en_us": {
+            "?": {
+              "name": "en_us",
+              "precision": 0.8
+            }
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "1.25.5": {
+              "name": "nginx",
+              "precision": 0.8,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          },
+          "tomcat": {
+            "?": {
+              "name": "tomcat",
+              "precision": 0.1
+            }
+          },
+          "apache": {
+            "?": {
+              "name": "apache",
+              "precision": 0.4
+            }
+          }
+        },
+        "tech": {
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          },
+          "php": {
+            "?": {
+              "name": "php",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "dns-prefetch": {
+            "?": {
+              "name": "dns-prefetch",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "cms": {
+          "wordpress": {
+            "6.7.1": {
+              "name": "wordpress",
+              "precision": 0.8,
+              "github-owner": "WordPress",
+              "github-repo": "WordPress"
+            }
+          }
+        },
+        "js": {
+          "jquery": {
+            "3.7.1": {
+              "name": "jquery",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "jquery-migrate": {
+            "3.4.1": {
+              "name": "jquery-migrate",
+              "precision": 0.8,
+              "github-owner": "jquery",
+              "github-repo": "jquery-migrate"
+            }
+          },
+          "jquery.easing": {
+            "1.4.1": {
+              "name": "jquery.easing",
+              "precision": 0.75,
+              "github-owner": "gdsmith",
+              "github-repo": "jquery.easing"
+            }
+          },
+          "jquery-mousewheel": {
+            "3.1.13": {
+              "name": "jquery-mousewheel",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery-mousewheel"
+            }
+          },
+          "imagesloaded": {
+            "4.1.4": {
+              "name": "imagesloaded",
+              "precision": 0.75,
+              "github-owner": "desandro",
+              "github-repo": "imagesloaded"
+            }
+          },
+          "ev-emitter": {
+            "?": {
+              "name": "ev-emitter",
+              "precision": 0.5
+            }
+          },
+          "jquery-hoverintent": {
+            "1.9.0": {
+              "name": "jquery-hoverintent",
+              "precision": 0.75,
+              "github-owner": "briancherne",
+              "github-repo": "jquery-hoverIntent"
+            }
+          },
+          "fancybox": {
+            "?": {
+              "name": "fancybox",
+              "precision": 0.1,
+              "github-owner": "fancyapps",
+              "github-repo": "fancybox"
+            }
+          },
+          "anime.js": {
+            "3.2.1": {
+              "name": "anime.js",
+              "precision": 0.5
+            }
+          },
+          "wpbakery-page-builder": {
+            "6.0.0": {
+              "name": "wpbakery-page-builder",
+              "precision": 0.5
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          },
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.4
+            }
+          },
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "jpg": {
+            "?": {
+              "name": "jpg",
+              "precision": 0.4
+            }
+          },
+          "gif": {
+            "?": {
+              "name": "gif",
+              "precision": 0.4
+            }
+          }
+        },
+        "wordpress-plugin": {
+          "salient-portfolio": {
+            "?": {
+              "name": "salient-portfolio",
+              "precision": 0.6
+            }
+          },
+          "salient-core": {
+            "?": {
+              "name": "salient-core",
+              "precision": 0.6
+            }
+          },
+          "js_composer_salient": {
+            "?": {
+              "name": "js_composer_salient",
+              "precision": 0.6
+            }
+          }
+        }
+      }
+    }
+  ]
+}

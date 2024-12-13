@@ -1,0 +1,329 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.65,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.65,
+      "date": "2024-12-12T19:22:36.163985",
+      "report": "- The tested page has 12 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 2 ( 4.60 rating )\r\n- #1: Webpage - Number of errors: 3 ( 4.70 rating )\r\n  - Attribute \u201Cmy-enter\u201D not allowed on element \u201Cinput\u201D at this point. (errors of this type: 2 pcs)\n  - Bad value \u201Chttps://fonts.googleapis.com/css?family=Oswald:300,400,500|Fira\u002BSans:400,400i,600,600i\u0026subset=latin-ext\u201D for attribute \u201Chref\u201D on element \u201Clink\u201D: Illegal character in query: \u201C|\u201D is not allowed. (errors of this type: 1 pcs)\n- #12: BlogList.html- Number of grouped error type: 3 ( 4.40 rating )\r\n- #12: BlogList.html- Number of errors: 5 ( 4.50 rating )\r\n  - Element \u201Cdiv\u201D not allowed as child of element \u201Csmall\u201D in this context. (Suppressing further errors from this subtree.) (errors of this type: 2 pcs)\n  - Bad value \u201C{{item.Url}}\u201D for attribute \u201Chref\u201D on element \u201Ca\u201D: Illegal character in path segment: \u201C{\u201D is not allowed. (errors of this type: 1 pcs)\n  - Bad value \u201C{{item.IntroImage}}\u201D for attribute \u201Csrc\u201D on element \u201Cimg\u201D: Illegal character in path segment: \u201C{\u201D is not allowed. (errors of this type: 1 pcs)\n  - An \u201Cimg\u201D element must have an \u201Calt\u201D attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images. (errors of this type: 1 pcs)\n- #13: -7B-7Bitem.Intr- Number of grouped error type: 1 ( 4.80 rating )\r\n- #13: -7B-7Bitem.Intr- Number of errors: 1 ( 4.90 rating )\r\n  - Non-space characters found without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D. (errors of this type: 1 pcs)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/",
+              "lastLine": 22,
+              "lastColumn": 142,
+              "firstColumn": 5,
+              "message": "Bad value \u201Chttps://fonts.googleapis.com/css?family=Oswald:300,400,500|Fira\u002BSans:400,400i,600,600i\u0026subset=latin-ext\u201D for attribute \u201Chref\u201D on element \u201Clink\u201D: Illegal character in query: \u201C|\u201D is not allowed.",
+              "extract": "   \n\n\n    \u003Clink href=\u0022https://fonts.googleapis.com/css?family=Oswald:300,400,500|Fira\u002BSans:400,400i,600,600i\u0026amp;subset=latin-ext\u0022 rel=\u0022stylesheet\u0022\u003E\n\n    ",
+              "hiliteStart": 10,
+              "hiliteLength": 138,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/cb77f6ebf41f5ec60dd97cb83605497b10f3a7da6bbe959d8e727b90ea047bc54538b8076a73d270e04900d0a7d24bd6de716286d2daa8da58af69a341ae7e52.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/",
+              "lastLine": 72,
+              "lastColumn": 168,
+              "firstColumn": 21,
+              "message": "Attribute \u201Cmy-enter\u201D not allowed on element \u201Cinput\u201D at this point.",
+              "extract": "          \u003Cinput type=\u0022search\u0022 placeholder=\u0022Search\u0022 class=\u0022search-field form-control\u0022 data-ng-model=\u0022q\u0022 my-enter=\u0022Search()\u0022 data-ng-change=\u0022SearchChange()\u0022 /\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 148,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/cb77f6ebf41f5ec60dd97cb83605497b10f3a7da6bbe959d8e727b90ea047bc54538b8076a73d270e04900d0a7d24bd6de716286d2daa8da58af69a341ae7e52.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/",
+              "lastLine": 154,
+              "lastColumn": 176,
+              "firstColumn": 29,
+              "message": "Attribute \u201Cmy-enter\u201D not allowed on element \u201Cinput\u201D at this point.",
+              "extract": "          \u003Cinput type=\u0022search\u0022 placeholder=\u0022Search\u0022 class=\u0022search-field form-control\u0022 data-ng-model=\u0022q\u0022 my-enter=\u0022Search()\u0022 data-ng-change=\u0022SearchChange()\u0022 /\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 148,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/cb77f6ebf41f5ec60dd97cb83605497b10f3a7da6bbe959d8e727b90ea047bc54538b8076a73d270e04900d0a7d24bd6de716286d2daa8da58af69a341ae7e52.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 1,
+              "lastColumn": 39,
+              "firstColumn": 1,
+              "message": "Start tag seen without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "\u003Csection data-ng-repeat=\u0022item in data\u0022\u003E\n    \u003C",
+              "hiliteStart": 0,
+              "hiliteLength": 39,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 1,
+              "lastColumn": 39,
+              "firstColumn": 1,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "\u003Csection data-ng-repeat=\u0022item in data\u0022\u003E\n    \u003C",
+              "hiliteStart": 0,
+              "hiliteLength": 39,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 5,
+              "lastColumn": 53,
+              "firstColumn": 17,
+              "message": "Bad value \u201C{{item.Url}}\u201D for attribute \u201Chref\u201D on element \u201Ca\u201D: Illegal character in path segment: \u201C{\u201D is not allowed.",
+              "extract": "          \u003Ca target=\u0022_top\u0022 href=\u0022{{item.Url}}\u0022\u003E{{item",
+              "hiliteStart": 10,
+              "hiliteLength": 37,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 9,
+              "lastColumn": 56,
+              "firstColumn": 21,
+              "message": "Element \u201Cdiv\u201D not allowed as child of element \u201Csmall\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "          \u003Cdiv style=\u0022display: inline-block;\u0022\u003E{{item",
+              "hiliteStart": 10,
+              "hiliteLength": 36,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 10,
+              "lastColumn": 56,
+              "firstColumn": 21,
+              "message": "Element \u201Cdiv\u201D not allowed as child of element \u201Csmall\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "          \u003Cdiv style=\u0022display: inline-block;\u0022\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 36,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 28,
+              "lastColumn": 72,
+              "firstColumn": 17,
+              "message": "Bad value \u201C{{item.IntroImage}}\u201D for attribute \u201Csrc\u201D on element \u201Cimg\u201D: Illegal character in path segment: \u201C{\u201D is not allowed.",
+              "extract": "          \u003Cimg src=\u0022{{item.IntroImage}}\u0022 class=\u0022img-responsive\u0022 /\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 56,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 28,
+              "lastColumn": 72,
+              "firstColumn": 17,
+              "message": "An \u201Cimg\u201D element must have an \u201Calt\u201D attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+              "extract": "          \u003Cimg src=\u0022{{item.IntroImage}}\u0022 class=\u0022img-responsive\u0022 /\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 56,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/%7B%7Bitem.IntroImage%7D%7D",
+              "lastLine": 1,
+              "lastColumn": 12,
+              "firstColumn": 1,
+              "message": "Non-space characters found without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "404 Not found",
+              "hiliteStart": 0,
+              "hiliteLength": 12,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/1d682cdc2267f75899ffd06a69ad0713c659a17033381db2b00f0f89bc7ee139d8366f58504957caccdab5ae18503a3e687ac97f624a99ef2728083fb404ae33.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/%7B%7Bitem.IntroImage%7D%7D",
+              "lastLine": 1,
+              "lastColumn": 12,
+              "firstColumn": 1,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "404 Not found",
+              "hiliteStart": 0,
+              "hiliteLength": 12,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/1d682cdc2267f75899ffd06a69ad0713c659a17033381db2b00f0f89bc7ee139d8366f58504957caccdab5ae18503a3e687ac97f624a99ef2728083fb404ae33.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/",
+              "lastLine": 22,
+              "lastColumn": 142,
+              "firstColumn": 5,
+              "message": "Bad value \u201Chttps://fonts.googleapis.com/css?family=Oswald:300,400,500|Fira\u002BSans:400,400i,600,600i\u0026subset=latin-ext\u201D for attribute \u201Chref\u201D on element \u201Clink\u201D: Illegal character in query: \u201C|\u201D is not allowed.",
+              "extract": "   \n\n\n    \u003Clink href=\u0022https://fonts.googleapis.com/css?family=Oswald:300,400,500|Fira\u002BSans:400,400i,600,600i\u0026amp;subset=latin-ext\u0022 rel=\u0022stylesheet\u0022\u003E\n\n    ",
+              "hiliteStart": 10,
+              "hiliteLength": 138,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/cb77f6ebf41f5ec60dd97cb83605497b10f3a7da6bbe959d8e727b90ea047bc54538b8076a73d270e04900d0a7d24bd6de716286d2daa8da58af69a341ae7e52.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/",
+              "lastLine": 72,
+              "lastColumn": 168,
+              "firstColumn": 21,
+              "message": "Attribute \u201Cmy-enter\u201D not allowed on element \u201Cinput\u201D at this point.",
+              "extract": "          \u003Cinput type=\u0022search\u0022 placeholder=\u0022Search\u0022 class=\u0022search-field form-control\u0022 data-ng-model=\u0022q\u0022 my-enter=\u0022Search()\u0022 data-ng-change=\u0022SearchChange()\u0022 /\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 148,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/cb77f6ebf41f5ec60dd97cb83605497b10f3a7da6bbe959d8e727b90ea047bc54538b8076a73d270e04900d0a7d24bd6de716286d2daa8da58af69a341ae7e52.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/",
+              "lastLine": 154,
+              "lastColumn": 176,
+              "firstColumn": 29,
+              "message": "Attribute \u201Cmy-enter\u201D not allowed on element \u201Cinput\u201D at this point.",
+              "extract": "          \u003Cinput type=\u0022search\u0022 placeholder=\u0022Search\u0022 class=\u0022search-field form-control\u0022 data-ng-model=\u0022q\u0022 my-enter=\u0022Search()\u0022 data-ng-change=\u0022SearchChange()\u0022 /\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 148,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/cb77f6ebf41f5ec60dd97cb83605497b10f3a7da6bbe959d8e727b90ea047bc54538b8076a73d270e04900d0a7d24bd6de716286d2daa8da58af69a341ae7e52.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 1,
+              "lastColumn": 39,
+              "firstColumn": 1,
+              "message": "Start tag seen without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "\u003Csection data-ng-repeat=\u0022item in data\u0022\u003E\n    \u003C",
+              "hiliteStart": 0,
+              "hiliteLength": 39,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 1,
+              "lastColumn": 39,
+              "firstColumn": 1,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "\u003Csection data-ng-repeat=\u0022item in data\u0022\u003E\n    \u003C",
+              "hiliteStart": 0,
+              "hiliteLength": 39,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 5,
+              "lastColumn": 53,
+              "firstColumn": 17,
+              "message": "Bad value \u201C{{item.Url}}\u201D for attribute \u201Chref\u201D on element \u201Ca\u201D: Illegal character in path segment: \u201C{\u201D is not allowed.",
+              "extract": "          \u003Ca target=\u0022_top\u0022 href=\u0022{{item.Url}}\u0022\u003E{{item",
+              "hiliteStart": 10,
+              "hiliteLength": 37,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 9,
+              "lastColumn": 56,
+              "firstColumn": 21,
+              "message": "Element \u201Cdiv\u201D not allowed as child of element \u201Csmall\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "          \u003Cdiv style=\u0022display: inline-block;\u0022\u003E{{item",
+              "hiliteStart": 10,
+              "hiliteLength": 36,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 10,
+              "lastColumn": 56,
+              "firstColumn": 21,
+              "message": "Element \u201Cdiv\u201D not allowed as child of element \u201Csmall\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "          \u003Cdiv style=\u0022display: inline-block;\u0022\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 36,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 28,
+              "lastColumn": 72,
+              "firstColumn": 17,
+              "message": "Bad value \u201C{{item.IntroImage}}\u201D for attribute \u201Csrc\u201D on element \u201Cimg\u201D: Illegal character in path segment: \u201C{\u201D is not allowed.",
+              "extract": "          \u003Cimg src=\u0022{{item.IntroImage}}\u0022 class=\u0022img-responsive\u0022 /\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 56,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+              "lastLine": 28,
+              "lastColumn": 72,
+              "firstColumn": 17,
+              "message": "An \u201Cimg\u201D element must have an \u201Calt\u201D attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.",
+              "extract": "          \u003Cimg src=\u0022{{item.IntroImage}}\u0022 class=\u0022img-responsive\u0022 /\u003E\n     ",
+              "hiliteStart": 10,
+              "hiliteLength": 56,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/14b48f7027da2c75d8d6d5be1d80d61f47abe93b320d26f3c36fee1b7a497bd5624e949c68366914ac1b2d2d7015c8aef39b46a0f60345ff7817fa0c7f76d9dc.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/%7B%7Bitem.IntroImage%7D%7D",
+              "lastLine": 1,
+              "lastColumn": 12,
+              "firstColumn": 1,
+              "message": "Non-space characters found without seeing a doctype first. Expected \u201C\u003C!DOCTYPE html\u003E\u201D.",
+              "extract": "404 Not found",
+              "hiliteStart": 0,
+              "hiliteLength": 12,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/1d682cdc2267f75899ffd06a69ad0713c659a17033381db2b00f0f89bc7ee139d8366f58504957caccdab5ae18503a3e687ac97f624a99ef2728083fb404ae33.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://www.herlitz.io/%7B%7Bitem.IntroImage%7D%7D",
+              "lastLine": 1,
+              "lastColumn": 12,
+              "firstColumn": 1,
+              "message": "Element \u201Chead\u201D is missing a required instance of child element \u201Ctitle\u201D.",
+              "extract": "404 Not found",
+              "hiliteStart": 0,
+              "hiliteLength": 12,
+              "file": "file:/usr/src/runner/cache/www.herlitz.io/1d682cdc2267f75899ffd06a69ad0713c659a17033381db2b00f0f89bc7ee139d8366f58504957caccdab5ae18503a3e687ac97f624a99ef2728083fb404ae33.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.herlitz.io/",
+            "index": 1
+          },
+          {
+            "url": "https://www.herlitz.io/Static/Blog/Templates/BlogList.html",
+            "index": 12
+          },
+          {
+            "url": "https://www.herlitz.io/%7B%7Bitem.IntroImage%7D%7D",
+            "index": 13
+          }
+        ]
+      }
+    }
+  ]
+}

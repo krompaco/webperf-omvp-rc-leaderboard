@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 4,
+      "rating": 4.6,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-12T18:46:35.980163",
+      "report": "- Pretty good at SEO, but still has some potential improvements.\n- Links do not have descriptive text ( 1.00 rating )\r\n- Page isn\u2019t blocked from indexing ( 5.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- Image elements have \u0060[alt]\u0060 attributes ( 5.00 rating )\r\n- Document has a meta description ( 5.00 rating )\r\n- Page has successful HTTP status code ( 5.00 rating )\r\n- Links are crawlable ( 5.00 rating )\r\n- Document has a valid \u0060hreflang\u0060 ( 5.00 rating )\r\n- Document has a valid \u0060rel=canonical\u0060 ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "first-contentful-paint": 4556.2595,
+        "largest-contentful-paint": 7177.663750000001,
+        "speed-index": 4556.2595,
+        "total-blocking-time": 40,
+        "max-potential-fid": 90,
+        "cumulative-layout-shift": 0,
+        "server-response-time": 218.70499999999998,
+        "interactive": 7192.882975,
+        "redirects": 0,
+        "mainthread-work-breakdown": 1021.6720000000026,
+        "bootup-time": 353.9400000000006,
+        "network-rtt": 51.394999999999996,
+        "network-server-latency": 1241.4675000000002,
+        "metrics": 7193,
+        "prioritize-lcp-image": 0,
+        "uses-long-cache-ttl": 334535.59952513967,
+        "total-byte-weight": 769625,
+        "offscreen-images": 200,
+        "render-blocking-resources": 1656,
+        "unminified-css": 0,
+        "unminified-javascript": 0,
+        "unused-css-rules": 0,
+        "unused-javascript": 300,
+        "modern-image-formats": 0,
+        "uses-optimized-images": 0,
+        "uses-text-compression": 150,
+        "uses-responsive-images": 0,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 1062,
+        "uses-http2": 0
+      }
+    }
+  ]
+}

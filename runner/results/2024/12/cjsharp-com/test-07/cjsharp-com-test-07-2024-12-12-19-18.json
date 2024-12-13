@@ -1,0 +1,762 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-12T19:18:58.555291",
+      "report": "- The CSS is very good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #14: favicon.ico, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #14: favicon.ico, number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #14: favicon.ico, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #14: favicon.ico, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #14: favicon.ico, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #14: favicon.ico, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 52226,
+              "message": "CSS: \u201C--bs-btn-font-family\u201D: Parse Error.",
+              "extract": "tn-font-family: ;--bs-btn-font",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 69550,
+              "message": "CSS: \u201C--bs-dropdown-box-shadow\u201D: Parse Error.",
+              "extract": "own-box-shadow: ;--bs-dropdown",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 72239,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 77680,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85407,
+              "message": "CSS: \u201C--bs-card-title-color\u201D: Parse Error.",
+              "extract": "rd-title-color: ;--bs-card-sub",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85434,
+              "message": "CSS: \u201C--bs-card-subtitle-color\u201D: Parse Error.",
+              "extract": "subtitle-color: ;--bs-card-bor",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85609,
+              "message": "CSS: \u201C--bs-card-box-shadow\u201D: Parse Error.",
+              "extract": "ard-box-shadow: ;--bs-card-inn",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85831,
+              "message": "CSS: \u201C--bs-card-cap-color\u201D: Parse Error.",
+              "extract": "card-cap-color: ;--bs-card-hei",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85850,
+              "message": "CSS: \u201C--bs-card-height\u201D: Parse Error.",
+              "extract": "bs-card-height: ;--bs-card-col",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85868,
+              "message": "CSS: \u201C--bs-card-color\u201D: Parse Error.",
+              "extract": "-bs-card-color: ;--bs-card-bg:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 95150,
+              "message": "CSS: \u201C--bs-breadcrumb-bg\u201D: Parse Error.",
+              "extract": "-breadcrumb-bg: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 95182,
+              "message": "CSS: \u201C--bs-breadcrumb-border-radius\u201D: Parse Error.",
+              "extract": "-border-radius: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 117139,
+              "message": "CSS: \u201C--bs-toast-color\u201D: Parse Error.",
+              "extract": "bs-toast-color: ;--bs-toast-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 118953,
+              "message": "CSS: \u201C--bs-modal-color\u201D: Parse Error.",
+              "extract": "bs-modal-color: ;--bs-modal-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 119575,
+              "message": "CSS: \u201C--bs-modal-footer-bg\u201D: Parse Error.",
+              "extract": "odal-footer-bg: ;--bs-modal-fo",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 124769,
+              "message": "CSS: \u201C--bs-tooltip-margin\u201D: Parse Error.",
+              "extract": "tooltip-margin: ;--bs-tooltip-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 52226,
+              "message": "CSS: \u201C--bs-btn-font-family\u201D: Parse Error.",
+              "extract": "tn-font-family: ;--bs-btn-font",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 69550,
+              "message": "CSS: \u201C--bs-dropdown-box-shadow\u201D: Parse Error.",
+              "extract": "own-box-shadow: ;--bs-dropdown",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 72239,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 77680,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85407,
+              "message": "CSS: \u201C--bs-card-title-color\u201D: Parse Error.",
+              "extract": "rd-title-color: ;--bs-card-sub",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85434,
+              "message": "CSS: \u201C--bs-card-subtitle-color\u201D: Parse Error.",
+              "extract": "subtitle-color: ;--bs-card-bor",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85609,
+              "message": "CSS: \u201C--bs-card-box-shadow\u201D: Parse Error.",
+              "extract": "ard-box-shadow: ;--bs-card-inn",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85831,
+              "message": "CSS: \u201C--bs-card-cap-color\u201D: Parse Error.",
+              "extract": "card-cap-color: ;--bs-card-hei",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85850,
+              "message": "CSS: \u201C--bs-card-height\u201D: Parse Error.",
+              "extract": "bs-card-height: ;--bs-card-col",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85868,
+              "message": "CSS: \u201C--bs-card-color\u201D: Parse Error.",
+              "extract": "-bs-card-color: ;--bs-card-bg:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 95150,
+              "message": "CSS: \u201C--bs-breadcrumb-bg\u201D: Parse Error.",
+              "extract": "-breadcrumb-bg: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 95182,
+              "message": "CSS: \u201C--bs-breadcrumb-border-radius\u201D: Parse Error.",
+              "extract": "-border-radius: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 117139,
+              "message": "CSS: \u201C--bs-toast-color\u201D: Parse Error.",
+              "extract": "bs-toast-color: ;--bs-toast-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 118953,
+              "message": "CSS: \u201C--bs-modal-color\u201D: Parse Error.",
+              "extract": "bs-modal-color: ;--bs-modal-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 119575,
+              "message": "CSS: \u201C--bs-modal-footer-bg\u201D: Parse Error.",
+              "extract": "odal-footer-bg: ;--bs-modal-fo",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 124769,
+              "message": "CSS: \u201C--bs-tooltip-margin\u201D: Parse Error.",
+              "extract": "tooltip-margin: ;--bs-tooltip-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 52226,
+              "message": "CSS: \u201C--bs-btn-font-family\u201D: Parse Error.",
+              "extract": "tn-font-family: ;--bs-btn-font",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 69550,
+              "message": "CSS: \u201C--bs-dropdown-box-shadow\u201D: Parse Error.",
+              "extract": "own-box-shadow: ;--bs-dropdown",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 72239,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 77680,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85407,
+              "message": "CSS: \u201C--bs-card-title-color\u201D: Parse Error.",
+              "extract": "rd-title-color: ;--bs-card-sub",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85434,
+              "message": "CSS: \u201C--bs-card-subtitle-color\u201D: Parse Error.",
+              "extract": "subtitle-color: ;--bs-card-bor",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85609,
+              "message": "CSS: \u201C--bs-card-box-shadow\u201D: Parse Error.",
+              "extract": "ard-box-shadow: ;--bs-card-inn",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85831,
+              "message": "CSS: \u201C--bs-card-cap-color\u201D: Parse Error.",
+              "extract": "card-cap-color: ;--bs-card-hei",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85850,
+              "message": "CSS: \u201C--bs-card-height\u201D: Parse Error.",
+              "extract": "bs-card-height: ;--bs-card-col",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85868,
+              "message": "CSS: \u201C--bs-card-color\u201D: Parse Error.",
+              "extract": "-bs-card-color: ;--bs-card-bg:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 95150,
+              "message": "CSS: \u201C--bs-breadcrumb-bg\u201D: Parse Error.",
+              "extract": "-breadcrumb-bg: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 95182,
+              "message": "CSS: \u201C--bs-breadcrumb-border-radius\u201D: Parse Error.",
+              "extract": "-border-radius: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 117139,
+              "message": "CSS: \u201C--bs-toast-color\u201D: Parse Error.",
+              "extract": "bs-toast-color: ;--bs-toast-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 118953,
+              "message": "CSS: \u201C--bs-modal-color\u201D: Parse Error.",
+              "extract": "bs-modal-color: ;--bs-modal-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 119575,
+              "message": "CSS: \u201C--bs-modal-footer-bg\u201D: Parse Error.",
+              "extract": "odal-footer-bg: ;--bs-modal-fo",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 124769,
+              "message": "CSS: \u201C--bs-tooltip-margin\u201D: Parse Error.",
+              "extract": "tooltip-margin: ;--bs-tooltip-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 52226,
+              "message": "CSS: \u201C--bs-btn-font-family\u201D: Parse Error.",
+              "extract": "tn-font-family: ;--bs-btn-font",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 69550,
+              "message": "CSS: \u201C--bs-dropdown-box-shadow\u201D: Parse Error.",
+              "extract": "own-box-shadow: ;--bs-dropdown",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 72239,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 77680,
+              "message": "CSS: \u201C--bs-nav-link-font-weight\u201D: Parse Error.",
+              "extract": "nk-font-weight: ;--bs-nav-link",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85407,
+              "message": "CSS: \u201C--bs-card-title-color\u201D: Parse Error.",
+              "extract": "rd-title-color: ;--bs-card-sub",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85434,
+              "message": "CSS: \u201C--bs-card-subtitle-color\u201D: Parse Error.",
+              "extract": "subtitle-color: ;--bs-card-bor",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85609,
+              "message": "CSS: \u201C--bs-card-box-shadow\u201D: Parse Error.",
+              "extract": "ard-box-shadow: ;--bs-card-inn",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85831,
+              "message": "CSS: \u201C--bs-card-cap-color\u201D: Parse Error.",
+              "extract": "card-cap-color: ;--bs-card-hei",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85850,
+              "message": "CSS: \u201C--bs-card-height\u201D: Parse Error.",
+              "extract": "bs-card-height: ;--bs-card-col",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 85868,
+              "message": "CSS: \u201C--bs-card-color\u201D: Parse Error.",
+              "extract": "-bs-card-color: ;--bs-card-bg:",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 95150,
+              "message": "CSS: \u201C--bs-breadcrumb-bg\u201D: Parse Error.",
+              "extract": "-breadcrumb-bg: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 95182,
+              "message": "CSS: \u201C--bs-breadcrumb-border-radius\u201D: Parse Error.",
+              "extract": "-border-radius: ;--bs-breadcru",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 117139,
+              "message": "CSS: \u201C--bs-toast-color\u201D: Parse Error.",
+              "extract": "bs-toast-color: ;--bs-toast-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 118953,
+              "message": "CSS: \u201C--bs-modal-color\u201D: Parse Error.",
+              "extract": "bs-modal-color: ;--bs-modal-bg",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 119575,
+              "message": "CSS: \u201C--bs-modal-footer-bg\u201D: Parse Error.",
+              "extract": "odal-footer-bg: ;--bs-modal-fo",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+              "lastLine": 5,
+              "lastColumn": 124769,
+              "message": "CSS: \u201C--bs-tooltip-margin\u201D: Parse Error.",
+              "extract": "tooltip-margin: ;--bs-tooltip-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.cjsharp.com/6383110aec1dbf6c61b79ff8e5e9f5e493185e75ac1e361d6aef2744880b5d2b2b6fe317259359609e0975487ad3d91324468393d89f828ee5f784fc89f5910a.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.cjsharp.com/",
+            "index": 1
+          },
+          {
+            "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+            "index": 2
+          },
+          {
+            "url": "https://www.cjsharp.com/_next/static/css/9d5894d68b121b3f.css",
+            "index": 3
+          },
+          {
+            "url": "https://www.cjsharp.com/favicon.ico",
+            "index": 14
+          },
+          {
+            "url": "https://www.cjsharp.com/_next/static/css/455380e8d74e6160.css",
+            "index": 2
+          },
+          {
+            "url": "https://www.cjsharp.com/_next/static/css/9d5894d68b121b3f.css",
+            "index": 3
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.76,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.76,
+      "date": "2024-12-12T18:26:47.537247",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 7 ( 3.60 rating )\r\n  - Unexpected unknown custom property \u0022--font-family-main\u0022 (no-unknown-custom-properties) (number of errors of this type: 2)\n  - Unexpected unknown custom property \u0022--color-foreground\u0022 (no-unknown-custom-properties) (number of errors of this type: 2)\n  - Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022auto\u0022 for property \u0022-moz-user-select\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown custom property \u0022--color-muted\u0022 (no-unknown-custom-properties) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #28: 13d753f71e6dcae, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #28: 13d753f71e6dcae, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #32: css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #32: css, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #37: fe7acf6a8f9fd34, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #37: fe7acf6a8f9fd34, number of errors: 2 ( 4.60 rating )\r\n  - Unexpected unknown value \u0022auto\u0022 for property \u0022max-width\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected duplicate name monospace (font-family-no-duplicate-names) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #38: 69a1ece2f00d733, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #38: 69a1ece2f00d733, number of errors: 2 ( 4.60 rating )\r\n  - Unexpected unknown value \u0022auto\u0022 for property \u0022max-width\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected duplicate name monospace (font-family-no-duplicate-names) (number of errors of this type: 1)\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "line": 6,
+              "column": 2787,
+              "endLine": 6,
+              "endColumn": 2807,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 120927,
+              "endLine": 6,
+              "endColumn": 120931,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022auto\u0022 for property \u0022-moz-user-select\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147155,
+              "endLine": 6,
+              "endColumn": 147173,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-family-main\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147185,
+              "endLine": 6,
+              "endColumn": 147203,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-foreground\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147246,
+              "endLine": 6,
+              "endColumn": 147264,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-foreground\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147386,
+              "endLine": 6,
+              "endColumn": 147404,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-family-main\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147416,
+              "endLine": 6,
+              "endColumn": 147429,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-muted\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "line": 6,
+              "column": 2787,
+              "endLine": 6,
+              "endColumn": 2807,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-webkit-match-parent\u0022 for property \u0022text-align\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 120927,
+              "endLine": 6,
+              "endColumn": 120931,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022auto\u0022 for property \u0022-moz-user-select\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147155,
+              "endLine": 6,
+              "endColumn": 147173,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-family-main\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147185,
+              "endLine": 6,
+              "endColumn": 147203,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-foreground\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147246,
+              "endLine": 6,
+              "endColumn": 147264,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-foreground\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147386,
+              "endLine": 6,
+              "endColumn": 147404,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--font-family-main\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            },
+            {
+              "line": 6,
+              "column": 147416,
+              "endLine": 6,
+              "endColumn": 147429,
+              "rule": "no-unknown-custom-properties",
+              "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+              "type": "error",
+              "message": "Unexpected unknown custom property \u0022--color-muted\u0022 (no-unknown-custom-properties)",
+              "file": "/usr/src/runner/cache/davidboland.site/45a677f5c71192646d1a225f1b0c204e1c6e48d99c31910330dcd407f637e2e850417899cf0117b4e636175fb3b4b74b5d0ca4f49f550e5dd447b7a16b5b37b9.txt.utf-8.cache.css"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://davidboland.site/",
+            "index": 1
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/884fcae48c9e752e.css",
+            "index": 3
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/0056bd8d7551f69d.css",
+            "index": 4
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/13d753f71e6dcae7.css",
+            "index": 28
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Archivo:400,500%7CArimo:400,500%7CBitter:400,500%7CEB\u002BGaramond:400,500%7CLato%7CLibre\u002BBaskervill%7CLibre\u002BFranklin:400,500%7CLora:400,500%7CGoogle\u002BSans_old:regular,medium:400,500%7CMaterial\u002BIcons%7CGoogle\u002BSymbols%7CMerriweather%7CMontserrat:400,500%7CMukta:400,500%7CMuli:400,500%7CNunito:400,500%7COpen\u002BSans:400,500,600%7COpen\u002BSans\u002BCondensed:400,600%7COswald:500%7CPlayfair\u002BDisplay:400,500%7CPoppins:400,500%7CRaleway:400,500%7CRoboto_old:400,500%7CRoboto\u002BCondensed:400,500%7CRoboto\u002BSlab:400,500%7CSlabo\u002B27px%7CSource\u002BSans\u002BPro%7CUbuntu:400,500%7CVolkhov\u0026display=swap",
+            "index": 32
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/fe7acf6a8f9fd34e.css",
+            "index": 37
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/69a1ece2f00d7339.css",
+            "index": 38
+          }
+        ]
+      }
+    }
+  ]
+}

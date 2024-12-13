@@ -1,0 +1,386 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 2.08,
+      "rating_sec": 2.08,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-12T17:52:59.833179",
+      "report": "- CMS used: episerver\r\n- Web server used: envoy, kestrel, microsoft-httpapi, nginx\r\n- Technology used: asp.net, asp.net-core, c, csharp, es6, js, typescript\r\n- License(s) used: apache-2.0, mit\r\n- Metadata used: icon, viewport\r\n- Javascript libraries used: applicationinsights-js, core-js, crypto, date-fns, domready, instant.page, jquery, jquery-ui, polished, react, transformation-matrix, util\r\n- Languages found: de, en, no, sv, x-default\r\n- Image formats used: gif, png, svg\r\n",
+      "report_sec": "##### Software related to CVE:s ( 1.0 rating )\r\n\r\n###### Introduction:\r\nSoftware version used is affected by vulnerability described below.\r\nIn most cases you can fix a CVE related issue by updating software to latest version.\r\nIn some rare cases there is no update and you need to consider not using the software affected.\r\n\r\n###### Common Vulnerabilities and Exposures\r\n- CVE-2024-7347\r\n- CVE-2022-41741\r\n- CVE-2022-41742\r\n- CVE-2021-23017\r\n- CVE-2019-9511\r\n- CVE-2019-9513\r\n- CVE-2019-9516\r\n- CVE-2018-16843\r\n- CVE-2018-16844\r\n- CVE-2018-16845\r\n\r\n###### Detected software(s):\r\n- nginx 1.14.0\r\n- nginx 1.20.1\r\n\r\n###### Affected resource(s):\r\n- https://j.6sc.co/6si.min.js\r\n- https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1734025451301\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-a45ee414a347301dd51a8a71ef6d9c\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp=\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=a_pageload\u0026q=%7B%22pageLoadTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=ni%3AasyncSettingsAudit\u0026q=%7B%22settings%22%3A%22%5B%7B%5C%22name%5C%22%3A%5C%22setToken%5C%22%2C%5C%22value%5C%22%3A%5C%224b665b832ce8d3821ef8ffff549299bc%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22disableCookies%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setEpsilonKey%5C%22%2C%5C%22value%5C%22%3A%5C%229752df097a3ecbcf2c5292b28b0af9303db215e3%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIPv6Ping%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIgnorePageUrlHash%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableRetargeting%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setWhiteListFields%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCustomMetatags%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Acategory%5C%5C%5C%22%7D%2C%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Atopic%5C%5C%5C%22%7D%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22storeTagId%5C%22%2C%5C%22value%5C%22%3A%5C%2261ba4203-c99f-4923-a9e8-596e6a0c8fef%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableEventTracking%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCompanyDetailsExpiration%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableCompanyDetails%5C%22%2C%5C%22value%5C%22%3A%5C%22%5Btrue%2Cnull%2C3%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%5D%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=6sense-temp-analytics\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=https%3A%2F%2Feps.6sc.co\u0026q=%7B%22name%22%3A%22https%3A%2F%2Feps.6sc.co%2Fv3%2Fcompany%2Fdetails%22%2C%22entryType%22%3A%22resource%22%2C%22startTime%22%3A7816.700000017881%2C%22duration%22%3A295.19999998807907%2C%22initiatorType%22%3A%22xmlhttprequest%22%2C%22deliveryType%22%3A%22%22%2C%22nextHopProtocol%22%3A%22%22%2C%22renderBlockingStatus%22%3A%22non-blocking%22%2C%22workerStart%22%3A0%2C%22redirectStart%22%3A0%2C%22redirectEnd%22%3A0%2C%22fetchStart%22%3A7816.700000017881%2C%22domainLookupStart%22%3A0%2C%22domainLookupEnd%22%3A0%2C%22connectStart%22%3A0%2C%22secureConnectionStart%22%3A0%2C%22connectEnd%22%3A0%2C%22requestStart%22%3A0%2C%22responseStart%22%3A0%2C%22firstInterimResponseStart%22%3A0%2C%22responseEnd%22%3A8111.9000000059605%2C%22transferSize%22%3A0%2C%22encodedBodySize%22%3A0%2C%22decodedBodySize%22%3A0%2C%22responseStatus%22%3A200%2C%22serverTiming%22%3A%5B%5D%2C%22metadata%22%3A%7B%22region%22%3A%22header-blocked%22%7D%7D\u0026isIframe=false\u0026m=%7B%22endpoint%22%3A%22epsilon.6sense.com%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=\u0026d=1\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A13%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%22%2C%22timeSpent%22%3A%221395%22%2C%22totalTimeSpent%22%3A%221395%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A14%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A13%20GMT%22%2C%22timeSpent%22%3A%221395%22%2C%22totalTimeSpent%22%3A%222790%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A16%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A14%20GMT%22%2C%22timeSpent%22%3A%221609%22%2C%22totalTimeSpent%22%3A%224399%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A18%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A16%20GMT%22%2C%22timeSpent%22%3A%221482%22%2C%22totalTimeSpent%22%3A%225881%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A19%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A18%20GMT%22%2C%22timeSpent%22%3A%221523%22%2C%22totalTimeSpent%22%3A%227404%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n##### Software is behind \u003E=75 versions ( 2.25 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 75 or more version compared to latests.\r\nThis is a very good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 2.6.9\r\n\r\n###### Affected resource(s):\r\n- https://www.optimizely.com/\r\n##### Software is behind \u003E=50 versions ( 2.5 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 50 or more version compared to latests.\r\nThis is a very good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- nginx 1.14.0\r\n\r\n###### Affected resource(s):\r\n- https://j.6sc.co/6si.min.js\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=a_pageload\u0026q=%7B%22pageLoadTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=ni%3AasyncSettingsAudit\u0026q=%7B%22settings%22%3A%22%5B%7B%5C%22name%5C%22%3A%5C%22setToken%5C%22%2C%5C%22value%5C%22%3A%5C%224b665b832ce8d3821ef8ffff549299bc%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22disableCookies%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setEpsilonKey%5C%22%2C%5C%22value%5C%22%3A%5C%229752df097a3ecbcf2c5292b28b0af9303db215e3%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIPv6Ping%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIgnorePageUrlHash%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableRetargeting%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setWhiteListFields%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCustomMetatags%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Acategory%5C%5C%5C%22%7D%2C%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Atopic%5C%5C%5C%22%7D%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22storeTagId%5C%22%2C%5C%22value%5C%22%3A%5C%2261ba4203-c99f-4923-a9e8-596e6a0c8fef%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableEventTracking%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCompanyDetailsExpiration%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableCompanyDetails%5C%22%2C%5C%22value%5C%22%3A%5C%22%5Btrue%2Cnull%2C3%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%5D%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=6sense-temp-analytics\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=https%3A%2F%2Feps.6sc.co\u0026q=%7B%22name%22%3A%22https%3A%2F%2Feps.6sc.co%2Fv3%2Fcompany%2Fdetails%22%2C%22entryType%22%3A%22resource%22%2C%22startTime%22%3A7816.700000017881%2C%22duration%22%3A295.19999998807907%2C%22initiatorType%22%3A%22xmlhttprequest%22%2C%22deliveryType%22%3A%22%22%2C%22nextHopProtocol%22%3A%22%22%2C%22renderBlockingStatus%22%3A%22non-blocking%22%2C%22workerStart%22%3A0%2C%22redirectStart%22%3A0%2C%22redirectEnd%22%3A0%2C%22fetchStart%22%3A7816.700000017881%2C%22domainLookupStart%22%3A0%2C%22domainLookupEnd%22%3A0%2C%22connectStart%22%3A0%2C%22secureConnectionStart%22%3A0%2C%22connectEnd%22%3A0%2C%22requestStart%22%3A0%2C%22responseStart%22%3A0%2C%22firstInterimResponseStart%22%3A0%2C%22responseEnd%22%3A8111.9000000059605%2C%22transferSize%22%3A0%2C%22encodedBodySize%22%3A0%2C%22decodedBodySize%22%3A0%2C%22responseStatus%22%3A200%2C%22serverTiming%22%3A%5B%5D%2C%22metadata%22%3A%7B%22region%22%3A%22header-blocked%22%7D%7D\u0026isIframe=false\u0026m=%7B%22endpoint%22%3A%22epsilon.6sense.com%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=\u0026d=1\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A13%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%22%2C%22timeSpent%22%3A%221395%22%2C%22totalTimeSpent%22%3A%221395%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A14%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A13%20GMT%22%2C%22timeSpent%22%3A%221395%22%2C%22totalTimeSpent%22%3A%222790%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A16%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A14%20GMT%22%2C%22timeSpent%22%3A%221609%22%2C%22totalTimeSpent%22%3A%224399%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A18%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A16%20GMT%22%2C%22timeSpent%22%3A%221482%22%2C%22totalTimeSpent%22%3A%225881%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n- https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A19%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A18%20GMT%22%2C%22timeSpent%22%3A%221523%22%2C%22totalTimeSpent%22%3A%227404%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29\r\n##### Software is behind \u003E=25 versions ( 2.75 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 25 or more version compared to latests.\r\nThis is a good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 3.27.1\r\n- nginx 1.20.1\r\n\r\n###### Affected resource(s):\r\n- https://js.qualified.com/qualified.js?token=y5gZpv1sRkv2ZBXW\r\n- https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1734025451301\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-a45ee414a347301dd51a8a71ef6d9c\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp=\r\n##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- applicationinsights-js 2.8.18\r\n- core-js 3.32.2\r\n\r\n###### Affected resource(s):\r\n- https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js\r\n- https://connect.facebook.net/en_US/fbevents.js\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- instant.page 5.1.1\r\n- react 18.2.0\r\n- jquery 3.5.1\r\n- jquery-ui 1.13.3\r\n\r\n###### Affected resource(s):\r\n- https://www.optimizely.com/assets/entry-client-bf401940.js\r\n- https://www.optimizely.com/assets/index-1789b37d.js\r\n- https://www.optimizely.com/Util/EPiServer.Forms/jquery-3.5.1.min.js\r\n- https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.min.js\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "CVE": {
+            "softwares": [
+              "nginx 1.14.0",
+              "nginx 1.20.1"
+            ],
+            "resources": [
+              "https://j.6sc.co/6si.min.js",
+              "https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1734025451301\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-a45ee414a347301dd51a8a71ef6d9c\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp=",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=a_pageload\u0026q=%7B%22pageLoadTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=ni%3AasyncSettingsAudit\u0026q=%7B%22settings%22%3A%22%5B%7B%5C%22name%5C%22%3A%5C%22setToken%5C%22%2C%5C%22value%5C%22%3A%5C%224b665b832ce8d3821ef8ffff549299bc%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22disableCookies%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setEpsilonKey%5C%22%2C%5C%22value%5C%22%3A%5C%229752df097a3ecbcf2c5292b28b0af9303db215e3%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIPv6Ping%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIgnorePageUrlHash%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableRetargeting%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setWhiteListFields%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCustomMetatags%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Acategory%5C%5C%5C%22%7D%2C%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Atopic%5C%5C%5C%22%7D%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22storeTagId%5C%22%2C%5C%22value%5C%22%3A%5C%2261ba4203-c99f-4923-a9e8-596e6a0c8fef%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableEventTracking%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCompanyDetailsExpiration%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableCompanyDetails%5C%22%2C%5C%22value%5C%22%3A%5C%22%5Btrue%2Cnull%2C3%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%5D%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=6sense-temp-analytics\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=https%3A%2F%2Feps.6sc.co\u0026q=%7B%22name%22%3A%22https%3A%2F%2Feps.6sc.co%2Fv3%2Fcompany%2Fdetails%22%2C%22entryType%22%3A%22resource%22%2C%22startTime%22%3A7816.700000017881%2C%22duration%22%3A295.19999998807907%2C%22initiatorType%22%3A%22xmlhttprequest%22%2C%22deliveryType%22%3A%22%22%2C%22nextHopProtocol%22%3A%22%22%2C%22renderBlockingStatus%22%3A%22non-blocking%22%2C%22workerStart%22%3A0%2C%22redirectStart%22%3A0%2C%22redirectEnd%22%3A0%2C%22fetchStart%22%3A7816.700000017881%2C%22domainLookupStart%22%3A0%2C%22domainLookupEnd%22%3A0%2C%22connectStart%22%3A0%2C%22secureConnectionStart%22%3A0%2C%22connectEnd%22%3A0%2C%22requestStart%22%3A0%2C%22responseStart%22%3A0%2C%22firstInterimResponseStart%22%3A0%2C%22responseEnd%22%3A8111.9000000059605%2C%22transferSize%22%3A0%2C%22encodedBodySize%22%3A0%2C%22decodedBodySize%22%3A0%2C%22responseStatus%22%3A200%2C%22serverTiming%22%3A%5B%5D%2C%22metadata%22%3A%7B%22region%22%3A%22header-blocked%22%7D%7D\u0026isIframe=false\u0026m=%7B%22endpoint%22%3A%22epsilon.6sense.com%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=\u0026d=1\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A13%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%22%2C%22timeSpent%22%3A%221395%22%2C%22totalTimeSpent%22%3A%221395%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A14%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A13%20GMT%22%2C%22timeSpent%22%3A%221395%22%2C%22totalTimeSpent%22%3A%222790%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A16%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A14%20GMT%22%2C%22timeSpent%22%3A%221609%22%2C%22totalTimeSpent%22%3A%224399%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A18%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A16%20GMT%22%2C%22timeSpent%22%3A%221482%22%2C%22totalTimeSpent%22%3A%225881%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A19%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A18%20GMT%22%2C%22timeSpent%22%3A%221523%22%2C%22totalTimeSpent%22%3A%227404%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29"
+            ],
+            "sub-issues": [
+              "CVE-2024-7347",
+              "CVE-2022-41741",
+              "CVE-2022-41742",
+              "CVE-2021-23017",
+              "CVE-2019-9511",
+              "CVE-2019-9513",
+              "CVE-2019-9516",
+              "CVE-2018-16843",
+              "CVE-2018-16844",
+              "CVE-2018-16845"
+            ]
+          },
+          "BEHIND075": {
+            "softwares": [
+              "core-js 2.6.9"
+            ],
+            "resources": [
+              "https://www.optimizely.com/"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND050": {
+            "softwares": [
+              "nginx 1.14.0"
+            ],
+            "resources": [
+              "https://j.6sc.co/6si.min.js",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=a_pageload\u0026q=%7B%22pageLoadTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=ni%3AasyncSettingsAudit\u0026q=%7B%22settings%22%3A%22%5B%7B%5C%22name%5C%22%3A%5C%22setToken%5C%22%2C%5C%22value%5C%22%3A%5C%224b665b832ce8d3821ef8ffff549299bc%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22disableCookies%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setEpsilonKey%5C%22%2C%5C%22value%5C%22%3A%5C%229752df097a3ecbcf2c5292b28b0af9303db215e3%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIPv6Ping%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIgnorePageUrlHash%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableRetargeting%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setWhiteListFields%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCustomMetatags%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Acategory%5C%5C%5C%22%7D%2C%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Atopic%5C%5C%5C%22%7D%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22storeTagId%5C%22%2C%5C%22value%5C%22%3A%5C%2261ba4203-c99f-4923-a9e8-596e6a0c8fef%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableEventTracking%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCompanyDetailsExpiration%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableCompanyDetails%5C%22%2C%5C%22value%5C%22%3A%5C%22%5Btrue%2Cnull%2C3%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%5D%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=6sense-temp-analytics\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=https%3A%2F%2Feps.6sc.co\u0026q=%7B%22name%22%3A%22https%3A%2F%2Feps.6sc.co%2Fv3%2Fcompany%2Fdetails%22%2C%22entryType%22%3A%22resource%22%2C%22startTime%22%3A7816.700000017881%2C%22duration%22%3A295.19999998807907%2C%22initiatorType%22%3A%22xmlhttprequest%22%2C%22deliveryType%22%3A%22%22%2C%22nextHopProtocol%22%3A%22%22%2C%22renderBlockingStatus%22%3A%22non-blocking%22%2C%22workerStart%22%3A0%2C%22redirectStart%22%3A0%2C%22redirectEnd%22%3A0%2C%22fetchStart%22%3A7816.700000017881%2C%22domainLookupStart%22%3A0%2C%22domainLookupEnd%22%3A0%2C%22connectStart%22%3A0%2C%22secureConnectionStart%22%3A0%2C%22connectEnd%22%3A0%2C%22requestStart%22%3A0%2C%22responseStart%22%3A0%2C%22firstInterimResponseStart%22%3A0%2C%22responseEnd%22%3A8111.9000000059605%2C%22transferSize%22%3A0%2C%22encodedBodySize%22%3A0%2C%22decodedBodySize%22%3A0%2C%22responseStatus%22%3A200%2C%22serverTiming%22%3A%5B%5D%2C%22metadata%22%3A%7B%22region%22%3A%22header-blocked%22%7D%7D\u0026isIframe=false\u0026m=%7B%22endpoint%22%3A%22epsilon.6sense.com%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=\u0026d=1\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A13%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A12%20GMT%22%2C%22timeSpent%22%3A%221395%22%2C%22totalTimeSpent%22%3A%221395%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A14%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A13%20GMT%22%2C%22timeSpent%22%3A%221395%22%2C%22totalTimeSpent%22%3A%222790%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A16%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A14%20GMT%22%2C%22timeSpent%22%3A%221609%22%2C%22totalTimeSpent%22%3A%224399%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A18%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A16%20GMT%22%2C%22timeSpent%22%3A%221482%22%2C%22totalTimeSpent%22%3A%225881%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29",
+              "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=742fabf0-c170-4a59-836f-68548df24d07\u0026session=c9c26ca2-99bb-4899-8fa1-184607dec278\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A19%20GMT%22%2C%22lastTrackTime%22%3A%22Thu%2C%2012%20Dec%202024%2017%3A44%3A18%20GMT%22%2C%22timeSpent%22%3A%221523%22%2C%22totalTimeSpent%22%3A%227404%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Creating%20digital%20experiences%20that%20transform%20your%20company%20takes%20data-driven%20decisions%2C%20continued%20experimentation%20and%20constant%20invention.%20%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22The%20home%20of%20exceptional%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=37627668-1dd9-4961-8acf-1f27c17f3f09\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.29"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND025": {
+            "softwares": [
+              "core-js 3.27.1",
+              "nginx 1.20.1"
+            ],
+            "resources": [
+              "https://js.qualified.com/qualified.js?token=y5gZpv1sRkv2ZBXW",
+              "https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1734025451301\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-a45ee414a347301dd51a8a71ef6d9c\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp="
+            ],
+            "sub-issues": []
+          },
+          "BEHIND010": {
+            "softwares": [
+              "applicationinsights-js 2.8.18",
+              "core-js 3.32.2"
+            ],
+            "resources": [
+              "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+              "https://connect.facebook.net/en_US/fbevents.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND001": {
+            "softwares": [
+              "instant.page 5.1.1",
+              "react 18.2.0",
+              "jquery 3.5.1",
+              "jquery-ui 1.13.3"
+            ],
+            "resources": [
+              "https://www.optimizely.com/assets/entry-client-bf401940.js",
+              "https://www.optimizely.com/assets/index-1789b37d.js",
+              "https://www.optimizely.com/Util/EPiServer.Forms/jquery-3.5.1.min.js",
+              "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.min.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "tech": {
+          "asp.net": {
+            "?": {
+              "name": "asp.net",
+              "precision": 0.5
+            }
+          },
+          "csharp": {
+            "?": {
+              "name": "csharp",
+              "precision": 0.5
+            }
+          },
+          "asp.net-core": {
+            "?": {
+              "name": "asp.net-core",
+              "precision": 0.5
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          },
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          },
+          "x-default": {
+            "?": {
+              "name": "x-default",
+              "precision": 0.8
+            }
+          },
+          "de": {
+            "?": {
+              "name": "de",
+              "precision": 0.8
+            }
+          },
+          "sv": {
+            "?": {
+              "name": "sv",
+              "precision": 0.8
+            }
+          },
+          "no": {
+            "?": {
+              "name": "no",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          }
+        },
+        "cms": {
+          "episerver": {
+            "?": {
+              "name": "episerver",
+              "precision": 0.5
+            }
+          }
+        },
+        "js": {
+          "core-js": {
+            "2.6.9": {
+              "name": "core-js",
+              "precision": 0.8,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            },
+            "3.32.2": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            },
+            "3.27.1": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          },
+          "domready": {
+            "?": {
+              "name": "domready",
+              "precision": 0.1,
+              "github-owner": "ded",
+              "github-repo": "domready"
+            }
+          },
+          "instant.page": {
+            "5.1.1": {
+              "name": "instant.page",
+              "precision": 0.5,
+              "github-owner": "instantpage",
+              "github-repo": "instant.page"
+            }
+          },
+          "react": {
+            "18.2.0": {
+              "name": "react",
+              "precision": 0.6,
+              "github-owner": "facebook",
+              "github-repo": "react"
+            }
+          },
+          "jquery": {
+            "3.5.1": {
+              "name": "jquery",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "applicationinsights-js": {
+            "2.8.18": {
+              "name": "applicationinsights-js",
+              "precision": 0.8,
+              "github-owner": "Microsoft",
+              "github-repo": "ApplicationInsights-JS"
+            }
+          },
+          "jquery-ui": {
+            "1.13.3": {
+              "name": "jquery-ui",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery-ui"
+            }
+          },
+          "transformation-matrix": {
+            "2.0": {
+              "name": "transformation-matrix",
+              "precision": 0.5
+            }
+          },
+          "crypto": {
+            "?": {
+              "name": "crypto",
+              "precision": 0.5
+            }
+          },
+          "date-fns": {
+            "?": {
+              "name": "date-fns",
+              "precision": 0.1,
+              "github-owner": "date-fns",
+              "github-repo": "date-fns"
+            }
+          },
+          "polished": {
+            "?": {
+              "name": "polished",
+              "precision": 0.1,
+              "github-owner": "styled-components",
+              "github-repo": "polished"
+            }
+          },
+          "util": {
+            "?": {
+              "name": "util",
+              "precision": 0.5
+            }
+          }
+        },
+        "license": {
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          },
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "gif": {
+            "?": {
+              "name": "gif",
+              "precision": 0.4
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "1.14.0": {
+              "name": "nginx",
+              "precision": 0.8,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            },
+            "1.20.1": {
+              "name": "nginx",
+              "precision": 0.8,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          },
+          "envoy": {
+            "?": {
+              "name": "envoy",
+              "precision": 0.4
+            }
+          },
+          "microsoft-httpapi": {
+            "2.0": {
+              "name": "microsoft-httpapi",
+              "precision": 0.8
+            }
+          },
+          "kestrel": {
+            "?": {
+              "name": "kestrel",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

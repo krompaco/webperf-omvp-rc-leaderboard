@@ -1,0 +1,31 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-12T18:59:09.640997",
+      "report": "- The CSS is very good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": false,
+        "has_style_attributes": false,
+        "has_css_files": false,
+        "errors": {
+          "all": [],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": []
+        },
+        "sources": []
+      }
+    }
+  ]
+}

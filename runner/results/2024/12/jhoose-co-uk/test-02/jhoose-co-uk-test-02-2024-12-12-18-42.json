@@ -1,0 +1,24 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 2,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-12T18:43:08.116337",
+      "report": "- Correct status code? Got 404, and 404 is correct. ( 5.00 rating )\r\n- Found a page title in the page\u0027s metadata? ( 5.00 rating )\r\n- Found headline (h1)? ( 5.00 rating )\r\n- Is it lacking text describing that an error has occurred (in Swedish OR English for English sites)? ( 5.00 rating )\r\n- Is text content length is less than 150 characters, which indicates that the user is not being referred, nor advised? ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Found a page title in the page\u0027s metadata? ( 5.00 rating )\r\n- Found headline (h1)? ( 5.00 rating )\r\n- Is it lacking text describing that an error has occurred (in Swedish OR English for English sites)? ( 5.00 rating )\r\n- Is text content length is less than 150 characters, which indicates that the user is not being referred, nor advised? ( 5.00 rating )\r\n",
+      "report_stand": "- Correct status code? Got 404, and 404 is correct. ( 5.00 rating )\r\n- Found a page title in the page\u0027s metadata? ( 5.00 rating )\r\n- Found headline (h1)? ( 5.00 rating )\r\n",
+      "data": {
+        "status_code": 404,
+        "page_title": "\nPage not found | jhoose\t",
+        "h1": "jhoose"
+      }
+    }
+  ]
+}

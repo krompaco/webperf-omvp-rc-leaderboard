@@ -1,0 +1,79 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.85,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.85,
+      "date": "2024-12-12T18:21:02.007289",
+      "report": "- The tested page has 2 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 1 ( 4.80 rating )\r\n- #1: Webpage - Number of errors: 1 ( 4.90 rating )\r\n  - Element \u201Cstyle\u201D not allowed as child of element \u201Cbody\u201D in this context. (Suppressing further errors from this subtree.) (errors of this type: 1 pcs)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://mattcdunn.com/",
+              "lastLine": 6,
+              "lastColumn": 93,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\u003C/style\u003E\n\t\u003Cme",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/mattcdunn.com/eba1065534c058da0c43079e7ae36d7f7060cb9541ccb5140b78dd3d989446e820faabed36ba9e94e268a1b228588a26e4033d860f240c2b0708905dc2649da6.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://mattcdunn.com/",
+              "lastLine": 351,
+              "lastColumn": 339,
+              "firstColumn": 297,
+              "message": "Element \u201Cstyle\u201D not allowed as child of element \u201Cbody\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": ";\u003C/script\u003E\u003Cstyle id=\u0027core-block-supports-inline-css\u0027\u003E\n.wp-c",
+              "hiliteStart": 10,
+              "hiliteLength": 43,
+              "file": "file:/usr/src/runner/cache/mattcdunn.com/eba1065534c058da0c43079e7ae36d7f7060cb9541ccb5140b78dd3d989446e820faabed36ba9e94e268a1b228588a26e4033d860f240c2b0708905dc2649da6.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://mattcdunn.com/",
+              "lastLine": 6,
+              "lastColumn": 93,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\u003C/style\u003E\n\t\u003Cme",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/mattcdunn.com/eba1065534c058da0c43079e7ae36d7f7060cb9541ccb5140b78dd3d989446e820faabed36ba9e94e268a1b228588a26e4033d860f240c2b0708905dc2649da6.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://mattcdunn.com/",
+              "lastLine": 351,
+              "lastColumn": 339,
+              "firstColumn": 297,
+              "message": "Element \u201Cstyle\u201D not allowed as child of element \u201Cbody\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": ";\u003C/script\u003E\u003Cstyle id=\u0027core-block-supports-inline-css\u0027\u003E\n.wp-c",
+              "hiliteStart": 10,
+              "hiliteLength": 43,
+              "file": "file:/usr/src/runner/cache/mattcdunn.com/eba1065534c058da0c43079e7ae36d7f7060cb9541ccb5140b78dd3d989446e820faabed36ba9e94e268a1b228588a26e4033d860f240c2b0708905dc2649da6.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://mattcdunn.com/",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

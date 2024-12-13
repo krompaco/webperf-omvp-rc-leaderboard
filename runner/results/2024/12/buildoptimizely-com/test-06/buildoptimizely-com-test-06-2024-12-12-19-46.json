@@ -1,0 +1,103 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.7,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.7,
+      "date": "2024-12-12T19:47:14.836023",
+      "report": "- The tested page has 3 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 2 ( 4.60 rating )\r\n- #1: Webpage - Number of errors: 2 ( 4.80 rating )\r\n  - Bad value \u201Chttps://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w, https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w\u201D for attribute \u201Csrcset\u201D on element \u201Cimg\u201D: Width for image \u201Chttps://buildoptimizely.c\u2026s/2021/02/Logo_Main-1.png\u201D is identical to width for image \u201Chttps://buildoptimizely.c\u2026s/2021/02/Logo_Main-1.png\u201D. (errors of this type: 1 pcs)\n  - Element \u201Cstyle\u201D not allowed as child of element \u201Cdiv\u201D in this context. (Suppressing further errors from this subtree.) (errors of this type: 1 pcs)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://buildoptimizely.com/",
+              "lastLine": 38,
+              "lastColumn": 93,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\u003C/style\u003E\n\t\n\t\u003C",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/buildoptimizely.com/ee65b159688f9d97dbe09b15fd6fcdaaa9e161e901a9f790751242223074c83d16abd98bf5bdec06c7958624c795f0da8627bf89f3f48ad7ce152e2061a94352.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://buildoptimizely.com/",
+              "lastLine": 561,
+              "lastColumn": 378,
+              "firstColumn": 50,
+              "message": "Bad value \u201Chttps://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w, https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w\u201D for attribute \u201Csrcset\u201D on element \u201Cimg\u201D: Width for image \u201Chttps://buildoptimizely.c\u2026s/2021/02/Logo_Main-1.png\u201D is identical to width for image \u201Chttps://buildoptimizely.c\u2026s/2021/02/Logo_Main-1.png\u201D.",
+              "extract": "ely.com/\u0022\u003E\u003Cimg class=\u0022 preload-me\u0022 src=\u0022https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png\u0022 srcset=\u0022https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w, https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w\u0022 width=\u0022250\u0022 height=\u002250\u0022   sizes=\u0022250px\u0022 alt=\u0022Build Optimizely\u0022 /\u003E\u003C/a\u003E\u003C/",
+              "hiliteStart": 10,
+              "hiliteLength": 329,
+              "file": "file:/usr/src/runner/cache/buildoptimizely.com/ee65b159688f9d97dbe09b15fd6fcdaaa9e161e901a9f790751242223074c83d16abd98bf5bdec06c7958624c795f0da8627bf89f3f48ad7ce152e2061a94352.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://buildoptimizely.com/",
+              "lastLine": 587,
+              "lastColumn": 36,
+              "firstColumn": 1,
+              "message": "Element \u201Cstyle\u201D not allowed as child of element \u201Cdiv\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "\u003E\n\u003C/div\u003E\n\n\u003Cstyle id=\u0022the7-page-content-style\u0022\u003E\n#main",
+              "hiliteStart": 10,
+              "hiliteLength": 36,
+              "file": "file:/usr/src/runner/cache/buildoptimizely.com/ee65b159688f9d97dbe09b15fd6fcdaaa9e161e901a9f790751242223074c83d16abd98bf5bdec06c7958624c795f0da8627bf89f3f48ad7ce152e2061a94352.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://buildoptimizely.com/",
+              "lastLine": 38,
+              "lastColumn": 93,
+              "message": "CSS: \u201Ccontain-intrinsic-size\u201D: Property \u201Ccontain-intrinsic-size\u201D doesn\u0027t exist.",
+              "extract": ": 3000px 1500px }\u003C/style\u003E\n\t\n\t\u003C",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/buildoptimizely.com/ee65b159688f9d97dbe09b15fd6fcdaaa9e161e901a9f790751242223074c83d16abd98bf5bdec06c7958624c795f0da8627bf89f3f48ad7ce152e2061a94352.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://buildoptimizely.com/",
+              "lastLine": 561,
+              "lastColumn": 378,
+              "firstColumn": 50,
+              "message": "Bad value \u201Chttps://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w, https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w\u201D for attribute \u201Csrcset\u201D on element \u201Cimg\u201D: Width for image \u201Chttps://buildoptimizely.c\u2026s/2021/02/Logo_Main-1.png\u201D is identical to width for image \u201Chttps://buildoptimizely.c\u2026s/2021/02/Logo_Main-1.png\u201D.",
+              "extract": "ely.com/\u0022\u003E\u003Cimg class=\u0022 preload-me\u0022 src=\u0022https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png\u0022 srcset=\u0022https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w, https://buildoptimizely.com/wp-content/uploads/2021/02/Logo_Main-1.png 250w\u0022 width=\u0022250\u0022 height=\u002250\u0022   sizes=\u0022250px\u0022 alt=\u0022Build Optimizely\u0022 /\u003E\u003C/a\u003E\u003C/",
+              "hiliteStart": 10,
+              "hiliteLength": 329,
+              "file": "file:/usr/src/runner/cache/buildoptimizely.com/ee65b159688f9d97dbe09b15fd6fcdaaa9e161e901a9f790751242223074c83d16abd98bf5bdec06c7958624c795f0da8627bf89f3f48ad7ce152e2061a94352.txt.utf-8.cache.html"
+            },
+            {
+              "type": "error",
+              "url": "https://buildoptimizely.com/",
+              "lastLine": 587,
+              "lastColumn": 36,
+              "firstColumn": 1,
+              "message": "Element \u201Cstyle\u201D not allowed as child of element \u201Cdiv\u201D in this context. (Suppressing further errors from this subtree.)",
+              "extract": "\u003E\n\u003C/div\u003E\n\n\u003Cstyle id=\u0022the7-page-content-style\u0022\u003E\n#main",
+              "hiliteStart": 10,
+              "hiliteLength": 36,
+              "file": "file:/usr/src/runner/cache/buildoptimizely.com/ee65b159688f9d97dbe09b15fd6fcdaaa9e161e901a9f790751242223074c83d16abd98bf5bdec06c7958624c795f0da8627bf89f3f48ad7ce152e2061a94352.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://buildoptimizely.com/",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 5.0,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-12T18:37:11.753305",
+      "report": "- Metadata used: canonical, viewport\r\n- Languages found: en\r\n- Image formats used: ico, svg\r\n",
+      "report_sec": "##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### You seem to be up to date for all software we can identify ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {},
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          }
+        },
+        "img": {
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

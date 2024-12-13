@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 4,
+      "rating": 4.6,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-12T18:20:33.688613",
+      "report": "- Pretty good at SEO, but still has some potential improvements.\n- Links do not have descriptive text ( 1.00 rating )\r\n- Page isn\u2019t blocked from indexing ( 5.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- Image elements have \u0060[alt]\u0060 attributes ( 5.00 rating )\r\n- Document has a meta description ( 5.00 rating )\r\n- Page has successful HTTP status code ( 5.00 rating )\r\n- Links are crawlable ( 5.00 rating )\r\n- robots.txt is valid ( 5.00 rating )\r\n- Document has a valid \u0060hreflang\u0060 ( 5.00 rating )\r\n- Document has a valid \u0060rel=canonical\u0060 ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt is valid ( 5.00 rating )\r\n",
+      "data": {
+        "first-contentful-paint": 1975.098,
+        "largest-contentful-paint": 2303.284,
+        "speed-index": 3034.077247998905,
+        "total-blocking-time": 53,
+        "max-potential-fid": 103,
+        "cumulative-layout-shift": 0,
+        "server-response-time": 1180.9569999999999,
+        "interactive": 3786.2685,
+        "redirects": 869.577,
+        "mainthread-work-breakdown": 449.9000000000001,
+        "bootup-time": 246.27600000000032,
+        "uses-rel-preconnect": 0,
+        "network-rtt": 46.35,
+        "network-server-latency": 32.1705,
+        "metrics": 3786,
+        "uses-long-cache-ttl": 40439,
+        "total-byte-weight": 240667,
+        "offscreen-images": 0,
+        "render-blocking-resources": 0,
+        "unminified-css": 0,
+        "unminified-javascript": 0,
+        "unused-css-rules": 330,
+        "unused-javascript": 0,
+        "modern-image-formats": 0,
+        "uses-optimized-images": 0,
+        "uses-text-compression": 0,
+        "uses-responsive-images": 0,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 481,
+        "uses-http2": 0
+      }
+    }
+  ]
+}
