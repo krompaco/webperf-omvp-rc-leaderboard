@@ -1,0 +1,378 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.43,
+      "rating_sec": 4.43,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-25T14:47:53.522730",
+      "report": "- Technology used: es6, js, markdown, typescript\r\n- License(s) used: apache-2.0, bsd-3-clause, mit\r\n- Metadata used: canonical, viewport\r\n- Javascript libraries used: algoliasearch-client-javascript, astring, async-http-client, axios, cash, clj-http, core-js, crypto-browserify, date-fns, express, focus-lock, fold-case, for-license-information-please-see, installations, marked, micromark-extension-mdx-expression, micromark-extension-mdx-jsx, micromark-extension-mdxjs-esm, oauth, ocaml-cohttp, okhttp, querystring, react, react-dnd, readmeio, serviceworker, util, uuid, vertx, webpackage\r\n- Languages found: en\r\n- Image formats used: png, svg\r\n",
+      "report_sec": "##### Software is behind \u003E=75 versions ( 2.25 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 75 or more version compared to latests.\r\nThis is a very good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 2.6.12\r\n- core-js 2.6.10\r\n\r\n###### Affected resource(s):\r\n- https://docs.developers.optimizely.com/\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- react 16.14.0\r\n\r\n###### Affected resource(s):\r\n- https://cdn.readme.io/public/hub/web/main.b446f5d3ed925b90196d.js\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND075": {
+            "softwares": [
+              "core-js 2.6.12",
+              "core-js 2.6.10"
+            ],
+            "resources": [
+              "https://docs.developers.optimizely.com/"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND001": {
+            "softwares": [
+              "react 16.14.0"
+            ],
+            "resources": [
+              "https://cdn.readme.io/public/hub/web/main.b446f5d3ed925b90196d.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          }
+        },
+        "js": {
+          "core-js": {
+            "2.6.12": {
+              "name": "core-js",
+              "precision": 0.8,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            },
+            "2.6.10": {
+              "name": "core-js",
+              "precision": 0.8,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            },
+            "3.39.0": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          },
+          "querystring": {
+            "?": {
+              "name": "querystring",
+              "precision": 0.5,
+              "github-owner": "clearbit",
+              "github-repo": "querystring"
+            }
+          },
+          "util": {
+            "?": {
+              "name": "util",
+              "precision": 0.5
+            }
+          },
+          "react": {
+            "16.14.0": {
+              "name": "react",
+              "precision": 0.6,
+              "github-owner": "facebook",
+              "github-repo": "react"
+            }
+          },
+          "clj-http": {
+            "?": {
+              "name": "clj-http",
+              "precision": 0.1,
+              "github-owner": "dakrone",
+              "github-repo": "clj-http"
+            }
+          },
+          "async-http-client": {
+            "?": {
+              "name": "async-http-client",
+              "precision": 0.1,
+              "github-owner": "AsyncHttpClient",
+              "github-repo": "async-http-client"
+            }
+          },
+          "axios": {
+            "?": {
+              "name": "axios",
+              "precision": 0.1,
+              "github-owner": "axios",
+              "github-repo": "axios"
+            }
+          },
+          "ocaml-cohttp": {
+            "?": {
+              "name": "ocaml-cohttp",
+              "precision": 0.1,
+              "github-owner": "mirage",
+              "github-repo": "ocaml-cohttp"
+            }
+          },
+          "crypto-browserify": {
+            "?": {
+              "name": "crypto-browserify",
+              "precision": 0.1,
+              "github-owner": "browserify",
+              "github-repo": "crypto-browserify"
+            }
+          },
+          "uuid": {
+            "?": {
+              "name": "uuid",
+              "precision": 0.1,
+              "github-owner": "uuidjs",
+              "github-repo": "uuid"
+            }
+          },
+          "okhttp": {
+            "?": {
+              "name": "okhttp",
+              "precision": 0.3,
+              "github-owner": "square",
+              "github-repo": "okhttp"
+            }
+          },
+          "date-fns": {
+            "?": {
+              "name": "date-fns",
+              "precision": 0.1,
+              "github-owner": "date-fns",
+              "github-repo": "date-fns"
+            }
+          },
+          "focus-lock": {
+            "?": {
+              "name": "focus-lock",
+              "precision": 0.1,
+              "github-owner": "theKashey",
+              "github-repo": "focus-lock"
+            }
+          },
+          "for-license-information-please-see": {
+            "9772.684": {
+              "name": "for-license-information-please-see",
+              "precision": 0.5
+            },
+            "9930.8": {
+              "name": "for-license-information-please-see",
+              "precision": 0.5
+            },
+            "4002.979": {
+              "name": "for-license-information-please-see",
+              "precision": 0.5
+            }
+          },
+          "micromark-extension-mdx-jsx": {
+            "?": {
+              "name": "micromark-extension-mdx-jsx",
+              "precision": 0.1,
+              "github-owner": "micromark",
+              "github-repo": "micromark-extension-mdx-jsx"
+            }
+          },
+          "micromark-extension-mdxjs-esm": {
+            "?": {
+              "name": "micromark-extension-mdxjs-esm",
+              "precision": 0.1,
+              "github-owner": "micromark",
+              "github-repo": "micromark-extension-mdxjs-esm"
+            }
+          },
+          "micromark-extension-mdx-expression": {
+            "?": {
+              "name": "micromark-extension-mdx-expression",
+              "precision": 0.1,
+              "github-owner": "micromark",
+              "github-repo": "micromark-extension-mdx-expression"
+            }
+          },
+          "astring": {
+            "?": {
+              "name": "astring",
+              "precision": 0.1,
+              "github-owner": "davidbonnet",
+              "github-repo": "astring"
+            }
+          },
+          "marked": {
+            "?": {
+              "name": "marked",
+              "precision": 0.1,
+              "github-owner": "markedjs",
+              "github-repo": "marked"
+            }
+          },
+          "react-dnd": {
+            "?": {
+              "name": "react-dnd",
+              "precision": 0.3,
+              "github-owner": "react-dnd",
+              "github-repo": "react-dnd"
+            }
+          },
+          "webpackage": {
+            "?": {
+              "name": "webpackage",
+              "precision": 0.3,
+              "github-owner": "wicg",
+              "github-repo": "webpackage"
+            }
+          },
+          "serviceworker": {
+            "?": {
+              "name": "serviceworker",
+              "precision": 0.3,
+              "github-owner": "w3c",
+              "github-repo": "ServiceWorker"
+            }
+          },
+          "readmeio": {
+            "?": {
+              "name": "readmeio",
+              "precision": 0.5
+            }
+          },
+          "express": {
+            "?": {
+              "name": "express",
+              "precision": 0.5,
+              "github-owner": "expressjs",
+              "github-repo": "express"
+            }
+          },
+          "cash": {
+            "?": {
+              "name": "cash",
+              "precision": 0.1,
+              "github-owner": "fabiospampinato",
+              "github-repo": "cash"
+            }
+          },
+          "installations": {
+            "?": {
+              "name": "installations",
+              "precision": 0.1,
+              "github-owner": "settings",
+              "github-repo": "installations"
+            }
+          },
+          "vertx": {
+            "?": {
+              "name": "vertx",
+              "precision": 0.5
+            }
+          },
+          "algoliasearch-client-javascript": {
+            "?": {
+              "name": "algoliasearch-client-javascript",
+              "precision": 0.1,
+              "github-owner": "algolia",
+              "github-repo": "algoliasearch-client-javascript"
+            }
+          },
+          "oauth": {
+            "?": {
+              "name": "oauth",
+              "precision": 0.1,
+              "github-owner": "login",
+              "github-repo": "oauth"
+            }
+          },
+          "fold-case": {
+            "?": {
+              "name": "fold-case",
+              "precision": 0.1,
+              "github-owner": "dmoscrop",
+              "github-repo": "fold-case"
+            }
+          }
+        },
+        "tech": {
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          },
+          "markdown": {
+            "?": {
+              "name": "markdown",
+              "precision": 0.8
+            }
+          }
+        },
+        "img": {
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          },
+          "bsd-3-clause": {
+            "?": {
+              "name": "bsd-3-clause",
+              "precision": 0.6
+            }
+          },
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          }
+        }
+      }
+    }
+  ]
+}

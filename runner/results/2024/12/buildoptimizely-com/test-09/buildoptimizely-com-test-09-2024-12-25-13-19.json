@@ -1,0 +1,177 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 4.0,
+      "rating_sec": 1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.67,
+      "date": "2024-12-25T13:19:14.094868",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, No duplicate Urls in \u003Cloc\u003E ( 5.00 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "data": {
+        "url": "https://buildoptimizely.com/",
+        "root_url": "https://buildoptimizely.com/",
+        "robots": {
+          "url": "https://buildoptimizely.com/robots.txt",
+          "content": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://buildoptimizely.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 1,
+          "sitemap_urls_in_robots": [
+            "https://buildoptimizely.com/sitemap_index.xml"
+          ],
+          "sitemaps": {
+            "https://buildoptimizely.com/post_tag-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 15
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 15,
+              "nof_items_no_duplicates": 15,
+              "known_types_details": {
+                "webpage": [
+                  "https://buildoptimizely.com/tag/azure-ad/",
+                  "https://buildoptimizely.com/tag/azure/",
+                  "https://buildoptimizely.com/tag/content-delivery-api/",
+                  "https://buildoptimizely.com/tag/content-types/",
+                  "https://buildoptimizely.com/tag/development/",
+                  "https://buildoptimizely.com/tag/devops/",
+                  "https://buildoptimizely.com/tag/dojo/",
+                  "https://buildoptimizely.com/tag/dxp/",
+                  "https://buildoptimizely.com/tag/edit-interface/",
+                  "https://buildoptimizely.com/tag/editor/",
+                  "https://buildoptimizely.com/tag/episerver/",
+                  "https://buildoptimizely.com/tag/feature-flag/",
+                  "https://buildoptimizely.com/tag/full-stack/",
+                  "https://buildoptimizely.com/tag/multilingual/",
+                  "https://buildoptimizely.com/tag/optimizely/"
+                ]
+              }
+            },
+            "https://buildoptimizely.com/category-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 4
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 4,
+              "nof_items_no_duplicates": 4,
+              "known_types_details": {
+                "webpage": [
+                  "https://buildoptimizely.com/category/episerver/",
+                  "https://buildoptimizely.com/category/episerver/articles/",
+                  "https://buildoptimizely.com/category/optimizely/",
+                  "https://buildoptimizely.com/category/optimizely/articles-optimizely/"
+                ]
+              }
+            },
+            "https://buildoptimizely.com/page-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 2
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 2,
+              "nof_items_no_duplicates": 2,
+              "known_types_details": {
+                "webpage": [
+                  "https://buildoptimizely.com/",
+                  "https://buildoptimizely.com/about/"
+                ]
+              }
+            },
+            "https://buildoptimizely.com/post-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 12
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 12,
+              "nof_items_no_duplicates": 12,
+              "known_types_details": {
+                "webpage": [
+                  "https://buildoptimizely.com/blog/",
+                  "https://buildoptimizely.com/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/",
+                  "https://buildoptimizely.com/episerver/episerver-add-a-copy-preview-link-to-the-navigation-pane/",
+                  "https://buildoptimizely.com/episerver/episerver-authentication-with-multiple-azure-ad-instances/",
+                  "https://buildoptimizely.com/episerver/episerver-how-to-create-a-language-selector-for-multilingual-sites/",
+                  "https://buildoptimizely.com/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/",
+                  "https://buildoptimizely.com/episerver/optimizely-cms-12-help-text-and-expanded-input-text-boxes/",
+                  "https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/",
+                  "https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature/",
+                  "https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/",
+                  "https://buildoptimizely.com/optimizely/optimizely-building-good-content-types/",
+                  "https://buildoptimizely.com/optimizely/optimizely-dxp-go-live-check-list/"
+                ]
+              }
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 12
+          },
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 33,
+          "nof_items_no_duplicates": 33,
+          "known_types_details": {
+            "webpage": [
+              "https://buildoptimizely.com/blog/",
+              "https://buildoptimizely.com/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/",
+              "https://buildoptimizely.com/episerver/episerver-add-a-copy-preview-link-to-the-navigation-pane/",
+              "https://buildoptimizely.com/episerver/episerver-authentication-with-multiple-azure-ad-instances/",
+              "https://buildoptimizely.com/episerver/episerver-how-to-create-a-language-selector-for-multilingual-sites/",
+              "https://buildoptimizely.com/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/",
+              "https://buildoptimizely.com/episerver/optimizely-cms-12-help-text-and-expanded-input-text-boxes/",
+              "https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/",
+              "https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature/",
+              "https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/",
+              "https://buildoptimizely.com/optimizely/optimizely-building-good-content-types/",
+              "https://buildoptimizely.com/optimizely/optimizely-dxp-go-live-check-list/"
+            ]
+          },
+          "sitemapindexes": [
+            "https://buildoptimizely.com/sitemap_index.xml"
+          ],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 2,
+          "feeds": [
+            "https://buildoptimizely.com/feed/",
+            "https://buildoptimizely.com/comments/feed/"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://buildoptimizely.com/.well-known/security.txt": {
+              "status": "wrong content"
+            },
+            "https://buildoptimizely.com/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "wrong content"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.5,
+      "rating_sec": 4.5,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-25T12:23:44.233415",
+      "report": "- CMS used: episerver\r\n- Web server used: microsoft-httpapi\r\n- Technology used: asp.net, csharp, js, typescript\r\n- License(s) used: apache-2.0\r\n- Metadata used: apple-touch-icon, icon, open-graph, viewport\r\n- Javascript libraries used: applicationinsights-js, epifind\r\n- Languages found: en\r\n- Image formats used: jpg, png, svg, webp\r\n",
+      "report_sec": "##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- applicationinsights-js 2.8.18\r\n\r\n###### Affected resource(s):\r\n- https://js.monitor.azure.com/scripts/b/ai.2.min.js\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND010": {
+            "softwares": [
+              "applicationinsights-js 2.8.18"
+            ],
+            "resources": [
+              "https://js.monitor.azure.com/scripts/b/ai.2.min.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "meta": {
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "tech": {
+          "asp.net": {
+            "": {
+              "name": "asp.net",
+              "precision": 0.1
+            }
+          },
+          "csharp": {
+            "": {
+              "name": "csharp",
+              "precision": 0.4
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          }
+        },
+        "cms": {
+          "episerver": {
+            "?": {
+              "name": "episerver",
+              "precision": 0.5
+            }
+          }
+        },
+        "img": {
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          },
+          "jpg": {
+            "?": {
+              "name": "jpg",
+              "precision": 0.4
+            }
+          },
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          }
+        },
+        "js": {
+          "epifind": {
+            "?": {
+              "name": "epifind",
+              "precision": 0.8
+            }
+          },
+          "applicationinsights-js": {
+            "2.8.18": {
+              "name": "applicationinsights-js",
+              "precision": 0.8,
+              "github-owner": "Microsoft",
+              "github-repo": "ApplicationInsights-JS"
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "webserver": {
+          "microsoft-httpapi": {
+            "2.0": {
+              "name": "microsoft-httpapi",
+              "precision": 0.8
+            }
+          }
+        }
+      }
+    }
+  ]
+}

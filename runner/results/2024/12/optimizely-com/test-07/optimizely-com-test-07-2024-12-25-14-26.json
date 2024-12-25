@@ -1,0 +1,1438 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.5,
+      "date": "2024-12-25T14:26:53.694390",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 4 ( 4.20 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 53 ( 1.00 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 40)\n  - CSS: \u201Cmask\u201D: Too many values or values are not recognized. (number of errors of this type: 7)\n  - CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist. (number of errors of this type: 4)\n  - CSS: \u201C-webkit-mask\u201D: too few values for the property \u201Clinear-gradient\u201D. (number of errors of this type: 1)\n  - CSS: \u201Cmask\u201D: too few values for the property \u201Clinear-gradient\u201D. (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060 in: #80: anchor, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #80: anchor, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #80: anchor, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #80: anchor, number of errors: 2 ( 4.80 rating )\r\n  - CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060 in: #81: anchor, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #81: anchor, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #81: anchor, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #81: anchor, number of errors: 2 ( 4.80 rating )\r\n  - CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #60: EPiServerFormsS, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #60: EPiServerFormsS, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #61: jquery-ui.min.c, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #61: jquery-ui.min.c, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #62: jquery-ui.struc, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #62: jquery-ui.struc, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #63: jquery-ui.theme, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #63: jquery-ui.theme, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #70: media.component, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #70: media.component, number of errors: 5 ( 4.50 rating )\r\n  - CSS: Unrecognized at-rule \u201C@container\u201D (number of errors of this type: 3)\n  - CSS: \u201Ccontainer-name\u201D: Property \u201Ccontainer-name\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Ccontainer-type\u201D: Property \u201Ccontainer-type\u201D doesn\u0027t exist. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #74: primary-footer., number of grouped error type: 4 ( 4.20 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #74: primary-footer., number of errors: 28 ( 2.20 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 18)\n  - CSS: Unrecognized at-rule \u201C@container\u201D (number of errors of this type: 3)\n  - CSS: \u201Cmask\u201D: Too many values or values are not recognized. (number of errors of this type: 3)\n  - CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist. (number of errors of this type: 2)\n  - CSS: \u201Ccontainer-name\u201D: Property \u201Ccontainer-name\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Ccontainer-type\u201D: Property \u201Ccontainer-type\u201D doesn\u0027t exist. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #77: cookie-consent., number of grouped error type: 4 ( 4.20 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #77: cookie-consent., number of errors: 28 ( 2.20 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 18)\n  - CSS: Unrecognized at-rule \u201C@container\u201D (number of errors of this type: 3)\n  - CSS: \u201Cmask\u201D: Too many values or values are not recognized. (number of errors of this type: 3)\n  - CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist. (number of errors of this type: 2)\n  - CSS: \u201Ccontainer-name\u201D: Property \u201Ccontainer-name\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Ccontainer-type\u201D: Property \u201Ccontainer-type\u201D doesn\u0027t exist. (number of errors of this type: 1)\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 11937,
+              "firstColumn": 11927,
+              "message": "CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist.",
+              "extract": "r:transparent;text-fill-color:transparent}.rte-",
+              "hiliteStart": 30,
+              "hiliteLength": 11,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 27212,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 27212,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 29358,
+              "firstColumn": 29356,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.rte-",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 30601,
+              "message": "CSS: Parse Error.",
+              "extract": "l-link):has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 30788,
+              "firstColumn": 30784,
+              "message": "CSS: Parse Error.",
+              "extract": "w):not(.normal-link):has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 46185,
+              "firstColumn": 46175,
+              "message": "CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist.",
+              "extract": "r:transparent;text-fill-color:transparent}.rte ",
+              "hiliteStart": 30,
+              "hiliteLength": 11,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 60837,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 60837,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 62941,
+              "firstColumn": 62939,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.rte ",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 64142,
+              "message": "CSS: Parse Error.",
+              "extract": "l-link):has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 64322,
+              "firstColumn": 64318,
+              "message": "CSS: Parse Error.",
+              "extract": "w):not(.normal-link):has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 73866,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 73866,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 78726,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)),.rte li :is(p",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 82640,
+              "firstColumn": 82638,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.t-li",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 83031,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link:has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 83076,
+              "firstColumn": 83072,
+              "message": "CSS: Parse Error.",
+              "extract": "d-image:none}.t-link:has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 85373,
+              "message": "CSS: Parse Error.",
+              "extract": " .react-module\u003E*,div[class~=\u0022l",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 85411,
+              "firstColumn": 85409,
+              "message": "CSS: Parse Error.",
+              "extract": "class~=\u0022lg:col-8\u0022]:has(.rte) .img{max-w",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/text.component-3349c095.css",
+              "lastLine": 1,
+              "lastColumn": 1494,
+              "message": "CSS: \u201C-webkit-mask\u201D: too few values for the property \u201Clinear-gradient\u201D.",
+              "extract": "adient(#fff 0 0);mask:linear-g",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/beb034a51a5e806f07994b856fc7d412172652aa6c5534ad03a7a168a5aa9d1cbc065dd22191aad7a6c37400ff3aa166efab821b62decd38df12a93e0c3189d5.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/text.component-3349c095.css",
+              "lastLine": 1,
+              "lastColumn": 1563,
+              "message": "CSS: \u201Cmask\u201D: too few values for the property \u201Clinear-gradient\u201D.",
+              "extract": "adient(#fff 0 0);-webkit-mask-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/beb034a51a5e806f07994b856fc7d412172652aa6c5534ad03a7a168a5aa9d1cbc065dd22191aad7a6c37400ff3aa166efab821b62decd38df12a93e0c3189d5.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 11937,
+              "firstColumn": 11927,
+              "message": "CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist.",
+              "extract": "r:transparent;text-fill-color:transparent}.rte-",
+              "hiliteStart": 30,
+              "hiliteLength": 11,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 27212,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 27212,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 29358,
+              "firstColumn": 29356,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.rte-",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 30601,
+              "message": "CSS: Parse Error.",
+              "extract": "l-link):has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 30788,
+              "firstColumn": 30784,
+              "message": "CSS: Parse Error.",
+              "extract": "w):not(.normal-link):has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 46185,
+              "firstColumn": 46175,
+              "message": "CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist.",
+              "extract": "r:transparent;text-fill-color:transparent}.rte ",
+              "hiliteStart": 30,
+              "hiliteLength": 11,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 60837,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 60837,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 62941,
+              "firstColumn": 62939,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.rte ",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 64142,
+              "message": "CSS: Parse Error.",
+              "extract": "l-link):has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 64322,
+              "firstColumn": 64318,
+              "message": "CSS: Parse Error.",
+              "extract": "w):not(.normal-link):has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 73866,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 73866,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 78726,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)),.rte li :is(p",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 82640,
+              "firstColumn": 82638,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.t-li",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 83031,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link:has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 83076,
+              "firstColumn": 83072,
+              "message": "CSS: Parse Error.",
+              "extract": "d-image:none}.t-link:has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 85373,
+              "message": "CSS: Parse Error.",
+              "extract": " .react-module\u003E*,div[class~=\u0022l",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 85411,
+              "firstColumn": 85409,
+              "message": "CSS: Parse Error.",
+              "extract": "class~=\u0022lg:col-8\u0022]:has(.rte) .img{max-w",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 102459,
+              "firstColumn": 102457,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.form",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 103331,
+              "message": "CSS: Parse Error.",
+              "extract": "=reset]:has(img),.EPiServerFor",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 103374,
+              "message": "CSS: Parse Error.",
+              "extract": "=reset]:has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 103441,
+              "firstColumn": 103437,
+              "message": "CSS: Parse Error.",
+              "extract": "ck input[type=reset]:has(img):after,.EPiS",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 103490,
+              "firstColumn": 103486,
+              "message": "CSS: Parse Error.",
+              "extract": "ms input[type=reset]:has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 55229,
+              "message": "CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist.",
+              "extract": "lex:1;box-flex:1;-ms-flex-posi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/a36d7f2deaeba1dd344b7bf18490d2b0ab7ba28d54e77f841fb10a07d34f54ed99e5aa49df4fec768d7bf0dd4dc72ab9d87bf48f6e56a8c34862bf83388fd3bb.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 64586,
+              "message": "CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized.",
+              "extract": "x,rgba(0,0,0,.4);color:#eee;di",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/a36d7f2deaeba1dd344b7bf18490d2b0ab7ba28d54e77f841fb10a07d34f54ed99e5aa49df4fec768d7bf0dd4dc72ab9d87bf48f6e56a8c34862bf83388fd3bb.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 55229,
+              "message": "CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist.",
+              "extract": "lex:1;box-flex:1;-ms-flex-posi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/a36d7f2deaeba1dd344b7bf18490d2b0ab7ba28d54e77f841fb10a07d34f54ed99e5aa49df4fec768d7bf0dd4dc72ab9d87bf48f6e56a8c34862bf83388fd3bb.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 64586,
+              "message": "CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized.",
+              "extract": "x,rgba(0,0,0,.4);color:#eee;di",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/a36d7f2deaeba1dd344b7bf18490d2b0ab7ba28d54e77f841fb10a07d34f54ed99e5aa49df4fec768d7bf0dd4dc72ab9d87bf48f6e56a8c34862bf83388fd3bb.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 11937,
+              "firstColumn": 11927,
+              "message": "CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist.",
+              "extract": "r:transparent;text-fill-color:transparent}.rte-",
+              "hiliteStart": 30,
+              "hiliteLength": 11,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 27212,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 27212,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 29358,
+              "firstColumn": 29356,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.rte-",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 30601,
+              "message": "CSS: Parse Error.",
+              "extract": "l-link):has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 30788,
+              "firstColumn": 30784,
+              "message": "CSS: Parse Error.",
+              "extract": "w):not(.normal-link):has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 46185,
+              "firstColumn": 46175,
+              "message": "CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist.",
+              "extract": "r:transparent;text-fill-color:transparent}.rte ",
+              "hiliteStart": 30,
+              "hiliteLength": 11,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 60837,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 60837,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 62941,
+              "firstColumn": 62939,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.rte ",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 64142,
+              "message": "CSS: Parse Error.",
+              "extract": "l-link):has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 64322,
+              "firstColumn": 64318,
+              "message": "CSS: Parse Error.",
+              "extract": "w):not(.normal-link):has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 73866,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 73866,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 78726,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)),.rte li :is(p",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 82640,
+              "firstColumn": 82638,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.t-li",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 83031,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link:has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 83076,
+              "firstColumn": 83072,
+              "message": "CSS: Parse Error.",
+              "extract": "d-image:none}.t-link:has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 85373,
+              "message": "CSS: Parse Error.",
+              "extract": " .react-module\u003E*,div[class~=\u0022l",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+              "lastLine": 1,
+              "lastColumn": 85411,
+              "firstColumn": 85409,
+              "message": "CSS: Parse Error.",
+              "extract": "class~=\u0022lg:col-8\u0022]:has(.rte) .img{max-w",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/66694aea6c5ffddf5c5d0b4b54d4ed49ec71b6cc908e7d0c000751a51f110b1c6109cafd97e512459b75a19798f0485eb0b61d0e913dec830cf935979f23f902.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/text.component-3349c095.css",
+              "lastLine": 1,
+              "lastColumn": 1494,
+              "message": "CSS: \u201C-webkit-mask\u201D: too few values for the property \u201Clinear-gradient\u201D.",
+              "extract": "adient(#fff 0 0);mask:linear-g",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/beb034a51a5e806f07994b856fc7d412172652aa6c5534ad03a7a168a5aa9d1cbc065dd22191aad7a6c37400ff3aa166efab821b62decd38df12a93e0c3189d5.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/text.component-3349c095.css",
+              "lastLine": 1,
+              "lastColumn": 1563,
+              "message": "CSS: \u201Cmask\u201D: too few values for the property \u201Clinear-gradient\u201D.",
+              "extract": "adient(#fff 0 0);-webkit-mask-",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/beb034a51a5e806f07994b856fc7d412172652aa6c5534ad03a7a168a5aa9d1cbc065dd22191aad7a6c37400ff3aa166efab821b62decd38df12a93e0c3189d5.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 11937,
+              "firstColumn": 11927,
+              "message": "CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist.",
+              "extract": "r:transparent;text-fill-color:transparent}.rte-",
+              "hiliteStart": 30,
+              "hiliteLength": 11,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 27212,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 27212,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 29358,
+              "firstColumn": 29356,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.rte-",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 30601,
+              "message": "CSS: Parse Error.",
+              "extract": "l-link):has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 30788,
+              "firstColumn": 30784,
+              "message": "CSS: Parse Error.",
+              "extract": "w):not(.normal-link):has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 46185,
+              "firstColumn": 46175,
+              "message": "CSS: \u201Ctext-fill-color\u201D: Property \u201Ctext-fill-color\u201D doesn\u0027t exist.",
+              "extract": "r:transparent;text-fill-color:transparent}.rte ",
+              "hiliteStart": 30,
+              "hiliteLength": 11,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 60837,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 60837,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 62941,
+              "firstColumn": 62939,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.rte ",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 64142,
+              "message": "CSS: Parse Error.",
+              "extract": "l-link):has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 64322,
+              "firstColumn": 64318,
+              "message": "CSS: Parse Error.",
+              "extract": "w):not(.normal-link):has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 73866,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 73866,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 78726,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)),.rte li :is(p",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 78762,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link--arrow)){--space: var(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 82640,
+              "firstColumn": 82638,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.t-li",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 83031,
+              "message": "CSS: Parse Error.",
+              "extract": ".t-link:has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 83076,
+              "firstColumn": 83072,
+              "message": "CSS: Parse Error.",
+              "extract": "d-image:none}.t-link:has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 85373,
+              "message": "CSS: Parse Error.",
+              "extract": " .react-module\u003E*,div[class~=\u0022l",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 85411,
+              "firstColumn": 85409,
+              "message": "CSS: Parse Error.",
+              "extract": "class~=\u0022lg:col-8\u0022]:has(.rte) .img{max-w",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 102459,
+              "firstColumn": 102457,
+              "message": "CSS: \u201Cmask\u201D: Too many values or values are not recognized.",
+              "extract": "olor\u0022/\u003E\u003C/svg\u003E\u0027) no-repeat 50% 50%}.form",
+              "hiliteStart": 30,
+              "hiliteLength": 3,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 103331,
+              "message": "CSS: Parse Error.",
+              "extract": "=reset]:has(img),.EPiServerFor",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 103374,
+              "message": "CSS: Parse Error.",
+              "extract": "=reset]:has(img){background-im",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 103441,
+              "firstColumn": 103437,
+              "message": "CSS: Parse Error.",
+              "extract": "ck input[type=reset]:has(img):after,.EPiS",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+              "lastLine": 1,
+              "lastColumn": 103490,
+              "firstColumn": 103486,
+              "message": "CSS: Parse Error.",
+              "extract": "ms input[type=reset]:has(img):after{displ",
+              "hiliteStart": 30,
+              "hiliteLength": 5,
+              "file": "file:/usr/src/runner/cache/www.optimizely.com/b450d9002ee832d8dff46f8f63c89b360c2020938698183737fd6ec68118457669eabd4c97bc6158e2a2963c731ff4f83bd51a44683e0583b3af4f6b9247f870.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 55229,
+              "message": "CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist.",
+              "extract": "lex:1;box-flex:1;-ms-flex-posi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/a36d7f2deaeba1dd344b7bf18490d2b0ab7ba28d54e77f841fb10a07d34f54ed99e5aa49df4fec768d7bf0dd4dc72ab9d87bf48f6e56a8c34862bf83388fd3bb.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 64586,
+              "message": "CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized.",
+              "extract": "x,rgba(0,0,0,.4);color:#eee;di",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/a36d7f2deaeba1dd344b7bf18490d2b0ab7ba28d54e77f841fb10a07d34f54ed99e5aa49df4fec768d7bf0dd4dc72ab9d87bf48f6e56a8c34862bf83388fd3bb.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 55229,
+              "message": "CSS: \u201Cbox-flex\u201D: Property \u201Cbox-flex\u201D doesn\u0027t exist.",
+              "extract": "lex:1;box-flex:1;-ms-flex-posi",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/a36d7f2deaeba1dd344b7bf18490d2b0ab7ba28d54e77f841fb10a07d34f54ed99e5aa49df4fec768d7bf0dd4dc72ab9d87bf48f6e56a8c34862bf83388fd3bb.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+              "lastLine": 1,
+              "lastColumn": 64586,
+              "message": "CSS: \u201Cbox-shadow\u201D: Too many values or values are not recognized.",
+              "extract": "x,rgba(0,0,0,.4);color:#eee;di",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/www.gstatic.com/a36d7f2deaeba1dd344b7bf18490d2b0ab7ba28d54e77f841fb10a07d34f54ed99e5aa49df4fec768d7bf0dd4dc72ab9d87bf48f6e56a8c34862bf83388fd3bb.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.optimizely.com/",
+            "index": 1
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms/EPiServerForms.css",
+            "index": 4
+          },
+          {
+            "url": "https://www.optimizely.com/assets/entry-client-718023be.css",
+            "index": 7
+          },
+          {
+            "url": "https://www.optimizely.com/assets/opti-grid.component-4f51cf55.css",
+            "index": 16
+          },
+          {
+            "url": "https://www.optimizely.com/assets/container-3f5fecd0.css",
+            "index": 17
+          },
+          {
+            "url": "https://www.optimizely.com/assets/text.component-3349c095.css",
+            "index": 19
+          },
+          {
+            "url": "https://www.optimizely.com/assets/highlight.component-eb3c70c8.css",
+            "index": 22
+          },
+          {
+            "url": "https://www.optimizely.com/assets/custom-form-f4a2d4af.css",
+            "index": 29
+          },
+          {
+            "url": "https://www.optimizely.com/assets/custom-checkbox-dc96214f.css",
+            "index": 30
+          },
+          {
+            "url": "https://www.optimizely.com/assets/custom-radio-737ddd70.css",
+            "index": 31
+          },
+          {
+            "url": "https://a26942930964.cdn.optimizely.com/client_storage/a26942930964.html",
+            "index": 46
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/anchor?ar=1\u0026k=6LeurWggAAAAAIxUmsdOFuqf3K6ngR1VwTNffzNh\u0026co=aHR0cHM6Ly93d3cub3B0aW1pemVseS5jb206NDQz\u0026hl=en\u0026v=zIriijn3uj5Vpknvt_LnfNbF\u0026size=invisible\u0026cb=ixq2qz3ex1xh",
+            "index": 80
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+            "index": 83
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+            "index": 85
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/anchor?ar=1\u0026k=6LeurWggAAAAAIxUmsdOFuqf3K6ngR1VwTNffzNh\u0026co=aHR0cHM6Ly93d3cub3B0aW1pemVseS5jb206NDQz\u0026hl=en\u0026v=zIriijn3uj5Vpknvt_LnfNbF\u0026size=normal\u0026cb=cje2o48rddbg",
+            "index": 81
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+            "index": 83
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/styles__ltr.css",
+            "index": 85
+          },
+          {
+            "url": "https://www.googletagmanager.com/static/service_worker/4cc0/sw_iframe.html?origin=https%3A%2F%2Fwww.optimizely.com",
+            "index": 107
+          },
+          {
+            "url": "https://c.6sc.co/",
+            "index": 128
+          },
+          {
+            "url": "https://ipv6.6sc.co/",
+            "index": 129
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/css/EPiServerFormsSamples.css",
+            "index": 60
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.min.css",
+            "index": 61
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.structure.min.css",
+            "index": 62
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.theme.min.css",
+            "index": 63
+          },
+          {
+            "url": "https://www.optimizely.com/assets/media.component-f0c1c739.css",
+            "index": 70
+          },
+          {
+            "url": "https://www.optimizely.com/assets/primary-footer.component-5d764783.css",
+            "index": 74
+          },
+          {
+            "url": "https://www.optimizely.com/assets/cookie-consent.component-73418e63.css",
+            "index": 77
+          }
+        ]
+      }
+    }
+  ]
+}

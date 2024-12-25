@@ -1,0 +1,157 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 15,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": 4.5,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-25T12:23:02.400537",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "- [desktop] TTFB (Time to First Byte): 493.00ms, \u00B1297.00ms ( 1.00 rating )\r\n- [desktop] DOMContentLoaded: 1100.33ms, \u00B1709.67ms ( 3.80 rating )\r\n- [desktop] FCP (First Contentful Paint): 710.33ms, \u00B1289.67ms ( 5.00 rating )\r\n- [desktop] LCP (Largest Contentful Paint): 710.33ms, \u00B1289.67ms ( 3.00 rating )\r\n- [desktop] Load: 1208.00ms, \u00B1612.00ms ( 3.58 rating )\r\n- [desktop] TBT (Total Blocking Time): 181.00ms, \u00B19.00ms ( 5.00 rating )\r\n- [desktop] CLS (Cumulative Layout Shift): 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [desktop] FirstVisualChange: 716.50ms, \u00B1283.50ms ( 4.57 rating )\r\n- [desktop] SpeedIndex: 753.00ms, \u00B1317.00ms ( 4.49 rating )\r\n- [desktop] VisualComplete85: 751.50ms, \u00B1318.50ms ( 4.50 rating )\r\n- [desktop] firstPaint: 710.33ms, \u00B1289.67ms\r\n- [desktop] LastVisualChange: 1253.00ms, \u00B1587.00ms\r\n- [mobile] TTFB (Time to First Byte): 199.67ms, \u00B111.33ms ( 5.00 rating )\r\n- [mobile] DOMContentLoaded: 394.67ms, \u00B115.33ms ( 5.00 rating )\r\n- [mobile] FCP (First Contentful Paint): 390.67ms, \u00B115.33ms ( 5.00 rating )\r\n- [mobile] LCP (Largest Contentful Paint): 390.67ms, \u00B115.33ms ( 5.00 rating )\r\n- [mobile] Load: 569.00ms, \u00B119.00ms ( 5.00 rating )\r\n- [mobile] FirstVisualChange: 400.50ms, \u00B133.50ms ( 5.00 rating )\r\n- [mobile] SpeedIndex: 407.50ms, \u00B132.50ms ( 5.00 rating )\r\n- [mobile] VisualComplete85: 400.50ms, \u00B133.50ms ( 5.00 rating )\r\n- [mobile] CLS (Cumulative Layout Shift): 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [mobile] TBT (Total Blocking Time): 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [mobile] firstPaint: 390.67ms, \u00B115.33ms\r\n- [mobile] LastVisualChange: 850.50ms, \u00B116.50ms\r\n",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "TTFB": {
+          "median": 199.66666666666666,
+          "range": 11.333333333333343,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] TTFB (Time to First Byte): 199.67ms, \u00B111.33ms",
+          "values": [
+            "211ms",
+            "188ms",
+            "200ms"
+          ]
+        },
+        "DOMContentLoaded": {
+          "median": 394.6666666666667,
+          "range": 15.333333333333314,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] DOMContentLoaded: 394.67ms, \u00B115.33ms",
+          "values": [
+            "410ms",
+            "379ms",
+            "395ms"
+          ]
+        },
+        "firstPaint": {
+          "median": 390.6666666666667,
+          "range": 15.333333333333314,
+          "mode": "mobile",
+          "points": -1,
+          "msg": "- [mobile] firstPaint: 390.67ms, \u00B115.33ms",
+          "values": [
+            "406ms",
+            "375ms",
+            "391ms"
+          ]
+        },
+        "FCP": {
+          "median": 390.6666666666667,
+          "range": 15.333333333333314,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] FCP (First Contentful Paint): 390.67ms, \u00B115.33ms",
+          "values": [
+            "406ms",
+            "375ms",
+            "391ms"
+          ]
+        },
+        "LCP": {
+          "median": 390.6666666666667,
+          "range": 15.333333333333314,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] LCP (Largest Contentful Paint): 390.67ms, \u00B115.33ms",
+          "values": [
+            "406ms",
+            "375ms",
+            "391ms"
+          ]
+        },
+        "Load": {
+          "median": 569.0,
+          "range": 19.0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] Load: 569.00ms, \u00B119.00ms",
+          "values": [
+            "588ms",
+            "550ms",
+            "569ms"
+          ]
+        },
+        "TBT": {
+          "median": 0,
+          "range": 0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] TBT (Total Blocking Time): 0.00ms, \u00B10.00ms",
+          "values": [
+            "0ms"
+          ]
+        },
+        "CLS": {
+          "median": 0,
+          "range": 0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] CLS (Cumulative Layout Shift): 0.00ms, \u00B10.00ms",
+          "values": [
+            "0"
+          ]
+        },
+        "FirstVisualChange": {
+          "median": 400.5,
+          "range": 33.5,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] FirstVisualChange: 400.50ms, \u00B133.50ms",
+          "values": [
+            "434ms",
+            "367ms"
+          ]
+        },
+        "SpeedIndex": {
+          "median": 407.5,
+          "range": 32.5,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] SpeedIndex: 407.50ms, \u00B132.50ms",
+          "values": [
+            "440ms",
+            "375ms"
+          ]
+        },
+        "VisualComplete85": {
+          "median": 400.5,
+          "range": 33.5,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] VisualComplete85: 400.50ms, \u00B133.50ms",
+          "values": [
+            "434ms",
+            "367ms"
+          ]
+        },
+        "LastVisualChange": {
+          "median": 850.5,
+          "range": 16.5,
+          "mode": "mobile",
+          "points": -1,
+          "msg": "- [mobile] LastVisualChange: 850.50ms, \u00B116.50ms",
+          "values": [
+            "834ms",
+            "867ms"
+          ]
+        }
+      }
+    }
+  ]
+}

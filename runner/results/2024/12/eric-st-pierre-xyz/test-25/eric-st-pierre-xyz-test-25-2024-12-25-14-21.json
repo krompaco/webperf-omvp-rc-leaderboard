@@ -1,0 +1,74 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 5.0,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2024-12-25T14:21:39.905466",
+      "report": "- Web server used: apache\r\n- License(s) used: apache-2.0\r\n- Metadata used: canonical, open-graph, viewport\r\n- Languages found: en\r\n- Image formats used: svg\r\n",
+      "report_sec": "##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### You seem to be up to date for all software we can identify ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "issues": {},
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          }
+        },
+        "webserver": {
+          "apache": {
+            "?": {
+              "name": "apache",
+              "precision": 0.4
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

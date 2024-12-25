@@ -1,0 +1,53 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 1,
+      "rating": 3.85,
+      "rating_sec": -1.0,
+      "rating_perf": 4.03,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2024-12-25T13:33:25.112478",
+      "report": "- About average speed.\n",
+      "report_sec": "",
+      "report_perf": "- Total Blocking Time ( 5.00 rating )\r\n- Largest Contentful Paint: 4.5\u00A0s ( 1.85 rating )\r\n- Cumulative Layout Shift ( 5.00 rating )\r\n- First Contentful Paint: 3.3\u00A0s ( 2.00 rating )\r\n- Speed Index: 3.9\u00A0s ( 4.15 rating )\r\n- Preconnect to required origins ( 1.00 rating )\r\n- Largest Contentful Paint element ( 1.00 rating )\r\n- Defer offscreen images ( 1.00 rating )\r\n- Eliminate render-blocking resources ( 1.00 rating )\r\n- Minify JavaScript ( 1.00 rating )\r\n- Reduce unused CSS ( 1.00 rating )\r\n- Serve images in next-gen formats ( 1.00 rating )\r\n- Properly size images ( 1.00 rating )\r\n- Image elements do not have explicit \u0060width\u0060 and \u0060height\u0060:  ( 2.50 rating )\r\n- Serve static assets with an efficient cache policy: 6 resources found ( 2.50 rating )\r\n- Avoid serving legacy JavaScript to modern browsers: Potential savings of 12\u00A0KiB ( 2.50 rating )\r\n- Time to Interactive: 4.5\u00A0s ( 4.10 rating )\r\n- Max Potential First Input Delay: 100\u00A0ms ( 4.85 rating )\r\n- Has a \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 tag with \u0060width\u0060 or \u0060initial-scale\u0060 ( 5.00 rating )\r\n- Screenshot Thumbnails ( 5.00 rating )\r\n- Final Screenshot ( 5.00 rating )\r\n- Initial server response time was short ( 5.00 rating )\r\n- Avoid chaining critical requests ( 5.00 rating )\r\n- Avoid multiple page redirects ( 5.00 rating )\r\n- Minimizes main-thread work ( 5.00 rating )\r\n- JavaScript execution time ( 5.00 rating )\r\n- All text remains visible during webfont loads ( 5.00 rating )\r\n- Diagnostics ( 5.00 rating )\r\n- Network Requests ( 5.00 rating )\r\n- Network Round Trip Times ( 5.00 rating )\r\n- Server Backend Latencies ( 5.00 rating )\r\n- Tasks ( 5.00 rating )\r\n- Metrics ( 5.00 rating )\r\n- Resources Summary ( 5.00 rating )\r\n- Minimize third-party usage ( 5.00 rating )\r\n- Avoid long main-thread tasks ( 5.00 rating )\r\n- Script Treemap Data ( 5.00 rating )\r\n- Avoids enormous network payloads ( 5.00 rating )\r\n- Minify CSS ( 5.00 rating )\r\n- Reduce unused JavaScript ( 5.00 rating )\r\n- Efficiently encode images ( 5.00 rating )\r\n- Enable text compression ( 5.00 rating )\r\n- Use video formats for animated content ( 5.00 rating )\r\n- Remove duplicate modules in JavaScript bundles ( 5.00 rating )\r\n- Avoids an excessive DOM size ( 5.00 rating )\r\n- Avoids \u0060document.write()\u0060 ( 5.00 rating )\r\n- Use HTTP/2 ( 5.00 rating )\r\n- Uses passive listeners to improve scrolling performance ( 5.00 rating )\r\n- Page didn\u0027t prevent back/forward cache restoration ( 5.00 rating )\r\n",
+      "report_a11y": "",
+      "report_stand": "- Enable text compression ( 5.00 rating )\r\n- Use HTTP/2 ( 5.00 rating )\r\n",
+      "data": {
+        "first-contentful-paint": 3286.529,
+        "largest-contentful-paint": 4505.529,
+        "speed-index": 3867.372792216816,
+        "total-blocking-time": 23.5,
+        "max-potential-fid": 97,
+        "cumulative-layout-shift": 0,
+        "server-response-time": 303.48199999999997,
+        "interactive": 4513.029,
+        "redirects": 0,
+        "mainthread-work-breakdown": 662.8160000000005,
+        "bootup-time": 72.80799999999996,
+        "uses-rel-preconnect": 279.2830000221729,
+        "network-rtt": 10.909000000000006,
+        "network-server-latency": 602.7239999999999,
+        "metrics": 4513,
+        "uses-long-cache-ttl": 59532.10016832842,
+        "total-byte-weight": 461289,
+        "offscreen-images": 550,
+        "render-blocking-resources": 1050,
+        "unminified-css": 0,
+        "unminified-javascript": 100,
+        "unused-css-rules": 250,
+        "unused-javascript": 0,
+        "modern-image-formats": 100,
+        "uses-optimized-images": 0,
+        "uses-text-compression": 0,
+        "uses-responsive-images": 170,
+        "efficient-animated-content": 0,
+        "duplicated-javascript": 0,
+        "legacy-javascript": 0,
+        "dom-size": 816,
+        "uses-http2": 0
+      }
+    }
+  ]
+}
