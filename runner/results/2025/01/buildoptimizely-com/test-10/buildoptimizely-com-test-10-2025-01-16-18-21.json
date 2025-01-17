@@ -1,0 +1,1022 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 10,
+      "rating": 4.2,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.23,
+      "rating_stand": -1.0,
+      "date": "2025-01-16T18:21:31.233621",
+      "report": "- The website can be more accessible, but is rather good!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- \u0060[user-scalable=\u0022no\u0022]\u0060 is used in the \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 element or the \u0060[maximum-scale]\u0060 attribute is less than 5. ( 1.00 rating )\r\n- Background and foreground colors do not have a sufficient contrast ratio. ( 1.00 rating )\r\n- Links do not have a discernible name ( 1.00 rating )\r\n- \u0060[aria-*]\u0060 attributes match their roles ( 5.00 rating )\r\n- \u0060[aria-hidden=\u0022true\u0022]\u0060 is not present on the document \u0060\u003Cbody\u003E\u0060 ( 5.00 rating )\r\n- \u0060[role]\u0060s have all required \u0060[aria-*]\u0060 attributes ( 5.00 rating )\r\n- Elements with an ARIA \u0060[role]\u0060 that require children to contain a specific \u0060[role]\u0060 have all required children. ( 5.00 rating )\r\n- \u0060[role]\u0060s are contained by their required parent element ( 5.00 rating )\r\n- \u0060[aria-*]\u0060 attributes have valid values ( 5.00 rating )\r\n- \u0060[aria-*]\u0060 attributes are valid and not misspelled ( 5.00 rating )\r\n- Image elements have \u0060[alt]\u0060 attributes ( 5.00 rating )\r\n- ARIA attributes are used as specified for the element\u0027s role ( 5.00 rating )\r\n- \u0060[aria-hidden=\u0022true\u0022]\u0060 elements do not contain focusable descendents ( 5.00 rating )\r\n- Elements use only permitted ARIA attributes ( 5.00 rating )\r\n- \u0060[role]\u0060 values are valid ( 5.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- Heading elements are not in a sequentially-descending order ( 1.00 rating )\r\n- \u0060\u003Chtml\u003E\u0060 element has a \u0060[lang]\u0060 attribute ( 5.00 rating )\r\n- \u0060\u003Chtml\u003E\u0060 element has a valid value for its \u0060[lang]\u0060 attribute ( 5.00 rating )\r\n- Touch targets have sufficient size and spacing. ( 5.00 rating )\r\n- Elements with visible text labels do not have matching accessible names. ( 1.00 rating )\r\n- Skip links are focusable. ( 5.00 rating )\r\n- Uses ARIA roles only on compatible elements ( 5.00 rating )\r\n- Deprecated ARIA roles were not used ( 5.00 rating )\r\n- Image elements do not have \u0060[alt]\u0060 attributes that are redundant text. ( 5.00 rating )\r\n- Identical links have the same purpose. ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "aria-allowed-attr": {
+          "id": "aria-allowed-attr",
+          "title": "\u0060[aria-*]\u0060 attributes match their roles",
+          "description": "Each ARIA \u0060role\u0060 supports a specific subset of \u0060aria-*\u0060 attributes. Mismatching these invalidates the \u0060aria-*\u0060 attributes. [Learn how to match ARIA attributes to their roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-attr).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-allowed-role": {
+          "id": "aria-allowed-role",
+          "title": "Uses ARIA roles only on compatible elements",
+          "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-allowed-role).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-conditional-attr": {
+          "id": "aria-conditional-attr",
+          "title": "ARIA attributes are used as specified for the element\u0027s role",
+          "description": "Some ARIA attributes are only allowed on an element under certain conditions. [Learn more about conditional ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-conditional-attr).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-deprecated-role": {
+          "id": "aria-deprecated-role",
+          "title": "Deprecated ARIA roles were not used",
+          "description": "Deprecated ARIA roles may not be processed correctly by assistive technology. [Learn more about deprecated ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-deprecated-role).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-hidden-body": {
+          "id": "aria-hidden-body",
+          "title": "\u0060[aria-hidden=\u0022true\u0022]\u0060 is not present on the document \u0060\u003Cbody\u003E\u0060",
+          "description": "Assistive technologies, like screen readers, work inconsistently when \u0060aria-hidden=\u0022true\u0022\u0060 is set on the document \u0060\u003Cbody\u003E\u0060. [Learn how \u0060aria-hidden\u0060 affects the document body](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-body).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-hidden-focus": {
+          "id": "aria-hidden-focus",
+          "title": "\u0060[aria-hidden=\u0022true\u0022]\u0060 elements do not contain focusable descendents",
+          "description": "Focusable descendents within an \u0060[aria-hidden=\u0022true\u0022]\u0060 element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn how \u0060aria-hidden\u0060 affects focusable elements](https://dequeuniversity.com/rules/axe/4.10/aria-hidden-focus).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-prohibited-attr": {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use only permitted ARIA attributes",
+          "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-required-attr": {
+          "id": "aria-required-attr",
+          "title": "\u0060[role]\u0060s have all required \u0060[aria-*]\u0060 attributes",
+          "description": "Some ARIA roles have required attributes that describe the state of the element to screen readers. [Learn more about roles and required attributes](https://dequeuniversity.com/rules/axe/4.10/aria-required-attr).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-required-children": {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA \u0060[role]\u0060 that require children to contain a specific \u0060[role]\u0060 have all required children.",
+          "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more about roles and required children elements](https://dequeuniversity.com/rules/axe/4.10/aria-required-children).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-required-parent": {
+          "id": "aria-required-parent",
+          "title": "\u0060[role]\u0060s are contained by their required parent element",
+          "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more about ARIA roles and required parent element](https://dequeuniversity.com/rules/axe/4.10/aria-required-parent).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-roles": {
+          "id": "aria-roles",
+          "title": "\u0060[role]\u0060 values are valid",
+          "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more about valid ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-roles).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-valid-attr-value": {
+          "id": "aria-valid-attr-value",
+          "title": "\u0060[aria-*]\u0060 attributes have valid values",
+          "description": "Assistive technologies, like screen readers, can\u0027t interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "aria-valid-attr": {
+          "id": "aria-valid-attr",
+          "title": "\u0060[aria-*]\u0060 attributes are valid and not misspelled",
+          "description": "Assistive technologies, like screen readers, can\u0027t interpret ARIA attributes with invalid names. [Learn more about valid ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "color-contrast": {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-0-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,3,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-btn-s",
+                  "boundingRect": {
+                    "top": 540,
+                    "bottom": 570,
+                    "left": 160,
+                    "right": 252,
+                    "width": 92,
+                    "height": 30
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003E",
+                  "nodeLabel": "Read article",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.92 (foreground color: #ffffff, background color: #24ced8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-1-H5",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,H5",
+                  "selector": "div.elementor-widget-wrap \u003E div.elementor-element \u003E div.elementor-widget-container \u003E h5.elementor-heading-title",
+                  "boundingRect": {
+                    "top": 841,
+                    "bottom": 866,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 25
+                  },
+                  "snippet": "\u003Ch5 class=\u0022elementor-heading-title elementor-size-default\u0022\u003E",
+                  "nodeLabel": "Latest news \u0026 tutorials",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.23 (foreground color: #9da7ad, background color: #f1f5f8, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "relatedNode": {
+                        "type": "node",
+                        "lhId": "1-2-SECTION",
+                        "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,SECTION",
+                        "selector": "div.wf-container-main \u003E div#content \u003E div.elementor \u003E section.elementor-section",
+                        "boundingRect": {
+                          "top": 660,
+                          "bottom": 1557,
+                          "left": 0,
+                          "right": 412,
+                          "width": 412,
+                          "height": 897
+                        },
+                        "snippet": "\u003Csection class=\u0022elementor-section elementor-top-section elementor-element elementor-elemen\u2026\u0022 data-id=\u00221eefe74a\u0022 data-element_type=\u0022section\u0022 data-settings=\u0022{\u0026quot;background_background\u0026quot;:\u0026quot;classic\u0026quot;}\u0022\u003E",
+                        "nodeLabel": "From the blog\nLatest news \u0026 tutorials\nOptimizely Integration within Episerver \u2013\u2026"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-3-TIME",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,ARTICLE,1,DIV,1,DIV,0,A,0,TIME",
+                  "selector": "div.post-entry-content \u003E div.entry-meta \u003E a.meta-item \u003E time.entry-date",
+                  "boundingRect": {
+                    "top": 1314,
+                    "bottom": 1331,
+                    "left": 150,
+                    "right": 262,
+                    "width": 111,
+                    "height": 17
+                  },
+                  "snippet": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222023-01-11T12:18:29-08:00\u0022\u003E",
+                  "nodeLabel": "January 11, 2023",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.45 (foreground color: #9da7ad, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "relatedNode": {
+                        "type": "node",
+                        "lhId": "1-4-DIV",
+                        "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,ARTICLE,1,DIV",
+                        "selector": "div.owl-stage \u003E div.dt-owl-item \u003E article.post \u003E div.post-entry-content",
+                        "boundingRect": {
+                          "top": 1218,
+                          "bottom": 1467,
+                          "left": 41,
+                          "right": 371,
+                          "width": 330,
+                          "height": 249
+                        },
+                        "snippet": "\u003Cdiv class=\u0022post-entry-content\u0022\u003E",
+                        "nodeLabel": "Optimizely DXP Go Live Check-List\nJanuary 11, 2023\nRead article"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-5-SPAN",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,ARTICLE,1,DIV,2,A,0,SPAN",
+                  "selector": "article.post \u003E div.post-entry-content \u003E a.post-details \u003E span",
+                  "boundingRect": {
+                    "top": 1359,
+                    "bottom": 1374,
+                    "left": 164,
+                    "right": 231,
+                    "width": 68,
+                    "height": 15
+                  },
+                  "snippet": "\u003Cspan\u003E",
+                  "nodeLabel": "Read article",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.92 (foreground color: #ffffff, background color: #24ced8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "relatedNode": {
+                        "type": "node",
+                        "lhId": "1-6-A",
+                        "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,ARTICLE,1,DIV,2,A",
+                        "selector": "div.dt-owl-item \u003E article.post \u003E div.post-entry-content \u003E a.post-details",
+                        "boundingRect": {
+                          "top": 1353,
+                          "bottom": 1382,
+                          "left": 152,
+                          "right": 260,
+                          "width": 109,
+                          "height": 29
+                        },
+                        "snippet": "\u003Ca class=\u0022post-details details-type-btn dt-btn-s dt-btn\u0022 href=\u0022https://buildoptimizely.com/optimizely/optimizely-dxp-go-live-check-list/\u0022 rel=\u0022nofollow\u0022 aria-label=\u0022Read more about Optimizely DXP Go Live Check-List\u0022\u003E",
+                        "nodeLabel": "Read article"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-7-DIV",
+                  "path": "2,HTML,2,BODY,2,DIV,7,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.elementor-widget-wrap \u003E div.elementor-element \u003E div.elementor-widget-container \u003E div.elementor-heading-title",
+                  "boundingRect": {
+                    "top": 1901,
+                    "bottom": 1918,
+                    "left": 30,
+                    "right": 267,
+                    "width": 237,
+                    "height": 17
+                  },
+                  "snippet": "\u003Cdiv class=\u0022elementor-heading-title elementor-size-default\u0022\u003E",
+                  "nodeLabel": "\u00A9 COPYRIGHT 2021 - BUILD OPTIMIZELY",
+                  "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.01 (foreground color: #64676a, background color: #181c20, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "relatedNode": {
+                        "type": "node",
+                        "lhId": "1-8-SECTION",
+                        "path": "2,HTML,2,BODY,2,DIV,7,FOOTER,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,SECTION",
+                        "selector": "div.wf-container \u003E div.elementor \u003E div.elementor-section-wrap \u003E section.elementor-section",
+                        "boundingRect": {
+                          "top": 1871,
+                          "bottom": 1949,
+                          "left": 0,
+                          "right": 412,
+                          "width": 412,
+                          "height": 78
+                        },
+                        "snippet": "\u003Csection class=\u0022elementor-section elementor-top-section elementor-element elementor-elemen\u2026\u0022 data-id=\u0022aa9e649\u0022 data-element_type=\u0022section\u0022 data-settings=\u0022{\u0026quot;background_background\u0026quot;:\u0026quot;classic\u0026quot;}\u0022\u003E",
+                        "nodeLabel": "\u00A9 COPYRIGHT 2021 - BUILD OPTIMIZELY"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143",
+                "TTv5",
+                "TT13.c",
+                "EN-301-549",
+                "EN-9.1.4.3",
+                "ACT"
+              ]
+            }
+          }
+        },
+        "document-title": {
+          "id": "document-title",
+          "title": "Document has a \u0060\u003Ctitle\u003E\u0060 element",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "heading-order": {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-1-H5",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,H5",
+                  "selector": "div.elementor-widget-wrap \u003E div.elementor-element \u003E div.elementor-widget-container \u003E h5.elementor-heading-title",
+                  "boundingRect": {
+                    "top": 841,
+                    "bottom": 866,
+                    "left": 30,
+                    "right": 382,
+                    "width": 352,
+                    "height": 25
+                  },
+                  "snippet": "\u003Ch5 class=\u0022elementor-heading-title elementor-size-default\u0022\u003E",
+                  "nodeLabel": "Latest news \u0026 tutorials",
+                  "explanation": "Fix any of the following:\n  Heading order invalid"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "moderate",
+              "tags": [
+                "cat.semantics",
+                "best-practice"
+              ]
+            }
+          }
+        },
+        "html-has-lang": {
+          "id": "html-has-lang",
+          "title": "\u0060\u003Chtml\u003E\u0060 element has a \u0060[lang]\u0060 attribute",
+          "description": "If a page doesn\u0027t specify a \u0060lang\u0060 attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn\u0027t actually in the default language, then the screen reader might not announce the page\u0027s text correctly. [Learn more about the \u0060lang\u0060 attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "html-lang-valid": {
+          "id": "html-lang-valid",
+          "title": "\u0060\u003Chtml\u003E\u0060 element has a valid value for its \u0060[lang]\u0060 attribute",
+          "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn how to use the \u0060lang\u0060 attribute](https://dequeuniversity.com/rules/axe/4.10/html-lang-valid).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "identical-links-same-purpose": {
+          "id": "identical-links-same-purpose",
+          "title": "Identical links have the same purpose.",
+          "description": "Links with the same destination should have the same description, to help users understand the link\u0027s purpose and decide whether to follow it. [Learn more about identical links](https://dequeuniversity.com/rules/axe/4.10/identical-links-same-purpose).",
+          "score": 1,
+          "scoreDisplayMode": "informative",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-23-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-btn-s",
+                  "boundingRect": {
+                    "top": 540,
+                    "bottom": 570,
+                    "left": -986,
+                    "right": -894,
+                    "width": 92,
+                    "height": 30
+                  },
+                  "snippet": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-rev\u2026\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003E",
+                  "nodeLabel": "Read article",
+                  "explanation": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
+                },
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "relatedNode": {
+                        "type": "node",
+                        "lhId": "1-24-A",
+                        "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,3,A",
+                        "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-btn-s",
+                        "boundingRect": {
+                          "top": 516,
+                          "bottom": 546,
+                          "left": -604,
+                          "right": -512,
+                          "width": 92,
+                          "height": 30
+                        },
+                        "snippet": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-toke\u2026\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003E",
+                        "nodeLabel": "Read article"
+                      }
+                    },
+                    {
+                      "relatedNode": {
+                        "type": "node",
+                        "lhId": "1-25-A",
+                        "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,3,A",
+                        "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-btn-s",
+                        "boundingRect": {
+                          "top": 540,
+                          "bottom": 570,
+                          "left": -222,
+                          "right": -130,
+                          "width": 92,
+                          "height": 30
+                        },
+                        "snippet": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003E",
+                        "nodeLabel": "Read article"
+                      }
+                    },
+                    {
+                      "relatedNode": {
+                        "type": "node",
+                        "lhId": "1-0-A",
+                        "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,3,A",
+                        "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-btn-s",
+                        "boundingRect": {
+                          "top": 540,
+                          "bottom": 570,
+                          "left": 160,
+                          "right": 252,
+                          "width": 92,
+                          "height": 30
+                        },
+                        "snippet": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003E",
+                        "nodeLabel": "Read article"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "minor",
+              "tags": [
+                "cat.semantics",
+                "wcag2aaa",
+                "wcag249"
+              ]
+            }
+          }
+        },
+        "image-alt": {
+          "id": "image-alt",
+          "title": "Image elements have \u0060[alt]\u0060 attributes",
+          "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the \u0060alt\u0060 attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "image-redundant-alt": {
+          "id": "image-redundant-alt",
+          "title": "Image elements do not have \u0060[alt]\u0060 attributes that are redundant text.",
+          "description": "Informative elements should aim for short, descriptive alternative text. Alternative text that is exactly the same as the text adjacent to the link or image is potentially confusing for screen reader users, because the text will be read twice. [Learn more about the \u0060alt\u0060 attribute](https://dequeuniversity.com/rules/axe/4.10/image-redundant-alt).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "label-content-name-mismatch": {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-6-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,ARTICLE,1,DIV,2,A",
+                  "selector": "div.dt-owl-item \u003E article.post \u003E div.post-entry-content \u003E a.post-details",
+                  "boundingRect": {
+                    "top": 1353,
+                    "bottom": 1382,
+                    "left": 152,
+                    "right": 260,
+                    "width": 109,
+                    "height": 29
+                  },
+                  "snippet": "\u003Ca class=\u0022post-details details-type-btn dt-btn-s dt-btn\u0022 href=\u0022https://buildoptimizely.com/optimizely/optimizely-dxp-go-live-check-list/\u0022 rel=\u0022nofollow\u0022 aria-label=\u0022Read more about Optimizely DXP Go Live Check-List\u0022\u003E",
+                  "nodeLabel": "Read article",
+                  "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.semantics",
+                "wcag21a",
+                "wcag253",
+                "EN-301-549",
+                "EN-9.2.5.3",
+                "experimental"
+              ]
+            }
+          }
+        },
+        "link-name": {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-9-A",
+                  "path": "2,HTML,2,BODY,2,DIV,1,DIV,2,DIV,1,DIV,1,DIV,0,FORM,1,A",
+                  "selector": "div.mobile-mini-widgets \u003E div.mini-search \u003E form.searchform \u003E a.submit",
+                  "boundingRect": {
+                    "top": 19,
+                    "bottom": 35,
+                    "left": 300,
+                    "right": 316,
+                    "width": 16,
+                    "height": 16
+                  },
+                  "snippet": "\u003Ca href=\u0022\u0022 class=\u0022submit text-disable\u0022\u003E",
+                  "nodeLabel": "div.mobile-mini-widgets \u003E div.mini-search \u003E form.searchform \u003E a.submit",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-10-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": -960,
+                    "right": -920,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-rev\u2026\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-11-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": -578,
+                    "right": -538,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-toke\u2026\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-12-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": -196,
+                    "right": -156,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-13-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": 186,
+                    "right": 226,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-14-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": 568,
+                    "right": 608,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-featu\u2026\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-15-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": 950,
+                    "right": 990,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-rev\u2026\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-16-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": 1332,
+                    "right": 1372,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-toke\u2026\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-17-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": 1714,
+                    "right": 1754,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-18-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": 2096,
+                    "right": 2136,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-19-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": 2478,
+                    "right": 2518,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-featu\u2026\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-20-A",
+                  "path": "2,HTML,2,BODY,2,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,10,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "boundingRect": {
+                    "top": 378,
+                    "bottom": 418,
+                    "left": 2860,
+                    "right": 2900,
+                    "width": 40,
+                    "height": 40
+                  },
+                  "snippet": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-rev\u2026\u0022 class=\u0022dt-owl-item-icon\u0022\u003E",
+                  "nodeLabel": "div.dt-owl-item \u003E div.dt-owl-item-wrap \u003E div.dt-owl-item-inner \u003E a.dt-owl-item-icon",
+                  "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "serious",
+              "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag244",
+                "wcag412",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT6.a",
+                "EN-301-549",
+                "EN-9.2.4.4",
+                "EN-9.4.1.2",
+                "ACT"
+              ]
+            }
+          }
+        },
+        "meta-viewport": {
+          "id": "meta-viewport",
+          "title": "\u0060[user-scalable=\u0022no\u0022]\u0060 is used in the \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 element or the \u0060[maximum-scale]\u0060 attribute is less than 5.",
+          "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more about the viewport meta tag](https://dequeuniversity.com/rules/axe/4.10/meta-viewport).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-21-META",
+                  "path": "2,HTML,1,HEAD,1,META",
+                  "selector": "head \u003E meta",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\u0022\u003E",
+                  "nodeLabel": "head \u003E meta",
+                  "explanation": "Fix any of the following:\n  user-scalable on \u003Cmeta\u003E tag disables zooming on mobile devices"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "critical",
+              "tags": [
+                "cat.sensory-and-visual-cues",
+                "wcag2aa",
+                "wcag144",
+                "EN-301-549",
+                "EN-9.1.4.4",
+                "ACT"
+              ]
+            }
+          }
+        },
+        "skip-link": {
+          "id": "skip-link",
+          "title": "Skip links are focusable.",
+          "description": "Including a skip link can help users skip to the main content to save time. [Learn more about skip links](https://dequeuniversity.com/rules/axe/4.10/skip-link).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "target-size": {
+          "id": "target-size",
+          "title": "Touch targets have sufficient size and spacing.",
+          "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        }
+      }
+    }
+  ]
+}

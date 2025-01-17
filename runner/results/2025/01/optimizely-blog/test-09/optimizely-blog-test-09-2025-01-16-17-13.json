@@ -1,0 +1,74 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 4.0,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.67,
+      "date": "2025-01-16T17:13:33.385502",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt seems to work. ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap seems to be broken. ( 1.00 rating )\r\n- Sitemap seems to be broken. ( 1.00 rating )\r\n- security.txt seems to work. ( 5.00 rating )\r\n",
+      "data": {
+        "url": "https://optimizely.blog/",
+        "root_url": "https://optimizely.blog/",
+        "robots": {
+          "url": "https://optimizely.blog/robots.txt",
+          "content": "User-agent: *\r\nSitemap: https://optimizely.blog/sitemap_blog.xml\r\n\r\nDisallow: /Errors/\r\nDisallow: /App_Data/\r\nDisallow: /bin/\r\nDisallow: /ClientResources/\r\nDisallow: /Content/\r\nDisallow: /episerver/\r\nDisallow: /modules/\r\nDisallow: /modulesbin/\r\nDisallow: /Resources/\r\nDisallow: /Scripts/\r\nDisallow: /Util/",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 1,
+          "sitemap_urls_in_robots": [
+            "https://optimizely.blog/sitemap_blog.xml"
+          ],
+          "sitemaps": {
+            "https://optimizely.blog/sitemap_blog.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {},
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 0,
+              "nof_items_no_duplicates": 0,
+              "known_types_details": {}
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {},
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 0,
+          "nof_items_no_duplicates": 0,
+          "known_types_details": {},
+          "sitemapindexes": [],
+          "status": "sitemap(s) seem to be broken"
+        },
+        "feeds": {
+          "nof_feeds": 1,
+          "feeds": [
+            "https://optimizely.blog/feed/"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://optimizely.blog/.well-known/security.txt": {
+              "status": "ok"
+            },
+            "https://optimizely.blog/security.txt": {
+              "status": "ok"
+            }
+          },
+          "status": "ok"
+        }
+      }
+    }
+  ]
+}

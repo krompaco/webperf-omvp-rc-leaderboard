@@ -1,0 +1,158 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 4.0,
+      "rating_sec": 1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.67,
+      "date": "2025-01-16T17:53:54.081233",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, No duplicate Urls in \u003Cloc\u003E ( 5.00 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "data": {
+        "url": "https://optimizelymvp.com/",
+        "root_url": "https://optimizelymvp.com/",
+        "robots": {
+          "url": "https://mattcdunn.com/robots.txt",
+          "content": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://mattcdunn.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 1,
+          "sitemap_urls_in_robots": [
+            "https://mattcdunn.com/sitemap_index.xml"
+          ],
+          "sitemaps": {
+            "https://mattcdunn.com/author-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 1
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 1,
+              "nof_items_no_duplicates": 1,
+              "known_types_details": {
+                "webpage": [
+                  "https://mattcdunn.com/author/matthew-dunn/"
+                ]
+              }
+            },
+            "https://mattcdunn.com/category-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 18
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 18,
+              "nof_items_no_duplicates": 18,
+              "known_types_details": {
+                "webpage": [
+                  "https://mattcdunn.com/topics/optimizely/",
+                  "https://mattcdunn.com/topics/optimizely/certification/",
+                  "https://mattcdunn.com/topics/optimizely/community-api/",
+                  "https://mattcdunn.com/topics/optimizely/dxp/",
+                  "https://mattcdunn.com/topics/optimizely/experiment/",
+                  "https://mattcdunn.com/topics/optimizely/experiment/feature-experimentation/",
+                  "https://mattcdunn.com/topics/optimizely/experiment/web-experimentation/",
+                  "https://mattcdunn.com/topics/optimizely/monetize/",
+                  "https://mattcdunn.com/topics/optimizely/monetize/configured-commerce/",
+                  "https://mattcdunn.com/topics/optimizely/monetize/configured-commerce/foundation/",
+                  "https://mattcdunn.com/topics/optimizely/monetize/customized-commerce/",
+                  "https://mattcdunn.com/topics/optimizely/optimizelyone/",
+                  "https://mattcdunn.com/topics/optimizely/orchestrate/",
+                  "https://mattcdunn.com/topics/optimizely/orchestrate/content-management-system/",
+                  "https://mattcdunn.com/topics/optimizely/orchestrate/content-management-system/alloy/",
+                  "https://mattcdunn.com/topics/optimizely/orchestrate/content-management-system/cms12/",
+                  "https://mattcdunn.com/topics/optimizely/orchestrate/content-marketing-platform/",
+                  "https://mattcdunn.com/topics/optimizely/search-and-navigation/"
+                ]
+              }
+            },
+            "https://mattcdunn.com/post-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 11
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 11,
+              "nof_items_no_duplicates": 11,
+              "known_types_details": {
+                "webpage": [
+                  "https://mattcdunn.com/",
+                  "https://mattcdunn.com/gap-analysis-in-optimizely-web-experimentation/",
+                  "https://mattcdunn.com/how-to-install-optimizely-foundation/",
+                  "https://mattcdunn.com/how-to-install-optimizely/",
+                  "https://mattcdunn.com/minimum-detectable-effect-in-optimizely-web-experimentation/",
+                  "https://mattcdunn.com/optimizely-certifications/",
+                  "https://mattcdunn.com/optimizely-platinum-partner/",
+                  "https://mattcdunn.com/optimizely-web-experimentation-metrics/",
+                  "https://mattcdunn.com/what-is-optimizely-full-stack/",
+                  "https://mattcdunn.com/what-is-optimizely/",
+                  "https://mattcdunn.com/what-is-optimizelyone/"
+                ]
+              }
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 11
+          },
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 30,
+          "nof_items_no_duplicates": 30,
+          "known_types_details": {
+            "webpage": [
+              "https://mattcdunn.com/",
+              "https://mattcdunn.com/gap-analysis-in-optimizely-web-experimentation/",
+              "https://mattcdunn.com/how-to-install-optimizely-foundation/",
+              "https://mattcdunn.com/how-to-install-optimizely/",
+              "https://mattcdunn.com/minimum-detectable-effect-in-optimizely-web-experimentation/",
+              "https://mattcdunn.com/optimizely-certifications/",
+              "https://mattcdunn.com/optimizely-platinum-partner/",
+              "https://mattcdunn.com/optimizely-web-experimentation-metrics/",
+              "https://mattcdunn.com/what-is-optimizely-full-stack/",
+              "https://mattcdunn.com/what-is-optimizely/",
+              "https://mattcdunn.com/what-is-optimizelyone/"
+            ]
+          },
+          "sitemapindexes": [
+            "https://mattcdunn.com/sitemap_index.xml"
+          ],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 2,
+          "feeds": [
+            "https://mattcdunn.com/feed/",
+            "https://mattcdunn.com/comments/feed/"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://optimizelymvp.com/.well-known/security.txt": {
+              "status": "wrong content"
+            },
+            "https://optimizelymvp.com/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "wrong content"
+        }
+      }
+    }
+  ]
+}

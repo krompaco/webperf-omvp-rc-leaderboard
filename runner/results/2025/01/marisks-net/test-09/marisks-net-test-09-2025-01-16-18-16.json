@@ -1,0 +1,58 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 2.88,
+      "rating_sec": 1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 2.33,
+      "date": "2025-01-16T18:17:01.823185",
+      "report": "- RSS subscription is missing in the HTML\u0027s metadata. ( 4.50 rating )\r\n",
+      "report_sec": "- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap is not specified in robots.txt ( 1.00 rating )\r\n- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "data": {
+        "url": "https://marisks.net/",
+        "root_url": "https://marisks.net/",
+        "robots": {
+          "url": "https://marisks.net/robots.txt",
+          "content": "# robotstxt.org/\n\nUser-agent: *\n",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 0,
+          "sitemap_urls_in_robots": [],
+          "sitemaps": {},
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {},
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 0,
+          "nof_items_no_duplicates": 0,
+          "known_types_details": {},
+          "status": "not in robots.txt"
+        },
+        "feeds": {
+          "nof_feeds": 0,
+          "feeds": [],
+          "status": "not in meta"
+        },
+        "security": {
+          "txts": {
+            "https://marisks.net/.well-known/security.txt": {
+              "status": "wrong content"
+            },
+            "https://marisks.net/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "wrong content"
+        }
+      }
+    }
+  ]
+}

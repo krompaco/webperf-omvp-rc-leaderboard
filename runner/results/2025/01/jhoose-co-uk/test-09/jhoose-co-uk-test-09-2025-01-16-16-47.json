@@ -1,0 +1,134 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 3.88,
+      "rating_sec": 1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.5,
+      "date": "2025-01-16T16:47:16.576363",
+      "report": "- RSS subscription found in webpage metadata. ( 5.00 rating )\r\n",
+      "report_sec": "- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- robots.txt seems ok. ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is starting with https:// ( 5.00 rating )\r\n- Sitemap, Url in \u003Cloc\u003E is using same domain as robots.txt ( 5.00 rating )\r\n- Sitemap, No duplicate Urls in \u003Cloc\u003E ( 5.00 rating )\r\n- Sitemap, is only listing webpages ( 5.00 rating )\r\n- Sitemap(s) are only specified once ( 5.00 rating )\r\n- Sitemap, is under 50 000 items ( 5.00 rating )\r\n- Sitemap seems to be broken. ( 1.00 rating )\r\n- The Sitemap is neither good or bad. ( 5.00 rating )\r\n- security.txt has incorrect content. ( 1.00 rating )\r\n",
+      "data": {
+        "url": "https://jhoose.co.uk/",
+        "root_url": "https://jhoose.co.uk/",
+        "robots": {
+          "url": "https://jhoose.co.uk/robots.txt",
+          "content": "# If you are regularly crawling WordPress.com sites, please use our firehose to receive real-time push updates instead.\n# Please see https://developer.wordpress.com/docs/firehose/ for more details.\n\nSitemap: https://jhoose.co.uk/sitemap.xml\nSitemap: https://jhoose.co.uk/news-sitemap.xml\n\nUser-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /wp-login.php\nDisallow: /wp-signup.php\nDisallow: /press-this.php\nDisallow: /remote-login.php\nDisallow: /activate/\nDisallow: /cgi-bin/\nDisallow: /mshots/v1/\nDisallow: /next/\nDisallow: /public.api/\n\n# This file was generated on Sun, 15 Dec 2024 23:58:59 \u002B0000\n",
+          "status": "ok"
+        },
+        "sitemap": {
+          "nof_sitemaps": 2,
+          "sitemap_urls_in_robots": [
+            "https://jhoose.co.uk/sitemap.xml",
+            "https://jhoose.co.uk/news-sitemap.xml"
+          ],
+          "sitemaps": {
+            "https://jhoose.co.uk/sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {
+                "webpage": 19
+              },
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 19,
+              "nof_items_no_duplicates": 19,
+              "known_types_details": {
+                "webpage": [
+                  "https://jhoose.co.uk",
+                  "https://jhoose.co.uk/2021/09/26/clone-images-from-your-production-website-using-an-imageresizer-plugin/",
+                  "https://jhoose.co.uk/2021/11/01/introducing-jhoose-security-a-module-to-manage-your-content-security-policy/",
+                  "https://jhoose.co.uk/2021/11/01/managing-content-security-policy-of-your-site/",
+                  "https://jhoose.co.uk/2022/02/28/jhoose-security-update-to-include-recommended-security-headers/",
+                  "https://jhoose.co.uk/2022/04/22/jhoose-security-updated-to-support-episerver-11/",
+                  "https://jhoose.co.uk/2022/04/27/optimizely-data-platform-visitor-groups/",
+                  "https://jhoose.co.uk/2022/06/12/creating-a-cross-platform-package-part-1/",
+                  "https://jhoose.co.uk/2022/06/25/creating-a-cross-platform-package-part-2/",
+                  "https://jhoose.co.uk/2022/06/27/geta-seo-sitemaps-sitemapindex-generation/",
+                  "https://jhoose.co.uk/2023/02/05/rolling-your-site-out-to-china/",
+                  "https://jhoose.co.uk/2023/03/05/exploring-the-optimizely-graphql-api-to-deliver-a-high-performing-static-site-part-1/",
+                  "https://jhoose.co.uk/2024/02/19/introducing-jhoose-security-module-v2-0/",
+                  "https://jhoose.co.uk/2024/03/09/building-your-own-semantic-search-implementation/",
+                  "https://jhoose.co.uk/2024/05/15/optimizely-data-platform-visitor-groups-now-supports-multiple-instances/",
+                  "https://jhoose.co.uk/2024/08/18/jhoose-security-v2-3-1-released/",
+                  "https://jhoose.co.uk/2024/09/25/optimizely-dam-an-introduction/",
+                  "https://jhoose.co.uk/2024/09/28/integrating-optimizely-dam-with-your-website/",
+                  "https://jhoose.co.uk/welcome-2/"
+                ]
+              }
+            },
+            "https://jhoose.co.uk/news-sitemap.xml": {
+              "use_https_only": true,
+              "use_same_domain": true,
+              "known_types": {},
+              "has_duplicates_items": false,
+              "is_duplicate": false,
+              "nof_items": 0,
+              "nof_items_no_duplicates": 0,
+              "known_types_details": {}
+            }
+          },
+          "use_https_only": true,
+          "use_same_domain": true,
+          "known_types": {
+            "webpage": 19
+          },
+          "has_duplicates_items": false,
+          "is_duplicate": false,
+          "nof_items": 19,
+          "nof_items_no_duplicates": 19,
+          "known_types_details": {
+            "webpage": [
+              "https://jhoose.co.uk",
+              "https://jhoose.co.uk/2021/09/26/clone-images-from-your-production-website-using-an-imageresizer-plugin/",
+              "https://jhoose.co.uk/2021/11/01/introducing-jhoose-security-a-module-to-manage-your-content-security-policy/",
+              "https://jhoose.co.uk/2021/11/01/managing-content-security-policy-of-your-site/",
+              "https://jhoose.co.uk/2022/02/28/jhoose-security-update-to-include-recommended-security-headers/",
+              "https://jhoose.co.uk/2022/04/22/jhoose-security-updated-to-support-episerver-11/",
+              "https://jhoose.co.uk/2022/04/27/optimizely-data-platform-visitor-groups/",
+              "https://jhoose.co.uk/2022/06/12/creating-a-cross-platform-package-part-1/",
+              "https://jhoose.co.uk/2022/06/25/creating-a-cross-platform-package-part-2/",
+              "https://jhoose.co.uk/2022/06/27/geta-seo-sitemaps-sitemapindex-generation/",
+              "https://jhoose.co.uk/2023/02/05/rolling-your-site-out-to-china/",
+              "https://jhoose.co.uk/2023/03/05/exploring-the-optimizely-graphql-api-to-deliver-a-high-performing-static-site-part-1/",
+              "https://jhoose.co.uk/2024/02/19/introducing-jhoose-security-module-v2-0/",
+              "https://jhoose.co.uk/2024/03/09/building-your-own-semantic-search-implementation/",
+              "https://jhoose.co.uk/2024/05/15/optimizely-data-platform-visitor-groups-now-supports-multiple-instances/",
+              "https://jhoose.co.uk/2024/08/18/jhoose-security-v2-3-1-released/",
+              "https://jhoose.co.uk/2024/09/25/optimizely-dam-an-introduction/",
+              "https://jhoose.co.uk/2024/09/28/integrating-optimizely-dam-with-your-website/",
+              "https://jhoose.co.uk/welcome-2/"
+            ]
+          },
+          "sitemapindexes": [],
+          "status": "sitemap(s) seem ok"
+        },
+        "feeds": {
+          "nof_feeds": 2,
+          "feeds": [
+            "https://jhoose.co.uk/feed/",
+            "https://jhoose.co.uk/comments/feed/"
+          ],
+          "status": "found in meta"
+        },
+        "security": {
+          "txts": {
+            "https://jhoose.co.uk/.well-known/security.txt": {
+              "status": "wrong content"
+            },
+            "https://jhoose.co.uk/security.txt": {
+              "status": "wrong content"
+            }
+          },
+          "status": "wrong content"
+        }
+      }
+    }
+  ]
+}
