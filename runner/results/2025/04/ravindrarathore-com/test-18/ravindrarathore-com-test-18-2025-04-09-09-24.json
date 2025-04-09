@@ -1,0 +1,391 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 1.65,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 1.65,
+      "rating_stand": -1.0,
+      "date": "2025-04-09T09:24:57.779520",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 15 ( 2.00 rating )\r\n- Number of issues: 37 ( 1.30 rating )\r\n\n##### Problems:\n- Iframe element requires a non-empty title attribute that identifies the frame.\n- A textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.31:1. Recommendation:  change text colour to #767676.\n- A form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.35:1. Recommendation:  change text colour to #000205.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.64:1. Recommendation:  change text colour to #717171.\n- A textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.9:1. Recommendation:  change text colour to #767676.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.67:1. Recommendation:  change text colour to #c97f00.\n- Info: Too many unique problems to list them all.\n",
+      "report_stand": "",
+      "data": [
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022#\u0022 id=\u0022scroll\u0022 style=\u0022display: none;\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/a\u003E",
+          "selector": "#scroll",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022pb_5 banner_title color_white\u0022\u003EI Am Ravindra Rathore!\u003C/span\u003E",
+          "selector": "#main_banner \u003E div \u003E div \u003E div \u003E div \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.",
+          "context": "\u003Cspan class=\u0022color_white\u0022\u003EI am a\u003C/span\u003E",
+          "selector": "#main_banner \u003E div \u003E div \u003E div \u003E div \u003E h1 \u003E span:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.79:1. Recommendation:  change text colour to #d08400.",
+          "context": "\u003Cb class=\u0022is-visible\u0022\u003EWeb Consultant\u003C/b\u003E",
+          "selector": "#main_banner \u003E div \u003E div \u003E div \u003E div \u003E h1 \u003E span:nth-child(2) \u003E b:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.79:1. Recommendation:  change text colour to #d08400.",
+          "context": "\u003Cspan class=\u0022line_double mx-auto color_default\u0022\u003Eabout\u003C/span\u003E",
+          "selector": "#about \u003E div \u003E div:nth-child(1) \u003E div \u003E div \u003E h2 \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.9:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cp\u003ECertified Optimizely(Episerver)...\u003C/p\u003E",
+          "selector": "#about \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E p:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.9:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cp\u003ESkilled in Optimizely(Episerver...\u003C/p\u003E",
+          "selector": "#about \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E p:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.9:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022color_secondery\u0022\u003EName :\u003C/span\u003E",
+          "selector": "#about \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E ul \u003E li:nth-child(1) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.9:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022color_secondery\u0022\u003EEmail :\u003C/span\u003E",
+          "selector": "#about \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E ul \u003E li:nth-child(2) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.9:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022color_secondery\u0022\u003EPhone :\u003C/span\u003E",
+          "selector": "#about \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.9:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cspan class=\u0022color_secondery\u0022\u003ECurrent Location :\u003C/span\u003E",
+          "selector": "#about \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.79:1. Recommendation:  change text colour to #d08400.",
+          "context": "\u003Cspan class=\u0022line_double mx-auto color_default\u0022\u003EAchievements\u003C/span\u003E",
+          "selector": "#certifications \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E h2 \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.31:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cstrong\u003E01.\u003C/strong\u003E",
+          "selector": "#certifications \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E strong",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.31:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cstrong\u003E02.\u003C/strong\u003E",
+          "selector": "#certifications \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E strong",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.31:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cstrong\u003E03.\u003C/strong\u003E",
+          "selector": "#certifications \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E div:nth-child(3) \u003E div \u003E div:nth-child(1) \u003E strong",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.31:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cstrong\u003E04.\u003C/strong\u003E",
+          "selector": "#certifications \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E div:nth-child(4) \u003E div \u003E div:nth-child(1) \u003E strong",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.31:1. Recommendation:  change text colour to #767676.",
+          "context": "\u003Cstrong\u003E05.\u003C/strong\u003E",
+          "selector": "#certifications \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E strong",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.67:1. Recommendation:  change text colour to #c97f00.",
+          "context": "\u003Cspan class=\u0022line_double mx-auto color_default\u0022\u003Eskill\u003C/span\u003E",
+          "selector": "#skill \u003E div \u003E div:nth-child(1) \u003E div \u003E div \u003E h2 \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.64:1. Recommendation:  change text colour to #717171.",
+          "context": "\u003Cp class=\u0022pt_15\u0022\u003EStrong interpersonal and commun...\u003C/p\u003E",
+          "selector": "#skill \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E p:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.64:1. Recommendation:  change text colour to #717171.",
+          "context": "\u003Cp class=\u0022pt_15\u0022\u003EExperience in designing and dev...\u003C/p\u003E",
+          "selector": "#skill \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E p:nth-child(3)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.35:1. Recommendation:  change text colour to #000205.",
+          "context": "\u003Cdiv class=\u0022skill-percent\u0022\u003E\u003Cspan class=\u0022count-num\u0022 data-sp...\u003C/div\u003E",
+          "selector": "#skill \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.35:1. Recommendation:  change text colour to #000205.",
+          "context": "\u003Cspan class=\u0022count-num\u0022 data-speed=\u00223000\u0022 data-stop=\u0022100\u0022\u003E0\u003C/span\u003E",
+          "selector": "#skill \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://www.facebook.com/ravi.udawat\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-facebook\u0022 aria-...\u003C/a\u003E",
+          "selector": "#contact \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://twitter.com/_rrathore\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-twitter\u0022 aria-h...\u003C/a\u003E",
+          "selector": "#contact \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://www.linkedin.com/in/ravindrarathore\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-linkedin\u0022 aria-...\u003C/a\u003E",
+          "selector": "#contact \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://www.instagram.com/ravindra_singh_udawat/\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-instagram\u0022 aria...\u003C/a\u003E",
+          "selector": "#contact \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E ul \u003E li:nth-child(4) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cinput class=\u0022form-control\u0022 type=\u0022text\u0022 name=\u0022name\u0022 placeholder=\u0022Your Name\u0022\u003E",
+          "selector": "#contact-form \u003E div \u003E div:nth-child(1) \u003E div \u003E input",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+          "context": "\u003Cinput class=\u0022form-control\u0022 type=\u0022text\u0022 name=\u0022name\u0022 placeholder=\u0022Your Name\u0022\u003E",
+          "selector": "#contact-form \u003E div \u003E div:nth-child(1) \u003E div \u003E input",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This emailinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cinput class=\u0022form-control\u0022 type=\u0022email\u0022 name=\u0022email\u0022 placeholder=\u0022Email Address\u0022\u003E",
+          "selector": "#contact-form \u003E div \u003E div:nth-child(2) \u003E div \u003E input",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Cinput class=\u0022form-control\u0022 type=\u0022text\u0022 name=\u0022subject\u0022 placeholder=\u0022Subject\u0022\u003E",
+          "selector": "#contact-form \u003E div \u003E div:nth-child(3) \u003E div \u003E input",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+          "context": "\u003Cinput class=\u0022form-control\u0022 type=\u0022text\u0022 name=\u0022subject\u0022 placeholder=\u0022Subject\u0022\u003E",
+          "selector": "#contact-form \u003E div \u003E div:nth-child(3) \u003E div \u003E input",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Ctextarea class=\u0022form-control\u0022 name=\u0022message\u0022 rows=\u00227\u0022 placeholder=\u0022Message\u0022\u003E\u003C/textarea\u003E",
+          "selector": "#contact-form \u003E div \u003E div:nth-child(4) \u003E div \u003E textarea",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+          "context": "\u003Ctextarea class=\u0022form-control\u0022 name=\u0022message\u0022 rows=\u00227\u0022 placeholder=\u0022Message\u0022\u003E\u003C/textarea\u003E",
+          "selector": "#contact-form \u003E div \u003E div:nth-child(4) \u003E div \u003E textarea",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.71:1. Recommendation:  change text colour to #006ee4.",
+          "context": "\u003Ca href=\u0022/\u0022 target=\u0022_blank\u0022\u003E\u00A9 Ravindra Rathore 2023\u003C/a\u003E",
+          "selector": "#page_wrapper \u003E div \u003E footer \u003E div \u003E div \u003E div \u003E div \u003E p \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "context": "\u003Ctextarea id=\u0022g-recaptcha-response-100000\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+          "selector": "#g-recaptcha-response-100000",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+          "context": "\u003Ctextarea id=\u0022g-recaptcha-response-100000\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+          "selector": "#g-recaptcha-response-100000",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe style=\u0022display: none;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "#top \u003E div:nth-child(11) \u003E iframe",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    }
+  ]
+}

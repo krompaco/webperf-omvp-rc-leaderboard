@@ -1,0 +1,1101 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 5,
+      "rating": 3.95,
+      "rating_sec": 4.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2025-04-09T08:31:58.393642",
+      "report": "- About average on following best practice\n- Uses third-party cookies ( 1.00 rating )\r\n- Uses HTTPS ( 5.00 rating )\r\n- Avoids deprecated APIs ( 5.00 rating )\r\n- Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools ( 1.00 rating )\r\n- Allows users to paste into input fields ( 5.00 rating )\r\n- Has a \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 tag with \u0060width\u0060 or \u0060initial-scale\u0060 ( 5.00 rating )\r\n- No browser errors logged to the console ( 5.00 rating )\r\n- Displays images with correct aspect ratio ( 5.00 rating )\r\n- Serves images with appropriate resolution ( 5.00 rating )\r\n- Page has the HTML doctype ( 5.00 rating )\r\n- Properly defines charset ( 5.00 rating )\r\n- Avoids requesting the geolocation permission on page load ( 5.00 rating )\r\n- Avoids requesting the notification permission on page load ( 5.00 rating )\r\n- Document uses legible font sizes ( 5.00 rating )\r\n- Page has valid source maps ( 5.00 rating )\r\n- Ensure CSP is effective against XSS attacks ( 5.00 rating )\r\n- Use a strong HSTS policy ( 5.00 rating )\r\n- Ensure proper origin isolation with COOP ( 5.00 rating )\r\n- Detected JavaScript libraries ( 5.00 rating )\r\n",
+      "report_sec": "- Uses HTTPS ( 5.00 rating )\r\n- Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools ( 1.00 rating )\r\n- Allows users to paste into input fields ( 5.00 rating )\r\n- Ensure CSP is effective against XSS attacks ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Page has the HTML doctype ( 5.00 rating )\r\n",
+      "data": {
+        "is-on-https": {
+          "id": "is-on-https",
+          "title": "Uses HTTPS",
+          "description": "All sites should be protected with HTTPS, even ones that don\u0027t handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "viewport": {
+          "id": "viewport",
+          "title": "Has a \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 tag with \u0060width\u0060 or \u0060initial-scale\u0060",
+          "description": "A \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 not only optimizes your app for mobile screen sizes, but also prevents [a 300 millisecond delay to user input](https://developer.chrome.com/blog/300ms-tap-delay-gone-away/). [Learn more about using the viewport meta tag](https://developer.chrome.com/docs/lighthouse/pwa/viewport/).",
+          "score": 1,
+          "scoreDisplayMode": "metricSavings",
+          "warnings": [],
+          "metricSavings": {
+            "INP": 0
+          },
+          "details": {
+            "type": "debugdata",
+            "viewportContent": "width=device-width, initial-scale=1"
+          },
+          "guidanceLevel": 3
+        },
+        "errors-in-console": {
+          "id": "errors-in-console",
+          "title": "No browser errors logged to the console",
+          "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "image-aspect-ratio": {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with correct aspect ratio",
+          "description": "Image display dimensions should match natural aspect ratio. [Learn more about image aspect ratio](https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "image-size-responsive": {
+          "id": "image-size-responsive",
+          "title": "Serves images with appropriate resolution",
+          "description": "Image natural dimensions should be proportional to the display size and the pixel ratio to maximize image clarity. [Learn how to provide responsive images](https://web.dev/articles/serve-responsive-images).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "deprecations": {
+          "id": "deprecations",
+          "title": "Avoids deprecated APIs",
+          "description": "Deprecated APIs will eventually be removed from the browser. [Learn more about deprecated APIs](https://developer.chrome.com/docs/lighthouse/best-practices/deprecations/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "third-party-cookies": {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "description": "Chrome is moving towards a new experience that allows users to choose to browse without third-party cookies. [Learn more about third-party cookies](https://developers.google.com/privacy-sandbox/cookies).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "displayValue": "1 cookie found",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "name",
+                "valueType": "text",
+                "label": "Name"
+              },
+              {
+                "key": "url",
+                "valueType": "url",
+                "label": "URL"
+              }
+            ],
+            "items": [
+              {
+                "name": "NID",
+                "url": "https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"
+              }
+            ]
+          }
+        },
+        "valid-source-maps": {
+          "id": "valid-source-maps",
+          "title": "Page has valid source maps",
+          "description": "Source maps translate minified code to the original source code. This helps developers debug in production. In addition, Lighthouse is able to provide further insights. Consider deploying source maps to take advantage of these benefits. [Learn more about source maps](https://developer.chrome.com/docs/devtools/javascript/source-maps/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "scriptUrl",
+                "valueType": "url",
+                "subItemsHeading": {
+                  "key": "error"
+                },
+                "label": "URL"
+              },
+              {
+                "key": "sourceMapUrl",
+                "valueType": "url",
+                "label": "Map URL"
+              }
+            ],
+            "items": [
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-SuperHub.3432b44653552d31effc.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-SuperHub.3432b44653552d31effc.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-SuperHub-Routes.075ec617cea13d96123e.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-SuperHub-Routes.075ec617cea13d96123e.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/main.c747f8600a23a3505696.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/main.c747f8600a23a3505696.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/9772.89a3e895d3051e33cd73.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/9772.89a3e895d3051e33cd73.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/7372.fbd27ab77e6e47de9931.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/7372.fbd27ab77e6e47de9931.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/734.2949e3d7010fa5c21ffd.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/734.2949e3d7010fa5c21ffd.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/5948.a51402657e2eb40ab43b.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/5948.a51402657e2eb40ab43b.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/5359.fb0c48929b1827a8a2b2.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/5359.fb0c48929b1827a8a2b2.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/1008.02016b8c0f9bccfeb582.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/1008.02016b8c0f9bccfeb582.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "error": "Error: Timed out fetching resource"
+                    }
+                  ]
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.segment.com/next-integrations/integrations/visual-tagger/0.3.5/visual-tagger.dynamic.js.gz",
+                "sourceMapUrl": "https://cdn.segment.com/next-integrations/integrations/visual-tagger/0.3.5/visual-tagger.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.segment.com/next-integrations/integrations/vendor/commons.a61d7bea37d2de5d4b69.js.gz",
+                "sourceMapUrl": "https://cdn.segment.com/next-integrations/integrations/vendor/commons.a61d7bea37d2de5d4b69.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.segment.com/next-integrations/integrations/optimizely/3.5.1/optimizely.dynamic.js.gz",
+                "sourceMapUrl": "https://cdn.segment.com/next-integrations/integrations/optimizely/3.5.1/optimizely.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.segment.com/next-integrations/integrations/google-analytics/2.18.5/google-analytics.dynamic.js.gz",
+                "sourceMapUrl": "https://cdn.segment.com/next-integrations/integrations/google-analytics/2.18.5/google-analytics.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.segment.com/analytics.js/v1/CB6Y3IeKJlVNK2YHtbfC7BG2x2BBvInk/analytics.min.js",
+                "sourceMapUrl": "https://cdn.segment.com/analytics.js/v1/CB6Y3IeKJlVNK2YHtbfC7BG2x2BBvInk/standalone.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.5c2661f67b4b71a6d9bd.js",
+                "sourceMapUrl": "https://cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.5c2661f67b4b71a6d9bd.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.ed53a26b6edc80c65d73.js",
+                "sourceMapUrl": "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.ed53a26b6edc80c65d73.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-Tutorials.c83f9bb228d60f5f7f6b.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-Tutorials.c83f9bb228d60f5f7f6b.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-Reference.a6b1c6bee69d46fd161f.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-Reference.a6b1c6bee69d46fd161f.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-PageNotFound.e4a4a4dbb41ce1f8c60f.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-PageNotFound.e4a4a4dbb41ce1f8c60f.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-Landing.43a15229736801911d5a.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-Landing.43a15229736801911d5a.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-Doc.ab23d1cf8ea817ed6084.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-Doc.ab23d1cf8ea817ed6084.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-Discuss.9a682a77c9083927aeaf.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-Discuss.9a682a77c9083927aeaf.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/routes-Changelog.05be16260f5ffacc35a3.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/routes-Changelog.05be16260f5ffacc35a3.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/RMDX.6966846032c03969e44f.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/RMDX.6966846032c03969e44f.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/Post.0ba0ba3778e78d8254e8.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/Post.0ba0ba3778e78d8254e8.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/Page.6d18db72aa3774dd903a.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/Page.6d18db72aa3774dd903a.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/New.19db37c76f3b9d17353d.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/New.19db37c76f3b9d17353d.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/List.b1dd4485529aa4a7aa11.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/List.b1dd4485529aa4a7aa11.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/Header.415a3e3f42422a2546f5.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/Header.415a3e3f42422a2546f5.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/Footer.732d39065ba473dca3be.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/Footer.732d39065ba473dca3be.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/Editor.f0fbfe8cf506fb99d573.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/Editor.f0fbfe8cf506fb99d573.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/CustomPage.29543915f3e70fa960d7.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/CustomPage.29543915f3e70fa960d7.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-x-circle-svg.abc0e0ea5b7f9dff667c.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-x-circle-svg.abc0e0ea5b7f9dff667c.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-webhook-svg.fe540ea1c09e1c0e0247.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-webhook-svg.fe540ea1c09e1c0e0247.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-trending-up-svg.0dd920b0698e57f75afa.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-trending-up-svg.0dd920b0698e57f75afa.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-suggested-edits-svg.8d2d8ac2fd22ded9238d.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-suggested-edits-svg.8d2d8ac2fd22ded9238d.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-star-svg.b834e1612cb2af1e174e.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-star-svg.b834e1612cb2af1e174e.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-search-svg.ad9cac962958d30983a7.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-search-svg.ad9cac962958d30983a7.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-more-vertical-svg.4822b3f831e11095980d.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-more-vertical-svg.4822b3f831e11095980d.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-lock-svg.70942d3ee6bad6267696.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-lock-svg.70942d3ee6bad6267696.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-inbox-svg.01c2ecb759e417a98bb8.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-inbox-svg.01c2ecb759e417a98bb8.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-eye-off-svg.b2b8b241b4b324dfd9c1.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-eye-off-svg.b2b8b241b4b324dfd9c1.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-custom-pages-svg.444e514638d9afbec182.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-custom-pages-svg.444e514638d9afbec182.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-chevron-up-down-svg.6aae957df71e6f4c5e24.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-chevron-up-down-svg.6aae957df71e6f4c5e24.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-chevron-down-svg.e20b84e9871bd73d1b8c.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-chevron-down-svg.e20b84e9871bd73d1b8c.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-callout-info-svg.79b14e8568c9cecbc827.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-callout-info-svg.79b14e8568c9cecbc827.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-arrow-up-right-svg.8ec73f7e322d79a2695b.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-arrow-up-right-svg.8ec73f7e322d79a2695b.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-arrow-right-svg.eadb74658f93b4e7d75f.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-arrow-right-svg.eadb74658f93b4e7d75f.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/core-icons-alert-circle-svg.4cee8264c97045599b56.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/core-icons-alert-circle-svg.4cee8264c97045599b56.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/954.53ce7f86793664155f78.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/954.53ce7f86793664155f78.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/9321.7bab74274e71e18bb347.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/9321.7bab74274e71e18bb347.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/8230.776279fe7bfd3c0ffd09.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/8230.776279fe7bfd3c0ffd09.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/7783.54e7cbd61e710313e1e0.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/7783.54e7cbd61e710313e1e0.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/7717.c3f46aef4dac129abcfb.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/7717.c3f46aef4dac129abcfb.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/7449.dae0332305a8704415a6.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/7449.dae0332305a8704415a6.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/7188.f444adf64944d115c52b.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/7188.f444adf64944d115c52b.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/6601.cef2fa12a9b5e2b9df03.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/6601.cef2fa12a9b5e2b9df03.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/6563.fbd3d15eee3b5e94f665.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/6563.fbd3d15eee3b5e94f665.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/5753.72c5d7402efc1cfa5881.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/5753.72c5d7402efc1cfa5881.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/4904.1067704c85da57778e22.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/4904.1067704c85da57778e22.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/4287.916cdd386055d2c5d238.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/4287.916cdd386055d2c5d238.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/4201.e0003cba7c0cb3d85c96.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/4201.e0003cba7c0cb3d85c96.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/3906.b84848dda7e7f59abf47.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/3906.b84848dda7e7f59abf47.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/3901.9a23139e8c32bd6a1186.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/3901.9a23139e8c32bd6a1186.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/3073.ef6aff2d0ae6023765f1.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/3073.ef6aff2d0ae6023765f1.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/2637.d47bf77a75f266a70e80.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/2637.d47bf77a75f266a70e80.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/2395.771431a607874f268eb2.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/2395.771431a607874f268eb2.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/2249.08687f22f6d6de29577d.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/2249.08687f22f6d6de29577d.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/187.23cea47109f7f88417f6.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/187.23cea47109f7f88417f6.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/1167.a6c63c62c8690225da20.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/1167.a6c63c62c8690225da20.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              },
+              {
+                "scriptUrl": "https://cdn.readme.io/public/hub/web/1126.9d43ffa1039df16a8271.js",
+                "sourceMapUrl": "https://cdn.readme.io/public/hub/web/1126.9d43ffa1039df16a8271.js.map",
+                "subItems": {
+                  "type": "subitems",
+                  "items": []
+                }
+              }
+            ]
+          }
+        },
+        "csp-xss": {
+          "id": "csp-xss",
+          "title": "Ensure CSP is effective against XSS attacks",
+          "description": "A strong Content Security Policy (CSP) significantly reduces the risk of cross-site scripting (XSS) attacks. [Learn how to use a CSP to prevent XSS](https://developer.chrome.com/docs/lighthouse/best-practices/csp-xss/)",
+          "score": 1,
+          "scoreDisplayMode": "informative",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "description",
+                "valueType": "text",
+                "subItemsHeading": {
+                  "key": "description"
+                },
+                "label": "Description"
+              },
+              {
+                "key": "directive",
+                "valueType": "code",
+                "subItemsHeading": {
+                  "key": "directive"
+                },
+                "label": "Directive"
+              },
+              {
+                "key": "severity",
+                "valueType": "text",
+                "subItemsHeading": {
+                  "key": "severity"
+                },
+                "label": "Severity"
+              }
+            ],
+            "items": [
+              {
+                "severity": "High",
+                "description": "No CSP found in enforcement mode"
+              }
+            ]
+          }
+        },
+        "has-hsts": {
+          "id": "has-hsts",
+          "title": "Use a strong HSTS policy",
+          "description": "Deployment of the HSTS header significantly reduces the risk of downgrading HTTP connections and eavesdropping attacks. A rollout in stages, starting with a low max-age is recommended. [Learn more about using a strong HSTS policy.](https://developer.chrome.com/docs/lighthouse/best-practices/has-hsts)",
+          "score": 1,
+          "scoreDisplayMode": "informative",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "description",
+                "valueType": "text",
+                "subItemsHeading": {
+                  "key": "description"
+                },
+                "label": "Description"
+              },
+              {
+                "key": "directive",
+                "valueType": "code",
+                "subItemsHeading": {
+                  "key": "directive"
+                },
+                "label": "Directive"
+              },
+              {
+                "key": "severity",
+                "valueType": "text",
+                "subItemsHeading": {
+                  "key": "severity"
+                },
+                "label": "Severity"
+              }
+            ],
+            "items": [
+              {
+                "directive": "includeSubDomains",
+                "description": "No \u0060includeSubDomains\u0060 directive found",
+                "severity": "Medium"
+              },
+              {
+                "directive": "preload",
+                "description": "No \u0060preload\u0060 directive found",
+                "severity": "Medium"
+              }
+            ]
+          }
+        },
+        "origin-isolation": {
+          "id": "origin-isolation",
+          "title": "Ensure proper origin isolation with COOP",
+          "description": "The Cross-Origin-Opener-Policy (COOP) can be used to isolate the top-level window from other documents such as pop-ups. [Learn more about deploying the COOP header.](https://web.dev/articles/why-coop-coep#coop)",
+          "score": 1,
+          "scoreDisplayMode": "informative",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "description",
+                "valueType": "text",
+                "subItemsHeading": {
+                  "key": "description"
+                },
+                "label": "Description"
+              },
+              {
+                "key": "directive",
+                "valueType": "code",
+                "subItemsHeading": {
+                  "key": "directive"
+                },
+                "label": "Directive"
+              },
+              {
+                "key": "severity",
+                "valueType": "text",
+                "subItemsHeading": {
+                  "key": "severity"
+                },
+                "label": "Severity"
+              }
+            ],
+            "items": [
+              {
+                "description": "No COOP header found",
+                "severity": "High"
+              }
+            ]
+          }
+        },
+        "doctype": {
+          "id": "doctype",
+          "title": "Page has the HTML doctype",
+          "description": "Specifying a doctype prevents the browser from switching to quirks-mode. [Learn more about the doctype declaration](https://developer.chrome.com/docs/lighthouse/best-practices/doctype/).",
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        "charset": {
+          "id": "charset",
+          "title": "Properly defines charset",
+          "description": "A character encoding declaration is required. It can be done with a \u0060\u003Cmeta\u003E\u0060 tag in the first 1024 bytes of the HTML or in the Content-Type HTTP response header. [Learn more about declaring the character encoding](https://developer.chrome.com/docs/lighthouse/best-practices/charset/).",
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        "geolocation-on-start": {
+          "id": "geolocation-on-start",
+          "title": "Avoids requesting the geolocation permission on page load",
+          "description": "Users are mistrustful of or confused by sites that request their location without context. Consider tying the request to a user action instead. [Learn more about the geolocation permission](https://developer.chrome.com/docs/lighthouse/best-practices/geolocation-on-start/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "inspector-issues": {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools",
+          "description": "Issues logged to the \u0060Issues\u0060 panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue.",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "issueType",
+                "valueType": "text",
+                "subItemsHeading": {
+                  "key": "url",
+                  "valueType": "url"
+                },
+                "label": "Issue type"
+              }
+            ],
+            "items": [
+              {
+                "issueType": "Cookie",
+                "subItems": {
+                  "type": "subitems",
+                  "items": [
+                    {
+                      "url": "https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"
+                    },
+                    {
+                      "url": "https://www.google.com/recaptcha/api.js?render=6Le5-BQmAAAAAMs1Nbm38roKdHBAXiPEt1cd8xjf\u0026trustedtypes=true"
+                    },
+                    {
+                      "url": "https://www.google.com/recaptcha/api2/anchor?ar=1\u0026k=6Le5-BQmAAAAAMs1Nbm38roKdHBAXiPEt1cd8xjf\u0026co=aHR0cHM6Ly9kb2NzLmRldmVsb3BlcnMub3B0aW1pemVseS5jb206NDQz\u0026hl=en\u0026v=hbAq-YhJxOnlU-7cpgBoAJHb\u0026size=invisible\u0026cb=4d1jxxxq9alk"
+                    },
+                    {
+                      "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en\u0026v=hbAq-YhJxOnlU-7cpgBoAJHb"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "js-libraries": {
+          "id": "js-libraries",
+          "title": "Detected JavaScript libraries",
+          "description": "All front-end JavaScript libraries detected on the page. [Learn more about this JavaScript library detection diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/js-libraries/).",
+          "score": 1,
+          "scoreDisplayMode": "informative",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "name",
+                "valueType": "text",
+                "label": "Name"
+              },
+              {
+                "key": "version",
+                "valueType": "text",
+                "label": "Version"
+              }
+            ],
+            "items": [
+              {
+                "name": "LitElement",
+                "version": "4.1.1",
+                "npm": "lit-element"
+              },
+              {
+                "name": "lit-html",
+                "version": "3.2.1",
+                "npm": "lit-element"
+              },
+              {
+                "name": "React",
+                "npm": "react"
+              },
+              {
+                "name": "Lo-Dash",
+                "version": "4.17.21",
+                "npm": "lodash"
+              },
+              {
+                "name": "core-js",
+                "version": "core-js-global@2.6.12; core-js-global@3.39.0; core-js-global@2.6.10",
+                "npm": "core-js"
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "stacks": [
+                {
+                  "id": "litelement",
+                  "version": "4.1.1"
+                },
+                {
+                  "id": "lit-html",
+                  "version": "3.2.1"
+                },
+                {
+                  "id": "jquery-fast"
+                },
+                {
+                  "id": "react"
+                },
+                {
+                  "id": "lodash",
+                  "version": "4.17.21"
+                },
+                {
+                  "id": "corejs",
+                  "version": "core-js-global@2.6.12; core-js-global@3.39.0; core-js-global@2.6.10"
+                }
+              ]
+            }
+          }
+        },
+        "notification-on-start": {
+          "id": "notification-on-start",
+          "title": "Avoids requesting the notification permission on page load",
+          "description": "Users are mistrustful of or confused by sites that request to send notifications without context. Consider tying the request to user gestures instead. [Learn more about responsibly getting permission for notifications](https://developer.chrome.com/docs/lighthouse/best-practices/notification-on-start/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "paste-preventing-inputs": {
+          "id": "paste-preventing-inputs",
+          "title": "Allows users to paste into input fields",
+          "description": "Preventing input pasting is a bad practice for the UX, and weakens security by blocking password managers.[Learn more about user-friendly input fields](https://developer.chrome.com/docs/lighthouse/best-practices/paste-preventing-inputs/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "font-size": {
+          "id": "font-size",
+          "title": "Document uses legible font sizes",
+          "description": "Font sizes less than 12px are too small to be legible and require mobile visitors to \u201Cpinch to zoom\u201D in order to read. Strive to have \u003E60% of page text \u226512px. [Learn more about legible font sizes](https://developer.chrome.com/docs/lighthouse/seo/font-size/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "displayValue": "100% legible text",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "source-location",
+                "label": "Source"
+              },
+              {
+                "key": "selector",
+                "valueType": "code",
+                "label": "Selector"
+              },
+              {
+                "key": "coverage",
+                "valueType": "text",
+                "label": "% of Page Text"
+              },
+              {
+                "key": "fontSize",
+                "valueType": "text",
+                "label": "Font Size"
+              }
+            ],
+            "items": [
+              {
+                "source": {
+                  "type": "code",
+                  "value": "Legible text"
+                },
+                "selector": "",
+                "coverage": "100.00%",
+                "fontSize": "\u2265 12px"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

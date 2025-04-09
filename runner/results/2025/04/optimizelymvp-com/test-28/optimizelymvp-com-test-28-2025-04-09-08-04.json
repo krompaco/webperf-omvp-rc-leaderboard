@@ -1,0 +1,103 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 4.6,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.6,
+      "date": "2025-04-09T08:04:50.791592",
+      "report": "- The HTML is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage , number of grouped error type: 2 ( 4.60 rating )\r\n- #1: Webpage , number of errors: 2 ( 4.60 rating )\r\n  - \u003Ciframe\u003E is missing required \u201Ctitle\u201D attribute (number of errors of this type: 1)\n  - \u003Cstyle\u003E element is not permitted as content under \u003Cbody\u003E (number of errors of this type: 1)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+              "offset": 28102,
+              "line": 137,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E noscript \u003E iframe",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "iframe",
+                "attribute": "title"
+              },
+              "url": "https://mattcdunn.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/mattcdunn.com/eba1065534c058da0c43079e7ae36d7f7060cb9541ccb5140b78dd3d989446e820faabed36ba9e94e268a1b228588a26e4033d860f240c2b0708905dc2649da6.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cstyle\u003E element is not permitted as content under \u003Cbody\u003E",
+              "offset": 85453,
+              "line": 411,
+              "column": 298,
+              "size": 5,
+              "selector": "#core-block-supports-inline-css",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cbody\u003E",
+                "child": "\u003Cstyle\u003E"
+              },
+              "url": "https://mattcdunn.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/mattcdunn.com/eba1065534c058da0c43079e7ae36d7f7060cb9541ccb5140b78dd3d989446e820faabed36ba9e94e268a1b228588a26e4033d860f240c2b0708905dc2649da6.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+              "offset": 28102,
+              "line": 137,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E noscript \u003E iframe",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "iframe",
+                "attribute": "title"
+              },
+              "url": "https://mattcdunn.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/mattcdunn.com/eba1065534c058da0c43079e7ae36d7f7060cb9541ccb5140b78dd3d989446e820faabed36ba9e94e268a1b228588a26e4033d860f240c2b0708905dc2649da6.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cstyle\u003E element is not permitted as content under \u003Cbody\u003E",
+              "offset": 85453,
+              "line": 411,
+              "column": 298,
+              "size": 5,
+              "selector": "#core-block-supports-inline-css",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cbody\u003E",
+                "child": "\u003Cstyle\u003E"
+              },
+              "url": "https://mattcdunn.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/mattcdunn.com/eba1065534c058da0c43079e7ae36d7f7060cb9541ccb5140b78dd3d989446e820faabed36ba9e94e268a1b228588a26e4033d860f240c2b0708905dc2649da6.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://mattcdunn.com/",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

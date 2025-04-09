@@ -1,0 +1,85 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 20,
+      "rating": 3.47,
+      "rating_sec": 3.47,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2025-04-09T10:01:43.344666",
+      "report": "- About average privacy settings, but should get better.\n",
+      "report_sec": "- HTTPS by default is good! ( 5.00 rating )\r\n- HTTP Strict Transport Security HSTS is good, but with 1 warning(s). ( 4.75 rating )\r\n- Content Security Policy is pretty bad. ( 1.00 rating )\r\n- Reporting CSP Certificate Transparency Network Error Logging is good! ( 5.00 rating )\r\n- Referrer Policy is good! ( 5.00 rating )\r\n- Subresource Integrity SRI is pretty bad. ( 1.00 rating )\r\n- HTTP headers is good! ( 5.00 rating )\r\n- Cookies is ok, with 66 error(s) and 0 warning(s). ( 1.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "HTTPS by default": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "wwwoptimizelycom uses HTTPS by default"
+        },
+        "HTTP Strict Transport Security HSTS": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 1,
+          "more_info": "HSTS policy for https://wwwoptimizelycom: max-age31536000 includeSubDomains"
+        },
+        "Content Security Policy": {
+          "number_of_success": 0,
+          "number_of_alerts": 1,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 8,
+          "number_of_sub_warnings": 0,
+          "more_info": "Content Security Policy set in HTTP header: default-src self https://filesmarketingcmpoptimizelycom script-src self unsafe-eval unsafe-inline https: blob: wss: https://learnoptimizelycom https://wwwgoogletagmanagercom https://jsnavatticcom https://analyticswelcomesoftwarecom https://cdnoptimizelycom https://jsmonitorazurecom https://cdn3optimizelycom https://cdnoptimizelycom https://a26942930964cdnoptimizelycom https://logxoptimizelycom https://capturenavatticcom https://dcservicesvisualstudiocom https://googlecom https://wwwgooglecom https://wwwgstaticcom https://appoptimizelycom https://apiusea01idioepiservernet https://batbingcom https://snaplicdncom https://connectfacebooknet https://tcontentsquarenet https://munchkinmarketonet https://jszi-scriptscom https://jsadsrvrorg https://cdncalibermindcom https://j6scco https://googleadsgdoubleclicknet https://analyticswelcomesoftwarecom https://jsqualifiedcom https://jszi-scriptscom https://analyticsgooglecom https://insightadsrvrorg https://ecalibermindcom https://wwwoptimizelycom https://cazcontentsquarenet https://6727c0beb7dc6792ffb43ec6webproofingcmpoptimizelycom/js/jsx-runtime-4da545d0js style-src self unsafe-eval unsafe-inline https://usetypekitnet https://ptypekitnet https://fontsgoogleapiscom https://cdnjsdelivrnet https://cdnjscloudflarecom https://wwwlinkedincom https://wwwgoogletagmanagercom img-src self http: https: data: blob: connect-src self https: data: mediastream: blob: filesystem: ws: wss: https://dcservicesvisualstudiocom https://logxoptimizelycom https://wwwgoogle-analyticscom https://pxadslinkedincom https://pxadslinkedincom https://jszi-scriptscom https://947-rke-048mktorespcom https://ecalibermindcom https://analyticsgooglecom wss://wsqualifiedcom https://ipv66scco wss://wsqualifiedcom https://wszoominfocom https://cazcontentsquarenet https://analyticsgooglecom https://googlecom https://statsgdoubleclicknet https://epsilon6sensecom https://k-us1azcontentsquarenet https://q-us1azcontentsquarenet https://fastwistiacom https://pipedreamwistiacom https://embed-cloudfrontwistiacom https://distillerywistiacom font-src https: data: media-src https: blob: https://bdjknmfileswelcomesoftwarecom https://filesmarketingcmpoptimizelycom https://filesmarketingcmpoptimizelycom frame-src https://wwwgoogletagmanagercom https://tddoubleclicknet/ https://wwwyoutube-nocookiecom https://a26942930964cdnoptimizelycom https://capturenavatticcom https://wwwgooglecom https://insightadsrvrorg https://appqualifiedcom https://wwwyoutubecom https://wwwfacebookcom https://matchadsrvrorg https://6727c0beb7dc6792ffb43ec6webproofingcmpoptimizelycom/ worker-src self blob: https://wwwoptimizelycom"
+        },
+        "Reporting CSP Certificate Transparency Network Error Logging": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "Reports are not sent to a third-party"
+        },
+        "Referrer Policy": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "Referrer Policy set to no-referrer in Referrer-Policy HTTP header"
+        },
+        "Subresource Integrity SRI": {
+          "number_of_success": 0,
+          "number_of_alerts": 1,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "Subresource Integrity SRI not implemented and external resources are loaded over HTTP or use protocol-relative URLs via src//"
+        },
+        "HTTP headers": {
+          "number_of_success": 0,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "To enable these headers youll need to add them to your web server configuration This is a simple change Exactly how you do it depends on what server you use This page developermozillaorg has configuration examples for Apache Nginx and IIS"
+        },
+        "Cookies": {
+          "number_of_success": 0,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 66,
+          "number_of_sub_warnings": 0,
+          "more_info": "HttpOnly means that the cookie can only be read by the server and not by JavaScript on the client This can mitigate XSS cross-site scripting attacks"
+        }
+      }
+    }
+  ]
+}

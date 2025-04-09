@@ -1,0 +1,41 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.7,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.7,
+      "rating_stand": -1.0,
+      "date": "2025-04-09T09:46:15.477081",
+      "report": "- The website can be more accessible, but is rather good!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 2 ( 4.60 rating )\r\n- Number of issues: 2 ( 4.80 rating )\r\n\n##### Problems:\n- Anchor element found with a valid href attribute, but no link content has been supplied.\n- Iframe element requires a non-empty title attribute that identifies the frame.\n",
+      "report_stand": "",
+      "data": [
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/\u0022\u003E\u003Csvg class=\u0022icon_logoLight__j2T...\u003C/a\u003E",
+          "selector": "#__next \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E nav \u003E span \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+          "context": "\u003Ciframe id=\u0022google_esf\u0022 name=\u0022google_esf\u0022 src=\u0022https://pagead2.googlesyndication.com/pagead/html/r20250408/r20190131/zrt_lookup.html\u0022 style=\u0022display: none;\u0022\u003E\u003C/iframe\u003E",
+          "selector": "#google_esf",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    }
+  ]
+}

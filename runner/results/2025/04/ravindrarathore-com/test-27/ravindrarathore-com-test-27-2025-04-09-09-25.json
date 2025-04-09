@@ -1,0 +1,232 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 3.46,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.46,
+      "date": "2025-04-09T09:25:35.566083",
+      "report": "- The CSS is neither good or bad.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #38: anchor, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #38: anchor, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #38: anchor, number of grouped error type: 4 ( 4.20 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #38: anchor, number of errors: 7 ( 3.60 rating )\r\n  - Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 3)\n  - Unexpected empty block (block-no-empty) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022,\u0022 for property \u0022box-shadow\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown property \u0022box-flex\u0022 (property-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown type selector \u0022sentinel\u0022 (selector-type-no-unknown) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #4: bootstrap.min.c, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #4: bootstrap.min.c, number of errors: 44 ( 1.00 rating )\r\n  - Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 43)\n  - Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #5: font-awesome.mi, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #5: font-awesome.mi, number of errors: 44 ( 1.00 rating )\r\n  - Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 43)\n  - Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #6: flaticon.css, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #6: flaticon.css, number of errors: 44 ( 1.00 rating )\r\n  - Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 43)\n  - Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #7: plugins.css, number of grouped error type: 3 ( 4.40 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #7: plugins.css, number of errors: 47 ( 1.00 rating )\r\n  - Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 44)\n  - Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022box\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown animation name \u0022color\u0022 (no-unknown-animations) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #8: style.css, number of grouped error type: 3 ( 4.40 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #8: style.css, number of errors: 50 ( 1.00 rating )\r\n  - Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 44)\n  - Unexpected unknown animation name \u0022fadeInUp\u0022 (no-unknown-animations) (number of errors of this type: 2)\n  - Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022box\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown animation name \u0022color\u0022 (no-unknown-animations) (number of errors of this type: 1)\n  - Unexpected unknown value \u002280%\u0022 for property \u0022border-width\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #9: color.css, number of grouped error type: 3 ( 4.40 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #9: color.css, number of errors: 50 ( 1.00 rating )\r\n  - Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 44)\n  - Unexpected unknown animation name \u0022fadeInUp\u0022 (no-unknown-animations) (number of errors of this type: 2)\n  - Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022box\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown animation name \u0022color\u0022 (no-unknown-animations) (number of errors of this type: 1)\n  - Unexpected unknown value \u002280%\u0022 for property \u0022border-width\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #25: css, number of grouped error type: 3 ( 4.40 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #25: css, number of errors: 50 ( 1.00 rating )\r\n  - Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 44)\n  - Unexpected unknown animation name \u0022fadeInUp\u0022 (no-unknown-animations) (number of errors of this type: 2)\n  - Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated) (number of errors of this type: 1)\n  - Unexpected unknown value \u0022box\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n  - Unexpected unknown animation name \u0022color\u0022 (no-unknown-animations) (number of errors of this type: 1)\n  - Unexpected unknown value \u002280%\u0022 for property \u0022border-width\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "line": 1,
+              "column": 78626,
+              "endLine": 1,
+              "endColumn": 78628,
+              "rule": "block-no-empty",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected empty block (block-no-empty)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 54377,
+              "endLine": 1,
+              "endColumn": 54388,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 54889,
+              "endLine": 1,
+              "endColumn": 54900,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 55037,
+              "endLine": 1,
+              "endColumn": 55048,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 64510,
+              "endLine": 1,
+              "endColumn": 64511,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022,\u0022 for property \u0022box-shadow\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 55231,
+              "endLine": 1,
+              "endColumn": 55239,
+              "rule": "property-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown property \u0022box-flex\u0022 (property-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 78618,
+              "endLine": 1,
+              "endColumn": 78626,
+              "rule": "selector-type-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown type selector \u0022sentinel\u0022 (selector-type-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "line": 1,
+              "column": 78626,
+              "endLine": 1,
+              "endColumn": 78628,
+              "rule": "block-no-empty",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected empty block (block-no-empty)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 54377,
+              "endLine": 1,
+              "endColumn": 54388,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 54889,
+              "endLine": 1,
+              "endColumn": 54900,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 55037,
+              "endLine": 1,
+              "endColumn": 55048,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022-ms-flexbox\u0022 for property \u0022display\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 64510,
+              "endLine": 1,
+              "endColumn": 64511,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown value \u0022,\u0022 for property \u0022box-shadow\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 55231,
+              "endLine": 1,
+              "endColumn": 55239,
+              "rule": "property-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown property \u0022box-flex\u0022 (property-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 78618,
+              "endLine": 1,
+              "endColumn": 78626,
+              "rule": "selector-type-no-unknown",
+              "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+              "type": "error",
+              "message": "Unexpected unknown type selector \u0022sentinel\u0022 (selector-type-no-unknown)",
+              "file": "/usr/src/runner/cache/www.gstatic.com/ed54fcb03d5d1117045bf4bbe27972b6e519597ac07f43bbebc4f969f21956cfdcc7c867051650139fb16abbe0fc697f9d9c0f669f57584592050b61ad326880.txt.utf-8.cache.css"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.ravindrarathore.com/",
+            "index": 1
+          },
+          {
+            "url": "https://www.ravindrarathore.com/components/footer.html",
+            "index": 37
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/anchor?ar=1\u0026k=6Ld2igcaAAAAAM8L7qyFhamwRgaltE32WmmEt6e7\u0026co=aHR0cHM6Ly93d3cucmF2aW5kcmFyYXRob3JlLmNvbTo0NDM.\u0026hl=en\u0026v=hbAq-YhJxOnlU-7cpgBoAJHb\u0026size=invisible\u0026cb=thy7k9j3khsg",
+            "index": 38
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/styles__ltr.css",
+            "index": 39
+          },
+          {
+            "url": "https://www.ravindrarathore.com/css/bootstrap.min.css",
+            "index": 4
+          },
+          {
+            "url": "https://www.ravindrarathore.com/css/font-awesome.min.css",
+            "index": 5
+          },
+          {
+            "url": "https://www.ravindrarathore.com/fonts/flaticon.css",
+            "index": 6
+          },
+          {
+            "url": "https://www.ravindrarathore.com/css/plugins.css",
+            "index": 7
+          },
+          {
+            "url": "https://www.ravindrarathore.com/css/style.css",
+            "index": 8
+          },
+          {
+            "url": "https://www.ravindrarathore.com/css/color.css",
+            "index": 9
+          },
+          {
+            "url": "https://fonts.googleapis.com/css?family=Open\u002BSans:400,400i,700,700i,800,800i%7CPoppins:400,400i,600,600i,700,700i,800,800i",
+            "index": 25
+          }
+        ]
+      }
+    }
+  ]
+}

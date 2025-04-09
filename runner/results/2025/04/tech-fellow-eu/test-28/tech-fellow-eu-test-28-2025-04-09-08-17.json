@@ -1,0 +1,221 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 3.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.8,
+      "date": "2025-04-09T08:17:04.190703",
+      "report": "- The HTML is neither good or bad.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage , number of grouped error type: 6 ( 3.80 rating )\r\n- #1: Webpage , number of errors: 6 ( 3.80 rating )\r\n  - Unclosed element \u0027\u003Chtml\u003E\u0027 (number of errors of this type: 1)\n  - \u003Chtml\u003E element must have \u003Cbody\u003E as content (number of errors of this type: 1)\n  - Unclosed element \u0027\u003Chead\u003E\u0027 (number of errors of this type: 1)\n  - Unclosed element \u0027\u003Cbody\u003E\u0027 (number of errors of this type: 1)\n  - \u003Cbody\u003E element is not permitted as content under \u003Chead\u003E (number of errors of this type: 1)\n  - \u003Cbody\u003E element requires a \u003Chtml\u003E element as parent (number of errors of this type: 1)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "ruleId": "close-order",
+              "message": "Unclosed element \u0027\u003Chtml\u003E\u0027",
+              "offset": 16,
+              "line": 1,
+              "column": 17,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/close-order.html",
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chtml\u003E element must have \u003Cbody\u003E as content",
+              "offset": 16,
+              "line": 1,
+              "column": 17,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chtml\u003E",
+                "missing": "\u003Cbody\u003E"
+              },
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "close-order",
+              "message": "Unclosed element \u0027\u003Chead\u003E\u0027",
+              "offset": 50,
+              "line": 1,
+              "column": 51,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/close-order.html",
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "close-order",
+              "message": "Unclosed element \u0027\u003Cbody\u003E\u0027",
+              "offset": 4144,
+              "line": 1,
+              "column": 4145,
+              "size": 4,
+              "selector": "html \u003E head \u003E body",
+              "ruleUrl": "https://html-validate.org/rules/close-order.html",
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbody\u003E element is not permitted as content under \u003Chead\u003E",
+              "offset": 4144,
+              "line": 1,
+              "column": 4145,
+              "size": 4,
+              "selector": "html \u003E head \u003E body",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Chead\u003E",
+                "child": "\u003Cbody\u003E"
+              },
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-parent",
+              "message": "\u003Cbody\u003E element requires a \u003Chtml\u003E element as parent",
+              "offset": 4144,
+              "line": 1,
+              "column": 4145,
+              "size": 4,
+              "selector": "html \u003E head \u003E body",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-parent.html",
+              "context": {
+                "parent": "\u003Chead\u003E",
+                "child": "\u003Cbody\u003E",
+                "rules": [
+                  "html"
+                ]
+              },
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "ruleId": "close-order",
+              "message": "Unclosed element \u0027\u003Chtml\u003E\u0027",
+              "offset": 16,
+              "line": 1,
+              "column": 17,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/close-order.html",
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chtml\u003E element must have \u003Cbody\u003E as content",
+              "offset": 16,
+              "line": 1,
+              "column": 17,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chtml\u003E",
+                "missing": "\u003Cbody\u003E"
+              },
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "close-order",
+              "message": "Unclosed element \u0027\u003Chead\u003E\u0027",
+              "offset": 50,
+              "line": 1,
+              "column": 51,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/close-order.html",
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "close-order",
+              "message": "Unclosed element \u0027\u003Cbody\u003E\u0027",
+              "offset": 4144,
+              "line": 1,
+              "column": 4145,
+              "size": 4,
+              "selector": "html \u003E head \u003E body",
+              "ruleUrl": "https://html-validate.org/rules/close-order.html",
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbody\u003E element is not permitted as content under \u003Chead\u003E",
+              "offset": 4144,
+              "line": 1,
+              "column": 4145,
+              "size": 4,
+              "selector": "html \u003E head \u003E body",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Chead\u003E",
+                "child": "\u003Cbody\u003E"
+              },
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-parent",
+              "message": "\u003Cbody\u003E element requires a \u003Chtml\u003E element as parent",
+              "offset": 4144,
+              "line": 1,
+              "column": 4145,
+              "size": 4,
+              "selector": "html \u003E head \u003E body",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-parent.html",
+              "context": {
+                "parent": "\u003Chead\u003E",
+                "child": "\u003Cbody\u003E",
+                "rules": [
+                  "html"
+                ]
+              },
+              "url": "https://tech-fellow.eu/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/tech-fellow.eu/4c2bdba418af6af35d534fa2fff76769838092cbd71a7225de14b0c3e759566b07da448167d9d229cfdf937a6e025008f91c3869e86d5ab4d557e4a32130b7ec.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://tech-fellow.eu/",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

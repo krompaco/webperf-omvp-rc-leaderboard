@@ -1,0 +1,810 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 7,
+      "rating": 4.72,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.72,
+      "date": "2025-04-09T09:34:08.224601",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060 in: #1: Webpage , number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of grouped error type: 6 ( 3.80 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #1: Webpage , number of errors: 30 ( 2.00 rating )\r\n  - CSS: Parse Error. (number of errors of this type: 19)\n  - CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist. (number of errors of this type: 3)\n  - CSS: \u201Ctransition-duration\u201D: \u201C0\u201D is not a \u201Ctransition-duration\u201D value. (number of errors of this type: 2)\n  - CSS: The @charset rule may only occur at the start of the style sheet. Please check that there are no spaces before it. (number of errors of this type: 1)\n  - CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist. (number of errors of this type: 1)\n  - CSS: \u201Cright\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Ctop\u201D: Parse Error. (number of errors of this type: 1)\n  - CSS: \u201Cpadding\u201D: The types are incompatible. (number of errors of this type: 1)\n  - CSS: \u201Cwidth\u201D: \u201Cdevice-width\u201D is not a \u201Cwidth\u201D value. (number of errors of this type: 1)\n- \u0060\u003Cstyle\u003E\u0060 in: #27: embed, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #27: embed, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #27: embed, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060 in: #27: embed, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #36: shCore.css, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #36: shCore.css, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #37: shThemeDefault., number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #37: shThemeDefault., number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Cbackground-color\u201D: \u201Cnone\u201D is not a \u201Cbackground-color\u201D value. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #42: hovercards.min., number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #42: hovercards.min., number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Cbackground-color\u201D: \u201Cnone\u201D is not a \u201Cbackground-color\u201D value. (number of errors of this type: 1)\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #61: actionbar.css, number of grouped error type: 1 ( 4.80 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060 in: #61: actionbar.css, number of errors: 1 ( 4.90 rating )\r\n  - CSS: \u201Cbackground-color\u201D: \u201Cnone\u201D is not a \u201Cbackground-color\u201D value. (number of errors of this type: 1)\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": true,
+        "has_css_files": true,
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 17,
+              "message": "CSS: The @charset rule may only occur at the start of the style sheet. Please check that there are no spaces before it.",
+              "extract": "charset \u0022UTF-8\u0022;.wp-block-arch",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 28784,
+              "firstColumn": 28753,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__video-background{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 32,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 28784,
+              "firstColumn": 28753,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__video-background{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 32,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 28964,
+              "firstColumn": 28933,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__image-background{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 32,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 28964,
+              "firstColumn": 28933,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__image-background{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 32,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29138,
+              "firstColumn": 29113,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__background,body:",
+              "hiliteStart": 30,
+              "hiliteLength": 26,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29311,
+              "firstColumn": 29277,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__gradient-background,body:",
+              "hiliteStart": 30,
+              "hiliteLength": 35,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29503,
+              "firstColumn": 29498,
+              "message": "CSS: Parse Error.",
+              "extract": "not(.has-background-gradient):before{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29503,
+              "firstColumn": 29498,
+              "message": "CSS: Parse Error.",
+              "extract": "not(.has-background-gradient):before{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29503,
+              "firstColumn": 29498,
+              "message": "CSS: Parse Error.",
+              "extract": "not(.has-background-gradient):before{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29503,
+              "firstColumn": 29498,
+              "message": "CSS: Parse Error.",
+              "extract": "not(.has-background-gradient):before{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29682,
+              "firstColumn": 29652,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__inner-container{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 31,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29682,
+              "firstColumn": 29652,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__inner-container{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 31,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29877,
+              "firstColumn": 29847,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__inner-container{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 31,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29877,
+              "firstColumn": 29847,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__inner-container{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 31,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 32556,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 32683,
+              "firstColumn": 32650,
+              "message": "CSS: Parse Error.",
+              "extract": "el:has(input[type=checkbox]) .wp-block-form-input__label-content{margi",
+              "hiliteStart": 30,
+              "hiliteLength": 34,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 32782,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 43846,
+              "firstColumn": 43841,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{botto",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 43985,
+              "firstColumn": 43980,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{-webk",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 44447,
+              "firstColumn": 44438,
+              "message": "CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist.",
+              "extract": "#0000;scrollbar-gutter:stable both-edges;scrol",
+              "hiliteStart": 30,
+              "hiliteLength": 10,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 50615,
+              "firstColumn": 50610,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "([style*=vertical-rl]){rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 54145,
+              "message": "CSS: \u201Cright\u201D: Parse Error.",
+              "extract": "t-right) \u002B 16px);top:calc(env(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 54187,
+              "message": "CSS: \u201Ctop\u201D: Parse Error.",
+              "extract": "set-top) \u002B 16px);z-index:50000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 73626,
+              "message": "CSS: \u201Cpadding\u201D: The types are incompatible.",
+              "extract": "ing-left),20rem);z-index:10000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 80775,
+              "firstColumn": 80770,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ing-mode:vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 86116,
+              "firstColumn": 86111,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ng-mode: vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyNjtEOgjAMRX9IrBiIvhg/xYyl4mAry9pl8PcW9cFETXzrvTk9LZRY2YkESUBuGJAh5g6kaLGwmwWR4KoAQ8CUXEGjWKqiz1yFtdfWyDM7UhVP3ojZWuYNvMlDXpneEcOAEo0dXxk4E1x0FXokTG5VfB8/nD8fZlk8/o8rCJ2f7Pg4cQ6n\u002BtA0dbvftcfhDsyAbnA=\u0026cssminify=yes",
+              "lastLine": 1,
+              "lastColumn": 82611,
+              "firstColumn": 82600,
+              "message": "CSS: \u201Cwidth\u201D: \u201Cdevice-width\u201D is not a \u201Cwidth\u201D value.",
+              "extract": ":device-width}@viewport{width:device-width}@medi",
+              "hiliteStart": 30,
+              "hiliteLength": 12,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/6dac145113010e9f7ffaa82cdd3dff22d2fb84d4ffa4d64e25ea3b811e2b02d44becc7464611b33df08f9759e85e957390a57b7685b24875e26d879a1479f603.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/wp-content/themes/pub/twentysixteen/css/style-wpcom.css?m=1514503118i\u0026cssminify=yes",
+              "lastLine": 6,
+              "lastColumn": 251,
+              "message": "CSS: \u201Ctransition-duration\u201D: \u201C0\u201D is not a \u201Ctransition-duration\u201D value.",
+              "extract": "ition-duration:0}.comments-are",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/a49cc4cbda1a4724a7a33235a38ac4709f09488003618b15af2b63ca686f2c7f65192c58515f15ada687491516bcb0e6321b40634a968ea5b6599353d25b78d6.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/wp-content/themes/pub/twentysixteen/css/style-wpcom.css?m=1514503118i\u0026cssminify=yes",
+              "lastLine": 8,
+              "lastColumn": 255,
+              "message": "CSS: \u201Ctransition-duration\u201D: \u201C0\u201D is not a \u201Ctransition-duration\u201D value.",
+              "extract": "ition-duration:0}.comments-are",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/a49cc4cbda1a4724a7a33235a38ac4709f09488003618b15af2b63ca686f2c7f65192c58515f15ada687491516bcb0e6321b40634a968ea5b6599353d25b78d6.txt.utf-8.cache"
+            }
+          ],
+          "style_element": [],
+          "style_attribute": [],
+          "style_files": [
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 17,
+              "message": "CSS: The @charset rule may only occur at the start of the style sheet. Please check that there are no spaces before it.",
+              "extract": "charset \u0022UTF-8\u0022;.wp-block-arch",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 28784,
+              "firstColumn": 28753,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__video-background{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 32,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 28784,
+              "firstColumn": 28753,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__video-background{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 32,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 28964,
+              "firstColumn": 28933,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__image-background{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 32,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 28964,
+              "firstColumn": 28933,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__image-background{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 32,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29138,
+              "firstColumn": 29113,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__background,body:",
+              "hiliteStart": 30,
+              "hiliteLength": 26,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29311,
+              "firstColumn": 29277,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__gradient-background,body:",
+              "hiliteStart": 30,
+              "hiliteLength": 35,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29503,
+              "firstColumn": 29498,
+              "message": "CSS: Parse Error.",
+              "extract": "not(.has-background-gradient):before{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29503,
+              "firstColumn": 29498,
+              "message": "CSS: Parse Error.",
+              "extract": "not(.has-background-gradient):before{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29503,
+              "firstColumn": 29498,
+              "message": "CSS: Parse Error.",
+              "extract": "not(.has-background-gradient):before{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29503,
+              "firstColumn": 29498,
+              "message": "CSS: Parse Error.",
+              "extract": "not(.has-background-gradient):before{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29682,
+              "firstColumn": 29652,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__inner-container{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 31,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29682,
+              "firstColumn": 29652,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__inner-container{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 31,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29877,
+              "firstColumn": 29847,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__inner-container{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 31,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 29877,
+              "firstColumn": 29847,
+              "message": "CSS: Parse Error.",
+              "extract": "ock-cover__inner-container)) .wp-block-cover__inner-container{z-ind",
+              "hiliteStart": 30,
+              "hiliteLength": 31,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 32556,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 32683,
+              "firstColumn": 32650,
+              "message": "CSS: Parse Error.",
+              "extract": "el:has(input[type=checkbox]) .wp-block-form-input__label-content{margi",
+              "hiliteStart": 30,
+              "hiliteLength": 34,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 32782,
+              "message": "CSS: Parse Error.",
+              "extract": "[type=checkbox]){flex-directio",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 43846,
+              "firstColumn": 43841,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{botto",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 43985,
+              "firstColumn": 43980,
+              "message": "CSS: Parse Error.",
+              "extract": "p-block-image:has(figcaption):before{-webk",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 44447,
+              "firstColumn": 44438,
+              "message": "CSS: \u201Cscrollbar-gutter\u201D: Property \u201Cscrollbar-gutter\u201D doesn\u0027t exist.",
+              "extract": "#0000;scrollbar-gutter:stable both-edges;scrol",
+              "hiliteStart": 30,
+              "hiliteLength": 10,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 50615,
+              "firstColumn": 50610,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "([style*=vertical-rl]){rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 54145,
+              "message": "CSS: \u201Cright\u201D: Parse Error.",
+              "extract": "t-right) \u002B 16px);top:calc(env(",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 54187,
+              "message": "CSS: \u201Ctop\u201D: Parse Error.",
+              "extract": "set-top) \u002B 16px);z-index:50000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 73626,
+              "message": "CSS: \u201Cpadding\u201D: The types are incompatible.",
+              "extract": "ing-left),20rem);z-index:10000",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 80775,
+              "firstColumn": 80770,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ing-mode:vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+              "lastLine": 2,
+              "lastColumn": 86116,
+              "firstColumn": 86111,
+              "message": "CSS: \u201Crotate\u201D: Property \u201Crotate\u201D doesn\u0027t exist.",
+              "extract": "ng-mode: vertical-rl\u0022]{rotate:180deg}.wp-b",
+              "hiliteStart": 30,
+              "hiliteLength": 6,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/30689d720d1203a94ef922ce36a9f0832441071fe598745e74e2e8430616be938ea5cbbb42940bc521e459af3f86776dc0bacaece7c54bb3cacf19b7fbd4ce49.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/_static/??-eJyNjtEOgjAMRX9IrBiIvhg/xYyl4mAry9pl8PcW9cFETXzrvTk9LZRY2YkESUBuGJAh5g6kaLGwmwWR4KoAQ8CUXEGjWKqiz1yFtdfWyDM7UhVP3ojZWuYNvMlDXpneEcOAEo0dXxk4E1x0FXokTG5VfB8/nD8fZlk8/o8rCJ2f7Pg4cQ6n\u002BtA0dbvftcfhDsyAbnA=\u0026cssminify=yes",
+              "lastLine": 1,
+              "lastColumn": 82611,
+              "firstColumn": 82600,
+              "message": "CSS: \u201Cwidth\u201D: \u201Cdevice-width\u201D is not a \u201Cwidth\u201D value.",
+              "extract": ":device-width}@viewport{width:device-width}@medi",
+              "hiliteStart": 30,
+              "hiliteLength": 12,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/6dac145113010e9f7ffaa82cdd3dff22d2fb84d4ffa4d64e25ea3b811e2b02d44becc7464611b33df08f9759e85e957390a57b7685b24875e26d879a1479f603.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/wp-content/themes/pub/twentysixteen/css/style-wpcom.css?m=1514503118i\u0026cssminify=yes",
+              "lastLine": 6,
+              "lastColumn": 251,
+              "message": "CSS: \u201Ctransition-duration\u201D: \u201C0\u201D is not a \u201Ctransition-duration\u201D value.",
+              "extract": "ition-duration:0}.comments-are",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/a49cc4cbda1a4724a7a33235a38ac4709f09488003618b15af2b63ca686f2c7f65192c58515f15ada687491516bcb0e6321b40634a968ea5b6599353d25b78d6.txt.utf-8.cache"
+            },
+            {
+              "type": "error",
+              "url": "https://s0.wp.com/wp-content/themes/pub/twentysixteen/css/style-wpcom.css?m=1514503118i\u0026cssminify=yes",
+              "lastLine": 8,
+              "lastColumn": 255,
+              "message": "CSS: \u201Ctransition-duration\u201D: \u201C0\u201D is not a \u201Ctransition-duration\u201D value.",
+              "extract": "ition-duration:0}.comments-are",
+              "hiliteStart": 15,
+              "hiliteLength": 1,
+              "file": "file:/usr/src/runner/cache/s0.wp.com/a49cc4cbda1a4724a7a33235a38ac4709f09488003618b15af2b63ca686f2c7f65192c58515f15ada687491516bcb0e6321b40634a968ea5b6599353d25b78d6.txt.utf-8.cache"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://johnnymullaney.com/",
+            "index": 1
+          },
+          {
+            "url": "https://s0.wp.com/_static/??-eJyVzMsNwkAMANGGWExQIrggaokcAw7\u002BrLBXId0DEhTA8R1mYKkF3ZIsQVup0q5sATNlHfH\u002BNUQzUJ\u002BaUEDeSKmkuwSgax0Tcnnna/AziWyLERv4e8t2YeOkEvhwkZ/Xz\u002B6sp\u002B7Q992w3w3H\u002BQVKCUNq\u0026cssminify=yes",
+            "index": 2
+          },
+          {
+            "url": "https://s0.wp.com/_static/??-eJyljkEKwjAQRS9kMm0ISBfiWZJ2iKlpEmYmSm5vdSO4Krj8PN7jw7OquWTBLFBTCzEzhLZPjxR2QggPM\u002BhBW/AtpgV8KvNdpejJUQeWnlDPzCf4LyQ33I6EPhbDilLdW3e9NFGB4nL4y0\u002BCnMQc\u002BKtft8t4tqOZJmPs\u002BgJ1p2pO\u0026cssminify=yes",
+            "index": 3
+          },
+          {
+            "url": "https://s0.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=\u0026cssminify=yes",
+            "index": 4
+          },
+          {
+            "url": "https://s0.wp.com/wp-content/plugins/coblocks/2.18.1-simple-rev.4/dist/coblocks-style.css?m=1681832297i\u0026cssminify=yes",
+            "index": 5
+          },
+          {
+            "url": "https://s0.wp.com/_static/??/wp-content/mu-plugins/core-compat/wp-mediaelement.css,/wp-content/mu-plugins/wpcom-bbpress-premium-themes.css?m=1432920480j\u0026cssminify=yes",
+            "index": 6
+          },
+          {
+            "url": "https://s0.wp.com/_static/??-eJyNjtEOgjAMRX9IrBiIvhg/xYyl4mAry9pl8PcW9cFETXzrvTk9LZRY2YkESUBuGJAh5g6kaLGwmwWR4KoAQ8CUXEGjWKqiz1yFtdfWyDM7UhVP3ojZWuYNvMlDXpneEcOAEo0dXxk4E1x0FXokTG5VfB8/nD8fZlk8/o8rCJ2f7Pg4cQ6n\u002BtA0dbvftcfhDsyAbnA=\u0026cssminify=yes",
+            "index": 7
+          },
+          {
+            "url": "https://s0.wp.com/wp-content/themes/pub/twentysixteen/css/style-wpcom.css?m=1514503118i\u0026cssminify=yes",
+            "index": 8
+          },
+          {
+            "url": "https://s0.wp.com/_static/??-eJx9jEEKAjEMRS9kjcWCbsSz1E6mZkyTYZoyensruFAQd/99eA/W2SUVQzEozc3cMkmFBS\u002Bsuc8MqX7ituMGfksZ1bGmaKTyBW7kSMs/dUKbY7q9GWoTKDo0xgokIwkZupoWZQa7Yum3rT3xqHQ3RHmlz\u002BXkD2F/9H4XwvQE3UhRBw==\u0026cssminify=yes",
+            "index": 9
+          },
+          {
+            "url": "https://s0.wp.com/wp-content/themes/h4/global.css?m=1420737423i\u0026cssminify=yes",
+            "index": 10
+          },
+          {
+            "url": "https://s0.wp.com/_static/??-eJydzEEKgzAQheELNZ0qit2IZ4nJINHJJGQyiLcXoW67cPk/Hh/s2bjEFblCVJNJl8ACK9Zs3fZrEGWIySuhgLMlqSCB7CFjMbOyJ3w7kRc8x\u002B7PPTz0aiD0ZrFEWI5/dflTHJuh65q\u002B/fTf9QRB9mQ\u002B\u0026cssminify=yes",
+            "index": 19
+          },
+          {
+            "url": "https://johnnymullaney.com/2022/10/26/creating-behavioural-based-customer-segments-in-odp-post-2-of-4/embed/#?secret=GALwOZoxm2#?secret=7F1S1U52yx",
+            "index": 27
+          },
+          {
+            "url": "https://s0.wp.com/_static/??-eJxtjMEKgzAQBX\u002Bo6UMM1Iv0WyRdNJrdDewG27\u002B3lUIvPQ7MDPYakoqTOLiFWtqcxbCS1yltX4Y1AeujFTL4QkzBVYshKdfJ4fs7f1l\u002BOpFck9kF/7clb/Sbn/TR7zx2t9gPQx\u002B7uB5YWja5\u0026cssminify=yes",
+            "index": 56
+          },
+          {
+            "url": "https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key\u0026origin=aHR0cHM6Ly9qb2hubnltdWxsYW5leS5jb20%3D\u0026wpcomid=112746447\u0026time=1744191153",
+            "index": 54
+          },
+          {
+            "url": "https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b",
+            "index": 36
+          },
+          {
+            "url": "https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?m=1363304414i\u0026amp;ver=3.0.9b",
+            "index": 37
+          },
+          {
+            "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=2025157d8bf6c02970a26c6b0c26b0fcfc89796aa30f84307cffd8fd28d2bcca53dd7a",
+            "index": 42
+          },
+          {
+            "url": "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20250116",
+            "index": 61
+          }
+        ]
+      }
+    }
+  ]
+}

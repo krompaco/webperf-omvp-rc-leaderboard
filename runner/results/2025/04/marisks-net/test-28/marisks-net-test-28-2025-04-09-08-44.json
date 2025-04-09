@@ -1,0 +1,67 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 4.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.8,
+      "date": "2025-04-09T08:44:41.075899",
+      "report": "- The HTML is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage , number of grouped error type: 1 ( 4.80 rating )\r\n- #1: Webpage , number of errors: 1 ( 4.80 rating )\r\n  - \u003Ciframe\u003E is missing required \u201Ctitle\u201D attribute (number of errors of this type: 1)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+              "offset": 1467,
+              "line": 4,
+              "column": 562,
+              "size": 6,
+              "selector": "body \u003E noscript \u003E iframe",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "iframe",
+                "attribute": "title"
+              },
+              "url": "https://marisks.net/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/marisks.net/f7e39d86065bd9869ae7e164da772adff01666f351be3f8a346422f87f79259cb0705df97fe971bda14f18dec6b2dda894898720d38cc805e0e82ee8dd7b9d0e.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+              "offset": 1467,
+              "line": 4,
+              "column": 562,
+              "size": 6,
+              "selector": "body \u003E noscript \u003E iframe",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "iframe",
+                "attribute": "title"
+              },
+              "url": "https://marisks.net/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/marisks.net/f7e39d86065bd9869ae7e164da772adff01666f351be3f8a346422f87f79259cb0705df97fe971bda14f18dec6b2dda894898720d38cc805e0e82ee8dd7b9d0e.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://marisks.net/",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

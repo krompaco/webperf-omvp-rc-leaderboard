@@ -1,0 +1,1019 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 2.4,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 2.4,
+      "date": "2025-04-09T08:09:21.366073",
+      "report": "- The HTML is bad.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage , number of grouped error type: 6 ( 3.80 rating )\r\n- #1: Webpage , number of errors: 30 ( 1.00 rating )\r\n  - End tag for \u003Clink\u003E must be omitted (number of errors of this type: 4)\n  - element id \u201CpageHtmlEmbeds.head start\u201D must not contain whitespace (number of errors of this type: 1)\n  - Attribute \u201Cid\u201D has invalid value \u201CpageHtmlEmbeds.head start\u201D (number of errors of this type: 1)\n  - element id \u201CpageHtmlEmbeds.head end\u201D must not contain whitespace (number of errors of this type: 1)\n  - Attribute \u201Cid\u201D has invalid value \u201CpageHtmlEmbeds.head end\u201D (number of errors of this type: 1)\n  - element id \u201CpageHtmlEmbeds.bodyStart start\u201D must not contain whitespace (number of errors of this type: 1)\n  - Attribute \u201Cid\u201D has invalid value \u201CpageHtmlEmbeds.bodyStart start\u201D (number of errors of this type: 1)\n  - element id \u201CpageHtmlEmbeds.bodyStart end\u201D must not contain whitespace (number of errors of this type: 1)\n  - Attribute \u201Cid\u201D has invalid value \u201CpageHtmlEmbeds.bodyStart end\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Cmulti_picture_1bb518b3-39d0-4f4f-a13d-2773e86f4cc3\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201C1bb518b3-39d0-4f4f-a13d-2773e86f4cc3\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Cmulti_picture_d1ca4956-f6cb-42b1-87e3-0472cacb15d9\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Cd1ca4956-f6cb-42b1-87e3-0472cacb15d9\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Cmulti_picture_a70b5fdb-a2be-4464-8d4e-3024258c83a9\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Ca70b5fdb-a2be-4464-8d4e-3024258c83a9\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Cmulti_picture_315a9bfb-0efc-4ee0-8982-20908cdfdebb\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201C315a9bfb-0efc-4ee0-8982-20908cdfdebb\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Cmulti_picture_8176f2db-c3f8-48e1-a250-531f39a7b760\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201C8176f2db-c3f8-48e1-a250-531f39a7b760\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Cmulti_picture_e3670101-52e5-4de2-924f-369cc419b4b9\u201D (number of errors of this type: 1)\n  - Duplicate ID \u201Ce3670101-52e5-4de2-924f-369cc419b4b9\u201D (number of errors of this type: 1)\n  - \u003Cstyle\u003E element is not permitted as content under \u003Cdiv\u003E (number of errors of this type: 1)\n  - Attribute \u201Chref\u201D has invalid value \u0022\u0022 (number of errors of this type: 1)\n  - element id \u201CpageHtmlEmbeds.bodyEnd start\u201D must not contain whitespace (number of errors of this type: 1)\n  - Attribute \u201Cid\u201D has invalid value \u201CpageHtmlEmbeds.bodyEnd start\u201D (number of errors of this type: 1)\n  - element id \u201CpageHtmlEmbeds.bodyEnd end\u201D must not contain whitespace (number of errors of this type: 1)\n  - Attribute \u201Cid\u201D has invalid value \u201CpageHtmlEmbeds.bodyEnd end\u201D (number of errors of this type: 1)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.head start\u0022 must not contain whitespace",
+              "offset": 41915,
+              "line": 108,
+              "column": 41,
+              "size": 25,
+              "selector": "#pageHtmlEmbeds\\.head\\ start",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.head start"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.head start\u0022",
+              "offset": 41915,
+              "line": 108,
+              "column": 41,
+              "size": 25,
+              "selector": "#pageHtmlEmbeds\\.head\\ start",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.head start",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.head end\u0022 must not contain whitespace",
+              "offset": 41997,
+              "line": 110,
+              "column": 41,
+              "size": 23,
+              "selector": "#pageHtmlEmbeds\\.head\\ end",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.head end"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.head end\u0022",
+              "offset": 41997,
+              "line": 110,
+              "column": 41,
+              "size": 23,
+              "selector": "#pageHtmlEmbeds\\.head\\ end",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.head end",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.bodyStart start\u0022 must not contain whitespace",
+              "offset": 313504,
+              "line": 1097,
+              "column": 39,
+              "size": 30,
+              "selector": "#pageHtmlEmbeds\\.bodyStart\\ start",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.bodyStart start"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.bodyStart start\u0022",
+              "offset": 313504,
+              "line": 1097,
+              "column": 39,
+              "size": 30,
+              "selector": "#pageHtmlEmbeds\\.bodyStart\\ start",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.bodyStart start",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.bodyStart end\u0022 must not contain whitespace",
+              "offset": 313589,
+              "line": 1099,
+              "column": 39,
+              "size": 28,
+              "selector": "#pageHtmlEmbeds\\.bodyStart\\ end",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.bodyStart end"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.bodyStart end\u0022",
+              "offset": 313589,
+              "line": 1099,
+              "column": 39,
+              "size": 28,
+              "selector": "#pageHtmlEmbeds\\.bodyStart\\ end",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.bodyStart end",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_1bb518b3-39d0-4f4f-a13d-2773e86f4cc3\u0022",
+              "offset": 376584,
+              "line": 1197,
+              "column": 17293,
+              "size": 50,
+              "selector": "#item-wrapper-1bb518b3-39d0-4f4f-a13d-2773e86f4cc3 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u00221bb518b3-39d0-4f4f-a13d-2773e86f4cc3\u0022",
+              "offset": 377456,
+              "line": 1197,
+              "column": 18165,
+              "size": 36,
+              "selector": "#item-wrapper-1bb518b3-39d0-4f4f-a13d-2773e86f4cc3 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_d1ca4956-f6cb-42b1-87e3-0472cacb15d9\u0022",
+              "offset": 381822,
+              "line": 1197,
+              "column": 22531,
+              "size": 50,
+              "selector": "#item-wrapper-d1ca4956-f6cb-42b1-87e3-0472cacb15d9 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022d1ca4956-f6cb-42b1-87e3-0472cacb15d9\u0022",
+              "offset": 382772,
+              "line": 1197,
+              "column": 23481,
+              "size": 36,
+              "selector": "#item-wrapper-d1ca4956-f6cb-42b1-87e3-0472cacb15d9 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_a70b5fdb-a2be-4464-8d4e-3024258c83a9\u0022",
+              "offset": 387110,
+              "line": 1197,
+              "column": 27819,
+              "size": 50,
+              "selector": "#item-wrapper-a70b5fdb-a2be-4464-8d4e-3024258c83a9 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022a70b5fdb-a2be-4464-8d4e-3024258c83a9\u0022",
+              "offset": 387997,
+              "line": 1197,
+              "column": 28706,
+              "size": 36,
+              "selector": "#item-wrapper-a70b5fdb-a2be-4464-8d4e-3024258c83a9 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_315a9bfb-0efc-4ee0-8982-20908cdfdebb\u0022",
+              "offset": 392381,
+              "line": 1197,
+              "column": 33090,
+              "size": 50,
+              "selector": "#item-wrapper-315a9bfb-0efc-4ee0-8982-20908cdfdebb \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022315a9bfb-0efc-4ee0-8982-20908cdfdebb\u0022",
+              "offset": 393315,
+              "line": 1197,
+              "column": 34024,
+              "size": 36,
+              "selector": "#item-wrapper-315a9bfb-0efc-4ee0-8982-20908cdfdebb \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_8176f2db-c3f8-48e1-a250-531f39a7b760\u0022",
+              "offset": 401814,
+              "line": 1197,
+              "column": 42523,
+              "size": 50,
+              "selector": "#item-wrapper-8176f2db-c3f8-48e1-a250-531f39a7b760 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u00228176f2db-c3f8-48e1-a250-531f39a7b760\u0022",
+              "offset": 402784,
+              "line": 1197,
+              "column": 43493,
+              "size": 36,
+              "selector": "#item-wrapper-8176f2db-c3f8-48e1-a250-531f39a7b760 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_e3670101-52e5-4de2-924f-369cc419b4b9\u0022",
+              "offset": 407244,
+              "line": 1197,
+              "column": 47953,
+              "size": 50,
+              "selector": "#item-wrapper-e3670101-52e5-4de2-924f-369cc419b4b9 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022e3670101-52e5-4de2-924f-369cc419b4b9\u0022",
+              "offset": 408238,
+              "line": 1197,
+              "column": 48947,
+              "size": 36,
+              "selector": "#item-wrapper-e3670101-52e5-4de2-924f-369cc419b4b9 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cstyle\u003E element is not permitted as content under \u003Cdiv\u003E",
+              "offset": 414417,
+              "line": 1197,
+              "column": 55126,
+              "size": 5,
+              "selector": "#pro-gallery-comp-m1tc2swk \u003E div \u003E div:nth-child(3) \u003E style",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cdiv\u003E",
+                "child": "\u003Cstyle\u003E"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022href\u0022 has invalid value \u0022\u0022",
+              "offset": 414582,
+              "line": 1197,
+              "column": 55291,
+              "size": 4,
+              "selector": "#layout-fixer-style-comp-m1tc2swk",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "link",
+                "attribute": "href",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "void-content",
+              "message": "End tag for \u003Clink\u003E must be omitted",
+              "offset": 506236,
+              "line": 1295,
+              "column": 2511,
+              "size": 5,
+              "selector": null,
+              "ruleUrl": "https://html-validate.org/rules/void-content.html",
+              "context": "link",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "void-content",
+              "message": "End tag for \u003Clink\u003E must be omitted",
+              "offset": 508754,
+              "line": 1298,
+              "column": 2506,
+              "size": 5,
+              "selector": null,
+              "ruleUrl": "https://html-validate.org/rules/void-content.html",
+              "context": "link",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "void-content",
+              "message": "End tag for \u003Clink\u003E must be omitted",
+              "offset": 510902,
+              "line": 1301,
+              "column": 2136,
+              "size": 5,
+              "selector": null,
+              "ruleUrl": "https://html-validate.org/rules/void-content.html",
+              "context": "link",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "void-content",
+              "message": "End tag for \u003Clink\u003E must be omitted",
+              "offset": 513045,
+              "line": 1304,
+              "column": 2131,
+              "size": 5,
+              "selector": null,
+              "ruleUrl": "https://html-validate.org/rules/void-content.html",
+              "context": "link",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.bodyEnd start\u0022 must not contain whitespace",
+              "offset": 846154,
+              "line": 1416,
+              "column": 39,
+              "size": 28,
+              "selector": "#pageHtmlEmbeds\\.bodyEnd\\ start",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.bodyEnd start"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.bodyEnd start\u0022",
+              "offset": 846154,
+              "line": 1416,
+              "column": 39,
+              "size": 28,
+              "selector": "#pageHtmlEmbeds\\.bodyEnd\\ start",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.bodyEnd start",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.bodyEnd end\u0022 must not contain whitespace",
+              "offset": 846237,
+              "line": 1418,
+              "column": 39,
+              "size": 26,
+              "selector": "#pageHtmlEmbeds\\.bodyEnd\\ end",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.bodyEnd end"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.bodyEnd end\u0022",
+              "offset": 846237,
+              "line": 1418,
+              "column": 39,
+              "size": 26,
+              "selector": "#pageHtmlEmbeds\\.bodyEnd\\ end",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.bodyEnd end",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.head start\u0022 must not contain whitespace",
+              "offset": 41915,
+              "line": 108,
+              "column": 41,
+              "size": 25,
+              "selector": "#pageHtmlEmbeds\\.head\\ start",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.head start"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.head start\u0022",
+              "offset": 41915,
+              "line": 108,
+              "column": 41,
+              "size": 25,
+              "selector": "#pageHtmlEmbeds\\.head\\ start",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.head start",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.head end\u0022 must not contain whitespace",
+              "offset": 41997,
+              "line": 110,
+              "column": 41,
+              "size": 23,
+              "selector": "#pageHtmlEmbeds\\.head\\ end",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.head end"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.head end\u0022",
+              "offset": 41997,
+              "line": 110,
+              "column": 41,
+              "size": 23,
+              "selector": "#pageHtmlEmbeds\\.head\\ end",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.head end",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.bodyStart start\u0022 must not contain whitespace",
+              "offset": 313504,
+              "line": 1097,
+              "column": 39,
+              "size": 30,
+              "selector": "#pageHtmlEmbeds\\.bodyStart\\ start",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.bodyStart start"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.bodyStart start\u0022",
+              "offset": 313504,
+              "line": 1097,
+              "column": 39,
+              "size": 30,
+              "selector": "#pageHtmlEmbeds\\.bodyStart\\ start",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.bodyStart start",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.bodyStart end\u0022 must not contain whitespace",
+              "offset": 313589,
+              "line": 1099,
+              "column": 39,
+              "size": 28,
+              "selector": "#pageHtmlEmbeds\\.bodyStart\\ end",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.bodyStart end"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.bodyStart end\u0022",
+              "offset": 313589,
+              "line": 1099,
+              "column": 39,
+              "size": 28,
+              "selector": "#pageHtmlEmbeds\\.bodyStart\\ end",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.bodyStart end",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_1bb518b3-39d0-4f4f-a13d-2773e86f4cc3\u0022",
+              "offset": 376584,
+              "line": 1197,
+              "column": 17293,
+              "size": 50,
+              "selector": "#item-wrapper-1bb518b3-39d0-4f4f-a13d-2773e86f4cc3 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u00221bb518b3-39d0-4f4f-a13d-2773e86f4cc3\u0022",
+              "offset": 377456,
+              "line": 1197,
+              "column": 18165,
+              "size": 36,
+              "selector": "#item-wrapper-1bb518b3-39d0-4f4f-a13d-2773e86f4cc3 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_d1ca4956-f6cb-42b1-87e3-0472cacb15d9\u0022",
+              "offset": 381822,
+              "line": 1197,
+              "column": 22531,
+              "size": 50,
+              "selector": "#item-wrapper-d1ca4956-f6cb-42b1-87e3-0472cacb15d9 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022d1ca4956-f6cb-42b1-87e3-0472cacb15d9\u0022",
+              "offset": 382772,
+              "line": 1197,
+              "column": 23481,
+              "size": 36,
+              "selector": "#item-wrapper-d1ca4956-f6cb-42b1-87e3-0472cacb15d9 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_a70b5fdb-a2be-4464-8d4e-3024258c83a9\u0022",
+              "offset": 387110,
+              "line": 1197,
+              "column": 27819,
+              "size": 50,
+              "selector": "#item-wrapper-a70b5fdb-a2be-4464-8d4e-3024258c83a9 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022a70b5fdb-a2be-4464-8d4e-3024258c83a9\u0022",
+              "offset": 387997,
+              "line": 1197,
+              "column": 28706,
+              "size": 36,
+              "selector": "#item-wrapper-a70b5fdb-a2be-4464-8d4e-3024258c83a9 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_315a9bfb-0efc-4ee0-8982-20908cdfdebb\u0022",
+              "offset": 392381,
+              "line": 1197,
+              "column": 33090,
+              "size": 50,
+              "selector": "#item-wrapper-315a9bfb-0efc-4ee0-8982-20908cdfdebb \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022315a9bfb-0efc-4ee0-8982-20908cdfdebb\u0022",
+              "offset": 393315,
+              "line": 1197,
+              "column": 34024,
+              "size": 36,
+              "selector": "#item-wrapper-315a9bfb-0efc-4ee0-8982-20908cdfdebb \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_8176f2db-c3f8-48e1-a250-531f39a7b760\u0022",
+              "offset": 401814,
+              "line": 1197,
+              "column": 42523,
+              "size": 50,
+              "selector": "#item-wrapper-8176f2db-c3f8-48e1-a250-531f39a7b760 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u00228176f2db-c3f8-48e1-a250-531f39a7b760\u0022",
+              "offset": 402784,
+              "line": 1197,
+              "column": 43493,
+              "size": 36,
+              "selector": "#item-wrapper-8176f2db-c3f8-48e1-a250-531f39a7b760 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022multi_picture_e3670101-52e5-4de2-924f-369cc419b4b9\u0022",
+              "offset": 407244,
+              "line": 1197,
+              "column": 47953,
+              "size": 50,
+              "selector": "#item-wrapper-e3670101-52e5-4de2-924f-369cc419b4b9 \u003E div \u003E picture:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022e3670101-52e5-4de2-924f-369cc419b4b9\u0022",
+              "offset": 408238,
+              "line": 1197,
+              "column": 48947,
+              "size": 36,
+              "selector": "#item-wrapper-e3670101-52e5-4de2-924f-369cc419b4b9 \u003E div \u003E picture:nth-child(2) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cstyle\u003E element is not permitted as content under \u003Cdiv\u003E",
+              "offset": 414417,
+              "line": 1197,
+              "column": 55126,
+              "size": 5,
+              "selector": "#pro-gallery-comp-m1tc2swk \u003E div \u003E div:nth-child(3) \u003E style",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cdiv\u003E",
+                "child": "\u003Cstyle\u003E"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022href\u0022 has invalid value \u0022\u0022",
+              "offset": 414582,
+              "line": 1197,
+              "column": 55291,
+              "size": 4,
+              "selector": "#layout-fixer-style-comp-m1tc2swk",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "link",
+                "attribute": "href",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "void-content",
+              "message": "End tag for \u003Clink\u003E must be omitted",
+              "offset": 506236,
+              "line": 1295,
+              "column": 2511,
+              "size": 5,
+              "selector": null,
+              "ruleUrl": "https://html-validate.org/rules/void-content.html",
+              "context": "link",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "void-content",
+              "message": "End tag for \u003Clink\u003E must be omitted",
+              "offset": 508754,
+              "line": 1298,
+              "column": 2506,
+              "size": 5,
+              "selector": null,
+              "ruleUrl": "https://html-validate.org/rules/void-content.html",
+              "context": "link",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "void-content",
+              "message": "End tag for \u003Clink\u003E must be omitted",
+              "offset": 510902,
+              "line": 1301,
+              "column": 2136,
+              "size": 5,
+              "selector": null,
+              "ruleUrl": "https://html-validate.org/rules/void-content.html",
+              "context": "link",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "void-content",
+              "message": "End tag for \u003Clink\u003E must be omitted",
+              "offset": 513045,
+              "line": 1304,
+              "column": 2131,
+              "size": 5,
+              "selector": null,
+              "ruleUrl": "https://html-validate.org/rules/void-content.html",
+              "context": "link",
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.bodyEnd start\u0022 must not contain whitespace",
+              "offset": 846154,
+              "line": 1416,
+              "column": 39,
+              "size": 28,
+              "selector": "#pageHtmlEmbeds\\.bodyEnd\\ start",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.bodyEnd start"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.bodyEnd start\u0022",
+              "offset": 846154,
+              "line": 1416,
+              "column": 39,
+              "size": 28,
+              "selector": "#pageHtmlEmbeds\\.bodyEnd\\ start",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.bodyEnd start",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "valid-id",
+              "message": "element id \u0022pageHtmlEmbeds.bodyEnd end\u0022 must not contain whitespace",
+              "offset": 846237,
+              "line": 1418,
+              "column": 39,
+              "size": 26,
+              "selector": "#pageHtmlEmbeds\\.bodyEnd\\ end",
+              "ruleUrl": "https://html-validate.org/rules/valid-id.html",
+              "context": {
+                "kind": 2,
+                "id": "pageHtmlEmbeds.bodyEnd end"
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022id\u0022 has invalid value \u0022pageHtmlEmbeds.bodyEnd end\u0022",
+              "offset": 846237,
+              "line": 1418,
+              "column": 39,
+              "size": 26,
+              "selector": "#pageHtmlEmbeds\\.bodyEnd\\ end",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "script",
+                "attribute": "id",
+                "value": "pageHtmlEmbeds.bodyEnd end",
+                "allowed": {
+                  "enum": [
+                    {}
+                  ]
+                }
+              },
+              "url": "https://www.ftt.ai/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.ftt.ai/0deff4f6ec3b9bdb8e54191f243a1c65c4756d92ccbc6e30f42f53a9c575014bb3e07224ad49f9a1cfd98f905be945d424fb1c0992d1e82682d01d900a051d04.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.ftt.ai/",
+            "index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

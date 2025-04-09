@@ -1,0 +1,86 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.92,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.92,
+      "date": "2025-04-09T09:43:07.273577",
+      "report": "- The CSS is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- \u0060\u003Cstyle\u003E\u0060 in: #1: en-us, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #1: en-us, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #6: auto, number of grouped error type: 2 ( 4.60 rating )\r\n- \u0060\u003Cstyle\u003E\u0060 in: #6: auto, number of errors: 2 ( 4.60 rating )\r\n  - Unexpected invalid prelude \u0022fade-in.animation\u0022 for at-rule \u0022@keyframes\u0022 (at-rule-prelude-no-invalid) (number of errors of this type: 1)\n  - Cannot parse property value \u0022fade-in.animation .1s cubic-bezier(1,1,0,1) .4s backwards\u0022 for property \u0022animation\u0022 (declaration-property-value-no-unknown) (number of errors of this type: 1)\n- \u0060style=\u0022\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060style=\u0022\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060\u003Clink rel=\u0022stylesheet\u0022\u003E\u0060, number of errors: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of grouped error type: 0 ( 5.00 rating )\r\n- \u0060content-type=\u0022.*css.*\u0022\u0060, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "has_style_elements": true,
+        "has_style_attributes": false,
+        "has_css_files": false,
+        "errors": {
+          "all": [
+            {
+              "line": 1,
+              "column": 6557,
+              "endLine": 1,
+              "endColumn": 6574,
+              "rule": "at-rule-prelude-no-invalid",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/ndfxy/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/#style-elements",
+              "type": "error",
+              "message": "Unexpected invalid prelude \u0022fade-in.animation\u0022 for at-rule \u0022@keyframes\u0022 (at-rule-prelude-no-invalid)",
+              "file": "/usr/src/runner/cache/challenges.cloudflare.com/bd6fefefe0acae539f8757963b9656c0c32239aca521773ea4a9e5d955f2ec8294945d91cb7f342b403c4fdae35f3c30a499c94a05704a4a7858d006c76cac59.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 6657,
+              "endLine": 1,
+              "endColumn": 6714,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/ndfxy/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/#style-elements",
+              "type": "error",
+              "message": "Cannot parse property value \u0022fade-in.animation .1s cubic-bezier(1,1,0,1) .4s backwards\u0022 for property \u0022animation\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/challenges.cloudflare.com/bd6fefefe0acae539f8757963b9656c0c32239aca521773ea4a9e5d955f2ec8294945d91cb7f342b403c4fdae35f3c30a499c94a05704a4a7858d006c76cac59.txt.utf-8.cache.css"
+            }
+          ],
+          "style_element": [
+            {
+              "line": 1,
+              "column": 6557,
+              "endLine": 1,
+              "endColumn": 6574,
+              "rule": "at-rule-prelude-no-invalid",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/ndfxy/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/#style-elements",
+              "type": "error",
+              "message": "Unexpected invalid prelude \u0022fade-in.animation\u0022 for at-rule \u0022@keyframes\u0022 (at-rule-prelude-no-invalid)",
+              "file": "/usr/src/runner/cache/challenges.cloudflare.com/bd6fefefe0acae539f8757963b9656c0c32239aca521773ea4a9e5d955f2ec8294945d91cb7f342b403c4fdae35f3c30a499c94a05704a4a7858d006c76cac59.txt.utf-8.cache.css"
+            },
+            {
+              "line": 1,
+              "column": 6657,
+              "endLine": 1,
+              "endColumn": 6714,
+              "rule": "declaration-property-value-no-unknown",
+              "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/ndfxy/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/#style-elements",
+              "type": "error",
+              "message": "Cannot parse property value \u0022fade-in.animation .1s cubic-bezier(1,1,0,1) .4s backwards\u0022 for property \u0022animation\u0022 (declaration-property-value-no-unknown)",
+              "file": "/usr/src/runner/cache/challenges.cloudflare.com/bd6fefefe0acae539f8757963b9656c0c32239aca521773ea4a9e5d955f2ec8294945d91cb7f342b403c4fdae35f3c30a499c94a05704a4a7858d006c76cac59.txt.utf-8.cache.css"
+            }
+          ],
+          "style_attribute": [],
+          "style_files": []
+        },
+        "sources": [
+          {
+            "url": "https://support.optimizely.com/hc/en-us",
+            "index": 1
+          },
+          {
+            "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/if/ov2/av0/rcv/ndfxy/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal/auto/",
+            "index": 6
+          }
+        ]
+      }
+    }
+  ]
+}

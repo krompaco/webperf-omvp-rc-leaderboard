@@ -1,0 +1,931 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 2.3,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 2.3,
+      "rating_stand": -1.0,
+      "date": "2025-04-09T09:04:50.629156",
+      "report": "- The accessibility is really bad! Probably both for disabled people and everyone of us when we need some accessibility!\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Number of types of issues: 7 ( 3.60 rating )\r\n- Number of issues: 91 ( 1.00 rating )\r\n\n##### Problems:\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.24:1. Recommendation:  change text colour to #00070c.\n- Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.\n- Anchor element found with a valid href attribute, but no link content has been supplied.\n- A element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.\n- Anchor element found with no link content and no name and/or ID attribute.\n",
+      "report_stand": "",
+      "data": [
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca href=\u0022\u0022 class=\u0022submit text-disable\u0022\u003E\u003Ci class=\u0022 mw-icon icomoon-the7...\u003C/a\u003E",
+          "selector": "#page \u003E div:nth-child(2) \u003E header \u003E div:nth-child(3) \u003E div \u003E form \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca href=\u0022\u0022 class=\u0022search-icon\u0022\u003E\u003Ci class=\u0022icomoon-the7-font-ico...\u003C/a\u003E",
+          "selector": "#page \u003E div:nth-child(2) \u003E header \u003E div:nth-child(3) \u003E div \u003E form \u003E div:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca href=\u0022\u0022 class=\u0022submit text-disable\u0022\u003E\u003Ci class=\u0022 mw-icon icomoon-the7...\u003C/a\u003E",
+          "selector": "#page \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E form \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca href=\u0022\u0022 class=\u0022search-icon\u0022\u003E\u003Ci class=\u0022icomoon-the7-font-ico...\u003C/a\u003E",
+          "selector": "#page \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E form \u003E div:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca href=\u0022\u0022 class=\u0022submit text-disable\u0022\u003E\u003Ci class=\u0022 mw-icon icomoon-the7...\u003C/a\u003E",
+          "selector": "#page \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E form \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca href=\u0022\u0022 class=\u0022search-icon\u0022\u003E\u003Ci class=\u0022icomoon-the7-font-ico...\u003C/a\u003E",
+          "selector": "#page \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E form \u003E div:nth-child(3) \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ch4 class=\u0022elementor-heading-title elementor-size-xl\u0022\u003EBuild Optimzely\u003C/h4\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(1) \u003E div:nth-child(3) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E h4",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.",
+          "context": "\u003Cspan class=\u0022elementor-headline-dynamic-text elementor-headline-text-active\u0022\u003EOptimizely\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(1) \u003E div:nth-child(3) \u003E div \u003E div \u003E div:nth-child(3) \u003E div \u003E h3 \u003E span:nth-child(1) \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.",
+          "context": "\u003Cspan class=\u0022elementor-headline-plain-text elementor-headline-text-wrapper\u0022\u003Earticles and guides for you\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(1) \u003E div:nth-child(3) \u003E div \u003E div \u003E div:nth-child(3) \u003E div \u003E h3 \u003E span:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(6) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(6) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(7) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(7) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(8) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(8) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(9) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(9) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(10) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(10) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(11) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(11) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(13) \u003E div \u003E div \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-btn-s dt-btn dt-slide-button\u0022\u003ERead article\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(13) \u003E div \u003E div \u003E a:nth-child(4)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca class=\u0022owl-prev\u0022\u003E\u003Ci class=\u0022 icomoon-the7-font-th...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca class=\u0022owl-next\u0022\u003E\u003Ci class=\u0022 icomoon-the7-font-th...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E a:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.24:1. Recommendation:  change text colour to #00070c.",
+          "context": "\u003Ch5 class=\u0022elementor-heading-title elementor-size-default\u0022\u003ELatest news \u0026amp; tutorials\u003C/h5\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(3) \u003E div \u003E h5",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022 class=\u0022post-thumbnail-rollover\u0022 aria-label=\u0022Post image\u0022 rel=\u0022nofollow\u0022\u003E\u003Cimg loading=\u0022lazy\u0022 decoding=\u0022a...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-03-22T12:41:30-07:00\u0022\u003EMarch 22, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-02-27T16:00:00-08:00\u0022\u003EFebruary 27, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-add-a-copy-preview-link-to-the-navigation-pane/\u0022 class=\u0022post-thumbnail-rollover\u0022 aria-label=\u0022Post image\u0022 rel=\u0022nofollow\u0022\u003E\u003Cimg loading=\u0022lazy\u0022 decoding=\u0022a...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-02-26T15:10:17-08:00\u0022\u003EFebruary 26, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-01-22T14:11:01-08:00\u0022\u003EJanuary 22, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222019-07-23T17:45:00-07:00\u0022\u003EJuly 23, 2019\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(5) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(5) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222019-07-11T23:58:02-07:00\u0022\u003EJuly 11, 2019\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(6) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(6) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222023-01-11T12:18:29-08:00\u0022\u003EJanuary 11, 2023\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(7) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(7) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-12-10T14:21:17-08:00\u0022\u003EDecember 10, 2022\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(8) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(8) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-09-29T09:43:27-07:00\u0022\u003ESeptember 29, 2022\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(9) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(9) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-08-04T08:00:00-07:00\u0022\u003EAugust 4, 2022\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(10) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(10) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-07-27T10:00:00-07:00\u0022\u003EJuly 27, 2022\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(11) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(11) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022 class=\u0022post-thumbnail-rollover layzr-bg\u0022 aria-label=\u0022Post image\u0022 rel=\u0022nofollow\u0022\u003E\u003Cimg loading=\u0022lazy\u0022 decoding=\u0022a...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-03-22T12:41:30-07:00\u0022\u003EMarch 22, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-02-27T16:00:00-08:00\u0022\u003EFebruary 27, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(13) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(13) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-add-a-copy-preview-link-to-the-navigation-pane/\u0022 class=\u0022post-thumbnail-rollover layzr-bg\u0022 aria-label=\u0022Post image\u0022 rel=\u0022nofollow\u0022\u003E\u003Cimg loading=\u0022lazy\u0022 decoding=\u0022a...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(14) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-02-26T15:10:17-08:00\u0022\u003EFebruary 26, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(14) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(14) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-01-22T14:11:01-08:00\u0022\u003EJanuary 22, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(15) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(15) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222019-07-23T17:45:00-07:00\u0022\u003EJuly 23, 2019\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(16) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(16) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222019-07-11T23:58:02-07:00\u0022\u003EJuly 11, 2019\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(17) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(17) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222023-01-11T12:18:29-08:00\u0022\u003EJanuary 11, 2023\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(18) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(18) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-12-10T14:21:17-08:00\u0022\u003EDecember 10, 2022\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(19) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(19) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-09-29T09:43:27-07:00\u0022\u003ESeptember 29, 2022\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(20) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(20) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-08-04T08:00:00-07:00\u0022\u003EAugust 4, 2022\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(21) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(21) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-07-27T10:00:00-07:00\u0022\u003EJuly 27, 2022\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(22) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(22) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+          "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022 class=\u0022post-thumbnail-rollover\u0022 aria-label=\u0022Post image\u0022 rel=\u0022nofollow\u0022\u003E\u003Cimg loading=\u0022lazy\u0022 decoding=\u0022a...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(23) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+          "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-03-22T12:41:30-07:00\u0022\u003EMarch 22, 2021\u003C/time\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(23) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "type": "error",
+          "typeCode": 1,
+          "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+          "context": "\u003Cspan\u003ERead article\u003C/span\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(23) \u003E article \u003E div:nth-child(2) \u003E a \u003E span",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca class=\u0022owl-prev\u0022\u003E\u003Ci class=\u0022 icomoon-the7-font-th...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(2) \u003E a:nth-child(1)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        },
+        {
+          "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+          "type": "error",
+          "typeCode": 1,
+          "message": "Anchor element found with no link content and no name and/or ID attribute.",
+          "context": "\u003Ca class=\u0022owl-next\u0022\u003E\u003Ci class=\u0022 icomoon-the7-font-th...\u003C/a\u003E",
+          "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E div:nth-child(2) \u003E a:nth-child(2)",
+          "runner": "htmlcs",
+          "runnerExtras": {}
+        }
+      ]
+    }
+  ]
+}

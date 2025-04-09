@@ -1,0 +1,433 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 4.3,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.3,
+      "date": "2025-04-09T07:36:42.185236",
+      "report": "- The HTML is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage , number of grouped error type: 3 ( 4.40 rating )\r\n- #1: Webpage , number of errors: 11 ( 2.80 rating )\r\n  - \u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E (number of errors of this type: 5)\n  - \u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E (number of errors of this type: 5)\n  - \u003Cdiv\u003E element is not permitted as content under \u003Chead\u003E (number of errors of this type: 1)\n- #14: a21516624425.ht, number of grouped error type: 0 ( 5.00 rating )\r\n- #14: a21516624425.ht, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Chead\u003E",
+              "offset": 1636,
+              "line": 46,
+              "column": 10,
+              "size": 3,
+              "selector": "#cookie-notice",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Chead\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 6512,
+              "line": 234,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 6958,
+              "line": 250,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 7338,
+              "line": 264,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 7714,
+              "line": 280,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 8029,
+              "line": 294,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 8563,
+              "line": 310,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 8871,
+              "line": 324,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(4) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 9299,
+              "line": 340,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(4) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 9614,
+              "line": 354,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(5) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 10084,
+              "line": 370,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(5) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Chead\u003E",
+              "offset": 1636,
+              "line": 46,
+              "column": 10,
+              "size": 3,
+              "selector": "#cookie-notice",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Chead\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 6512,
+              "line": 234,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 6958,
+              "line": 250,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 7338,
+              "line": 264,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 7714,
+              "line": 280,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 8029,
+              "line": 294,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 8563,
+              "line": 310,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 8871,
+              "line": 324,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(4) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 9299,
+              "line": 340,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(4) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cheader\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 9614,
+              "line": 354,
+              "column": 12,
+              "size": 6,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(5) \u003E span \u003E header",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cheader\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cspan\u003E",
+              "offset": 10084,
+              "line": 370,
+              "column": 16,
+              "size": 3,
+              "selector": "html \u003E body \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(5) \u003E span \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cspan\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://www.markeverard.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/www.markeverard.com/c78183db5952642b40d0ec35142d59d73a4661a4d101a894ef0977a9478b929df03e1d8e8c886ff375776a31f7f47334bb12128d59fdba3350acea3b14efcbc8.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.markeverard.com/",
+            "index": 1
+          },
+          {
+            "url": "https://a21516624425.cdn.optimizely.com/client_storage/a21516624425.html",
+            "index": 14
+          }
+        ]
+      }
+    }
+  ]
+}

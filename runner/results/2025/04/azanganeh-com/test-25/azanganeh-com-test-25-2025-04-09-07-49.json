@@ -1,0 +1,290 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 3.45,
+      "rating_sec": 3.19,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2025-04-09T07:49:04.876518",
+      "report": "- Web server used: nginx\r\n- Technology used: c, es6, js, typescript\r\n- Metadata used: icon, viewport\r\n- Javascript libraries used: bun, core-js, es5-shim, html, node, proposal-array-grouping, proposal-arraybuffer-base64, proposal-async-explicit-resource-management, proposal-explicit-resource-management, proposal-iterator-helpers, proposal-json-parse-with-source, proposal-set-methods, rhino, setimmediate, url, util, uuid\r\n- Languages found: en\r\n- Image formats used: ico\r\n",
+      "report_sec": "##### Software related to CVE:s ( 1.0 rating )\r\n\r\n###### Introduction:\r\nSoftware version used is affected by vulnerability described below.\r\nIn most cases you can fix a CVE related issue by updating software to latest version.\r\nIn some rare cases there is no update and you need to consider not using the software affected.\r\n\r\n###### Common Vulnerabilities and Exposures\r\n- CVE-2025-23419\r\n- CVE-2024-7347\r\n\r\n###### Detected software(s):\r\n- nginx 1.26.0\r\n\r\n###### Affected resource(s):\r\n- https://azanganeh.com/\r\n- https://azanganeh.com/assets/polyfills-CLZ4X0Ad.js\r\n- https://azanganeh.com/rest/sentry.js\r\n- https://azanganeh.com/assets/index-DZljH0cm.js\r\n- https://azanganeh.com/assets/index-CgXKy7t-.css\r\n- https://azanganeh.com/rest/settings\r\n- https://azanganeh.com/favicon.ico\r\n- https://azanganeh.com/rest/events/session-started\r\n- https://azanganeh.com/rest/login\r\n- https://azanganeh.com/assets/SigninView-CYkcm3hG.js\r\n- https://azanganeh.com/assets/AuthView-Bhr2Ols-.js\r\n- https://azanganeh.com/assets/Logo-CxllxUni.js\r\n- https://azanganeh.com/assets/Logo-DLBj1gMw.css\r\n- https://azanganeh.com/assets/AuthView-D4i2WDPk.css\r\n- https://azanganeh.com/assets/SigninView-D57wRRHz.css\r\n##### Software is behind \u003E=75 versions ( 2.25 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 75 or more version compared to latests.\r\nThis is a very good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 3.6.5\r\n\r\n###### Affected resource(s):\r\n- https://azanganeh.com/\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- nginx 1.26.0\r\n- core-js 3.40.0\r\n\r\n###### Affected resource(s):\r\n- https://azanganeh.com/\r\n- https://azanganeh.com/assets/polyfills-CLZ4X0Ad.js\r\n- https://azanganeh.com/rest/sentry.js\r\n- https://azanganeh.com/assets/index-DZljH0cm.js\r\n- https://azanganeh.com/assets/index-CgXKy7t-.css\r\n- https://azanganeh.com/rest/settings\r\n- https://azanganeh.com/favicon.ico\r\n- https://azanganeh.com/rest/events/session-started\r\n- https://azanganeh.com/rest/login\r\n- https://azanganeh.com/assets/SigninView-CYkcm3hG.js\r\n- https://azanganeh.com/assets/AuthView-Bhr2Ols-.js\r\n- https://azanganeh.com/assets/Logo-CxllxUni.js\r\n- https://azanganeh.com/assets/Logo-DLBj1gMw.css\r\n- https://azanganeh.com/assets/AuthView-D4i2WDPk.css\r\n- https://azanganeh.com/assets/SigninView-D57wRRHz.css\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "CVE": {
+            "softwares": [
+              "nginx 1.26.0"
+            ],
+            "resources": [
+              "https://azanganeh.com/",
+              "https://azanganeh.com/assets/polyfills-CLZ4X0Ad.js",
+              "https://azanganeh.com/rest/sentry.js",
+              "https://azanganeh.com/assets/index-DZljH0cm.js",
+              "https://azanganeh.com/assets/index-CgXKy7t-.css",
+              "https://azanganeh.com/rest/settings",
+              "https://azanganeh.com/favicon.ico",
+              "https://azanganeh.com/rest/events/session-started",
+              "https://azanganeh.com/rest/login",
+              "https://azanganeh.com/assets/SigninView-CYkcm3hG.js",
+              "https://azanganeh.com/assets/AuthView-Bhr2Ols-.js",
+              "https://azanganeh.com/assets/Logo-CxllxUni.js",
+              "https://azanganeh.com/assets/Logo-DLBj1gMw.css",
+              "https://azanganeh.com/assets/AuthView-D4i2WDPk.css",
+              "https://azanganeh.com/assets/SigninView-D57wRRHz.css"
+            ],
+            "sub-issues": [
+              "CVE-2025-23419",
+              "CVE-2024-7347"
+            ]
+          },
+          "BEHIND075": {
+            "softwares": [
+              "core-js 3.6.5"
+            ],
+            "resources": [
+              "https://azanganeh.com/"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND001": {
+            "softwares": [
+              "nginx 1.26.0",
+              "core-js 3.40.0"
+            ],
+            "resources": [
+              "https://azanganeh.com/",
+              "https://azanganeh.com/assets/polyfills-CLZ4X0Ad.js",
+              "https://azanganeh.com/rest/sentry.js",
+              "https://azanganeh.com/assets/index-DZljH0cm.js",
+              "https://azanganeh.com/assets/index-CgXKy7t-.css",
+              "https://azanganeh.com/rest/settings",
+              "https://azanganeh.com/favicon.ico",
+              "https://azanganeh.com/rest/events/session-started",
+              "https://azanganeh.com/rest/login",
+              "https://azanganeh.com/assets/SigninView-CYkcm3hG.js",
+              "https://azanganeh.com/assets/AuthView-Bhr2Ols-.js",
+              "https://azanganeh.com/assets/Logo-CxllxUni.js",
+              "https://azanganeh.com/assets/Logo-DLBj1gMw.css",
+              "https://azanganeh.com/assets/AuthView-D4i2WDPk.css",
+              "https://azanganeh.com/assets/SigninView-D57wRRHz.css"
+            ],
+            "sub-issues": []
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "1.26.0": {
+              "name": "nginx",
+              "precision": 0.8,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          }
+        },
+        "tech": {
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "js": {
+          "core-js": {
+            "3.6.5": {
+              "name": "core-js",
+              "precision": 0.8,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            },
+            "3.40.0": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          },
+          "setimmediate": {
+            "?": {
+              "name": "setimmediate",
+              "precision": 0.3,
+              "github-owner": "w3c",
+              "github-repo": "setImmediate"
+            }
+          },
+          "rhino": {
+            "?": {
+              "name": "rhino",
+              "precision": 0.1,
+              "github-owner": "mozilla",
+              "github-repo": "rhino"
+            }
+          },
+          "es5-shim": {
+            "?": {
+              "name": "es5-shim",
+              "precision": 0.1,
+              "github-owner": "es-shims",
+              "github-repo": "es5-shim"
+            }
+          },
+          "proposal-iterator-helpers": {
+            "?": {
+              "name": "proposal-iterator-helpers",
+              "precision": 0.1,
+              "github-owner": "tc39",
+              "github-repo": "proposal-iterator-helpers"
+            }
+          },
+          "proposal-set-methods": {
+            "?": {
+              "name": "proposal-set-methods",
+              "precision": 0.3,
+              "github-owner": "tc39",
+              "github-repo": "proposal-set-methods"
+            }
+          },
+          "bun": {
+            "?": {
+              "name": "bun",
+              "precision": 0.1,
+              "github-owner": "oven-sh",
+              "github-repo": "bun"
+            }
+          },
+          "proposal-explicit-resource-management": {
+            "?": {
+              "name": "proposal-explicit-resource-management",
+              "precision": 0.1,
+              "github-owner": "tc39",
+              "github-repo": "proposal-explicit-resource-management"
+            }
+          },
+          "proposal-array-grouping": {
+            "?": {
+              "name": "proposal-array-grouping",
+              "precision": 0.1,
+              "github-owner": "tc39",
+              "github-repo": "proposal-array-grouping"
+            }
+          },
+          "proposal-json-parse-with-source": {
+            "?": {
+              "name": "proposal-json-parse-with-source",
+              "precision": 0.1,
+              "github-owner": "tc39",
+              "github-repo": "proposal-json-parse-with-source"
+            }
+          },
+          "proposal-async-explicit-resource-management": {
+            "?": {
+              "name": "proposal-async-explicit-resource-management",
+              "precision": 0.1,
+              "github-owner": "tc39",
+              "github-repo": "proposal-async-explicit-resource-management"
+            }
+          },
+          "node": {
+            "?": {
+              "name": "node",
+              "precision": 0.1,
+              "github-owner": "nodejs",
+              "github-repo": "node"
+            }
+          },
+          "proposal-arraybuffer-base64": {
+            "?": {
+              "name": "proposal-arraybuffer-base64",
+              "precision": 0.1,
+              "github-owner": "tc39",
+              "github-repo": "proposal-arraybuffer-base64"
+            }
+          },
+          "url": {
+            "?": {
+              "name": "url",
+              "precision": 0.1,
+              "github-owner": "whatwg",
+              "github-repo": "url"
+            }
+          },
+          "html": {
+            "?": {
+              "name": "html",
+              "precision": 0.1,
+              "github-owner": "whatwg",
+              "github-repo": "html"
+            }
+          },
+          "uuid": {
+            "?": {
+              "name": "uuid",
+              "precision": 0.1,
+              "github-owner": "uuidjs",
+              "github-repo": "uuid"
+            }
+          },
+          "util": {
+            "?": {
+              "name": "util",
+              "precision": 0.5
+            }
+          }
+        },
+        "img": {
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

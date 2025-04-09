@@ -1,0 +1,3515 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 4.1,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.1,
+      "date": "2025-04-09T07:29:12.626224",
+      "report": "- The HTML is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage , number of grouped error type: 7 ( 3.60 rating )\r\n- #1: Webpage , number of errors: 77 ( 1.00 rating )\r\n  - Attribute \u201Ctarget\u201D has invalid value \u0022\u0022 (number of errors of this type: 47)\n  - \u003Cimg\u003E is missing required \u201Csrc\u201D attribute (number of errors of this type: 11)\n  - Attribute \u201Calign\u201D is deprecated on \u003Cdiv\u003E element (number of errors of this type: 7)\n  - \u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E (number of errors of this type: 6)\n  - Duplicate ID \u201C-1\u201D (number of errors of this type: 4)\n  - \u003Chtml\u003E is missing required \u201Clang\u201D attribute (number of errors of this type: 1)\n  - Attribute \u201Cname\u201D is deprecated on \u003Ca\u003E element (number of errors of this type: 1)\n- #71: a5935064.html, number of grouped error type: 0 ( 5.00 rating )\r\n- #71: a5935064.html, number of errors: 0 ( 5.00 rating )\r\n- #80: anchor, number of grouped error type: 0 ( 5.00 rating )\r\n- #80: anchor, number of errors: 0 ( 5.00 rating )\r\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 18,
+              "line": 2,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022name\u0022 is deprecated on \u003Ca\u003E element",
+              "offset": 7428,
+              "line": 46,
+              "column": 8,
+              "size": 4,
+              "selector": "html \u003E body \u003E a:nth-child(1)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 9638,
+              "line": 84,
+              "column": 109,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 10517,
+              "line": 93,
+              "column": 112,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 11247,
+              "line": 99,
+              "column": 149,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 11424,
+              "line": 100,
+              "column": 149,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 11789,
+              "line": 104,
+              "column": 99,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 12505,
+              "line": 110,
+              "column": 136,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 12665,
+              "line": 111,
+              "column": 132,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 13061,
+              "line": 115,
+              "column": 130,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 13520,
+              "line": 120,
+              "column": 133,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 13964,
+              "line": 125,
+              "column": 115,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 14690,
+              "line": 131,
+              "column": 152,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 14870,
+              "line": 132,
+              "column": 152,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 15255,
+              "line": 136,
+              "column": 119,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 15989,
+              "line": 142,
+              "column": 156,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 16173,
+              "line": 143,
+              "column": 156,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 16557,
+              "line": 147,
+              "column": 118,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(7) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 16975,
+              "line": 152,
+              "column": 95,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(8) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 17420,
+              "line": 157,
+              "column": 119,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(9) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 17849,
+              "line": 162,
+              "column": 104,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(10) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022-1\u0022",
+              "offset": 18818,
+              "line": 175,
+              "column": 63,
+              "size": 2,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 20173,
+              "line": 188,
+              "column": 107,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 20894,
+              "line": 194,
+              "column": 148,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21092,
+              "line": 195,
+              "column": 153,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21281,
+              "line": 196,
+              "column": 153,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21471,
+              "line": 197,
+              "column": 162,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21672,
+              "line": 198,
+              "column": 158,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21859,
+              "line": 199,
+              "column": 154,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 25180,
+              "line": 225,
+              "column": 115,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022-1\u0022",
+              "offset": 25584,
+              "line": 231,
+              "column": 63,
+              "size": 2,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 26052,
+              "line": 234,
+              "column": 108,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 26478,
+              "line": 239,
+              "column": 101,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 26895,
+              "line": 244,
+              "column": 99,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 27316,
+              "line": 249,
+              "column": 100,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 27757,
+              "line": 254,
+              "column": 119,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 28192,
+              "line": 259,
+              "column": 99,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 28712,
+              "line": 266,
+              "column": 110,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022-1\u0022",
+              "offset": 29120,
+              "line": 272,
+              "column": 63,
+              "size": 2,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 30018,
+              "line": 280,
+              "column": 95,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 30473,
+              "line": 285,
+              "column": 128,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 30877,
+              "line": 290,
+              "column": 83,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 31276,
+              "line": 295,
+              "column": 83,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 32640,
+              "line": 310,
+              "column": 117,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(8) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 33165,
+              "line": 317,
+              "column": 100,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022-1\u0022",
+              "offset": 33573,
+              "line": 323,
+              "column": 63,
+              "size": 2,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 34470,
+              "line": 331,
+              "column": 91,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 35163,
+              "line": 337,
+              "column": 134,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 35331,
+              "line": 338,
+              "column": 138,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 37346,
+              "line": 352,
+              "column": 128,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 37709,
+              "line": 356,
+              "column": 94,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 38124,
+              "line": 361,
+              "column": 99,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 38539,
+              "line": 366,
+              "column": 85,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 44330,
+              "line": 489,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 44706,
+              "line": 491,
+              "column": 90,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 45709,
+              "line": 511,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 46172,
+              "line": 513,
+              "column": 81,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 47106,
+              "line": 532,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(3) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 47482,
+              "line": 534,
+              "column": 90,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(3) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 48600,
+              "line": 551,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(4) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 48976,
+              "line": 553,
+              "column": 90,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(4) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 49794,
+              "line": 572,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 50166,
+              "line": 574,
+              "column": 80,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 50971,
+              "line": 593,
+              "column": 80,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(6) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 60989,
+              "line": 762,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(1) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 62221,
+              "line": 790,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(2) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 63455,
+              "line": 818,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(3) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 64610,
+              "line": 846,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(4) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 67655,
+              "line": 906,
+              "column": 95,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(2) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 68809,
+              "line": 923,
+              "column": 95,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(3) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 71027,
+              "line": 956,
+              "column": 95,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(5) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a:nth-child(1) \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 71204,
+              "line": 957,
+              "column": 117,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(5) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a:nth-child(2) \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 71416,
+              "line": 958,
+              "column": 130,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(5) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a:nth-child(3) \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 72838,
+              "line": 976,
+              "column": 95,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(6) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 74215,
+              "line": 1011,
+              "column": 80,
+              "size": 5,
+              "selector": "#carousel-262203 \u003E div \u003E div \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 109158,
+              "line": 1524,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(7) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 110206,
+              "line": 1547,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(8) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 18,
+              "line": 2,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022name\u0022 is deprecated on \u003Ca\u003E element",
+              "offset": 7428,
+              "line": 46,
+              "column": 8,
+              "size": 4,
+              "selector": "html \u003E body \u003E a:nth-child(1)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 9638,
+              "line": 84,
+              "column": 109,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 10517,
+              "line": 93,
+              "column": 112,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 11247,
+              "line": 99,
+              "column": 149,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 11424,
+              "line": 100,
+              "column": 149,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 11789,
+              "line": 104,
+              "column": 99,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 12505,
+              "line": 110,
+              "column": 136,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 12665,
+              "line": 111,
+              "column": 132,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 13061,
+              "line": 115,
+              "column": 130,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 13520,
+              "line": 120,
+              "column": 133,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 13964,
+              "line": 125,
+              "column": 115,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 14690,
+              "line": 131,
+              "column": 152,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 14870,
+              "line": 132,
+              "column": 152,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 15255,
+              "line": 136,
+              "column": 119,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 15989,
+              "line": 142,
+              "column": 156,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 16173,
+              "line": 143,
+              "column": 156,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 16557,
+              "line": 147,
+              "column": 118,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(7) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 16975,
+              "line": 152,
+              "column": 95,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(8) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 17420,
+              "line": 157,
+              "column": 119,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(9) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 17849,
+              "line": 162,
+              "column": 104,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(10) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022-1\u0022",
+              "offset": 18818,
+              "line": 175,
+              "column": 63,
+              "size": 2,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 20173,
+              "line": 188,
+              "column": 107,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 20894,
+              "line": 194,
+              "column": 148,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21092,
+              "line": 195,
+              "column": 153,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21281,
+              "line": 196,
+              "column": 153,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21471,
+              "line": 197,
+              "column": 162,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21672,
+              "line": 198,
+              "column": 158,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 21859,
+              "line": 199,
+              "column": 154,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 25180,
+              "line": 225,
+              "column": 115,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022-1\u0022",
+              "offset": 25584,
+              "line": 231,
+              "column": 63,
+              "size": 2,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 26052,
+              "line": 234,
+              "column": 108,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 26478,
+              "line": 239,
+              "column": 101,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 26895,
+              "line": 244,
+              "column": 99,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 27316,
+              "line": 249,
+              "column": 100,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 27757,
+              "line": 254,
+              "column": 119,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 28192,
+              "line": 259,
+              "column": 99,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(4) \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 28712,
+              "line": 266,
+              "column": 110,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022-1\u0022",
+              "offset": 29120,
+              "line": 272,
+              "column": 63,
+              "size": 2,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 30018,
+              "line": 280,
+              "column": 95,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 30473,
+              "line": 285,
+              "column": 128,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(3) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 30877,
+              "line": 290,
+              "column": 83,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 31276,
+              "line": 295,
+              "column": 83,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 32640,
+              "line": 310,
+              "column": 117,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(5) \u003E ul \u003E li:nth-child(8) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 33165,
+              "line": 317,
+              "column": 100,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022-1\u0022",
+              "offset": 33573,
+              "line": 323,
+              "column": 63,
+              "size": 2,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 34470,
+              "line": 331,
+              "column": 91,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 35163,
+              "line": 337,
+              "column": 134,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(1) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 35331,
+              "line": 338,
+              "column": 138,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(2) \u003E ul \u003E li:nth-child(2) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 37346,
+              "line": 352,
+              "column": 128,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(3) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 37709,
+              "line": 356,
+              "column": 94,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(4) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 38124,
+              "line": 361,
+              "column": 99,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(5) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "attribute-allowed-values",
+              "message": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+              "offset": 38539,
+              "line": 366,
+              "column": 85,
+              "size": 6,
+              "selector": "#navbarSupportedContent \u003E ul \u003E li:nth-child(6) \u003E ul \u003E li:nth-child(6) \u003E a",
+              "ruleUrl": "https://html-validate.org/rules/attribute-allowed-values.html",
+              "context": {
+                "element": "a",
+                "attribute": "target",
+                "value": "",
+                "allowed": {
+                  "enum": [
+                    {},
+                    "_blank",
+                    "_self",
+                    "_parent",
+                    "_top"
+                  ]
+                }
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 44330,
+              "line": 489,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 44706,
+              "line": 491,
+              "column": 90,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 45709,
+              "line": 511,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 46172,
+              "line": 513,
+              "column": 81,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 47106,
+              "line": 532,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(3) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 47482,
+              "line": 534,
+              "column": 90,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(3) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 48600,
+              "line": 551,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(4) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 48976,
+              "line": 553,
+              "column": 90,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(4) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 49794,
+              "line": 572,
+              "column": 22,
+              "size": 3,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 50166,
+              "line": 574,
+              "column": 80,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 50971,
+              "line": 593,
+              "column": 80,
+              "size": 5,
+              "selector": "#carousel-259730 \u003E div \u003E div:nth-child(6) \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 60989,
+              "line": 762,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(1) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 62221,
+              "line": 790,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(2) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 63455,
+              "line": 818,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(3) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 64610,
+              "line": 846,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(4) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 67655,
+              "line": 906,
+              "column": 95,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(2) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 68809,
+              "line": 923,
+              "column": 95,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(3) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 71027,
+              "line": 956,
+              "column": 95,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(5) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a:nth-child(1) \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 71204,
+              "line": 957,
+              "column": 117,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(5) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a:nth-child(2) \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 71416,
+              "line": 958,
+              "column": 130,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(5) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a:nth-child(3) \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cbutton\u003E element is not permitted as a descendant of \u003Ca\u003E",
+              "offset": 72838,
+              "line": 976,
+              "column": 95,
+              "size": 6,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(4) \u003E section \u003E table \u003E tbody \u003E tr:nth-child(6) \u003E td:nth-child(1) \u003E div:nth-child(2) \u003E a \u003E button",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "descendant",
+                "ancestor": "\u003Ca\u003E",
+                "child": "\u003Cbutton\u003E"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+              "offset": 74215,
+              "line": 1011,
+              "column": 80,
+              "size": 5,
+              "selector": "#carousel-262203 \u003E div \u003E div \u003E div \u003E div:nth-child(2)",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 109158,
+              "line": 1524,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(7) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+              "offset": 110206,
+              "line": 1547,
+              "column": 18,
+              "size": 3,
+              "selector": "html \u003E body \u003E div:nth-child(7) \u003E div \u003E div:nth-child(8) \u003E div \u003E section \u003E a \u003E div:nth-child(1) \u003E div \u003E img",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "img",
+                "attribute": "src"
+              },
+              "url": "https://world.optimizely.com/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/world.optimizely.com/89fdf43c7cec4656fe4cea4c60e58e431e497d0d98f75e274e5df8ddecebd835d4e899c4c2610c71ce75f553f2d8f64ee3bb6174f080fd37affafc6740324ea3.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://world.optimizely.com/",
+            "index": 1
+          },
+          {
+            "url": "https://a5935064.cdn.optimizely.com/client_storage/a5935064.html",
+            "index": 71
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/anchor?ar=1\u0026k=6Le5-BQmAAAAAMs1Nbm38roKdHBAXiPEt1cd8xjf\u0026co=aHR0cHM6Ly93b3JsZC5vcHRpbWl6ZWx5LmNvbTo0NDM.\u0026hl=en\u0026v=hbAq-YhJxOnlU-7cpgBoAJHb\u0026size=invisible\u0026cb=69lhykb9dvht",
+            "index": 80
+          }
+        ]
+      }
+    }
+  ]
+}

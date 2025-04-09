@@ -1,0 +1,803 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 4.32,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.32,
+      "date": "2025-04-09T08:56:12.693461",
+      "report": "- The HTML is good.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage , number of grouped error type: 7 ( 3.60 rating )\r\n- #1: Webpage , number of errors: 16 ( 1.80 rating )\r\n  - Duplicate ID \u201Cjp-post-flair\u201D (number of errors of this type: 9)\n  - Attribute \u201Ccellspacing\u201D is deprecated on \u003Ctable\u003E element (number of errors of this type: 1)\n  - Attribute \u201Ccellpadding\u201D is deprecated on \u003Ctable\u003E element (number of errors of this type: 1)\n  - \u003Cdiv\u003E element is not permitted as content under \u003Cul\u003E (number of errors of this type: 1)\n  - \u003Cform\u003E element is not permitted as content under \u003Cul\u003E (number of errors of this type: 1)\n  - \u201Caria-label\u201D cannot be used on this element (number of errors of this type: 1)\n  - \u003Ciframe\u003E is missing required \u201Ctitle\u201D attribute (number of errors of this type: 1)\n  - Attribute \u201Cscrolling\u201D is deprecated on \u003Ciframe\u003E element (number of errors of this type: 1)\n- #35: master.html, number of grouped error type: 2 ( 4.60 rating )\r\n- #35: master.html, number of errors: 2 ( 4.60 rating )\r\n  - \u003Chtml\u003E is missing required \u201Clang\u201D attribute (number of errors of this type: 1)\n  - \u003Chead\u003E element must have \u003Ctitle\u003E as content (number of errors of this type: 1)\n- #41: remote-login.ph, number of grouped error type: 0 ( 5.00 rating )\r\n- #41: remote-login.ph, number of errors: 0 ( 5.00 rating )\r\n- #44: rest-proxy, number of grouped error type: 3 ( 4.40 rating )\r\n- #44: rest-proxy, number of errors: 3 ( 4.40 rating )\r\n  - \u003Chtml\u003E is missing required \u201Clang\u201D attribute (number of errors of this type: 1)\n  - \u003Chtml\u003E element must have \u003Cbody\u003E as content (number of errors of this type: 1)\n  - \u003Chead\u003E element must have \u003Ctitle\u003E as content (number of errors of this type: 1)\n- #50: index.html, number of grouped error type: 2 ( 4.60 rating )\r\n- #50: index.html, number of errors: 2 ( 4.60 rating )\r\n  - \u003Chtml\u003E is missing required \u201Clang\u201D attribute (number of errors of this type: 1)\n  - \u003Chead\u003E element must have \u003Ctitle\u003E as content (number of errors of this type: 1)\n- #51: index.html, number of grouped error type: 2 ( 4.60 rating )\r\n- #51: index.html, number of errors: 2 ( 4.60 rating )\r\n  - \u003Chtml\u003E is missing required \u201Clang\u201D attribute (number of errors of this type: 1)\n  - \u003Chead\u003E element must have \u003Ctitle\u003E as content (number of errors of this type: 1)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 71451,
+              "line": 931,
+              "column": 559,
+              "size": 13,
+              "selector": "#post-894 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 76619,
+              "line": 947,
+              "column": 556,
+              "size": 13,
+              "selector": "#post-889 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 81647,
+              "line": 963,
+              "column": 520,
+              "size": 13,
+              "selector": "#post-885 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 86919,
+              "line": 979,
+              "column": 583,
+              "size": 13,
+              "selector": "#post-870 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 92155,
+              "line": 995,
+              "column": 543,
+              "size": 13,
+              "selector": "#post-864 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 97140,
+              "line": 1011,
+              "column": 510,
+              "size": 13,
+              "selector": "#post-860 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 102057,
+              "line": 1027,
+              "column": 500,
+              "size": 13,
+              "selector": "#post-845 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 107231,
+              "line": 1044,
+              "column": 10,
+              "size": 13,
+              "selector": "#post-842 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 112571,
+              "line": 1061,
+              "column": 10,
+              "size": 13,
+              "selector": "#post-833 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022cellspacing\u0022 is deprecated on \u003Ctable\u003E element",
+              "offset": 118270,
+              "line": 1107,
+              "column": 181,
+              "size": 11,
+              "selector": "#recent-comments-2 \u003E table",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022cellpadding\u0022 is deprecated on \u003Ctable\u003E element",
+              "offset": 118286,
+              "line": 1107,
+              "column": 197,
+              "size": 11,
+              "selector": "#recent-comments-2 \u003E table",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cul\u003E",
+              "offset": 141604,
+              "line": 1394,
+              "column": 12,
+              "size": 3,
+              "selector": "#follow-bubble \u003E div:nth-child(2) \u003E ul \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cul\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cform\u003E element is not permitted as content under \u003Cul\u003E",
+              "offset": 141659,
+              "line": 1395,
+              "column": 11,
+              "size": 4,
+              "selector": "#follow-bubble \u003E div:nth-child(2) \u003E ul \u003E form",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cul\u003E",
+                "child": "\u003Cform\u003E"
+              },
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "aria-label-misuse",
+              "message": "\u0022aria-label\u0022 cannot be used on this element",
+              "offset": 152577,
+              "line": 1560,
+              "column": 58,
+              "size": 10,
+              "selector": "html \u003E body \u003E div:nth-child(13) \u003E div \u003E div:nth-child(3) \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E a:nth-child(2) \u003E span \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/aria-label-misuse.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+              "offset": 167138,
+              "line": 1843,
+              "column": 5,
+              "size": 6,
+              "selector": "#likes-master",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "iframe",
+                "attribute": "title"
+              },
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022scrolling\u0022 is deprecated on \u003Ciframe\u003E element",
+              "offset": 167218,
+              "line": 1843,
+              "column": 85,
+              "size": 9,
+              "selector": "#likes-master",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 17,
+              "line": 2,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://widgets.wp.com/likes/master.html?ver=20250409#ver=20250409",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/47e76b34cfc431c3b16c7a66b8933cb2ab7a6aa8cfb2c264eeffb4402b7cec40d66dcd701079331869da383f5749faa44fed78cb58ca095d0fc0ccbcb2a77977.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+              "offset": 24,
+              "line": 3,
+              "column": 2,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chead\u003E",
+                "missing": "\u003Ctitle\u003E"
+              },
+              "url": "https://widgets.wp.com/likes/master.html?ver=20250409#ver=20250409",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/47e76b34cfc431c3b16c7a66b8933cb2ab7a6aa8cfb2c264eeffb4402b7cec40d66dcd701079331869da383f5749faa44fed78cb58ca095d0fc0ccbcb2a77977.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 18,
+              "line": 3,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+              "type": 2,
+              "file": "/usr/src/runner/cache/public-api.wordpress.com/14549107ba63771a3ac5213b5d45efb0e04cf5cabab4afdb824df29f0f47e2c241ab0dce54a8b083ac1f4a764849a96fb3df9d1e026ff0ae12163ba3f4b96f32.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chtml\u003E element must have \u003Cbody\u003E as content",
+              "offset": 18,
+              "line": 3,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chtml\u003E",
+                "missing": "\u003Cbody\u003E"
+              },
+              "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+              "type": 2,
+              "file": "/usr/src/runner/cache/public-api.wordpress.com/14549107ba63771a3ac5213b5d45efb0e04cf5cabab4afdb824df29f0f47e2c241ab0dce54a8b083ac1f4a764849a96fb3df9d1e026ff0ae12163ba3f4b96f32.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+              "offset": 25,
+              "line": 4,
+              "column": 2,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chead\u003E",
+                "missing": "\u003Ctitle\u003E"
+              },
+              "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+              "type": 2,
+              "file": "/usr/src/runner/cache/public-api.wordpress.com/14549107ba63771a3ac5213b5d45efb0e04cf5cabab4afdb824df29f0f47e2c241ab0dce54a8b083ac1f4a764849a96fb3df9d1e026ff0ae12163ba3f4b96f32.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 17,
+              "line": 2,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-67f6352d803a5\u0026domain=jstemerdink.blog",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/9787097e7125509f0178f1937c675f561a0e7632949c276b407a6aaa588ce95f0433ddd513dbfe6607365d6d42dc3395502d00027cfe07b9f8bdd3a35dcff72b.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+              "offset": 25,
+              "line": 4,
+              "column": 2,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chead\u003E",
+                "missing": "\u003Ctitle\u003E"
+              },
+              "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-67f6352d803a5\u0026domain=jstemerdink.blog",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/9787097e7125509f0178f1937c675f561a0e7632949c276b407a6aaa588ce95f0433ddd513dbfe6607365d6d42dc3395502d00027cfe07b9f8bdd3a35dcff72b.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 17,
+              "line": 2,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-67f6352d81df6\u0026domain=jstemerdink.blog",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/5465f18321bcf2f19eac7f620fb82874e6f0eb7c87169b06021f19c28486e4862d6cef8865e1678257859456de795a6670182ef21e104bf113f740a12af57f08.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+              "offset": 25,
+              "line": 4,
+              "column": 2,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chead\u003E",
+                "missing": "\u003Ctitle\u003E"
+              },
+              "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-67f6352d81df6\u0026domain=jstemerdink.blog",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/5465f18321bcf2f19eac7f620fb82874e6f0eb7c87169b06021f19c28486e4862d6cef8865e1678257859456de795a6670182ef21e104bf113f740a12af57f08.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 71451,
+              "line": 931,
+              "column": 559,
+              "size": 13,
+              "selector": "#post-894 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 76619,
+              "line": 947,
+              "column": 556,
+              "size": 13,
+              "selector": "#post-889 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 81647,
+              "line": 963,
+              "column": 520,
+              "size": 13,
+              "selector": "#post-885 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 86919,
+              "line": 979,
+              "column": 583,
+              "size": 13,
+              "selector": "#post-870 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 92155,
+              "line": 995,
+              "column": 543,
+              "size": 13,
+              "selector": "#post-864 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 97140,
+              "line": 1011,
+              "column": 510,
+              "size": 13,
+              "selector": "#post-860 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 102057,
+              "line": 1027,
+              "column": 500,
+              "size": 13,
+              "selector": "#post-845 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 107231,
+              "line": 1044,
+              "column": 10,
+              "size": 13,
+              "selector": "#post-842 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-dup-id",
+              "message": "Duplicate ID \u0022jp-post-flair\u0022",
+              "offset": 112571,
+              "line": 1061,
+              "column": 10,
+              "size": 13,
+              "selector": "#post-833 \u003E div \u003E div \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/no-dup-id.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022cellspacing\u0022 is deprecated on \u003Ctable\u003E element",
+              "offset": 118270,
+              "line": 1107,
+              "column": 181,
+              "size": 11,
+              "selector": "#recent-comments-2 \u003E table",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022cellpadding\u0022 is deprecated on \u003Ctable\u003E element",
+              "offset": 118286,
+              "line": 1107,
+              "column": 197,
+              "size": 11,
+              "selector": "#recent-comments-2 \u003E table",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cdiv\u003E element is not permitted as content under \u003Cul\u003E",
+              "offset": 141604,
+              "line": 1394,
+              "column": 12,
+              "size": 3,
+              "selector": "#follow-bubble \u003E div:nth-child(2) \u003E ul \u003E div",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cul\u003E",
+                "child": "\u003Cdiv\u003E"
+              },
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-permitted-content",
+              "message": "\u003Cform\u003E element is not permitted as content under \u003Cul\u003E",
+              "offset": 141659,
+              "line": 1395,
+              "column": 11,
+              "size": 4,
+              "selector": "#follow-bubble \u003E div:nth-child(2) \u003E ul \u003E form",
+              "ruleUrl": "https://html-validate.org/rules/element-permitted-content.html",
+              "context": {
+                "kind": "content",
+                "parent": "\u003Cul\u003E",
+                "child": "\u003Cform\u003E"
+              },
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "aria-label-misuse",
+              "message": "\u0022aria-label\u0022 cannot be used on this element",
+              "offset": 152577,
+              "line": 1560,
+              "column": 58,
+              "size": 10,
+              "selector": "html \u003E body \u003E div:nth-child(13) \u003E div \u003E div:nth-child(3) \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E a:nth-child(2) \u003E span \u003E span",
+              "ruleUrl": "https://html-validate.org/rules/aria-label-misuse.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+              "offset": 167138,
+              "line": 1843,
+              "column": 5,
+              "size": 6,
+              "selector": "#likes-master",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "iframe",
+                "attribute": "title"
+              },
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "no-deprecated-attr",
+              "message": "Attribute \u0022scrolling\u0022 is deprecated on \u003Ciframe\u003E element",
+              "offset": 167218,
+              "line": 1843,
+              "column": 85,
+              "size": 9,
+              "selector": "#likes-master",
+              "ruleUrl": "https://html-validate.org/rules/no-deprecated-attr.html",
+              "url": "https://jstemerdink.blog/",
+              "type": 2,
+              "file": "/usr/src/runner/cache/jstemerdink.blog/c74cb72ebe28ec842eb104032859790dc0b476c81d1c864214ed3c4fec349b047c4ef23b5c14a1e9bc93080610fd953efaf92f024452ff7dd31dadf3b71784db.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 17,
+              "line": 2,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://widgets.wp.com/likes/master.html?ver=20250409#ver=20250409",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/47e76b34cfc431c3b16c7a66b8933cb2ab7a6aa8cfb2c264eeffb4402b7cec40d66dcd701079331869da383f5749faa44fed78cb58ca095d0fc0ccbcb2a77977.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+              "offset": 24,
+              "line": 3,
+              "column": 2,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chead\u003E",
+                "missing": "\u003Ctitle\u003E"
+              },
+              "url": "https://widgets.wp.com/likes/master.html?ver=20250409#ver=20250409",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/47e76b34cfc431c3b16c7a66b8933cb2ab7a6aa8cfb2c264eeffb4402b7cec40d66dcd701079331869da383f5749faa44fed78cb58ca095d0fc0ccbcb2a77977.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 18,
+              "line": 3,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+              "type": 2,
+              "file": "/usr/src/runner/cache/public-api.wordpress.com/14549107ba63771a3ac5213b5d45efb0e04cf5cabab4afdb824df29f0f47e2c241ab0dce54a8b083ac1f4a764849a96fb3df9d1e026ff0ae12163ba3f4b96f32.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chtml\u003E element must have \u003Cbody\u003E as content",
+              "offset": 18,
+              "line": 3,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chtml\u003E",
+                "missing": "\u003Cbody\u003E"
+              },
+              "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+              "type": 2,
+              "file": "/usr/src/runner/cache/public-api.wordpress.com/14549107ba63771a3ac5213b5d45efb0e04cf5cabab4afdb824df29f0f47e2c241ab0dce54a8b083ac1f4a764849a96fb3df9d1e026ff0ae12163ba3f4b96f32.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+              "offset": 25,
+              "line": 4,
+              "column": 2,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chead\u003E",
+                "missing": "\u003Ctitle\u003E"
+              },
+              "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+              "type": 2,
+              "file": "/usr/src/runner/cache/public-api.wordpress.com/14549107ba63771a3ac5213b5d45efb0e04cf5cabab4afdb824df29f0f47e2c241ab0dce54a8b083ac1f4a764849a96fb3df9d1e026ff0ae12163ba3f4b96f32.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 17,
+              "line": 2,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-67f6352d803a5\u0026domain=jstemerdink.blog",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/9787097e7125509f0178f1937c675f561a0e7632949c276b407a6aaa588ce95f0433ddd513dbfe6607365d6d42dc3395502d00027cfe07b9f8bdd3a35dcff72b.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+              "offset": 25,
+              "line": 4,
+              "column": 2,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chead\u003E",
+                "missing": "\u003Ctitle\u003E"
+              },
+              "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-67f6352d803a5\u0026domain=jstemerdink.blog",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/9787097e7125509f0178f1937c675f561a0e7632949c276b407a6aaa588ce95f0433ddd513dbfe6607365d6d42dc3395502d00027cfe07b9f8bdd3a35dcff72b.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-attributes",
+              "message": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+              "offset": 17,
+              "line": 2,
+              "column": 2,
+              "size": 4,
+              "selector": "html",
+              "ruleUrl": "https://html-validate.org/rules/element-required-attributes.html",
+              "context": {
+                "element": "html",
+                "attribute": "lang"
+              },
+              "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-67f6352d81df6\u0026domain=jstemerdink.blog",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/5465f18321bcf2f19eac7f620fb82874e6f0eb7c87169b06021f19c28486e4862d6cef8865e1678257859456de795a6670182ef21e104bf113f740a12af57f08.txt.utf-8.cache.html"
+            },
+            {
+              "ruleId": "element-required-content",
+              "message": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+              "offset": 25,
+              "line": 4,
+              "column": 2,
+              "size": 4,
+              "selector": "html \u003E head",
+              "ruleUrl": "https://html-validate.org/rules/element-required-content.html",
+              "context": {
+                "element": "\u003Chead\u003E",
+                "missing": "\u003Ctitle\u003E"
+              },
+              "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-67f6352d81df6\u0026domain=jstemerdink.blog",
+              "type": 2,
+              "file": "/usr/src/runner/cache/widgets.wp.com/5465f18321bcf2f19eac7f620fb82874e6f0eb7c87169b06021f19c28486e4862d6cef8865e1678257859456de795a6670182ef21e104bf113f740a12af57f08.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://jstemerdink.blog/",
+            "index": 1
+          },
+          {
+            "url": "https://widgets.wp.com/likes/master.html?ver=20250409#ver=20250409",
+            "index": 35
+          },
+          {
+            "url": "https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key\u0026origin=aHR0cHM6Ly9qc3RlbWVyZGluay5ibG9n\u0026wpcomid=16784622\u0026time=1744188717",
+            "index": 41
+          },
+          {
+            "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+            "index": 44
+          },
+          {
+            "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-67f6352d803a5\u0026domain=jstemerdink.blog",
+            "index": 50
+          },
+          {
+            "url": "https://widgets.wp.com/likes/index.html?ver=20250409#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-67f6352d81df6\u0026domain=jstemerdink.blog",
+            "index": 51
+          }
+        ]
+      }
+    }
+  ]
+}

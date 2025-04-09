@@ -1,0 +1,351 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 4,
+      "rating": 2.25,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2025-04-09T08:57:27.025404",
+      "report": "- Pretty bad optimised for search engines (SEO).\n- Page is blocked from indexing ( 1.00 rating )\r\n- Image elements do not have \u0060[alt]\u0060 attributes ( 1.00 rating )\r\n- Document does not have a meta description ( 1.00 rating )\r\n- Document has a \u0060\u003Ctitle\u003E\u0060 element ( 5.00 rating )\r\n- Page has successful HTTP status code ( 5.00 rating )\r\n- Links have descriptive text ( 5.00 rating )\r\n- Links are crawlable ( 5.00 rating )\r\n- Document has a valid \u0060hreflang\u0060 ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "document-title": {
+          "id": "document-title",
+          "title": "Document has a \u0060\u003Ctitle\u003E\u0060 element",
+          "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more about document titles](https://dequeuniversity.com/rules/axe/4.10/document-title).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "image-alt": {
+          "id": "image-alt",
+          "title": "Image elements do not have \u0060[alt]\u0060 attributes",
+          "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more about the \u0060alt\u0060 attribute](https://dequeuniversity.com/rules/axe/4.10/image-alt).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "node",
+                "valueType": "node",
+                "subItemsHeading": {
+                  "key": "relatedNode",
+                  "valueType": "node"
+                },
+                "label": "Failing Elements"
+              }
+            ],
+            "items": [
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-62-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 273,
+                    "bottom": 469,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 196
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/yt9xcgmb0ul1djjtycae/applicationinsightsroles2.\u2026\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-63-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,3,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 1048,
+                    "bottom": 1123,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 74
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/ib03zmat6nxku6j2y6zu/proxmox_meta-package_proxm\u2026\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-64-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,5,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 1514,
+                    "bottom": 1788,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 274
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/p5ojvsu6wcvo2qiq6i97/portainer3.png\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-65-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,7,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 2210,
+                    "bottom": 2368,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 159
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/arbhk568igqlnwhgapzw/OptimizelyTerminal04Dotnet\u2026\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-66-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,9,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 2714,
+                    "bottom": 2826,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 112
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/anpb3ls3bc5ahev3pimz/Portainer-mssql.png\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-67-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,11,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 3376,
+                    "bottom": 3476,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 100
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/sfhk4utdk4ryvmsysspz/2023-01-27_15h46_11.png\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-68-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,13,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 4154,
+                    "bottom": 4226,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 72
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/mdizhp9aoghtxo5hliwj/2023-01-26_18h35_50.png\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-69-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,15,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 4767,
+                    "bottom": 4878,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 111
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/wfzdi8ez7i2jdnoruil1/2023-01-25_18h41_22.png\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-70-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,17,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 5346,
+                    "bottom": 5452,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 105
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/w2ef9qjdts441p601a5d/2023-01-20_16h20_38.png\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              },
+              {
+                "node": {
+                  "type": "node",
+                  "lhId": "1-71-IMG",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,19,SECTION,0,ARTICLE,2,SECTION,0,DIV,0,IMG",
+                  "selector": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "boundingRect": {
+                    "top": 5792,
+                    "bottom": 5886,
+                    "left": 15,
+                    "right": 397,
+                    "width": 382,
+                    "height": 95
+                  },
+                  "snippet": "\u003Cimg src=\u0022/imagevault/publishedmedia/lpxvviro1q047k91brvc/2023-01-03_11h08_07.png\u0022 class=\u0022img-responsive\u0022\u003E",
+                  "nodeLabel": "article \u003E section.row \u003E div.col-md-5 \u003E img.img-responsive",
+                  "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element\u0027s default semantics were not overridden with role=\u0022none\u0022 or role=\u0022presentation\u0022"
+                }
+              }
+            ],
+            "debugData": {
+              "type": "debugdata",
+              "impact": "critical",
+              "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a",
+                "TTv5",
+                "TT7.a",
+                "TT7.b",
+                "EN-301-549",
+                "EN-9.1.1.1",
+                "ACT"
+              ]
+            }
+          }
+        },
+        "meta-description": {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/).",
+          "score": 0,
+          "scoreDisplayMode": "binary"
+        },
+        "http-status-code": {
+          "id": "http-status-code",
+          "title": "Page has successful HTTP status code",
+          "description": "Pages with unsuccessful HTTP status codes may not be indexed properly. [Learn more about HTTP status codes](https://developer.chrome.com/docs/lighthouse/seo/http-status-code/).",
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        "link-text": {
+          "id": "link-text",
+          "title": "Links have descriptive text",
+          "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "crawlable-anchors": {
+          "id": "crawlable-anchors",
+          "title": "Links are crawlable",
+          "description": "Search engines may use \u0060href\u0060 attributes on links to crawl websites. Ensure that the \u0060href\u0060 attribute of anchor elements links to an appropriate destination, so more pages of the site can be discovered. [Learn how to make links crawlable](https://support.google.com/webmasters/answer/9112205)",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        },
+        "is-crawlable": {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "description": "Search engines are unable to include your pages in search results if they don\u0027t have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/).",
+          "score": 0,
+          "scoreDisplayMode": "binary",
+          "warnings": [],
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": {
+                  "type": "node",
+                  "lhId": "1-99-META",
+                  "path": "1,HTML,0,HEAD,5,META",
+                  "selector": "head \u003E meta",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "\u003Cmeta name=\u0022robots\u0022 content=\u0022noindex\u0022 /\u003E",
+                  "nodeLabel": "head \u003E meta"
+                }
+              }
+            ]
+          }
+        },
+        "hreflang": {
+          "id": "hreflang",
+          "title": "Document has a valid \u0060hreflang\u0060",
+          "description": "hreflang links tell search engines what version of a page they should list in search results for a given language or region. [Learn more about \u0060hreflang\u0060](https://developer.chrome.com/docs/lighthouse/seo/hreflang/).",
+          "score": 1,
+          "scoreDisplayMode": "binary",
+          "details": {
+            "type": "table",
+            "headings": [],
+            "items": []
+          }
+        }
+      }
+    }
+  ]
+}

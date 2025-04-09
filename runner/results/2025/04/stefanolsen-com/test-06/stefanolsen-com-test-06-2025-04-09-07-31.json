@@ -1,0 +1,61 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 6,
+      "rating": 4.92,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.92,
+      "date": "2025-04-09T07:31:06.394839",
+      "report": "- The tested page has 1 errors in its HTML code.\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- #1: Webpage - Number of grouped error type: 0 ( 5.00 rating )\r\n- #1: Webpage - Number of errors: 0 ( 5.00 rating )\r\n- #6: favicon.ico- Number of grouped error type: 1 ( 4.80 rating )\r\n- #6: favicon.ico- Number of errors: 1 ( 4.90 rating )\r\n  - A \u201Cmeta\u201D element with an \u201Chttp-equiv\u201D attribute whose value is \u201CX-UA-Compatible\u201D must have a \u201Ccontent\u201D attribute with the value \u201CIE=edge\u201D. (errors of this type: 1 pcs)\n",
+      "data": {
+        "errors": {
+          "all": [
+            {
+              "type": "error",
+              "url": "https://stefanolsen.com/favicon.ico",
+              "lastLine": 8,
+              "lastColumn": 66,
+              "firstColumn": 5,
+              "message": "A \u201Cmeta\u201D element with an \u201Chttp-equiv\u201D attribute whose value is \u201CX-UA-Compatible\u201D must have a \u201Ccontent\u201D attribute with the value \u201CIE=edge\u201D.",
+              "extract": "f-8\u0022\u003E\n    \u003Cmeta http-equiv=\u0022X-UA-Compatible\u0022 content=\u0022IE=edge,chrome=1\u0022\u003E\n    \u003C",
+              "hiliteStart": 10,
+              "hiliteLength": 62,
+              "file": "file:/usr/src/runner/cache/stefanolsen.com/25b2845849aa837f0a1368838ec6a318bd065df1ca4f30047f609757a3fda6944d1dd590dbae83ab426bf46d575bccfe5604590e8b2c9055c9f0b3140c60a197.txt.utf-8.cache.html"
+            }
+          ],
+          "html_files": [
+            {
+              "type": "error",
+              "url": "https://stefanolsen.com/favicon.ico",
+              "lastLine": 8,
+              "lastColumn": 66,
+              "firstColumn": 5,
+              "message": "A \u201Cmeta\u201D element with an \u201Chttp-equiv\u201D attribute whose value is \u201CX-UA-Compatible\u201D must have a \u201Ccontent\u201D attribute with the value \u201CIE=edge\u201D.",
+              "extract": "f-8\u0022\u003E\n    \u003Cmeta http-equiv=\u0022X-UA-Compatible\u0022 content=\u0022IE=edge,chrome=1\u0022\u003E\n    \u003C",
+              "hiliteStart": 10,
+              "hiliteLength": 62,
+              "file": "file:/usr/src/runner/cache/stefanolsen.com/25b2845849aa837f0a1368838ec6a318bd065df1ca4f30047f609757a3fda6944d1dd590dbae83ab426bf46d575bccfe5604590e8b2c9055c9f0b3140c60a197.txt.utf-8.cache.html"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://stefanolsen.com/",
+            "index": 1
+          },
+          {
+            "url": "https://stefanolsen.com/favicon.ico",
+            "index": 6
+          }
+        ]
+      }
+    }
+  ]
+}
