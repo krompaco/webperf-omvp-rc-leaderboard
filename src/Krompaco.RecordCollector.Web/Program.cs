@@ -184,6 +184,13 @@ app.Use(async (context, next) =>
                             .Replace("<br> <span", " <span");
                     }
                 }
+
+                node.InnerHtml = node.InnerHtml
+                    .Replace(" (error)", "<span class=\"inline-block ml-3 " + GetRatingClassName("1.0") + " px-[3px] pt-[2px] pb-[1px] my-[1px] rounded-md\">error</span>")
+                    .Replace(" (unresolved)", "<span class=\"inline-block ml-3 " + GetRatingClassName("1.0") + " px-[3px] pt-[2px] pb-[1px] my-[1px] rounded-md\">error</span>")
+                    .Replace(" (warning)", "<span class=\"inline-block ml-3 " + GetRatingClassName("4.0") + " px-[3px] pt-[2px] pb-[1px] my-[1px] rounded-md\">warning</span>")
+                    .Replace(" (resolved)", "<span class=\"inline-block ml-3 " + GetRatingClassName("5.0") + " px-[3px] pt-[2px] pb-[1px] my-[1px] rounded-md\">ok</span>")
+                    .Replace("Url(s) with issues:", "Tested:");
             }
         }
 

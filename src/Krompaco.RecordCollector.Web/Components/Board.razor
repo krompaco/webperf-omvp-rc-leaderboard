@@ -67,7 +67,7 @@
         { 9, "Standard Files" },
         { 15, "Sitespeed.io" },
         { 18, "Pa11y" },
-        { 20, "Integrity & Security" },
+        { 20, "Integrity" },
         ////{ 21, "HTTP & Tech" },
         { 22, "Carbon Calculator" },
         ////{ 23, "Tracking" },
@@ -237,55 +237,24 @@
 
     protected static string GetHtmlFromTest(Test result)
     {
-        var md = result.Report;
+        var md = result.TypeOfTest == 30 ? $"- Performance only ( {result.RatingPerf.ToString("0.00", new CultureInfo("en-US"))} rating ){Environment.NewLine}- Accessibility only ( {result.RatingA11y.ToString("0.00", new CultureInfo("en-US"))} rating ){Environment.NewLine}{Environment.NewLine}{result.Report}" : result.Report;
 
-        // { 1, "Lighthouse Performance" },
-        // { 2, "404 Page" },
-        // { 4, "Lighthouse SEO" },
-        // { 5, "Lighthouse Best Practices" },
-        // { 6, "W3C HTML" },
-        // { 7, "W3C CSS" },
-        // { 9, "Standard Files" },
-        // { 10, "Lighthouse A11y" },
-        // { 15, "Sitespeed.io" },
-        // { 17, "Yellow Lab Tools" },
-        // { 18, "Pa11y" },
-        // { 20, "Integrity & Security" },
-        // { 21, "HTTP & Tech" },
-        // { 22, "Carbon Calculator" },
-        // { 23, "Tracking" },
-        // { 24, "E-mail" },
-        // { 25, "Software" },
-        // { 26, "A11y Statement" },
-        if (!string.IsNullOrWhiteSpace(result.ReportA11y)
-            && result.TypeOfTest != 2
-            && result.TypeOfTest != 21)
+        if (!string.IsNullOrWhiteSpace(result.ReportA11y))
         {
             md += Environment.NewLine + Environment.NewLine + "Accessibility section:" + Environment.NewLine + result.ReportA11y;
         }
 
-        if (!string.IsNullOrWhiteSpace(result.ReportPerf)
-            && result.TypeOfTest != 21)
+        if (!string.IsNullOrWhiteSpace(result.ReportPerf))
         {
             md += Environment.NewLine + Environment.NewLine + "Performance section:" + Environment.NewLine + result.ReportPerf;
         }
 
-        if (!string.IsNullOrWhiteSpace(result.ReportSec)
-            && result.TypeOfTest != 5
-            && result.TypeOfTest != 9
-            && result.TypeOfTest != 17
-            && result.TypeOfTest != 21
-            && result.TypeOfTest != 24)
+        if (!string.IsNullOrWhiteSpace(result.ReportSec))
         {
             md += Environment.NewLine + Environment.NewLine + "Security section:" + Environment.NewLine + result.ReportSec;
         }
 
-        if (!string.IsNullOrWhiteSpace(result.ReportStand)
-            && result.TypeOfTest != 1
-            && result.TypeOfTest != 2
-            && result.TypeOfTest != 4
-            && result.TypeOfTest != 5
-            && result.TypeOfTest != 17)
+        if (!string.IsNullOrWhiteSpace(result.ReportStand))
         {
             md += Environment.NewLine + Environment.NewLine + "Standards section:" + Environment.NewLine + result.ReportStand;
         }
