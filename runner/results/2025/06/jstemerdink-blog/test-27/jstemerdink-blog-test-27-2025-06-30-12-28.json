@@ -1,0 +1,1801 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 2.9,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 2.9,
+      "date": "2025-06-30T12:29:09.170874",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Disallow unknown custom properties (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n  Url(s) with issues:\n  - https://s0.wp.com/_static/??-eJx9jEEOAiEQBD/kQECjeDC\u002BZWEnijIwYWA3/l72op689KFTVXplCCU3zE1z6reYRYfiUwlP0VYZpwxIJE4IFRd10HOU9iFA2iuhCiI7/ROiDt9WxfETT20jCOc4YUIa2D9t5eGA91xRBMZS7ATtPkTZvCtdzNEZt7f2fHq8Afl7R7w=\u0026cssminify=yes\n  - https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes\n\n- CSS, Disallow unknown values for properties within declarations (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n  Url(s) with issues:\n  - https://s0.wp.com/wp-content/mu-plugins/jetpack-plugin/sun/_inc/genericons/genericons/genericons.css?m=1746822891i\u0026cssminify=yes\n  - https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c\n  - https://s0.wp.com/_static/??-eJydzMsKgzAQheEXajpI62UjfZY0GSQ6mYRMBvHtRdCtC5f/4fDBmo1LXJErRDWZdAosMGPN1i1ngyhDTF4JBZwtSQUJZA0Zi/kre8K3E3nBc\u002Bz6XMNDrwZCbyZLhGW7q8P/xbHpv\u002B0wNH33mXdCUWRL\u0026cssminify=yes\n  - https://s0.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=\u0026cssminify=yes\n  - https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20250116\n  - https://s0.wp.com/_static/??-eJyNjcsKAjEMRX/IGmYYdFyInyKZNrQd06SYFvHvfeBG3Li7By7nwK06r9JIGpTuKveYxWClVtFfPgzWBYqGzmRgCa8UMIT7e2aJW2\u002B2gb9F5yweTH1GdqxR7Qt\u002BZC1ReWbTBJF1QX4dTuU47KfdPI7zYVgfuRlIaA==\u0026cssminify=yes\n  - https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?m=1363304414i\u0026amp;ver=3.0.9b\n  - https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes\n\n- CSS, Disallow unknown pseudo-element selectors (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n  Url(s) with issues:\n  - https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes\n  - https://jstemerdink.blog/\n\n- CSS, Disallow invalid preludes for at-rules (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n  Url(s) with issues:\n  - https://s0.wp.com/_static/??-eJyNjcsKAjEMRX/IGmYYdFyInyKZNrQd06SYFvHvfeBG3Li7By7nwK06r9JIGpTuKveYxWClVtFfPgzWBYqGzmRgCa8UMIT7e2aJW2\u002B2gb9F5yweTH1GdqxR7Qt\u002BZC1ReWbTBJF1QX4dTuU47KfdPI7zYVgfuRlIaA==\u0026cssminify=yes\n\n- CSS, Disallow deprecated keywords for properties within declarations (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n  Url(s) with issues:\n  - https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c\n  - https://s0.wp.com/_static/??-eJyVzDEOgCAMQNELiQU1Jg7Gs2AlDYpAaInx9ro5O/7hfbiywhTFRYEcKvnIQPXN1RVSa0h4MOxOssVDBXunKoqK34DlDq5F5gb\u002BLIoVH4k/vpyzGYe\u002B03oyw/4AcmU1KQ==\u0026cssminify=yes\n  - https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes\n\n- CSS, Disallow empty blocks (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n  Url(s) with issues:\n  - https://s0.wp.com/_static/??-eJydzMsKgzAQheEXajpI62UjfZY0GSQ6mYRMBvHtRdCtC5f/4fDBmo1LXJErRDWZdAosMGPN1i1ngyhDTF4JBZwtSQUJZA0Zi/kre8K3E3nBc\u002Bz6XMNDrwZCbyZLhGW7q8P/xbHpv\u002B0wNH33mXdCUWRL\u0026cssminify=yes\n  - https://jstemerdink.blog/\n\n- CSS, Disallow unknown annotations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Disallow unknown descriptors for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n- CSS, Disallow unknown values for descriptors within at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n- CSS, Disallow deprecated at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Disallow unknown at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Disallow invalid hex colors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Disallow empty comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Disallow non-standard direction values for linear gradient functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n- CSS, Disallow unknown functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n- CSS, Disallow unknown media feature names (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Disallow unknown values for media features (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Disallow invalid media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Disallow invalid named grid areas (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Disallow empty sources (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Disallow invalid double-slash comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Disallow invalid position \u0060@import\u0060 rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n- CSS, Disallow unknown animations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Disallow unknown custom media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Disallow unknown properties (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n- CSS, Disallow unknown pseudo-class selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n- CSS, Disallow unknown type selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n- CSS, Disallow invalid syntax strings (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Disallow unknown units (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2025.6.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "0.2.6"
+        },
+        "groups": {
+          "jstemerdink.blog": {
+            "version": "2025.6.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "0.2.6"
+            },
+            "score": {
+              "overall": 58,
+              "standard": 58
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-container-height",
+                    "line": 1,
+                    "column": 54504
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-container-width",
+                    "line": 1,
+                    "column": 54655
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-image-height",
+                    "line": 1,
+                    "column": 54959
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-image-height",
+                    "line": 1,
+                    "column": 55003
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-image-width",
+                    "line": 1,
+                    "column": 55046
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-image-width",
+                    "line": 1,
+                    "column": 55084
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-scrollbar-width",
+                    "line": 1,
+                    "column": 56861
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-initial-left-position",
+                    "line": 1,
+                    "column": 56902
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-initial-top-position",
+                    "line": 1,
+                    "column": 56958
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-scale",
+                    "line": 1,
+                    "column": 57007
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-scrollbar-width",
+                    "line": 1,
+                    "column": 57230
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-initial-left-position",
+                    "line": 1,
+                    "column": 57271
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-initial-top-position",
+                    "line": 1,
+                    "column": 57327
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--lightbox-scale",
+                    "line": 1,
+                    "column": 57376
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--root--padding-top",
+                    "line": 1,
+                    "column": 73516
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--root--padding-right",
+                    "line": 1,
+                    "column": 73570
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--root--padding-bottom",
+                    "line": 1,
+                    "column": 73626
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--root--padding-left",
+                    "line": 1,
+                    "column": 73683
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--block-gap",
+                    "line": 1,
+                    "column": 83606
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--block-gap",
+                    "line": 1,
+                    "column": 83645
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--block-gap",
+                    "line": 1,
+                    "column": 83795
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--block-gap",
+                    "line": 1,
+                    "column": 111898
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --wp--style--block-gap",
+                    "line": 1,
+                    "column": 111937
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJx9jEEOAiEQBD/kQECjeDC\u002BZWEnijIwYWA3/l72op689KFTVXplCCU3zE1z6reYRYfiUwlP0VYZpwxIJE4IFRd10HOU9iFA2iuhCiI7/ROiDt9WxfETT20jCOc4YUIa2D9t5eGA91xRBMZS7ATtPkTZvCtdzNEZt7f2fHq8Afl7R7w=\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --coblocks-custom-padding",
+                    "line": 1,
+                    "column": 8419
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJx9jEEOAiEQBD/kQECjeDC\u002BZWEnijIwYWA3/l72op689KFTVXplCCU3zE1z6reYRYfiUwlP0VYZpwxIJE4IFRd10HOU9iFA2iuhCiI7/ROiDt9WxfETT20jCOc4YUIa2D9t5eGA91xRBMZS7ATtPkTZvCtdzNEZt7f2fHq8Afl7R7w=\u0026cssminify=yes",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --coblocks-custom-padding",
+                    "line": 1,
+                    "column": 10333
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox",
+                    "line": 1,
+                    "column": 1771
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox",
+                    "line": 1,
+                    "column": 2716
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/mu-plugins/jetpack-plugin/sun/_inc/genericons/genericons/genericons.css?m=1746822891i\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value transition for property 0",
+                    "line": 1,
+                    "column": 19236
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/mu-plugins/jetpack-plugin/sun/_inc/genericons/genericons/genericons.css?m=1746822891i\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value speak for property none",
+                    "line": 1,
+                    "column": 19469
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox",
+                    "line": 833,
+                    "column": 11
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox",
+                    "line": 854,
+                    "column": 11
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox",
+                    "line": 1599,
+                    "column": 11
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox",
+                    "line": 1847,
+                    "column": 11
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value max-width for property auto",
+                    "line": 2099,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox",
+                    "line": 4548,
+                    "column": 12
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox",
+                    "line": 4621,
+                    "column": 12
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjcsKAjEMRX/IGmYYdFyInyKZNrQd06SYFvHvfeBG3Li7By7nwK06r9JIGpTuKveYxWClVtFfPgzWBYqGzmRgCa8UMIT7e2aJW2\u002B2gb9F5yweTH1GdqxR7Qt\u002BZC1ReWbTBJF1QX4dTuU47KfdPI7zYVgfuRlIaA==\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value speak for property none",
+                    "line": 791,
+                    "column": 8
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJydzMsKgzAQheEXajpI62UjfZY0GSQ6mYRMBvHtRdCtC5f/4fDBmo1LXJErRDWZdAosMGPN1i1ngyhDTF4JBZwtSQUJZA0Zi/kre8K3E3nBc\u002Bz6XMNDrwZCbyZLhGW7q8P/xbHpv\u002B0wNH33mXdCUWRL\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value -ms-filter for property grayscale(1)",
+                    "line": 1561,
+                    "column": 14
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJydzMsKgzAQheEXajpI62UjfZY0GSQ6mYRMBvHtRdCtC5f/4fDBmo1LXJErRDWZdAosMGPN1i1ngyhDTF4JBZwtSQUJZA0Zi/kre8K3E3nBc\u002Bz6XMNDrwZCbyZLhGW7q8P/xbHpv\u002B0wNH33mXdCUWRL\u0026cssminify=yes",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value -ms-filter for property none",
+                    "line": 1568,
+                    "column": 14
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?m=1363304414i\u0026amp;ver=3.0.9b",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value background-color for property none",
+                    "line": 1,
+                    "column": 1879
+                  },
+                  {
+                    "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value outline for property revert",
+                    "line": 1,
+                    "column": 886
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20250116",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value -webkit-perspective for property 1000",
+                    "line": 1,
+                    "column": 763
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown pseudo-element selector ::input-placeholder",
+                    "line": 696,
+                    "column": 1
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown pseudo-element selector ::input-placeholder",
+                    "line": 700,
+                    "column": 25
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown pseudo-element selector ::input-placeholder",
+                    "line": 191,
+                    "column": 1
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown pseudo-element selector ::input-placeholder",
+                    "line": 385,
+                    "column": 25
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyNjcsKAjEMRX/IGmYYdFyInyKZNrQd06SYFvHvfeBG3Li7By7nwK06r9JIGpTuKveYxWClVtFfPgzWBYqGzmRgCa8UMIT7e2aJW2\u002B2gb9F5yweTH1GdqxR7Qt\u002BZC1ReWbTBJF1QX4dTuU47KfdPI7zYVgfuRlIaA==\u0026cssminify=yes",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected invalid prelude @-moz-document for at-rule url-prefix()",
+                    "line": 254,
+                    "column": 16
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 555
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 6251
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 61705
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 86581
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 108300
+                  },
+                  {
+                    "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 108608
+                  },
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJyVzDEOgCAMQNELiQU1Jg7Gs2AlDYpAaInx9ro5O/7hfbiywhTFRYEcKvnIQPXN1RVSa0h4MOxOssVDBXunKoqK34DlDq5F5gb\u002BLIoVH4k/vpyzGYe\u002B03oyw/4AcmU1KQ==\u0026cssminify=yes",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 50970
+                  },
+                  {
+                    "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 1954
+                  },
+                  {
+                    "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 2193
+                  },
+                  {
+                    "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 2437
+                  },
+                  {
+                    "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 3387
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://s0.wp.com/_static/??-eJydzMsKgzAQheEXajpI62UjfZY0GSQ6mYRMBvHtRdCtC5f/4fDBmo1LXJErRDWZdAosMGPN1i1ngyhDTF4JBZwtSQUJZA0Zi/kre8K3E3nBc\u002Bz6XMNDrwZCbyZLhGW7q8P/xbHpv\u002B0wNH33mXdCUWRL\u0026cssminify=yes",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 241,
+                    "column": 7
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 30
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 30
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 30
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 30
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 30
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://jstemerdink.blog/": {
+                "version": "2025.6.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "0.2.6"
+                },
+                "url": "https://jstemerdink.blog/",
+                "score": {
+                  "overall": 58,
+                  "standard": 58
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-container-height",
+                        "line": 1,
+                        "column": 54504
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-container-width",
+                        "line": 1,
+                        "column": 54655
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-image-height",
+                        "line": 1,
+                        "column": 54959
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-image-height",
+                        "line": 1,
+                        "column": 55003
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-image-width",
+                        "line": 1,
+                        "column": 55046
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-image-width",
+                        "line": 1,
+                        "column": 55084
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-scrollbar-width",
+                        "line": 1,
+                        "column": 56861
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-initial-left-position",
+                        "line": 1,
+                        "column": 56902
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-initial-top-position",
+                        "line": 1,
+                        "column": 56958
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-scale",
+                        "line": 1,
+                        "column": 57007
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-scrollbar-width",
+                        "line": 1,
+                        "column": 57230
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-initial-left-position",
+                        "line": 1,
+                        "column": 57271
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-initial-top-position",
+                        "line": 1,
+                        "column": 57327
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--lightbox-scale",
+                        "line": 1,
+                        "column": 57376
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--root--padding-top",
+                        "line": 1,
+                        "column": 73516
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--root--padding-right",
+                        "line": 1,
+                        "column": 73570
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--root--padding-bottom",
+                        "line": 1,
+                        "column": 73626
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--root--padding-left",
+                        "line": 1,
+                        "column": 73683
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--block-gap",
+                        "line": 1,
+                        "column": 83606
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--block-gap",
+                        "line": 1,
+                        "column": 83645
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--block-gap",
+                        "line": 1,
+                        "column": 83795
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--block-gap",
+                        "line": 1,
+                        "column": 111898
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --wp--style--block-gap",
+                        "line": 1,
+                        "column": 111937
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJx9jEEOAiEQBD/kQECjeDC\u002BZWEnijIwYWA3/l72op689KFTVXplCCU3zE1z6reYRYfiUwlP0VYZpwxIJE4IFRd10HOU9iFA2iuhCiI7/ROiDt9WxfETT20jCOc4YUIa2D9t5eGA91xRBMZS7ATtPkTZvCtdzNEZt7f2fHq8Afl7R7w=\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --coblocks-custom-padding",
+                        "line": 1,
+                        "column": 8419
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJx9jEEOAiEQBD/kQECjeDC\u002BZWEnijIwYWA3/l72op689KFTVXplCCU3zE1z6reYRYfiUwlP0VYZpwxIJE4IFRd10HOU9iFA2iuhCiI7/ROiDt9WxfETT20jCOc4YUIa2D9t5eGA91xRBMZS7ATtPkTZvCtdzNEZt7f2fHq8Afl7R7w=\u0026cssminify=yes",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --coblocks-custom-padding",
+                        "line": 1,
+                        "column": 10333
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox",
+                        "line": 1,
+                        "column": 1771
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpoZmFkYGRuZGmQBAHPvL0Y=\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox",
+                        "line": 1,
+                        "column": 2716
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/mu-plugins/jetpack-plugin/sun/_inc/genericons/genericons/genericons.css?m=1746822891i\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value transition for property 0",
+                        "line": 1,
+                        "column": 19236
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/mu-plugins/jetpack-plugin/sun/_inc/genericons/genericons/genericons.css?m=1746822891i\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value speak for property none",
+                        "line": 1,
+                        "column": 19469
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox",
+                        "line": 833,
+                        "column": 11
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox",
+                        "line": 854,
+                        "column": 11
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox",
+                        "line": 1599,
+                        "column": 11
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox",
+                        "line": 1847,
+                        "column": 11
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value max-width for property auto",
+                        "line": 2099,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox",
+                        "line": 4548,
+                        "column": 12
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox",
+                        "line": 4621,
+                        "column": 12
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjcsKAjEMRX/IGmYYdFyInyKZNrQd06SYFvHvfeBG3Li7By7nwK06r9JIGpTuKveYxWClVtFfPgzWBYqGzmRgCa8UMIT7e2aJW2\u002B2gb9F5yweTH1GdqxR7Qt\u002BZC1ReWbTBJF1QX4dTuU47KfdPI7zYVgfuRlIaA==\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value speak for property none",
+                        "line": 791,
+                        "column": 8
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJydzMsKgzAQheEXajpI62UjfZY0GSQ6mYRMBvHtRdCtC5f/4fDBmo1LXJErRDWZdAosMGPN1i1ngyhDTF4JBZwtSQUJZA0Zi/kre8K3E3nBc\u002Bz6XMNDrwZCbyZLhGW7q8P/xbHpv\u002B0wNH33mXdCUWRL\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value -ms-filter for property grayscale(1)",
+                        "line": 1561,
+                        "column": 14
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJydzMsKgzAQheEXajpI62UjfZY0GSQ6mYRMBvHtRdCtC5f/4fDBmo1LXJErRDWZdAosMGPN1i1ngyhDTF4JBZwtSQUJZA0Zi/kre8K3E3nBc\u002Bz6XMNDrwZCbyZLhGW7q8P/xbHpv\u002B0wNH33mXdCUWRL\u0026cssminify=yes",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value -ms-filter for property none",
+                        "line": 1568,
+                        "column": 14
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?m=1363304414i\u0026amp;ver=3.0.9b",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value background-color for property none",
+                        "line": 1,
+                        "column": 1879
+                      },
+                      {
+                        "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value outline for property revert",
+                        "line": 1,
+                        "column": 886
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20250116",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value -webkit-perspective for property 1000",
+                        "line": 1,
+                        "column": 763
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "selector-pseudo-element-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown pseudo-element selector ::input-placeholder",
+                        "line": 696,
+                        "column": 1
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjsEKAjEMRH/IGrbgigfxW3ZjbKttU5qUxb\u002B36kFEUG8zMG9mYCkGOStlBfWUSKC0GcRzpWNQ9CB6jbRGkRX8zPYUzJHxIn8CIeNzwCwFOX1QqZkSmwtZoFJvdl26x8zLfoMcsel/Jg2c34w5xSnUO3pI\u002B2E7WGs342483wAbuGV9\u0026cssminify=yes",
+                        "rule": "selector-pseudo-element-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown pseudo-element selector ::input-placeholder",
+                        "line": 700,
+                        "column": 25
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "selector-pseudo-element-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown pseudo-element selector ::input-placeholder",
+                        "line": 191,
+                        "column": 1
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "selector-pseudo-element-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown pseudo-element selector ::input-placeholder",
+                        "line": 385,
+                        "column": 25
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyNjcsKAjEMRX/IGmYYdFyInyKZNrQd06SYFvHvfeBG3Li7By7nwK06r9JIGpTuKveYxWClVtFfPgzWBYqGzmRgCa8UMIT7e2aJW2\u002B2gb9F5yweTH1GdqxR7Qt\u002BZC1ReWbTBJF1QX4dTuU47KfdPI7zYVgfuRlIaA==\u0026cssminify=yes",
+                        "rule": "at-rule-prelude-no-invalid",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected invalid prelude @-moz-document for at-rule url-prefix()",
+                        "line": 254,
+                        "column": 16
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 555
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 6251
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 61705
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 86581
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 108300
+                      },
+                      {
+                        "url": "https://s0.wp.com/wp-content/plugins/gutenberg-core/v20.6.0/build/block-library/style.css?m=1744959081i\u0026cssminify=yes",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 108608
+                      },
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJyVzDEOgCAMQNELiQU1Jg7Gs2AlDYpAaInx9ro5O/7hfbiywhTFRYEcKvnIQPXN1RVSa0h4MOxOssVDBXunKoqK34DlDq5F5gb\u002BLIoVH4k/vpyzGYe\u002B03oyw/4AcmU1KQ==\u0026cssminify=yes",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 50970
+                      },
+                      {
+                        "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 1954
+                      },
+                      {
+                        "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 2193
+                      },
+                      {
+                        "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 2437
+                      },
+                      {
+                        "url": "https://0.gravatar.com/js/hovercards/hovercards.min.css?ver=20252717d2298fc173af206bd9f65440008ab9e1ee2bd896241083289a9e27bd0efc7c",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 3387
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://s0.wp.com/_static/??-eJydzMsKgzAQheEXajpI62UjfZY0GSQ6mYRMBvHtRdCtC5f/4fDBmo1LXJErRDWZdAosMGPN1i1ngyhDTF4JBZwtSQUJZA0Zi/kre8K3E3nBc\u002Bz6XMNDrwZCbyZLhGW7q8P/xbHpv\u002B0wNH33mXdCUWRL\u0026cssminify=yes",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 241,
+                        "column": 7
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 30
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 30
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 30
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 30
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 30
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 4.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2025-06-30T11:39:43.442892",
+      "report": "- no-network (unresolved)\n  Url(s) with issues:\n  - https://blog.ynzen.com/\n\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "version": "2025.6.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "0.2.6"
+        },
+        "groups": {
+          "blog.ynzen.com": {
+            "version": "2025.6.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "0.2.6"
+            },
+            "score": {
+              "overall": 99,
+              "technical": 99
+            },
+            "issues": [
+              {
+                "test": "html",
+                "rule": "no-network",
+                "category": "technical",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://blog.ynzen.com/",
+                    "rule": "no-network",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "No HTML content found in the HAR file.",
+                    "line": 0,
+                    "column": 0
+                  }
+                ]
+              }
+            ],
+            "pages": {
+              "https://blog.ynzen.com/": {
+                "version": "2025.6.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "0.2.6"
+                },
+                "url": "https://blog.ynzen.com/",
+                "score": {
+                  "overall": 99,
+                  "technical": 99
+                },
+                "issues": [
+                  {
+                    "test": "html",
+                    "rule": "no-network",
+                    "category": "technical",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://blog.ynzen.com/",
+                        "rule": "no-network",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "No HTML content found in the HAR file.",
+                        "line": 0,
+                        "column": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

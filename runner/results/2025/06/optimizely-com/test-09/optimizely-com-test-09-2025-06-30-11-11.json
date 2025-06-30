@@ -1,0 +1,137 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 9,
+      "rating": 4.97,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.95,
+      "date": "2025-06-30T11:11:53.516011",
+      "report": "",
+      "report_sec": "- Sitemap, Url in \u003Cloc\u003E has to start with https:// (resolved)\n- security.txt is missing (resolved)\n- security.txt has incorrect content (resolved)\n- security.txt is missing the required contact info (resolved)\n- security.txt requires expiration information (added in draft v10) is missing (resolved)\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Feed is missing in the HTML\u0027s metadata (warning)\n  Url(s) with issues:\n  - https://www.optimizely.com/\n\n- robots.txt is missing, not allowed to download or has not the expected content (resolved)\n- Sitemap is not specified in robots.txt (resolved)\n- Sitemap, no valid sitemap found (resolved)\n- Sitemap, Url in \u003Cloc\u003E must use same domain as robots.txt (resolved)\n- Sitemap, No duplicate Urls in \u003Cloc\u003E allowed (resolved)\n- Sitemap, lists other stuff then webpages (resolved)\n- Sitemap, is exceeding 50 000 items (resolved)\n- Sitemap, has no items (resolved)\n",
+      "data": {
+        "groups": {
+          "www.optimizely.com": {
+            "issues": [
+              {
+                "test": "standard-files",
+                "rule": "no-rss-feed",
+                "category": "standard",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://www.optimizely.com/",
+                    "rule": "no-rss-feed",
+                    "category": "standard",
+                    "severity": "warning"
+                  }
+                ]
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-robots-txt",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-sitemap-in-robots-txt",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-valid-sitemap-found",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-same-domain-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-https-sitemap",
+                "category": "security",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-duplicates-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-unknown-types-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "invalid-sitemap-too-large",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-items-sitemap",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-security-txt",
+                "category": "security",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "invalid-security-txt",
+                "category": "security",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-security-txt-contact",
+                "category": "security",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "standard-files",
+                "rule": "no-security-txt-expires",
+                "category": "security",
+                "severity": "resolved",
+                "subIssues": []
+              }
+            ],
+            "score": {
+              "overall": 99.5,
+              "standard": 99,
+              "security": 100
+            }
+          }
+        }
+      }
+    }
+  ]
+}

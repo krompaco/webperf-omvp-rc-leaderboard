@@ -1,0 +1,355 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 2.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 2.0,
+      "rating_stand": -1.0,
+      "date": "2025-06-30T11:12:26.240668",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)\n  Url(s) with issues:\n  - https://www.optimizely.com/\n\n- This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://www.optimizely.com/\n\n- Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)\n  Url(s) with issues:\n  - https://www.optimizely.com/\n\n- This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://www.optimizely.com/\n\n- Iframe element requires a non-empty title attribute that identifies the frame. (error)\n  Url(s) with issues:\n  - https://www.optimizely.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.62:1. Recommendation:  change text colour to #fbfcff. (error)\n  Url(s) with issues:\n  - https://www.optimizely.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.optimizely.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput id=\u0022searchInput-7850f42d-2b20-4fda-8532-5508079dfb5c\u0022 name=\u0022searchInput\u0022 type=\u0022text\u0022 class=\u0022js-sayt\u0022 placeholder=\u0022Select a country\u0022 disabled=\u0022\u0022\u003E",
+                      "selector": "#searchInput-7850f42d-2b20-4fda-8532-5508079dfb5c",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput id=\u0022searchInput-90140225-634c-43df-9c5e-01295f60c9dc\u0022 name=\u0022searchInput\u0022 type=\u0022text\u0022 class=\u0022js-sayt\u0022 placeholder=\u0022Please select\u0022 disabled=\u0022\u0022\u003E",
+                      "selector": "#searchInput-90140225-634c-43df-9c5e-01295f60c9dc",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput id=\u0022searchInput-35280a14-1800-40bf-b7f1-0c7897e5c4a7\u0022 name=\u0022searchInput\u0022 type=\u0022text\u0022 class=\u0022js-sayt\u0022 placeholder=\u0022Please select\u0022 disabled=\u0022\u0022\u003E",
+                      "selector": "#searchInput-35280a14-1800-40bf-b7f1-0c7897e5c4a7",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Ctextarea id=\u0022g-recaptcha-response\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+                      "selector": "#g-recaptcha-response",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Ctextarea id=\u0022g-recaptcha-response-100000\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+                      "selector": "#g-recaptcha-response-100000",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput id=\u0022searchInput-7850f42d-2b20-4fda-8532-5508079dfb5c\u0022 name=\u0022searchInput\u0022 type=\u0022text\u0022 class=\u0022js-sayt\u0022 placeholder=\u0022Select a country\u0022 disabled=\u0022\u0022\u003E",
+                      "selector": "#searchInput-7850f42d-2b20-4fda-8532-5508079dfb5c",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput id=\u0022searchInput-90140225-634c-43df-9c5e-01295f60c9dc\u0022 name=\u0022searchInput\u0022 type=\u0022text\u0022 class=\u0022js-sayt\u0022 placeholder=\u0022Please select\u0022 disabled=\u0022\u0022\u003E",
+                      "selector": "#searchInput-90140225-634c-43df-9c5e-01295f60c9dc",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput id=\u0022searchInput-35280a14-1800-40bf-b7f1-0c7897e5c4a7\u0022 name=\u0022searchInput\u0022 type=\u0022text\u0022 class=\u0022js-sayt\u0022 placeholder=\u0022Please select\u0022 disabled=\u0022\u0022\u003E",
+                      "selector": "#searchInput-35280a14-1800-40bf-b7f1-0c7897e5c4a7",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca class=\u0022block\u0022 href=\u0022/\u0022 aria-label=\u0022Back to Optimizely Home Page\u0022 data-accessible-link=\u0022true\u0022 data-optly-34e85467-5f3c-43eb-a03b-2967f40249ba=\u0022\u0022\u003E\u003Cimg src=\u0022//cdn.optimizely.com/...\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(2) \u003E header:nth-child(1) \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca href=\u0022#skipNav\u0022 aria-label=\u0022Skip to content\u0022 class=\u0022sr-only !absolute left-0 top-0 bg-white p-6 text-vulcan focus:not-sr-only\u0022 data-optly-a8948d6c-3513-4d22-bf78-b210a690f47b=\u0022\u0022\u003E\u003Cimg src=\u0022//cdn.optimizely.com/...\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(2) \u003E header:nth-child(2) \u003E div:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Ctextarea id=\u0022g-recaptcha-response\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+                      "selector": "#g-recaptcha-response",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Ctextarea id=\u0022g-recaptcha-response-100000\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+                      "selector": "#g-recaptcha-response-100000",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe style=\u0022display: none;\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "#gcaptchatoken \u003E iframe",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe height=\u00220\u0022 width=\u00220\u0022 style=\u0022display: none; visibility: hidden;\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "html \u003E body \u003E iframe:nth-child(28)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.62:1. Recommendation:  change text colour to #fbfcff. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.optimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.62:1. Recommendation:  change text colour to #fbfcff. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.62:1. Recommendation:  change text colour to #fbfcff.",
+                      "context": "\u003Cem\u003EOne\u003C/em\u003E",
+                      "selector": "#skipNav \u003E main \u003E section:nth-child(3) \u003E div:nth-child(2) \u003E div \u003E div \u003E div \u003E h2 \u003E em",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 40.0,
+              "a11y": 40
+            }
+          }
+        }
+      }
+    }
+  ]
+}
