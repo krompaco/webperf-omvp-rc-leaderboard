@@ -1,0 +1,291 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 4.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2025-06-28T10:45:49.395864",
+      "report": "- Webpage generates little carbon dioxide!\n- Carbon dioxide per pageview: 1.5 gram(s)\n- More green than 80 % of the websites tested by webperf.se (Reference updated: 2025-01-09).\n- Network transfer size: 2.37 MB\n ( 4.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://davidboland.site/",
+            "index": 1,
+            "size": 25870
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/5d9fbe082705c8df.css",
+            "index": 2,
+            "size": 147717
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/449356c1c4f4342f.css",
+            "index": 3,
+            "size": 3081
+          },
+          {
+            "url": "https://davidboland.site/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "index": 4,
+            "size": 1239
+          },
+          {
+            "url": "https://davidboland.site/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+            "index": 5,
+            "size": 12332
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/nunito/v26/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3iazbXWjgeg.woff",
+            "index": 6,
+            "size": 20204
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/webpack-6ef43a8d4a395f49.js",
+            "index": 7,
+            "size": 2100
+          },
+          {
+            "url": "https://davidboland.site/favicon.ico",
+            "index": 8,
+            "size": 1150
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/framework-9620da855a94eb57.js",
+            "index": 9,
+            "size": 140964
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/main-129ca8140753ff4e.js",
+            "index": 10,
+            "size": 112659
+          },
+          {
+            "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+            "index": 11,
+            "size": 194730
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/pages/_app-e6cb54158d6d0a3a.js",
+            "index": 12,
+            "size": 478
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/57d6cd3d-ae2a1ff96c706625.js",
+            "index": 13,
+            "size": 58157
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/198-c6cf4ad69149df59.js",
+            "index": 14,
+            "size": 29215
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/755-99a18b89c1417b15.js",
+            "index": 15,
+            "size": 8031
+          },
+          {
+            "url": "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202506250101/show_ads_impl_with_ama.js?client=ca-pub-4588858529748631\u0026plah=davidboland.site\u0026bust=31093189",
+            "index": 16,
+            "size": 560070
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/439-4e5c23530e7f319f.js",
+            "index": 17,
+            "size": 30787
+          },
+          {
+            "url": "https://pagead2.googlesyndication.com/pagead/html/r20250625/r20190131/zrt_lookup.html",
+            "index": 18,
+            "size": 9764
+          },
+          {
+            "url": "https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4588858529748631\u0026output=html\u0026adk=1812271804\u0026adf=3025194257\u0026abgtt=1\u0026lmt=1751107533\u0026plat=1%3A1024%2C2%3A1024%2C3%3A2097152%2C4%3A2097152%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32\u0026format=0x0\u0026url=https%3A%2F%2Fdavidboland.site%2F\u0026pra=5\u0026wgl=1\u0026aihb=0\u0026asro=0\u0026aifxl=29_18~30_19\u0026itsi=-1\u0026aiapm=0.19126936435335903\u0026aiapmd=0.15\u0026aiapmi=0.16\u0026aiapmid=0.16\u0026aiact=0.5157037178601045\u0026aiactd=0.7\u0026aicct=0.7021828200835296\u0026aicctd=0.7\u0026ailct=0.506024040323089\u0026ailctd=0.7\u0026aimart=3\u0026aimartd=8\u0026uach=WyJMaW51eCIsIjYuNi44NyIsIng4NiIsIiIsIjEzNy4wLjcxNTEuNTUiLG51bGwsMCxudWxsLCI2NCIsW1siR29vZ2xlIENocm9tZSIsIjEzNy4wLjcxNTEuNTUiXSxbIkNocm9taXVtIiwiMTM3LjAuNzE1MS41NSJdLFsiTm90L0EpQnJhbmQiLCIyNC4wLjAuMCJdXSwwXQ..\u0026dt=1751107533504\u0026bpp=4\u0026bdt=420\u0026idt=150\u0026shv=r20250625\u0026mjsv=m202506250101\u0026ptt=9\u0026saldr=aa\u0026abxe=1\u0026eoidce=1\u0026nras=1\u0026correlator=3265016601511\u0026frm=20\u0026pv=2\u0026u_tz=0\u0026u_his=3\u0026u_h=600\u0026u_w=800\u0026u_ah=600\u0026u_aw=800\u0026u_cd=24\u0026u_sd=1\u0026dmc=8\u0026adx=-12245933\u0026ady=-12245933\u0026biw=1366\u0026bih=621\u0026scr_x=0\u0026scr_y=0\u0026eid=95360548%2C95353386%2C95362656%2C95363434%2C95364338%2C31093189%2C95365109%2C95359266%2C95364332%2C95365120\u0026oid=2\u0026pvsid=1943159460428327\u0026tmod=756346122\u0026uas=0\u0026nvt=1\u0026fsapi=1\u0026fc=1920\u0026brdim=0%2C0%2C0%2C0%2C800%2C0%2C1366%2C708%2C1366%2C621\u0026vis=1\u0026rsz=%7C%7Cs%7C\u0026abl=NS\u0026fu=32768\u0026bc=31\u0026bz=1\u0026td=1\u0026tdf=2\u0026nt=1\u0026ifi=1\u0026uci=a!1\u0026fsb=1\u0026dtd=172",
+            "index": 19,
+            "size": 603
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/341-91ee14849cb47028.js",
+            "index": 20,
+            "size": 162659
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/448-4a30b09c1c99c65c.js",
+            "index": 21,
+            "size": 22463
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/pages/index-33d5e186ea876f72.js",
+            "index": 22,
+            "size": 4940
+          },
+          {
+            "url": "https://davidboland.site/_next/static/WMvHcoldCo1zexDjIs4mw/_buildManifest.js",
+            "index": 23,
+            "size": 2285
+          },
+          {
+            "url": "https://qhc8pmsjim-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(5.1.1)%3B%20Search%20(5.1.1)%3B%20Browser%3B%20instantsearch.js%20(4.74.0)%3B%20react%20(18.3.1)%3B%20react-instantsearch%20(7.13.0)%3B%20react-instantsearch-core%20(7.13.0)%3B%20next.js%20(14.2.6)%3B%20JS%20Helper%20(3.22.4)\u0026x-algolia-api-key=9b7c9af4288f04e1183843e87e1e20ca\u0026x-algolia-application-id=QHC8PMSJIM",
+            "index": 24,
+            "size": 342827
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/1-8cd4ab4acb2193c1.js",
+            "index": 25,
+            "size": 0
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/900-f81c325192f9afa7.js",
+            "index": 26,
+            "size": 0
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/pages/%5Bslug%5D-a52bac063b81e800.js",
+            "index": 27,
+            "size": 0
+          },
+          {
+            "url": "https://davidboland.site/_next/static/WMvHcoldCo1zexDjIs4mw/_ssgManifest.js",
+            "index": 28,
+            "size": 289
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/1-8cd4ab4acb2193c1.js",
+            "index": 29,
+            "size": 310978
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/900-f81c325192f9afa7.js",
+            "index": 30,
+            "size": 14039
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/pages/%5Bslug%5D-a52bac063b81e800.js",
+            "index": 31,
+            "size": 22244
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/540b7c7fbed0ed13.css",
+            "index": 32,
+            "size": 3403
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US/privacy.json?slug=privacy",
+            "index": 33,
+            "size": 36049
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US/license.json?slug=license",
+            "index": 34,
+            "size": 2512
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US/contact.json?slug=contact",
+            "index": 35,
+            "size": 1649
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US/about.json?slug=about",
+            "index": 36,
+            "size": 8964
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US.json",
+            "index": 37,
+            "size": 63
+          },
+          {
+            "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200\u0026tid=gda\u0026tv=r20250625\u0026st=env",
+            "index": 38,
+            "size": 17502
+          },
+          {
+            "url": "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+            "index": 39,
+            "size": 19990
+          },
+          {
+            "url": "https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html",
+            "index": 40,
+            "size": 13159
+          },
+          {
+            "url": "https://pagead2.googlesyndication.com/bg/bCA0uVa3TSRcWMS91SJ7PUSQaIaEDPKKRlvNqUsmpHI.js",
+            "index": 41,
+            "size": 54797
+          },
+          {
+            "url": "https://ep2.adtrafficquality.google/generate_204?KLKCVA",
+            "index": 42,
+            "size": 0
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US/blog/custom-keyboard-build-rye-bread-board.json?slug=custom-keyboard-build-rye-bread-board",
+            "index": 43,
+            "size": 5824
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/723-11968ed4edd29186.js",
+            "index": 44,
+            "size": 0
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/pages/blog/%5Bslug%5D-8b9297eb3e5cef8c.js",
+            "index": 45,
+            "size": 0
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US/blog/the-tragedy-of-the-computer-commons.json?slug=the-tragedy-of-the-computer-commons",
+            "index": 46,
+            "size": 7763
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US/blog/should-i-get-a-computer-science-degree.json?slug=should-i-get-a-computer-science-degree",
+            "index": 47,
+            "size": 9059
+          },
+          {
+            "url": "https://davidboland.site/_next/data/WMvHcoldCo1zexDjIs4mw/en-US/blog/structured-data-with-react-and-contentful.json?slug=structured-data-with-react-and-contentful",
+            "index": 48,
+            "size": 7837
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/723-11968ed4edd29186.js",
+            "index": 49,
+            "size": 19084
+          },
+          {
+            "url": "https://davidboland.site/_next/static/chunks/pages/blog/%5Bslug%5D-8b9297eb3e5cef8c.js",
+            "index": 50,
+            "size": 7577
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/fe7acf6a8f9fd34e.css",
+            "index": 51,
+            "size": 21689
+          },
+          {
+            "url": "https://davidboland.site/_next/static/css/cb6a4aefa9b521b1.css",
+            "index": 52,
+            "size": 3445
+          },
+          {
+            "url": "https://ep1.adtrafficquality.google/pagead/sodar?id=sodar2\u0026v=237\u0026t=2\u0026li=gda_r20250625\u0026jk=1943159460428327\u0026bg=!9Pel97jNAAa-ZW9gnmU7ADQBe5WfONDULmSVxkUV5_loM03gwuzUKuhUbYK1l37EjvuFx7FwMpQaVyDLZREuHmOY-mO2AgAAAD9SAAAAA2gBB34ANXS6ltD2tZZkOiBuZXPBlOH4_5P-Ut54jTwof-btczu2tfNozGM8dtnWJKPzMeuoGhtDRwR2mQKjIL60Fd86dB32CCXfm9R31bGZXHhnZzgsyRO6hzfzWwkaSNaYKyL1ed1JS0sMG0ToM0WlGGl1hidQed873Gdh2ugmTVOmL5iOJYiiWP3r1Zvrp4SPxGoE-58KzHAueWJWQJtID6u0n9j3AzF_P3FmG-Jbm-mYhE87GHrB1mLgQat7I62i4rXTnfDpoKmyhANqTLlpzu0jqpuWie5FxcLowLYTA1VYN2EX1v4XpVo4YrL-fdF-atxLNnrVv_Q33HKOnf5QpxlDTzIxhoLsLZkOwbS01oRzIpHAMswzekC2XZpAC5fF7jJEekL2LkQLE9ILroH5_jXwsewIFY7Y_FCNeGyXyS8lXJra3ewYPdwQMLL30AYmwnlFa2Dw2W4VjtOMCPD69t1WdSyjbx8x4frqqmJzTWm_u5S6tMyAPYZdmhFAKwChjqahtfcmD9gLxb_CM-uvu8HIIA2aT3ihgteiP4XTCvvHiOdUQtg7uNb2lpe5cEgtvR0yzfjaXlNyUUPTOJSBu6ox7zsTcL85s9kQeismhlQCQOp9rXnWjDLhyzYHGOp1KGzXywxVM_KnahyftkhgI5yzhCikUk6JCFOf3ox5wxRzlnS4occpM0l0c0hla_PsSQEtxB6kLBd8C8Lc74bAQsyoYGsfnEfw3EwHQIUt3__mCvwI1lSIg8ikYT5pwI3DemD9jxN1YdHxHCh8gE0Ru4c-0ThU40TVeqmYl57TJpyWiSaO4z-WOS_Bprc65JHG4HzCdvL_nB8vrHtmv0hX5mWKlDnqU8lqpV7XsxL37D_-QLh8dAje6AiHbSTBKNUaR74EQBXO8Vt6Mi4nXghPwMDfzvYpLp3LsBWajQ-oZFM8gqh9vX4BrnGFQzb4jkQ2cJnAuR-PpLO0fU_daTzU",
+            "index": 53,
+            "size": 0
+          }
+        ],
+        "total-byte-weight": 2482241,
+        "co2": 1.4964487309736434,
+        "cleaner_than": 80.0
+      }
+    }
+  ]
+}

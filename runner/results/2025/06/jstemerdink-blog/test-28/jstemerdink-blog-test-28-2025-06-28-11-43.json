@@ -1,0 +1,1133 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 2.45,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 2.45,
+      "date": "2025-06-28T11:44:18.882560",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Disallow duplicated IDs (error)\n  More info:\n  - https://html-validate.org/rules/no-dup-id.html\n\n  Url(s) with issues:\n  - https://jstemerdink.blog/\n\n- Ensure required attributes are set (error)\n  More info:\n  - https://html-validate.org/rules/element-required-attributes.html\n\n  Url(s) with issues:\n  - https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com\n  - https://widgets.wp.com/likes/master.html?ver=20250628#ver=20250628\n  - https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-685fd4c247a6c\u0026domain=jstemerdink.blog\n  - https://jstemerdink.blog/\n  - https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-685fd4c245f11\u0026domain=jstemerdink.blog\n\n- Ensure required elements are present (error)\n  More info:\n  - https://html-validate.org/rules/element-required-content.html\n\n  Url(s) with issues:\n  - https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com\n  - https://widgets.wp.com/likes/master.html?ver=20250628#ver=20250628\n  - https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-685fd4c247a6c\u0026domain=jstemerdink.blog\n  - https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-685fd4c245f11\u0026domain=jstemerdink.blog\n\n- Disallow usage of deprecated attributes (error)\n  More info:\n  - https://html-validate.org/rules/no-deprecated-attr.html\n\n  Url(s) with issues:\n  - https://jstemerdink.blog/\n\n- Require \u0060id\u0060 to be a valid identifier (error)\n  More info:\n  - https://html-validate.org/rules/valid-id.html\n\n  Url(s) with issues:\n  - https://jstemerdink.blog/\n\n- Validate permitted content (warning)\n  More info:\n  - https://html-validate.org/rules/element-permitted-content.html\n\n  Url(s) with issues:\n  - https://jstemerdink.blog/\n\n- Require attributes to be separated by whitespace (resolved)\n  More info:\n  - https://html-validate.org/rules/attr-spacing.html\n\n- Validate permitted attribute values (resolved)\n  More info:\n  - https://html-validate.org/rules/attribute-allowed-values.html\n\n- Require attribute to be used in correct context (resolved)\n  More info:\n  - https://html-validate.org/rules/attribute-misuse.html\n\n- Disallow end tags from having attributes (resolved)\n  More info:\n  - https://html-validate.org/rules/close-attr.html\n\n- Require elements to be closed in correct order (resolved)\n  More info:\n  - https://html-validate.org/rules/close-order.html\n\n- Disallow usage of deprecated elements (resolved)\n  More info:\n  - https://html-validate.org/rules/deprecated.html\n\n- Disallow usage of deprecated rules (resolved)\n  More info:\n  - https://html-validate.org/rules/deprecated-rule.html\n\n- Require usage of \u0060html\u0060 doctype (resolved)\n  More info:\n  - https://html-validate.org/rules/doctype-html.html\n\n- Disallow invalid element names (resolved)\n  More info:\n  - https://html-validate.org/rules/element-name.html\n\n- Validate permitted number of element occurrences (resolved)\n  More info:\n  - https://html-validate.org/rules/element-permitted-occurrences.html\n\n- Validate required element order (resolved)\n  More info:\n  - https://html-validate.org/rules/element-permitted-order.html\n\n- Validate permitted element parent (resolved)\n  More info:\n  - https://html-validate.org/rules/element-permitted-parent.html\n\n- Require \u0060\u003Cmap name\u003E\u0060 to be unique (resolved)\n  More info:\n  - https://html-validate.org/rules/map-dup-name.html\n\n- Require name and id to match on \u0060\u003Cmap\u003E\u0060 elements (resolved)\n  More info:\n  - https://html-validate.org/rules/map-id-name.html\n\n- Disallow duplicated attributes (resolved)\n  More info:\n  - https://html-validate.org/rules/no-dup-attr.html\n\n- Disallow multiple \u0060\u003Cmain\u003E\u0060 (resolved)\n  More info:\n  - https://html-validate.org/rules/no-multiple-main.html\n\n- Disallow the use of unescaped special characters (resolved)\n  More info:\n  - https://html-validate.org/rules/no-raw-characters.html\n\n- Disallow unused disable directives (resolved)\n  More info:\n  - https://html-validate.org/rules/no-unused-disable.html\n\n- Require end tag for \u0060\u003Cscript\u003E\u0060 (resolved)\n  More info:\n  - https://html-validate.org/rules/script-element.html\n\n- Disallow unrecognized character references (resolved)\n  More info:\n  - https://html-validate.org/rules/unrecognized-char-ref.html\n\n- Require autocomplete attribute to be valid (resolved)\n  More info:\n  - https://html-validate.org/rules/valid-autocomplete.html\n\n- Disallow void element with content (resolved)\n  More info:\n  - https://html-validate.org/rules/void-content.html\n\n",
+      "data": {
+        "version": "2025.6.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "0.2.6"
+        },
+        "groups": {
+          "jstemerdink.blog": {
+            "version": "2025.6.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "0.2.6"
+            },
+            "score": {
+              "overall": 49,
+              "standard": 49
+            },
+            "issues": [
+              {
+                "test": "html",
+                "rule": "no-dup-id",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/no-dup-id.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 911,
+                    "column": 559
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 963,
+                    "column": 556
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 1015,
+                    "column": 520
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 1067,
+                    "column": 583
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 1119,
+                    "column": 543
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 1171,
+                    "column": 510
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 1223,
+                    "column": 500
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 1276,
+                    "column": 10
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                    "line": 1329,
+                    "column": 10
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "element-required-attributes",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/element-required-attributes.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+                    "line": 2162,
+                    "column": 5
+                  },
+                  {
+                    "url": "https://widgets.wp.com/likes/master.html?ver=20250628#ver=20250628",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                    "line": 2,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                    "line": 3,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-685fd4c245f11\u0026domain=jstemerdink.blog",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                    "line": 2,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-685fd4c247a6c\u0026domain=jstemerdink.blog",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                    "line": 2,
+                    "column": 2
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "element-required-content",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/element-required-content.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://widgets.wp.com/likes/master.html?ver=20250628#ver=20250628",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                    "line": 3,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chtml\u003E element must have \u003Cbody\u003E as content",
+                    "line": 3,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                    "line": 4,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-685fd4c245f11\u0026domain=jstemerdink.blog",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                    "line": 4,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-685fd4c247a6c\u0026domain=jstemerdink.blog",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                    "line": 4,
+                    "column": 2
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "no-deprecated-attr",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/no-deprecated-attr.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022cellspacing\u0022 is deprecated on \u003Ctable\u003E element",
+                    "line": 1411,
+                    "column": 181
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022cellpadding\u0022 is deprecated on \u003Ctable\u003E element",
+                    "line": 1411,
+                    "column": 197
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022scrolling\u0022 is deprecated on \u003Ciframe\u003E element",
+                    "line": 2162,
+                    "column": 85
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "valid-id",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/valid-id.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u0022@wordpress/interactivity-js-modulepreload\u0022 must begin with a letter",
+                    "line": 1623,
+                    "column": 163
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u0022wp-script-module-data-@wordpress/interactivity\u0022 must only contain letters, digits, dash and underscore characters",
+                    "line": 1623,
+                    "column": 242
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u0022_wpnonce\u0022 must begin with a letter",
+                    "line": 1722,
+                    "column": 36
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-content",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-content.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "element-permitted-content",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "\u003Cdiv\u003E element is not permitted as content under \u003Cul\u003E",
+                    "line": 1713,
+                    "column": 12
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "element-permitted-content",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "\u003Cform\u003E element is not permitted as content under \u003Cul\u003E",
+                    "line": 1714,
+                    "column": 11
+                  },
+                  {
+                    "url": "https://jstemerdink.blog/",
+                    "rule": "element-permitted-content",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "\u003Cmeta\u003E element is not permitted as content under \u003Cbody\u003E",
+                    "line": 2173,
+                    "column": 2
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "attr-spacing",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/attr-spacing.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "attribute-allowed-values",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/attribute-allowed-values.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "attribute-misuse",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/attribute-misuse.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "close-attr",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/close-attr.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "close-order",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/close-order.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/deprecated.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "deprecated-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/deprecated-rule.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "doctype-html",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/doctype-html.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-occurrences",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-occurrences.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-order",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-order.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-parent",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-parent.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "map-dup-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/map-dup-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "map-id-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/map-id-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-dup-attr",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-dup-attr.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-multiple-main",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-multiple-main.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-raw-characters",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-raw-characters.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-unused-disable",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-unused-disable.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "script-element",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/script-element.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "unrecognized-char-ref",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/unrecognized-char-ref.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "valid-autocomplete",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/valid-autocomplete.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "void-content",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/void-content.html"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://jstemerdink.blog/": {
+                "version": "2025.6.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "0.2.6"
+                },
+                "url": "https://jstemerdink.blog/",
+                "score": {
+                  "overall": 49,
+                  "standard": 49
+                },
+                "issues": [
+                  {
+                    "test": "html",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/no-dup-id.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 911,
+                        "column": 559
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 963,
+                        "column": 556
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 1015,
+                        "column": 520
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 1067,
+                        "column": 583
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 1119,
+                        "column": 543
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 1171,
+                        "column": 510
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 1223,
+                        "column": 500
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 1276,
+                        "column": 10
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022jp-post-flair\u0022",
+                        "line": 1329,
+                        "column": 10
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/element-required-attributes.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+                        "line": 2162,
+                        "column": 5
+                      },
+                      {
+                        "url": "https://widgets.wp.com/likes/master.html?ver=20250628#ver=20250628",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                        "line": 2,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                        "line": 3,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-685fd4c245f11\u0026domain=jstemerdink.blog",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                        "line": 2,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-685fd4c247a6c\u0026domain=jstemerdink.blog",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                        "line": 2,
+                        "column": 2
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/element-required-content.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://widgets.wp.com/likes/master.html?ver=20250628#ver=20250628",
+                        "rule": "element-required-content",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                        "line": 3,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+                        "rule": "element-required-content",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chtml\u003E element must have \u003Cbody\u003E as content",
+                        "line": 3,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+                        "rule": "element-required-content",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                        "line": 4,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=905\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-905-685fd4c245f11\u0026domain=jstemerdink.blog",
+                        "rule": "element-required-content",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                        "line": 4,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://widgets.wp.com/likes/index.html?ver=20250628#blog_id=16784622\u0026post_id=894\u0026origin=jstemerdink.wordpress.com\u0026obj_id=16784622-894-685fd4c247a6c\u0026domain=jstemerdink.blog",
+                        "rule": "element-required-content",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                        "line": 4,
+                        "column": 2
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/no-deprecated-attr.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022cellspacing\u0022 is deprecated on \u003Ctable\u003E element",
+                        "line": 1411,
+                        "column": 181
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022cellpadding\u0022 is deprecated on \u003Ctable\u003E element",
+                        "line": 1411,
+                        "column": 197
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022scrolling\u0022 is deprecated on \u003Ciframe\u003E element",
+                        "line": 2162,
+                        "column": 85
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/valid-id.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u0022@wordpress/interactivity-js-modulepreload\u0022 must begin with a letter",
+                        "line": 1623,
+                        "column": 163
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u0022wp-script-module-data-@wordpress/interactivity\u0022 must only contain letters, digits, dash and underscore characters",
+                        "line": 1623,
+                        "column": 242
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u0022_wpnonce\u0022 must begin with a letter",
+                        "line": 1722,
+                        "column": 36
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-content",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-content.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "element-permitted-content",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "\u003Cdiv\u003E element is not permitted as content under \u003Cul\u003E",
+                        "line": 1713,
+                        "column": 12
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "element-permitted-content",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "\u003Cform\u003E element is not permitted as content under \u003Cul\u003E",
+                        "line": 1714,
+                        "column": 11
+                      },
+                      {
+                        "url": "https://jstemerdink.blog/",
+                        "rule": "element-permitted-content",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "\u003Cmeta\u003E element is not permitted as content under \u003Cbody\u003E",
+                        "line": 2173,
+                        "column": 2
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "attr-spacing",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/attr-spacing.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/attribute-allowed-values.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "attribute-misuse",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/attribute-misuse.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "close-attr",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/close-attr.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "close-order",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/close-order.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/deprecated.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "deprecated-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/deprecated-rule.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "doctype-html",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/doctype-html.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-occurrences",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-occurrences.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-order",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-order.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-parent",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-parent.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "map-dup-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/map-dup-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "map-id-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/map-id-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-dup-attr",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-dup-attr.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-multiple-main",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-multiple-main.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-raw-characters",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-raw-characters.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-unused-disable",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-unused-disable.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "script-element",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/script-element.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "unrecognized-char-ref",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/unrecognized-char-ref.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "valid-autocomplete",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/valid-autocomplete.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "void-content",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/void-content.html"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

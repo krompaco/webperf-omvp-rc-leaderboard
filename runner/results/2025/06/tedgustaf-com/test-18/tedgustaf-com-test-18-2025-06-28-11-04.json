@@ -1,0 +1,256 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 1.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 1.5,
+      "rating_stand": -1.0,
+      "date": "2025-06-28T11:04:12.465692",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494. (error)\n  Url(s) with issues:\n  - https://tedgustaf.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.31:1. Recommendation:  change text colour to #806ca5. (error)\n  Url(s) with issues:\n  - https://tedgustaf.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #767676. (error)\n  Url(s) with issues:\n  - https://tedgustaf.com/\n\n- Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags. (error)\n  Url(s) with issues:\n  - https://tedgustaf.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.14:1. Recommendation:  change background to #fefeff. (error)\n  Url(s) with issues:\n  - https://tedgustaf.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.91:1. Recommendation:  change text colour to #765800. (error)\n  Url(s) with issues:\n  - https://tedgustaf.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.03:1. Recommendation:  change background to #6001d9. (error)\n  Url(s) with issues:\n  - https://tedgustaf.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "tedgustaf.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.",
+                      "context": "\u003Ca class=\u0022brand-button group\u0022 data-variant=\u0022solid\u0022 data-theme=\u0022brand-500\u0022 data-icon-animation-direction=\u0022right\u0022 data-size=\u0022large\u0022 href=\u0022/insights-trends/\u0022 target=\u0022\u0022 title=\u0022Insights \u0026amp; trends\u0022 aria-label=\u0022Insights \u0026amp; trends\u0022\u003E\n        \n          ...",
+                      "selector": "#main-content \u003E div \u003E div:nth-child(3) \u003E section \u003E div \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.",
+                      "context": "\u003Ca class=\u0022brand-button group\u0022 data-variant=\u0022solid\u0022 data-theme=\u0022brand-500\u0022 data-icon-animation-direction=\u0022right\u0022 data-size=\u0022large\u0022 href=\u0022/our-offering/\u0022 target=\u0022_top\u0022 title=\u0022Our offering\u0022 aria-label=\u0022Our offering\u0022\u003E\n        \n                     ...\u003C/a\u003E",
+                      "selector": "#main-content \u003E div \u003E div:nth-child(4) \u003E section \u003E div \u003E div:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.31:1. Recommendation:  change text colour to #806ca5. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.31:1. Recommendation:  change text colour to #806ca5. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.31:1. Recommendation:  change text colour to #806ca5.",
+                      "context": "\u003Cspan class=\u0022material-symbols-rounded\u0022 style=\u0022font-size: 1.25rem;\u0022\u003E\n                              ...\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(4) \u003E header \u003E div \u003E div:nth-child(2) \u003E nav:nth-child(1) \u003E ul \u003E li:nth-child(1) \u003E a \u003E span \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.31:1. Recommendation:  change text colour to #806ca5. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.31:1. Recommendation:  change text colour to #806ca5.",
+                      "context": "\u003Cspan class=\u0022material-symbols-rounded\u0022 style=\u0022font-size: 1.25rem;\u0022\u003E\n                              ...\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(4) \u003E header \u003E div \u003E div:nth-child(2) \u003E nav:nth-child(1) \u003E ul \u003E li:nth-child(2) \u003E a \u003E span \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #767676. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Ca class=\u0022brand-button group max-h-[56px]\u0022 data-variant=\u0022solid\u0022 data-theme=\u0022brand-500\u0022 data-icon-animation-direction=\u0022right\u0022 data-size=\u0022mini\u0022 href=\u0022/contact/\u0022 target=\u0022_top\u0022 title=\u0022Contact us\u0022 aria-label=\u0022Contact us\u0022\u003E\n        \n                     ......",
+                      "selector": "html \u003E body \u003E div:nth-child(4) \u003E header \u003E div \u003E div:nth-child(2) \u003E nav:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+                      "context": "\u003Ch2 class=\u0022text-section-title text-brand-800\u0022\u003E\n\u003C/h2\u003E",
+                      "selector": "#main-content \u003E div \u003E div:nth-child(1) \u003E section \u003E div \u003E h2",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.14:1. Recommendation:  change background to #fefeff. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.14:1. Recommendation:  change background to #fefeff. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.14:1. Recommendation:  change background to #fefeff.",
+                      "context": "\u003Ca class=\u0022brand-button group justify-between\u0022 data-variant=\u0022solid\u0022 data-theme=\u0022accent-500\u0022 data-icon-animation-direction=\u0022right\u0022 data-size=\u0022default\u0022 href=\u0022/contact/\u0022 target=\u0022\u0022 title=\u0022Contact us\u0022 aria-label=\u0022Contact us\u0022\u003E\n        \n                     ...",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div:nth-child(1) \u003E div \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.91:1. Recommendation:  change text colour to #765800. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.91:1. Recommendation:  change text colour to #765800. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.91:1. Recommendation:  change text colour to #765800.",
+                      "context": "\u003Cp aria-hidden=\u0022true\u0022 role=\u0022presentation\u0022 class=\u0022text-accent-text\u0022\u003E\nA full service digital partner\u003C/p\u003E",
+                      "selector": "#related-article-our-offering \u003E figure \u003E figcaption \u003E p",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.03:1. Recommendation:  change background to #6001d9. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://tedgustaf.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.03:1. Recommendation:  change background to #6001d9. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.03:1. Recommendation:  change background to #6001d9.",
+                      "context": "\u003Cp aria-hidden=\u0022true\u0022 role=\u0022presentation\u0022 class=\u0022text-brand-200\u0022\u003E\nKnowledge for the curious one\u003C/p\u003E",
+                      "selector": "#related-article-insights-\u0026-trends \u003E figure \u003E figcaption \u003E p",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 30.0,
+              "a11y": 30
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2723 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 1.9,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 1.9,
+      "date": "2025-06-28T12:04:01.136322",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Disallow unknown custom properties (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n  Url(s) with issues:\n  - https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css\n  - https://www.optimizely.com/assets/media.component-311d679e.css\n  - https://www.optimizely.com/assets/custom-form-5e3002a1.css\n  - https://www.optimizely.com/assets/primary-footer.component-62f82b24.css\n  - https://www.optimizely.com/assets/entry-client-57ab328e.css\n\n- CSS, Disallow unknown properties (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n  Url(s) with issues:\n  - https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css\n  - https://www.optimizely.com/assets/custom-form-5e3002a1.css\n  - https://www.optimizely.com/assets/primary-footer.component-62f82b24.css\n  - https://www.optimizely.com/assets/entry-client-57ab328e.css\n\n- CSS, Disallow unknown values for properties within declarations (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n  Url(s) with issues:\n  - https://www.optimizely.com/assets/entry-client-57ab328e.css\n  - https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css\n  - https://www.optimizely.com/Util/EPiServer.Forms/EPiServerForms.css\n\n- CSS, Disallow unknown type selectors (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n  Url(s) with issues:\n  - https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css\n\n- CSS, Disallow unknown descriptors for at-rules (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n  Url(s) with issues:\n  - https://www.optimizely.com/assets/entry-client-57ab328e.css\n\n- CSS, Disallow unknown pseudo-class selectors (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n  Url(s) with issues:\n  - https://www.optimizely.com/assets/entry-client-57ab328e.css\n\n- CSS, Disallow empty blocks (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n  Url(s) with issues:\n  - https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css\n\n- CSS, Disallow deprecated keywords for properties within declarations (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n  Url(s) with issues:\n  - https://www.optimizely.com/assets/media.component-311d679e.css\n\n- CSS, Disallow unknown annotations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Disallow unknown values for descriptors within at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n- CSS, Disallow deprecated at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Disallow unknown at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Disallow invalid preludes for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n- CSS, Disallow invalid hex colors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Disallow empty comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Disallow non-standard direction values for linear gradient functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n- CSS, Disallow unknown functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n- CSS, Disallow unknown media feature names (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Disallow unknown values for media features (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Disallow invalid media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Disallow invalid named grid areas (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Disallow empty sources (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Disallow invalid double-slash comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Disallow invalid position \u0060@import\u0060 rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n- CSS, Disallow unknown animations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Disallow unknown custom media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Disallow unknown pseudo-element selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n- CSS, Disallow invalid syntax strings (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Disallow unknown units (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2025.6.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "0.2.6"
+        },
+        "groups": {
+          "www.optimizely.com": {
+            "version": "2025.6.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "0.2.6"
+            },
+            "score": {
+              "overall": 38,
+              "standard": 38
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --slider-fill",
+                    "line": 1,
+                    "column": 24020
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --slider-fill",
+                    "line": 1,
+                    "column": 24383
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --slider-fill",
+                    "line": 1,
+                    "column": 30241
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --thumbnail-height",
+                    "line": 1,
+                    "column": 30300
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --chapter-fill",
+                    "line": 1,
+                    "column": 32998
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --chapter-progress",
+                    "line": 1,
+                    "column": 33057
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --slider-fill",
+                    "line": 1,
+                    "column": 33115
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --slider-progress",
+                    "line": 1,
+                    "column": 33172
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --thumbnail-width",
+                    "line": 1,
+                    "column": 33233
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --player-width",
+                    "line": 1,
+                    "column": 33643
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 69775
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 69814
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 70081
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 70344
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 70595
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 70852
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 71086
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 71333
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 71372
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 71582
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 142785
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 142918
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 143057
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan-90",
+                    "line": 1,
+                    "column": 143190
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 177311
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 177437
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 177569
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan-90",
+                    "line": 1,
+                    "column": 177695
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --heather",
+                    "line": 1,
+                    "column": 214305
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --fiord",
+                    "line": 1,
+                    "column": 214337
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --aspect-ratio",
+                    "line": 1,
+                    "column": 214814
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --porcelain",
+                    "line": 1,
+                    "column": 214847
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 224348
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 224389
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 224437
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 228302
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 228643
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 228684
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 228732
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 230236
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 230277
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 230325
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 238315
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 238363
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --tw-shadow-color",
+                    "line": 1,
+                    "column": 261012
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 37942
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 38075
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 38214
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan-90",
+                    "line": 1,
+                    "column": 38347
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72468
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72594
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72726
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan-90",
+                    "line": 1,
+                    "column": 72852
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --overlay-height",
+                    "line": 1,
+                    "column": 4118
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --overlay-width",
+                    "line": 1,
+                    "column": 4978
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --cue-right",
+                    "line": 1,
+                    "column": 5672
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --cue-bottom",
+                    "line": 1,
+                    "column": 5696
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --cue-transform",
+                    "line": 1,
+                    "column": 5806
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --media-cue-display-bg",
+                    "line": 1,
+                    "column": 6094
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --media-cue-display-border-radius",
+                    "line": 1,
+                    "column": 6137
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --media-cue-display-padding",
+                    "line": 1,
+                    "column": 6222
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --media-user-font-variant",
+                    "line": 1,
+                    "column": 6423
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --cue-box-shadow",
+                    "line": 1,
+                    "column": 6752
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --cue-outline",
+                    "line": 1,
+                    "column": 6828
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --cue-text-shadow",
+                    "line": 1,
+                    "column": 6889
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-anchor-x",
+                    "line": 1,
+                    "column": 7236
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-width",
+                    "line": 1,
+                    "column": 7283
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-anchor-y",
+                    "line": 1,
+                    "column": 7355
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-height",
+                    "line": 1,
+                    "column": 7402
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-viewport-anchor-x",
+                    "line": 1,
+                    "column": 7470
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-viewport-anchor-y",
+                    "line": 1,
+                    "column": 7536
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --overlay-height",
+                    "line": 1,
+                    "column": 7595
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-width",
+                    "line": 1,
+                    "column": 7735
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-height",
+                    "line": 1,
+                    "column": 7762
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-height",
+                    "line": 1,
+                    "column": 7809
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-right",
+                    "line": 1,
+                    "column": 7997
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --region-bottom",
+                    "line": 1,
+                    "column": 8024
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --cue-offset",
+                    "line": 1,
+                    "column": 8389
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --media-height",
+                    "line": 1,
+                    "column": 10742
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 37942
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 38075
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 38214
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan-90",
+                    "line": 1,
+                    "column": 38347
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72468
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72594
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72726
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan-90",
+                    "line": 1,
+                    "column": 72852
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 37942
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 38075
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 38214
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan-90",
+                    "line": 1,
+                    "column": 38347
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72468
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72594
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan",
+                    "line": 1,
+                    "column": 72726
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --vulkan-90",
+                    "line": 1,
+                    "column": 72852
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --dark-blue-80",
+                    "line": 1,
+                    "column": 95273
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property text-fill-color",
+                    "line": 1,
+                    "column": 116868
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property text-fill-color",
+                    "line": 1,
+                    "column": 152402
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property text-fill-color",
+                    "line": 1,
+                    "column": 12025
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property text-fill-color",
+                    "line": 1,
+                    "column": 47559
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property text-fill-color",
+                    "line": 1,
+                    "column": 12025
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property text-fill-color",
+                    "line": 1,
+                    "column": 47559
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property text-fill-color",
+                    "line": 1,
+                    "column": 12025
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property text-fill-color",
+                    "line": 1,
+                    "column": 47559
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.optimizely.com/Util/EPiServer.Forms/EPiServerForms.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value background-image for property -ms-linear-gradient(top, #fff, #e6e6e6)",
+                    "line": 1,
+                    "column": 1268
+                  },
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value line-height for property ",
+                    "line": 1,
+                    "column": 263872
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value box-shadow for property ,",
+                    "line": 1,
+                    "column": 64351
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value box-shadow for property ,",
+                    "line": 1,
+                    "column": 64351
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown type selector sentinel",
+                    "line": 1,
+                    "column": 78459
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown type selector sentinel",
+                    "line": 1,
+                    "column": 78459
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown descriptor \u0022font-kerning\u0022 for at-rule \u0022@font-face\u0022 (at-rule-descriptor-no-unknown)",
+                    "line": 1,
+                    "column": 208128
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown pseudo-class selector :col-6",
+                    "line": 1,
+                    "column": 212377
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 78467
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 78467
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 4837
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://www.optimizely.com/": {
+                "version": "2025.6.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "0.2.6"
+                },
+                "url": "https://www.optimizely.com/",
+                "score": {
+                  "overall": 38,
+                  "standard": 38
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --slider-fill",
+                        "line": 1,
+                        "column": 24020
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --slider-fill",
+                        "line": 1,
+                        "column": 24383
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --slider-fill",
+                        "line": 1,
+                        "column": 30241
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --thumbnail-height",
+                        "line": 1,
+                        "column": 30300
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --chapter-fill",
+                        "line": 1,
+                        "column": 32998
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --chapter-progress",
+                        "line": 1,
+                        "column": 33057
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --slider-fill",
+                        "line": 1,
+                        "column": 33115
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --slider-progress",
+                        "line": 1,
+                        "column": 33172
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --thumbnail-width",
+                        "line": 1,
+                        "column": 33233
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --player-width",
+                        "line": 1,
+                        "column": 33643
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 69775
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 69814
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 70081
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 70344
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 70595
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 70852
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 71086
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 71333
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 71372
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 71582
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 142785
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 142918
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 143057
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan-90",
+                        "line": 1,
+                        "column": 143190
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 177311
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 177437
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 177569
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan-90",
+                        "line": 1,
+                        "column": 177695
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --heather",
+                        "line": 1,
+                        "column": 214305
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --fiord",
+                        "line": 1,
+                        "column": 214337
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --aspect-ratio",
+                        "line": 1,
+                        "column": 214814
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --porcelain",
+                        "line": 1,
+                        "column": 214847
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 224348
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 224389
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 224437
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 228302
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 228643
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 228684
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 228732
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 230236
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 230277
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 230325
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 238315
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 238363
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --tw-shadow-color",
+                        "line": 1,
+                        "column": 261012
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 37942
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 38075
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 38214
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan-90",
+                        "line": 1,
+                        "column": 38347
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72468
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72594
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72726
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan-90",
+                        "line": 1,
+                        "column": 72852
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --overlay-height",
+                        "line": 1,
+                        "column": 4118
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --overlay-width",
+                        "line": 1,
+                        "column": 4978
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --cue-right",
+                        "line": 1,
+                        "column": 5672
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --cue-bottom",
+                        "line": 1,
+                        "column": 5696
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --cue-transform",
+                        "line": 1,
+                        "column": 5806
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --media-cue-display-bg",
+                        "line": 1,
+                        "column": 6094
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --media-cue-display-border-radius",
+                        "line": 1,
+                        "column": 6137
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --media-cue-display-padding",
+                        "line": 1,
+                        "column": 6222
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --media-user-font-variant",
+                        "line": 1,
+                        "column": 6423
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --cue-box-shadow",
+                        "line": 1,
+                        "column": 6752
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --cue-outline",
+                        "line": 1,
+                        "column": 6828
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --cue-text-shadow",
+                        "line": 1,
+                        "column": 6889
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-anchor-x",
+                        "line": 1,
+                        "column": 7236
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-width",
+                        "line": 1,
+                        "column": 7283
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-anchor-y",
+                        "line": 1,
+                        "column": 7355
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-height",
+                        "line": 1,
+                        "column": 7402
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-viewport-anchor-x",
+                        "line": 1,
+                        "column": 7470
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-viewport-anchor-y",
+                        "line": 1,
+                        "column": 7536
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --overlay-height",
+                        "line": 1,
+                        "column": 7595
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-width",
+                        "line": 1,
+                        "column": 7735
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-height",
+                        "line": 1,
+                        "column": 7762
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-height",
+                        "line": 1,
+                        "column": 7809
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-right",
+                        "line": 1,
+                        "column": 7997
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --region-bottom",
+                        "line": 1,
+                        "column": 8024
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --cue-offset",
+                        "line": 1,
+                        "column": 8389
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --media-height",
+                        "line": 1,
+                        "column": 10742
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 37942
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 38075
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 38214
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan-90",
+                        "line": 1,
+                        "column": 38347
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72468
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72594
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72726
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan-90",
+                        "line": 1,
+                        "column": 72852
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 37942
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 38075
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 38214
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan-90",
+                        "line": 1,
+                        "column": 38347
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72468
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72594
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan",
+                        "line": 1,
+                        "column": 72726
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --vulkan-90",
+                        "line": 1,
+                        "column": 72852
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --dark-blue-80",
+                        "line": 1,
+                        "column": 95273
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property text-fill-color",
+                        "line": 1,
+                        "column": 116868
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property text-fill-color",
+                        "line": 1,
+                        "column": 152402
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property text-fill-color",
+                        "line": 1,
+                        "column": 12025
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/opti-grid.component-e8d2211b.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property text-fill-color",
+                        "line": 1,
+                        "column": 47559
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property text-fill-color",
+                        "line": 1,
+                        "column": 12025
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/custom-form-5e3002a1.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property text-fill-color",
+                        "line": 1,
+                        "column": 47559
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property text-fill-color",
+                        "line": 1,
+                        "column": 12025
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/primary-footer.component-62f82b24.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property text-fill-color",
+                        "line": 1,
+                        "column": 47559
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.optimizely.com/Util/EPiServer.Forms/EPiServerForms.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value background-image for property -ms-linear-gradient(top, #fff, #e6e6e6)",
+                        "line": 1,
+                        "column": 1268
+                      },
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value line-height for property ",
+                        "line": 1,
+                        "column": 263872
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value box-shadow for property ,",
+                        "line": 1,
+                        "column": 64351
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value box-shadow for property ,",
+                        "line": 1,
+                        "column": 64351
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown type selector sentinel",
+                        "line": 1,
+                        "column": 78459
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown type selector sentinel",
+                        "line": 1,
+                        "column": 78459
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "at-rule-descriptor-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown descriptor \u0022font-kerning\u0022 for at-rule \u0022@font-face\u0022 (at-rule-descriptor-no-unknown)",
+                        "line": 1,
+                        "column": 208128
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.optimizely.com/assets/entry-client-57ab328e.css",
+                        "rule": "selector-pseudo-class-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown pseudo-class selector :col-6",
+                        "line": 1,
+                        "column": 212377
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 78467
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/h7qt2xUGz2zqKEhSc8DD8baZ/styles__ltr.css",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 78467
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.optimizely.com/assets/media.component-311d679e.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 4837
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2025-06-28T12:48:23.132756",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Iframe element requires a non-empty title attribute that identifies the frame. (error)\n  Url(s) with issues:\n  - https://optimizely.blog/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "optimizely.blog": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://optimizely.blog/",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe id=\u0022cgptcb-chat-box-iframe\u0022 height=\u0022100%\u0022 width=\u0022100%\u0022 frameborder=\u00220\u0022 allow=\u0022clipboard-write;\u0022 data-src=\u0022https://app.customgpt.ai/projects/70152/ask-me-anything/54d58d0a-e577-4cf4-ba58-88eb985fd3bf?rs=livechat\u0026amp;embed=1\u0026amp;shareable_slug=...",
+                      "selector": "#cgptcb-chat-box-iframe",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 90.0,
+              "a11y": 90
+            }
+          }
+        }
+      }
+    }
+  ]
+}

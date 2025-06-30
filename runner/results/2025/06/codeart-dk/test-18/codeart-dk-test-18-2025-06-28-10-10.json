@@ -1,0 +1,139 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 3.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 3.0,
+      "rating_stand": -1.0,
+      "date": "2025-06-28T10:10:23.328810",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.64:1. Recommendation:  change text colour to #717171. (error)\n  Url(s) with issues:\n  - https://www.codeart.dk/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.1:1. Recommendation:  change background to #15856e. (error)\n  Url(s) with issues:\n  - https://www.codeart.dk/\n\n- This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://www.codeart.dk/\n\n- This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://www.codeart.dk/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.codeart.dk": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.64:1. Recommendation:  change text colour to #717171. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.codeart.dk/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.64:1. Recommendation:  change text colour to #717171. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.64:1. Recommendation:  change text colour to #717171.",
+                      "context": "\u003Ca href=\u0022javascript:TogglePage(this, \u0027coiPage-3\u0027);\u0022 onkeypress=\u0022TogglePage(this, \u0027coiPage-3\u0027)\u0022 class=\u0022coi-banner__policy\u0022\u003EAbout cookies\u003C/a\u003E",
+                      "selector": "#coi-banner-wrapper_label \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.1:1. Recommendation:  change background to #15856e. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.codeart.dk/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.1:1. Recommendation:  change background to #15856e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.1:1. Recommendation:  change background to #15856e.",
+                      "context": "\u003Cbutton tabindex=\u00220\u0022 onclick=\u0022CookieInformation.submitAllCategories();\u0022 onkeypress=\u0022CookieInformation.submitAllCategories();\u0022 aria-label=\u0022Accept all\u0022 class=\u0022coi-banner__accept\u0022\u003EAccept all\u003C/button\u003E",
+                      "selector": "#coiPage-1 \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E button:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.codeart.dk/",
+                    "text": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput type=\u0022search\u0022 name=\u0022q\u0022 id=\u0022search\u0022 placeholder=\u0022What are you looking for?\u0022\u003E",
+                      "selector": "#search",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.codeart.dk/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton type=\u0022submit\u0022 class=\u0022submit\u0022\u003E\u003Ci class=\u0022icon-search-1\u0022\u003E\u003C/i\u003E\u003C/button\u003E",
+                      "selector": "#searchArea \u003E div \u003E div:nth-child(2) \u003E div \u003E form \u003E div \u003E button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 60.0,
+              "a11y": 60
+            }
+          }
+        }
+      }
+    }
+  ]
+}
