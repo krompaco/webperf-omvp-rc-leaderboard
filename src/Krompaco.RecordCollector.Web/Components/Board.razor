@@ -47,7 +47,7 @@
         @foreach (var result in siteResults)
         {
             <li class="@Program.GetRatingClassName(result.Rating.ToString("0.00", new CultureInfo("en-US"))) px-2 pt-1.5 pb-1 rounded-md mt-3">
-                <span class="font-extrabold">
+                <span class="font-bold">
                     @GetTypeOfTest(result.TypeOfTest)
                 </span>
                 <span>
