@@ -1,0 +1,66 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T13:34:56.954042",
+      "report": "- Webpage generates very little carbon dioxide!\n- Carbon dioxide per pageview: 0.04 gram(s)\n- More green than 99 % of the websites tested by webperf.se (Reference updated: 2025-01-09).\n- Network transfer size: 63.87 KB\n ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://jacob.earth/blog/",
+            "index": 1,
+            "size": 10758
+          },
+          {
+            "url": "https://jacob.earth/Content/FONTS/playfair-display-sc-v15-latin-regular.woff2",
+            "index": 2,
+            "size": 23660
+          },
+          {
+            "url": "https://jacob.earth/_astro/newsletter-subscribed.DPUXGGGW.css",
+            "index": 3,
+            "size": 10939
+          },
+          {
+            "url": "https://ft.ohonesix.com/js/script.js",
+            "index": 4,
+            "size": 2618
+          },
+          {
+            "url": "https://jacob.earth/Content/JS/aprilFools.js",
+            "index": 5,
+            "size": 575
+          },
+          {
+            "url": "https://jacob.earth/Content/JS/search.js",
+            "index": 6,
+            "size": 1768
+          },
+          {
+            "url": "https://ft.ohonesix.com/api/event",
+            "index": 7,
+            "size": 2
+          },
+          {
+            "url": "https://jacob.earth/favicon.ico?v=1",
+            "index": 8,
+            "size": 15086
+          }
+        ],
+        "total-byte-weight": 65406,
+        "co2": 0.039430790845071895,
+        "cleaner_than": 99.0
+      }
+    }
+  ]
+}

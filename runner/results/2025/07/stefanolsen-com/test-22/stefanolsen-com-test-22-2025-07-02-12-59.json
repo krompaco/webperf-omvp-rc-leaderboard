@@ -1,0 +1,61 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T13:00:16.828813",
+      "report": "- Webpage generates very little carbon dioxide!\n- Carbon dioxide per pageview: 0.27 gram(s)\n- More green than 99 % of the websites tested by webperf.se (Reference updated: 2025-01-09).\n- Network transfer size: 441.06 KB\n ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://stefanolsen.com/",
+            "index": 1,
+            "size": 12288
+          },
+          {
+            "url": "https://stefanolsen.com/html/dist/screen.css?v=638259967345463691",
+            "index": 2,
+            "size": 126160
+          },
+          {
+            "url": "https://stefanolsen.com/html/dist/icons.svg?v=638259967327696655#chevron-circle-right",
+            "index": 3,
+            "size": 6578
+          },
+          {
+            "url": "https://stefanolsen.containers.piwik.pro/9fb954d6-aaed-43a2-b910-c2fe9c7decbc.js",
+            "index": 4,
+            "size": 237291
+          },
+          {
+            "url": "https://stefanolsen.containers.piwik.pro/ppms.js",
+            "index": 5,
+            "size": 68529
+          },
+          {
+            "url": "https://stefanolsen.piwik.pro/ppms.php",
+            "index": 6,
+            "size": 0
+          },
+          {
+            "url": "https://stefanolsen.com/favicon.ico",
+            "index": 7,
+            "size": 795
+          }
+        ],
+        "total-byte-weight": 451641,
+        "co2": 0.2722771887603449,
+        "cleaner_than": 99.0
+      }
+    }
+  ]
+}

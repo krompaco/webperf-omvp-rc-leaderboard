@@ -1,0 +1,695 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 4.9,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.9,
+      "date": "2025-07-02T13:23:24.099081",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Disallow deprecated keywords for properties within declarations (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n  Url(s) with issues:\n  - https://krompaco.nu/dist/styles.css?v=da593e819af1467d047173f7f0b19e95\n\n- CSS, Disallow non-standard direction values for linear gradient functions (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n  Url(s) with issues:\n  - https://krompaco.nu/dist/styles.css?v=da593e819af1467d047173f7f0b19e95\n\n- CSS, Disallow unknown annotations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Disallow unknown descriptors for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n- CSS, Disallow unknown values for descriptors within at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n- CSS, Disallow deprecated at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Disallow unknown at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Disallow invalid preludes for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n- CSS, Disallow empty blocks (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n- CSS, Disallow invalid hex colors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Disallow empty comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Disallow unknown values for properties within declarations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n- CSS, Disallow unknown functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n- CSS, Disallow unknown media feature names (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Disallow unknown values for media features (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Disallow invalid media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Disallow invalid named grid areas (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Disallow empty sources (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Disallow invalid double-slash comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Disallow invalid position \u0060@import\u0060 rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n- CSS, Disallow unknown animations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Disallow unknown custom media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Disallow unknown custom properties (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n- CSS, Disallow unknown properties (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n- CSS, Disallow unknown pseudo-class selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n- CSS, Disallow unknown pseudo-element selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n- CSS, Disallow unknown type selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n- CSS, Disallow invalid syntax strings (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Disallow unknown units (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2025.6.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "0.2.6"
+        },
+        "groups": {
+          "krompaco.nu": {
+            "version": "2025.6.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "0.2.6"
+            },
+            "score": {
+              "overall": 98,
+              "standard": 98
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://krompaco.nu/dist/styles.css?v=da593e819af1467d047173f7f0b19e95",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Expected \u0022button\u0022 to be \u0022auto\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 2,
+                    "column": 7103
+                  },
+                  {
+                    "url": "https://krompaco.nu/dist/styles.css?v=da593e819af1467d047173f7f0b19e95",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Expected \u0022button\u0022 to be \u0022auto\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 2,
+                    "column": 7144
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://krompaco.nu/dist/styles.css?v=da593e819af1467d047173f7f0b19e95",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected nonstandard direction (function-linear-gradient-no-nonstandard-direction)",
+                    "line": 2,
+                    "column": 21787
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://krompaco.nu/": {
+                "version": "2025.6.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "0.2.6"
+                },
+                "url": "https://krompaco.nu/",
+                "score": {
+                  "overall": 98,
+                  "standard": 98
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://krompaco.nu/dist/styles.css?v=da593e819af1467d047173f7f0b19e95",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Expected \u0022button\u0022 to be \u0022auto\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 2,
+                        "column": 7103
+                      },
+                      {
+                        "url": "https://krompaco.nu/dist/styles.css?v=da593e819af1467d047173f7f0b19e95",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Expected \u0022button\u0022 to be \u0022auto\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 2,
+                        "column": 7144
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://krompaco.nu/dist/styles.css?v=da593e819af1467d047173f7f0b19e95",
+                        "rule": "function-linear-gradient-no-nonstandard-direction",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected nonstandard direction (function-linear-gradient-no-nonstandard-direction)",
+                        "line": 2,
+                        "column": 21787
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

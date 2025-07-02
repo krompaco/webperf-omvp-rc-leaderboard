@@ -1,0 +1,1731 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 1.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 1.95,
+      "date": "2025-07-02T14:26:30.039879",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Disallow unknown custom properties (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/css/style.css\n  - https://www.technicaldogsbody.com/css/bootstrap.min.css\n  - https://www.technicaldogsbody.com/css/splitting.css\n\n- CSS, Disallow unknown values for properties within declarations (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/css/magnific-popup.css\n  - https://www.technicaldogsbody.com/css/bootstrap.min.css\n  - https://www.technicaldogsbody.com/css/YTPlayer.css\n  - https://www.technicaldogsbody.com/css/style.css\n  - https://www.technicaldogsbody.com/css/prism.css\n\n- CSS, Disallow unknown functions (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/css/magnific-popup.css\n\n- CSS, Disallow invalid position \u0060@import\u0060 rules (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/css/style.css\n\n- CSS, Disallow unknown type selectors (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/css/demo-bold/demo-bold.css\n  - https://www.technicaldogsbody.com/css/vertical-rhythm.min.css\n\n- CSS, Disallow unknown properties (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/css/style.css\n\n- CSS, Disallow deprecated keywords for properties within declarations (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/css/bootstrap.min.css\n\n- CSS, Disallow unknown annotations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Disallow unknown descriptors for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n- CSS, Disallow unknown values for descriptors within at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n- CSS, Disallow deprecated at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Disallow unknown at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Disallow invalid preludes for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n- CSS, Disallow empty blocks (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n- CSS, Disallow invalid hex colors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Disallow empty comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Disallow non-standard direction values for linear gradient functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n- CSS, Disallow unknown media feature names (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Disallow unknown values for media features (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Disallow invalid media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Disallow invalid named grid areas (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Disallow empty sources (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Disallow invalid double-slash comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Disallow unknown animations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Disallow unknown custom media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Disallow unknown pseudo-class selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n- CSS, Disallow unknown pseudo-element selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n- CSS, Disallow invalid syntax strings (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Disallow unknown units (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2025.6.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "0.2.6"
+        },
+        "groups": {
+          "www.technicaldogsbody.com": {
+            "version": "2025.6.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "0.2.6"
+            },
+            "score": {
+              "overall": 39,
+              "standard": 39
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --bs-body-text-align",
+                    "line": 6,
+                    "column": 1815
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --color-dakr-1",
+                    "line": 348,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-index",
+                    "line": 3525,
+                    "column": 42
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-index",
+                    "line": 3553,
+                    "column": 42
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-index",
+                    "line": 3581,
+                    "column": 43
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-index",
+                    "line": 3610,
+                    "column": 41
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-index",
+                    "line": 3639,
+                    "column": 42
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --word-index",
+                    "line": 3668,
+                    "column": 41
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --line-index",
+                    "line": 3698,
+                    "column": 41
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --line-index",
+                    "line": 3728,
+                    "column": 40
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property ease-default",
+                    "line": 5790,
+                    "column": 31
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5837,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5853,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5869,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5877,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5885,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5893,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5901,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5909,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5918,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 5998,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 6006,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property -color-dark-1",
+                    "line": 6040,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --font-global-alt",
+                    "line": 9831,
+                    "column": 22
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --color-dak-mode-gray-1",
+                    "line": 12378,
+                    "column": 16
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --team-item-descr-height",
+                    "line": 12588,
+                    "column": 25
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-index",
+                    "line": 13190,
+                    "column": 42
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --word-total",
+                    "line": 32,
+                    "column": 28
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-total",
+                    "line": 35,
+                    "column": 28
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --line-total",
+                    "line": 38,
+                    "column": 28
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --word-index",
+                    "line": 43,
+                    "column": 28
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --word-total",
+                    "line": 43,
+                    "column": 48
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --line-index",
+                    "line": 46,
+                    "column": 28
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --line-total",
+                    "line": 46,
+                    "column": 48
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-index",
+                    "line": 51,
+                    "column": 28
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-total",
+                    "line": 51,
+                    "column": 48
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown custom property --char-index",
+                    "line": 54,
+                    "column": 27
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value text-align for property -webkit-match-parent",
+                    "line": 6,
+                    "column": 4109
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value -moz-user-select for property auto",
+                    "line": 6,
+                    "column": 126837
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value transition-delay for property 0",
+                    "line": 6726,
+                    "column": 23
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha( opacity = 80)",
+                    "line": 11,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha( opacity = 65)",
+                    "line": 164,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha( opacity = 100)",
+                    "line": 180,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha( opacity = 65)",
+                    "line": 202,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha( opacity = 100)",
+                    "line": 214,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/YTPlayer.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value perspective for property 1000",
+                    "line": 1,
+                    "column": 5329
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/YTPlayer.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value -webkit-transform-style for property \u0022flat\u0022",
+                    "line": 1,
+                    "column": 8448
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/prism.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value padding for property inherit",
+                    "line": 133,
+                    "column": 11
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha",
+                    "line": 11,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha",
+                    "line": 164,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha",
+                    "line": 180,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha",
+                    "line": 202,
+                    "column": 13
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha",
+                    "line": 214,
+                    "column": 13
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
+                    "line": 163,
+                    "column": 1
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
+                    "line": 164,
+                    "column": 1
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
+                    "line": 165,
+                    "column": 1
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/vertical-rhythm.min.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown type selector n",
+                    "line": 1,
+                    "column": 14369
+                  },
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/demo-bold/demo-bold.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown type selector features-2-icon",
+                    "line": 336,
+                    "column": 17
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/style.css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown property badding-bottom",
+                    "line": 14075,
+                    "column": 5
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 6,
+                    "column": 123693
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://www.technicaldogsbody.com/": {
+                "version": "2025.6.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "0.2.6"
+                },
+                "url": "https://www.technicaldogsbody.com/",
+                "score": {
+                  "overall": 39,
+                  "standard": 39
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --bs-body-text-align",
+                        "line": 6,
+                        "column": 1815
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --color-dakr-1",
+                        "line": 348,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-index",
+                        "line": 3525,
+                        "column": 42
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-index",
+                        "line": 3553,
+                        "column": 42
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-index",
+                        "line": 3581,
+                        "column": 43
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-index",
+                        "line": 3610,
+                        "column": 41
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-index",
+                        "line": 3639,
+                        "column": 42
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --word-index",
+                        "line": 3668,
+                        "column": 41
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --line-index",
+                        "line": 3698,
+                        "column": 41
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --line-index",
+                        "line": 3728,
+                        "column": 40
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property ease-default",
+                        "line": 5790,
+                        "column": 31
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5837,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5853,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5869,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5877,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5885,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5893,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5901,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5909,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5918,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 5998,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 6006,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property -color-dark-1",
+                        "line": 6040,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --font-global-alt",
+                        "line": 9831,
+                        "column": 22
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --color-dak-mode-gray-1",
+                        "line": 12378,
+                        "column": 16
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --team-item-descr-height",
+                        "line": 12588,
+                        "column": 25
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-index",
+                        "line": 13190,
+                        "column": 42
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --word-total",
+                        "line": 32,
+                        "column": 28
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-total",
+                        "line": 35,
+                        "column": 28
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --line-total",
+                        "line": 38,
+                        "column": 28
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --word-index",
+                        "line": 43,
+                        "column": 28
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --word-total",
+                        "line": 43,
+                        "column": 48
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --line-index",
+                        "line": 46,
+                        "column": 28
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --line-total",
+                        "line": 46,
+                        "column": 48
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-index",
+                        "line": 51,
+                        "column": 28
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-total",
+                        "line": 51,
+                        "column": 48
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/splitting.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown custom property --char-index",
+                        "line": 54,
+                        "column": 27
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value text-align for property -webkit-match-parent",
+                        "line": 6,
+                        "column": 4109
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value -moz-user-select for property auto",
+                        "line": 6,
+                        "column": 126837
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value transition-delay for property 0",
+                        "line": 6726,
+                        "column": 23
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha( opacity = 80)",
+                        "line": 11,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha( opacity = 65)",
+                        "line": 164,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha( opacity = 100)",
+                        "line": 180,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha( opacity = 65)",
+                        "line": 202,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha( opacity = 100)",
+                        "line": 214,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/YTPlayer.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value perspective for property 1000",
+                        "line": 1,
+                        "column": 5329
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/YTPlayer.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value -webkit-transform-style for property \u0022flat\u0022",
+                        "line": 1,
+                        "column": 8448
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/prism.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value padding for property inherit",
+                        "line": 133,
+                        "column": 11
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha",
+                        "line": 11,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha",
+                        "line": 164,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha",
+                        "line": 180,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha",
+                        "line": 202,
+                        "column": 13
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/magnific-popup.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha",
+                        "line": 214,
+                        "column": 13
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-invalid-position-at-import-rule",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
+                        "line": 163,
+                        "column": 1
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-invalid-position-at-import-rule",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
+                        "line": 164,
+                        "column": 1
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "no-invalid-position-at-import-rule",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
+                        "line": 165,
+                        "column": 1
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/vertical-rhythm.min.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown type selector n",
+                        "line": 1,
+                        "column": 14369
+                      },
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/demo-bold/demo-bold.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown type selector features-2-icon",
+                        "line": 336,
+                        "column": 17
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/style.css",
+                        "rule": "property-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown property badding-bottom",
+                        "line": 14075,
+                        "column": 5
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.technicaldogsbody.com/css/bootstrap.min.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 6,
+                        "column": 123693
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

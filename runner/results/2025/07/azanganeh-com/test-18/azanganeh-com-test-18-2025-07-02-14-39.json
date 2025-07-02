@@ -1,0 +1,58 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T14:39:37.300993",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- The html element should have a lang or xml:lang attribute which describes the language of the document. (error)\n  Url(s) with issues:\n  - https://azanganeh.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "azanganeh.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://azanganeh.com/",
+                    "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+                      "context": "\u003Chtml\u003E\u003Chead\u003E\u003Ctitle\u003E502 Bad Gateway\u003C/t...\u003C/html\u003E",
+                      "selector": "html",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 90.0,
+              "a11y": 90
+            }
+          }
+        }
+      }
+    }
+  ]
+}

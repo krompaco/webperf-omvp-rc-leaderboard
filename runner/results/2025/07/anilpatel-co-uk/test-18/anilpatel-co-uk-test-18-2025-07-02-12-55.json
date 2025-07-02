@@ -1,0 +1,58 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T12:55:14.804486",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.2:1. Recommendation:  change text colour to #73777d. (error)\n  Url(s) with issues:\n  - https://anilpatel.co.uk/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "anilpatel.co.uk": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.2:1. Recommendation:  change text colour to #73777d. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://anilpatel.co.uk/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.2:1. Recommendation:  change text colour to #73777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.2:1. Recommendation:  change text colour to #73777d.",
+                      "context": "\u003Cspan\u003ESubscribe\u003C/span\u003E",
+                      "selector": "#actionbar \u003E ul \u003E li:nth-child(1) \u003E a:nth-child(1) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 90.0,
+              "a11y": 90
+            }
+          }
+        }
+      }
+    }
+  ]
+}

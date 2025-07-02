@@ -1,0 +1,108 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.98,
+      "rating_sec": 4.97,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T13:13:53.623221",
+      "report": "- Technology used: js, sass, scss\r\n- Metadata used: preload, viewport\r\n- Javascript libraries used: bootstrap, next.js\r\n- Languages found: en\r\n- Image formats used: ico, webp\r\n",
+      "report_sec": "##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- next.js 14.1.0\r\n- bootstrap 5.3.2\r\n\r\n###### Affected resource(s):\r\n- https://www.cjsharp.com/_next/static/chunks/69-91a64b9ec46b15b4.js\r\n- https://www.cjsharp.com/_next/static/chunks/14.f34071e116019da0.js\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND001": {
+            "softwares": [
+              "next.js 14.1.0",
+              "bootstrap 5.3.2"
+            ],
+            "resources": [
+              "https://www.cjsharp.com/_next/static/chunks/69-91a64b9ec46b15b4.js",
+              "https://www.cjsharp.com/_next/static/chunks/14.f34071e116019da0.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "preload": {
+            "?": {
+              "name": "preload",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          }
+        },
+        "js": {
+          "next.js": {
+            "14.1.0": {
+              "name": "next.js",
+              "precision": 0.8,
+              "github-owner": "vercel",
+              "github-repo": "next.js"
+            }
+          },
+          "bootstrap": {
+            "5.3.2": {
+              "name": "bootstrap",
+              "precision": 0.5,
+              "github-owner": "twbs",
+              "github-repo": "bootstrap"
+            }
+          }
+        },
+        "tech": {
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "sass": {
+            "?": {
+              "name": "sass",
+              "precision": 0.8
+            }
+          },
+          "scss": {
+            "?": {
+              "name": "scss",
+              "precision": 0.8
+            }
+          }
+        },
+        "img": {
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

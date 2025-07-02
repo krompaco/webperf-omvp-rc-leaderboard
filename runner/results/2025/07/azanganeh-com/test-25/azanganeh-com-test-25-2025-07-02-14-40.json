@@ -1,0 +1,72 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 3.33,
+      "rating_sec": 3.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T14:40:50.672946",
+      "report": "- Web server used: nginx\r\n- Technology used: c\r\n- Image formats used: ico\r\n",
+      "report_sec": "##### Software related to CVE:s ( 1.0 rating )\r\n\r\n###### Introduction:\r\nSoftware version used is affected by vulnerability described below.\r\nIn most cases you can fix a CVE related issue by updating software to latest version.\r\nIn some rare cases there is no update and you need to consider not using the software affected.\r\n\r\n###### Common Vulnerabilities and Exposures\r\n- CVE-2025-23419\r\n- CVE-2024-7347\r\n\r\n###### Detected software(s):\r\n- nginx 1.26.0\r\n\r\n###### Affected resource(s):\r\n- https://azanganeh.com/\r\n- https://azanganeh.com/favicon.ico\r\n##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- nginx 1.26.0\r\n\r\n###### Affected resource(s):\r\n- https://azanganeh.com/\r\n- https://azanganeh.com/favicon.ico\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "CVE": {
+            "softwares": [
+              "nginx 1.26.0"
+            ],
+            "resources": [
+              "https://azanganeh.com/",
+              "https://azanganeh.com/favicon.ico"
+            ],
+            "sub-issues": [
+              "CVE-2025-23419",
+              "CVE-2024-7347"
+            ]
+          },
+          "BEHIND010": {
+            "softwares": [
+              "nginx 1.26.0"
+            ],
+            "resources": [
+              "https://azanganeh.com/",
+              "https://azanganeh.com/favicon.ico"
+            ],
+            "sub-issues": []
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "1.26.0": {
+              "name": "nginx",
+              "precision": 0.8,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          }
+        },
+        "tech": {
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          }
+        },
+        "img": {
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

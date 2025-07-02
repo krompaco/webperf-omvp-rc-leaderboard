@@ -1,0 +1,2038 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 1.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 1.0,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T13:39:08.681591",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n- This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n- Anchor element found with a valid href attribute, but no link content has been supplied. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n- Anchor element found with no link content and no name and/or ID attribute. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n- Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n- This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.24:1. Recommendation:  change text colour to #00070c. (error)\n  Url(s) with issues:\n  - https://buildoptimizely.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "buildoptimizely.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ch4 class=\u0022elementor-heading-title elementor-size-xl\u0022\u003EBuild Optimzely\u003C/h4\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(1) \u003E div:nth-child(3) \u003E div \u003E div \u003E div:nth-child(1) \u003E div \u003E h4",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(6) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(7) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(8) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(9) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(10) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(11) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-slide-button box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(13) \u003E div \u003E div \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely Integration within Episerver \u2013 Part 2: Full Stack A/B Test\u0022 class=\u0022box-button element...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely Integration within Episerver \u2013 Part 1:  Full Stack Feature\u0022 class=\u0022box-button elemento...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-add-a-copy-preview-link-to-the-navigation-pane/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Add a Copy Preview Link to the Navigation Pane\u0022 class=\u0022box-button elementor-button elementor-size-xs\u0022\u003ERead...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Episerver: Authentication with multiple Azure AD Instances\u0022 class=\u0022box-button elementor-button elementor-...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-how-to-create-a-language-selector-for-multilingual-sites/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Episerver: How to Create a Language Selector for Multilingual Sites\u0022 class=\u0022box-button elementor...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(5) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Episerver: How to quickly create environments with Azure CLI\u0022 class=\u0022box-button elementor-button elemen...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(6) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/optimizely/optimizely-dxp-go-live-check-list/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely DXP Go Live Check-List\u0022 class=\u0022box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(7) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/optimizely/optimizely-building-good-content-types/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely CMS 12 \u2013 7 Tips for Building Content author Friendly Content Types\u0022 class=\u0022box-button elementor-button elementor...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(8) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Content Delivery API \u2013 The Case of the Duplicate API Refresh Token\u0022 class=\u0022box-button elementor-bu...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(9) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-help-text-and-expanded-input-text-boxes/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely CMS 12 \u2013 Help Text and Expanded Input Text Boxes\u0022 class=\u0022box-button elementor-button elementor...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(10) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely CMS 12 \u2013 Implementing a Reverse Proxy with YARP\u0022 class=\u0022box-button elementor-button elementor-s...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(11) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely Integration within Episerver \u2013 Part 2: Full Stack A/B Test\u0022 class=\u0022box-button element...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely Integration within Episerver \u2013 Part 1:  Full Stack Feature\u0022 class=\u0022box-button elemento...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(13) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-add-a-copy-preview-link-to-the-navigation-pane/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Add a Copy Preview Link to the Navigation Pane\u0022 class=\u0022box-button elementor-button elementor-size-xs\u0022\u003ERead...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(14) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Episerver: Authentication with multiple Azure AD Instances\u0022 class=\u0022box-button elementor-button elementor-...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(15) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-how-to-create-a-language-selector-for-multilingual-sites/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Episerver: How to Create a Language Selector for Multilingual Sites\u0022 class=\u0022box-button elementor...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(16) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Episerver: How to quickly create environments with Azure CLI\u0022 class=\u0022box-button elementor-button elemen...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(17) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/optimizely/optimizely-dxp-go-live-check-list/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely DXP Go Live Check-List\u0022 class=\u0022box-button elementor-button elementor-size-xs\u0022\u003ERead article\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(18) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/optimizely/optimizely-building-good-content-types/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely CMS 12 \u2013 7 Tips for Building Content author Friendly Content Types\u0022 class=\u0022box-button elementor-button elementor...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(19) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Content Delivery API \u2013 The Case of the Duplicate API Refresh Token\u0022 class=\u0022box-button elementor-bu...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(20) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-help-text-and-expanded-input-text-boxes/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely CMS 12 \u2013 Help Text and Expanded Input Text Boxes\u0022 class=\u0022box-button elementor-button elementor...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(21) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely CMS 12 \u2013 Implementing a Reverse Proxy with YARP\u0022 class=\u0022box-button elementor-button elementor-s...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(22) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.93:1. Recommendation:  change background to #00838b.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022 target=\u0022\u0022 aria-label=\u0022Read more about Optimizely Integration within Episerver \u2013 Part 2: Full Stack A/B Test\u0022 class=\u0022box-button element...",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(23) \u003E article \u003E div:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-03-22T12:41:30-07:00\u0022\u003EMarch 22, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-02-27T16:00:00-08:00\u0022\u003EFebruary 27, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-02-26T15:10:17-08:00\u0022\u003EFebruary 26, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-01-22T14:11:01-08:00\u0022\u003EJanuary 22, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222019-07-23T17:45:00-07:00\u0022\u003EJuly 23, 2019\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(5) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222019-07-11T23:58:02-07:00\u0022\u003EJuly 11, 2019\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(6) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222023-01-11T12:18:29-08:00\u0022\u003EJanuary 11, 2023\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(7) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-12-10T14:21:17-08:00\u0022\u003EDecember 10, 2022\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(8) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-09-29T09:43:27-07:00\u0022\u003ESeptember 29, 2022\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(9) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-08-04T08:00:00-07:00\u0022\u003EAugust 4, 2022\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(10) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-07-27T10:00:00-07:00\u0022\u003EJuly 27, 2022\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(11) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-03-22T12:41:30-07:00\u0022\u003EMarch 22, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-02-27T16:00:00-08:00\u0022\u003EFebruary 27, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(13) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-02-26T15:10:17-08:00\u0022\u003EFebruary 26, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(14) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-01-22T14:11:01-08:00\u0022\u003EJanuary 22, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(15) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222019-07-23T17:45:00-07:00\u0022\u003EJuly 23, 2019\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(16) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222019-07-11T23:58:02-07:00\u0022\u003EJuly 11, 2019\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(17) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222023-01-11T12:18:29-08:00\u0022\u003EJanuary 11, 2023\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(18) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-12-10T14:21:17-08:00\u0022\u003EDecember 10, 2022\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(19) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-09-29T09:43:27-07:00\u0022\u003ESeptember 29, 2022\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(20) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-08-04T08:00:00-07:00\u0022\u003EAugust 4, 2022\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(21) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222022-07-27T10:00:00-07:00\u0022\u003EJuly 27, 2022\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(22) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.45:1. Recommendation:  change text colour to #6e787e.",
+                      "context": "\u003Ctime class=\u0022entry-date updated\u0022 datetime=\u00222021-03-22T12:41:30-07:00\u0022\u003EMarch 22, 2021\u003C/time\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(23) \u003E article \u003E div:nth-child(2) \u003E div \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot active\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot active\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(6)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(7)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(8)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(9)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(10)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton role=\u0022button\u0022 class=\u0022owl-dot\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E button:nth-child(11)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(2) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(5) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(6) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(7) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(8) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/episerver-how-to-quickly-create-environments-with-azure-cli/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(9) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/episerver-authentication-with-multiple-azure-ad-instances/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(10) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/optimizely-integration-within-episerver-part-1-full-stack-feature\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(11) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://buildoptimizely.com/episerver/optimizely-cms-12-implementing-a-reverse-proxy-with-yarp/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/episerver/content-delivery-api-the-case-of-the-duplicate-api-refresh-token/\u0022 class=\u0022dt-owl-item-icon\u0022\u003E\u003Ci aria-hidden=\u0022true\u0022 class=\u0022op...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(13) \u003E div \u003E div \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with no link content and no name and/or ID attribute. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with no link content and no name and/or ID attribute. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with no link content and no name and/or ID attribute.",
+                      "context": "\u003Ca href=\u0022\u0022 class=\u0022submit text-disable\u0022\u003E\u003Ci class=\u0022 mw-icon icomoon-the7...\u003C/a\u003E",
+                      "selector": "#page \u003E div:nth-child(2) \u003E header \u003E div:nth-child(3) \u003E div \u003E form \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with no link content and no name and/or ID attribute. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with no link content and no name and/or ID attribute.",
+                      "context": "\u003Ca href=\u0022\u0022 class=\u0022search-icon\u0022\u003E\u003Ci class=\u0022icomoon-the7-font-ico...\u003C/a\u003E",
+                      "selector": "#page \u003E div:nth-child(2) \u003E header \u003E div:nth-child(3) \u003E div \u003E form \u003E div:nth-child(3) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with no link content and no name and/or ID attribute. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with no link content and no name and/or ID attribute.",
+                      "context": "\u003Ca href=\u0022\u0022 class=\u0022submit text-disable\u0022\u003E\u003Ci class=\u0022 mw-icon icomoon-the7...\u003C/a\u003E",
+                      "selector": "#page \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E form \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with no link content and no name and/or ID attribute. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with no link content and no name and/or ID attribute.",
+                      "context": "\u003Ca href=\u0022\u0022 class=\u0022search-icon\u0022\u003E\u003Ci class=\u0022icomoon-the7-font-ico...\u003C/a\u003E",
+                      "selector": "#page \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(1) \u003E form \u003E div:nth-child(3) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with no link content and no name and/or ID attribute. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with no link content and no name and/or ID attribute.",
+                      "context": "\u003Ca href=\u0022\u0022 class=\u0022submit text-disable\u0022\u003E\u003Ci class=\u0022 mw-icon icomoon-the7...\u003C/a\u003E",
+                      "selector": "#page \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E form \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Anchor element found with no link content and no name and/or ID attribute. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with no link content and no name and/or ID attribute.",
+                      "context": "\u003Ca href=\u0022\u0022 class=\u0022search-icon\u0022\u003E\u003Ci class=\u0022icomoon-the7-font-ico...\u003C/a\u003E",
+                      "selector": "#page \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E form \u003E div:nth-child(3) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca class=\u0022post-thumbnail-rollover layzr-bg img-css-resize-wrapper\u0022 aria-label=\u0022Post image\u0022 href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022\u003E\u003Cimg decoding=\u0022async\u0022 width=\u002292...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca class=\u0022post-thumbnail-rollover layzr-bg img-css-resize-wrapper\u0022 aria-label=\u0022Post image\u0022 href=\u0022https://buildoptimizely.com/episerver/episerver-add-a-copy-preview-link-to-the-navigation-pane/\u0022\u003E\u003Cimg decoding=\u0022async\u0022 width=\u002280...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca class=\u0022post-thumbnail-rollover layzr-bg img-css-resize-wrapper\u0022 aria-label=\u0022Post image\u0022 href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022\u003E\u003Cimg decoding=\u0022async\u0022 width=\u002292...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(12) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca class=\u0022post-thumbnail-rollover layzr-bg img-css-resize-wrapper\u0022 aria-label=\u0022Post image\u0022 href=\u0022https://buildoptimizely.com/episerver/episerver-add-a-copy-preview-link-to-the-navigation-pane/\u0022\u003E\u003Cimg decoding=\u0022async\u0022 width=\u002280...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(14) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca class=\u0022post-thumbnail-rollover layzr-bg img-css-resize-wrapper\u0022 aria-label=\u0022Post image\u0022 href=\u0022https://buildoptimizely.com/episerver/optimizely-integration-within-episerver-part-2-full-stack-a-b-test/\u0022\u003E\u003Cimg decoding=\u0022async\u0022 width=\u002292...\u003C/a\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div \u003E div:nth-child(23) \u003E article \u003E div:nth-child(1) \u003E div \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cdiv class=\u0022owl-prev\u0022 role=\u0022button\u0022\u003E\u003Ci class=\u0022 icomoon-the7-font-th...\u003C/div\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cdiv class=\u0022owl-next\u0022 role=\u0022button\u0022\u003E\u003Ci class=\u0022 icomoon-the7-font-th...\u003C/div\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(2) \u003E div \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cdiv class=\u0022owl-prev\u0022 role=\u0022button\u0022\u003E\u003Ci class=\u0022 icomoon-the7-font-th...\u003C/div\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(2) \u003E div:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Div.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has role of \u0022button\u0022 but does not have a name available to an accessibility API. Valid names are: element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cdiv class=\u0022owl-next\u0022 role=\u0022button\u0022\u003E\u003Ci class=\u0022 icomoon-the7-font-th...\u003C/div\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(5) \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.",
+                      "context": "\u003Cspan class=\u0022elementor-headline-dynamic-text elementor-headline-text-active\u0022\u003EOptimizely\u003C/span\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(1) \u003E div:nth-child(3) \u003E div \u003E div \u003E div:nth-child(3) \u003E div \u003E h3 \u003E span:nth-child(1) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1:1. Recommendation:  change text colour to #949494.",
+                      "context": "\u003Cspan class=\u0022elementor-headline-plain-text elementor-headline-text-wrapper\u0022\u003Earticles and guides for you\u003C/span\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(1) \u003E div:nth-child(3) \u003E div \u003E div \u003E div:nth-child(3) \u003E div \u003E h3 \u003E span:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.24:1. Recommendation:  change text colour to #00070c. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://buildoptimizely.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.24:1. Recommendation:  change text colour to #00070c. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.24:1. Recommendation:  change text colour to #00070c.",
+                      "context": "\u003Ch5 class=\u0022elementor-heading-title elementor-size-default\u0022\u003ELatest news \u0026amp; tutorials\u003C/h5\u003E",
+                      "selector": "#content \u003E div \u003E section:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(3) \u003E div \u003E h5",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 10.0,
+              "a11y": 10
+            }
+          }
+        }
+      }
+    }
+  ]
+}

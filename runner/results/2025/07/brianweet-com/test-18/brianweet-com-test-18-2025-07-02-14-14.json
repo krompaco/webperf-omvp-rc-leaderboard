@@ -1,0 +1,1408 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 3.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 3.5,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T14:14:11.302641",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)\n  Url(s) with issues:\n  - https://www.brianweet.com/\n\n- Anchor element found with a valid href attribute, but no link content has been supplied. (error)\n  Url(s) with issues:\n  - https://www.brianweet.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change text colour to #2474dc. (error)\n  Url(s) with issues:\n  - https://www.brianweet.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.brianweet.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EFeb 18, 2022\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(1) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EJan 4, 2022\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(2) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EApr 29, 2020\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(3) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EJun 16, 2019\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(4) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EApr 15, 2019\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(5) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 29, 2019\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(6) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 21, 2019\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(7) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 14, 2019\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(8) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EFeb 20, 2019\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(9) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EJan 31, 2019\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(10) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EJan 11, 2019\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(11) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EOct 18, 2018\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(12) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EApr 26, 2018\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(13) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EApr 15, 2018\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(14) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EApr 6, 2018\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(15) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 20, 2018\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(16) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EOct 9, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(17) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003ESep 17, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(18) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EAug 10, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(19) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMay 10, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(20) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 17, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(21) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 7, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(22) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 6, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(23) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 5, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(24) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EFeb 24, 2017\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(25) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMay 16, 2016\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(26) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 29, 2016\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(27) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EFeb 22, 2016\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(28) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EJan 27, 2016\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(29) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EJan 22, 2016\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(30) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMay 16, 2015\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(31) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EApr 8, 2015\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(32) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EApr 7, 2015\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(33) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 24, 2015\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(34) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cspan class=\u0022post-meta\u0022\u003EMar 11, 2015\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(35) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cli\u003Ebrianweet\u003C/li\u003E",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div \u003E div:nth-child(1) \u003E ul \u003E li:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.84:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cp class=\u0022text\u0022\u003EHi, my name is Brian Weeteling....\u003C/p\u003E",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div \u003E div:nth-child(3) \u003E p",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2022/02/18/memory-leaks.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2022/02/18/memory-leaks.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(1) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2022/01/04/initialization-issues.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2022/01/04/initialization-issues.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(2) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2020/04/29/implementing-a-custom-reporting-service-for-commerce.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2020/04/29/implementing-a-custom-reporting-service-for-commerce.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(3) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2019/06/16/write-ai-gpt-2-haiku.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2019/06/16/write-ai-gpt-2-haiku.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(4) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2019/04/15/introducing-ai-content-editor.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2019/04/15/introducing-ai-content-editor.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(5) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2019/03/29/find-serialization-exceptions.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2019/03/29/find-serialization-exceptions.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(6) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2019/03/21/part-2-prices-markets-and-taxes.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2019/03/21/part-2-prices-markets-and-taxes.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(7) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2019/03/14/part-1-prices-markets-and-taxes.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2019/03/14/part-1-prices-markets-and-taxes.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(8) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2019/02/20/multi-site-catalog-performance-regression.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2019/02/20/multi-site-catalog-performance-regression.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(9) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2019/01/31/validating-propertylist-items.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2019/01/31/validating-propertylist-items.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(10) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2019/01/11/finding-memory-leak-epi-on-azure.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2019/01/11/finding-memory-leak-epi-on-azure.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(11) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2018/10/18/web-of-things-fan.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2018/10/18/web-of-things-fan.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(12) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2018/04/26/running-mssql-server-linux-using-lcow.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2018/04/26/running-mssql-server-linux-using-lcow.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(13) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2018/04/15/dont-worry-take-a-shower.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2018/04/15/dont-worry-take-a-shower.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(14) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2018/04/06/add-field-to-bf-class.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2018/04/06/add-field-to-bf-class.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(15) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2018/03/20/unstable-episerver-find-developer-indexes.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2018/03/20/unstable-episerver-find-developer-indexes.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(16) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/10/09/alloy-in-docker.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/10/09/alloy-in-docker.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(17) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/09/17/trying-out-docker-build-jekyll-blog.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/09/17/trying-out-docker-build-jekyll-blog.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(18) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/08/10/redirects-geolocation.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/08/10/redirects-geolocation.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(19) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/05/10/ngrok-building-integrations-with-ease.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/05/10/ngrok-building-integrations-with-ease.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(20) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/03/17/handling-find-serviceexception.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/03/17/handling-find-serviceexception.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(21) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/03/07/forcing-editor-overlay-layout-mode.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/03/07/forcing-editor-overlay-layout-mode.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(22) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/03/06/debugging-episerver-dlls.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/03/06/debugging-episerver-dlls.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(23) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/03/05/tips-using-propertylist.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/03/05/tips-using-propertylist.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(24) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2017/02/24/dangers-of-using-pre-release-apis.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2017/02/24/dangers-of-using-pre-release-apis.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(25) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2016/05/16/how-to-install-linux-on-an-orange-pi-pc.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2016/05/16/how-to-install-linux-on-an-orange-pi-pc.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(26) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2016/03/29/integrating-workfront-and-tfs.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2016/03/29/integrating-workfront-and-tfs.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(27) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2016/02/22/upgrading-tfs-2013-to-2015.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2016/02/22/upgrading-tfs-2013-to-2015.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(28) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2016/01/27/aspnet-stripe-webhooks.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2016/01/27/aspnet-stripe-webhooks.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(29) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2016/01/22/disable-strong-signing.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2016/01/22/disable-strong-signing.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(30) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2015/05/16/results-and-todos.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2015/05/16/results-and-todos.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(31) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2015/04/08/low-end-touchscreen-limitations.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2015/04/08/low-end-touchscreen-limitations.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(32) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2015/04/07/gathering-data.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2015/04/07/gathering-data.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(33) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2015/03/24/implement-touch-model.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2015/03/24/implement-touch-model.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(34) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022/2015/03/11/probable-keyboard-events.html#disqus_thread\u0022 data-disqus-identifier=\u0022/2015/03/11/probable-keyboard-events.html\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E ul \u003E li:nth-child(35) \u003E h2 \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change text colour to #2474dc. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change text colour to #2474dc. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change text colour to #2474dc.",
+                      "context": "\u003Ca href=\u0022/feed.xml\u0022\u003Evia RSS\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E div \u003E p \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change text colour to #2474dc. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change text colour to #2474dc.",
+                      "context": "\u003Ca href=\u0022mailto:brianweeteling@gmail.com\u0022\u003Ebrianweeteling@gmail.com\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div \u003E div:nth-child(1) \u003E ul \u003E li:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.brianweet.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change text colour to #2474dc. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change text colour to #2474dc.",
+                      "context": "\u003Cspan class=\u0022username\u0022\u003Ebrianweet\u003C/span\u003E",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div \u003E div:nth-child(2) \u003E ul \u003E li \u003E a \u003E span:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 70.0,
+              "a11y": 70
+            }
+          }
+        }
+      }
+    }
+  ]
+}

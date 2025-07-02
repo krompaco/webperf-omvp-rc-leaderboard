@@ -1,0 +1,210 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.38,
+      "rating_sec": 4.27,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2025-07-02T15:20:01.031106",
+      "report": "- CMS used: episerver\r\n- Web server used: microsoft-httpapi\r\n- Technology used: asp.net, csharp, js, sass, scss, typescript\r\n- Metadata used: canonical, icon, open-graph, preload, viewport\r\n- Javascript libraries used: applicationinsights-js, bootstrap, jquery, plausible-analytics\r\n- Languages found: en, en_us\r\n- Image formats used: ico, png, svg, webp\r\n",
+      "report_sec": "##### Software is behind \u003E=25 versions ( 2.75 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 25 or more version compared to latests.\r\nThis is a good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- applicationinsights-js 2.8.18\r\n\r\n###### Affected resource(s):\r\n- https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js\r\n##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- bootstrap 5.0.2\r\n\r\n###### Affected resource(s):\r\n- https://optimizely.blog/js/jsbundle.js?v=7czMwn7jwxfukbjq_S6UilOBN9bqwmcEa_6UvS4jL1g\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- jquery 3.6.0\r\n\r\n###### Affected resource(s):\r\n- https://optimizely.blog/js/jsbundle.js?v=7czMwn7jwxfukbjq_S6UilOBN9bqwmcEa_6UvS4jL1g\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND025": {
+            "softwares": [
+              "applicationinsights-js 2.8.18"
+            ],
+            "resources": [
+              "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND010": {
+            "softwares": [
+              "bootstrap 5.0.2"
+            ],
+            "resources": [
+              "https://optimizely.blog/js/jsbundle.js?v=7czMwn7jwxfukbjq_S6UilOBN9bqwmcEa_6UvS4jL1g"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND001": {
+            "softwares": [
+              "jquery 3.6.0"
+            ],
+            "resources": [
+              "https://optimizely.blog/js/jsbundle.js?v=7czMwn7jwxfukbjq_S6UilOBN9bqwmcEa_6UvS4jL1g"
+            ],
+            "sub-issues": []
+          }
+        },
+        "tech": {
+          "csharp": {
+            "?": {
+              "name": "csharp",
+              "precision": 0.4
+            }
+          },
+          "asp.net": {
+            "?": {
+              "name": "asp.net",
+              "precision": 0.1
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "sass": {
+            "?": {
+              "name": "sass",
+              "precision": 0.8
+            }
+          },
+          "scss": {
+            "?": {
+              "name": "scss",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          }
+        },
+        "lang": {
+          "en_us": {
+            "?": {
+              "name": "en_us",
+              "precision": 0.8
+            }
+          },
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "cms": {
+          "episerver": {
+            "?": {
+              "name": "episerver",
+              "precision": 0.4
+            }
+          }
+        },
+        "meta": {
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "preload": {
+            "?": {
+              "name": "preload",
+              "precision": 0.5
+            }
+          }
+        },
+        "js": {
+          "plausible-analytics": {
+            "?": {
+              "name": "plausible-analytics",
+              "precision": 0.6,
+              "github-owner": "plausible",
+              "github-repo": "analytics"
+            }
+          },
+          "jquery": {
+            "3.6.0": {
+              "name": "jquery",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "bootstrap": {
+            "5.0.2": {
+              "name": "bootstrap",
+              "precision": 0.5,
+              "github-owner": "twbs",
+              "github-repo": "bootstrap"
+            }
+          },
+          "applicationinsights-js": {
+            "2.8.18": {
+              "name": "applicationinsights-js",
+              "precision": 0.8,
+              "github-owner": "Microsoft",
+              "github-repo": "ApplicationInsights-JS"
+            }
+          }
+        },
+        "img": {
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.4
+            }
+          },
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        },
+        "webserver": {
+          "microsoft-httpapi": {
+            "2.0": {
+              "name": "microsoft-httpapi",
+              "precision": 0.8
+            }
+          }
+        }
+      }
+    }
+  ]
+}
