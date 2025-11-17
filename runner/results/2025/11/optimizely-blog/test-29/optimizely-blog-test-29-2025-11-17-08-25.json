@@ -1,0 +1,195 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 29,
+      "rating": 4.75,
+      "rating_sec": 4.5,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2025-11-17T08:25:30.587018",
+      "report": "",
+      "report_sec": "- Javascript, disallow javascript: URLs (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-script-url\n\n  Url(s) with issues:\n  - https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js\n  - https://optimizely.blog/\n\n- Javascript, disallow the use of eval() (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-eval\n\n- Javascript, disallow the use of eval()-like methods (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-implied-eval\n\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- no-debugger (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-debugger\n\n",
+      "data": {
+        "version": "2025.11.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "optimizely.blog": {
+            "version": "2025.11.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 95,
+              "security": 90,
+              "standard": 100
+            },
+            "issues": [
+              {
+                "test": "javascript",
+                "rule": "no-script-url",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-script-url"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 93928
+                  },
+                  {
+                    "url": "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 110999
+                  },
+                  {
+                    "url": "https://optimizely.blog/",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 1,
+                    "column": 488
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-eval",
+                "category": "security",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-eval"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "javascript",
+                "rule": "no-implied-eval",
+                "category": "security",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-implied-eval"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "javascript",
+                "rule": "no-debugger",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-debugger"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://optimizely.blog/": {
+                "version": "2025.11.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://optimizely.blog/",
+                "score": {
+                  "overall": 95,
+                  "security": 90,
+                  "standard": 100
+                },
+                "issues": [
+                  {
+                    "test": "javascript",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-script-url"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 93928
+                      },
+                      {
+                        "url": "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 110999
+                      },
+                      {
+                        "url": "https://optimizely.blog/",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 1,
+                        "column": 488
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-eval"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-implied-eval"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-debugger",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-debugger"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

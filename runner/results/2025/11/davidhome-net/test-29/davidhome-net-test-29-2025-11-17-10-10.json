@@ -1,0 +1,231 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 29,
+      "rating": 4.75,
+      "rating_sec": 4.5,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2025-11-17T10:11:13.662607",
+      "report": "",
+      "report_sec": "- Javascript, disallow javascript: URLs (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-script-url\n\n  Url(s) with issues:\n  - https://www.googletagmanager.com/gtag/js?id=G-YR4W0W559G\u0026cx=c\u0026gtm=4e5bc1h1\n  - https://www.davidhome.net/\n  - https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js\n  - https://www.googletagmanager.com/gtm.js?id=GTM-TTTB2SN\n\n- Javascript, disallow the use of eval() (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-eval\n\n- Javascript, disallow the use of eval()-like methods (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-implied-eval\n\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- no-debugger (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-debugger\n\n",
+      "data": {
+        "version": "2025.11.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "www.davidhome.net": {
+            "version": "2025.11.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 95,
+              "security": 90,
+              "standard": 100
+            },
+            "issues": [
+              {
+                "test": "javascript",
+                "rule": "no-script-url",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-script-url"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TTTB2SN",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 616,
+                    "column": 114
+                  },
+                  {
+                    "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 93737
+                  },
+                  {
+                    "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 110808
+                  },
+                  {
+                    "url": "https://www.googletagmanager.com/gtag/js?id=G-YR4W0W559G\u0026cx=c\u0026gtm=4e5bc1h1",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 866,
+                    "column": 204
+                  },
+                  {
+                    "url": "https://www.davidhome.net/",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 2,
+                    "column": 488
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-eval",
+                "category": "security",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-eval"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "javascript",
+                "rule": "no-implied-eval",
+                "category": "security",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-implied-eval"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "javascript",
+                "rule": "no-debugger",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-debugger"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://www.davidhome.net/": {
+                "version": "2025.11.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://www.davidhome.net/",
+                "score": {
+                  "overall": 95,
+                  "security": 90,
+                  "standard": 100
+                },
+                "issues": [
+                  {
+                    "test": "javascript",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-script-url"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TTTB2SN",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 616,
+                        "column": 114
+                      },
+                      {
+                        "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 93737
+                      },
+                      {
+                        "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 110808
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-YR4W0W559G\u0026cx=c\u0026gtm=4e5bc1h1",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 866,
+                        "column": 204
+                      },
+                      {
+                        "url": "https://www.davidhome.net/",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 2,
+                        "column": 488
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-eval"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-implied-eval"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-debugger",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-debugger"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

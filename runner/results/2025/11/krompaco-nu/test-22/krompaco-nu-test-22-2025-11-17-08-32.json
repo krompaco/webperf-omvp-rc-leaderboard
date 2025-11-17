@@ -1,0 +1,56 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T08:33:18.920535",
+      "report": "- Webpage generates very little carbon dioxide!\n- Carbon dioxide per pageview: 0.11 gram(s)\n- More green than 99 % of the websites tested by webperf.se (Reference updated: 2025-01-09).\n- Network transfer size: 172.28 KB\n ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://krompaco.nu/",
+            "index": 1,
+            "size": 23529
+          },
+          {
+            "url": "https://krompaco.nu/dist/funkis-abc-variable.woff2",
+            "index": 2,
+            "size": 59032
+          },
+          {
+            "url": "https://krompaco.nu/dist/styles.css?v=7e1bb18e71de62e8f565c65bca52c986",
+            "index": 3,
+            "size": 40093
+          },
+          {
+            "url": "https://krompaco.nu/i/johan.svg",
+            "index": 4,
+            "size": 42247
+          },
+          {
+            "url": "https://krompaco.nu/i/rc.svg",
+            "index": 5,
+            "size": 10112
+          },
+          {
+            "url": "https://krompaco.nu/favicon.ico",
+            "index": 6,
+            "size": 1406
+          }
+        ],
+        "total-byte-weight": 176419,
+        "co2": 0.10635630813834723,
+        "cleaner_than": 99.0
+      }
+    }
+  ]
+}

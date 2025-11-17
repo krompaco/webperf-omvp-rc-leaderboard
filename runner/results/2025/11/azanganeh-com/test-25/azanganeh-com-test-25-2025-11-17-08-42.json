@@ -1,0 +1,172 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 3.24,
+      "rating_sec": 2.99,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T08:42:50.616466",
+      "report": "- Web server used: nginx\r\n- Technology used: c, js\r\n- Metadata used: apple-touch-icon, icon, preload, viewport\r\n- Javascript libraries used: next.js, supabase\r\n- Languages found: en\r\n- Image formats used: ico, png\r\n",
+      "report_sec": "##### Software related to CVE:s ( 1.0 rating )\r\n\r\n###### Introduction:\r\nSoftware version used is affected by vulnerability described below.\r\nIn most cases you can fix a CVE related issue by updating software to latest version.\r\nIn some rare cases there is no update and you need to consider not using the software affected.\r\n\r\n###### Common Vulnerabilities and Exposures\r\n- CVE-2025-53859\r\n- CVE-2025-23419\r\n- CVE-2024-7347\r\n\r\n###### Detected software(s):\r\n- nginx 1.26.0\r\n\r\n###### Affected resource(s):\r\n- https://azanganeh.com/\r\n- https://azanganeh.com/_next/static/media/4cf2300e9c8272f7-s.p.woff2\r\n- https://azanganeh.com/_next/static/media/93f479601ee12b01-s.p.woff2\r\n- https://azanganeh.com/_next/static/css/970b36cf900972cc.css\r\n- https://azanganeh.com/_next/static/css/de70bee13400563f.css\r\n- https://azanganeh.com/_next/static/chunks/webpack-cac5728765ecccbe.js\r\n- https://azanganeh.com/_next/static/chunks/4bd1b696-9909f507f95988b8.js\r\n- https://azanganeh.com/_next/static/chunks/5964-5f91c1514d945928.js\r\n- https://azanganeh.com/_next/static/chunks/main-app-e10e8b9732319e10.js\r\n- https://azanganeh.com/_next/static/chunks/0e5ce63c-bbb3ce83863e4305.js\r\n- https://azanganeh.com/_next/static/chunks/1582-3f636dcd079b2cd8.js\r\n- https://azanganeh.com/_next/static/chunks/5296-4399c3b8896e1d73.js\r\n- https://azanganeh.com/_next/static/chunks/8250-88104e5eb9d07af5.js\r\n- https://azanganeh.com/_next/static/chunks/8034-6e6026f0f726f137.js\r\n- https://azanganeh.com/_next/static/chunks/5152-820a39aa479d223e.js\r\n##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- nginx 1.26.0\r\n\r\n###### Affected resource(s):\r\n- https://azanganeh.com/\r\n- https://azanganeh.com/_next/static/media/4cf2300e9c8272f7-s.p.woff2\r\n- https://azanganeh.com/_next/static/media/93f479601ee12b01-s.p.woff2\r\n- https://azanganeh.com/_next/static/css/970b36cf900972cc.css\r\n- https://azanganeh.com/_next/static/css/de70bee13400563f.css\r\n- https://azanganeh.com/_next/static/chunks/webpack-cac5728765ecccbe.js\r\n- https://azanganeh.com/_next/static/chunks/4bd1b696-9909f507f95988b8.js\r\n- https://azanganeh.com/_next/static/chunks/5964-5f91c1514d945928.js\r\n- https://azanganeh.com/_next/static/chunks/main-app-e10e8b9732319e10.js\r\n- https://azanganeh.com/_next/static/chunks/0e5ce63c-bbb3ce83863e4305.js\r\n- https://azanganeh.com/_next/static/chunks/1582-3f636dcd079b2cd8.js\r\n- https://azanganeh.com/_next/static/chunks/5296-4399c3b8896e1d73.js\r\n- https://azanganeh.com/_next/static/chunks/8250-88104e5eb9d07af5.js\r\n- https://azanganeh.com/_next/static/chunks/8034-6e6026f0f726f137.js\r\n- https://azanganeh.com/_next/static/chunks/5152-820a39aa479d223e.js\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- next.js 15.4.5\r\n\r\n###### Affected resource(s):\r\n- https://azanganeh.com/_next/static/chunks/5964-5f91c1514d945928.js\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "CVE": {
+            "softwares": [
+              "nginx 1.26.0"
+            ],
+            "resources": [
+              "https://azanganeh.com/",
+              "https://azanganeh.com/_next/static/media/4cf2300e9c8272f7-s.p.woff2",
+              "https://azanganeh.com/_next/static/media/93f479601ee12b01-s.p.woff2",
+              "https://azanganeh.com/_next/static/css/970b36cf900972cc.css",
+              "https://azanganeh.com/_next/static/css/de70bee13400563f.css",
+              "https://azanganeh.com/_next/static/chunks/webpack-cac5728765ecccbe.js",
+              "https://azanganeh.com/_next/static/chunks/4bd1b696-9909f507f95988b8.js",
+              "https://azanganeh.com/_next/static/chunks/5964-5f91c1514d945928.js",
+              "https://azanganeh.com/_next/static/chunks/main-app-e10e8b9732319e10.js",
+              "https://azanganeh.com/_next/static/chunks/0e5ce63c-bbb3ce83863e4305.js",
+              "https://azanganeh.com/_next/static/chunks/1582-3f636dcd079b2cd8.js",
+              "https://azanganeh.com/_next/static/chunks/5296-4399c3b8896e1d73.js",
+              "https://azanganeh.com/_next/static/chunks/8250-88104e5eb9d07af5.js",
+              "https://azanganeh.com/_next/static/chunks/8034-6e6026f0f726f137.js",
+              "https://azanganeh.com/_next/static/chunks/5152-820a39aa479d223e.js"
+            ],
+            "sub-issues": [
+              "CVE-2025-53859",
+              "CVE-2025-23419",
+              "CVE-2024-7347"
+            ]
+          },
+          "BEHIND010": {
+            "softwares": [
+              "nginx 1.26.0"
+            ],
+            "resources": [
+              "https://azanganeh.com/",
+              "https://azanganeh.com/_next/static/media/4cf2300e9c8272f7-s.p.woff2",
+              "https://azanganeh.com/_next/static/media/93f479601ee12b01-s.p.woff2",
+              "https://azanganeh.com/_next/static/css/970b36cf900972cc.css",
+              "https://azanganeh.com/_next/static/css/de70bee13400563f.css",
+              "https://azanganeh.com/_next/static/chunks/webpack-cac5728765ecccbe.js",
+              "https://azanganeh.com/_next/static/chunks/4bd1b696-9909f507f95988b8.js",
+              "https://azanganeh.com/_next/static/chunks/5964-5f91c1514d945928.js",
+              "https://azanganeh.com/_next/static/chunks/main-app-e10e8b9732319e10.js",
+              "https://azanganeh.com/_next/static/chunks/0e5ce63c-bbb3ce83863e4305.js",
+              "https://azanganeh.com/_next/static/chunks/1582-3f636dcd079b2cd8.js",
+              "https://azanganeh.com/_next/static/chunks/5296-4399c3b8896e1d73.js",
+              "https://azanganeh.com/_next/static/chunks/8250-88104e5eb9d07af5.js",
+              "https://azanganeh.com/_next/static/chunks/8034-6e6026f0f726f137.js",
+              "https://azanganeh.com/_next/static/chunks/5152-820a39aa479d223e.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND001": {
+            "softwares": [
+              "next.js 15.4.5"
+            ],
+            "resources": [
+              "https://azanganeh.com/_next/static/chunks/5964-5f91c1514d945928.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "meta": {
+          "preload": {
+            "?": {
+              "name": "preload",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "1.26.0": {
+              "name": "nginx",
+              "precision": 0.8,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          }
+        },
+        "tech": {
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          }
+        },
+        "js": {
+          "next.js": {
+            "15.4.5": {
+              "name": "next.js",
+              "precision": 0.8,
+              "github-owner": "vercel",
+              "github-repo": "next.js"
+            }
+          },
+          "supabase": {
+            "?": {
+              "name": "supabase",
+              "precision": 0.1,
+              "github-owner": "orgs",
+              "github-repo": "supabase"
+            }
+          }
+        },
+        "img": {
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

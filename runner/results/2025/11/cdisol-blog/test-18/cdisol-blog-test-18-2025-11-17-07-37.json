@@ -1,0 +1,1543 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 1.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 1.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T07:37:33.373738",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change background to #af6400. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- Anchor element found with a valid href attribute, but no link content has been supplied. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- Iframe element requires a non-empty title attribute that identifies the frame. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.34:1. Recommendation:  change text colour to #fff. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- This link points to a named anchor \u0022totop\u0022 within the document, but no anchor exists with that name. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n- This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)\n  Url(s) with issues:\n  - https://www.cdisol.blog/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.cdisol.blog": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca class=\u0022nav-link \u0022 href=\u0022https://www.cdisol.blog/\u0022 title=\u0022Home\u0022\u003EHome\u003C/a\u003E",
+                      "selector": "#navbarNavDropdown \u003E div \u003E ul \u003E li:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/uncategorized/\u0022 rel=\u0022category tag\u0022\u003EUncategorized\u003C/a\u003E",
+                      "selector": "#post-3058 \u003E div:nth-child(1) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-3058 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/uncategorized/\u0022 rel=\u0022category tag\u0022\u003EUncategorized\u003C/a\u003E",
+                      "selector": "#post-3060 \u003E div:nth-child(1) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-3060 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/uncategorized/\u0022 rel=\u0022category tag\u0022\u003EUncategorized\u003C/a\u003E",
+                      "selector": "#post-3061 \u003E div:nth-child(1) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-3061 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/episerver/\u0022 rel=\u0022category tag\u0022\u003EEPiServer\u003C/a\u003E",
+                      "selector": "#post-3059 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/optimization/\u0022 rel=\u0022category tag\u0022\u003EOptimization\u003C/a\u003E",
+                      "selector": "#post-3059 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/optimizely-cms/\u0022 rel=\u0022category tag\u0022\u003EOptimizely CMS\u003C/a\u003E",
+                      "selector": "#post-3059 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-3059 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/episerver/\u0022 rel=\u0022category tag\u0022\u003EEPiServer\u003C/a\u003E",
+                      "selector": "#post-2865 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/idio/\u0022 rel=\u0022category tag\u0022\u003EIdio\u003C/a\u003E",
+                      "selector": "#post-2865 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/odp/\u0022 rel=\u0022category tag\u0022\u003EODP\u003C/a\u003E",
+                      "selector": "#post-2865 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/optimizely-cms/\u0022 rel=\u0022category tag\u0022\u003EOptimizely CMS\u003C/a\u003E",
+                      "selector": "#post-2865 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-2865 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/episerver/\u0022 rel=\u0022category tag\u0022\u003EEPiServer\u003C/a\u003E",
+                      "selector": "#post-2863 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/optimizely-cms/\u0022 rel=\u0022category tag\u0022\u003EOptimizely CMS\u003C/a\u003E",
+                      "selector": "#post-2863 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-2863 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/episerver/\u0022 rel=\u0022category tag\u0022\u003EEPiServer\u003C/a\u003E",
+                      "selector": "#post-2870 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/optimizely-cms/\u0022 rel=\u0022category tag\u0022\u003EOptimizely CMS\u003C/a\u003E",
+                      "selector": "#post-2870 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-2870 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/episerver/\u0022 rel=\u0022category tag\u0022\u003EEPiServer\u003C/a\u003E",
+                      "selector": "#post-2861 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/odp/\u0022 rel=\u0022category tag\u0022\u003EODP\u003C/a\u003E",
+                      "selector": "#post-2861 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/optimizely-cms/\u0022 rel=\u0022category tag\u0022\u003EOptimizely CMS\u003C/a\u003E",
+                      "selector": "#post-2861 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-2861 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/episerver/\u0022 rel=\u0022category tag\u0022\u003EEPiServer\u003C/a\u003E",
+                      "selector": "#post-2855 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/optimizely-cms/\u0022 rel=\u0022category tag\u0022\u003EOptimizely CMS\u003C/a\u003E",
+                      "selector": "#post-2855 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/search-and-navigation/\u0022 rel=\u0022category tag\u0022\u003ESearch and Navigation\u003C/a\u003E",
+                      "selector": "#post-2855 \u003E div:nth-child(1) \u003E span \u003E a:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-2855 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/category/uncategorized/\u0022 rel=\u0022category tag\u0022\u003EUncategorized\u003C/a\u003E",
+                      "selector": "#post-2151 \u003E div:nth-child(1) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change text colour to #af6400.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/author/cdisol_ikz8pc/\u0022\u003EBy Jorge Cardenas\u003C/a\u003E",
+                      "selector": "#post-2151 \u003E div:nth-child(3) \u003E span:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EDecember 24, 2022\u003C/time\u003E",
+                      "selector": "#post-3058 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/12/24/manager-for-salesforce-simple-tasks-part-i-models-and-interface/#respond\u0022\u003E2\u003C/a\u003E",
+                      "selector": "#post-3058 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EDecember 23, 2022\u003C/time\u003E",
+                      "selector": "#post-3060 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/12/23/manager-for-salesforce-simple-tasks-part-ii-authentication/#respond\u0022\u003E0\u003C/a\u003E",
+                      "selector": "#post-3060 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EDecember 21, 2022\u003C/time\u003E",
+                      "selector": "#post-3061 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/12/21/manager-for-salesforce-simple-tasks-part-iii-implementation/#respond\u0022\u003E0\u003C/a\u003E",
+                      "selector": "#post-3061 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EDecember 20, 2022\u003C/time\u003E",
+                      "selector": "#post-3059 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/12/20/optimizely-integration-with-optimizely-cms-a-generic-approach/#respond\u0022\u003E0\u003C/a\u003E",
+                      "selector": "#post-3059 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EOctober 31, 2022\u003C/time\u003E",
+                      "selector": "#post-2865 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/31/optimizely-cms-proper-configurations-for-welcome-dam-idio-and-odp-visitor-groups-package/#respond\u0022\u003E1\u003C/a\u003E",
+                      "selector": "#post-2865 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EOctober 30, 2022\u003C/time\u003E",
+                      "selector": "#post-2863 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/30/create-feeds-for-options-in-optimizely-cms-form-selection-element/#respond\u0022\u003E0\u003C/a\u003E",
+                      "selector": "#post-2863 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EOctober 29, 2022\u003C/time\u003E",
+                      "selector": "#post-2870 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/29/optimizely-cms-validators-vs-publish-events/#respond\u0022\u003E0\u003C/a\u003E",
+                      "selector": "#post-2870 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EOctober 28, 2022\u003C/time\u003E",
+                      "selector": "#post-2861 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/28/query-optimizely-data-platform-odp-graphql-with-strawberry-shake/#respond\u0022\u003E0\u003C/a\u003E",
+                      "selector": "#post-2861 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EOctober 27, 2022\u003C/time\u003E",
+                      "selector": "#post-2855 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/27/show-optimizely-cms-search-and-navigation-statistics-using-its-own-proxy/#respond\u0022\u003E0\u003C/a\u003E",
+                      "selector": "#post-2855 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ctime\u003EJuly 31, 2022\u003C/time\u003E",
+                      "selector": "#post-2151 \u003E div:nth-child(3) \u003E span:nth-child(2) \u003E a \u003E time",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation:  change text colour to #70777d.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/07/31/syncronize-ordercloud-environments-using-endpoints/#respond\u0022\u003E0\u003C/a\u003E",
+                      "selector": "#post-2151 \u003E div:nth-child(3) \u003E span:nth-child(3) \u003E span \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/31/optimizely-cms-proper-configurations-for-welcome-dam-idio-and-odp-visitor-groups-package/\u0022\u003E\n\t\t\t\t\u003Cimg width=\u00221920\u0022 height=\u0022...\u003C/a\u003E",
+                      "selector": "#post-2865 \u003E figure \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/30/create-feeds-for-options-in-optimizely-cms-form-selection-element/\u0022\u003E\n\t\t\t\t\u003Cimg width=\u0022298\u0022 height=\u00223...\u003C/a\u003E",
+                      "selector": "#post-2863 \u003E figure \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/29/optimizely-cms-validators-vs-publish-events/\u0022\u003E\n\t\t\t\t\u003Cimg width=\u00221102\u0022 height=\u0022...\u003C/a\u003E",
+                      "selector": "#post-2870 \u003E figure \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/28/query-optimizely-data-platform-odp-graphql-with-strawberry-shake/\u0022\u003E\n\t\t\t\t\u003Cimg width=\u0022400\u0022 height=\u00224...\u003C/a\u003E",
+                      "selector": "#post-2861 \u003E figure \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H30.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.",
+                      "context": "\u003Ca href=\u0022https://www.cdisol.blog/2022/10/27/show-optimizely-cms-search-and-navigation-statistics-using-its-own-proxy/\u0022\u003E\n\t\t\t\t\u003Cimg width=\u00221920\u0022 height=\u0022...\u003C/a\u003E",
+                      "selector": "#post-2855 \u003E figure \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022sl\u0022 id=\u0022goog-gt-votingInputSrcLang\u0022\u003E",
+                      "selector": "#goog-gt-votingInputSrcLang",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022tl\u0022 id=\u0022goog-gt-votingInputTrgLang\u0022\u003E",
+                      "selector": "#goog-gt-votingInputTrgLang",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022query\u0022 id=\u0022goog-gt-votingInputSrcText\u0022\u003E",
+                      "selector": "#goog-gt-votingInputSrcText",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022gtrans\u0022 id=\u0022goog-gt-votingInputTrgText\u0022\u003E",
+                      "selector": "#goog-gt-votingInputTrgText",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022vote\u0022 id=\u0022goog-gt-votingInputVote\u0022\u003E",
+                      "selector": "#goog-gt-votingInputVote",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022sl\u0022 id=\u0022goog-gt-votingInputSrcLang\u0022\u003E",
+                      "selector": "#goog-gt-votingInputSrcLang",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022tl\u0022 id=\u0022goog-gt-votingInputTrgLang\u0022\u003E",
+                      "selector": "#goog-gt-votingInputTrgLang",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022query\u0022 id=\u0022goog-gt-votingInputSrcText\u0022\u003E",
+                      "selector": "#goog-gt-votingInputSrcText",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022gtrans\u0022 id=\u0022goog-gt-votingInputTrgText\u0022\u003E",
+                      "selector": "#goog-gt-votingInputTrgText",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput type=\u0022text\u0022 name=\u0022vote\u0022 id=\u0022goog-gt-votingInputVote\u0022\u003E",
+                      "selector": "#goog-gt-votingInputVote",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change background to #af6400. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change background to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change background to #af6400.",
+                      "context": "\u003Cspan aria-current=\u0022page\u0022 class=\u0022page-numbers current\u0022\u003E1\u003C/span\u003E",
+                      "selector": "#wrapper \u003E section \u003E div \u003E div \u003E div:nth-child(1) \u003E nav \u003E div \u003E span:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change background to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change background to #af6400.",
+                      "context": "\u003Cbutton class=\u0022btn btn-success\u0022 type=\u0022submit\u0022\u003EGo\u003C/button\u003E",
+                      "selector": "#searchform \u003E div \u003E button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change background to #af6400. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.32:1. Recommendation:  change background to #af6400.",
+                      "context": "\u003Cbutton type=\u0022submit\u0022 class=\u0022wp-block-button__link\u0022 name=\u0022jetpack_subscriptions_widget\u0022\u003E\n\t\t\t\t\t\t\tSubscribe\t\t\t\t\t\t\u003C/button\u003E",
+                      "selector": "#subscribe-submit \u003E button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca class=\u0022next page-numbers\u0022 href=\u0022https://www.cdisol.blog/page/2/\u0022\u003E\u003Ci class=\u0022fa fa-angle-double-ri...\u003C/a\u003E",
+                      "selector": "#wrapper \u003E section \u003E div \u003E div \u003E div:nth-child(1) \u003E nav \u003E div \u003E a:nth-child(9)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022#totop\u0022\u003E\u003Ci class=\u0022fa fa-arrow-up\u0022\u003E\u003C/i\u003E\u003C/a\u003E",
+                      "selector": "#page \u003E div:nth-child(5) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe name=\u0022votingFrame\u0022 frameborder=\u00220\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "#goog-gt-votingHiddenPane \u003E iframe",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe id=\u0022google_esf\u0022 name=\u0022google_esf\u0022 src=\u0022https://pagead2.googlesyndication.com/pagead/html/r20251112/r20190131/zrt_lookup.html\u0022 style=\u0022display: none;\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "#google_esf",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This searchinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput type=\u0022search\u0022 class=\u0022form-control\u0022 placeholder=\u0022Search\u0022 value=\u0022\u0022 name=\u0022s\u0022 id=\u0022s\u0022\u003E",
+                      "selector": "#s",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.34:1. Recommendation:  change text colour to #fff. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.34:1. Recommendation:  change text colour to #fff. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.34:1. Recommendation:  change text colour to #fff.",
+                      "context": "\u003Cdiv class=\u0022skiptranslate goog-te-gadget\u0022 dir=\u0022ltr\u0022 style=\u0022\u0022\u003E\u003Cdiv id=\u0022:0.targetLanguage\u0022\u003E\u003Cse...\u003C/div\u003E",
+                      "selector": "#google_translate_element \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This link points to a named anchor \u0022totop\u0022 within the document, but no anchor exists with that name. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This link points to a named anchor \u0022totop\u0022 within the document, but no anchor exists with that name. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This link points to a named anchor \u0022totop\u0022 within the document, but no anchor exists with that name.",
+                      "context": "\u003Ca href=\u0022#totop\u0022\u003E\u003Ci class=\u0022fa fa-arrow-up\u0022\u003E\u003C/i\u003E\u003C/a\u003E",
+                      "selector": "#page \u003E div:nth-child(5) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.cdisol.blog/",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform id=\u0022goog-gt-votingForm\u0022 action=\u0022//translate.googleapis.com/translate_voting?client=te\u0022 method=\u0022post\u0022 target=\u0022votingFrame\u0022 class=\u0022VIpgJd-yAWNEb-hvhgNd-aXYTce\u0022\u003E\u003Cinput type=\u0022text\u0022 name=\u0022sl\u0022 id...\u003C/form\u003E",
+                      "selector": "#goog-gt-votingForm",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": -20.0,
+              "a11y": -20
+            }
+          }
+        }
+      }
+    }
+  ]
+}

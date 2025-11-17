@@ -1,0 +1,409 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 3.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 3.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T11:07:06.342722",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Align attributes . (error)\n  Url(s) with issues:\n  - https://docs.developers.optimizely.com/\n\n- The html element should have a lang or xml:lang attribute which describes the language of the document. (error)\n  Url(s) with issues:\n  - https://docs.developers.optimizely.com/\n\n- This link points to a named anchor \u0022content\u0022 within the document, but no anchor exists with that name. (error)\n  Url(s) with issues:\n  - https://docs.developers.optimizely.com/\n\n- Iframe element requires a non-empty title attribute that identifies the frame. (error)\n  Url(s) with issues:\n  - https://docs.developers.optimizely.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "docs.developers.optimizely.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "Align attributes . (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Clabel align=\u0022center\u0022 class=\u0022Flex Flex_row SearchProjectsFilter-input-label-wNRVoy8aHaJ\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--xs);\u0022\u003E\u003Cspan class=\u0022IconWrapper Icon-w...\u003C/label\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E header \u003E label",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(1) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(2) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(3) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(4) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(5) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(6) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(7) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(8) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(9) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(10) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(11) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(12) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(13) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(14) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Align attributes . (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Align attributes .",
+                      "context": "\u003Cdiv align=\u0022center\u0022 class=\u0022Flex Flex_row Toggle-label-container\u0022 justify=\u0022between\u0022 style=\u0022--flex-gap: var(--sm);\u0022\u003E\u003Cspan class=\u0022Toggle-label Toggl...\u003C/div\u003E",
+                      "selector": "#AppSearch \u003E div:nth-child(2) \u003E aside \u003E ol \u003E li:nth-child(15) \u003E label \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+                      "context": "\u003Chtml data-color-mode=\u0022system\u0022 class=\u0022useReactApp\u0022\u003E\u003Chead\u003E\u003Cmeta charset=\u0022utf-8\u0022\u003E\u003Cme...\u003C/html\u003E",
+                      "selector": "html",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This link points to a named anchor \u0022content\u0022 within the document, but no anchor exists with that name. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "This link points to a named anchor \u0022content\u0022 within the document, but no anchor exists with that name. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This link points to a named anchor \u0022content\u0022 within the document, but no anchor exists with that name.",
+                      "context": "\u003Ca href=\u0022#content\u0022 target=\u0022_self\u0022 class=\u0022Button Button_md rm-JumpTo Header-jumpTo3IWKQXmhSI5D Button_primary\u0022\u003EJump to Content\u003C/a\u003E",
+                      "selector": "#ssr-main \u003E div \u003E div \u003E div \u003E div \u003E header \u003E div:nth-child(1) \u003E div \u003E div:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://docs.developers.optimizely.com/",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe height=\u00220\u0022 width=\u00220\u0022 style=\u0022display: none; visibility: hidden;\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "#enterprise \u003E iframe:nth-child(8)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 60.0,
+              "a11y": 60
+            }
+          }
+        }
+      }
+    }
+  ]
+}

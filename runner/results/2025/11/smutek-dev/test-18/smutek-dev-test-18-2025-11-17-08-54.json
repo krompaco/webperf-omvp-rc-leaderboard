@@ -1,0 +1,319 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 2.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 2.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T08:54:05.710414",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n- This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n- Anchor element found with a valid href attribute, but no link content has been supplied. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n- The html element should have a lang or xml:lang attribute which describes the language of the document. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n- This checkboxinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n- This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "smutek.dev": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform\u003E\u003Cfieldset\u003E\u003Clegend class=\u0022visual...\u003C/form\u003E",
+                      "selector": "#CybotCookiebotDialogBodyLevelButtonsSelectPane \u003E form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform\u003E\u003Cinput type=\u0022checkbox\u0022 id=\u0022Cybo...\u003C/form\u003E",
+                      "selector": "#CybotCookiebotDialogDetailBodyContentCookieContainerNecessaryCard \u003E div:nth-child(1) \u003E div \u003E form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform\u003E\u003Cinput type=\u0022checkbox\u0022 id=\u0022Cybo...\u003C/form\u003E",
+                      "selector": "#CybotCookiebotDialogDetailBodyContentCookieContainerPreferenceCard \u003E div:nth-child(1) \u003E div \u003E form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform\u003E\u003Cinput type=\u0022checkbox\u0022 id=\u0022Cybo...\u003C/form\u003E",
+                      "selector": "#CybotCookiebotDialogDetailBodyContentCookieContainerStatisticsCard \u003E div:nth-child(1) \u003E div \u003E form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform\u003E\u003Cinput type=\u0022checkbox\u0022 id=\u0022Cybo...\u003C/form\u003E",
+                      "selector": "#CybotCookiebotDialogDetailBodyContentCookieContainerAdvertisingCard \u003E div:nth-child(1) \u003E div \u003E form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform class=\u0022CybotCookiebotDialogBodyLevelButtonSliderWrapper\u0022\u003E\u003Cinput type=\u0022checkbox\u0022 id=\u0022Cybo...\u003C/form\u003E",
+                      "selector": "#CybotCookiebotDialogBodyButtons \u003E div:nth-child(1) \u003E form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton class=\u0022CybotCookiebotBannerCloseButton\u0022 aria-label=\u0022\u0022\u003E\u003Csvg xmlns=\u0022http://www.w3.org/2...\u003C/button\u003E",
+                      "selector": "#CybotCookiebotDialogHeader \u003E button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cbutton id=\u0022CybotCookiebotBannerCloseButtonE2E\u0022 class=\u0022CybotCookiebotBannerCloseButton\u0022 aria-label=\u0022\u0022\u003E\u003Csvg xmlns=\u0022http://www.w3.org/2...\u003C/button\u003E",
+                      "selector": "#CybotCookiebotBannerCloseButtonE2E",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://www.linkedin.com/in/smutekdamian/\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa-brands fa-linkedin...\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div:nth-child(1) \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://github.com/smutekDamian\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa-brands fa-github\u0022 ...\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div:nth-child(1) \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+                      "context": "\u003Chtml\u003E\u003Chead\u003E\u003Cmeta charset=\u0022UTF-8\u0022\u003E\u003Cme...\u003C/html\u003E",
+                      "selector": "html",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This checkboxinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This checkboxinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This checkboxinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput type=\u0022checkbox\u0022 id=\u0022burgerMenuTrigger\u0022\u003E",
+                      "selector": "#burgerMenuTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput type=\u0022checkbox\u0022 id=\u0022burgerMenuTrigger\u0022\u003E",
+                      "selector": "#burgerMenuTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 40.0,
+              "a11y": 40
+            }
+          }
+        }
+      }
+    }
+  ]
+}

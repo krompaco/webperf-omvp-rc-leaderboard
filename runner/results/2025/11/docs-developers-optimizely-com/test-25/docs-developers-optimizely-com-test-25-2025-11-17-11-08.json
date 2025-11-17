@@ -1,0 +1,325 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.33,
+      "rating_sec": 4.16,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T11:08:43.733000",
+      "report": "- Technology used: es6, js, markdown, typescript\r\n- License(s) used: apache-2.0, bsd-3-clause, mit\r\n- Metadata used: canonical, viewport\r\n- Javascript libraries used: astring, async-http-client, axios, clj-http, core-js, crypto-browserify, cssremedy, date-fns, focus-lock, fold-case, gecko-dev, highlight.js, marked, mermaid, micromark-extension-mdx-expression, micromark-extension-mdx-jsx, micromark-extension-mdxjs-esm, ocaml-cohttp, okhttp, querystring, react, regenerator, tailwindcss, util, uuid\r\n- Languages found: en\r\n- Image formats used: png, svg\r\n",
+      "report_sec": "##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- react 18.3.1\r\n\r\n###### Affected resource(s):\r\n- https://cdn.readme.io/public/hub/web/main.05822c75c6531ab8a0b1.js\r\n##### Software has been marked as archived ( 1.75 rating )\r\n\r\n###### Introduction:\r\nYou seem to use software that has been marked as archived, this means it doesn\u0027t get any new features or security updates.\r\nTo fix this you need to find an alternative, often developers try to point you in the correct direction if you visit the place you got it from.\r\n\r\n\r\n###### Detected software(s):\r\n- gecko-dev\r\n- regenerator\r\n\r\n###### Affected resource(s):\r\n- https://cdn.readme.io/public/hub/web/main.05822c75c6531ab8a0b1.js\r\n- https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.LggB6gZR7VI.2021.O/am=KAAT/d=1/rs=AAj4Nmx4JzySlum3HttmJdiK_NHCyMaWEg/m=bootstrap_module,ucs_widget_module\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND001": {
+            "softwares": [
+              "react 18.3.1"
+            ],
+            "resources": [
+              "https://cdn.readme.io/public/hub/web/main.05822c75c6531ab8a0b1.js"
+            ],
+            "sub-issues": []
+          },
+          "ARCHIVED_SOURCE": {
+            "softwares": [
+              "gecko-dev",
+              "regenerator"
+            ],
+            "resources": [
+              "https://cdn.readme.io/public/hub/web/main.05822c75c6531ab8a0b1.js",
+              "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.LggB6gZR7VI.2021.O/am=KAAT/d=1/rs=AAj4Nmx4JzySlum3HttmJdiK_NHCyMaWEg/m=bootstrap_module,ucs_widget_module"
+            ],
+            "sub-issues": []
+          }
+        },
+        "meta": {
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "js": {
+          "querystring": {
+            "?": {
+              "name": "querystring",
+              "precision": 0.5,
+              "github-owner": "clearbit",
+              "github-repo": "querystring"
+            }
+          },
+          "util": {
+            "?": {
+              "name": "util",
+              "precision": 0.5
+            }
+          },
+          "core-js": {
+            "?": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          },
+          "micromark-extension-mdxjs-esm": {
+            "?": {
+              "name": "micromark-extension-mdxjs-esm",
+              "precision": 0.1,
+              "github-owner": "micromark",
+              "github-repo": "micromark-extension-mdxjs-esm"
+            }
+          },
+          "astring": {
+            "?": {
+              "name": "astring",
+              "precision": 0.1,
+              "github-owner": "davidbonnet",
+              "github-repo": "astring"
+            }
+          },
+          "marked": {
+            "?": {
+              "name": "marked",
+              "precision": 0.1,
+              "github-owner": "markedjs",
+              "github-repo": "marked"
+            }
+          },
+          "mermaid": {
+            "?": {
+              "name": "mermaid",
+              "precision": 0.1,
+              "github-owner": "mermaid-js",
+              "github-repo": "mermaid"
+            }
+          },
+          "crypto-browserify": {
+            "?": {
+              "name": "crypto-browserify",
+              "precision": 0.1,
+              "github-owner": "browserify",
+              "github-repo": "crypto-browserify"
+            }
+          },
+          "uuid": {
+            "?": {
+              "name": "uuid",
+              "precision": 0.1,
+              "github-owner": "uuidjs",
+              "github-repo": "uuid"
+            }
+          },
+          "async-http-client": {
+            "?": {
+              "name": "async-http-client",
+              "precision": 0.1,
+              "github-owner": "AsyncHttpClient",
+              "github-repo": "async-http-client"
+            }
+          },
+          "clj-http": {
+            "?": {
+              "name": "clj-http",
+              "precision": 0.1,
+              "github-owner": "dakrone",
+              "github-repo": "clj-http"
+            }
+          },
+          "axios": {
+            "?": {
+              "name": "axios",
+              "precision": 0.1,
+              "github-owner": "axios",
+              "github-repo": "axios"
+            }
+          },
+          "react": {
+            "18.3.1": {
+              "name": "react",
+              "precision": 0.6,
+              "github-owner": "facebook",
+              "github-repo": "react"
+            }
+          },
+          "ocaml-cohttp": {
+            "?": {
+              "name": "ocaml-cohttp",
+              "precision": 0.1,
+              "github-owner": "mirage",
+              "github-repo": "ocaml-cohttp"
+            }
+          },
+          "cssremedy": {
+            "?": {
+              "name": "cssremedy",
+              "precision": 0.1,
+              "github-owner": "jensimmons",
+              "github-repo": "cssremedy"
+            }
+          },
+          "tailwindcss": {
+            "?": {
+              "name": "tailwindcss",
+              "precision": 0.1,
+              "github-owner": "tailwindlabs",
+              "github-repo": "tailwindcss"
+            }
+          },
+          "gecko-dev": {
+            "?": {
+              "name": "gecko-dev",
+              "precision": 0.1,
+              "github-owner": "mozilla",
+              "github-repo": "gecko-dev"
+            }
+          },
+          "micromark-extension-mdx-expression": {
+            "?": {
+              "name": "micromark-extension-mdx-expression",
+              "precision": 0.1,
+              "github-owner": "micromark",
+              "github-repo": "micromark-extension-mdx-expression"
+            }
+          },
+          "micromark-extension-mdx-jsx": {
+            "?": {
+              "name": "micromark-extension-mdx-jsx",
+              "precision": 0.1,
+              "github-owner": "micromark",
+              "github-repo": "micromark-extension-mdx-jsx"
+            }
+          },
+          "okhttp": {
+            "?": {
+              "name": "okhttp",
+              "precision": 0.3,
+              "github-owner": "square",
+              "github-repo": "okhttp"
+            }
+          },
+          "date-fns": {
+            "?": {
+              "name": "date-fns",
+              "precision": 0.1,
+              "github-owner": "date-fns",
+              "github-repo": "date-fns"
+            }
+          },
+          "focus-lock": {
+            "?": {
+              "name": "focus-lock",
+              "precision": 0.1,
+              "github-owner": "theKashey",
+              "github-repo": "focus-lock"
+            }
+          },
+          "regenerator": {
+            "?": {
+              "name": "regenerator",
+              "precision": 0.1,
+              "github-owner": "facebook",
+              "github-repo": "regenerator"
+            }
+          },
+          "fold-case": {
+            "?": {
+              "name": "fold-case",
+              "precision": 0.1,
+              "github-owner": "dmoscrop",
+              "github-repo": "fold-case"
+            }
+          },
+          "highlight.js": {
+            "?": {
+              "name": "highlight.js",
+              "precision": 0.1,
+              "github-owner": "highlightjs",
+              "github-repo": "highlight.js"
+            }
+          }
+        },
+        "tech": {
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          },
+          "markdown": {
+            "?": {
+              "name": "markdown",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          }
+        },
+        "license": {
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          },
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          },
+          "bsd-3-clause": {
+            "?": {
+              "name": "bsd-3-clause",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          }
+        }
+      }
+    }
+  ]
+}

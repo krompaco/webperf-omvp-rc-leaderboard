@@ -1,0 +1,85 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T10:53:33.378104",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.2:1. Recommendation:  change text colour to #73777d. (error)\n  Url(s) with issues:\n  - https://anilpatel.co.uk/\n\n- Iframe element requires a non-empty title attribute that identifies the frame. (error)\n  Url(s) with issues:\n  - https://anilpatel.co.uk/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "anilpatel.co.uk": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.2:1. Recommendation:  change text colour to #73777d. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://anilpatel.co.uk/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.2:1. Recommendation:  change text colour to #73777d. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.2:1. Recommendation:  change text colour to #73777d.",
+                      "context": "\u003Cspan\u003ESubscribe\u003C/span\u003E",
+                      "selector": "#actionbar \u003E ul \u003E li:nth-child(1) \u003E a:nth-child(1) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://anilpatel.co.uk/",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe scrolling=\u0022no\u0022 id=\u0022wpcom_remote_login_key\u0022 src=\u0022https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=key\u0026amp;origin=aHR0cHM6Ly9hbmlscGF0ZWwuY28udWs%3D\u0026amp;wpcomid=213273559\u0026amp;time=1763376645\u0022 style=\u0022display: none;\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "#wpcom_remote_login_key",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 80.0,
+              "a11y": 80
+            }
+          }
+        }
+      }
+    }
+  ]
+}

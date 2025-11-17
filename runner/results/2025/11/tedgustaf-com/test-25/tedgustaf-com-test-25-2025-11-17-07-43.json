@@ -1,0 +1,217 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.17,
+      "rating_sec": 4.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T07:43:52.622418",
+      "report": "- CMS used: episerver\r\n- Web server used: kestrel, microsoft-httpapi\r\n- Technology used: asp.net, csharp, es6, js, typescript\r\n- License(s) used: apache-2.0\r\n- Metadata used: apple-touch-icon, canonical, icon, open-graph, viewport\r\n- Javascript libraries used: applicationinsights-js, core-js, epifind\r\n- Languages found: en, en-gb, sv\r\n- Image formats used: gif, jpeg, jpg, png, svg, webp\r\n",
+      "report_sec": "##### Software is behind \u003E=75 versions ( 2.25 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 75 or more version compared to latests.\r\nThis is a very good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 3.0.1\r\n\r\n###### Affected resource(s):\r\n- https://js-eu1.hscollectedforms.net/collectedforms.js\r\n##### Software is behind \u003E=25 versions ( 2.75 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 25 or more version compared to latests.\r\nThis is a good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- applicationinsights-js 2.8.18\r\n\r\n###### Affected resource(s):\r\n- https://js.monitor.azure.com/scripts/b/ai.2.min.js\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND075": {
+            "softwares": [
+              "core-js 3.0.1"
+            ],
+            "resources": [
+              "https://js-eu1.hscollectedforms.net/collectedforms.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND025": {
+            "softwares": [
+              "applicationinsights-js 2.8.18"
+            ],
+            "resources": [
+              "https://js.monitor.azure.com/scripts/b/ai.2.min.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "lang": {
+          "en-gb": {
+            "?": {
+              "name": "en-gb",
+              "precision": 0.8
+            }
+          },
+          "sv": {
+            "?": {
+              "name": "sv",
+              "precision": 0.8
+            }
+          },
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "tech": {
+          "csharp": {
+            "": {
+              "name": "csharp",
+              "precision": 0.4
+            }
+          },
+          "asp.net": {
+            "": {
+              "name": "asp.net",
+              "precision": 0.1
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "webserver": {
+          "kestrel": {
+            "?": {
+              "name": "kestrel",
+              "precision": 0.4
+            }
+          },
+          "microsoft-httpapi": {
+            "2.0": {
+              "name": "microsoft-httpapi",
+              "precision": 0.8
+            }
+          }
+        },
+        "cms": {
+          "episerver": {
+            "?": {
+              "name": "episerver",
+              "precision": 0.4
+            }
+          }
+        },
+        "img": {
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "jpg": {
+            "?": {
+              "name": "jpg",
+              "precision": 0.4
+            }
+          },
+          "jpeg": {
+            "?": {
+              "name": "jpeg",
+              "precision": 0.8
+            }
+          },
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "gif": {
+            "?": {
+              "name": "gif",
+              "precision": 0.4
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          }
+        },
+        "js": {
+          "epifind": {
+            "?": {
+              "name": "epifind",
+              "precision": 0.8
+            }
+          },
+          "applicationinsights-js": {
+            "2.8.18": {
+              "name": "applicationinsights-js",
+              "precision": 0.8,
+              "github-owner": "Microsoft",
+              "github-repo": "ApplicationInsights-JS"
+            }
+          },
+          "core-js": {
+            "3.0.1": {
+              "name": "core-js",
+              "precision": 0.6,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        }
+      }
+    }
+  ]
+}

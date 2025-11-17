@@ -1,0 +1,4067 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 30,
+      "rating": 2.7,
+      "rating_sec": -1.0,
+      "rating_perf": 3.8,
+      "rating_a11y": 1.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T07:56:30.508427",
+      "report": "- deprecations (unresolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- third-party-cookies (unresolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- valid-source-maps (unresolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Issues in the \u0060Issues\u0060 panel in Chrome Devtools (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- meta-description (unresolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- link-text (unresolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- crawlable-anchors (unresolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Uses HTTPS (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- geolocation-on-start (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- notification-on-start (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- csp-xss (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- has-hsts (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- origin-isolation (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- clickjacking-mitigation (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- trusted-types-xss (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- paste-preventing-inputs (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- image-aspect-ratio (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Serves images with low resolution (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- doctype (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- charset (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- js-libraries (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- errors-in-console (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- is-crawlable (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Document has a \u0060\u003Ctitle\u003E\u0060 element (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- http-status-code (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- robots-txt (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Image elements have \u0060[alt]\u0060 attributes (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- hreflang (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Redirects HTTP traffic to HTTPS (resolved)\n- canonical (resolved)\n- structured-data (resolved)\n",
+      "report_sec": "",
+      "report_perf": "- First Contentful Paint (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Largest Contentful Paint (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Speed Index (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- cache-insight (unresolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Font display (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Improve image delivery (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Legacy JavaScript (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Network dependency tree (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Render-blocking requests (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Time to Interactive (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Reduce unused CSS (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Reduce unused JavaScript (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Max Potential First Input Delay (warning)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Minify JavaScript (warning)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Avoids enormous network payloads (warning)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Image elements should have explicit \u0060width\u0060 and \u0060height\u0060 (warning)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Total Blocking Time (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Cumulative Layout Shift (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Layout shift culprits (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Document request latency (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Optimize DOM size (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Duplicated JavaScript (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- forced-reflow-insight (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- lcp-breakdown-insight (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- 3rd parties (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Optimize viewport for mobile (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Minify CSS (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- user-timings (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- JavaScript execution time (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Minimizes main-thread work (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Avoids long main-thread tasks (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Network Requests (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Network Round Trip Times (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Server Backend Latencies (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Main thread tasks (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Diagnostics (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Metrics (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Screenshot Thumbnails (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- final-screenshot (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- script-treemap-data (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- resource-summary (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Avoid multiple page redirects (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Initial server response time was short (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Avoid large layout shifts (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- inp-breakdown-insight (resolved)\n- LCP request discovery (resolved)\n- non-composited-animations (resolved)\n",
+      "report_a11y": "- Elements with an ARIA \u0060[role]\u0060 that require children to contain a specific \u0060[role]\u0060 have all required children (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[role]\u0060s are contained by their required parent element (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Background and foreground colors should have a sufficient contrast ratio (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Heading elements should appear in a sequentially-descending order (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060\u003Chtml\u003E\u0060 element should have a \u0060[lang]\u0060 attribute (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Links should have a discernible name (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- List items (\u0060\u003Cli\u003E\u0060) are not contained within \u0060\u003Cul\u003E\u0060, \u0060\u003Col\u003E\u0060 or \u0060\u003Cmenu\u003E\u0060 parent elements (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Touch targets should have sufficient size and spacing (error)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- landmark-one-main (unresolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[aria-*]\u0060 attributes match their roles (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- ARIA attributes are used as specified for the element\u0027s role (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Deprecated ARIA roles were not used (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[aria-hidden=\u0022true\u0022]\u0060 is not present on the document \u0060\u003Cbody\u003E\u0060 (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[aria-hidden=\u0022true\u0022]\u0060 elements do not contain focusable descendents (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Elements use only permitted ARIA attributes (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[role]\u0060s have all required \u0060[aria-*]\u0060 attributes (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[role]\u0060 values are valid (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[aria-*]\u0060 attributes have valid values (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[aria-*]\u0060 attributes are valid and not misspelled (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Buttons have an accessible name (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Document has a \u0060\u003Ctitle\u003E\u0060 element (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- duplicate-id-aria (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- frame-title (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Image elements have \u0060[alt]\u0060 attributes (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- label (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Links are distinguishable without relying on color (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Lists contain only \u0060\u003Cli\u003E\u0060 elements and script supporting elements (\u0060\u003Cscript\u003E\u0060 and \u0060\u003Ctemplate\u003E\u0060) (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- \u0060[user-scalable=\u0022no\u0022]\u0060 is not used in the \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 element and the \u0060[maximum-scale]\u0060 attribute is not less than 5 (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- td-headers-attr (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- empty-heading (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- identical-links-same-purpose (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- table-fake-caption (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- td-has-header (resolved)\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- accesskeys (resolved)\n- aria-command-name (resolved)\n- aria-dialog-name (resolved)\n- aria-input-field-name (resolved)\n- aria-meter-name (resolved)\n- aria-progressbar-name (resolved)\n- aria-text (resolved)\n- aria-toggle-field-name (resolved)\n- aria-tooltip-name (resolved)\n- aria-treeitem-name (resolved)\n- bypass (resolved)\n- definition-list (resolved)\n- dlitem (resolved)\n- form-field-multiple-labels (resolved)\n- \u0060\u003Chtml\u003E\u0060 element has a valid value for its \u0060[lang]\u0060 attribute (resolved)\n- html-xml-lang-mismatch (resolved)\n- input-button-name (resolved)\n- input-image-alt (resolved)\n- meta-refresh (resolved)\n- object-alt (resolved)\n- select-name (resolved)\n- skip-link (resolved)\n- tabindex (resolved)\n- th-has-data-cells (resolved)\n- valid-lang (resolved)\n- video-caption (resolved)\n- focusable-controls (resolved)\n- interactive-element-affordance (resolved)\n- logical-tab-order (resolved)\n- visual-order-follows-dom (resolved)\n- focus-traps (resolved)\n- managed-focus (resolved)\n- use-landmarks (resolved)\n- offscreen-content-hidden (resolved)\n- custom-controls-labels (resolved)\n- custom-controls-roles (resolved)\n- table-duplicate-name (resolved)\n- Uses ARIA roles only on compatible elements (resolved)\n- Image elements do not have \u0060[alt]\u0060 attributes that are redundant text (resolved)\n- label-content-name-mismatch (resolved)\n",
+      "report_stand": "",
+      "data": {
+        "version": "2025.11.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "world.optimizely.com": {
+            "version": "2025.11.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 54,
+              "performance": 76,
+              "a11y": 10,
+              "best-practices": 60,
+              "seo": 70
+            },
+            "issues": [
+              {
+                "test": "lighthouse",
+                "rule": "first-contentful-paint",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "first-contentful-paint",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "First Contentful Paint, 17.1s"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "largest-contentful-paint",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "largest-contentful-paint",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Largest Contentful Paint, 31.5s"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "speed-index",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "speed-index",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Speed Index, 17.1s"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "cache-insight",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "cache-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Use efficient cache lifetimes, Est savings of 2,226KiB"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "font-display-insight",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "font-display-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Font display, Est savings of 60ms"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "image-delivery-insight",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "image-delivery-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Improve image delivery, Est savings of 994KiB"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "legacy-javascript-insight",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "legacy-javascript-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Legacy JavaScript, Est savings of 35KiB"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "network-dependency-tree-insight",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "network-dependency-tree-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Network dependency tree"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "render-blocking-insight",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "render-blocking-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Render blocking requests, Est savings of 8,890ms"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "interactive",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "interactive",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Time to Interactive, 32.0s"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "unused-css-rules",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "unused-css-rules",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Reduce unused CSS, Est savings of 143KiB"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "unused-javascript",
+                "severity": "error",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "unused-javascript",
+                    "severity": "error",
+                    "category": "performance",
+                    "text": "Reduce unused JavaScript, Est savings of 1,595KiB"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-required-children",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-required-children",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "Elements with an ARIA \u0060[role]\u0060 that require children to contain a specific \u0060[role]\u0060 are missing some or all of those required children."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-required-parent",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-required-parent",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "\u0060[role]\u0060s are not contained by their required parent element"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "color-contrast",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "color-contrast",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "Background and foreground colors do not have a sufficient contrast ratio."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "heading-order",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "heading-order",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "Heading elements are not in a sequentially-descending order"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "html-has-lang",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "html-has-lang",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "\u0060\u003Chtml\u003E\u0060 element does not have a \u0060[lang]\u0060 attribute"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "link-name",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "link-name",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "Links do not have a discernible name"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "listitem",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "listitem",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "List items (\u0060\u003Cli\u003E\u0060) are not contained within \u0060\u003Cul\u003E\u0060, \u0060\u003Col\u003E\u0060 or \u0060\u003Cmenu\u003E\u0060 parent elements."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "target-size",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "target-size",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "Touch targets do not have sufficient size or spacing."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "landmark-one-main",
+                "severity": "error",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "landmark-one-main",
+                    "severity": "error",
+                    "category": "a11y",
+                    "text": "Document does not have a main landmark."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "deprecations",
+                "severity": "error",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "deprecations",
+                    "severity": "error",
+                    "category": "best-practices",
+                    "text": "Uses deprecated APIs, 1 warning found"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "third-party-cookies",
+                "severity": "error",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "third-party-cookies",
+                    "severity": "error",
+                    "category": "best-practices",
+                    "text": "Uses third-party cookies, 1 cookie found"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "valid-source-maps",
+                "severity": "error",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "valid-source-maps",
+                    "severity": "error",
+                    "category": "best-practices",
+                    "text": "Missing source maps for large first-party JavaScript"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "inspector-issues",
+                "severity": "error",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "inspector-issues",
+                    "severity": "error",
+                    "category": "best-practices",
+                    "text": "Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "meta-description",
+                "severity": "error",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "meta-description",
+                    "severity": "error",
+                    "category": "seo",
+                    "text": "Document does not have a meta description"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "link-text",
+                "severity": "error",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "link-text",
+                    "severity": "error",
+                    "category": "seo",
+                    "text": "Links do not have descriptive text, 7 links found"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "crawlable-anchors",
+                "severity": "error",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "crawlable-anchors",
+                    "severity": "error",
+                    "category": "seo",
+                    "text": "Links are not crawlable"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "max-potential-fid",
+                "severity": "warning",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "max-potential-fid",
+                    "severity": "warning",
+                    "category": "performance",
+                    "text": "Max Potential First Input Delay, 150ms"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "unminified-javascript",
+                "severity": "warning",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "unminified-javascript",
+                    "severity": "warning",
+                    "category": "performance",
+                    "text": "Minify JavaScript, Est savings of 35KiB"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "total-byte-weight",
+                "severity": "warning",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "total-byte-weight",
+                    "severity": "warning",
+                    "category": "performance",
+                    "text": "Avoid enormous network payloads, Total size was 6,578KiB"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "unsized-images",
+                "severity": "warning",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "unsized-images",
+                    "severity": "warning",
+                    "category": "performance",
+                    "text": "Image elements do not have explicit \u0060width\u0060 and \u0060height\u0060"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "total-blocking-time",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "total-blocking-time",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Total Blocking Time, 120ms"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "cumulative-layout-shift",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "cumulative-layout-shift",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Cumulative Layout Shift, 0.011"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "cls-culprits-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "cls-culprits-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Layout shift culprits"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "document-latency-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "document-latency-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Document request latency"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "dom-size-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "dom-size-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Optimize DOM size"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "duplicated-javascript-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "duplicated-javascript-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Duplicated JavaScript"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "forced-reflow-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "forced-reflow-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Forced reflow"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "lcp-breakdown-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "lcp-breakdown-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "LCP breakdown"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "third-parties-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "third-parties-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "3rd parties"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "viewport-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "viewport-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Optimize viewport for mobile"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "unminified-css",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "unminified-css",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Minify CSS"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "user-timings",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "user-timings",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "User Timing marks and measures, 1 user timing"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "bootup-time",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "bootup-time",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "JavaScript execution time, 1.1s"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "mainthread-work-breakdown",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "mainthread-work-breakdown",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Minimizes main-thread work, 1.9s"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "long-tasks",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "long-tasks",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Avoid long main-thread tasks, 9 long tasks found"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "network-requests",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "network-requests",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Network Requests"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "network-rtt",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "network-rtt",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Network Round Trip Times, 130ms"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "network-server-latency",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "network-server-latency",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Server Backend Latencies, 720ms"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "main-thread-tasks",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "main-thread-tasks",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Tasks"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "diagnostics",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "diagnostics",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Diagnostics"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "metrics",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "metrics",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Metrics"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "screenshot-thumbnails",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "screenshot-thumbnails",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Screenshot Thumbnails"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "final-screenshot",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "final-screenshot",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Final Screenshot"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "script-treemap-data",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "script-treemap-data",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Script Treemap Data"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "resource-summary",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "resource-summary",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Resources Summary"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "redirects",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "redirects",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Avoid multiple page redirects"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "server-response-time",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "server-response-time",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Initial server response time was short, Root document took 90ms"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "layout-shifts",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "layout-shifts",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "text": "Avoid large layout shifts, 2 layout shifts found"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-allowed-attr",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-allowed-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060[aria-*]\u0060 attributes match their roles"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-conditional-attr",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-conditional-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "ARIA attributes are used as specified for the element\u0027s role"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-deprecated-role",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-deprecated-role",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Deprecated ARIA roles were not used"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-hidden-body",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-hidden-body",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060[aria-hidden=\u0022true\u0022]\u0060 is not present on the document \u0060\u003Cbody\u003E\u0060"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-hidden-focus",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-hidden-focus",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060[aria-hidden=\u0022true\u0022]\u0060 elements do not contain focusable descendents"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-prohibited-attr",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-prohibited-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Elements use only permitted ARIA attributes"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-required-attr",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-required-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060[role]\u0060s have all required \u0060[aria-*]\u0060 attributes"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-roles",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-roles",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060[role]\u0060 values are valid"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-valid-attr-value",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-valid-attr-value",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060[aria-*]\u0060 attributes have valid values"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-valid-attr",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "aria-valid-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060[aria-*]\u0060 attributes are valid and not misspelled"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "button-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "button-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Buttons have an accessible name"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "document-title",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "document-title",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Document has a \u0060\u003Ctitle\u003E\u0060 element"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "duplicate-id-aria",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "duplicate-id-aria",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "ARIA IDs are unique"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "frame-title",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "frame-title",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060\u003Cframe\u003E\u0060 or \u0060\u003Ciframe\u003E\u0060 elements have a title"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "image-alt",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "image-alt",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Image elements have \u0060[alt]\u0060 attributes"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "label",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "label",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Form elements have associated labels"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "link-in-text-block",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "link-in-text-block",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Links are distinguishable without relying on color."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "list",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "list",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Lists contain only \u0060\u003Cli\u003E\u0060 elements and script supporting elements (\u0060\u003Cscript\u003E\u0060 and \u0060\u003Ctemplate\u003E\u0060)."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "meta-viewport",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "meta-viewport",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060[user-scalable=\u0022no\u0022]\u0060 is not used in the \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 element and the \u0060[maximum-scale]\u0060 attribute is not less than 5."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "td-headers-attr",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "td-headers-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Cells in a \u0060\u003Ctable\u003E\u0060 element that use the \u0060[headers]\u0060 attribute refer to table cells within the same table."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "empty-heading",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "empty-heading",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "All heading elements contain content."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "identical-links-same-purpose",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "identical-links-same-purpose",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Identical links have the same purpose."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "table-fake-caption",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "table-fake-caption",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "Tables use \u0060\u003Ccaption\u003E\u0060 instead of cells with the \u0060[colspan]\u0060 attribute to indicate a caption."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "td-has-header",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "td-has-header",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "text": "\u0060\u003Ctd\u003E\u0060 elements in a large \u0060\u003Ctable\u003E\u0060 have one or more table headers."
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "is-on-https",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "is-on-https",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Uses HTTPS"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "geolocation-on-start",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "geolocation-on-start",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Avoids requesting the geolocation permission on page load"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "notification-on-start",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "notification-on-start",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Avoids requesting the notification permission on page load"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "csp-xss",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "csp-xss",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Ensure CSP is effective against XSS attacks"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "has-hsts",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "has-hsts",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Use a strong HSTS policy"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "origin-isolation",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "origin-isolation",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Ensure proper origin isolation with COOP"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "clickjacking-mitigation",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "clickjacking-mitigation",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Mitigate clickjacking with XFO or CSP"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "trusted-types-xss",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "trusted-types-xss",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Mitigate DOM-based XSS with Trusted Types"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "paste-preventing-inputs",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "paste-preventing-inputs",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Allows users to paste into input fields"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "image-aspect-ratio",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "image-aspect-ratio",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Displays images with correct aspect ratio"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "image-size-responsive",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "image-size-responsive",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Serves images with appropriate resolution"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "doctype",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "doctype",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Page has the HTML doctype"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "charset",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "charset",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Properly defines charset"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "js-libraries",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "js-libraries",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "Detected JavaScript libraries"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "errors-in-console",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "errors-in-console",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "text": "No browser errors logged to the console"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "is-crawlable",
+                "severity": "resolved",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "is-crawlable",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "text": "Page isnt blocked from indexing"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "document-title",
+                "severity": "resolved",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "document-title",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "text": "Document has a \u0060\u003Ctitle\u003E\u0060 element"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "http-status-code",
+                "severity": "resolved",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "http-status-code",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "text": "Page has successful HTTP status code"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "robots-txt",
+                "severity": "resolved",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "robots-txt",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "text": "robots.txt is valid"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "image-alt",
+                "severity": "resolved",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "image-alt",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "text": "Image elements have \u0060[alt]\u0060 attributes"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "hreflang",
+                "severity": "resolved",
+                "category": "seo",
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "test": "lighthouse",
+                    "rule": "hreflang",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "text": "Document has a valid \u0060hreflang\u0060"
+                  }
+                ]
+              },
+              {
+                "test": "lighthouse",
+                "rule": "inp-breakdown-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "lcp-discovery-insight",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "non-composited-animations",
+                "severity": "resolved",
+                "category": "performance",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "accesskeys",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-command-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-dialog-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-input-field-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-meter-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-progressbar-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-text",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-toggle-field-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-tooltip-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-treeitem-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "bypass",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "definition-list",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "dlitem",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "form-field-multiple-labels",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "html-lang-valid",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "html-xml-lang-mismatch",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "input-button-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "input-image-alt",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "meta-refresh",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "object-alt",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "select-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "skip-link",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "tabindex",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "th-has-data-cells",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "valid-lang",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "video-caption",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "focusable-controls",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "interactive-element-affordance",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "logical-tab-order",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "visual-order-follows-dom",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "focus-traps",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "managed-focus",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "use-landmarks",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "offscreen-content-hidden",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "custom-controls-labels",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "custom-controls-roles",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "table-duplicate-name",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "aria-allowed-role",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "image-redundant-alt",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "label-content-name-mismatch",
+                "severity": "resolved",
+                "category": "a11y",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "redirects-http",
+                "severity": "resolved",
+                "category": "best-practices",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "canonical",
+                "severity": "resolved",
+                "category": "seo",
+                "subIssues": []
+              },
+              {
+                "test": "lighthouse",
+                "rule": "structured-data",
+                "severity": "resolved",
+                "category": "seo",
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://world.optimizely.com/": {
+                "version": "2025.11.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://world.optimizely.com/",
+                "score": {
+                  "overall": 54,
+                  "performance": 76,
+                  "a11y": 10,
+                  "best-practices": 60,
+                  "seo": 70
+                },
+                "issues": [
+                  {
+                    "test": "lighthouse",
+                    "rule": "first-contentful-paint",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "first-contentful-paint",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "First Contentful Paint, 17.1s"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "largest-contentful-paint",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "largest-contentful-paint",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Largest Contentful Paint, 31.5s"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "speed-index",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "speed-index",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Speed Index, 17.1s"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "cache-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "cache-insight",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Use efficient cache lifetimes, Est savings of 2,226KiB"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "font-display-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "font-display-insight",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Font display, Est savings of 60ms"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "image-delivery-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "image-delivery-insight",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Improve image delivery, Est savings of 994KiB"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "legacy-javascript-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "legacy-javascript-insight",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Legacy JavaScript, Est savings of 35KiB"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "network-dependency-tree-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "network-dependency-tree-insight",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Network dependency tree"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "render-blocking-insight",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "render-blocking-insight",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Render blocking requests, Est savings of 8,890ms"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "interactive",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "interactive",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Time to Interactive, 32.0s"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "unused-css-rules",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "unused-css-rules",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Reduce unused CSS, Est savings of 143KiB"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "unused-javascript",
+                    "severity": "error",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "unused-javascript",
+                        "severity": "error",
+                        "category": "performance",
+                        "text": "Reduce unused JavaScript, Est savings of 1,595KiB"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-required-children",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-required-children",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "Elements with an ARIA \u0060[role]\u0060 that require children to contain a specific \u0060[role]\u0060 are missing some or all of those required children."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-required-parent",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-required-parent",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "\u0060[role]\u0060s are not contained by their required parent element"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "color-contrast",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "color-contrast",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "Background and foreground colors do not have a sufficient contrast ratio."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "heading-order",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "heading-order",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "Heading elements are not in a sequentially-descending order"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "html-has-lang",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "html-has-lang",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "\u0060\u003Chtml\u003E\u0060 element does not have a \u0060[lang]\u0060 attribute"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "link-name",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "link-name",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "Links do not have a discernible name"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "listitem",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "listitem",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "List items (\u0060\u003Cli\u003E\u0060) are not contained within \u0060\u003Cul\u003E\u0060, \u0060\u003Col\u003E\u0060 or \u0060\u003Cmenu\u003E\u0060 parent elements."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "target-size",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "target-size",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "Touch targets do not have sufficient size or spacing."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "landmark-one-main",
+                    "severity": "error",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "landmark-one-main",
+                        "severity": "error",
+                        "category": "a11y",
+                        "text": "Document does not have a main landmark."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "deprecations",
+                    "severity": "error",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "deprecations",
+                        "severity": "error",
+                        "category": "best-practices",
+                        "text": "Uses deprecated APIs, 1 warning found"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "third-party-cookies",
+                    "severity": "error",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "third-party-cookies",
+                        "severity": "error",
+                        "category": "best-practices",
+                        "text": "Uses third-party cookies, 1 cookie found"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "valid-source-maps",
+                    "severity": "error",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "valid-source-maps",
+                        "severity": "error",
+                        "category": "best-practices",
+                        "text": "Missing source maps for large first-party JavaScript"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "inspector-issues",
+                    "severity": "error",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "inspector-issues",
+                        "severity": "error",
+                        "category": "best-practices",
+                        "text": "Issues were logged in the \u0060Issues\u0060 panel in Chrome Devtools"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "meta-description",
+                    "severity": "error",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "meta-description",
+                        "severity": "error",
+                        "category": "seo",
+                        "text": "Document does not have a meta description"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "link-text",
+                    "severity": "error",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "link-text",
+                        "severity": "error",
+                        "category": "seo",
+                        "text": "Links do not have descriptive text, 7 links found"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "crawlable-anchors",
+                    "severity": "error",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "crawlable-anchors",
+                        "severity": "error",
+                        "category": "seo",
+                        "text": "Links are not crawlable"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "max-potential-fid",
+                    "severity": "warning",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "max-potential-fid",
+                        "severity": "warning",
+                        "category": "performance",
+                        "text": "Max Potential First Input Delay, 150ms"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "unminified-javascript",
+                    "severity": "warning",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "unminified-javascript",
+                        "severity": "warning",
+                        "category": "performance",
+                        "text": "Minify JavaScript, Est savings of 35KiB"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "total-byte-weight",
+                    "severity": "warning",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "total-byte-weight",
+                        "severity": "warning",
+                        "category": "performance",
+                        "text": "Avoid enormous network payloads, Total size was 6,578KiB"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "unsized-images",
+                    "severity": "warning",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "unsized-images",
+                        "severity": "warning",
+                        "category": "performance",
+                        "text": "Image elements do not have explicit \u0060width\u0060 and \u0060height\u0060"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "total-blocking-time",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "total-blocking-time",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Total Blocking Time, 120ms"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "cumulative-layout-shift",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "cumulative-layout-shift",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Cumulative Layout Shift, 0.011"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "cls-culprits-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "cls-culprits-insight",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Layout shift culprits"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "document-latency-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "document-latency-insight",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Document request latency"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "dom-size-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "dom-size-insight",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Optimize DOM size"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "duplicated-javascript-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "duplicated-javascript-insight",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Duplicated JavaScript"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "forced-reflow-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "forced-reflow-insight",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Forced reflow"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "lcp-breakdown-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "lcp-breakdown-insight",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "LCP breakdown"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "third-parties-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "third-parties-insight",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "3rd parties"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "viewport-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "viewport-insight",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Optimize viewport for mobile"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "unminified-css",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "unminified-css",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Minify CSS"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "user-timings",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "user-timings",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "User Timing marks and measures, 1 user timing"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "bootup-time",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "bootup-time",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "JavaScript execution time, 1.1s"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "mainthread-work-breakdown",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "mainthread-work-breakdown",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Minimizes main-thread work, 1.9s"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "long-tasks",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "long-tasks",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Avoid long main-thread tasks, 9 long tasks found"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "network-requests",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "network-requests",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Network Requests"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "network-rtt",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "network-rtt",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Network Round Trip Times, 130ms"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "network-server-latency",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "network-server-latency",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Server Backend Latencies, 720ms"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "main-thread-tasks",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "main-thread-tasks",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Tasks"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "diagnostics",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "diagnostics",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Diagnostics"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "metrics",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "metrics",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Metrics"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "screenshot-thumbnails",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "screenshot-thumbnails",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Screenshot Thumbnails"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "final-screenshot",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "final-screenshot",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Final Screenshot"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "script-treemap-data",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "script-treemap-data",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Script Treemap Data"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "resource-summary",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "resource-summary",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Resources Summary"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "redirects",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "redirects",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Avoid multiple page redirects"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "server-response-time",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "server-response-time",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Initial server response time was short, Root document took 90ms"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "layout-shifts",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "layout-shifts",
+                        "severity": "resolved",
+                        "category": "performance",
+                        "text": "Avoid large layout shifts, 2 layout shifts found"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-allowed-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-allowed-attr",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060[aria-*]\u0060 attributes match their roles"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-conditional-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-conditional-attr",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "ARIA attributes are used as specified for the element\u0027s role"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-deprecated-role",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-deprecated-role",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Deprecated ARIA roles were not used"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-hidden-body",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-hidden-body",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060[aria-hidden=\u0022true\u0022]\u0060 is not present on the document \u0060\u003Cbody\u003E\u0060"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-hidden-focus",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-hidden-focus",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060[aria-hidden=\u0022true\u0022]\u0060 elements do not contain focusable descendents"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-prohibited-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-prohibited-attr",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Elements use only permitted ARIA attributes"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-required-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-required-attr",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060[role]\u0060s have all required \u0060[aria-*]\u0060 attributes"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-roles",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-roles",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060[role]\u0060 values are valid"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-valid-attr-value",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-valid-attr-value",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060[aria-*]\u0060 attributes have valid values"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-valid-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "aria-valid-attr",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060[aria-*]\u0060 attributes are valid and not misspelled"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "button-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "button-name",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Buttons have an accessible name"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "document-title",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "document-title",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Document has a \u0060\u003Ctitle\u003E\u0060 element"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "duplicate-id-aria",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "duplicate-id-aria",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "ARIA IDs are unique"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "frame-title",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "frame-title",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060\u003Cframe\u003E\u0060 or \u0060\u003Ciframe\u003E\u0060 elements have a title"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "image-alt",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "image-alt",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Image elements have \u0060[alt]\u0060 attributes"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "label",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "label",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Form elements have associated labels"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "link-in-text-block",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "link-in-text-block",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Links are distinguishable without relying on color."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "list",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "list",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Lists contain only \u0060\u003Cli\u003E\u0060 elements and script supporting elements (\u0060\u003Cscript\u003E\u0060 and \u0060\u003Ctemplate\u003E\u0060)."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "meta-viewport",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "meta-viewport",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060[user-scalable=\u0022no\u0022]\u0060 is not used in the \u0060\u003Cmeta name=\u0022viewport\u0022\u003E\u0060 element and the \u0060[maximum-scale]\u0060 attribute is not less than 5."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "td-headers-attr",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "td-headers-attr",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Cells in a \u0060\u003Ctable\u003E\u0060 element that use the \u0060[headers]\u0060 attribute refer to table cells within the same table."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "empty-heading",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "empty-heading",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "All heading elements contain content."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "identical-links-same-purpose",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "identical-links-same-purpose",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Identical links have the same purpose."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "table-fake-caption",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "table-fake-caption",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "Tables use \u0060\u003Ccaption\u003E\u0060 instead of cells with the \u0060[colspan]\u0060 attribute to indicate a caption."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "td-has-header",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "td-has-header",
+                        "severity": "resolved",
+                        "category": "a11y",
+                        "text": "\u0060\u003Ctd\u003E\u0060 elements in a large \u0060\u003Ctable\u003E\u0060 have one or more table headers."
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "is-on-https",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "is-on-https",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Uses HTTPS"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "geolocation-on-start",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "geolocation-on-start",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Avoids requesting the geolocation permission on page load"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "notification-on-start",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "notification-on-start",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Avoids requesting the notification permission on page load"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "csp-xss",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "csp-xss",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Ensure CSP is effective against XSS attacks"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "has-hsts",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "has-hsts",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Use a strong HSTS policy"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "origin-isolation",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "origin-isolation",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Ensure proper origin isolation with COOP"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "clickjacking-mitigation",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "clickjacking-mitigation",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Mitigate clickjacking with XFO or CSP"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "trusted-types-xss",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "trusted-types-xss",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Mitigate DOM-based XSS with Trusted Types"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "paste-preventing-inputs",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "paste-preventing-inputs",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Allows users to paste into input fields"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "image-aspect-ratio",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "image-aspect-ratio",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Displays images with correct aspect ratio"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "image-size-responsive",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "image-size-responsive",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Serves images with appropriate resolution"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "doctype",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "doctype",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Page has the HTML doctype"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "charset",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "charset",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Properly defines charset"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "js-libraries",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "js-libraries",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "Detected JavaScript libraries"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "errors-in-console",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "errors-in-console",
+                        "severity": "resolved",
+                        "category": "best-practices",
+                        "text": "No browser errors logged to the console"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "is-crawlable",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "is-crawlable",
+                        "severity": "resolved",
+                        "category": "seo",
+                        "text": "Page isnt blocked from indexing"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "document-title",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "document-title",
+                        "severity": "resolved",
+                        "category": "seo",
+                        "text": "Document has a \u0060\u003Ctitle\u003E\u0060 element"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "http-status-code",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "http-status-code",
+                        "severity": "resolved",
+                        "category": "seo",
+                        "text": "Page has successful HTTP status code"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "robots-txt",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "robots-txt",
+                        "severity": "resolved",
+                        "category": "seo",
+                        "text": "robots.txt is valid"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "image-alt",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "image-alt",
+                        "severity": "resolved",
+                        "category": "seo",
+                        "text": "Image elements have \u0060[alt]\u0060 attributes"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "hreflang",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "test": "lighthouse",
+                        "rule": "hreflang",
+                        "severity": "resolved",
+                        "category": "seo",
+                        "text": "Document has a valid \u0060hreflang\u0060"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "inp-breakdown-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "lcp-discovery-insight",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "non-composited-animations",
+                    "severity": "resolved",
+                    "category": "performance",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "accesskeys",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-command-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-dialog-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-input-field-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-meter-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-progressbar-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-text",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-toggle-field-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-tooltip-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-treeitem-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "bypass",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "definition-list",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "dlitem",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "form-field-multiple-labels",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "html-lang-valid",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "html-xml-lang-mismatch",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "input-button-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "input-image-alt",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "meta-refresh",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "object-alt",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "select-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "skip-link",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "tabindex",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "th-has-data-cells",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "valid-lang",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "video-caption",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "focusable-controls",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "interactive-element-affordance",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "logical-tab-order",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "visual-order-follows-dom",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "focus-traps",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "managed-focus",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "use-landmarks",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "offscreen-content-hidden",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "custom-controls-labels",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "custom-controls-roles",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "table-duplicate-name",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "aria-allowed-role",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "image-redundant-alt",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "label-content-name-mismatch",
+                    "severity": "resolved",
+                    "category": "a11y",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "redirects-http",
+                    "severity": "resolved",
+                    "category": "best-practices",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "canonical",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "lighthouse",
+                    "rule": "structured-data",
+                    "severity": "resolved",
+                    "category": "seo",
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

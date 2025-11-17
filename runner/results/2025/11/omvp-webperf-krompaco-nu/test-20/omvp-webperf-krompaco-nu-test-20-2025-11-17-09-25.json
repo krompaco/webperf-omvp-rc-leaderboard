@@ -1,0 +1,85 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 20,
+      "rating": 5.0,
+      "rating_sec": 5.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T09:25:47.828593",
+      "report": "- The website is great on privacy!\n",
+      "report_sec": "- HTTPS by default is good! ( 5.00 rating )\r\n- HTTP Strict Transport Security HSTS is good! ( 5.00 rating )\r\n- Content Security Policy is good! ( 5.00 rating )\r\n- Reporting CSP Certificate Transparency Network Error Logging is good! ( 5.00 rating )\r\n- Referrer Policy is good! ( 5.00 rating )\r\n- Subresource Integrity SRI is good! ( 5.00 rating )\r\n- HTTP headers is good! ( 5.00 rating )\r\n- Cookies is good! ( 5.00 rating )\r\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "HTTPS by default": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "omvp-webperfkrompaconu uses HTTPS by default"
+        },
+        "HTTP Strict Transport Security HSTS": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "HSTS policy for https://omvp-webperfkrompaconu: max-age31536000 includeSubDomains"
+        },
+        "Content Security Policy": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "Content Security Policy set in HTTP header: default-src none base-uri self script-src none img-src self style-src self font-src krompaconu form-action none frame-src none connect-src self media-src self child-src self frame-ancestors none worker-src none manifest-src none"
+        },
+        "Reporting CSP Certificate Transparency Network Error Logging": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "Reports are not sent to a third-party"
+        },
+        "Referrer Policy": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "Referrer Policy set to no-referrer in Referrer-Policy HTTP header"
+        },
+        "Subresource Integrity SRI": {
+          "number_of_success": 1,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "Subresource Integrity SRI not implemented but all resources are loaded from a similar origin"
+        },
+        "HTTP headers": {
+          "number_of_success": 0,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "To enable these headers youll need to add them to your web server configuration This is a simple change Exactly how you do it depends on what server you use This page developermozillaorg has configuration examples for Apache Nginx and IIS"
+        },
+        "Cookies": {
+          "number_of_success": 0,
+          "number_of_alerts": 0,
+          "number_of_warnings": 0,
+          "number_of_sub_alerts": 0,
+          "number_of_sub_warnings": 0,
+          "more_info": "No cookies detected"
+        }
+      }
+    }
+  ]
+}

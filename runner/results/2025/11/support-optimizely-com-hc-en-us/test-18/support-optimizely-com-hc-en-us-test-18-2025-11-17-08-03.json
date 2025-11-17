@@ -1,0 +1,310 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 1.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 1.5,
+      "rating_stand": -1.0,
+      "date": "2025-11-17T08:03:23.894989",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/en-us\n\n- Iframe element requires a non-empty title attribute that identifies the frame. (error)\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/en-us\n\n- This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/en-us\n\n- This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/en-us\n\n- Duplicate id attribute value \u0022query\u0022 found on the web page. (error)\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/en-us\n\n- Duplicate id attribute value \u0022searchWidgetTrigger\u0022 found on the web page. (error)\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/en-us\n\n- This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/en-us\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "support.optimizely.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput placeholder=\u0022Refine by search\u0022 id=\u0022searchWidgetTrigger\u0022\u003E",
+                      "selector": "#searchWidgetTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput placeholder=\u0022Refine by search\u0022 id=\u0022searchWidgetTrigger\u0022\u003E",
+                      "selector": "#searchWidgetTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Ctextarea id=\u0022g-recaptcha-response-100000\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+                      "selector": "#g-recaptcha-response-100000",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe height=\u00220\u0022 width=\u00220\u0022 style=\u0022display: none; visibility: hidden;\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "html \u003E body \u003E iframe",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe style=\u0022display: none;\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(36) \u003E iframe",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform role=\u0022search\u0022 class=\u0022form-field flex-1 mb-0 builtinSearch\u0022 data-search=\u0022\u0022 action=\u0022/hc/en-us/search\u0022 accept-charset=\u0022UTF-8\u0022 method=\u0022get\u0022\u003E\u003Cinput type=\u0022hidden\u0022 name=\u0022utf8...\u003C/form\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(11) \u003E header \u003E nav \u003E div:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform role=\u0022search\u0022 class=\u0022form-field mb-0 builtinSearch\u0022 data-search=\u0022\u0022 data-instant=\u0022true\u0022 autocomplete=\u0022off\u0022 action=\u0022/hc/en-us/search\u0022 accept-charset=\u0022UTF-8\u0022 method=\u0022get\u0022\u003E\u003Cinput type=\u0022hidden\u0022 name=\u0022utf8...\u003C/form\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(11) \u003E main \u003E div:nth-child(1) \u003E div:nth-child(1) \u003E div:nth-child(2) \u003E div:nth-child(3) \u003E form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput placeholder=\u0022Refine by search\u0022 id=\u0022searchWidgetTrigger\u0022\u003E",
+                      "selector": "#searchWidgetTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Cinput placeholder=\u0022Refine by search\u0022 id=\u0022searchWidgetTrigger\u0022\u003E",
+                      "selector": "#searchWidgetTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Duplicate id attribute value \u0022query\u0022 found on the web page. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "Duplicate id attribute value \u0022query\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022query\u0022 found on the web page.",
+                      "context": "\u003Cinput type=\u0022search\u0022 name=\u0022query\u0022 id=\u0022query\u0022 placeholder=\u0022Search user docs\u0022 autocomplete=\u0022off\u0022 aria-label=\u0022Search user docs\u0022\u003E",
+                      "selector": "#query",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Duplicate id attribute value \u0022searchWidgetTrigger\u0022 found on the web page. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "Duplicate id attribute value \u0022searchWidgetTrigger\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022searchWidgetTrigger\u0022 found on the web page.",
+                      "context": "\u003Cinput placeholder=\u0022Refine by search\u0022 id=\u0022searchWidgetTrigger\u0022\u003E",
+                      "selector": "#searchWidgetTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "text": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textarea element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+                      "context": "\u003Ctextarea id=\u0022g-recaptcha-response-100000\u0022 name=\u0022g-recaptcha-response\u0022 class=\u0022g-recaptcha-response\u0022 style=\u0022width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\u0022\u003E\u003C/textarea\u003E",
+                      "selector": "#g-recaptcha-response-100000",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 30.0,
+              "a11y": 30
+            }
+          }
+        }
+      }
+    }
+  ]
+}

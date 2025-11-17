@@ -1,0 +1,215 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 29,
+      "rating": 4.5,
+      "rating_sec": 4.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2025-11-17T10:06:04.422108",
+      "report": "",
+      "report_sec": "- Javascript, disallow javascript: URLs (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-script-url\n\n  Url(s) with issues:\n  - https://fundingchoicesmessages.google.com/i/ca-pub-5608066852577173?href=https%3A%2F%2Fwww.naveedulhaq.com\u0026ers=2\n  - https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202511110101/show_ads_impl.js\n  - https://www.googletagmanager.com/gtag/js?id=GT-MBTL97K\n\n- Javascript, disallow the use of eval() (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-eval\n\n  Url(s) with issues:\n  - https://fundingchoicesmessages.google.com/i/ca-pub-5608066852577173?href=https%3A%2F%2Fwww.naveedulhaq.com\u0026ers=2\n\n- Javascript, disallow the use of eval()-like methods (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-implied-eval\n\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- no-debugger (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-debugger\n\n",
+      "data": {
+        "version": "2025.11.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "www.naveedulhaq.com": {
+            "version": "2025.11.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 90,
+              "security": 80,
+              "standard": 100
+            },
+            "issues": [
+              {
+                "test": "javascript",
+                "rule": "no-script-url",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-script-url"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.googletagmanager.com/gtag/js?id=GT-MBTL97K",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 873,
+                    "column": 204
+                  },
+                  {
+                    "url": "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202511110101/show_ads_impl.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 561,
+                    "column": 214
+                  },
+                  {
+                    "url": "https://fundingchoicesmessages.google.com/i/ca-pub-5608066852577173?href=https%3A%2F%2Fwww.naveedulhaq.com\u0026ers=2",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 475,
+                    "column": 104
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-eval",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-eval"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://fundingchoicesmessages.google.com/i/ca-pub-5608066852577173?href=https%3A%2F%2Fwww.naveedulhaq.com\u0026ers=2",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 247,
+                    "column": 215
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-implied-eval",
+                "category": "security",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-implied-eval"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "javascript",
+                "rule": "no-debugger",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-debugger"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://www.naveedulhaq.com/": {
+                "version": "2025.11.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://www.naveedulhaq.com/",
+                "score": {
+                  "overall": 90,
+                  "security": 80,
+                  "standard": 100
+                },
+                "issues": [
+                  {
+                    "test": "javascript",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-script-url"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.googletagmanager.com/gtag/js?id=GT-MBTL97K",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 873,
+                        "column": 204
+                      },
+                      {
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202511110101/show_ads_impl.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 561,
+                        "column": 214
+                      },
+                      {
+                        "url": "https://fundingchoicesmessages.google.com/i/ca-pub-5608066852577173?href=https%3A%2F%2Fwww.naveedulhaq.com\u0026ers=2",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 475,
+                        "column": 104
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-eval"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://fundingchoicesmessages.google.com/i/ca-pub-5608066852577173?href=https%3A%2F%2Fwww.naveedulhaq.com\u0026ers=2",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 247,
+                        "column": 215
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-implied-eval"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-debugger",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-debugger"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
