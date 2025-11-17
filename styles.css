@@ -11,6 +11,16 @@
 		/* font-variation-settings: "wght" 50; */
 		src: url('https://krompaco.nu/dist/funkis-abc-variable.woff2') format('woff2');
 	}
+
+	@view-transition {
+		navigation: auto;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		@view-transition {
+			navigation: none;
+		}
+	}
 }
 
 @tailwind components;
