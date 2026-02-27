@@ -1,0 +1,58 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T17:05:05.240555",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.25:1. Recommendation:  change background to #4c4c4c. (error)\n  Url(s) with issues:\n  - https://www.naveedulhaq.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.naveedulhaq.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.25:1. Recommendation:  change background to #4c4c4c. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.naveedulhaq.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.25:1. Recommendation:  change background to #4c4c4c. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.25:1. Recommendation:  change background to #4c4c4c.",
+                      "context": "\u003Ca href=\u0022https://www.naveedulhaq.com/index.php/page/2/\u0022 class=\u0022epcl-button secondary small\u0022 data-title=\u0022Next\u0022\u003ENext\u003C/a\u003E",
+                      "selector": "#epcl-classic-posts-1 \u003E div:nth-child(1) \u003E div \u003E div:nth-child(4) \u003E div \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 90.0,
+              "a11y": 90
+            }
+          }
+        }
+      }
+    }
+  ]
+}

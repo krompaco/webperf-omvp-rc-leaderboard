@@ -1,0 +1,186 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.6,
+      "rating_sec": 4.5,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T17:38:34.528805",
+      "report": "- CMS used: wordpress\r\n- Web server used: nginx, tomcat\r\n- Technology used: c, es6, js, php\r\n- Metadata used: apple-touch-icon, dns-prefetch, icon, open-graph, viewport\r\n- Javascript libraries used: core-js\r\n- Languages found: en-gb, en_gb\r\n- Image formats used: gif, ico, jpg, png, svg, webp\r\n",
+      "report_sec": "##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 3.39.0\r\n\r\n###### Affected resource(s):\r\n- https://anilpatel.co.uk/wp-includes/js/dist/vendor/wp-polyfill.min.js?m=1764669441i\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND010": {
+            "softwares": [
+              "core-js 3.39.0"
+            ],
+            "resources": [
+              "https://anilpatel.co.uk/wp-includes/js/dist/vendor/wp-polyfill.min.js?m=1764669441i"
+            ],
+            "sub-issues": []
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "?": {
+              "name": "nginx",
+              "precision": 0.4,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          },
+          "tomcat": {
+            "?": {
+              "name": "tomcat",
+              "precision": 0.1
+            }
+          }
+        },
+        "tech": {
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          },
+          "php": {
+            "?": {
+              "name": "php",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "dns-prefetch": {
+            "?": {
+              "name": "dns-prefetch",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "en-gb": {
+            "?": {
+              "name": "en-gb",
+              "precision": 0.8
+            }
+          },
+          "en_gb": {
+            "?": {
+              "name": "en_gb",
+              "precision": 0.8
+            }
+          }
+        },
+        "cms": {
+          "wordpress": {
+            "": {
+              "name": "wordpress",
+              "precision": 0.8,
+              "github-owner": "WordPress",
+              "github-repo": "WordPress"
+            }
+          }
+        },
+        "wordpress-plugin": {
+          "gutenberg-core": {
+            "?": {
+              "name": "gutenberg-core",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.4
+            }
+          },
+          "jpg": {
+            "?": {
+              "name": "jpg",
+              "precision": 0.4
+            }
+          },
+          "gif": {
+            "?": {
+              "name": "gif",
+              "precision": 0.4
+            }
+          },
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        },
+        "js": {
+          "core-js": {
+            "3.39.0": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

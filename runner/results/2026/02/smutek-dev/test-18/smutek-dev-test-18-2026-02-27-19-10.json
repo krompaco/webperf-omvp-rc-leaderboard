@@ -1,0 +1,157 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 3.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 3.0,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T19:10:56.285403",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Anchor element found with a valid href attribute, but no link content has been supplied. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n- The html element should have a lang or xml:lang attribute which describes the language of the document. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n- This checkboxinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n- This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)\n  Url(s) with issues:\n  - https://smutek.dev/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "smutek.dev": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://www.linkedin.com/in/smutekdamian/\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa-brands fa-linkedin...\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div:nth-child(1) \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://github.com/smutekDamian\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa-brands fa-github\u0022 ...\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E footer \u003E div \u003E div:nth-child(1) \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+                      "context": "\u003Chtml\u003E\u003Chead\u003E\u003Cmeta charset=\u0022UTF-8\u0022\u003E\u003Cme...\u003C/html\u003E",
+                      "selector": "html",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This checkboxinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This checkboxinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This checkboxinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby .",
+                      "context": "\u003Cinput type=\u0022checkbox\u0022 id=\u0022burgerMenuTrigger\u0022\u003E",
+                      "selector": "#burgerMenuTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://smutek.dev/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput type=\u0022checkbox\u0022 id=\u0022burgerMenuTrigger\u0022\u003E",
+                      "selector": "#burgerMenuTrigger",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 60.0,
+              "a11y": 60
+            }
+          }
+        }
+      }
+    }
+  ]
+}

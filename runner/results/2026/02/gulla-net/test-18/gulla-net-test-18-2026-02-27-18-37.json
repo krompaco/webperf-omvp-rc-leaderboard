@@ -1,0 +1,85 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.0,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T18:37:10.825517",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- A title should be provided for the document, using a non-empty title element in the head section. (error)\n  Url(s) with issues:\n  - https://www.gulla.net/\n\n- The html element should have a lang or xml:lang attribute which describes the language of the document. (error)\n  Url(s) with issues:\n  - https://www.gulla.net/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.gulla.net": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "A title should be provided for the document, using a non-empty title element in the head section. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_2.H25.1.NoTitleEl",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.gulla.net/",
+                    "text": "A title should be provided for the document, using a non-empty title element in the head section. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_2.H25.1.NoTitleEl",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_2.H25.1.NoTitleEl",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "A title should be provided for the document, using a non-empty title element in the head section.",
+                      "context": "\u003Chead\u003E\u003C/head\u003E",
+                      "selector": "html \u003E head",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.gulla.net/",
+                    "text": "The html element should have a lang or xml:lang attribute which describes the language of the document. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+                      "context": "\u003Chtml\u003E\u003Chead\u003E\u003C/head\u003E\u003Cbody\u003E\u003C/body\u003E\u003C/html\u003E",
+                      "selector": "html",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 80.0,
+              "a11y": 80
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 2,
+      "rating": 4.4,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.4,
+      "date": "2026-02-27T16:48:14.408730",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Page not found, no valid 404 response status code used (error)\n  Url(s) with issues:\n  - https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/\n\n- Page not found, no valid h1 header found (warning)\n  Url(s) with issues:\n  - https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/\n\n- Page not found, no valid body text found, may because it is too short (warning)\n  Url(s) with issues:\n  - https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/\n\n- Page not found, has expected 404 response (resolved)\n- Page not found, valid title found (resolved)\n- Page not found, valid text found (resolved)\n- Page not found, valid text found (resolved)\n- Page not found, used supported locale (resolved)\n- Page not found, network is usable (resolved)\n",
+      "data": {
+        "version": "2025.12.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "docs.developers.optimizely.com": {
+            "version": "2025.12.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 88,
+              "standard": 88
+            },
+            "issues": [
+              {
+                "test": "404",
+                "rule": "no-valid-response-status-code",
+                "category": "standard",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "url": "https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                    "rule": "no-valid-response-status-code",
+                    "category": "standard",
+                    "text": "Response status code is not 404",
+                    "severity": "error"
+                  }
+                ]
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-h1-found",
+                "category": "standard",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                    "rule": "no-valid-h1-found",
+                    "category": "standard",
+                    "text": "No valid H1 found",
+                    "severity": "warning"
+                  }
+                ]
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-not-found-text-in-body",
+                "category": "standard",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                    "rule": "no-valid-not-found-text-in-body",
+                    "category": "standard",
+                    "severity": "warning"
+                  }
+                ]
+              },
+              {
+                "test": "404",
+                "rule": "has-unexpected-404-response",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-title-found",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-text-found",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "invalid-text-found",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-unsupported-locale-use",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-network",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://docs.developers.optimizely.com/": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://docs.developers.optimizely.com/",
+                "score": {
+                  "overall": 100
+                },
+                "issues": []
+              },
+              "https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                "score": {
+                  "overall": 88,
+                  "standard": 88
+                },
+                "issues": [
+                  {
+                    "test": "404",
+                    "rule": "no-valid-response-status-code",
+                    "category": "standard",
+                    "severity": "error",
+                    "subIssues": [
+                      {
+                        "url": "https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                        "rule": "no-valid-response-status-code",
+                        "category": "standard",
+                        "text": "Response status code is not 404",
+                        "severity": "error"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-h1-found",
+                    "category": "standard",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                        "rule": "no-valid-h1-found",
+                        "category": "standard",
+                        "text": "No valid H1 found",
+                        "severity": "warning"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-not-found-text-in-body",
+                    "category": "standard",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://docs.developers.optimizely.com/cf4e2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                        "rule": "no-valid-not-found-text-in-body",
+                        "category": "standard",
+                        "severity": "warning"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "404",
+                    "rule": "has-unexpected-404-response",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-title-found",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-text-found",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "invalid-text-found",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-unsupported-locale-use",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-network",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

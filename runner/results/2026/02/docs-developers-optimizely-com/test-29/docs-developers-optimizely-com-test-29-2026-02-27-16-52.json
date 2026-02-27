@@ -1,0 +1,485 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 29,
+      "rating": 4.5,
+      "rating_sec": 4.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2026-02-27T16:53:04.319989",
+      "report": "",
+      "report_sec": "- Javascript, disallow the use of eval() (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-eval\n\n  Url(s) with issues:\n  - https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.Drqm3f2WgI4.2021.O/am=AACMDA/d=1/rs=AAj4NmxDxDJdKPjfrxgBg3qtQ09bKCkTIQ/m=bootstrap_module,ucs_widget_module,xlite_module\n  - https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js\n  - https://cdn.optimizely.com/js/21014920239.js\n  - https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js\n\n- Javascript, disallow javascript: URLs (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-script-url\n\n  Url(s) with issues:\n  - https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5\u0026cx=c\u0026gtm=4e62p1\n  - https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js\n  - https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.Drqm3f2WgI4.2021.O/am=AACMDA/d=1/rs=AAj4NmxDxDJdKPjfrxgBg3qtQ09bKCkTIQ/m=bootstrap_module,ucs_widget_module,xlite_module\n  - https://www.googletagmanager.com/gtm.js?id=GTM-W2PDKKX2\n  - https://cdn.segment.com/next-integrations/integrations/visual-tagger/0.3.5/visual-tagger.dynamic.js.gz\n\n- Javascript, disallow the use of eval()-like methods (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-implied-eval\n\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- no-debugger (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-debugger\n\n",
+      "data": {
+        "version": "2025.12.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "docs.developers.optimizely.com": {
+            "version": "2025.12.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 90,
+              "security": 80,
+              "standard": 100
+            },
+            "issues": [
+              {
+                "test": "javascript",
+                "rule": "no-eval",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-eval"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 2,
+                    "column": 7401
+                  },
+                  {
+                    "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 5,
+                    "column": 290678
+                  },
+                  {
+                    "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 178,
+                    "column": 180836
+                  },
+                  {
+                    "url": "https://cdn.optimizely.com/js/21014920239.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 2,
+                    "column": 142407
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.Drqm3f2WgI4.2021.O/am=AACMDA/d=1/rs=AAj4NmxDxDJdKPjfrxgBg3qtQ09bKCkTIQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 804,
+                    "column": 361
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.Drqm3f2WgI4.2021.O/am=AACMDA/d=1/rs=AAj4NmxDxDJdKPjfrxgBg3qtQ09bKCkTIQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 807,
+                    "column": 168
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 135,
+                    "column": 62
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 683,
+                    "column": 336
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 135,
+                    "column": 62
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 683,
+                    "column": 336
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-script-url",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-script-url"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 157908
+                  },
+                  {
+                    "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 2692900
+                  },
+                  {
+                    "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 3673950
+                  },
+                  {
+                    "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 175,
+                    "column": 138907
+                  },
+                  {
+                    "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 175,
+                    "column": 138942
+                  },
+                  {
+                    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W2PDKKX2",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 625,
+                    "column": 114
+                  },
+                  {
+                    "url": "https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5\u0026cx=c\u0026gtm=4e62p1",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 994,
+                    "column": 204
+                  },
+                  {
+                    "url": "https://cdn.segment.com/next-integrations/integrations/visual-tagger/0.3.5/visual-tagger.dynamic.js.gz",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 1,
+                    "column": 9773
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.Drqm3f2WgI4.2021.O/am=AACMDA/d=1/rs=AAj4NmxDxDJdKPjfrxgBg3qtQ09bKCkTIQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 4373,
+                    "column": 198
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-implied-eval",
+                "category": "security",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-implied-eval"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "javascript",
+                "rule": "no-debugger",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-debugger"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://docs.developers.optimizely.com/": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://docs.developers.optimizely.com/",
+                "score": {
+                  "overall": 90,
+                  "security": 80,
+                  "standard": 100
+                },
+                "issues": [
+                  {
+                    "test": "javascript",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-eval"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 2,
+                        "column": 7401
+                      },
+                      {
+                        "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 5,
+                        "column": 290678
+                      },
+                      {
+                        "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 178,
+                        "column": 180836
+                      },
+                      {
+                        "url": "https://cdn.optimizely.com/js/21014920239.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 2,
+                        "column": 142407
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.Drqm3f2WgI4.2021.O/am=AACMDA/d=1/rs=AAj4NmxDxDJdKPjfrxgBg3qtQ09bKCkTIQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 804,
+                        "column": 361
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.Drqm3f2WgI4.2021.O/am=AACMDA/d=1/rs=AAj4NmxDxDJdKPjfrxgBg3qtQ09bKCkTIQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 807,
+                        "column": 168
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 135,
+                        "column": 62
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 683,
+                        "column": 336
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 135,
+                        "column": 62
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 683,
+                        "column": 336
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-script-url"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 157908
+                      },
+                      {
+                        "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 2692900
+                      },
+                      {
+                        "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 3673950
+                      },
+                      {
+                        "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 175,
+                        "column": 138907
+                      },
+                      {
+                        "url": "https://cdn.readme.io/public/hub/web/main.d1d7cfd1cdcc26f9fc55.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 175,
+                        "column": 138942
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W2PDKKX2",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 625,
+                        "column": 114
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5\u0026cx=c\u0026gtm=4e62p1",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 994,
+                        "column": 204
+                      },
+                      {
+                        "url": "https://cdn.segment.com/next-integrations/integrations/visual-tagger/0.3.5/visual-tagger.dynamic.js.gz",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 1,
+                        "column": 9773
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.Drqm3f2WgI4.2021.O/am=AACMDA/d=1/rs=AAj4NmxDxDJdKPjfrxgBg3qtQ09bKCkTIQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 4373,
+                        "column": 198
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-implied-eval"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-debugger",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-debugger"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

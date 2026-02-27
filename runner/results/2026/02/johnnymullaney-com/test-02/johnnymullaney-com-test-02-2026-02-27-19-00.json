@@ -1,0 +1,211 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 2,
+      "rating": 4.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 4.95,
+      "date": "2026-02-27T19:00:49.285935",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Page not found, invalid text found (warning)\n  Url(s) with issues:\n  - https://johnnymullaney.com/c4978/finns-det-en-sida/pa-den-har-adressen/testanrop/\n\n- Page not found, has expected 404 response (resolved)\n- Page not found, valid title found (resolved)\n- Page not found, valid h1 header found (resolved)\n- Page not found, valid text found (resolved)\n- Page not found, valid 404 response status code used (resolved)\n- Page not found, used supported locale (resolved)\n- Page not found, valid body text found (resolved)\n- Page not found, network is usable (resolved)\n",
+      "data": {
+        "version": "2025.12.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "johnnymullaney.com": {
+            "version": "2025.12.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 99,
+              "standard": 99
+            },
+            "issues": [
+              {
+                "test": "404",
+                "rule": "invalid-text-found",
+                "category": "standard",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://johnnymullaney.com/c4978/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                    "rule": "invalid-text-found",
+                    "category": "standard",
+                    "text": "body text found is too short",
+                    "severity": "warning"
+                  }
+                ]
+              },
+              {
+                "test": "404",
+                "rule": "has-unexpected-404-response",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-title-found",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-h1-found",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-text-found",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-response-status-code",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-unsupported-locale-use",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-valid-not-found-text-in-body",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              },
+              {
+                "test": "404",
+                "rule": "no-network",
+                "category": "standard",
+                "severity": "resolved",
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://johnnymullaney.com/": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://johnnymullaney.com/",
+                "score": {
+                  "overall": 100
+                },
+                "issues": []
+              },
+              "https://johnnymullaney.com/c4978/finns-det-en-sida/pa-den-har-adressen/testanrop/": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://johnnymullaney.com/c4978/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                "score": {
+                  "overall": 99,
+                  "standard": 99
+                },
+                "issues": [
+                  {
+                    "test": "404",
+                    "rule": "invalid-text-found",
+                    "category": "standard",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://johnnymullaney.com/c4978/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                        "rule": "invalid-text-found",
+                        "category": "standard",
+                        "text": "body text found is too short",
+                        "severity": "warning"
+                      }
+                    ]
+                  },
+                  {
+                    "test": "404",
+                    "rule": "has-unexpected-404-response",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-title-found",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-h1-found",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-text-found",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-response-status-code",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-unsupported-locale-use",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-valid-not-found-text-in-body",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  },
+                  {
+                    "test": "404",
+                    "rule": "no-network",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

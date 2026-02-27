@@ -1,0 +1,121 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 15,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": 5.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T18:37:08.480344",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "- [desktop] TTFB (Time to First Byte): 72.50ms, \u00B14.50ms ( 5.00 rating )\r\n- [desktop] DOMContentLoaded: 80.50ms, \u00B15.50ms ( 5.00 rating )\r\n- [desktop] Load: 81.00ms, \u00B16.00ms ( 5.00 rating )\r\n- [desktop] FirstVisualChange: 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [desktop] SpeedIndex: 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [desktop] VisualComplete85: 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [desktop] CLS (Cumulative Layout Shift): 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [desktop] TBT (Total Blocking Time): 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [desktop] LastVisualChange: 0.00ms, \u00B10.00ms\r\n- [mobile] TTFB (Time to First Byte): 72.50ms, \u00B10.50ms ( 5.00 rating )\r\n- [mobile] DOMContentLoaded: 78.50ms, \u00B10.50ms ( 5.00 rating )\r\n- [mobile] Load: 79.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [mobile] FirstVisualChange: 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [mobile] SpeedIndex: 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [mobile] VisualComplete85: 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [mobile] CLS (Cumulative Layout Shift): 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [mobile] TBT (Total Blocking Time): 0.00ms, \u00B10.00ms ( 5.00 rating )\r\n- [mobile] LastVisualChange: 0.00ms, \u00B10.00ms\r\n",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "TTFB": {
+          "median": 72.5,
+          "range": 0.5,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] TTFB (Time to First Byte): 72.50ms, \u00B10.50ms",
+          "values": [
+            "73ms",
+            "72ms",
+            "72.5ms"
+          ]
+        },
+        "DOMContentLoaded": {
+          "median": 78.5,
+          "range": 0.5,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] DOMContentLoaded: 78.50ms, \u00B10.50ms",
+          "values": [
+            "79ms",
+            "78ms",
+            "78.5ms"
+          ]
+        },
+        "Load": {
+          "median": 79.0,
+          "range": 0.0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] Load: 79.00ms, \u00B10.00ms",
+          "values": [
+            "79ms",
+            "79ms",
+            "79ms"
+          ]
+        },
+        "FirstVisualChange": {
+          "median": 0.0,
+          "range": 0.0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] FirstVisualChange: 0.00ms, \u00B10.00ms",
+          "values": [
+            "0ms",
+            "0ms"
+          ]
+        },
+        "SpeedIndex": {
+          "median": 0.0,
+          "range": 0.0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] SpeedIndex: 0.00ms, \u00B10.00ms",
+          "values": [
+            "0ms",
+            "0ms"
+          ]
+        },
+        "VisualComplete85": {
+          "median": 0.0,
+          "range": 0.0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] VisualComplete85: 0.00ms, \u00B10.00ms",
+          "values": [
+            "0ms",
+            "0ms"
+          ]
+        },
+        "LastVisualChange": {
+          "median": 0.0,
+          "range": 0.0,
+          "mode": "mobile",
+          "points": -1,
+          "msg": "- [mobile] LastVisualChange: 0.00ms, \u00B10.00ms",
+          "values": [
+            "0ms",
+            "0ms"
+          ]
+        },
+        "CLS": {
+          "median": 0,
+          "range": 0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] CLS (Cumulative Layout Shift): 0.00ms, \u00B10.00ms",
+          "values": [
+            "0"
+          ]
+        },
+        "TBT": {
+          "median": 0,
+          "range": 0,
+          "mode": "mobile",
+          "points": 5.0,
+          "msg": "- [mobile] TBT (Total Blocking Time): 0.00ms, \u00B10.00ms",
+          "values": [
+            "0ms"
+          ]
+        }
+      }
+    }
+  ]
+}

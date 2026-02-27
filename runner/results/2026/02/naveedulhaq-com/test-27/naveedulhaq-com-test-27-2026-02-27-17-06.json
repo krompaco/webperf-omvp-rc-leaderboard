@@ -1,0 +1,2185 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 3.35,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.35,
+      "date": "2026-02-27T17:06:29.351390",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Disallow unknown values for properties within declarations (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n  Url(s) with issues:\n  - https://www.naveedulhaq.com/\n  - https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6\n\n- CSS, Disallow unknown functions (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n  Url(s) with issues:\n  - https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6\n\n- CSS, Disallow unknown type selectors (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n  Url(s) with issues:\n  - https://accounts.google.com/gsi/style\n  - https://www.naveedulhaq.com/\n\n- CSS, Disallow deprecated properties (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-deprecated\n\n  Url(s) with issues:\n  - https://www.naveedulhaq.com/\n  - https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/fontawesome.min.css?ver=2.0.6\n  - https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6\n\n- CSS, Disallow deprecated keywords for properties within declarations (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n  Url(s) with issues:\n  - https://www.naveedulhaq.com/\n  - https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6\n\n- CSS, Disallow empty blocks (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n  Url(s) with issues:\n  - https://accounts.google.com/gsi/style\n  - https://www.naveedulhaq.com/\n\n- CSS, Disallow unknown annotations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Disallow unknown descriptors for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n- CSS, Disallow unknown values for descriptors within at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n- CSS, Disallow deprecated at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Disallow unknown at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Disallow invalid preludes for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n- CSS, Disallow invalid hex colors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Disallow empty comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Disallow non-standard direction values for linear gradient functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n- CSS, Disallow unknown media feature names (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Disallow unknown values for media features (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Disallow invalid media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Disallow deprecated media types (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-type-no-deprecated\n\n- CSS, Disallow invalid named grid areas (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Disallow empty sources (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Disallow invalid double-slash comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Disallow invalid position \u0060@import\u0060 rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n- CSS, Disallow invalid position declarations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-declaration\n\n- CSS, Disallow unknown animations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Disallow unknown custom media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Disallow unknown custom properties (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n- CSS, Disallow unknown properties (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n- CSS, Disallow unknown pseudo-class selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n- CSS, Disallow unknown pseudo-element selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n- CSS, Disallow invalid syntax strings (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Disallow unknown units (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2025.12.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "www.naveedulhaq.com": {
+            "version": "2025.12.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 67,
+              "standard": 67
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 16951
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha(opacity=80) (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 23069
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value cursor for property -webkit-zoom-out (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 23767
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value cursor for property -webkit-zoom-in (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 23832
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha(opacity=65) (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 24794
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha(opacity=100) (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 25007
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha(opacity=65) (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 25430
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value filter for property alpha(opacity=100) (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 25777
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 19797
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 46736
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 46949
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 51602
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 59921
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 73317
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 91692
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 96107
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 107821
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 114361
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 114711
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 117328
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 130737
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 132648
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 134721
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 144255
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 144475
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 144900
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 156388
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 157034
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 167658
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha (function-no-unknown)",
+                    "line": 1,
+                    "column": 23069
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha (function-no-unknown)",
+                    "line": 1,
+                    "column": 24794
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha (function-no-unknown)",
+                    "line": 1,
+                    "column": 25007
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha (function-no-unknown)",
+                    "line": 1,
+                    "column": 25430
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown function alpha (function-no-unknown)",
+                    "line": 1,
+                    "column": 25777
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://accounts.google.com/gsi/style",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown type selector sentinel (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 687
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unexpected unknown type selector blockquote__citation (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 85804
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "property-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 12945
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                    "line": 1,
+                    "column": 17031
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 27183
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/fontawesome.min.css?ver=2.0.6",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 30535
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/fontawesome.min.css?ver=2.0.6",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 30679
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 2319
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 19822
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                    "line": 1,
+                    "column": 20212
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 46974
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 47004
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 47075
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 56191
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 59957
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 73342
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 88199
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 88334
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 88418
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                    "line": 1,
+                    "column": 108307
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 114386
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 114416
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 114736
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 114766
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                    "line": 1,
+                    "column": 114863
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 117364
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 134746
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 144280
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 144310
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 144500
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 144925
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 145362
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 145392
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 156413
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 156443
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 157059
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 157089
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                    "line": 1,
+                    "column": 157219
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 167683
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 167713
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 7792
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 2,
+                    "column": 397
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 2,
+                    "column": 705
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 117492
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 140026
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://accounts.google.com/gsi/style",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 695
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 89417
+                  },
+                  {
+                    "url": "https://www.naveedulhaq.com/",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unexpected empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 116432
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-type-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-declaration",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://www.naveedulhaq.com/": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://www.naveedulhaq.com/",
+                "score": {
+                  "overall": 67,
+                  "standard": 67
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 16951
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha(opacity=80) (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 23069
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value cursor for property -webkit-zoom-out (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 23767
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value cursor for property -webkit-zoom-in (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 23832
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha(opacity=65) (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 24794
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha(opacity=100) (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 25007
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha(opacity=65) (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 25430
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value filter for property alpha(opacity=100) (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 25777
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 19797
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 46736
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 46949
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 51602
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 59921
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 73317
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 91692
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 96107
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 107821
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 114361
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 114711
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 117328
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 130737
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 132648
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 134721
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 144255
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 144475
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 144900
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 156388
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 157034
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown value display for property -ms-flexbox (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 167658
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha (function-no-unknown)",
+                        "line": 1,
+                        "column": 23069
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha (function-no-unknown)",
+                        "line": 1,
+                        "column": 24794
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha (function-no-unknown)",
+                        "line": 1,
+                        "column": 25007
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha (function-no-unknown)",
+                        "line": 1,
+                        "column": 25430
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown function alpha (function-no-unknown)",
+                        "line": 1,
+                        "column": 25777
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://accounts.google.com/gsi/style",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown type selector sentinel (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 687
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unexpected unknown type selector blockquote__citation (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 85804
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 12945
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                        "line": 1,
+                        "column": 17031
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 27183
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/fontawesome.min.css?ver=2.0.6",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 30535
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/fontawesome.min.css?ver=2.0.6",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 30679
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 2319
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 19822
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                        "line": 1,
+                        "column": 20212
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 46974
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 47004
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 47075
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 56191
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 59957
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 73342
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 88199
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 88334
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 88418
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                        "line": 1,
+                        "column": 108307
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 114386
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 114416
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 114736
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 114766
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                        "line": 1,
+                        "column": 114863
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 117364
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 134746
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 144280
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 144310
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 144500
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 144925
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 145362
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 145392
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 156413
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 156443
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 157059
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 157089
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-flex (property-no-deprecated)",
+                        "line": 1,
+                        "column": 157219
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 167683
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 167713
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.naveedulhaq.com/wp-content/themes/maktub/assets/dist/plugins.min.css?ver=2.0.6",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 7792
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 2,
+                        "column": 397
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 2,
+                        "column": 705
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 117492
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected deprecated keyword \u0022break-word\u0022 for property \u0022word-break\u0022 (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 140026
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://accounts.google.com/gsi/style",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 695
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 89417
+                      },
+                      {
+                        "url": "https://www.naveedulhaq.com/",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unexpected empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 116432
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-type-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-declaration",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

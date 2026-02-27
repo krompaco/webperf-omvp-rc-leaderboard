@@ -1,0 +1,373 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.0,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T17:14:23.139471",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)\n  Url(s) with issues:\n  - https://www.ftt.ai/\n\n- This emailinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)\n  Url(s) with issues:\n  - https://www.ftt.ai/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.ftt.ai": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Duplicate id attribute value \u0022multi_picture_undefined\u0022 found on the web page.",
+                      "context": "\u003Cpicture id=\u0022multi_picture_undefined\u0022\u003E\u003Csource srcset=\u0022https://static....\u003C/picture\u003E",
+                      "selector": "#multi_picture_undefined",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This emailinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.ftt.ai/",
+                    "text": "This emailinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This emailinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby .",
+                      "context": "\u003Cinput name=\u0022email\u0022 id=\u0022input_comp-mfkyjf0z3\u0022 class=\u0022KvoMHf has-custom-focus wixui-text-input__input\u0022 type=\u0022email\u0022 placeholder=\u0022\u0022 required=\u0022\u0022 aria-invalid=\u0022false\u0022 pattern=\u0022^.\u002B@.\u002B\\.[a-zA-Z]{2,63}$\u0022 maxlength=\u0022250\u0022 autocomplete=\u0022off\u0022 value=\u0022\u0022\u003E",
+                      "selector": "#input_comp-mfkyjf0z3",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 80.0,
+              "a11y": 80
+            }
+          }
+        }
+      }
+    }
+  ]
+}

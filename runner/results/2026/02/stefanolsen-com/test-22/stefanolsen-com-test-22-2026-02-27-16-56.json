@@ -1,0 +1,56 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T16:56:30.885384",
+      "report": "- Webpage generates very little carbon dioxide!\n- Carbon dioxide per pageview: 0.38 gram(s)\n- More green than 99 % of the websites tested by webperf.se (Reference updated: 2025-01-09).\n- Network transfer size: 609.70 KB\n ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://stefanolsen.com/",
+            "index": 1,
+            "size": 10667
+          },
+          {
+            "url": "https://stefanolsen.com/dist/main.css?v=638891474352894997",
+            "index": 2,
+            "size": 159955
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-X8H1WCN7X0",
+            "index": 3,
+            "size": 446672
+          },
+          {
+            "url": "https://stefanolsen.com/dist/icons.svg?v=638891474352418746#chevron-circle-right",
+            "index": 4,
+            "size": 6241
+          },
+          {
+            "url": "https://region1.google-analytics.com/g/collect?v=2\u0026tid=G-X8H1WCN7X0\u0026gtm=45je62p1h1v888530051za200zd888530051\u0026_p=1772211374248\u0026gcd=13l3l3l2l1l1\u0026npa=1\u0026dma_cps=a\u0026dma=1\u0026cid=1614949930.1772211374\u0026ul=en-us\u0026sr=800x600\u0026uaa=x86\u0026uab=64\u0026uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59\u0026uamb=0\u0026uam=\u0026uap=Linux\u0026uapv=\u0026uaw=0\u0026are=1\u0026frm=0\u0026pscdl=noapi\u0026_s=1\u0026tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115616986~115938466~115938468~116024733~117650706\u0026sid=1772211374\u0026sct=1\u0026seg=0\u0026dl=https%3A%2F%2Fstefanolsen.com%2F\u0026dt=Stefan%20Holm%20Olsen\u0026en=page_view\u0026_fv=1\u0026_nsi=1\u0026_ss=1\u0026_ee=1\u0026tfd=282",
+            "index": 5,
+            "size": 0
+          },
+          {
+            "url": "https://stefanolsen.com/favicon.ico",
+            "index": 6,
+            "size": 795
+          }
+        ],
+        "total-byte-weight": 624330,
+        "co2": 0.37638482170295906,
+        "cleaner_than": 99.0
+      }
+    }
+  ]
+}

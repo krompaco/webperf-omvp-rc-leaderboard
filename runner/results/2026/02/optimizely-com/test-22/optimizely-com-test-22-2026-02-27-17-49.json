@@ -1,0 +1,986 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 1.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T17:50:28.608832",
+      "report": "- The website is generating a lot of carbon dioxide, for every pageview :(\n- Carbon dioxide per pageview: 6.45 gram(s)\n- More green than 10 % of the websites tested by webperf.se (Reference updated: 2025-01-09).\n- Network transfer size: 10.20 MB\n ( 0.50 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://www.optimizely.com/",
+            "index": 1,
+            "size": 389945
+          },
+          {
+            "url": "https://cdn.optimizely.com/js/26942930964.js",
+            "index": 2,
+            "size": 526829
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms/EPiServerForms.css",
+            "index": 3,
+            "size": 5505
+          },
+          {
+            "url": "https://cdn.optimizely.com/public/26942930964/s/home.js",
+            "index": 4,
+            "size": 370419
+          },
+          {
+            "url": "https://www.optimizely.com/assets/entry-client-dc53019c.js",
+            "index": 5,
+            "size": 269347
+          },
+          {
+            "url": "https://www.optimizely.com/assets/entry-client-1dd1561b.css",
+            "index": 6,
+            "size": 277872
+          },
+          {
+            "url": "https://www.optimizely.com/assets/noise-26e2b327.png",
+            "index": 7,
+            "size": 22618
+          },
+          {
+            "url": "https://www.optimizely.com/assets/nb_international_pro_mono-webfont-38982006.woff2",
+            "index": 8,
+            "size": 25592
+          },
+          {
+            "url": "https://www.optimizely.com/assets/index-835a4768.js",
+            "index": 9,
+            "size": 7378
+          },
+          {
+            "url": "https://www.optimizely.com/assets/preload-helper-101896b7.js",
+            "index": 10,
+            "size": 742
+          },
+          {
+            "url": "https://www.optimizely.com/assets/home.component-1270000c.js",
+            "index": 11,
+            "size": 2206
+          },
+          {
+            "url": "https://www.optimizely.com/assets/_grid-overlay-1c27c580.js",
+            "index": 12,
+            "size": 1057
+          },
+          {
+            "url": "https://www.optimizely.com/assets/useMouseHovered-a7416d41.js",
+            "index": 13,
+            "size": 706
+          },
+          {
+            "url": "https://www.optimizely.com/assets/useRafState-df33f303.js",
+            "index": 14,
+            "size": 763
+          },
+          {
+            "url": "https://www.optimizely.com/assets/useMouse-80a323fb.js",
+            "index": 15,
+            "size": 585
+          },
+          {
+            "url": "https://www.optimizely.com/assets/use-animation-20396707.js",
+            "index": 16,
+            "size": 704
+          },
+          {
+            "url": "https://www.optimizely.com/assets/motion-55b9ba8e.js",
+            "index": 17,
+            "size": 111176
+          },
+          {
+            "url": "https://www.optimizely.com/assets/use-in-view-78afde75.js",
+            "index": 18,
+            "size": 817
+          },
+          {
+            "url": "https://www.optimizely.com/assets/resolve-element-5f2546dc.js",
+            "index": 19,
+            "size": 311
+          },
+          {
+            "url": "https://www.optimizely.com/assets/index-82faf7db.js",
+            "index": 20,
+            "size": 2933
+          },
+          {
+            "url": "https://www.optimizely.com/assets/use-motion-value-36fb0f03.js",
+            "index": 21,
+            "size": 250
+          },
+          {
+            "url": "https://www.optimizely.com/assets/use-spring-54116ed9.js",
+            "index": 22,
+            "size": 787
+          },
+          {
+            "url": "https://www.optimizely.com/assets/use-scroll-5bf5df80.js",
+            "index": 23,
+            "size": 5430
+          },
+          {
+            "url": "https://www.optimizely.com/assets/use-transform-4cbd1600.js",
+            "index": 24,
+            "size": 864
+          },
+          {
+            "url": "https://www.optimizely.com/assets/vidstack-BMPqs-oi-c643bb2c.js",
+            "index": 25,
+            "size": 234836
+          },
+          {
+            "url": "https://www.optimizely.com/assets/floating-ui.dom-67326cb5.js",
+            "index": 26,
+            "size": 14441
+          },
+          {
+            "url": "https://www.optimizely.com/assets/useWindowSize-5569fed6.js",
+            "index": 27,
+            "size": 445
+          },
+          {
+            "url": "https://www.optimizely.com/assets/opti-grid.component-43ac5319.js",
+            "index": 28,
+            "size": 69
+          },
+          {
+            "url": "https://www.optimizely.com/assets/opti-grid.component-65b7434a.css",
+            "index": 29,
+            "size": 93096
+          },
+          {
+            "url": "https://www.optimizely.com/assets/container-f8669ecc.css",
+            "index": 30,
+            "size": 8501
+          },
+          {
+            "url": "https://www.optimizely.com/assets/text.component-af466b3f.js",
+            "index": 31,
+            "size": 740
+          },
+          {
+            "url": "https://www.optimizely.com/assets/text.component-af81af83.css",
+            "index": 32,
+            "size": 1316
+          },
+          {
+            "url": "https://www.optimizely.com/assets/media.component-9b76b2d4.js",
+            "index": 33,
+            "size": 64264
+          },
+          {
+            "url": "https://www.optimizely.com/assets/media.component-3b52cfc2.css",
+            "index": 34,
+            "size": 10822
+          },
+          {
+            "url": "https://www.optimizely.com/assets/integrations.component-0a0658dc.js",
+            "index": 35,
+            "size": 31328
+          },
+          {
+            "url": "https://www.optimizely.com/assets/optiforms.component-b929fb0f.js",
+            "index": 36,
+            "size": 10060
+          },
+          {
+            "url": "https://www.optimizely.com/assets/custom-form-0a4bb47a.css",
+            "index": 37,
+            "size": 121913
+          },
+          {
+            "url": "https://www.optimizely.com/assets/custom-checkbox-dc96214f.css",
+            "index": 38,
+            "size": 2661
+          },
+          {
+            "url": "https://www.optimizely.com/assets/custom-radio-737ddd70.css",
+            "index": 39,
+            "size": 2343
+          },
+          {
+            "url": "https://www.optimizely.com/assets/opal-bg-16807e11.png",
+            "index": 40,
+            "size": 251646
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/f58ea35175bd4e25bf399e36d284d6f9/logo_salesforce_white_100x300.svg",
+            "index": 41,
+            "size": 7538
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/854ad08b9a5642f1bbda87fdfe6b81d4/nike-logo-icon_light.svg",
+            "index": 42,
+            "size": 694
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/638fd78be5cc45978c7d8b42bf0d31eb/zoom-logo-white.svg",
+            "index": 43,
+            "size": 1806
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/04dd25ba79f04298a76e1fb50742a117/shell-logo-light.svg",
+            "index": 44,
+            "size": 1900
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/71dcdc4b907a414ba7057d2624c2883b/dolby-logo-white.svg",
+            "index": 45,
+            "size": 2076
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/c3fc7cbd589947cbb8579ce42d6bf8ec/logo_new-era_white_100x300.svg",
+            "index": 46,
+            "size": 3764
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/90461ceea0184877b2c559273cd1da58/opal-ai-homepage-graphic.webp",
+            "index": 47,
+            "size": 45876
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/90461ceea0184877b2c559273cd1da58/marketer.jpg",
+            "index": 48,
+            "size": 9304
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/90461ceea0184877b2c559273cd1da58/content-that-wows.webp",
+            "index": 49,
+            "size": 33692
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/90461ceea0184877b2c559273cd1da58/experimentation-homepage-graphic.png",
+            "index": 50,
+            "size": 15040
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/90461ceea0184877b2c559273cd1da58/commerce-with-ai-twist.webp",
+            "index": 51,
+            "size": 21784
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/90461ceea0184877b2c559273cd1da58/ecommerce-leader.jpg",
+            "index": 52,
+            "size": 6302
+          },
+          {
+            "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+            "index": 53,
+            "size": 122876
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms/jquery-3.5.1.min.js",
+            "index": 54,
+            "size": 89476
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms/EPiServerForms.min.js",
+            "index": 55,
+            "size": 38538
+          },
+          {
+            "url": "https://www.optimizely.com/ClientResources/scripts/optimizely-form-container-events.js",
+            "index": 56,
+            "size": 2468
+          },
+          {
+            "url": "https://rum.optimizely.com/rum",
+            "index": 57,
+            "size": 2
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtm.js?id=GTM-59ZNLHC",
+            "index": 58,
+            "size": 511012
+          },
+          {
+            "url": "https://www.optimizely.com/assets/noise-7867172c.png",
+            "index": 59,
+            "size": 22618
+          },
+          {
+            "url": "https://www.optimizely.com/assets/Figtree-VariableFont_wght-583e9c3c.ttf",
+            "index": 60,
+            "size": 60660
+          },
+          {
+            "url": "https://www.optimizely.com/assets/images/lists/list-arrow-default.svg",
+            "index": 61,
+            "size": 790
+          },
+          {
+            "url": "https://a26942930964.cdn.optimizely.com/client_storage/a26942930964.html",
+            "index": 62,
+            "size": 2045
+          },
+          {
+            "url": "https://www.optimizely.com/assets/images/forms/tooltip-grey.svg",
+            "index": 63,
+            "size": 955
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.min.js",
+            "index": 64,
+            "size": 254968
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/js/EPiServerFormsSamples.js",
+            "index": 65,
+            "size": 27750
+          },
+          {
+            "url": "https://www.optimizely.com/scripts/RecaptchaV3ElementBlock.js",
+            "index": 66,
+            "size": 3355
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api.js?render=6LeurWggAAAAAIxUmsdOFuqf3K6ngR1VwTNffzNh\u0026onload=initRecaptchaElements\u0026render=explicit\u0026hl=en",
+            "index": 67,
+            "size": 1687
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/css/EPiServerFormsSamples.css",
+            "index": 68,
+            "size": 566
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.min.css",
+            "index": 69,
+            "size": 32152
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.structure.min.css",
+            "index": 70,
+            "size": 15565
+          },
+          {
+            "url": "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.theme.min.css",
+            "index": 71,
+            "size": 13898
+          },
+          {
+            "url": "https://www.optimizely.com/assets/navigation.component-0f57ad6f.js",
+            "index": 72,
+            "size": 21563
+          },
+          {
+            "url": "https://www.optimizely.com/assets/button-block.component-5ec5bef1.js",
+            "index": 73,
+            "size": 3809
+          },
+          {
+            "url": "https://www.optimizely.com/assets/icon.component-98d7dcf9.js",
+            "index": 74,
+            "size": 23641
+          },
+          {
+            "url": "https://www.optimizely.com/assets/hero-home.component-28926a41.js",
+            "index": 75,
+            "size": 11074
+          },
+          {
+            "url": "https://www.optimizely.com/assets/logo-grid.component-0d5d8cb0.js",
+            "index": 76,
+            "size": 7995
+          },
+          {
+            "url": "https://www.optimizely.com/assets/vidstack-CNjv_Zem-4e56777a.js",
+            "index": 77,
+            "size": 65532
+          },
+          {
+            "url": "https://www.optimizely.com/assets/sticky-panels.component-184fc95c.js",
+            "index": 78,
+            "size": 7964
+          },
+          {
+            "url": "https://www.optimizely.com/assets/primary-footer.component-6869bf6d.js",
+            "index": 79,
+            "size": 4569
+          },
+          {
+            "url": "https://www.optimizely.com/assets/useOutsideClick-8b696677.js",
+            "index": 80,
+            "size": 348
+          },
+          {
+            "url": "https://www.optimizely.com/assets/ssr-window.esm-8e29a61f.js",
+            "index": 81,
+            "size": 1428
+          },
+          {
+            "url": "https://www.optimizely.com/assets/primary-footer.component-c5b4db65.css",
+            "index": 82,
+            "size": 98981
+          },
+          {
+            "url": "https://www.optimizely.com/assets/cookie-consent.component-f09f0319.js",
+            "index": 83,
+            "size": 5436
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+            "index": 84,
+            "size": 861792
+          },
+          {
+            "url": "https://www.optimizely.com/assets/arrowRight-6841cc0b.js",
+            "index": 85,
+            "size": 354
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/1761dc93ab884df083a2b83b82428d8f/valtech-logo_light.svg",
+            "index": 86,
+            "size": 2774
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/82315a9240bb4148aa214ffff422bc70/calendly.svg",
+            "index": 87,
+            "size": 6097
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/c40ffa9d7ca24ac68fd5e9a1fa7db2a9/gerrie-electric-logo-light.svg",
+            "index": 88,
+            "size": 4186
+          },
+          {
+            "url": "https://www.optimizely.com/assets/index.es-03246ceb.js",
+            "index": 89,
+            "size": 307450
+          },
+          {
+            "url": "https://www.optimizely.com/globalassets/02.-global-images/optimizely_symbol_full-color.svg",
+            "index": 90,
+            "size": 590
+          },
+          {
+            "url": "https://www.optimizely.com/assets/footer--down-angle-acf0b27c.svg",
+            "index": 91,
+            "size": 187
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/62ae033da3f74a3d8084f35f69b7e032/homepage-hero_v3.json",
+            "index": 92,
+            "size": 286875
+          },
+          {
+            "url": "https://www.optimizely.com/contentassets/62ae033da3f74a3d8084f35f69b7e032/homepage-hero_v3.json",
+            "index": 93,
+            "size": 286875
+          },
+          {
+            "url": "https://www.clarity.ms/tag/9nms5khs7a?ref=gtm",
+            "index": 94,
+            "size": 627
+          },
+          {
+            "url": "https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5\u0026cx=c\u0026gtm=4e62p1",
+            "index": 95,
+            "size": 563948
+          },
+          {
+            "url": "https://bat.bing.com/bat.js",
+            "index": 96,
+            "size": 54841
+          },
+          {
+            "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+            "index": 97,
+            "size": 53612
+          },
+          {
+            "url": "https://connect.facebook.net/en_US/fbevents.js",
+            "index": 98,
+            "size": 360850
+          },
+          {
+            "url": "https://www.redditstatic.com/ads/pixel.js",
+            "index": 99,
+            "size": 81546
+          },
+          {
+            "url": "https://a.quora.com/qevents.js",
+            "index": 100,
+            "size": 41678
+          },
+          {
+            "url": "https://munchkin.marketo.net/munchkin.js",
+            "index": 101,
+            "size": 1251
+          },
+          {
+            "url": "https://js.adsrvr.org/up_loader.1.1.0.js",
+            "index": 102,
+            "size": 34465
+          },
+          {
+            "url": "https://js.qualified.com/qualified.js?token=y5gZpv1sRkv2ZBXW",
+            "index": 103,
+            "size": 426651
+          },
+          {
+            "url": "https://cdn.calibermind.com/a.js",
+            "index": 104,
+            "size": 218306
+          },
+          {
+            "url": "https://d1igp3oop3iho5.cloudfront.net/v2/8yoUTdBkNwpVOLCXeZpKdw/zaius-min.js",
+            "index": 105,
+            "size": 128062
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?frm=0\u0026ae=g\u0026en=page_view\u0026dl=https%3A%2F%2Fwww.optimizely.com%2F\u0026scrsrc=www.googletagmanager.com\u0026rnd=605504997.1772214593\u0026dt=World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely\u0026auid=1635160752.1772214593\u0026navt=n\u0026npa=1\u0026ep.ads_data_redaction=0\u0026gtm=45He62p1v76440394za200zd76440394xea\u0026gcd=13l3l3l2l1l1\u0026dma_cps=syphamo\u0026dma=1\u0026tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~115616986~115938466~115938468~116024735~117484252\u0026apve=1\u0026apvf=f\u0026apvc=1\u0026tft=1772214593453\u0026tfd=1418",
+            "index": 106,
+            "size": 0
+          },
+          {
+            "url": "https://q.quora.com/_/ad/0dced461f391446fb8baba558d4264d1/pixel?tag=ViewContent\u0026i=gtm\u0026u=https%3A%2F%2Fwww.optimizely.com%2F",
+            "index": 107,
+            "size": 43
+          },
+          {
+            "url": "https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fwww.optimizely.com",
+            "index": 108,
+            "size": 3503
+          },
+          {
+            "url": "https://j.6sc.co/j/61ba4203-c99f-4923-a9e8-596e6a0c8fef.js",
+            "index": 109,
+            "size": 4584
+          },
+          {
+            "url": "https://logx.optimizely.com/v1/events",
+            "index": 110,
+            "size": 0
+          },
+          {
+            "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=",
+            "index": 111,
+            "size": 0
+          },
+          {
+            "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/visitor_events?wu=",
+            "index": 112,
+            "size": 0
+          },
+          {
+            "url": "https://d1igp3oop3iho5.cloudfront.net/v2/8yoUTdBkNwpVOLCXeZpKdw/track-scroll-depth.js",
+            "index": 113,
+            "size": 8255
+          },
+          {
+            "url": "https://d1igp3oop3iho5.cloudfront.net/v2/8yoUTdBkNwpVOLCXeZpKdw/track-clicks.js",
+            "index": 114,
+            "size": 11587
+          },
+          {
+            "url": "https://api.zaius.com/v2/zaius.gif?resolution=800x600\u0026color_depth=24-bit\u0026viewport=1366x621\u0026source=direct\u0026medium=none\u0026java=0\u0026language=en-us\u0026character_set=utf-8\u0026domain_lookup_time=2\u0026server_connect_time=38\u0026server_response_time=416\u0026page_download_time=77\u0026hostname=www.optimizely.com\u0026page=%2F\u0026title=World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely\u0026u=35005452\u0026vuid=4e0e3f42-9d8e-4726-8759-4cc01110dbda\u0026new_user=1\u0026zaius_js_version=2.4.2\u0026tracker_id=8yoUTdBkNwpVOLCXeZpKdw\u0026event_type=pageview\u0026data_source_type=sdk\u0026data_source=JavaScript\u0026data_source_instance=www.optimizely.com\u0026data_source_version=2.4.2\u0026sixsense_vuid_hash_id=4e0e3f42-9d8e-4726-8759-4cc01110dbda\u0026opti_exp_cookie_id=oeu1772214592674r0.08376942981486346\u0026idempotence_id=aae91392-2348-460d-84a0-7704e14acb17",
+            "index": 115,
+            "size": 35
+          },
+          {
+            "url": "https://api.zaius.com/v2/zaius.gif?zaius_js_version=2.4.2\u0026tracker_id=8yoUTdBkNwpVOLCXeZpKdw\u0026event_type=customer_dimension\u0026data_source_type=sdk\u0026data_source=JavaScript\u0026data_source_instance=www.optimizely.com\u0026data_source_version=2.4.2\u0026vuid=4e0e3f42-9d8e-4726-8759-4cc01110dbda\u0026new_user=0\u0026low_web_user_id=oeu1772214592674r0.08376942981486346\u0026idempotence_id=864b4dc5-99cc-4c91-ae7d-251a3cdd4bc2",
+            "index": 116,
+            "size": 35
+          },
+          {
+            "url": "https://api.zaius.com/v3/graphql",
+            "index": 117,
+            "size": 0
+          },
+          {
+            "url": "https://api.zaius.com/v3/graphql",
+            "index": 118,
+            "size": 60
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/anchor?ar=1\u0026k=6LeurWggAAAAAIxUmsdOFuqf3K6ngR1VwTNffzNh\u0026co=aHR0cHM6Ly93d3cub3B0aW1pemVseS5jb206NDQz\u0026hl=en\u0026v=AWtrSI7lAmTAfV1rzWqEqz54\u0026size=invisible\u0026anchor-ms=20000\u0026execute-ms=30000\u0026cb=s4537djmz8ug",
+            "index": 119,
+            "size": 93084
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/anchor?ar=1\u0026k=6LeurWggAAAAAIxUmsdOFuqf3K6ngR1VwTNffzNh\u0026co=aHR0cHM6Ly93d3cub3B0aW1pemVseS5jb206NDQz\u0026hl=en\u0026v=AWtrSI7lAmTAfV1rzWqEqz54\u0026size=normal\u0026anchor-ms=20000\u0026execute-ms=30000\u0026cb=8otgsw1g8fcd",
+            "index": 120,
+            "size": 16846
+          },
+          {
+            "url": "https://region1.analytics.google.com/g/collect?v=2\u0026tid=G-C7SLJ6HMJ5\u0026gtm=45je62p1v884819886z876440394za20gzb76440394zd76440394\u0026_p=1772214592710\u0026_gaz=1\u0026gcs=G1--\u0026gcd=13l3l3R2l5l1\u0026npa=1\u0026dma_cps=syphamo\u0026dma=1\u0026cid=1973510610.1772214594\u0026ecid=888057403\u0026ul=en-us\u0026sr=800x600\u0026uaa=x86\u0026uab=64\u0026uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59\u0026uamb=0\u0026uam=\u0026uap=Linux\u0026uapv=\u0026uaw=0\u0026are=1\u0026frm=0\u0026pscdl=noapi\u0026ec_mode=a\u0026_eu=AAAAAGA\u0026_s=1\u0026tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115938466~115938469~117611007\u0026sid=1772214594\u0026sct=1\u0026seg=0\u0026dl=https%3A%2F%2Fwww.optimizely.com%2F\u0026dt=World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely\u0026en=page_view\u0026_fv=1\u0026_nsi=1\u0026_ss=1\u0026ep.page_type=Homepage\u0026ep.resource_topic=null\u0026ep.author=null\u0026ep.first_resource_topic=null\u0026ep.template=HomePage\u0026ep.folder=\u0026ep.gated=null\u0026ep.allowLinker=true\u0026up.employee=false\u0026up.user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20HeadlessChrome%2F144.0.0.0%20Safari%2F537.36\u0026tfd=2152",
+            "index": 121,
+            "size": 0
+          },
+          {
+            "url": "https://stats.g.doubleclick.net/g/collect?v=2\u0026tid=G-C7SLJ6HMJ5\u0026cid=1973510610.1772214594\u0026gtm=45je62p1v884819886z876440394za20gzb76440394zd76440394\u0026aip=1\u0026dma=1\u0026dma_cps=syphamo\u0026gcs=G1--\u0026gcd=13l3l3R2l5l1\u0026npa=1\u0026frm=0\u0026tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115938466~115938469~117611007",
+            "index": 122,
+            "size": 0
+          },
+          {
+            "url": "https://www.google.se/ads/ga-audiences?v=1\u0026t=sr\u0026slf_rd=1\u0026_r=4\u0026tid=G-C7SLJ6HMJ5\u0026cid=1973510610.1772214594\u0026gtm=45je62p1v884819886z876440394za20gzb76440394zd76440394\u0026aip=1\u0026dma=1\u0026dma_cps=syphamo\u0026gcs=G1--\u0026gcd=13l3l3R2l5l1\u0026npa=1\u0026frm=0\u0026tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115938466~115938469~117611007\u0026z=1753092497",
+            "index": 123,
+            "size": 42
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?frm=0\u0026en=page_view\u0026dl=https%3A%2F%2Fwww.optimizely.com%2F\u0026scrsrc=www.googletagmanager.com\u0026rnd=605504997.1772214593\u0026dt=World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely\u0026auid=1635160752.1772214593\u0026navt=n\u0026npa=1\u0026ep.page_type=Homepage\u0026ep.resource_topic=null\u0026ep.author=null\u0026ep.first_resource_topic=null\u0026ep.template=HomePage\u0026ep.gated=null\u0026ep.allowLinker=true\u0026gtm=45je62p1v884819886z876440394za20gzb76440394zd76440394xec\u0026gcs=G1--\u0026gcd=13l3l3R2l5l1\u0026dma_cps=syphamo\u0026dma=1\u0026tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115938466~115938469~117611007\u0026apve=1\u0026apvf=f\u0026apvc=0\u0026tids=AW-854039651~AW-951533114\u0026tid=AW-854039651\u0026tft=1772214594271\u0026tfd=2236",
+            "index": 124,
+            "size": 0
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?frm=0\u0026ae=g\u0026dl=https%3A%2F%2Fwww.optimizely.com%2F\u0026scrsrc=www.googletagmanager.com\u0026rnd=605504997.1772214593\u0026dt=World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely\u0026auid=1635160752.1772214593\u0026navt=n\u0026npa=1\u0026_tu=CA\u0026gtm=45je62p1v884819886z876440394za20gzb76440394zd76440394xea\u0026gcs=G1--\u0026gcd=13l3l3R2l5l1\u0026dma_cps=syphamo\u0026dma=1\u0026tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115938466~115938469~117611007\u0026apve=1\u0026apvf=f\u0026apvc=0\u0026tids=AW-854039651\u0026tid=AW-854039651\u0026tft=1772214594272\u0026tfd=2236",
+            "index": 125,
+            "size": 0
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/styles__ltr.css",
+            "index": 126,
+            "size": 83366
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+            "index": 127,
+            "size": 861792
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/styles__ltr.css",
+            "index": 128,
+            "size": 83366
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/releases/AWtrSI7lAmTAfV1rzWqEqz54/recaptcha__en.js",
+            "index": 129,
+            "size": 861792
+          },
+          {
+            "url": "https://j.6sc.co/6si.min.js",
+            "index": 130,
+            "size": 69903
+          },
+          {
+            "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/sentry/proxy",
+            "index": 131,
+            "size": 0
+          },
+          {
+            "url": "https://app.qualified.com/w/1/y5gZpv1sRkv2ZBXW/sentry/proxy",
+            "index": 132,
+            "size": 41
+          },
+          {
+            "url": "https://e.calibermind.com/v1/p",
+            "index": 133,
+            "size": 16
+          },
+          {
+            "url": "https://pixel-config.reddit.com/pixels/t2_940el/config",
+            "index": 134,
+            "size": 23
+          },
+          {
+            "url": "https://alb.reddit.com/rp.gif?ts=1772214594481\u0026id=t2_940el\u0026event=PageVisit\u0026m.value=\u0026m.transactionId=\u0026m.customEventName=\u0026m.products=\u0026m.conversionId=\u0026aaid=\u0026em=\u0026pn=\u0026external_id=\u0026idfa=\u0026integration=gtm\u0026partner=\u0026partner_version=1.0.2\u0026opt_out=0\u0026sh=800\u0026sw=600\u0026v=rdt_4c7f42cc\u0026dpm=\u0026dpcc=\u0026dprc=",
+            "index": 135,
+            "size": 42
+          },
+          {
+            "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+            "index": 136,
+            "size": 2228
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+            "index": 137,
+            "size": 40128
+          },
+          {
+            "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+            "index": 138,
+            "size": 40128
+          },
+          {
+            "url": "https://munchkin.marketo.net/164/munchkin.js",
+            "index": 139,
+            "size": 11374
+          },
+          {
+            "url": "https://api.zaius.com/v2/zaius.gif?zaius_js_version=2.4.2\u0026tracker_id=8yoUTdBkNwpVOLCXeZpKdw\u0026event_type=customer_dimension\u0026data_source_type=sdk\u0026data_source=JavaScript\u0026data_source_instance=www.optimizely.com\u0026data_source_version=2.4.2\u0026vuid=4e0e3f42-9d8e-4726-8759-4cc01110dbda\u0026new_user=0\u0026idempotence_id=5e7f4519-dc4a-4d23-93c2-b00b3bb993e2",
+            "index": 140,
+            "size": 35
+          },
+          {
+            "url": "https://connect.facebook.net/signals/config/395965220782133?v=2.9.272\u0026r=stable\u0026domain=www.optimizely.com\u0026hme=243a8305e15c8bf3a50c0d350a428553388d507240cf13e95dd0abfb8651365d\u0026ex_m=100%2C192%2C141%2C22%2C69%2C70%2C134%2C65%2C64%2C11%2C149%2C86%2C16%2C128%2C121%2C72%2C75%2C127%2C146%2C151%2C8%2C4%2C5%2C7%2C6%2C3%2C87%2C97%2C152%2C157%2C206%2C59%2C173%2C174%2C52%2C250%2C30%2C71%2C218%2C217%2C216%2C23%2C32%2C99%2C58%2C10%2C60%2C93%2C94%2C95%2C101%2C124%2C31%2C29%2C126%2C123%2C122%2C142%2C73%2C145%2C143%2C144%2C47%2C57%2C117%2C15%2C148%2C42%2C238%2C239%2C237%2C26%2C27%2C28%2C45%2C135%2C74%2C108%2C18%2C20%2C41%2C37%2C39%2C38%2C80%2C88%2C92%2C106%2C133%2C136%2C43%2C107%2C24%2C21%2C113%2C66%2C35%2C138%2C137%2C139%2C130%2C129%2C25%2C34%2C56%2C105%2C147%2C67%2C17%2C140%2C110%2C78%2C63%2C19%2C81%2C82%2C33%2C262%2C199%2C188%2C189%2C187%2C265%2C257%2C49%2C200%2C103%2C125%2C77%2C115%2C51%2C44%2C46%2C109%2C114%2C120%2C55%2C61%2C50%2C53%2C96%2C150%2C1%2C118%2C14%2C116%2C12%2C2%2C54%2C89%2C62%2C112%2C85%2C84%2C153%2C154%2C90%2C91%2C9%2C119%2C98%2C48%2C131%2C83%2C76%2C68%2C111%2C102%2C40%2C132%2C0%2C79%2C36%2C104%2C13%2C155",
+            "index": 141,
+            "size": 157102
+          },
+          {
+            "url": "https://scripts.clarity.ms/0.8.55/clarity.js",
+            "index": 142,
+            "size": 81104
+          },
+          {
+            "url": "https://logx.optimizely.com/v1/events",
+            "index": 143,
+            "size": 0
+          },
+          {
+            "url": "https://px.ads.linkedin.com/wa/?medium=fetch\u0026fmt=g",
+            "index": 144,
+            "size": 0
+          },
+          {
+            "url": "https://px.ads.linkedin.com/attribution_trigger?pid=6130\u0026time=1772214594897\u0026url=https%3A%2F%2Fwww.optimizely.com%2F\u0026tm=gtmv2",
+            "index": 145,
+            "size": 2
+          },
+          {
+            "url": "https://px.ads.linkedin.com/collect?v=2\u0026fmt=js\u0026pid=6130\u0026time=1772214594897\u0026url=https%3A%2F%2Fwww.optimizely.com%2F\u0026tm=gtmv2",
+            "index": 146,
+            "size": 0
+          },
+          {
+            "url": "https://px.ads.linkedin.com/attribution_trigger?pid=6130\u0026time=1772214594900\u0026url=https%3A%2F%2Fwww.optimizely.com%2F\u0026conversionId=25037609\u0026tm=gtmv2",
+            "index": 147,
+            "size": 2
+          },
+          {
+            "url": "https://px.ads.linkedin.com/collect?v=2\u0026fmt=js\u0026pid=6130\u0026time=1772214594900\u0026conversionId=25037609\u0026url=https%3A%2F%2Fwww.optimizely.com%2F\u0026tm=gtmv2",
+            "index": 148,
+            "size": 0
+          },
+          {
+            "url": "https://bat.bing.com/p/action/5796819.js",
+            "index": 149,
+            "size": 399
+          },
+          {
+            "url": "https://c.6sc.co/",
+            "index": 150,
+            "size": 0
+          },
+          {
+            "url": "https://ipv6.6sc.co/",
+            "index": 151,
+            "size": 4
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=a_pageload\u0026q=%7B%22pageLoadTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 152,
+            "size": 43
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=null\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=ni%3AasyncSettingsAudit\u0026q=%7B%22settings%22%3A%22%5B%7B%5C%22name%5C%22%3A%5C%22setToken%5C%22%2C%5C%22value%5C%22%3A%5C%224b665b832ce8d3821ef8ffff549299bc%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22disableCookies%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setEpsilonKey%5C%22%2C%5C%22value%5C%22%3A%5C%229752df097a3ecbcf2c5292b28b0af9303db215e3%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIPv6Ping%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableIgnorePageUrlHash%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableRetargeting%5C%22%2C%5C%22value%5C%22%3A%5C%22false%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setWhiteListFields%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCustomMetatags%5C%22%2C%5C%22value%5C%22%3A%5C%22%5B%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Acategory%5C%5C%5C%22%7D%2C%7B%5C%5C%5C%22property%5C%5C%5C%22%3A%5C%5C%5C%22article%3Atopic%5C%5C%5C%22%7D%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22storeTagId%5C%22%2C%5C%22value%5C%22%3A%5C%2261ba4203-c99f-4923-a9e8-596e6a0c8fef%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableEventTracking%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22setCompanyDetailsExpiration%5C%22%2C%5C%22value%5C%22%3A%5C%22true%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%2C%7B%5C%22name%5C%22%3A%5C%22enableCompanyDetails%5C%22%2C%5C%22value%5C%22%3A%5C%22%5Btrue%2Cnull%2C3%5D%5C%22%2C%5C%22dateTime%5C%22%3A%5C%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%5C%22%2C%5C%22timeSincePageLoad%5C%22%3A%5C%220%5C%22%7D%5D%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 153,
+            "size": 43
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/reload?k=6LeurWggAAAAAIxUmsdOFuqf3K6ngR1VwTNffzNh",
+            "index": 154,
+            "size": 39939
+          },
+          {
+            "url": "https://c.6sc.co/refresh",
+            "index": 155,
+            "size": 0
+          },
+          {
+            "url": "https://epsilon.6sense.com/v3/company/details",
+            "index": 156,
+            "size": 1836
+          },
+          {
+            "url": "https://epsilon.6sense.com/v3/company/details",
+            "index": 157,
+            "size": 0
+          },
+          {
+            "url": "https://c.6sc.co/?m=1",
+            "index": 158,
+            "size": 47
+          },
+          {
+            "url": "https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1772214595565\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-93b3f187a7caf851374c12df3782bd4b\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp=",
+            "index": 159,
+            "size": 2
+          },
+          {
+            "url": "https://www.google.com/recaptcha/api2/clr?k=6LeurWggAAAAAIxUmsdOFuqf3K6ngR1VwTNffzNh",
+            "index": 160,
+            "size": 0
+          },
+          {
+            "url": "https://bat.bing.net/actionp/0?ti=5796819\u0026tm=gtm002\u0026Ver=2\u0026mid=dd281f55-90cc-4e54-ba78-d319b70d1ebb\u0026bo=1\u0026evt=consent\u0026src=enforced\u0026cdb=ARoZ\u0026asc=D",
+            "index": 161,
+            "size": 0
+          },
+          {
+            "url": "https://bat.bing.net/action/0?ti=5796819\u0026tm=gtm002\u0026Ver=2\u0026mid=dd281f55-90cc-4e54-ba78-d319b70d1ebb\u0026bo=2\u0026pi=918639831\u0026lg=en-US\u0026sw=800\u0026sh=600\u0026sc=24\u0026tl=World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely\u0026p=https%3A%2F%2Fwww.optimizely.com%2F\u0026r=\u0026lt=877\u0026evt=pageLoad\u0026sv=2\u0026asc=D\u0026cdb=ARoZ\u0026rn=21480",
+            "index": 162,
+            "size": 0
+          },
+          {
+            "url": "https://z.clarity.ms/collect",
+            "index": 163,
+            "size": 0
+          },
+          {
+            "url": "https://js.zi-scripts.com/zi-tag.js",
+            "index": 164,
+            "size": 19943
+          },
+          {
+            "url": "https://www.clarity.ms/tag/9nms5khs7a?ref=gtm",
+            "index": 165,
+            "size": 627
+          },
+          {
+            "url": "https://rum.optimizely.com/rum",
+            "index": 166,
+            "size": 2
+          },
+          {
+            "url": "https://insight.adsrvr.org/track/cei?advertiser_id=p8crqh7\u0026cookie_sync=1\u0026upv=3.0.0\u0026upid=mkros1a\u0026ref=https://www.optimizely.com/",
+            "index": 167,
+            "size": 0
+          },
+          {
+            "url": "https://dc.services.visualstudio.com/v2/track",
+            "index": 168,
+            "size": 0
+          },
+          {
+            "url": "https://dc.services.visualstudio.com/v2/track",
+            "index": 169,
+            "size": 98
+          },
+          {
+            "url": "https://www.optimizely.com/assets/images/favicon.svg",
+            "index": 170,
+            "size": 690
+          },
+          {
+            "url": "https://www.optimizely.com/globalassets/favicon.svg",
+            "index": 171,
+            "size": 690
+          },
+          {
+            "url": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions",
+            "index": 172,
+            "size": 513
+          },
+          {
+            "url": "https://js.zi-scripts.com/unified/v1/master/getSubscriptions",
+            "index": 173,
+            "size": 0
+          },
+          {
+            "url": "https://match.adsrvr.org/track/cei?advertiser_id=p8crqh7\u0026cookie_sync=1\u0026upv=3.0.0\u0026upid=mkros1a\u0026ref=https%3a%2f%2fwww.optimizely.com\u0026redirect=1",
+            "index": 174,
+            "size": 385
+          },
+          {
+            "url": "https://js.adsrvr.org/universal_pixel.js",
+            "index": 175,
+            "size": 422
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A56%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A55%20GMT%22%2C%22timeSpent%22%3A%221033%22%2C%22totalTimeSpent%22%3A%221033%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 176,
+            "size": 43
+          },
+          {
+            "url": "https://z.clarity.ms/collect",
+            "index": 177,
+            "size": 0
+          },
+          {
+            "url": "https://ws.zoominfo.com/pixel/61aa34848a6093001ca594ff/?iszitag=true",
+            "index": 178,
+            "size": 0
+          },
+          {
+            "url": "https://ws.zoominfo.com/pixel/61aa34848a6093001ca594ff/?iszitag=true",
+            "index": 179,
+            "size": 3315
+          },
+          {
+            "url": "https://insight.adsrvr.org/track/realtimeconversion",
+            "index": 180,
+            "size": 36
+          },
+          {
+            "url": "https://insight.adsrvr.org/track/realtimeconversion",
+            "index": 181,
+            "size": 0
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A57%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A56%20GMT%22%2C%22timeSpent%22%3A%221031%22%2C%22totalTimeSpent%22%3A%222064%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 182,
+            "size": 43
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A58%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A57%20GMT%22%2C%22timeSpent%22%3A%221031%22%2C%22totalTimeSpent%22%3A%223095%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 183,
+            "size": 43
+          },
+          {
+            "url": "https://z.clarity.ms/collect",
+            "index": 184,
+            "size": 0
+          },
+          {
+            "url": "https://region1.analytics.google.com/g/collect?v=2\u0026tid=G-C7SLJ6HMJ5\u0026gtm=45je62p1v884819886z876440394za20gzb76440394zd76440394\u0026_p=1772214592710\u0026gcs=G1--\u0026gcd=13l3l3R2l5l1\u0026npa=1\u0026dma_cps=syphamo\u0026dma=1\u0026cid=1973510610.1772214594\u0026ecid=888057403\u0026ul=en-us\u0026sr=800x600\u0026uaa=x86\u0026uab=64\u0026uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59\u0026uamb=0\u0026uam=\u0026uap=Linux\u0026uapv=\u0026uaw=0\u0026are=1\u0026frm=0\u0026pscdl=noapi\u0026_eu=AAAAAGQ\u0026tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115938466~115938469~117611007\u0026sid=1772214594\u0026sct=1\u0026seg=0\u0026dl=https%3A%2F%2Fwww.optimizely.com%2F\u0026dt=World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely\u0026_s=2\u0026tfd=7255",
+            "index": 185,
+            "size": 0
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A59%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A58%20GMT%22%2C%22timeSpent%22%3A%221009%22%2C%22totalTimeSpent%22%3A%224104%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 186,
+            "size": 43
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A00%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A49%3A59%20GMT%22%2C%22timeSpent%22%3A%221078%22%2C%22totalTimeSpent%22%3A%225182%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 187,
+            "size": 43
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A01%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A00%20GMT%22%2C%22timeSpent%22%3A%221336%22%2C%22totalTimeSpent%22%3A%226518%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 188,
+            "size": 43
+          },
+          {
+            "url": "https://z.clarity.ms/collect",
+            "index": 189,
+            "size": 0
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A03%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A01%20GMT%22%2C%22timeSpent%22%3A%221115%22%2C%22totalTimeSpent%22%3A%227633%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 190,
+            "size": 43
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A04%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A03%20GMT%22%2C%22timeSpent%22%3A%221070%22%2C%22totalTimeSpent%22%3A%228703%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 191,
+            "size": 43
+          },
+          {
+            "url": "https://b.6sc.co/v1/beacon/img.gif?token=4b665b832ce8d3821ef8ffff549299bc\u0026svisitor=178b48175cc63d0043d9a169970300007be10100\u0026visitor=7188986f-c80e-4320-84f3-a69022355b95\u0026session=c387e8e3-c39e-40f9-8b2d-faef13243bb8\u0026event=active_time_track\u0026q=%7B%22currentTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A05%20GMT%22%2C%22lastTrackTime%22%3A%22Fri%2C%2027%20Feb%202026%2017%3A50%3A04%20GMT%22%2C%22timeSpent%22%3A%221013%22%2C%22totalTimeSpent%22%3A%229716%22%7D\u0026isIframe=false\u0026m=%7B%22description%22%3A%22Empowering%20marketing%20and%20digital%20teams%20with%20everything%20they%20need%20to%20create%20content%20fast%2C%20test%20and%20personalize%20with%20ease%2C%20and%20prove%20impact%20on%20business%20outcomes.%22%2C%22keywords%22%3A%22%22%2C%22title%22%3A%22World%27s%20leading%20AI-powered%20digital%20experiences%20-%20Optimizely%22%2C%22article%3Acategory%22%3A%22%22%2C%22article%3Atopic%22%3A%22%22%7D\u0026cb=\u0026r=\u0026thirdParty=%7B%7D\u0026v2=1\u0026pageURL=https%3A%2F%2Fwww.optimizely.com%2F\u0026pageViewId=91180c44-2e08-4bbf-81fb-30647db97c49\u0026webTagId=61ba4203-c99f-4923-a9e8-596e6a0c8fef\u0026v=1.1.31",
+            "index": 192,
+            "size": 43
+          }
+        ],
+        "total-byte-weight": 10699770,
+        "co2": 6.4504845573857885,
+        "cleaner_than": 10.0
+      }
+    }
+  ]
+}

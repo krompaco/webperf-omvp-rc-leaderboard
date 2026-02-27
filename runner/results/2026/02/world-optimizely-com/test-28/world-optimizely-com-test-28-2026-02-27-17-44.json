@@ -1,0 +1,2017 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 28,
+      "rating": 1.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 1.95,
+      "date": "2026-02-27T17:44:30.866314",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- Validate permitted attribute values (error)\n  More info:\n  - https://html-validate.org/rules/attribute-allowed-values.html\n\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Ensure required attributes are set (error)\n  More info:\n  - https://html-validate.org/rules/element-required-attributes.html\n\n  Url(s) with issues:\n  - https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fworld.optimizely.com\n  - https://world.optimizely.com/\n\n- Disallow usage of deprecated attributes (error)\n  More info:\n  - https://html-validate.org/rules/no-deprecated-attr.html\n\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Require \u0060id\u0060 to be a valid identifier (error)\n  More info:\n  - https://html-validate.org/rules/valid-id.html\n\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Disallow duplicated IDs (error)\n  More info:\n  - https://html-validate.org/rules/no-dup-id.html\n\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Ensure required elements are present (error)\n  More info:\n  - https://html-validate.org/rules/element-required-content.html\n\n  Url(s) with issues:\n  - https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fworld.optimizely.com\n\n- Validate permitted content (warning)\n  More info:\n  - https://html-validate.org/rules/element-permitted-content.html\n\n  Url(s) with issues:\n  - https://world.optimizely.com/\n\n- Require attributes to be separated by whitespace (resolved)\n  More info:\n  - https://html-validate.org/rules/attr-spacing.html\n\n- Require attribute to be used in correct context (resolved)\n  More info:\n  - https://html-validate.org/rules/attribute-misuse.html\n\n- Disallow end tags from having attributes (resolved)\n  More info:\n  - https://html-validate.org/rules/close-attr.html\n\n- Require elements to be closed in correct order (resolved)\n  More info:\n  - https://html-validate.org/rules/close-order.html\n\n- Disallow usage of deprecated elements (resolved)\n  More info:\n  - https://html-validate.org/rules/deprecated.html\n\n- Disallow usage of deprecated rules (resolved)\n  More info:\n  - https://html-validate.org/rules/deprecated-rule.html\n\n- Require usage of \u0060html\u0060 doctype (resolved)\n  More info:\n  - https://html-validate.org/rules/doctype-html.html\n\n- Disallow invalid element names (resolved)\n  More info:\n  - https://html-validate.org/rules/element-name.html\n\n- Validate permitted number of element occurrences (resolved)\n  More info:\n  - https://html-validate.org/rules/element-permitted-occurrences.html\n\n- Validate required element order (resolved)\n  More info:\n  - https://html-validate.org/rules/element-permitted-order.html\n\n- Validate permitted element parent (resolved)\n  More info:\n  - https://html-validate.org/rules/element-permitted-parent.html\n\n- Require \u0060\u003Cmap name\u003E\u0060 to be unique (resolved)\n  More info:\n  - https://html-validate.org/rules/map-dup-name.html\n\n- Require name and id to match on \u0060\u003Cmap\u003E\u0060 elements (resolved)\n  More info:\n  - https://html-validate.org/rules/map-id-name.html\n\n- Disallow duplicated attributes (resolved)\n  More info:\n  - https://html-validate.org/rules/no-dup-attr.html\n\n- Disallow multiple \u0060\u003Cmain\u003E\u0060 (resolved)\n  More info:\n  - https://html-validate.org/rules/no-multiple-main.html\n\n- Disallow the use of unescaped special characters (resolved)\n  More info:\n  - https://html-validate.org/rules/no-raw-characters.html\n\n- Disallow unused disable directives (resolved)\n  More info:\n  - https://html-validate.org/rules/no-unused-disable.html\n\n- Require end tag for \u0060\u003Cscript\u003E\u0060 (resolved)\n  More info:\n  - https://html-validate.org/rules/script-element.html\n\n- Disallow unrecognized character references (resolved)\n  More info:\n  - https://html-validate.org/rules/unrecognized-char-ref.html\n\n- Require autocomplete attribute to be valid (resolved)\n  More info:\n  - https://html-validate.org/rules/valid-autocomplete.html\n\n- Disallow void element with content (resolved)\n  More info:\n  - https://html-validate.org/rules/void-content.html\n\n",
+      "data": {
+        "version": "2025.12.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "world.optimizely.com": {
+            "version": "2025.12.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 39,
+              "standard": 39
+            },
+            "issues": [
+              {
+                "test": "html",
+                "rule": "attribute-allowed-values",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/attribute-allowed-values.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 128,
+                    "column": 109
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 137,
+                    "column": 112
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 143,
+                    "column": 149
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 144,
+                    "column": 149
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 148,
+                    "column": 99
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 154,
+                    "column": 136
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 155,
+                    "column": 132
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 159,
+                    "column": 130
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 164,
+                    "column": 133
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 169,
+                    "column": 115
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 175,
+                    "column": 152
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 176,
+                    "column": 152
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 180,
+                    "column": 119
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 186,
+                    "column": 156
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 187,
+                    "column": 156
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 191,
+                    "column": 118
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 196,
+                    "column": 95
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 201,
+                    "column": 119
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 206,
+                    "column": 104
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 232,
+                    "column": 107
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 238,
+                    "column": 148
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 239,
+                    "column": 153
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 240,
+                    "column": 153
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 241,
+                    "column": 162
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 242,
+                    "column": 158
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 243,
+                    "column": 154
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 269,
+                    "column": 115
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 278,
+                    "column": 108
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 283,
+                    "column": 101
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 288,
+                    "column": 99
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 293,
+                    "column": 100
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 298,
+                    "column": 119
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 303,
+                    "column": 99
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 310,
+                    "column": 110
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 324,
+                    "column": 95
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 329,
+                    "column": 128
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 334,
+                    "column": 83
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 339,
+                    "column": 83
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 354,
+                    "column": 117
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 361,
+                    "column": 100
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 375,
+                    "column": 91
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 381,
+                    "column": 134
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 382,
+                    "column": 138
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 396,
+                    "column": 128
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 400,
+                    "column": 94
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                    "line": 405,
+                    "column": 85
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "element-required-attributes",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/element-required-attributes.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                    "line": 2,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+                    "line": 73,
+                    "column": 10
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 529,
+                    "column": 22
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 551,
+                    "column": 22
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 573,
+                    "column": 22
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 596,
+                    "column": 22
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 766,
+                    "column": 18
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 794,
+                    "column": 18
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 822,
+                    "column": 18
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 850,
+                    "column": 18
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 1524,
+                    "column": 18
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                    "line": 1547,
+                    "column": 18
+                  },
+                  {
+                    "url": "https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fworld.optimizely.com",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                    "line": 2,
+                    "column": 2
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "no-deprecated-attr",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/no-deprecated-attr.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022name\u0022 is deprecated on \u003Ca\u003E element",
+                    "line": 78,
+                    "column": 8
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                    "line": 531,
+                    "column": 80
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                    "line": 553,
+                    "column": 80
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                    "line": 575,
+                    "column": 80
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                    "line": 598,
+                    "column": 80
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                    "line": 1010,
+                    "column": 80
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "valid-id",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/valid-id.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u0022-1\u0022 must begin with a letter",
+                    "line": 134,
+                    "column": 63
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u0022-1\u0022 must begin with a letter",
+                    "line": 219,
+                    "column": 63
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u0022-1\u0022 must begin with a letter",
+                    "line": 275,
+                    "column": 63
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u0022-1\u0022 must begin with a letter",
+                    "line": 316,
+                    "column": 63
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u0022-1\u0022 must begin with a letter",
+                    "line": 367,
+                    "column": 63
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "element id \u002230-days-tab\u0022 must begin with a letter",
+                    "line": 1040,
+                    "column": 46
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "no-dup-id",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/no-dup-id.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022-1\u0022",
+                    "line": 219,
+                    "column": 63
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022-1\u0022",
+                    "line": 275,
+                    "column": 63
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022-1\u0022",
+                    "line": 316,
+                    "column": 63
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Duplicate ID \u0022-1\u0022",
+                    "line": 367,
+                    "column": 63
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "element-required-content",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://html-validate.org/rules/element-required-content.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fworld.optimizely.com",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                    "line": 3,
+                    "column": 2
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-content",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-content.html"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "element-permitted-content",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "\u003Cstyle\u003E element is not permitted as content under \u003Cbody\u003E",
+                    "line": 85,
+                    "column": 2
+                  }
+                ]
+              },
+              {
+                "test": "html",
+                "rule": "attr-spacing",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/attr-spacing.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "attribute-misuse",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/attribute-misuse.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "close-attr",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/close-attr.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "close-order",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/close-order.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/deprecated.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "deprecated-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/deprecated-rule.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "doctype-html",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/doctype-html.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-occurrences",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-occurrences.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-order",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-order.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "element-permitted-parent",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/element-permitted-parent.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "map-dup-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/map-dup-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "map-id-name",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/map-id-name.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-dup-attr",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-dup-attr.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-multiple-main",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-multiple-main.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-raw-characters",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-raw-characters.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "no-unused-disable",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/no-unused-disable.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "script-element",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/script-element.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "unrecognized-char-ref",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/unrecognized-char-ref.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "valid-autocomplete",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/valid-autocomplete.html"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "html",
+                "rule": "void-content",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://html-validate.org/rules/void-content.html"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://world.optimizely.com/": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://world.optimizely.com/",
+                "score": {
+                  "overall": 39,
+                  "standard": 39
+                },
+                "issues": [
+                  {
+                    "test": "html",
+                    "rule": "attribute-allowed-values",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/attribute-allowed-values.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 128,
+                        "column": 109
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 137,
+                        "column": 112
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 143,
+                        "column": 149
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 144,
+                        "column": 149
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 148,
+                        "column": 99
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 154,
+                        "column": 136
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 155,
+                        "column": 132
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 159,
+                        "column": 130
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 164,
+                        "column": 133
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 169,
+                        "column": 115
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 175,
+                        "column": 152
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 176,
+                        "column": 152
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 180,
+                        "column": 119
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 186,
+                        "column": 156
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 187,
+                        "column": 156
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 191,
+                        "column": 118
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 196,
+                        "column": 95
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 201,
+                        "column": 119
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 206,
+                        "column": 104
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 232,
+                        "column": 107
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 238,
+                        "column": 148
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 239,
+                        "column": 153
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 240,
+                        "column": 153
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 241,
+                        "column": 162
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 242,
+                        "column": 158
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 243,
+                        "column": 154
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 269,
+                        "column": 115
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 278,
+                        "column": 108
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 283,
+                        "column": 101
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 288,
+                        "column": 99
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 293,
+                        "column": 100
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 298,
+                        "column": 119
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 303,
+                        "column": 99
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 310,
+                        "column": 110
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 324,
+                        "column": 95
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 329,
+                        "column": 128
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 334,
+                        "column": 83
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 339,
+                        "column": 83
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 354,
+                        "column": 117
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 361,
+                        "column": 100
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 375,
+                        "column": 91
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 381,
+                        "column": 134
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 382,
+                        "column": 138
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 396,
+                        "column": 128
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 400,
+                        "column": 94
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "attribute-allowed-values",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022target\u0022 has invalid value \u0022\u0022",
+                        "line": 405,
+                        "column": 85
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-required-attributes",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/element-required-attributes.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                        "line": 2,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Ciframe\u003E is missing required \u0022title\u0022 attribute",
+                        "line": 73,
+                        "column": 10
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 529,
+                        "column": 22
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 551,
+                        "column": 22
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 573,
+                        "column": 22
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 596,
+                        "column": 22
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 766,
+                        "column": 18
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 794,
+                        "column": 18
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 822,
+                        "column": 18
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 850,
+                        "column": 18
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 1524,
+                        "column": 18
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Cimg\u003E is missing required \u0022src\u0022 attribute",
+                        "line": 1547,
+                        "column": 18
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fworld.optimizely.com",
+                        "rule": "element-required-attributes",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chtml\u003E is missing required \u0022lang\u0022 attribute",
+                        "line": 2,
+                        "column": 2
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-deprecated-attr",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/no-deprecated-attr.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022name\u0022 is deprecated on \u003Ca\u003E element",
+                        "line": 78,
+                        "column": 8
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                        "line": 531,
+                        "column": 80
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                        "line": 553,
+                        "column": 80
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                        "line": 575,
+                        "column": 80
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                        "line": 598,
+                        "column": 80
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-deprecated-attr",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Attribute \u0022align\u0022 is deprecated on \u003Cdiv\u003E element",
+                        "line": 1010,
+                        "column": 80
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "valid-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/valid-id.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u0022-1\u0022 must begin with a letter",
+                        "line": 134,
+                        "column": 63
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u0022-1\u0022 must begin with a letter",
+                        "line": 219,
+                        "column": 63
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u0022-1\u0022 must begin with a letter",
+                        "line": 275,
+                        "column": 63
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u0022-1\u0022 must begin with a letter",
+                        "line": 316,
+                        "column": 63
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u0022-1\u0022 must begin with a letter",
+                        "line": 367,
+                        "column": 63
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "valid-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "element id \u002230-days-tab\u0022 must begin with a letter",
+                        "line": 1040,
+                        "column": 46
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-dup-id",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/no-dup-id.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022-1\u0022",
+                        "line": 219,
+                        "column": 63
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022-1\u0022",
+                        "line": 275,
+                        "column": 63
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022-1\u0022",
+                        "line": 316,
+                        "column": 63
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-dup-id",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Duplicate ID \u0022-1\u0022",
+                        "line": 367,
+                        "column": 63
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-required-content",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://html-validate.org/rules/element-required-content.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fworld.optimizely.com",
+                        "rule": "element-required-content",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "\u003Chead\u003E element must have \u003Ctitle\u003E as content",
+                        "line": 3,
+                        "column": 2
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-content",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-content.html"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "element-permitted-content",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "\u003Cstyle\u003E element is not permitted as content under \u003Cbody\u003E",
+                        "line": 85,
+                        "column": 2
+                      }
+                    ]
+                  },
+                  {
+                    "test": "html",
+                    "rule": "attr-spacing",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/attr-spacing.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "attribute-misuse",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/attribute-misuse.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "close-attr",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/close-attr.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "close-order",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/close-order.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/deprecated.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "deprecated-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/deprecated-rule.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "doctype-html",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/doctype-html.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-occurrences",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-occurrences.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-order",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-order.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "element-permitted-parent",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/element-permitted-parent.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "map-dup-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/map-dup-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "map-id-name",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/map-id-name.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-dup-attr",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-dup-attr.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-multiple-main",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-multiple-main.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-raw-characters",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-raw-characters.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "no-unused-disable",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/no-unused-disable.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "script-element",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/script-element.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "unrecognized-char-ref",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/unrecognized-char-ref.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "valid-autocomplete",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/valid-autocomplete.html"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "html",
+                    "rule": "void-content",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://html-validate.org/rules/void-content.html"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

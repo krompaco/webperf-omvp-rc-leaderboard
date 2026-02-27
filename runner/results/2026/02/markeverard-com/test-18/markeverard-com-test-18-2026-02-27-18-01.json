@@ -1,0 +1,220 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T18:01:38.895600",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Anchor element found with a valid href attribute, but no link content has been supplied. (error)\n  Url(s) with issues:\n  - https://www.markeverard.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.markeverard.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022http://github.com/markeverard\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-github\u0022\u003E\u003C/i\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E aside \u003E footer \u003E section \u003E ul \u003E li:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://in.linkedin.com/in/everard\u0022 target=\u0022_blank\u0022\u003E\u003Ci class=\u0022fa fa-linkedin\u0022\u003E\u003C/i\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E aside \u003E footer \u003E section \u003E ul \u003E li:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://www.ftt.ai/\u0022\u003E\u003Ci class=\u0022fa fa-code\u0022\u003E\u003C/i\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E aside \u003E footer \u003E section \u003E ul \u003E li:nth-child(3) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca class=\u0022post-thumbnail\u0022 style=\u0022background-image: url(/assets/img/2024-10-11-microfrontends.jpg)\u0022 href=\u0022/2024/10/20/using-optimizely-with-micro-front-end-architectures/\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E article:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca class=\u0022post-thumbnail\u0022 style=\u0022background-image: url(/assets/img/2024-09-11-onederful.jpeg)\u0022 href=\u0022/2024/09/11/onederful-opticon-2024/\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E article:nth-child(2) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca class=\u0022post-thumbnail\u0022 style=\u0022background-image: url(/assets/img/2023-08-23-proximity-good-communication.jpeg)\u0022 href=\u0022/2023/08/22/dont-mistake-proximity-for-good-communication/\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E article:nth-child(3) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca class=\u0022post-thumbnail\u0022 style=\u0022background-image: url(/assets/img/2023-08-16-dxp-engine.jpeg)\u0022 href=\u0022/2023/08/16/dxp-as-the-engine-for-your-data-strategy/\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E article:nth-child(4) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca class=\u0022post-thumbnail\u0022 style=\u0022background-image: url(/assets/img/2023-02-23-headless.jpeg)\u0022 href=\u0022/2023/02/23/technology-choices-are-hard-enough/\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E article:nth-child(5) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca class=\u0022post-thumbnail\u0022 style=\u0022background-image: url(/assets/img/2022-10-09-omvp2022.jpeg)\u0022 href=\u0022/2022/10/09/omvp-summit-2022/\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E article:nth-child(6) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.markeverard.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca class=\u0022post-thumbnail\u0022 style=\u0022background-image: url(/assets/img/2022-10-09-opticon2022.jpeg)\u0022 href=\u0022/2022/10/09/top-three-take-homes-from-opticon-2022/\u0022\u003E\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div \u003E div \u003E article:nth-child(7) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 90.0,
+              "a11y": 90
+            }
+          }
+        }
+      }
+    }
+  ]
+}

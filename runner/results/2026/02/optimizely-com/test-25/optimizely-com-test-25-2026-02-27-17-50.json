@@ -1,0 +1,334 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 2.64,
+      "rating_sec": 2.42,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2026-02-27T17:51:10.821650",
+      "report": "- CMS used: episerver\r\n- Web server used: envoy, kestrel, microsoft-httpapi, nginx\r\n- Technology used: asp.net, c, csharp, es6, js, typescript\r\n- License(s) used: apache-2.0, mit\r\n- Metadata used: dns-prefetch, icon, preload, viewport\r\n- Javascript libraries used: applicationinsights-js, babel, clarity, clarity-js, core-js, domready, jquery, jquery-ui, react, transformation-matrix, util\r\n- Languages found: de, en, no, sv, x-default\r\n- Image formats used: gif, jpg, png, svg, webp\r\n",
+      "report_sec": "##### Software related to CVE:s ( 1.0 rating )\r\n\r\n###### Introduction:\r\nSoftware version used is affected by vulnerability described below.\r\nIn most cases you can fix a CVE related issue by updating software to latest version.\r\nIn some rare cases there is no update and you need to consider not using the software affected.\r\n\r\n###### Common Vulnerabilities and Exposures\r\n- CVE-2026-1642\r\n- CVE-2025-53859\r\n- CVE-2025-23419\r\n- CVE-2024-7347\r\n- CVE-2022-41741\r\n- CVE-2022-41742\r\n\r\n###### Detected software(s):\r\n- nginx 1.20.1\r\n\r\n###### Affected resource(s):\r\n- https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1772214635411\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-86b399236668d0a048522de79de997af\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp=\r\n##### Software is behind \u003E=25 versions ( 2.75 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 25 or more version compared to latests.\r\nThis is a good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- applicationinsights-js 2.8.18\r\n- nginx 1.20.1\r\n\r\n###### Affected resource(s):\r\n- https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js\r\n- https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1772214635411\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-86b399236668d0a048522de79de997af\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp=\r\n##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- react 18.2.0\r\n- core-js 3.32.2\r\n\r\n###### Affected resource(s):\r\n- https://www.optimizely.com/assets/entry-client-dc53019c.js\r\n- https://connect.facebook.net/en_US/fbevents.js\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- jquery 3.5.1\r\n- jquery-ui 1.13.3\r\n\r\n###### Affected resource(s):\r\n- https://www.optimizely.com/Util/EPiServer.Forms/jquery-3.5.1.min.js\r\n- https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.min.js\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "CVE": {
+            "softwares": [
+              "nginx 1.20.1"
+            ],
+            "resources": [
+              "https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1772214635411\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-86b399236668d0a048522de79de997af\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp="
+            ],
+            "sub-issues": [
+              "CVE-2026-1642",
+              "CVE-2025-53859",
+              "CVE-2025-23419",
+              "CVE-2024-7347",
+              "CVE-2022-41741",
+              "CVE-2022-41742"
+            ]
+          },
+          "BEHIND025": {
+            "softwares": [
+              "applicationinsights-js 2.8.18",
+              "nginx 1.20.1"
+            ],
+            "resources": [
+              "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+              "https://947-rke-048.mktoresp.com/webevents/visitWebPage?_mchNc=1772214635411\u0026_mchCn=\u0026_mchId=947-RKE-048\u0026_mchTk=_mch-optimizely.com-86b399236668d0a048522de79de997af\u0026_mchHo=www.optimizely.com\u0026_mchPo=\u0026_mchRu=%2F\u0026_mchPc=https%3A\u0026_mchVr=164\u0026_mchEcid=\u0026_mchHa=\u0026_mchRe=\u0026_mchQp="
+            ],
+            "sub-issues": []
+          },
+          "BEHIND010": {
+            "softwares": [
+              "react 18.2.0",
+              "core-js 3.32.2"
+            ],
+            "resources": [
+              "https://www.optimizely.com/assets/entry-client-dc53019c.js",
+              "https://connect.facebook.net/en_US/fbevents.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND001": {
+            "softwares": [
+              "jquery 3.5.1",
+              "jquery-ui 1.13.3"
+            ],
+            "resources": [
+              "https://www.optimizely.com/Util/EPiServer.Forms/jquery-3.5.1.min.js",
+              "https://www.optimizely.com/Util/EPiServer.Forms.Samples/jquery-ui/jquery-ui.min.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "tech": {
+          "csharp": {
+            "?": {
+              "name": "csharp",
+              "precision": 0.5
+            }
+          },
+          "asp.net": {
+            "?": {
+              "name": "asp.net",
+              "precision": 0.5
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          },
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "dns-prefetch": {
+            "?": {
+              "name": "dns-prefetch",
+              "precision": 0.5
+            }
+          },
+          "preload": {
+            "?": {
+              "name": "preload",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "lang": {
+          "x-default": {
+            "?": {
+              "name": "x-default",
+              "precision": 0.8
+            }
+          },
+          "de": {
+            "?": {
+              "name": "de",
+              "precision": 0.8
+            }
+          },
+          "sv": {
+            "?": {
+              "name": "sv",
+              "precision": 0.8
+            }
+          },
+          "no": {
+            "?": {
+              "name": "no",
+              "precision": 0.8
+            }
+          },
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "cms": {
+          "episerver": {
+            "?": {
+              "name": "episerver",
+              "precision": 0.5
+            }
+          }
+        },
+        "js": {
+          "react": {
+            "18.2.0": {
+              "name": "react",
+              "precision": 0.6,
+              "github-owner": "facebook",
+              "github-repo": "react"
+            }
+          },
+          "jquery": {
+            "3.5.1": {
+              "name": "jquery",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "applicationinsights-js": {
+            "2.8.18": {
+              "name": "applicationinsights-js",
+              "precision": 0.8,
+              "github-owner": "Microsoft",
+              "github-repo": "ApplicationInsights-JS"
+            }
+          },
+          "jquery-ui": {
+            "1.13.3": {
+              "name": "jquery-ui",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery-ui"
+            }
+          },
+          "transformation-matrix": {
+            "2.0": {
+              "name": "transformation-matrix",
+              "precision": 0.5
+            }
+          },
+          "core-js": {
+            "3.32.2": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          },
+          "babel": {
+            "?": {
+              "name": "babel",
+              "precision": 0.1,
+              "github-owner": "babel",
+              "github-repo": "babel"
+            }
+          },
+          "util": {
+            "?": {
+              "name": "util",
+              "precision": 0.5
+            }
+          },
+          "domready": {
+            "?": {
+              "name": "domready",
+              "precision": 0.1,
+              "github-owner": "ded",
+              "github-repo": "domready"
+            }
+          },
+          "clarity-js": {
+            "0.8.55": {
+              "name": "clarity-js",
+              "precision": 0.5
+            }
+          },
+          "clarity": {
+            "?": {
+              "name": "clarity",
+              "precision": 0.1,
+              "github-owner": "microsoft",
+              "github-repo": "clarity"
+            }
+          }
+        },
+        "license": {
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          },
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          },
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "jpg": {
+            "?": {
+              "name": "jpg",
+              "precision": 0.4
+            }
+          },
+          "gif": {
+            "?": {
+              "name": "gif",
+              "precision": 0.4
+            }
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "1.20.1": {
+              "name": "nginx",
+              "precision": 0.8,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          },
+          "envoy": {
+            "?": {
+              "name": "envoy",
+              "precision": 0.4
+            }
+          },
+          "kestrel": {
+            "?": {
+              "name": "kestrel",
+              "precision": 0.4
+            }
+          },
+          "microsoft-httpapi": {
+            "2.0": {
+              "name": "microsoft-httpapi",
+              "precision": 0.8
+            }
+          }
+        }
+      }
+    }
+  ]
+}
