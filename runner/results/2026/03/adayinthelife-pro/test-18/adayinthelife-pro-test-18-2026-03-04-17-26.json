@@ -1,0 +1,400 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 2.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 2.5,
+      "rating_stand": -1.0,
+      "date": "2026-03-04T17:26:39.057475",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)\n  Url(s) with issues:\n  - https://adayinthelife.pro/\n\n- Anchor element found with a valid href attribute, but no link content has been supplied. (error)\n  Url(s) with issues:\n  - https://adayinthelife.pro/\n\n- This textinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)\n  Url(s) with issues:\n  - https://adayinthelife.pro/\n\n- This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)\n  Url(s) with issues:\n  - https://adayinthelife.pro/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.67:1. Recommendation:  change text colour to #feffff. (error)\n  Url(s) with issues:\n  - https://adayinthelife.pro/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "adayinthelife.pro": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton type=\u0022button\u0022 class=\u0022text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-teal-500 rounded-lg p-2 transition-colors\u0022\u003E\u003Csvg class=\u0022h-6 w-6\u0022 fill=\u0022none...\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E header \u003E nav \u003E div \u003E div:nth-child(3) \u003E button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-30 w-11 h-11 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-teal-500/50 inline-flex items-center justify-center text-...",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E button:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-30 w-11 h-11 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-teal-500/50 inline-flex items-center justify-center tex...",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E button:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022h-2.5 rounded-full transition-all duration-300 bg-teal-500 w-8\u0022\u003E\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E button:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022h-2.5 rounded-full transition-all duration-300 bg-white/20 hover:bg-white/40 w-2.5\u0022\u003E\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E button:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022h-2.5 rounded-full transition-all duration-300 bg-white/20 hover:bg-white/40 w-2.5\u0022\u003E\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E button:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022h-2.5 rounded-full transition-all duration-300 bg-white/20 hover:bg-white/40 w-2.5\u0022\u003E\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E button:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022h-2.5 rounded-full transition-all duration-300 bg-white/20 hover:bg-white/40 w-2.5\u0022\u003E\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E button:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022h-2.5 rounded-full transition-all duration-300 bg-white/20 hover:bg-white/40 w-2.5\u0022\u003E\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E button:nth-child(6)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022h-2.5 rounded-full transition-all duration-300 bg-white/20 hover:bg-white/40 w-2.5\u0022\u003E\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E button:nth-child(7)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton class=\u0022h-2.5 rounded-full transition-all duration-300 bg-white/20 hover:bg-white/40 w-2.5\u0022\u003E\u003C/button\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(4) \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E button:nth-child(8)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This button element does not have a name available to an accessibility API. Valid names are: title , element content, aria-label , aria-labelledby .",
+                      "context": "\u003Cbutton onclick=\u0022imageLightbox.close()\u0022 style=\u0022position: absolute; top: -48px; right: 0; color: rgba(255,255,255,0.7); padding: 8px; background: none; border: none; cursor: pointer;\u0022\u003E\u003Csvg style=\u0022width: 32px; height...\u003C/button\u003E",
+                      "selector": "#image-lightbox-modal \u003E div:nth-child(2) \u003E button",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022#recent\u0022 class=\u0022text-gray-500 hover:text-teal-400 transition-colors\u0022\u003E\u003Csvg class=\u0022w-6 h-6\u0022 fill=\u0022none...\u003C/a\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E main \u003E section:nth-child(1) \u003E div:nth-child(6) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://github.com/adayinthelifeofapro\u0022 target=\u0022_blank\u0022 class=\u0022w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 hover:text-teal-400 hover:bg-white/10 transition-all duration-300\u0022 b-tei2w2livu=\u0022\u0022\u003E\u003Csvg class=\u0022w-5 ...",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E footer \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E a:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://www.linkedin.com/in/carrgraham/\u0022 target=\u0022_blank\u0022 class=\u0022w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-gray-400 hover:text-teal-400 hover:bg-white/10 transition-all duration-300\u0022 b-tei2w2livu=\u0022\u0022\u003E\u003Csvg class=\u0022w-5...",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E footer \u003E div \u003E div:nth-child(1) \u003E div:nth-child(3) \u003E div:nth-child(2) \u003E a:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title , aria-label , aria-labelledby .",
+                      "context": "\u003Cinput type=\u0022text\u0022 placeholder=\u0022Search posts...\u0022 class=\u0022w-full pl-10 pr-4 py-2.5 bg-white/5 border border-white/10 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300 text-sm text-white placeholder-gray-500\u0022\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E header \u003E nav \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E input",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form field should be labelled in some way. Use the label element (either with a \u0022for\u0022 attribute or wrapped around the form field), or \u0022title\u0022, \u0022aria-label\u0022 or \u0022aria-labelledby\u0022 attributes as appropriate.",
+                      "context": "\u003Cinput type=\u0022text\u0022 placeholder=\u0022Search posts...\u0022 class=\u0022w-full pl-10 pr-4 py-2.5 bg-white/5 border border-white/10 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-all duration-300 text-sm text-white placeholder-gray-500\u0022\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E header \u003E nav \u003E div \u003E div:nth-child(2) \u003E div:nth-child(2) \u003E input",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.67:1. Recommendation:  change text colour to #feffff. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://adayinthelife.pro/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.67:1. Recommendation:  change text colour to #feffff. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.67:1. Recommendation:  change text colour to #feffff.",
+                      "context": "\u003Cp class=\u0022text-gray-500 text-sm\u0022 b-tei2w2livu=\u0022\u0022\u003E\u003C!--!--\u003E\n                    \u00A9 ...\u003C/p\u003E",
+                      "selector": "html \u003E body \u003E div:nth-child(1) \u003E footer \u003E div \u003E div:nth-child(2) \u003E p",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 50.0,
+              "a11y": 50
+            }
+          }
+        }
+      }
+    }
+  ]
+}

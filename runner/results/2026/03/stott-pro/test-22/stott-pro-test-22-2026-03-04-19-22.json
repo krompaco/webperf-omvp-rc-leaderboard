@@ -1,0 +1,86 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-03-04T19:22:49.500801",
+      "report": "- Webpage generates very little carbon dioxide!\n- Carbon dioxide per pageview: 0.45 gram(s)\n- More green than 99 % of the websites tested by webperf.se (Reference updated: 2025-01-09).\n- Network transfer size: 732.16 KB\n ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://www.stott.pro/",
+            "index": 1,
+            "size": 28474
+          },
+          {
+            "url": "https://www.stott.pro/assets/js/site.js",
+            "index": 2,
+            "size": 2882
+          },
+          {
+            "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
+            "index": 3,
+            "size": 232914
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+            "index": 4,
+            "size": 102217
+          },
+          {
+            "url": "https://www.stott.pro/assets/css/site.css",
+            "index": 5,
+            "size": 1106
+          },
+          {
+            "url": "https://www.stott.pro/assets/mark_stott_lock_down_small.jpg",
+            "index": 6,
+            "size": 27368
+          },
+          {
+            "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js",
+            "index": 7,
+            "size": 80421
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-brands-400.woff2",
+            "index": 8,
+            "size": 109808
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-solid-900.woff2",
+            "index": 9,
+            "size": 150020
+          },
+          {
+            "url": "https://unpkg.com/website-carbon-badges@1.1.3/b.min.js",
+            "index": 10,
+            "size": 1938
+          },
+          {
+            "url": "https://api.websitecarbon.com/b?url=https%3A%2F%2Fwww.stott.pro%2F",
+            "index": 11,
+            "size": 61
+          },
+          {
+            "url": "https://www.stott.pro/favicon.ico",
+            "index": 12,
+            "size": 12523
+          }
+        ],
+        "total-byte-weight": 749732,
+        "co2": 0.4519849200663157,
+        "cleaner_than": 99.0
+      }
+    }
+  ]
+}
