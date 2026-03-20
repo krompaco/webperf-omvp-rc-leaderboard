@@ -1,0 +1,340 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 3.71,
+      "rating_sec": 3.52,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2026-03-20T15:59:11.935959",
+      "report": "- Web server used: nginx\r\n- Technology used: c, es6, js, sass, scss, typescript\r\n- License(s) used: apache-2.0, bsd-3-clause, mit\r\n- Metadata used: canonical, dns-prefetch, icon\r\n- Javascript libraries used: backbone, bootstrap, core-js, date-fns, fold-case, for-license-information-please-see, highlight.js, mime, mobx, modern-normalize, pusher-js, react, regenerator, util, uuid\r\n- Languages found: de, en, en-us, x-default\r\n- Image formats used: jpeg, png, svg\r\n",
+      "report_sec": "##### Software is behind \u003E=75 versions ( 2.25 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 75 or more version compared to latests.\r\nThis is a very good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 3.6.2\r\n\r\n###### Affected resource(s):\r\n- https://static.zdassets.com/hc/assets/hc_enduser-b1ca87ebc2a8154152e989375ee9eb33.js\r\n##### Software is behind \u003E=25 versions ( 2.75 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 25 or more version compared to latests.\r\nThis is a good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 3.25.0\r\n\r\n###### Affected resource(s):\r\n- https://static.zdassets.com/hc/assets/hc_enduser-b1ca87ebc2a8154152e989375ee9eb33.js\r\n##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- react 17.0.2\r\n- backbone 1.1.2\r\n\r\n###### Affected resource(s):\r\n- https://static.zdassets.com/hc/assets/hc_enduser-b1ca87ebc2a8154152e989375ee9eb33.js\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- core-js 3.47.0\r\n\r\n###### Affected resource(s):\r\n- https://solve-widget.forethought.ai/embed.js\r\n- https://solve-widget.forethought.ai/static/js/index.baf6663f.js\r\n##### Software has been marked as archived ( 1.75 rating )\r\n\r\n###### Introduction:\r\nYou seem to use software that has been marked as archived, this means it doesn\u0027t get any new features or security updates.\r\nTo fix this you need to find an alternative, often developers try to point you in the correct direction if you visit the place you got it from.\r\n\r\n\r\n###### Detected software(s):\r\n- regenerator\r\n\r\n###### Affected resource(s):\r\n- https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.fDQc3GJyJJY.2021.O/am=AABGBg/d=1/rs=AAj4NmxHFE60aQJL2S1Ee6RkCafdyI3YwA/m=bootstrap_module,ucs_widget_module,xlite_module\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND075": {
+            "softwares": [
+              "core-js 3.6.2"
+            ],
+            "resources": [
+              "https://static.zdassets.com/hc/assets/hc_enduser-b1ca87ebc2a8154152e989375ee9eb33.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND025": {
+            "softwares": [
+              "core-js 3.25.0"
+            ],
+            "resources": [
+              "https://static.zdassets.com/hc/assets/hc_enduser-b1ca87ebc2a8154152e989375ee9eb33.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND010": {
+            "softwares": [
+              "react 17.0.2",
+              "backbone 1.1.2"
+            ],
+            "resources": [
+              "https://static.zdassets.com/hc/assets/hc_enduser-b1ca87ebc2a8154152e989375ee9eb33.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND001": {
+            "softwares": [
+              "core-js 3.47.0"
+            ],
+            "resources": [
+              "https://solve-widget.forethought.ai/embed.js",
+              "https://solve-widget.forethought.ai/static/js/index.baf6663f.js"
+            ],
+            "sub-issues": []
+          },
+          "ARCHIVED_SOURCE": {
+            "softwares": [
+              "regenerator"
+            ],
+            "resources": [
+              "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.fDQc3GJyJJY.2021.O/am=AABGBg/d=1/rs=AAj4NmxHFE60aQJL2S1Ee6RkCafdyI3YwA/m=bootstrap_module,ucs_widget_module,xlite_module"
+            ],
+            "sub-issues": []
+          }
+        },
+        "lang": {
+          "x-default": {
+            "?": {
+              "name": "x-default",
+              "precision": 0.8
+            }
+          },
+          "en-us": {
+            "?": {
+              "name": "en-us",
+              "precision": 0.8
+            }
+          },
+          "de": {
+            "?": {
+              "name": "de",
+              "precision": 0.8
+            }
+          },
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "dns-prefetch": {
+            "?": {
+              "name": "dns-prefetch",
+              "precision": 0.5
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          },
+          "bsd-3-clause": {
+            "?": {
+              "name": "bsd-3-clause",
+              "precision": 0.6
+            }
+          },
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          },
+          "jpeg": {
+            "?": {
+              "name": "jpeg",
+              "precision": 0.8
+            }
+          },
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          }
+        },
+        "js": {
+          "react": {
+            "17.0.2": {
+              "name": "react",
+              "precision": 0.6,
+              "github-owner": "facebook",
+              "github-repo": "react"
+            },
+            "19.2.4": {
+              "name": "react",
+              "precision": 0.6,
+              "github-owner": "facebook",
+              "github-repo": "react"
+            }
+          },
+          "backbone": {
+            "1.1.2": {
+              "name": "backbone",
+              "precision": 0.6,
+              "github-owner": "jashkenas",
+              "github-repo": "backbone"
+            }
+          },
+          "core-js": {
+            "3.25.0": {
+              "name": "core-js",
+              "precision": 0.6,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            },
+            "3.6.2": {
+              "name": "core-js",
+              "precision": 0.6,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            },
+            "3.47.0": {
+              "name": "core-js",
+              "precision": 0.4,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          },
+          "util": {
+            "?": {
+              "name": "util",
+              "precision": 0.5
+            }
+          },
+          "fold-case": {
+            "?": {
+              "name": "fold-case",
+              "precision": 0.1,
+              "github-owner": "dmoscrop",
+              "github-repo": "fold-case"
+            }
+          },
+          "mobx": {
+            "?": {
+              "name": "mobx",
+              "precision": 0.1,
+              "github-owner": "mobxjs",
+              "github-repo": "mobx"
+            }
+          },
+          "highlight.js": {
+            "?": {
+              "name": "highlight.js",
+              "precision": 0.1,
+              "github-owner": "highlightjs",
+              "github-repo": "highlight.js"
+            }
+          },
+          "regenerator": {
+            "?": {
+              "name": "regenerator",
+              "precision": 0.1,
+              "github-owner": "facebook",
+              "github-repo": "regenerator"
+            }
+          },
+          "uuid": {
+            "?": {
+              "name": "uuid",
+              "precision": 0.1,
+              "github-owner": "uuidjs",
+              "github-repo": "uuid"
+            }
+          },
+          "date-fns": {
+            "?": {
+              "name": "date-fns",
+              "precision": 0.1,
+              "github-owner": "date-fns",
+              "github-repo": "date-fns"
+            }
+          },
+          "pusher-js": {
+            "?": {
+              "name": "pusher-js",
+              "precision": 0.1,
+              "github-owner": "pusher",
+              "github-repo": "pusher-js"
+            }
+          },
+          "mime": {
+            "?": {
+              "name": "mime",
+              "precision": 0.1,
+              "github-owner": "broofa",
+              "github-repo": "mime"
+            }
+          },
+          "modern-normalize": {
+            "?": {
+              "name": "modern-normalize",
+              "precision": 0.1,
+              "github-owner": "sindresorhus",
+              "github-repo": "modern-normalize"
+            }
+          },
+          "bootstrap": {
+            "?": {
+              "name": "bootstrap",
+              "precision": 0.1,
+              "github-owner": "twbs",
+              "github-repo": "bootstrap"
+            }
+          },
+          "for-license-information-please-see": {
+            "752.8": {
+              "name": "for-license-information-please-see",
+              "precision": 0.5
+            }
+          }
+        },
+        "tech": {
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          },
+          "sass": {
+            "?": {
+              "name": "sass",
+              "precision": 0.8
+            }
+          },
+          "scss": {
+            "?": {
+              "name": "scss",
+              "precision": 0.8
+            }
+          },
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "?": {
+              "name": "nginx",
+              "precision": 0.4,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
