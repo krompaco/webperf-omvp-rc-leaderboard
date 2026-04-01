@@ -11,6 +11,8 @@
 
 @{
     var position = 0;
+    var shown = 0;
+    var siteAverage = -1d;
 
     if (this.SiteRootToStartFrom == null || this.FlatResults == null)
     {
@@ -18,7 +20,7 @@
     }
 }
 
-@foreach (var site in this.SiteRootToStartFrom.Sites.OrderByDescending(x => GetAverage(x.Id, this.SiteRootToStartFrom.Sites, this.FlatResults)))
+@foreach (var site in this.SiteRootToStartFrom.Sites.OrderByDescending(x => GetAverage(x.Id, this.SiteRootToStartFrom.Sites, this.FlatResults)).ThenBy(x => GetSiteNameHtml(x.Url)))
 {
     var siteResults = this.FlatResults.Where(x => x.SiteId == site.Id).ToList();
 
@@ -27,7 +29,19 @@
         continue;
     }
 
-    position++;
+    shown++;
+
+    if (siteResults.Average(x => x.Rating) != siteAverage)
+    {
+        position++;
+
+        if (shown > position)
+        {
+            position = shown;
+        }
+    }
+
+    siteAverage = siteResults.Average(x => x.Rating);
 
     <h2 class="mt-6 pt-6 border-t border-gray-800 text-xl tracking-tight font-bold md:text-2xl flex items-center flex-wrap gap-3">
         <span>
@@ -38,8 +52,8 @@
             @((MarkupString)GetSiteNameHtml(site.Url))
         </a>
 
-        <span class="@Program.GetRatingClassName(siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))) px-2 pt-1.5 pb-1 rounded-md">
-            @siteResults.Average(x => x.Rating).ToString("0.00", new CultureInfo("en-US"))
+        <span class="@Program.GetRatingClassName(siteAverage.ToString("0.00", new CultureInfo("en-US"))) px-2 pt-1.5 pb-1 rounded-md">
+            @siteAverage.ToString("0.00", new CultureInfo("en-US"))
         </span>
     </h2>
 
@@ -56,6 +70,7 @@
             </li>
         }
     </ul>
+    
 }
 
 @code {
