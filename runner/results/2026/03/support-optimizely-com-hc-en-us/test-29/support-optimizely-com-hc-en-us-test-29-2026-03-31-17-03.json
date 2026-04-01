@@ -1,0 +1,505 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 29,
+      "rating": 4.25,
+      "rating_sec": 3.5,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2026-03-31T17:04:46.831960",
+      "report": "",
+      "report_sec": "- Javascript, disallow the use of eval() (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-eval\n\n  Url(s) with issues:\n  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML\n  - https://solve-widget.forethought.ai/static/js/async/384.56cde400.js\n  - https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js\n  - https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.eGah95BC-Cc.2021.O/am=AABO/d=1/rs=AAj4NmyZ2ObGvlJ_-I9byBfMYtwhTy54aQ/m=bootstrap_module,ucs_widget_module,xlite_module\n\n- Javascript, disallow javascript: URLs (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-script-url\n\n  Url(s) with issues:\n  - https://static.zdassets.com/hc/assets/hc_enduser-4ce47203c8f3bf0c09fefd827d190640.js\n  - https://solve-widget.forethought.ai/static/js/async/384.56cde400.js\n  - https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5\n  - https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.eGah95BC-Cc.2021.O/am=AABO/d=1/rs=AAj4NmyZ2ObGvlJ_-I9byBfMYtwhTy54aQ/m=bootstrap_module,ucs_widget_module,xlite_module\n\n- Javascript, disallow the use of eval()-like methods (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-implied-eval\n\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/en-us\n  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-MML-AM_CHTML.js?V=2.7.5\n\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- no-debugger (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-debugger\n\n",
+      "data": {
+        "version": "2025.12.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "support.optimizely.com": {
+            "version": "2025.12.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 85,
+              "security": 70,
+              "standard": 100
+            },
+            "issues": [
+              {
+                "test": "javascript",
+                "rule": "no-eval",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-eval"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 19,
+                    "column": 3524
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.eGah95BC-Cc.2021.O/am=AABO/d=1/rs=AAj4NmyZ2ObGvlJ_-I9byBfMYtwhTy54aQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 885,
+                    "column": 361
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.eGah95BC-Cc.2021.O/am=AABO/d=1/rs=AAj4NmyZ2ObGvlJ_-I9byBfMYtwhTy54aQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 888,
+                    "column": 168
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 145,
+                    "column": 60
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 173,
+                    "column": 12
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 2,
+                    "column": 2237594
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 2,
+                    "column": 2524537
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 145,
+                    "column": 60
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 173,
+                    "column": 12
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-script-url",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-script-url"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 992,
+                    "column": 231
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/hc_enduser-4ce47203c8f3bf0c09fefd827d190640.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 2,
+                    "column": 112758
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/hc_enduser-4ce47203c8f3bf0c09fefd827d190640.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 2,
+                    "column": 176499
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.eGah95BC-Cc.2021.O/am=AABO/d=1/rs=AAj4NmyZ2ObGvlJ_-I9byBfMYtwhTy54aQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 4123,
+                    "column": 200
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 2,
+                    "column": 125494
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 2,
+                    "column": 252011
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 2,
+                    "column": 2549483
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 2,
+                    "column": 2549518
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-implied-eval",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-implied-eval"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-MML-AM_CHTML.js?V=2.7.5",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Implied eval. Consider passing a function instead of a string.",
+                    "line": 54,
+                    "column": 4296
+                  },
+                  {
+                    "url": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-MML-AM_CHTML.js?V=2.7.5",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Implied eval. Consider passing a function instead of a string.",
+                    "line": 54,
+                    "column": 4365
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/en-us",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Implied eval. Consider passing a function instead of a string.",
+                    "line": 3,
+                    "column": 4
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-debugger",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-debugger"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://support.optimizely.com/hc/en-us": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://support.optimizely.com/hc/en-us",
+                "score": {
+                  "overall": 85,
+                  "security": 70,
+                  "standard": 100
+                },
+                "issues": [
+                  {
+                    "test": "javascript",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-eval"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 19,
+                        "column": 3524
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.eGah95BC-Cc.2021.O/am=AABO/d=1/rs=AAj4NmyZ2ObGvlJ_-I9byBfMYtwhTy54aQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 885,
+                        "column": 361
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.eGah95BC-Cc.2021.O/am=AABO/d=1/rs=AAj4NmyZ2ObGvlJ_-I9byBfMYtwhTy54aQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 888,
+                        "column": 168
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 145,
+                        "column": 60
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 173,
+                        "column": 12
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 2,
+                        "column": 2237594
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 2,
+                        "column": 2524537
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 145,
+                        "column": 60
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/79clEdOi5xQbrrpL2L8kGmK3/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 173,
+                        "column": 12
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-script-url"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 992,
+                        "column": 231
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/hc_enduser-4ce47203c8f3bf0c09fefd827d190640.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 2,
+                        "column": 112758
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/hc_enduser-4ce47203c8f3bf0c09fefd827d190640.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 2,
+                        "column": 176499
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.eGah95BC-Cc.2021.O/am=AABO/d=1/rs=AAj4NmyZ2ObGvlJ_-I9byBfMYtwhTy54aQ/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 4123,
+                        "column": 200
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 2,
+                        "column": 125494
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 2,
+                        "column": 252011
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 2,
+                        "column": 2549483
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/js/async/384.56cde400.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 2,
+                        "column": 2549518
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-implied-eval"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-MML-AM_CHTML.js?V=2.7.5",
+                        "rule": "no-implied-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Implied eval. Consider passing a function instead of a string.",
+                        "line": 54,
+                        "column": 4296
+                      },
+                      {
+                        "url": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-MML-AM_CHTML.js?V=2.7.5",
+                        "rule": "no-implied-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Implied eval. Consider passing a function instead of a string.",
+                        "line": 54,
+                        "column": 4365
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/en-us",
+                        "rule": "no-implied-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Implied eval. Consider passing a function instead of a string.",
+                        "line": 3,
+                        "column": 4
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-debugger",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-debugger"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
