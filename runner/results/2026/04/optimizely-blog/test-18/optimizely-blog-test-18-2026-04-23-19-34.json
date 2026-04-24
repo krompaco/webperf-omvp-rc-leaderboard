@@ -1,0 +1,58 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2026-04-23T19:34:58.166885",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Img element missing an alt attribute. Use the alt attribute to specify a short text alternative. (error)\n  Url(s) with issues:\n  - https://optimizely.blog/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "optimizely.blog": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://optimizely.blog/",
+                    "text": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_1.1_1_1.H37",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.",
+                      "context": "\u003Cimg src=\u0022/contentassets/3d7e8b7dfc38464c844da996dfc02bdb/visitorgroups.png?width=790\u0026amp;height=444\u0026amp;quality=80\u0026amp;rmode=max\u0026amp;format=webp\u0022 loading=\u0022lazy\u0022 decoding=\u0022async\u0022 width=\u0022790\u0022 height=\u0022444\u0022\u003E",
+                      "selector": "#main \u003E div \u003E section \u003E div:nth-child(1) \u003E div \u003E div:nth-child(3) \u003E div \u003E div \u003E div \u003E article:nth-child(1) \u003E div:nth-child(1) \u003E img",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 90.0,
+              "a11y": 90
+            }
+          }
+        }
+      }
+    }
+  ]
+}

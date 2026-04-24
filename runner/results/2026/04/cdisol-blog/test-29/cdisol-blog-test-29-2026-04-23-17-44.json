@@ -1,0 +1,251 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 29,
+      "rating": 4.5,
+      "rating_sec": 4.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2026-04-23T17:44:29.832667",
+      "report": "",
+      "report_sec": "- Javascript, disallow javascript: URLs (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-script-url\n\n  Url(s) with issues:\n  - https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.sv.K9ZhAU_DJ1o.O/am=AAAAAQ/d=1/exm=el_conf/ed=1/rs=AN8SPfpPu6TjolwhUTPTW2LIf9jP9qcDhQ/m=el_main\n  - https://stats.wp.com/e-202617.js\n  - https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202604220101/show_ads_impl.js?bust=31098047\n\n- Javascript, disallow the use of eval() (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-eval\n\n  Url(s) with issues:\n  - https://www.cdisol.blog/wp-content/themes/honeypress/assets/js/smartmenus/jquery.smartmenus.js?ver=6.9.4\n  - https://pagead2.googlesyndication.com/bg/RiK6ZWktSJHFoyfG9cjH9nLRaZ1B3RgkbmOlM6XvCcc.js\n\n- Javascript, disallow the use of eval()-like methods (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-implied-eval\n\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- no-debugger (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-debugger\n\n",
+      "data": {
+        "version": "2025.12.1",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.0",
+          "@sitespeed.io/log": "1.0.0"
+        },
+        "groups": {
+          "www.cdisol.blog": {
+            "version": "2025.12.1",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.0",
+              "@sitespeed.io/log": "1.0.0"
+            },
+            "score": {
+              "overall": 90,
+              "security": 80,
+              "standard": 100
+            },
+            "issues": [
+              {
+                "test": "javascript",
+                "rule": "no-script-url",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-script-url"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://stats.wp.com/e-202617.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 1,
+                    "column": 1144
+                  },
+                  {
+                    "url": "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202604220101/show_ads_impl.js?bust=31098047",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 791,
+                    "column": 214
+                  },
+                  {
+                    "url": "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.sv.K9ZhAU_DJ1o.O/am=AAAAAQ/d=1/exm=el_conf/ed=1/rs=AN8SPfpPu6TjolwhUTPTW2LIf9jP9qcDhQ/m=el_main",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 420,
+                    "column": 327
+                  },
+                  {
+                    "url": "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.sv.K9ZhAU_DJ1o.O/am=AAAAAQ/d=1/exm=el_conf/ed=1/rs=AN8SPfpPu6TjolwhUTPTW2LIf9jP9qcDhQ/m=el_main",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 769,
+                    "column": 256
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-eval",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-eval"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/js/smartmenus/jquery.smartmenus.js?ver=6.9.4",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 1157,
+                    "column": 17
+                  },
+                  {
+                    "url": "https://pagead2.googlesyndication.com/bg/RiK6ZWktSJHFoyfG9cjH9nLRaZ1B3RgkbmOlM6XvCcc.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "eval can be harmful.",
+                    "line": 2,
+                    "column": 461
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-implied-eval",
+                "category": "security",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-implied-eval"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "javascript",
+                "rule": "no-debugger",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-debugger"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://www.cdisol.blog/": {
+                "version": "2025.12.1",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.0",
+                  "@sitespeed.io/log": "1.0.0"
+                },
+                "url": "https://www.cdisol.blog/",
+                "score": {
+                  "overall": 90,
+                  "security": 80,
+                  "standard": 100
+                },
+                "issues": [
+                  {
+                    "test": "javascript",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-script-url"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://stats.wp.com/e-202617.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 1,
+                        "column": 1144
+                      },
+                      {
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202604220101/show_ads_impl.js?bust=31098047",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 791,
+                        "column": 214
+                      },
+                      {
+                        "url": "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.sv.K9ZhAU_DJ1o.O/am=AAAAAQ/d=1/exm=el_conf/ed=1/rs=AN8SPfpPu6TjolwhUTPTW2LIf9jP9qcDhQ/m=el_main",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 420,
+                        "column": 327
+                      },
+                      {
+                        "url": "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.sv.K9ZhAU_DJ1o.O/am=AAAAAQ/d=1/exm=el_conf/ed=1/rs=AN8SPfpPu6TjolwhUTPTW2LIf9jP9qcDhQ/m=el_main",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 769,
+                        "column": 256
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-eval"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.cdisol.blog/wp-content/themes/honeypress/assets/js/smartmenus/jquery.smartmenus.js?ver=6.9.4",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 1157,
+                        "column": 17
+                      },
+                      {
+                        "url": "https://pagead2.googlesyndication.com/bg/RiK6ZWktSJHFoyfG9cjH9nLRaZ1B3RgkbmOlM6XvCcc.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "eval can be harmful.",
+                        "line": 2,
+                        "column": 461
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-implied-eval"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-debugger",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-debugger"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
