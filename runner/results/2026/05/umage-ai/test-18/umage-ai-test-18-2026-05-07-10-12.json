@@ -1,0 +1,112 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.5,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.5,
+      "rating_stand": -1.0,
+      "date": "2026-05-07T10:12:32.402719",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a. (error)\n  Url(s) with issues:\n  - https://umage.ai/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "umage.ai": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://umage.ai/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a.",
+                      "context": "\u003Cspan class=\u0022insight-row__tag\u0022\u003EArticle\u003C/span\u003E",
+                      "selector": "#insights \u003E div \u003E div:nth-child(2) \u003E a:nth-child(1) \u003E div:nth-child(2) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://umage.ai/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a.",
+                      "context": "\u003Cspan class=\u0022insight-row__tag\u0022\u003EArticle\u003C/span\u003E",
+                      "selector": "#insights \u003E div \u003E div:nth-child(2) \u003E a:nth-child(2) \u003E div:nth-child(2) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://umage.ai/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a.",
+                      "context": "\u003Cspan class=\u0022insight-row__tag\u0022\u003EArticle\u003C/span\u003E",
+                      "selector": "#insights \u003E div \u003E div:nth-child(2) \u003E a:nth-child(3) \u003E div:nth-child(2) \u003E span",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://umage.ai/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.1:1. Recommendation:  change text colour to #91714a.",
+                      "context": "\u003Cspan class=\u0022faq__q-icon\u0022 aria-hidden=\u0022true\u0022\u003E\u002B\u003C/span\u003E",
+                      "selector": "#faq \u003E div \u003E div:nth-child(2) \u003E details:nth-child(1) \u003E summary \u003E span:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 90.0,
+              "a11y": 90
+            }
+          }
+        }
+      }
+    }
+  ]
+}

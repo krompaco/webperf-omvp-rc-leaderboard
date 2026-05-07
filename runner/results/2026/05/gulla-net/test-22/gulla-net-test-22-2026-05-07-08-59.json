@@ -1,0 +1,66 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-05-07T09:00:10.556342",
+      "report": "- Webpage generates very little carbon dioxide!\n- Carbon dioxide per pageview: 0.25 gram(s)\n- More green than 99 % of the websites tested by webperf.se (Reference updated: 2025-01-09).\n- Network transfer size: 397.41 KB\n ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://www.gulla.net/",
+            "index": 1,
+            "size": 9299
+          },
+          {
+            "url": "https://www.gulla.net/Static/Fonts/inter-latin.woff2",
+            "index": 2,
+            "size": 48256
+          },
+          {
+            "url": "https://www.gulla.net/Static/Fonts/source-serif-4-latin.woff2",
+            "index": 3,
+            "size": 122360
+          },
+          {
+            "url": "https://www.gulla.net/Static/Styles/main.css?v=TyhEYhHFnEL9rBEmpLIxZwCB0po",
+            "index": 4,
+            "size": 20696
+          },
+          {
+            "url": "https://www.gulla.net/Static/Fonts/source-serif-4-latin.woff2?v=7yk6G6X5wKBBf4guwLpQQsq2FqA",
+            "index": 5,
+            "size": 122360
+          },
+          {
+            "url": "https://www.gulla.net/Static/Fonts/inter-latin.woff2?v=7yk6G6X5wKBBf4guwLpQQsq2FqA",
+            "index": 6,
+            "size": 48256
+          },
+          {
+            "url": "https://www.gulla.net/Static/Fonts/jetbrains-mono-latin.woff2?v=7yk6G6X5wKBBf4guwLpQQsq2FqA",
+            "index": 7,
+            "size": 31432
+          },
+          {
+            "url": "https://www.gulla.net/favicon.ico",
+            "index": 8,
+            "size": 4286
+          }
+        ],
+        "total-byte-weight": 406945,
+        "co2": 0.2453316695784451,
+        "cleaner_than": 99.0
+      }
+    }
+  ]
+}

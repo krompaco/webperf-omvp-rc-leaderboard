@@ -1,0 +1,284 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 2.79,
+      "rating_sec": 2.56,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2026-05-07T09:31:50.627224",
+      "report": "- CMS used: episerver\r\n- Web server used: microsoft-httpapi, nginx\r\n- Technology used: asp.net, c, csharp, es6, js, mysql, php, sass, scss, typescript\r\n- License(s) used: gpl-3.0, mit\r\n- Metadata used: icon, open-graph, viewport\r\n- Javascript libraries used: bootstrap, core-js, date-fns, epifind, jquery, matomo, react\r\n- Languages found: da, en\r\n- Image formats used: ico, png, svg, webp\r\n",
+      "report_sec": "##### Software related to CVE:s ( 1.0 rating )\r\n\r\n###### Introduction:\r\nSoftware version used is affected by vulnerability described below.\r\nIn most cases you can fix a CVE related issue by updating software to latest version.\r\nIn some rare cases there is no update and you need to consider not using the software affected.\r\n\r\n###### Common Vulnerabilities and Exposures\r\n- CVE-2024-6531\r\n- CVE-2019-8331\r\n- CVE-2018-14042\r\n- CVE-2018-14041\r\n- CVE-2018-14040\r\n\r\n###### Detected software(s):\r\n- bootstrap 4.1.1\r\n\r\n###### Affected resource(s):\r\n- https://www.codeart.dk/static/vendor/bootstrap/js/bootstrap.bundle.min.js\r\n##### Software is behind \u003E=25 versions ( 2.75 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 25 or more version compared to latests.\r\nThis is a good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- bootstrap 4.1.1\r\n- core-js 3.30.1\r\n\r\n###### Affected resource(s):\r\n- https://www.codeart.dk/static/vendor/bootstrap/js/bootstrap.bundle.min.js\r\n- https://cdn.raffle.ai/search/index.js\r\n- https://cdn.raffle.ai/search/core.469f56faa2d90bab5297.js\r\n##### Software is behind \u003E=10 versions ( 3.0 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 10 or more version compared to latests.\r\nThis is a semi good indicator that you need to update to latest version.\r\nIt also indicate that you don\u0027t have a good package routine for your software.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- react 18.2.0\r\n\r\n###### Affected resource(s):\r\n- https://cdn.raffle.ai/search/vendor.3dfd1eff3a7f8157911d.js\r\n##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- jquery 3.7.1\r\n\r\n###### Affected resource(s):\r\n- https://code.jquery.com/jquery-3.7.1.slim.min.js\r\n##### Opensource software used seem to be maintained ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "CVE": {
+            "softwares": [
+              "bootstrap 4.1.1"
+            ],
+            "resources": [
+              "https://www.codeart.dk/static/vendor/bootstrap/js/bootstrap.bundle.min.js"
+            ],
+            "sub-issues": [
+              "CVE-2024-6531",
+              "CVE-2019-8331",
+              "CVE-2018-14042",
+              "CVE-2018-14041",
+              "CVE-2018-14040"
+            ]
+          },
+          "BEHIND025": {
+            "softwares": [
+              "bootstrap 4.1.1",
+              "core-js 3.30.1"
+            ],
+            "resources": [
+              "https://www.codeart.dk/static/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "https://cdn.raffle.ai/search/index.js",
+              "https://cdn.raffle.ai/search/core.469f56faa2d90bab5297.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND010": {
+            "softwares": [
+              "react 18.2.0"
+            ],
+            "resources": [
+              "https://cdn.raffle.ai/search/vendor.3dfd1eff3a7f8157911d.js"
+            ],
+            "sub-issues": []
+          },
+          "BEHIND001": {
+            "softwares": [
+              "jquery 3.7.1"
+            ],
+            "resources": [
+              "https://code.jquery.com/jquery-3.7.1.slim.min.js"
+            ],
+            "sub-issues": []
+          }
+        },
+        "tech": {
+          "asp.net": {
+            "": {
+              "name": "asp.net",
+              "precision": 0.1
+            }
+          },
+          "csharp": {
+            "": {
+              "name": "csharp",
+              "precision": 0.4
+            }
+          },
+          "c": {
+            "?": {
+              "name": "c",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          },
+          "sass": {
+            "?": {
+              "name": "sass",
+              "precision": 0.8
+            }
+          },
+          "scss": {
+            "?": {
+              "name": "scss",
+              "precision": 0.8
+            }
+          },
+          "mysql": {
+            "?": {
+              "name": "mysql",
+              "precision": 0.8
+            }
+          },
+          "php": {
+            "?": {
+              "name": "php",
+              "precision": 0.8
+            }
+          },
+          "es6": {
+            "?": {
+              "name": "es6",
+              "precision": 0.8
+            }
+          },
+          "typescript": {
+            "?": {
+              "name": "typescript",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          }
+        },
+        "cms": {
+          "episerver": {
+            "?": {
+              "name": "episerver",
+              "precision": 0.4
+            }
+          }
+        },
+        "lang": {
+          "en": {
+            "?": {
+              "name": "en",
+              "precision": 0.8
+            }
+          },
+          "da": {
+            "?": {
+              "name": "da",
+              "precision": 0.8
+            }
+          }
+        },
+        "webserver": {
+          "nginx": {
+            "1.30.0": {
+              "name": "nginx",
+              "precision": 0.8,
+              "github-owner": "nginx",
+              "github-repo": "nginx"
+            }
+          },
+          "microsoft-httpapi": {
+            "2.0": {
+              "name": "microsoft-httpapi",
+              "precision": 0.8
+            }
+          }
+        },
+        "js": {
+          "jquery": {
+            "3.7.1": {
+              "name": "jquery",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "bootstrap": {
+            "4.1.1": {
+              "name": "bootstrap",
+              "precision": 0.5,
+              "github-owner": "twbs",
+              "github-repo": "bootstrap"
+            }
+          },
+          "epifind": {
+            "?": {
+              "name": "epifind",
+              "precision": 0.8
+            }
+          },
+          "matomo": {
+            "\u003E=4.x": {
+              "name": "matomo",
+              "precision": 0.6,
+              "github-owner": "matomo-org",
+              "github-repo": "matomo"
+            }
+          },
+          "core-js": {
+            "3.30.1": {
+              "name": "core-js",
+              "precision": 0.6,
+              "github-owner": "zloirock",
+              "github-repo": "core-js"
+            }
+          },
+          "date-fns": {
+            "?": {
+              "name": "date-fns",
+              "precision": 0.1,
+              "github-owner": "date-fns",
+              "github-repo": "date-fns"
+            }
+          },
+          "react": {
+            "18.2.0": {
+              "name": "react",
+              "precision": 0.6,
+              "github-owner": "facebook",
+              "github-repo": "react"
+            }
+          }
+        },
+        "license": {
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          },
+          "gpl-3.0": {
+            "?": {
+              "name": "gpl-3.0",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          },
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "svg": {
+            "?": {
+              "name": "svg",
+              "precision": 0.4
+            }
+          },
+          "ico": {
+            "?": {
+              "name": "ico",
+              "precision": 0.4
+            }
+          }
+        }
+      }
+    }
+  ]
+}

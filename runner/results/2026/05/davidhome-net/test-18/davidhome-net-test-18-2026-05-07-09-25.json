@@ -1,0 +1,97 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 4.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 4.0,
+      "rating_stand": -1.0,
+      "date": "2026-05-07T09:25:53.324572",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- Elements must only use permitted ARIA attributes (https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI) (error)\n  Url(s) with issues:\n  - https://www.davidhome.net/\n\n- ARIA attributes must conform to valid values (https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value?application=axeAPI) (error)\n  Url(s) with issues:\n  - https://www.davidhome.net/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.davidhome.net": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "Elements must only use permitted ARIA attributes (https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI) (error)",
+                "rule": "aria-prohibited-attr",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.davidhome.net/",
+                    "text": "Elements must only use permitted ARIA attributes (https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI) (error)",
+                    "rule": "aria-prohibited-attr",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "aria-prohibited-attr",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Elements must only use permitted ARIA attributes (https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI)",
+                      "context": "\u003Cdiv class=\u0022ml-2 inline-flex border border-slate-200 bg-white p-1 dark:border-slate-800 dark:bg-slate-900\u0022 aria-label=\u0022Theme preference\u0022\u003E\n                    \u003Cbutton cl...\u003C/div\u003E",
+                      "selector": "#mainNav \u003E div \u003E div:nth-child(1) \u003E div \u003E div",
+                      "runner": "axe",
+                      "runnerExtras": {
+                        "description": "Ensure ARIA attributes are not prohibited for an element\u0027s role",
+                        "impact": "serious",
+                        "needsFurtherReview": true,
+                        "help": "Elements must only use permitted ARIA attributes",
+                        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr?application=axeAPI"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "ARIA attributes must conform to valid values (https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value?application=axeAPI) (error)",
+                "rule": "aria-valid-attr-value",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.davidhome.net/",
+                    "text": "ARIA attributes must conform to valid values (https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value?application=axeAPI) (error)",
+                    "rule": "aria-valid-attr-value",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "aria-valid-attr-value",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "ARIA attributes must conform to valid values (https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value?application=axeAPI)",
+                      "context": "\u003Cbutton class=\u0022cky-btn cky-btn-customize\u0022 aria-label=\u0022Customize\u0022 aria-haspopup=\u0022true\u0022 aria-controls=\u0022ckyPreferenceCenter\u0022 data-cky-tag=\u0022settings-button\u0022 style=\u0022color: rgb(0, 128, 0); border-color: rgb(0, 128, 0); background-color: transparent;\u0022\u003ECusto...",
+                      "selector": "html \u003E body \u003E div:nth-child(3) \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E button:nth-child(1)",
+                      "runner": "axe",
+                      "runnerExtras": {
+                        "description": "Ensure all ARIA attributes have valid values",
+                        "impact": "critical",
+                        "needsFurtherReview": true,
+                        "help": "ARIA attributes must conform to valid values",
+                        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value?application=axeAPI"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 80.0,
+              "a11y": 80
+            }
+          }
+        }
+      }
+    }
+  ]
+}
