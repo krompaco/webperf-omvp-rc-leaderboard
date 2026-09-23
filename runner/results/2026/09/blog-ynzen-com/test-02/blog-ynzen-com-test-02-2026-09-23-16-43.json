@@ -1,0 +1,122 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 2,
+      "rating": 4.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-09-23T16:44:05.862566",
+      "report": "- Page not found, no network (warning)\n  Url(s) with issues:\n  - https://blog.ynzen.com/\n\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "version": "2026.7.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "blog.ynzen.com": {
+            "version": "2026.7.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 99,
+              "technical": 99
+            },
+            "issues": [
+              {
+                "test": "404",
+                "rule": "no-network",
+                "category": "technical",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://blog.ynzen.com/",
+                    "rule": "no-network",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "No HTML content found in the HAR file.",
+                    "line": 0,
+                    "column": 0
+                  }
+                ]
+              }
+            ],
+            "pages": {
+              "https://blog.ynzen.com/": {
+                "version": "2026.7.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://blog.ynzen.com/",
+                "score": {
+                  "overall": 99,
+                  "technical": 99
+                },
+                "issues": [
+                  {
+                    "test": "404",
+                    "rule": "no-network",
+                    "category": "technical",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://blog.ynzen.com/",
+                        "rule": "no-network",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "No HTML content found in the HAR file.",
+                        "line": 0,
+                        "column": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              "https://blog.ynzen.com/262a7/finns-det-en-sida/pa-den-har-adressen/testanrop/": {
+                "version": "2026.7.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://blog.ynzen.com/262a7/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                "score": {
+                  "overall": 99,
+                  "technical": 99
+                },
+                "issues": [
+                  {
+                    "test": "404",
+                    "rule": "no-network",
+                    "category": "technical",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://blog.ynzen.com/262a7/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                        "rule": "no-network",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "No HTML content found in the HAR file.",
+                        "line": 0,
+                        "column": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

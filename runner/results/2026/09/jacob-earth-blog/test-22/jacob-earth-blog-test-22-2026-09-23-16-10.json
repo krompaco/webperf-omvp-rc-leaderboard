@@ -1,0 +1,71 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-09-23T16:11:11.851558",
+      "report": "- Webpage generates very little carbon dioxide!\n- Carbon dioxide per pageview: 0.04 gram(s)\n- More green than 98 % of the websites tested by webperf.se (Reference updated: 2026-06-07).\n- Network transfer size: 72.69 KB\n ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://jacob.earth/blog/",
+            "index": 1,
+            "size": 11332
+          },
+          {
+            "url": "https://jacob.earth/Content/FONTS/playfair-display-sc-v15-latin-regular.woff2",
+            "index": 2,
+            "size": 23660
+          },
+          {
+            "url": "https://jacob.earth/Content/IMG/jacob_avatar_emoji.webp",
+            "index": 3,
+            "size": 7536
+          },
+          {
+            "url": "https://jacob.earth/_astro/m.B01cjrVE.css",
+            "index": 4,
+            "size": 11533
+          },
+          {
+            "url": "https://ft.ohonesix.com/js/script.js",
+            "index": 5,
+            "size": 2618
+          },
+          {
+            "url": "https://jacob.earth/Content/JS/aprilFools.js",
+            "index": 6,
+            "size": 575
+          },
+          {
+            "url": "https://jacob.earth/Content/JS/search.js",
+            "index": 7,
+            "size": 1768
+          },
+          {
+            "url": "https://ft.ohonesix.com/api/event",
+            "index": 8,
+            "size": 2
+          },
+          {
+            "url": "https://jacob.earth/favicon.ico?v=1",
+            "index": 9,
+            "size": 15406
+          }
+        ],
+        "total-byte-weight": 74430,
+        "co2": 0.04487101737759076,
+        "cleaner_than": 98.0
+      }
+    }
+  ]
+}

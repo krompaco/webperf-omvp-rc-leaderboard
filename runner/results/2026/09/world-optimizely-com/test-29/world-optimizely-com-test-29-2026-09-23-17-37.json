@@ -1,0 +1,629 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 29,
+      "rating": 4.5,
+      "rating_sec": 4.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 5.0,
+      "date": "2026-09-23T17:38:53.434344",
+      "report": "",
+      "report_sec": "- Javascript, disallow javascript: URLs (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-script-url\n\n  Url(s) with issues:\n  - https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.JN1MKkPjR5Y.2021.O/am=CAAAIzA/d=1/rs=AAj4Nmw4ssaEg1NgOIQBc4aeD5HQIEMqXg/m=bootstrap_module,ucs_widget_module,xlite_module\n  - https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI\n  - https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5\u0026cx=c\u0026gtm=4e69m0\n  - https://world.optimizely.com/\n  - https://d1igp3oop3iho5.cloudfront.net/v2/8yoUTdBkNwpVOLCXeZpKdw/zaius-min.js\n  - https://www.googletagmanager.com/gtm.js?id=GTM-T8MLBF\n  - https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js\n\n- Javascript, disallow the use of eval() (error)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-eval\n\n  Url(s) with issues:\n  - https://cdn.optimizely.com/public/5935064/s/world.js\n  - https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.JN1MKkPjR5Y.2021.O/am=CAAAIzA/d=1/rs=AAj4Nmw4ssaEg1NgOIQBc4aeD5HQIEMqXg/m=bootstrap_module,ucs_widget_module,xlite_module\n  - https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI\n  - https://www.googletagmanager.com/gtm.js?id=GTM-T8MLBF\n  - https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js\n\n- Javascript, disallow the use of eval()-like methods (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-implied-eval\n\n",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- no-debugger (resolved)\n  More info:\n  - https://eslint.org/docs/latest/rules/no-debugger\n\n",
+      "data": {
+        "version": "2026.7.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "world.optimizely.com": {
+            "version": "2026.7.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 90,
+              "security": 80,
+              "standard": 100
+            },
+            "issues": [
+              {
+                "test": "javascript",
+                "rule": "no-script-url",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-script-url"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 192155
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 468881
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 701050
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 701085
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 888544
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 993876
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 1115858
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 1422580
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 1422615
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 1430145
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 1566920
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 8,
+                    "column": 2359183
+                  },
+                  {
+                    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T8MLBF",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 746,
+                    "column": 114
+                  },
+                  {
+                    "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 93737
+                  },
+                  {
+                    "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 5,
+                    "column": 110808
+                  },
+                  {
+                    "url": "https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5\u0026cx=c\u0026gtm=4e69m0",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 1079,
+                    "column": 231
+                  },
+                  {
+                    "url": "https://d1igp3oop3iho5.cloudfront.net/v2/8yoUTdBkNwpVOLCXeZpKdw/zaius-min.js",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 1,
+                    "column": 57717
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.JN1MKkPjR5Y.2021.O/am=CAAAIzA/d=1/rs=AAj4Nmw4ssaEg1NgOIQBc4aeD5HQIEMqXg/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 12123,
+                    "column": 122
+                  },
+                  {
+                    "url": "https://world.optimizely.com/",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "Script URL is a form of eval.",
+                    "line": 2,
+                    "column": 488
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-eval",
+                "category": "security",
+                "severity": "error",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-eval"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "\u0060eval\u0060 can be harmful.",
+                    "line": 8,
+                    "column": 114175
+                  },
+                  {
+                    "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "\u0060eval\u0060 can be harmful.",
+                    "line": 8,
+                    "column": 954227
+                  },
+                  {
+                    "url": "https://cdn.optimizely.com/public/5935064/s/world.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "\u0060eval\u0060 can be harmful.",
+                    "line": 2,
+                    "column": 109411
+                  },
+                  {
+                    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T8MLBF",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "\u0060eval\u0060 can be harmful.",
+                    "line": 5,
+                    "column": 28
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.JN1MKkPjR5Y.2021.O/am=CAAAIzA/d=1/rs=AAj4Nmw4ssaEg1NgOIQBc4aeD5HQIEMqXg/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "\u0060eval\u0060 can be harmful.",
+                    "line": 1654,
+                    "column": 362
+                  },
+                  {
+                    "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.JN1MKkPjR5Y.2021.O/am=CAAAIzA/d=1/rs=AAj4Nmw4ssaEg1NgOIQBc4aeD5HQIEMqXg/m=bootstrap_module,ucs_widget_module,xlite_module",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "\u0060eval\u0060 can be harmful.",
+                    "line": 1655,
+                    "column": 503
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "\u0060eval\u0060 can be harmful.",
+                    "line": 672,
+                    "column": 420
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "text": "\u0060eval\u0060 can be harmful.",
+                    "line": 713,
+                    "column": 494
+                  }
+                ]
+              },
+              {
+                "test": "javascript",
+                "rule": "no-implied-eval",
+                "category": "security",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-implied-eval"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "javascript",
+                "rule": "no-debugger",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://eslint.org/docs/latest/rules/no-debugger"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://world.optimizely.com/": {
+                "version": "2026.7.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://world.optimizely.com/",
+                "score": {
+                  "overall": 90,
+                  "security": 80,
+                  "standard": 100
+                },
+                "issues": [
+                  {
+                    "test": "javascript",
+                    "rule": "no-script-url",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-script-url"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 192155
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 468881
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 701050
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 701085
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 888544
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 993876
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 1115858
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 1422580
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 1422615
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 1430145
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 1566920
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 8,
+                        "column": 2359183
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T8MLBF",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 746,
+                        "column": 114
+                      },
+                      {
+                        "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 93737
+                      },
+                      {
+                        "url": "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 5,
+                        "column": 110808
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-C7SLJ6HMJ5\u0026cx=c\u0026gtm=4e69m0",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 1079,
+                        "column": 231
+                      },
+                      {
+                        "url": "https://d1igp3oop3iho5.cloudfront.net/v2/8yoUTdBkNwpVOLCXeZpKdw/zaius-min.js",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 1,
+                        "column": 57717
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.JN1MKkPjR5Y.2021.O/am=CAAAIzA/d=1/rs=AAj4Nmw4ssaEg1NgOIQBc4aeD5HQIEMqXg/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 12123,
+                        "column": 122
+                      },
+                      {
+                        "url": "https://world.optimizely.com/",
+                        "rule": "no-script-url",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "Script URL is a form of eval.",
+                        "line": 2,
+                        "column": 488
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-eval",
+                    "category": "security",
+                    "severity": "error",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-eval"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "\u0060eval\u0060 can be harmful.",
+                        "line": 8,
+                        "column": 114175
+                      },
+                      {
+                        "url": "https://world.optimizely.com/minified/js/scripts/Custom.min.js?v=GZgk8dEHPJ6bq0VFfvdcb7vJQ4m7rKvTz9-76qjk6TI",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "\u0060eval\u0060 can be harmful.",
+                        "line": 8,
+                        "column": 954227
+                      },
+                      {
+                        "url": "https://cdn.optimizely.com/public/5935064/s/world.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "\u0060eval\u0060 can be harmful.",
+                        "line": 2,
+                        "column": 109411
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T8MLBF",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "\u0060eval\u0060 can be harmful.",
+                        "line": 5,
+                        "column": 28
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.JN1MKkPjR5Y.2021.O/am=CAAAIzA/d=1/rs=AAj4Nmw4ssaEg1NgOIQBc4aeD5HQIEMqXg/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "\u0060eval\u0060 can be harmful.",
+                        "line": 1654,
+                        "column": 362
+                      },
+                      {
+                        "url": "https://www.gstatic.com/_/mss/boq-cloud-ai-ucs/_/js/k=boq-cloud-ai-ucs.UcsWidgetUi.en_US.JN1MKkPjR5Y.2021.O/am=CAAAIzA/d=1/rs=AAj4Nmw4ssaEg1NgOIQBc4aeD5HQIEMqXg/m=bootstrap_module,ucs_widget_module,xlite_module",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "\u0060eval\u0060 can be harmful.",
+                        "line": 1655,
+                        "column": 503
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "\u0060eval\u0060 can be harmful.",
+                        "line": 672,
+                        "column": 420
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+                        "rule": "no-eval",
+                        "category": "security",
+                        "severity": "error",
+                        "text": "\u0060eval\u0060 can be harmful.",
+                        "line": 713,
+                        "column": 494
+                      }
+                    ]
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-implied-eval",
+                    "category": "security",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-implied-eval"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "javascript",
+                    "rule": "no-debugger",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://eslint.org/docs/latest/rules/no-debugger"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

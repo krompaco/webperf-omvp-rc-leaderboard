@@ -1,0 +1,103 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 2,
+      "rating": 4.95,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-09-23T16:54:55.739030",
+      "report": "- Page not found, no network (warning)\n  Url(s) with issues:\n  - https://adayinthelife.pro/b4bc2/finns-det-en-sida/pa-den-har-adressen/testanrop/\n\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "version": "2026.7.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "adayinthelife.pro": {
+            "version": "2026.7.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 99,
+              "technical": 99
+            },
+            "issues": [
+              {
+                "test": "404",
+                "rule": "no-network",
+                "category": "technical",
+                "severity": "warning",
+                "subIssues": [
+                  {
+                    "url": "https://adayinthelife.pro/b4bc2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                    "rule": "no-network",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "No HTML content found in the HAR file.",
+                    "line": 0,
+                    "column": 0
+                  }
+                ]
+              }
+            ],
+            "pages": {
+              "https://adayinthelife.pro/": {
+                "version": "2026.7.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://adayinthelife.pro/",
+                "score": {
+                  "overall": 100
+                },
+                "issues": []
+              },
+              "https://adayinthelife.pro/b4bc2/finns-det-en-sida/pa-den-har-adressen/testanrop/": {
+                "version": "2026.7.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://adayinthelife.pro/b4bc2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                "score": {
+                  "overall": 99,
+                  "technical": 99
+                },
+                "issues": [
+                  {
+                    "test": "404",
+                    "rule": "no-network",
+                    "category": "technical",
+                    "severity": "warning",
+                    "subIssues": [
+                      {
+                        "url": "https://adayinthelife.pro/b4bc2/finns-det-en-sida/pa-den-har-adressen/testanrop/",
+                        "rule": "no-network",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "No HTML content found in the HAR file.",
+                        "line": 0,
+                        "column": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

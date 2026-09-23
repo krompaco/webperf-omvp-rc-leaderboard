@@ -1,0 +1,213 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 25,
+      "rating": 4.78,
+      "rating_sec": 4.72,
+      "rating_perf": -1.0,
+      "rating_a11y": 5.0,
+      "rating_stand": -1.0,
+      "date": "2026-09-23T17:23:13.461599",
+      "report": "- CMS used: wordpress\r\n- Web server used: litespeed, tomcat\r\n- Technology used: js, php\r\n- License(s) used: apache-2.0, mit\r\n- Metadata used: apple-touch-icon, canonical, dns-prefetch, icon, open-graph, viewport\r\n- Javascript libraries used: ev-emitter, imagesloaded, jquery, jquery-hoverintent, jquery-migrate\r\n- Languages found: en-us, en_us\r\n- Image formats used: png, webp\r\n- WordPress theme: salient\r\n",
+      "report_sec": "##### Software is behind \u003E=1 versions ( 4.9 rating )\r\n\r\n###### Introduction:\r\nSoftware used is behind 1 or more version compared to latests.\r\nThis is a small indicator that you need to update to latest version.\r\nYou can fix this by updating software to latest version.\r\n\r\n\r\n###### Detected software(s):\r\n- jquery 3.7.1\r\n- jquery-migrate 3.4.1\r\n- imagesloaded 4.1.4\r\n- jquery-hoverintent 1.9.0\r\n\r\n###### Affected resource(s):\r\n- https://postjoe.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1\r\n- https://postjoe.com/wp-content/litespeed/js/105ed8dd8f705599914d4743a84b48a2.js?ver=22e72\r\n- https://postjoe.com/wp-content/litespeed/js/dbf4c87d6f51964f505bb45941c346f3.js?ver=c9afd\r\n- https://postjoe.com/wp-content/litespeed/js/5bf8820823ac67c1da97ce24e25d5671.js?ver=fec41\r\n##### Opensource software has been stale for more than 3 years ( 4.0 rating )\r\n\r\n###### Introduction:\r\nYou seem to use software that is no longer maintained, this means it doesn\u0027t get any new features or security updates.\r\nTo fix this you need to find an alternative, often developers try to point you in the correct direction if you visit the place you got it from.\r\n\r\n\r\n###### Detected software(s):\r\n- imagesloaded 4.1.4\r\n\r\n###### Affected resource(s):\r\n- https://postjoe.com/wp-content/litespeed/js/dbf4c87d6f51964f505bb45941c346f3.js?ver=c9afd\r\n##### NO Common Vulnerabilities and Exposures found ( 5.00 rating )\r\n##### You don\u0027t seem to be using \u0027END OF LIFE\u0027 software ( 5.00 rating )",
+      "report_perf": "",
+      "report_a11y": "##### You don\u0027t seem to be using accessibility overlay software ( 5.00 rating )\r\n",
+      "report_stand": "",
+      "data": {
+        "issues": {
+          "BEHIND001": {
+            "softwares": [
+              "jquery 3.7.1",
+              "jquery-migrate 3.4.1",
+              "imagesloaded 4.1.4",
+              "jquery-hoverintent 1.9.0"
+            ],
+            "resources": [
+              "https://postjoe.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+              "https://postjoe.com/wp-content/litespeed/js/105ed8dd8f705599914d4743a84b48a2.js?ver=22e72",
+              "https://postjoe.com/wp-content/litespeed/js/dbf4c87d6f51964f505bb45941c346f3.js?ver=c9afd",
+              "https://postjoe.com/wp-content/litespeed/js/5bf8820823ac67c1da97ce24e25d5671.js?ver=fec41"
+            ],
+            "sub-issues": []
+          },
+          "UNMAINTAINED_SOURCE_3_YEARS": {
+            "softwares": [
+              "imagesloaded 4.1.4"
+            ],
+            "resources": [
+              "https://postjoe.com/wp-content/litespeed/js/dbf4c87d6f51964f505bb45941c346f3.js?ver=c9afd"
+            ],
+            "sub-issues": []
+          }
+        },
+        "webserver": {
+          "litespeed": {
+            "?": {
+              "name": "litespeed",
+              "precision": 0.5
+            }
+          },
+          "tomcat": {
+            "?": {
+              "name": "tomcat",
+              "precision": 0.1
+            }
+          }
+        },
+        "lang": {
+          "en_us": {
+            "?": {
+              "name": "en_us",
+              "precision": 0.8
+            }
+          },
+          "en-us": {
+            "?": {
+              "name": "en-us",
+              "precision": 0.8
+            }
+          }
+        },
+        "meta": {
+          "open-graph": {
+            "?": {
+              "name": "open-graph",
+              "precision": 0.5
+            }
+          },
+          "viewport": {
+            "?": {
+              "name": "viewport",
+              "precision": 0.5
+            }
+          },
+          "canonical": {
+            "?": {
+              "name": "canonical",
+              "precision": 0.5
+            }
+          },
+          "dns-prefetch": {
+            "?": {
+              "name": "dns-prefetch",
+              "precision": 0.5
+            }
+          },
+          "icon": {
+            "?": {
+              "name": "icon",
+              "precision": 0.5
+            }
+          },
+          "apple-touch-icon": {
+            "?": {
+              "name": "apple-touch-icon",
+              "precision": 0.5
+            }
+          }
+        },
+        "cms": {
+          "wordpress": {
+            "?": {
+              "name": "wordpress",
+              "precision": 0.6,
+              "github-owner": "WordPress",
+              "github-repo": "WordPress"
+            }
+          }
+        },
+        "tech": {
+          "php": {
+            "?": {
+              "name": "php",
+              "precision": 0.8
+            }
+          },
+          "js": {
+            "?": {
+              "name": "js",
+              "precision": 0.8
+            }
+          }
+        },
+        "js": {
+          "jquery": {
+            "3.7.1": {
+              "name": "jquery",
+              "precision": 0.5,
+              "github-owner": "jquery",
+              "github-repo": "jquery"
+            }
+          },
+          "jquery-migrate": {
+            "3.4.1": {
+              "name": "jquery-migrate",
+              "precision": 0.8,
+              "github-owner": "jquery",
+              "github-repo": "jquery-migrate"
+            }
+          },
+          "ev-emitter": {
+            "?": {
+              "name": "ev-emitter",
+              "precision": 0.5
+            }
+          },
+          "imagesloaded": {
+            "4.1.4": {
+              "name": "imagesloaded",
+              "precision": 0.75,
+              "github-owner": "desandro",
+              "github-repo": "imagesloaded"
+            }
+          },
+          "jquery-hoverintent": {
+            "1.9.0": {
+              "name": "jquery-hoverintent",
+              "precision": 0.75,
+              "github-owner": "briancherne",
+              "github-repo": "jquery-hoverIntent"
+            }
+          }
+        },
+        "license": {
+          "apache-2.0": {
+            "?": {
+              "name": "apache-2.0",
+              "precision": 0.6
+            }
+          },
+          "mit": {
+            "?": {
+              "name": "mit",
+              "precision": 0.6
+            }
+          }
+        },
+        "img": {
+          "webp": {
+            "?": {
+              "name": "webp",
+              "precision": 0.8
+            }
+          },
+          "png": {
+            "?": {
+              "name": "png",
+              "precision": 0.8
+            }
+          }
+        },
+        "wordpress-theme": {
+          "salient": {
+            "?": {
+              "name": "salient",
+              "precision": 0.6
+            }
+          }
+        }
+      }
+    }
+  ]
+}

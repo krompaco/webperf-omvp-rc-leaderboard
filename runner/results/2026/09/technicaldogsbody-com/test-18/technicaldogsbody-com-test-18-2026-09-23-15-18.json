@@ -1,0 +1,1525 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 3.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 3.0,
+      "rating_stand": -1.0,
+      "date": "2026-09-23T15:18:30.689828",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/\n\n- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/\n\n- This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/\n\n- Iframe element requires a non-empty title attribute that identifies the frame. (error)\n  Url(s) with issues:\n  - https://www.technicaldogsbody.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "www.technicaldogsbody.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003ESimply put, Andy is great to wo...\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eproblem solving attitude\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Estrong partnership\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eenthusiastic \u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Estrong ambassador\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003EHead of Back End Development\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Evastly knowledgeable\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eimmense technical skillset\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Esolution oriented approach\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Every nice guy\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ecalm demeanor\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Egreat person\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eexceptional colleague\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ekind, funny, infinitely patient\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ecompany culture\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Einclusivity \u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Epub quizzes\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Efantastically engaging and ente...\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Every high regard\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Egreat friend\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eexceptional leadership\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Etechnical prowess\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Etruly commendable\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Etechnical challenges\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eelegant solutions\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eclarity and professionalism\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eproblem-solving\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(4) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Estrategic mindset\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(4) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Einnovative solutions\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(4) \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Enurturing the growth of junior ...\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(4) \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Epatience, guidance, and willing...\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E p:nth-child(4) \u003E strong:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eexceptional leadership\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(5) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ededication and proficiency\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(5) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ecomplex challenges\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(5) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eproactive approach\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(5) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eunwavering support\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(5) \u003E div \u003E blockquote \u003E p:nth-child(3) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003EAndy\u0027s contributions would be i...\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(5) \u003E div \u003E blockquote \u003E p:nth-child(4) \u003E strong",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Every knowledgeable\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(6) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ealways approachable\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(6) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ehighly regarded by clients\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(6) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ebest self\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(7) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ejust being Blyth\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(7) \u003E div \u003E blockquote \u003E p:nth-child(2) \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Every helpful\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(8) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Every important key in my progre...\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(8) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eexpertise and knowledge is impr...\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(8) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ealways willing to help\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(8) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Elife easier\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(8) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eguarantee for the success\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(8) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(6)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Etechnical knowledge\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(9) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Emanagerial skills\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(9) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Egreat asset\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(9) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eexcellent results\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(10) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Edelighted our clients\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(10) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eparticular expertise\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(10) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003EAndrew is professional\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(10) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eeasy to work with\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(10) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Erecommend \u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(10) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(6)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eamazed at the knowledge and pro...\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(11) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eproblem solving\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(11) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Emanagement skills\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(11) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eexcellent \u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(11) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Egreat mentor\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(11) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003EI wholeheartedly recommend Andy\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(11) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(6)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eskilled and experienced\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(12) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Eenthusiastic \u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(12) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Egood understanding\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(12) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.74:1. Recommendation:  change text colour to #e8751e.",
+                      "context": "\u003Cstrong\u003Ereadily recommend\u003C/strong\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(12) \u003E div \u003E blockquote \u003E p \u003E strong:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EOptimizely\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(1) \u003E div \u003E blockquote \u003E footer \u003E div:nth-child(2) \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EJotun AS\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(2) \u003E div \u003E blockquote \u003E footer \u003E div:nth-child(2) \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EDEPT\u00AE\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(3) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EDEPT\u00AE\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(4) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EDEPT\u00AE\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(5) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EDEPT\u00AE\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(6) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EDEPT\u00AE\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(7) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EDEPT\u00AE\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(8) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003ERedstar\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(9) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003ECreation ADM\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(10) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003ERedstar\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(11) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022small\u0022\u003EIdaho Technology\u003C/div\u003E",
+                      "selector": "#main \u003E section:nth-child(5) \u003E div \u003E div \u003E div \u003E div \u003E div:nth-child(2) \u003E div \u003E div:nth-child(12) \u003E div \u003E blockquote \u003E footer \u003E div \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid. (error)",
+                    "rule": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \u0022submit\u0022 or \u0022image\u0022, or BUTTON elements with type \u0022submit\u0022 or omitted/invalid.",
+                      "context": "\u003Cform id=\u0022tdbsearch-form\u0022 action=\u0022/search\u0022 method=\u0022get\u0022 role=\u0022search\u0022 autocomplete=\u0022off\u0022\u003E\u003Ci class=\u0022mi-search tdbsearch-i...\u003C/form\u003E",
+                      "selector": "#tdbsearch-form",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://www.technicaldogsbody.com/",
+                    "text": "Iframe element requires a non-empty title attribute that identifies the frame. (error)",
+                    "rule": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.H64.1",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Iframe element requires a non-empty title attribute that identifies the frame.",
+                      "context": "\u003Ciframe height=\u00221\u0022 width=\u00221\u0022 style=\u0022position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;\u0022\u003E\u003C/iframe\u003E",
+                      "selector": "html \u003E body \u003E iframe",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 60.0,
+              "a11y": 60
+            }
+          }
+        }
+      }
+    }
+  ]
+}

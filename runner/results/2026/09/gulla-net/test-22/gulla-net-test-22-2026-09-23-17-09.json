@@ -1,0 +1,56 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 22,
+      "rating": 5.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": -1.0,
+      "date": "2026-09-23T17:09:39.041591",
+      "report": "- Webpage generates very little carbon dioxide!\n- Carbon dioxide per pageview: 0.08 gram(s)\n- More green than 98 % of the websites tested by webperf.se (Reference updated: 2026-06-07).\n- Network transfer size: 129.82 KB\n ( 5.00 rating )\r\n",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "",
+      "data": {
+        "sources": [
+          {
+            "url": "https://www.gulla.net/",
+            "index": 1,
+            "size": 25439
+          },
+          {
+            "url": "https://www.gulla.net/Static/Fonts/inter-latin.v2.woff2",
+            "index": 2,
+            "size": 35412
+          },
+          {
+            "url": "https://www.gulla.net/Static/Fonts/source-serif-4-latin.v2.woff2",
+            "index": 3,
+            "size": 33664
+          },
+          {
+            "url": "https://www.gulla.net/Static/Scripts/rag.js?v=koCZZ9DDzcitZ0IxRv9fV1g3cYA",
+            "index": 4,
+            "size": 5032
+          },
+          {
+            "url": "https://www.gulla.net/Static/Fonts/jetbrains-mono-latin.v2.woff2",
+            "index": 5,
+            "size": 29100
+          },
+          {
+            "url": "https://www.gulla.net/favicon.ico",
+            "index": 6,
+            "size": 4286
+          }
+        ],
+        "total-byte-weight": 132933,
+        "co2": 0.08014025195559953,
+        "cleaner_than": 98.0
+      }
+    }
+  ]
+}

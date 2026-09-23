@@ -1,0 +1,3651 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 2.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 2.8,
+      "date": "2026-09-23T18:47:09.566332",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Disallow unknown type selectors (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n  Url(s) with issues:\n  - https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css\n  - https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css\n\n- CSS, Disallow unknown values for properties within declarations (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n  Url(s) with issues:\n  - https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css\n  - https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325\n\n- CSS, Disallow unknown functions (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n  Url(s) with issues:\n  - https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css\n  - https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css\n\n- CSS, Disallow unknown values for descriptors within at-rules (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n  Url(s) with issues:\n  - https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css\n\n- CSS, Disallow deprecated properties (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-deprecated\n\n  Url(s) with issues:\n  - https://fonts.googleapis.com/css?family=Material\u002BSymbols\u002BOutlined:FILL@0..1\u0026display=block\n  - https://support.optimizely.com/hc/theming_assets/01KE7PF6N7X37AB60F6J5G7AM7\n  - https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css\n  - https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css\n  - https://fonts.googleapis.com/css2?family=Luminous\u002BSymbols:opsz,wght@20..48,100..700\u0026display=swap\n  - https://fonts.googleapis.com/css2?family=Google\u002BSymbols:wght,FILL,ROND@300..400,0..1,0..100\u0026display=block\n  - https://fonts.googleapis.com/css2?family=Material\u002BSymbols\u002BOutlined:opsz,wght,FILL,GRAD@24,400,0,0\n  - https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325\n\n- CSS, Disallow deprecated keywords for properties within declarations (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n  Url(s) with issues:\n  - https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css\n  - https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325\n\n- CSS, Disallow unknown custom properties (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n  Url(s) with issues:\n  - https://support.optimizely.com/hc/theming_assets/01KE7PF6N7X37AB60F6J5G7AM7\n  - https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css\n  - https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css\n\n- CSS, Disallow empty blocks (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n  Url(s) with issues:\n  - https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css\n\n- CSS, Disallow unknown annotations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Disallow unknown descriptors for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n- CSS, Disallow deprecated at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Disallow unknown at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Disallow invalid preludes for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n- CSS, Disallow invalid hex colors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Disallow empty comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Disallow non-standard direction values for linear gradient functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n- CSS, Disallow unknown media feature names (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Disallow unknown values for media features (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Disallow invalid media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Disallow deprecated media types (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-type-no-deprecated\n\n- CSS, Disallow invalid named grid areas (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Disallow empty sources (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Disallow invalid double-slash comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Disallow invalid position \u0060@import\u0060 rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n- CSS, Disallow invalid position declarations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-declaration\n\n- CSS, Disallow unknown animations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Disallow unknown custom media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Disallow unknown properties (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n- selector-no-deprecated (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-no-deprecated\n\n- selector-no-invalid (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-no-invalid\n\n- CSS, Disallow unknown pseudo-class selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n- CSS, Disallow unknown pseudo-element selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n- CSS, Disallow invalid syntax strings (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Disallow unknown units (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2026.7.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "support.optimizely.com": {
+            "version": "2026.7.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 56,
+              "standard": 56
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 8907
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 8966
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 9014
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 9153
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 9199
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 24370
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 24383
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 24753
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 24794
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 24872
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 24910
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25000
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25029
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25166
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25209
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25612
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25641
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25678
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25702
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25807
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25860
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25963
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 25998
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 26133
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 26169
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27090
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27132
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27250
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27299
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27407
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27445
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27718
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27762
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 27830
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 30393
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 30471
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 30863
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 31338
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 31429
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 31490
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 31739
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 31998
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 32247
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 33892
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34083
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-header (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34116
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-announcement (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34217
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34294
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34460
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34528
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34623
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34684
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-breadcrumbs (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34707
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34760
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 34958
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35030
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35129
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35194
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-title-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35221
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35302
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-breadcrumbs-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35329
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35469
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-breadcrumbs-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35496
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-community-image-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35535
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35669
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector zd-autocomplete-community-breadcrumbs-multibrand (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 35696
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown type selector sentinel (selector-type-no-unknown)",
+                    "line": 1,
+                    "column": 75455
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 39554
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 42011
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 44055
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 46212
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 49148
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 51234
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 54258
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value filter for property alpha(opacity=0) (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 68557
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value filter for property alpha(opacity=0) (declaration-property-value-no-unknown)",
+                    "line": 4,
+                    "column": 701
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value padding-left for property auto (declaration-property-value-no-unknown)",
+                    "line": 2173,
+                    "column": 17
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value word-wrap for property break-spaces (declaration-property-value-no-unknown)",
+                    "line": 5230,
+                    "column": 14
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown function alpha (function-no-unknown)",
+                    "line": 1,
+                    "column": 68557
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown function alpha (function-no-unknown)",
+                    "line": 4,
+                    "column": 701
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown function tech (function-no-unknown)",
+                    "line": 1,
+                    "column": 172
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown function tech (function-no-unknown)",
+                    "line": 1,
+                    "column": 458
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value src for descriptor url(/static/font/PlusJakartaSans[wght].eb5c52ed.woff2) format(\u0022woff2\u0022)tech(\u0022variations\u0022),url(/static/font/PlusJakartaSans[wght].eb5c52ed.woff2) format(\u0022woff2-variations\u0022) (at-rule-descriptor-value-no-unknown)",
+                    "line": 1,
+                    "column": 102
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value src for descriptor url(/static/font/PlusJakartaSans-Italic[wght].ad1a55cc.woff2) format(\u0022woff2\u0022)tech(\u0022variations\u0022),url(/static/font/PlusJakartaSans-Italic[wght].ad1a55cc.woff2) format(\u0022woff2-variations\u0022) (at-rule-descriptor-value-no-unknown)",
+                    "line": 1,
+                    "column": 381
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "property-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 25340
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 30048
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 30088
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 38701
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 38839
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-after (property-no-deprecated)",
+                    "line": 1,
+                    "column": 39626
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-before (property-no-deprecated)",
+                    "line": 1,
+                    "column": 39648
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                    "line": 1,
+                    "column": 39671
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 41158
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 41296
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-after (property-no-deprecated)",
+                    "line": 1,
+                    "column": 42083
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-before (property-no-deprecated)",
+                    "line": 1,
+                    "column": 42105
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                    "line": 1,
+                    "column": 42128
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 43202
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 43340
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-after (property-no-deprecated)",
+                    "line": 1,
+                    "column": 44127
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-before (property-no-deprecated)",
+                    "line": 1,
+                    "column": 44149
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                    "line": 1,
+                    "column": 44172
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 45359
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 45497
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-after (property-no-deprecated)",
+                    "line": 1,
+                    "column": 46284
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-before (property-no-deprecated)",
+                    "line": 1,
+                    "column": 46306
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                    "line": 1,
+                    "column": 46329
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 48295
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 48433
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-after (property-no-deprecated)",
+                    "line": 1,
+                    "column": 49220
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-before (property-no-deprecated)",
+                    "line": 1,
+                    "column": 49242
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                    "line": 1,
+                    "column": 49265
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 50381
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 50519
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-after (property-no-deprecated)",
+                    "line": 1,
+                    "column": 51306
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-before (property-no-deprecated)",
+                    "line": 1,
+                    "column": 51328
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                    "line": 1,
+                    "column": 51351
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 53405
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 53543
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-after (property-no-deprecated)",
+                    "line": 1,
+                    "column": 54330
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-before (property-no-deprecated)",
+                    "line": 1,
+                    "column": 54352
+                  },
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                    "line": 1,
+                    "column": 54375
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 2981,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 3674,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 5226,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 5230,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 14575,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 14584,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 15297,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/01KE7PF6N7X37AB60F6J5G7AM7",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 29668
+                  },
+                  {
+                    "url": "https://fonts.googleapis.com/css2?family=Material\u002BSymbols\u002BOutlined:opsz,wght,FILL,GRAD@24,400,0,0",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 19,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://fonts.googleapis.com/css?family=Material\u002BSymbols\u002BOutlined:FILL@0..1\u0026display=block",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 20,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://fonts.googleapis.com/css2?family=Google\u002BSymbols:wght,FILL,ROND@300..400,0..1,0..100\u0026display=block",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 23,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://fonts.googleapis.com/css2?family=Luminous\u002BSymbols:opsz,wght@20..48,100..700\u0026display=swap",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 23,
+                    "column": 3
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 46410
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 46904
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 47783
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-flex (property-no-deprecated)",
+                    "line": 1,
+                    "column": 47864
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                    "line": 1,
+                    "column": 48004
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 58773
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-flex (property-no-deprecated)",
+                    "line": 1,
+                    "column": 58901
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 69110
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                    "line": 1,
+                    "column": 69191
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 69269
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 69381
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-flex (property-no-deprecated)",
+                    "line": 1,
+                    "column": 69470
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 69615
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 70893
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                    "line": 1,
+                    "column": 70974
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 71052
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-orient (property-no-deprecated)",
+                    "line": 1,
+                    "column": 71522
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                    "line": 1,
+                    "column": 71552
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                    "line": 1,
+                    "column": 71627
+                  },
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                    "line": 1,
+                    "column": 71698
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                    "line": 1,
+                    "column": 5652
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword button for property auto (declaration-property-value-keyword-no-deprecated)",
+                    "line": 621,
+                    "column": 15
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated keyword listbox for property auto (declaration-property-value-keyword-no-deprecated)",
+                    "line": 654,
+                    "column": 15
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wysiwyg-list-marker-color (no-unknown-custom-properties)",
+                    "line": 1,
+                    "column": 8783
+                  },
+                  {
+                    "url": "https://support.optimizely.com/hc/theming_assets/01KE7PF6N7X37AB60F6J5G7AM7",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --preview-arrow-offset (no-unknown-custom-properties)",
+                    "line": 1,
+                    "column": 28133
+                  },
+                  {
+                    "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --font-fallback (no-unknown-custom-properties)",
+                    "line": 1,
+                    "column": 614
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 1,
+                    "column": 75463
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-type-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-declaration",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://support.optimizely.com/hc/en-us": {
+                "version": "2026.7.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://support.optimizely.com/hc/en-us",
+                "score": {
+                  "overall": 56,
+                  "standard": 56
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 8907
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 8966
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 9014
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 9153
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-summary-block (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 9199
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 24370
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 24383
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 24753
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 24794
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 24872
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 24910
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25000
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25029
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25166
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25209
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25612
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25641
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25678
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25702
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25807
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25860
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25963
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 25998
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 26133
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 26169
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27090
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27132
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27250
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27299
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27407
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27445
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-accordion (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27718
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-tabs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27762
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 27830
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 30393
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 30471
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 30863
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 31338
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 31429
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 31490
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 31739
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 31998
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-callout (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 32247
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 33892
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34083
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-header (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34116
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-announcement (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34217
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34294
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34460
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34528
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34623
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-option (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34684
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-breadcrumbs (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34707
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34760
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 34958
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35030
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35129
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35194
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-title-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35221
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35302
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-breadcrumbs-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35329
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35469
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-breadcrumbs-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35496
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-community-image-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35535
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35669
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector zd-autocomplete-community-breadcrumbs-multibrand (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 35696
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "selector-type-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown type selector sentinel (selector-type-no-unknown)",
+                        "line": 1,
+                        "column": 75455
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 39554
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 42011
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 44055
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 46212
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 49148
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 51234
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value outline for property invert (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 54258
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value filter for property alpha(opacity=0) (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 68557
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value filter for property alpha(opacity=0) (declaration-property-value-no-unknown)",
+                        "line": 4,
+                        "column": 701
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value padding-left for property auto (declaration-property-value-no-unknown)",
+                        "line": 2173,
+                        "column": 17
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value word-wrap for property break-spaces (declaration-property-value-no-unknown)",
+                        "line": 5230,
+                        "column": 14
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown function alpha (function-no-unknown)",
+                        "line": 1,
+                        "column": 68557
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown function alpha (function-no-unknown)",
+                        "line": 4,
+                        "column": 701
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown function tech (function-no-unknown)",
+                        "line": 1,
+                        "column": 172
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown function tech (function-no-unknown)",
+                        "line": 1,
+                        "column": 458
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                        "rule": "at-rule-descriptor-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value src for descriptor url(/static/font/PlusJakartaSans[wght].eb5c52ed.woff2) format(\u0022woff2\u0022)tech(\u0022variations\u0022),url(/static/font/PlusJakartaSans[wght].eb5c52ed.woff2) format(\u0022woff2-variations\u0022) (at-rule-descriptor-value-no-unknown)",
+                        "line": 1,
+                        "column": 102
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                        "rule": "at-rule-descriptor-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value src for descriptor url(/static/font/PlusJakartaSans-Italic[wght].ad1a55cc.woff2) format(\u0022woff2\u0022)tech(\u0022variations\u0022),url(/static/font/PlusJakartaSans-Italic[wght].ad1a55cc.woff2) format(\u0022woff2-variations\u0022) (at-rule-descriptor-value-no-unknown)",
+                        "line": 1,
+                        "column": 381
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 25340
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 30048
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 30088
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 38701
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 38839
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-after (property-no-deprecated)",
+                        "line": 1,
+                        "column": 39626
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-before (property-no-deprecated)",
+                        "line": 1,
+                        "column": 39648
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                        "line": 1,
+                        "column": 39671
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 41158
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 41296
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-after (property-no-deprecated)",
+                        "line": 1,
+                        "column": 42083
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-before (property-no-deprecated)",
+                        "line": 1,
+                        "column": 42105
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                        "line": 1,
+                        "column": 42128
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 43202
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 43340
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-after (property-no-deprecated)",
+                        "line": 1,
+                        "column": 44127
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-before (property-no-deprecated)",
+                        "line": 1,
+                        "column": 44149
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                        "line": 1,
+                        "column": 44172
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 45359
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 45497
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-after (property-no-deprecated)",
+                        "line": 1,
+                        "column": 46284
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-before (property-no-deprecated)",
+                        "line": 1,
+                        "column": 46306
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                        "line": 1,
+                        "column": 46329
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 48295
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 48433
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-after (property-no-deprecated)",
+                        "line": 1,
+                        "column": 49220
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-before (property-no-deprecated)",
+                        "line": 1,
+                        "column": 49242
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                        "line": 1,
+                        "column": 49265
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 50381
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 50519
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-after (property-no-deprecated)",
+                        "line": 1,
+                        "column": 51306
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-before (property-no-deprecated)",
+                        "line": 1,
+                        "column": 51328
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                        "line": 1,
+                        "column": 51351
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 53405
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-column-gap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 53543
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-after (property-no-deprecated)",
+                        "line": 1,
+                        "column": 54330
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-before (property-no-deprecated)",
+                        "line": 1,
+                        "column": 54352
+                      },
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property page-break-inside (property-no-deprecated)",
+                        "line": 1,
+                        "column": 54375
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 2981,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 3674,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 5226,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 5230,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 14575,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 14584,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 15297,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/01KE7PF6N7X37AB60F6J5G7AM7",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 29668
+                      },
+                      {
+                        "url": "https://fonts.googleapis.com/css2?family=Material\u002BSymbols\u002BOutlined:opsz,wght,FILL,GRAD@24,400,0,0",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 19,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://fonts.googleapis.com/css?family=Material\u002BSymbols\u002BOutlined:FILL@0..1\u0026display=block",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 20,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://fonts.googleapis.com/css2?family=Google\u002BSymbols:wght,FILL,ROND@300..400,0..1,0..100\u0026display=block",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 23,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://fonts.googleapis.com/css2?family=Luminous\u002BSymbols:opsz,wght@20..48,100..700\u0026display=swap",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 23,
+                        "column": 3
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 46410
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 46904
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 47783
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-flex (property-no-deprecated)",
+                        "line": 1,
+                        "column": 47864
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                        "line": 1,
+                        "column": 48004
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 58773
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-flex (property-no-deprecated)",
+                        "line": 1,
+                        "column": 58901
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 69110
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                        "line": 1,
+                        "column": 69191
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 69269
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 69381
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-flex (property-no-deprecated)",
+                        "line": 1,
+                        "column": 69470
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 69615
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 70893
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                        "line": 1,
+                        "column": 70974
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 71052
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-orient (property-no-deprecated)",
+                        "line": 1,
+                        "column": 71522
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-direction (property-no-deprecated)",
+                        "line": 1,
+                        "column": 71552
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-align (property-no-deprecated)",
+                        "line": 1,
+                        "column": 71627
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property -webkit-box-pack (property-no-deprecated)",
+                        "line": 1,
+                        "column": 71698
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword word-break for property break-word (declaration-property-value-keyword-no-deprecated)",
+                        "line": 1,
+                        "column": 5652
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword button for property auto (declaration-property-value-keyword-no-deprecated)",
+                        "line": 621,
+                        "column": 15
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/504947/499034/style.css?digest=48766577165325",
+                        "rule": "declaration-property-value-keyword-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated keyword listbox for property auto (declaration-property-value-keyword-no-deprecated)",
+                        "line": 654,
+                        "column": 15
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://static.zdassets.com/hc/assets/application-12c9306025bef7a9722589b3210823ae.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wysiwyg-list-marker-color (no-unknown-custom-properties)",
+                        "line": 1,
+                        "column": 8783
+                      },
+                      {
+                        "url": "https://support.optimizely.com/hc/theming_assets/01KE7PF6N7X37AB60F6J5G7AM7",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --preview-arrow-offset (no-unknown-custom-properties)",
+                        "line": 1,
+                        "column": 28133
+                      },
+                      {
+                        "url": "https://solve-widget.forethought.ai/static/css/async/30.e42888bb.css",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --font-fallback (no-unknown-custom-properties)",
+                        "line": 1,
+                        "column": 614
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 1,
+                        "column": 75463
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-type-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-declaration",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

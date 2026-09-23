@@ -1,0 +1,1667 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 27,
+      "rating": 3.8,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": -1.0,
+      "rating_stand": 3.8,
+      "date": "2026-09-23T16:18:02.629044",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "",
+      "report_stand": "- CSS, Disallow unknown values for properties within declarations (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown\n\n  Url(s) with issues:\n  - https://hacksbyme.net/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b\n  - https://hacksbyme.net/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1\n  - https://hacksbyme.net/wp-content/plugins/jetpack/modules/tiled-gallery/tiled-gallery/tiled-gallery.css?ver=2023-08-21\n  - https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2\n\n- CSS, Disallow unknown functions (error)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-no-unknown\n\n  Url(s) with issues:\n  - https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2\n\n- CSS, Disallow unknown custom properties (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-properties\n\n  Url(s) with issues:\n  - https://hacksbyme.net/\n\n- CSS, Disallow deprecated properties (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-deprecated\n\n  Url(s) with issues:\n  - https://hacksbyme.net/wp-content/plugins/highlighting-code-block/build/css/hcb--light.css?ver=2.2.1\n  - https://hacksbyme.net/\n  - https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2\n  - https://hacksbyme.net/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.53.0\n  - https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2\n\n- selector-no-deprecated (unresolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-no-deprecated\n\n  Url(s) with issues:\n  - https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2\n\n- CSS, Disallow empty blocks (warning)\n  More info:\n  - https://stylelint.io/user-guide/rules/block-no-empty\n\n  Url(s) with issues:\n  - https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2\n\n- CSS, Disallow unknown annotations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/annotation-no-unknown\n\n- CSS, Disallow unknown descriptors for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown\n\n- CSS, Disallow unknown values for descriptors within at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown\n\n- CSS, Disallow deprecated at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-deprecated\n\n- CSS, Disallow unknown at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-no-unknown\n\n- CSS, Disallow invalid preludes for at-rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid\n\n- CSS, Disallow invalid hex colors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/color-no-invalid-hex\n\n- CSS, Disallow empty comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/comment-no-empty\n\n- CSS, Disallow deprecated keywords for properties within declarations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated\n\n- CSS, Disallow non-standard direction values for linear gradient functions (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction\n\n- CSS, Disallow unknown media feature names (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-no-unknown\n\n- CSS, Disallow unknown values for media features (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown\n\n- CSS, Disallow invalid media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-query-no-invalid\n\n- CSS, Disallow deprecated media types (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/media-type-no-deprecated\n\n- CSS, Disallow invalid named grid areas (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid\n\n- CSS, Disallow empty sources (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-empty-source\n\n- CSS, Disallow invalid double-slash comments (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments\n\n- CSS, Disallow invalid position \u0060@import\u0060 rules (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule\n\n- CSS, Disallow invalid position declarations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-invalid-position-declaration\n\n- CSS, Disallow unknown animations (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-animations\n\n- CSS, Disallow unknown custom media queries (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/no-unknown-custom-media\n\n- CSS, Disallow unknown properties (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/property-no-unknown\n\n- selector-no-invalid (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-no-invalid\n\n- CSS, Disallow unknown pseudo-class selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown\n\n- CSS, Disallow unknown pseudo-element selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown\n\n- CSS, Disallow unknown type selectors (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/selector-type-no-unknown\n\n- CSS, Disallow invalid syntax strings (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/syntax-string-no-invalid\n\n- CSS, Disallow unknown units (resolved)\n  More info:\n  - https://stylelint.io/user-guide/rules/unit-no-unknown\n\n",
+      "data": {
+        "version": "2026.7.0",
+        "dependencies": {
+          "@sitespeed.io/plugin": "1.0.2",
+          "@sitespeed.io/log": "2.0.0"
+        },
+        "groups": {
+          "hacksbyme.net": {
+            "version": "2026.7.0",
+            "dependencies": {
+              "@sitespeed.io/plugin": "1.0.2",
+              "@sitespeed.io/log": "2.0.0"
+            },
+            "score": {
+              "overall": 76,
+              "standard": 76
+            },
+            "issues": [
+              {
+                "test": "css",
+                "rule": "declaration-property-value-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value margin-right for property -7px - -2 (declaration-property-value-no-unknown)",
+                    "line": 1,
+                    "column": 10040
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value transition for property 0 (declaration-property-value-no-unknown)",
+                    "line": 47,
+                    "column": 33
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value speak for property none (declaration-property-value-no-unknown)",
+                    "line": 58,
+                    "column": 9
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/jetpack/modules/tiled-gallery/tiled-gallery/tiled-gallery.css?ver=2023-08-21",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value -ms-filter for property grayscale(1) (declaration-property-value-no-unknown)",
+                    "line": 84,
+                    "column": 14
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/jetpack/modules/tiled-gallery/tiled-gallery/tiled-gallery.css?ver=2023-08-21",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value -ms-filter for property none (declaration-property-value-no-unknown)",
+                    "line": 91,
+                    "column": 14
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown value background-color for property none (declaration-property-value-no-unknown)",
+                    "line": 103,
+                    "column": 21
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "function-no-unknown",
+                "category": "standard",
+                "severity": "error",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-no-unknown"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "text": "Unknown function -var (function-no-unknown)",
+                    "line": 1,
+                    "column": 32701
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-properties",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-container-height (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 5901
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-container-width (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 6052
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-image-height (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 6353
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-image-height (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 6397
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-image-width (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 6440
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-image-width (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 6478
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-scrollbar-width (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 8255
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-initial-left-position (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 8296
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-initial-top-position (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 8352
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-scale (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 8401
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-scrollbar-width (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 8624
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-initial-left-position (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 8665
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-initial-top-position (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 8721
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Unknown custom property --wp--lightbox-scale (no-unknown-custom-properties)",
+                    "line": 2,
+                    "column": 8770
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "property-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 1,
+                    "column": 35102
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 697,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 705,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 813,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1146,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1314,
+                    "column": 2
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.53.0",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property grid-gap (property-no-deprecated)",
+                    "line": 65,
+                    "column": 5
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.53.0",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 72,
+                    "column": 5
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.53.0",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 96,
+                    "column": 9
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/plugins/highlighting-code-block/build/css/hcb--light.css?ver=2.2.1",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 1,
+                    "column": 1198
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property word-wrap (property-no-deprecated)",
+                    "line": 2,
+                    "column": 2230
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 2,
+                    "column": 43
+                  },
+                  {
+                    "url": "https://hacksbyme.net/",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated property clip (property-no-deprecated)",
+                    "line": 39,
+                    "column": 5
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "selector-no-deprecated",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-no-deprecated"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector applet (selector-no-deprecated)",
+                    "line": 40,
+                    "column": 24
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector acronym (selector-no-deprecated)",
+                    "line": 42,
+                    "column": 10
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector big (selector-no-deprecated)",
+                    "line": 42,
+                    "column": 28
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector font (selector-no-deprecated)",
+                    "line": 43,
+                    "column": 15
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector strike (selector-no-deprecated)",
+                    "line": 44,
+                    "column": 8
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector tt (selector-no-deprecated)",
+                    "line": 44,
+                    "column": 34
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector tt (selector-no-deprecated)",
+                    "line": 221,
+                    "column": 12
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector acronym (selector-no-deprecated)",
+                    "line": 224,
+                    "column": 7
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Deprecated selector big (selector-no-deprecated)",
+                    "line": 249,
+                    "column": 1
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "block-no-empty",
+                "category": "standard",
+                "severity": "warning",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/block-no-empty"
+                ],
+                "subIssues": [
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 562,
+                    "column": 27
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 567,
+                    "column": 35
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 569,
+                    "column": 32
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 990,
+                    "column": 9
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 1148,
+                    "column": 15
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 1216,
+                    "column": 18
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 1226,
+                    "column": 45
+                  },
+                  {
+                    "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "text": "Empty block (block-no-empty)",
+                    "line": 1228,
+                    "column": 49
+                  }
+                ]
+              },
+              {
+                "test": "css",
+                "rule": "annotation-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-descriptor-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "at-rule-prelude-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "color-no-invalid-hex",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "comment-no-empty",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/comment-no-empty"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "declaration-property-value-keyword-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "function-linear-gradient-no-nonstandard-direction",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-feature-name-value-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-query-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "media-type-no-deprecated",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "named-grid-areas-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-empty-source",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-empty-source"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-double-slash-comments",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-at-import-rule",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-invalid-position-declaration",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-animations",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "no-unknown-custom-media",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "property-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/property-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-class-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-pseudo-element-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "selector-type-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "syntax-string-no-invalid",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                ],
+                "subIssues": []
+              },
+              {
+                "test": "css",
+                "rule": "unit-no-unknown",
+                "category": "standard",
+                "severity": "resolved",
+                "resources": [
+                  "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                ],
+                "subIssues": []
+              }
+            ],
+            "pages": {
+              "https://hacksbyme.net/": {
+                "version": "2026.7.0",
+                "dependencies": {
+                  "@sitespeed.io/plugin": "1.0.2",
+                  "@sitespeed.io/log": "2.0.0"
+                },
+                "url": "https://hacksbyme.net/",
+                "score": {
+                  "overall": 76,
+                  "standard": 76
+                },
+                "issues": [
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value margin-right for property -7px - -2 (declaration-property-value-no-unknown)",
+                        "line": 1,
+                        "column": 10040
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value transition for property 0 (declaration-property-value-no-unknown)",
+                        "line": 47,
+                        "column": 33
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value speak for property none (declaration-property-value-no-unknown)",
+                        "line": 58,
+                        "column": 9
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/jetpack/modules/tiled-gallery/tiled-gallery/tiled-gallery.css?ver=2023-08-21",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value -ms-filter for property grayscale(1) (declaration-property-value-no-unknown)",
+                        "line": 84,
+                        "column": 14
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/jetpack/modules/tiled-gallery/tiled-gallery/tiled-gallery.css?ver=2023-08-21",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value -ms-filter for property none (declaration-property-value-no-unknown)",
+                        "line": 91,
+                        "column": 14
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b",
+                        "rule": "declaration-property-value-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown value background-color for property none (declaration-property-value-no-unknown)",
+                        "line": 103,
+                        "column": 21
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-no-unknown",
+                    "category": "standard",
+                    "severity": "error",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-no-unknown"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2",
+                        "rule": "function-no-unknown",
+                        "category": "standard",
+                        "severity": "error",
+                        "text": "Unknown function -var (function-no-unknown)",
+                        "line": 1,
+                        "column": 32701
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-properties",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-properties"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-container-height (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 5901
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-container-width (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 6052
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-image-height (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 6353
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-image-height (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 6397
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-image-width (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 6440
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-image-width (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 6478
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-scrollbar-width (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 8255
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-initial-left-position (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 8296
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-initial-top-position (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 8352
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-scale (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 8401
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-scrollbar-width (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 8624
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-initial-left-position (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 8665
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-initial-top-position (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 8721
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "no-unknown-custom-properties",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Unknown custom property --wp--lightbox-scale (no-unknown-custom-properties)",
+                        "line": 2,
+                        "column": 8770
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.2",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 1,
+                        "column": 35102
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 697,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 705,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 813,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1146,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1314,
+                        "column": 2
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.53.0",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property grid-gap (property-no-deprecated)",
+                        "line": 65,
+                        "column": 5
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.53.0",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 72,
+                        "column": 5
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.53.0",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 96,
+                        "column": 9
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/plugins/highlighting-code-block/build/css/hcb--light.css?ver=2.2.1",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 1,
+                        "column": 1198
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property word-wrap (property-no-deprecated)",
+                        "line": 2,
+                        "column": 2230
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 2,
+                        "column": 43
+                      },
+                      {
+                        "url": "https://hacksbyme.net/",
+                        "rule": "property-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated property clip (property-no-deprecated)",
+                        "line": 39,
+                        "column": 5
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-no-deprecated",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-no-deprecated"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector applet (selector-no-deprecated)",
+                        "line": 40,
+                        "column": 24
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector acronym (selector-no-deprecated)",
+                        "line": 42,
+                        "column": 10
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector big (selector-no-deprecated)",
+                        "line": 42,
+                        "column": 28
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector font (selector-no-deprecated)",
+                        "line": 43,
+                        "column": 15
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector strike (selector-no-deprecated)",
+                        "line": 44,
+                        "column": 8
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector tt (selector-no-deprecated)",
+                        "line": 44,
+                        "column": 34
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector tt (selector-no-deprecated)",
+                        "line": 221,
+                        "column": 12
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector acronym (selector-no-deprecated)",
+                        "line": 224,
+                        "column": 7
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "selector-no-deprecated",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Deprecated selector big (selector-no-deprecated)",
+                        "line": 249,
+                        "column": 1
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "block-no-empty",
+                    "category": "standard",
+                    "severity": "warning",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/block-no-empty"
+                    ],
+                    "subIssues": [
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 562,
+                        "column": 27
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 567,
+                        "column": 35
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 569,
+                        "column": 32
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 990,
+                        "column": 9
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 1148,
+                        "column": 15
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 1216,
+                        "column": 18
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 1226,
+                        "column": 45
+                      },
+                      {
+                        "url": "https://hacksbyme.net/wp-content/themes/hemingway-rewritten-wpcom/style.css?ver=7.1.2",
+                        "rule": "block-no-empty",
+                        "category": "standard",
+                        "severity": "warning",
+                        "text": "Empty block (block-no-empty)",
+                        "line": 1228,
+                        "column": 49
+                      }
+                    ]
+                  },
+                  {
+                    "test": "css",
+                    "rule": "annotation-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-descriptor-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-descriptor-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "at-rule-prelude-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/at-rule-prelude-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "color-no-invalid-hex",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "comment-no-empty",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/comment-no-empty"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "declaration-property-value-keyword-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/declaration-property-value-keyword-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "function-linear-gradient-no-nonstandard-direction",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-feature-name-value-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-feature-name-value-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-query-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-query-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "media-type-no-deprecated",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/media-type-no-deprecated"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "named-grid-areas-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-empty-source",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-empty-source"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-double-slash-comments",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-at-import-rule",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-invalid-position-declaration",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-invalid-position-declaration"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-animations",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-animations"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "no-unknown-custom-media",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/no-unknown-custom-media"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "property-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/property-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-class-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-pseudo-element-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "selector-type-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "syntax-string-no-invalid",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/syntax-string-no-invalid"
+                    ],
+                    "subIssues": []
+                  },
+                  {
+                    "test": "css",
+                    "rule": "unit-no-unknown",
+                    "category": "standard",
+                    "severity": "resolved",
+                    "resources": [
+                      "https://stylelint.io/user-guide/rules/unit-no-unknown"
+                    ],
+                    "subIssues": []
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

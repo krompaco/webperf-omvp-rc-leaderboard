@@ -1,0 +1,337 @@
+﻿{
+  "tests": [
+    {
+      "site_id": 0,
+      "type_of_test": 18,
+      "rating": 3.0,
+      "rating_sec": -1.0,
+      "rating_perf": -1.0,
+      "rating_a11y": 3.0,
+      "rating_stand": -1.0,
+      "date": "2026-09-23T15:44:41.750388",
+      "report": "",
+      "report_sec": "",
+      "report_perf": "",
+      "report_a11y": "- This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)\n  Url(s) with issues:\n  - https://johnnymullaney.com/\n\n- This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label , aria-labelledby . (error)\n  Url(s) with issues:\n  - https://johnnymullaney.com/\n\n- Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group. (error)\n  Url(s) with issues:\n  - https://johnnymullaney.com/\n\n- Anchor element found with a valid href attribute, but no link content has been supplied. (error)\n  Url(s) with issues:\n  - https://johnnymullaney.com/\n\n",
+      "report_stand": "",
+      "data": {
+        "groups": {
+          "johnnymullaney.com": {
+            "issues": [
+              {
+                "test": "pa11y",
+                "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022line number1 index0 alt2\u0022\u003E1\u003C/div\u003E",
+                      "selector": "#highlighter_630973 \u003E table \u003E tbody \u003E tr \u003E td:nth-child(1) \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022line number1 index0 alt2\u0022\u003E1\u003C/div\u003E",
+                      "selector": "#highlighter_511901 \u003E table \u003E tbody \u003E tr \u003E td:nth-child(1) \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022line number1 index0 alt2\u0022\u003E1\u003C/div\u003E",
+                      "selector": "#highlighter_721597 \u003E table \u003E tbody \u003E tr \u003E td:nth-child(1) \u003E div",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022line number1 index0 alt2\u0022\u003E1\u003C/div\u003E",
+                      "selector": "#highlighter_140381 \u003E table \u003E tbody \u003E tr \u003E td:nth-child(1) \u003E div:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022line number2 index1 alt1\u0022\u003E2\u003C/div\u003E",
+                      "selector": "#highlighter_140381 \u003E table \u003E tbody \u003E tr \u003E td:nth-child(1) \u003E div:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022line number3 index2 alt2\u0022\u003E3\u003C/div\u003E",
+                      "selector": "#highlighter_140381 \u003E table \u003E tbody \u003E tr \u003E td:nth-child(1) \u003E div:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022line number4 index3 alt1\u0022\u003E4\u003C/div\u003E",
+                      "selector": "#highlighter_140381 \u003E table \u003E tbody \u003E tr \u003E td:nth-child(1) \u003E div:nth-child(4)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.19:1. Recommendation:  change text colour to #767676.",
+                      "context": "\u003Cdiv class=\u0022line number5 index4 alt2\u0022\u003E5\u003C/div\u003E",
+                      "selector": "#highlighter_140381 \u003E table \u003E tbody \u003E tr \u003E td:nth-child(1) \u003E div:nth-child(5)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label , aria-labelledby . (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label , aria-labelledby .",
+                      "context": "\u003Cfieldset\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022jp...\u003C/fieldset\u003E",
+                      "selector": "#jp-carousel-comment-form-commenting-as \u003E fieldset:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label , aria-labelledby .",
+                      "context": "\u003Cfieldset\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022jp...\u003C/fieldset\u003E",
+                      "selector": "#jp-carousel-comment-form-commenting-as \u003E fieldset:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label , aria-labelledby . (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label , aria-labelledby .",
+                      "context": "\u003Cfieldset\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022jp...\u003C/fieldset\u003E",
+                      "selector": "#jp-carousel-comment-form-commenting-as \u003E fieldset:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group. (error)",
+                "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group.",
+                      "context": "\u003Cfieldset\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022jp...\u003C/fieldset\u003E",
+                      "selector": "#jp-carousel-comment-form-commenting-as \u003E fieldset:nth-child(1)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group.",
+                      "context": "\u003Cfieldset\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022jp...\u003C/fieldset\u003E",
+                      "selector": "#jp-carousel-comment-form-commenting-as \u003E fieldset:nth-child(2)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  },
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group. (error)",
+                    "rule": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group.",
+                      "context": "\u003Cfieldset\u003E\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u003Clabel for=\u0022jp...\u003C/fieldset\u003E",
+                      "selector": "#jp-carousel-comment-form-commenting-as \u003E fieldset:nth-child(3)",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "test": "pa11y",
+                "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                "category": "a11y",
+                "severity": "error",
+                "subIssues": [
+                  {
+                    "test": "pa11y",
+                    "url": "https://johnnymullaney.com/",
+                    "text": "Anchor element found with a valid href attribute, but no link content has been supplied. (error)",
+                    "rule": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                    "category": "a11y",
+                    "severity": "error",
+                    "extra": {
+                      "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+                      "type": "error",
+                      "typeCode": 1,
+                      "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+                      "context": "\u003Ca href=\u0022https://johnnymullaney.com/\u0022 class=\u0022site-logo-link\u0022 rel=\u0022home\u0022 itemprop=\u0022url\u0022\u003E\u003C/a\u003E",
+                      "selector": "#masthead \u003E div \u003E div:nth-child(1) \u003E a",
+                      "runner": "htmlcs",
+                      "runnerExtras": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "score": {
+              "overall": 60.0,
+              "a11y": 60
+            }
+          }
+        }
+      }
+    }
+  ]
+}
